@@ -4,6 +4,7 @@ import datetime as dt
 import email.utils
 import json
 import pathlib
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from html import unescape
@@ -31,9 +32,16 @@ def parse_date(raw):
         except ValueError:
             return None
 def fetch(name, url, now):
-    request = urllib.request.Request(url, headers={"User-Agent": "NekojiroNewsBot/1.0 (+https://jig0u.fc2.net/)", "Accept": "application/rss+xml, application/xml, text/xml"})
-    with urllib.request.urlopen(request, timeout=22) as response:
-        payload = response.read(2_000_000)
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; NekojiroNewsBot/1.1; +https://jig0u.fc2.net/)", "Accept": "application/rss+xml, application/xml, text/xml"})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=15) as response:
+                payload = response.read(2_000_000)
+            break
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(2 * (attempt + 1))
     root = ET.fromstring(payload)
     nodes = root.findall(".//item") if root.tag != "{http://www.w3.org/2005/Atom}feed" else root.findall("atom:entry", NS)
     articles = []
