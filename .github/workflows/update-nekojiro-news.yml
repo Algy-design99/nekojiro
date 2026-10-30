@@ -1,8 +1,13 @@
 name: Update Nekojiro news
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_news.py'
+      - '.github/workflows/update-nekojiro-news.yml'
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: '9,24,39,54 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -11,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,12 +26,21 @@ jobs:
           python-version: '3.12'
       - name: Fetch and validate fresh RSS
         run: python scripts/update_news.py
-      - name: Commit generated JSON only when changed
+      - name: Commit generated JSON with push retry
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add news/latest.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update fresh news feed"
-            git push
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
           fi
+          git commit -m "Update fresh news feed"
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push conflict; retry $i"
+            git fetch origin main
+            git rebase origin/main || exit 1
+            sleep $((i * 3))
+          done
+          exit 1
