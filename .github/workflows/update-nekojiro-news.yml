@@ -7,7 +7,7 @@ on:
       - 'scripts/update_news.py'
       - '.github/workflows/update-nekojiro-news.yml'
   schedule:
-    - cron: '9,24,39,54 * * * *'
+    - cron: '4,14,24,34,44,54 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -25,7 +25,10 @@ jobs:
         with:
           python-version: '3.12'
       - name: Fetch and validate fresh RSS
-        run: python scripts/update_news.py
+        run: |
+          date -u '+Workflow UTC start: %Y-%m-%dT%H:%M:%SZ'
+          python scripts/update_news.py
+          python -m json.tool news/latest.json > /dev/null
       - name: Commit generated JSON with push retry
         run: |
           git config user.name "github-actions[bot]"
