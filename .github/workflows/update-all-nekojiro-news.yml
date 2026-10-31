@@ -1,0 +1,58 @@
+name: Update all Nekojiro news feeds
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_news.py'
+      - 'scripts/update_signal.py'
+      - 'scripts/update_economy.py'
+      - '.github/workflows/update-all-nekojiro-news.yml'
+  schedule:
+    - cron: '*/5 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: nekojiro-all-news
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch three independent feeds
+        shell: bash
+        run: |
+          set +e
+          python scripts/update_news.py; a=$?
+          python scripts/update_signal.py; b=$?
+          python scripts/update_economy.py; c=$?
+          echo "news=$a signal=$b economy=$c"
+          if [ "$a" -ne 0 ] && [ "$b" -ne 0 ] && [ "$c" -ne 0 ]; then
+            echo "All feed collectors failed"
+            exit 1
+          fi
+          for f in news/latest.json news/signal.json news/economy.json; do
+            if [ -f "$f" ]; then python -m json.tool "$f" > /dev/null || exit 1; fi
+          done
+      - name: Commit all changed JSON feeds
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add news/latest.json news/signal.json news/economy.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m 'Refresh Nekojiro bulletin Signal and economy news'
+          for i in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            git fetch origin main
+            git rebase origin/main || exit 1
+            sleep $((i*3))
+          done
+          exit 1
