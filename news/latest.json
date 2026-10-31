@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T15:41:52.779356Z",
+  "updated_at": "2026-10-31T17:41:57.453929Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
@@ -26,6 +26,12 @@
       "url": "https://news.yahoo.co.jp/pickup/6600875?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-10-31T14:04:30Z"
+    },
+    {
+      "title": "高市氏、国会での答弁数が最少 5首相平均、SNSは突出し最多（共同通信） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43a1RwOWFleVMwRWtORTNFOGpWZGJIS25FNEE4M01reEhvSUotMzc1MXotQ0xuSHVMRXFNNTlTOVEwcWZQYU84dGh3b2JCajRkM3NObHVIY3J4NGx0eEYtakZlbHI1c2VYeU5ZQjlIcXlWRlozZnVlemhoSnRVT2c?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-10-31T14:02:27Z"
     },
     {
       "title": "路上プロレス一転中止 天心が説明",
@@ -64,12 +70,6 @@
       "published_at": "2026-10-31T13:00:26Z"
     },
     {
-      "title": "山下美夢有が岡本綾子以来の連覇へ2打差首位で最終日 吉田優利9位 渋野日向子47位 - GDOゴルフニュース",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3cFdXNzBwOEd5OTEwaS1PRkk0akxkZDY4eTZTQ1hSQWV4Q3dZd2xZQjhsR1JJS0phWHE0Ni1CSVVXVUF0NndLeGJveFhaTV9GeTBqN3NwYlJGOTg3OVpIX2s0YUc3dEZpTzY1WVAzaDVnUlHSAYcBQVVfeXFMT0I5ZUJKbzBSOXlHc3pGY0RtUWNMQUF1NUxSMURsQmQyUEM2V3FxWW9JeDNhSTNNZlVFSjBiTS1OanRkWlgxZlhMREcxR2NZNXN2a2Q4OGJHTDRrLXdITlRZYmt6dUt2NGd0VU5VbEVNVDNBT2QwTm1nNXMtcGFCZlc4UHk4VUxZ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-10-31T12:48:05Z"
-    },
-    {
       "title": "ウが製油所攻撃再開 ロシア副首相",
       "url": "https://news.yahoo.co.jp/pickup/6600866?source=rss",
       "source": "Yahoo!ニュース",
@@ -94,12 +94,6 @@
       "published_at": "2026-10-31T12:20:14Z"
     },
     {
-      "title": "西武ドラ2・柿本晟弥が7回無失点好投 パナソニックが休部前最後の大舞台で好発進 日本生命に快勝【社会人野球・日本選手権】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxZEF1X2RjbW4xYjBhZWVUT24tMFMtNnBEZ01pSGtmeDVvY01telZqaGFCWUd2dThGUkhVS09RUzRoZTk5eDFyeUtuTjg2UUY2REowbXdmbWlXRlhEQ1BNQlB4Y3BBWHRpekMzUHlJUVY3dllxdjlZdzI5TTR6UFk?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-10-31T12:08:33Z"
-    },
-    {
       "title": "新山千春 母の病判明時はショック",
       "url": "https://news.yahoo.co.jp/pickup/6600863?source=rss",
       "source": "Yahoo!ニュース",
@@ -112,10 +106,16 @@
       "published_at": "2026-10-31T11:55:00Z"
     },
     {
-      "title": "ウクライナ南部の人道状況悪化、住民避難を開始…ロシアとウクライナの文民チームが現地に支援物資 - 読売新聞",
+      "title": "ロシア軍占領地から住民退避、ウクライナ入り…ロシアとウクライナの文民チームが現地に支援物資 - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0aHdOa0xPYlFjcUxtTm8tRGJBdXYyOE41dFRwT2pzNmhnQ3l0R2g3ck14cmtIb0pUOG9YVnR3T1d4cnpYcWpsaTRETTQ0U25uekRSeDBzbmhZNGxWMkp4YUJ3?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-10-31T11:44:00Z"
+    },
+    {
+      "title": "中間選挙でトランプ大統領に“逆風” 高まる「反イスラエル感情」 揺らぐユダヤ系アメリカ人の影響力【報道特集】 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kc1lDLVpFWEZrdDZla1k2eFRvSC1MNjlLVlZvWTFBdG5nWkhIX0haY2RKS29SUjlxcUE1MXpweWVsZEZpNFRPS1hCdndjUnlfanlqbHlCWWxGZWhTUmxRcTYxQmtKSlp3S2ZVbW1Jb2F1MUoyQnRRRERWOHEzZTg?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-10-31T11:30:35Z"
     },
     {
       "title": "国産ブランド“セイコー”【完売を繰り返すコラボモデル新作】価格破壊の5万円台、王道かつ大人向けの“ヴィンテージホワイト”文字盤に注目 - Watch LIFE NEWS",
@@ -124,16 +124,16 @@
       "published_at": "2026-10-31T11:10:46Z"
     },
     {
-      "title": "火星衛星探査計画（MMX）に込められたもうひとつの目的――「最後の惑星探査」という危機感と、日本の月・惑星探査の未来 - note",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42Q2RhX1dQcEV3dXFTT1pDSU82bE5ndEpFZDJLdENiOVBzajhickJzQmlEZTljWDh5Zkxxck9VNGtrbEsyNkRiSVB1NTd4RUJ5eXpjcXpXQkFlMUFLX1E?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-10-31T11:04:57Z"
-    },
-    {
       "title": "秦野市、ツキノワグマ１頭を捕殺 出没相次いだ個体、登山道の利用を再開へ - カナロコ",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBINEZ4Y05WTG04MEd0NkJxZGxzWUt2Ym5ZZVI1SEd5OE9xODZPemNxSU5PZlM4QVFYWThxMWpNOEdjaU5NQzVKNzl4X3hRNmx5aWhKdGQ0dDN5MVRua3FpRkt6LVVIalE?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-10-31T10:50:00Z"
+    },
+    {
+      "title": "マレーシアで初のオーバーパーから 古江彩佳が6バーディで挽回 - GDOゴルフニュース",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EREZPRkJ5UXZFTUtPWnlqajU5VzRqUU9YT1lka0h1cE5oWXB6Ty1GYXBqd3FxZzhvSnlQODBtblVkSFc4RWpYU0tmTHg1U011S0ZSRHlJcDAxSlg2b2g5eWlITWtSckZl0gF8QVVfeXFMTXZFWU9EaGVWVURrOEhhaEF1aWZEaEdObFBmVXNaa0pDaEI2Yl94X1RNRWFuQk12eldIOWJQMzNzMkVmUHlPeHg2TnBDTncyREdYazBOUzB1eGc5RV95ZHN0bElXcUNCM0dBOTBBN2NEOUZzNnJQQWZXb0lwLQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-10-31T10:34:00Z"
     },
     {
       "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 1日も運転見合わせ",
@@ -154,22 +154,10 @@
       "published_at": "2026-10-31T10:00:00Z"
     },
     {
-      "title": "「M-1グランプリ2026」大阪準々決勝進出者34組決定 - ナタリー",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPeVkzcWtFbnZucFV2RmNHME41Sm56UDhTOVFCUjk0VE9oaGczVjE4a0tjWTlJeTFhNzlzeUZ1aW1xMUl4UWJPeDRfWTVVUQ?oc=5",
+      "title": "［社説］中国の「厳格統治」に潜む危うさ - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UVERVM2tidkR5bGlvazhoYmlLdGpPeFZSU1Z5QmtvYW9UYXFBcUc1RVFnbTl2RVRIaVcyME1VSS1BeXhoXzNGRzdzV0dPZm15X2Z6SHNOcUFXa21YUXpPS2JfSzVTRVJOSlcwbw?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-10-31T10:00:00Z"
-    },
-    {
-      "title": "【米中間選挙2026】11月3日にアメリカで中間選挙　勝敗はどこで決まるのか - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ydWxvRHBpVEtGb21Hb3hjUzhhQ19Eb3JkdU5fTzM3UmRqODh2WmN4ck50Q0t3YjQ5VlFBVjFkNDVzYTBrd2praUpORmhPY1pvcW5kdTREYVhfMC1KWWtkZdIBZkFVX3lxTFBNX3pnY1NsQjBCdW1BS21qSnJEbUdFQWFMVlVIT3FKSXpuTGdTOU1CX1RUa3JDSTg4SDVwb25YTWZFdWtLQUYzb1RZXzVxcml6SEJFX2hkR2ZLVnZSbV8xaUdFQnE0dw?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-10-31T09:09:14Z"
-    },
-    {
-      "title": "柏が4発完封で暫定3位浮上、浦和はGK西川がJ1最多出場記録タイも…公式戦連勝は5でストップ - ゲキサカ",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wV2diblMwMTdFUnczeDZIYVVvVXh0U1hmdW9uVzlRbmt3aWg4ZEVlQmh5eUJmUlB4RVpUb21heldEc1RYWHdPZkpmUXduODY0RHg0TzdNcUlRZEFkVUtHTWZtd20wSU9SazU2WEpn?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-10-31T08:59:00Z"
     },
     {
       "title": "殉職の夫、結婚記念日にディナーの予約「描いた未来もうかなわない」 - 朝日新聞",
@@ -182,6 +170,18 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261031de68862",
       "source": "NHK",
       "published_at": "2026-10-31T08:55:00Z"
+    },
+    {
+      "title": "スペイン高速列車事故 “後続列車に停止措置とらず 信号も青”",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261031de68821",
+      "source": "NHK",
+      "published_at": "2026-10-31T08:42:00Z"
+    },
+    {
+      "title": "台風31号 4日～5日頃に小笠原諸島へ接近・直撃か 大雨・暴風・高波など注意警戒(気象予報士 藤川 徹) - tenki.jp",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBndEtoVWFMYWp1ZDFlYUhBY2tOS3VCOUZvSHBUNGlZV3hGU2hYMFZoQ2Y3STVza3pXekVKVlFzVUdPd1pnRUFXSVJnQlhnMmFpdUMzeHYwaU9hSWkxc3JPb1AzeEN2YXF2MjN0Sg?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-10-31T08:38:56Z"
     }
   ]
 }
