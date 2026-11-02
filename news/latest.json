@@ -1,19 +1,91 @@
 {
-  "updated_at": "2026-11-02T19:37:22.934167Z",
+  "updated_at": "2026-11-02T22:23:44.847632Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
+    {
+      "title": "スペイン列車事故 新たに日本人1人の死亡確認 現地当局が発表",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69859",
+      "source": "NHK",
+      "published_at": "2026-11-02T22:20:00Z"
+    },
+    {
+      "title": "スペイン列車事故 邦人死亡2人に",
+      "url": "https://news.yahoo.co.jp/pickup/6601111?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-02T22:06:06Z"
+    },
+    {
+      "title": "「iPhone Duo」20万回以上開閉、損傷の兆候なし CNETが独自にテスト【ライブ配信中】 - CNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Xcm4xMEZFLXZWR2NjWjFQS2NscEwwdV9HaWxJN25mMW95Slk1VTNVT3RXMjEyamRZYjBWRmxaT0tmYVlqRHNpSy1iSUF6T2VwbWc?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-02T21:43:00Z"
+    },
+    {
+      "title": "スペイン列車事故、２人目の日本人の死亡確認…当局が発表（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LMUVxcUc0Ny1Vb3gwNENPd2hkQm5IX2w1bE9iTEJOSlFQenNra0pMcWZKajVhWlNOU0loR2MtaVJiVVczVjExelJzOXpycVU2N1l5M3NyaXVLM2RLQ1FsZlptYnpKTm8zVWxONS1NMU5idXZmNmFtdFB2cnQ4N0k?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-02T21:42:37Z"
+    },
+    {
+      "title": "「秋の叙勲」受章者発表 各界で功労のあった計3861人が受章",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69860",
+      "source": "NHK",
+      "published_at": "2026-11-02T21:39:49Z"
+    },
+    {
+      "title": "2位は「ビアンカ」、1位は誰？ 2300人が選んだ《ドラクエヒロイン》TOP5 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5nREJ6RWdXS0Z1WEk2aUZhalpKMmRnZnZNaUVDTWstM0RoRG5aZ0xWSU8xRWJEX2ZhMlR1azQzN1lwbFhQNWNjM29uek9feFVGWU5WYWFMNGhWSVZYUDVwMWtWYWhPNElVaHY5bFVR?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-02T21:20:00Z"
+    },
+    {
+      "title": "アメリカ中間選挙 日本時間の今夜から投票開始 焦点は",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69868",
+      "source": "NHK",
+      "published_at": "2026-11-02T21:12:11Z"
+    },
+    {
+      "title": "週間天気予報 5日(木)は広範囲で雨 週末は寒気南下で冬の寒さに - ウェザーニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmSDdMZ1NRTmV1cEtVcmgzMnkwbU1JNWNOWVdzcGljc2t5QkhmMVdQMjZNQS1iRENHV3lDNFVDZHA4S1ZOcnVUWnNVekZjZU1GMjdqXw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-02T21:10:00Z"
+    },
+    {
+      "title": "米アンソロピック 売り上げ13倍もAI開発への支出は140兆円余に",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69869",
+      "source": "NHK",
+      "published_at": "2026-11-02T20:43:00Z"
+    },
+    {
+      "title": "作家の山中恒さんの手記全文が初公開 憲法公布時期に執筆",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69842",
+      "source": "NHK",
+      "published_at": "2026-11-02T20:30:50Z"
+    },
+    {
+      "title": "GMO 経営トップ含めセキュリティーリスク対応の体制構築が課題",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69861",
+      "source": "NHK",
+      "published_at": "2026-11-02T20:02:31Z"
+    },
+    {
+      "title": "ロシア軍が学校攻撃、24人死亡　ウクライナ南部、5人負傷 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUUJUc3I0Zlo2SmlKdVJjb2NhdnJmT2ZpQjlaOGdGM2pXcE1OVlMtWUxNVHBwZC1UQkNhTzNMRWoyNnR2eXBLWFBtWXpQR3NZdlVqYTFPTjN3TWZsd2p3WW9JWjlYTFVqYUtFVFZERUl0TlhUeTJUdEdSamw2RUpfOTVtbFk3TW1BTXfSAY8BQVVfeXFMTWk1VFpGWUYxT3g3OF9ncXNZbDkyN1hzYjlVNzVEVlRqb3Z0UHd2UnI5cXVsUnpqVm9mRWwxcUJJcHBnaGVUaklUTXdjX2ZCVV84dmhjZHVjX2IzZzZjdWxheklfeFl5SFpFMnhsR0t0MUxuQlpBb3d2N2ZnOWVLSm1PN1BQM0ZpbVFmS3Z2dHc?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-02T19:23:13Z"
+    },
+    {
+      "title": "ＢＥ：ＦＩＲＳＴ デビュー５周年 ６人が目指す未来は…「オンリーワンであれば常にナンバーワン」 - スポーツ報知",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PcTJobmNnSVZFdW1JcVJuWVM4WWVlRmlESThxQjYxc2pHVDVUTngxd3dXUkFjclZ0ZkNhQzBNTlhFZ09EUnpGaE5YZEVKZDhPS0NCMl96RzRsRGxUcWdiZlRB?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-02T19:00:00Z"
+    },
     {
       "title": "フーシ派、イエメン暫定首都アデンの80キロ地点まで進軍＝関係筋 - Reuters",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EVkRGRS1YYmdvWTV3M24tbEhzVkhrTzFPQXQySXBLOUpxLXJVS1Rsd1FqSkJhd25CbktCSkNDMTZieWNmdWtxU2V3eWE2b1g5MGVQR01XOHNkVU9DdzNpVHpSSTFrWDZQUW9DVXlWNWVObUphZTZDaWZMMjRjZw?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-02T16:23:44Z"
-    },
-    {
-      "title": "GMO 不正アクセス問題 熊谷社長ら記者会見【詳細】",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69492",
-      "source": "NHK",
-      "published_at": "2026-11-02T15:46:36Z"
     },
     {
       "title": "中野ブロードウェイで盗まれた高級腕時計が店舗に戻る…愛知県内から宅配便で送られたか 「すみませんでした」という趣旨の手紙も【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
@@ -46,28 +118,10 @@
       "published_at": "2026-11-02T14:52:49Z"
     },
     {
-      "title": "7歳虐待死 裁判でにじむ母の後悔",
-      "url": "https://news.yahoo.co.jp/pickup/6601108?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-02T14:38:58Z"
-    },
-    {
       "title": "GMOが謝罪 利用者「響かない」",
       "url": "https://news.yahoo.co.jp/pickup/6601107?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-02T14:08:17Z"
-    },
-    {
-      "title": "イラン最高指導者が和平交渉巡り政府に「一定の権限」─大統領＝国営メディア - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQelJYMEpJdGR0Wm1DeHd5cmdIOThsWk91N2cxMGN3RlpEMkhCZWlhajdTWDliNjlDV2lCdU5fRHRaX2c2bWFDSkxqdVI2d09EcWNZMDZQNHlmYUowWjljZkpqNFRzakRrMWc5RGZfMkxHN293LWN1OHZFbWsxRGU2ZnV0T3hDMDg?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-02T14:05:28Z"
-    },
-    {
-      "title": "スマホはiPhone一択ではなくなった。Androidに乗り換えてよかったこと - Gizmodo",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tanVwYmxra09RRjMyVG9wV2l1SFhjQUVfYUZUOGtsZ2YyYW1GdGI5MGRMSm1VSVBYMGFjWDRmMHVFaHZiR1cxejU4ZDdFb1c3NDE2VXFCTHJxdGk3SXJXYVh5M05hUlVDZV94aFFjVXdTWEtYLTdJ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-02T14:00:00Z"
     },
     {
       "title": "20歳が握力計「破壊」新弟子検査",
@@ -94,22 +148,10 @@
       "published_at": "2026-11-02T13:26:39Z"
     },
     {
-      "title": "院内救急救命士・澤（谷恭輔）は入院患者に処置ができず悩んでいた そんなか、進藤（江口洋介）の過去を知る患者が運ばれてきて…『救命病棟24時』第5話予告 - めざましmedia",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ueC1kWl9LQTI3RUV1RHBoa2d4Q2p5b0FkaUZXT196Njh4X2tEWGJtR1NXQlg1Q29ZVVdKcktsVy1INlZzNDdhU1Z5d0V5NDJVTFg4?oc=5",
+      "title": "ＧＭＯ熊谷正寿会長兼社長「情報漏えいはＡＩ発展が原因」と持論展開…専門家「被害者らが知りたい情報と乖離」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EUV8xQ1E5Y25GaWxkMHBqYThybGpkN2xSV19wdDNEdVkwUUFoc0VfVExQRkRjTmg4TG1qdDRzbUZaRFZOLTVzQkhkSjU5NU92eEN2UHlEMGF3bmJ0YTZyaHd4RXJvQQ?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-02T12:54:00Z"
-    },
-    {
-      "title": "岡崎体育、２７年１月から活動再開へ「療養と投薬で復帰できる目処が立ちました」…６月末から心身の不調で療養「簡単に言うと自律神経が失調して…」 - スポーツ報知",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCWkJ2ajFiM2dLem5sRWtZeUcycmYzLXBkeTVFV200UXpNVzgxeDVUMVRXS0V6ZTNKQnJkSl93eVcwZzVwbC1WeHhyWHRrNEhMVVRCdHB6bXlzNjJqZmdjR013?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-02T12:43:00Z"
-    },
-    {
-      "title": "GMO 熊谷社長会見で陳謝 ぜい弱性指摘 サービス運営に生かせず",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261101de69276",
-      "source": "NHK",
-      "published_at": "2026-11-02T12:25:31Z"
+      "published_at": "2026-11-02T12:28:00Z"
     },
     {
       "title": "鳴子峡近くの5人けが事故 「アクセルとブレーキ踏み間違えた」 - NHKニュース",
@@ -118,46 +160,10 @@
       "published_at": "2026-11-02T12:08:00Z"
     },
     {
-      "title": "GMO熊谷社長「2年前の指摘、私が介在すべきだった」 会見の一問一答 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pMkpkVWJwWnRUVGtoRl8wS3dxMjZBbmFLQUdOaUpjSXlwU1V5bG1lTGlScEF5RVVVcXVVNUFRYXRaMlhnVkduV2NsdVRJazBIdGV2U0gyUk02ZDN6YkQ5SzNFaER6elhLTkhscA?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-02T12:00:46Z"
-    },
-    {
-      "title": "「ネットマイル」 最大で約549万人分の個人情報漏えいの可能性",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69784",
-      "source": "NHK",
-      "published_at": "2026-11-02T11:47:09Z"
-    },
-    {
-      "title": "ロードサービス利用者の個人情報 最大約550万件漏えい",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69807",
-      "source": "NHK",
-      "published_at": "2026-11-02T11:46:20Z"
-    },
-    {
       "title": "中間選挙 物価高で米大統領に批判",
       "url": "https://news.yahoo.co.jp/pickup/6601095?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-02T11:45:45Z"
-    },
-    {
-      "title": "防災庁発足 「緊急要請」発表し備蓄や住宅耐震化など求める",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261102de69369",
-      "source": "NHK",
-      "published_at": "2026-11-02T11:18:33Z"
-    },
-    {
-      "title": "米司法省、中間選挙に介入の構え　中立性に懸念の声 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6M19LOTRtWDFpWnVFdTU0MVFfT2dwRlRDVDZpNlVVRHJrc1JHQ1JWN0NQelE4ZWM2Rk42VDJRZEVJdmJQZ05mMU1WTzNPZHJ1Q3NYLUVGdlV0ZldUc2FiTnZyOGt6a01xNjRSd0ZWX0pkLXJQYk1xRW9GVDhFd9IBgwFBVV95cUxQRVV0cGdqajBaTEc5ZjdOem9YeThUWHMzMHBxcUkxQkFUd21LUkZ5Q1M4LXhvV3NZQU8xMWFIRjVNc0s5elhmN3FvNkE2SnJUSWZqdDBRcEhmN3dqbG5NaG1wY0FVdVJHRWV2c2JVMG0wTkdNMUJ1M3hCaVhDbWlXMzBKWQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-02T11:15:00Z"
-    },
-    {
-      "title": "サンドウィッチマン伊達さん 2カ月で復帰 脳梗塞の後遺症「構音障害」とは - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16bXVoN2xES1VIWWlSU2kxYnV1Rk1RVnd2VUw3cEJoazU3dnNTWWxYRkZqUXpYSmJ2Ry1ob2Q1dUtRdlRRT29CWFZNbnJ0UXJEeHBQQlY5SU45SFdHRGZpckVBVzloMmZpMm9PSm9zYi0?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-02T11:11:00Z"
     },
     {
       "title": "スーパームーンや3つの流星群、火球も期待：11月の星空7選 - ナショナルジオグラフィック日本版",
@@ -166,22 +172,16 @@
       "published_at": "2026-11-02T11:00:00Z"
     },
     {
-      "title": "ノジマオンラインにて約700万人分の情報流出。氏名、住所、電話番号、ログインID・パスワードなど クレカ情報はなし - GAME Watch",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzV3VmWlV1RDUyZENfNTFDcmFpdHNmNGJ4cGZCNndXcGtiN3RGMXYwem41RVNXUHFhUklxejcyMFJ6OXV5UERjT3ljLW9ZaWlSV1NJYWcwZnpHbVpwWl9KY0NoeHJ0UQ?oc=5",
+      "title": "ノジマオンラインにて約700万人分の情報流出。氏名、住所、電話番号、ログインID・パスワードなど（GAME Watch） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hMFFsaDNGRmlna05wVjJ5d3ptZnBNcTRvd0RSQ0l1UmR2QmxfN25CMlBRNDRMVGxNZENPVjFCT29yZ1JRYVlMSDIxN3lna29XN1Q1RWhibTNnem5UTzF2bmk5N1RxTDVIZlBrQ3lMVzhsOVR4TnBVNS14NE40V2s?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-02T10:52:01Z"
+      "published_at": "2026-11-02T10:52:00Z"
     },
     {
       "title": "横浜高・織田翔希、米大リーグ球団と面談へ １位指名の巨人とは未定 - カナロコ",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZemlxSTJvQ1Jqay1UUlpqbW9zWkJvMHExX043c3hacjQxcXFjREkwalJLWEN4VGpoVUpmdDB0VEZnRDhPb1hYTVFYTVhqaGNsRmd6Y05xRXBDLWdEODVfczBlbTgxLXd3bEh3bmJKZFFMQmhMclg0TFc3WQ?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-02T10:40:00Z"
-    },
-    {
-      "title": "ヒグマと衝突し脱線のJR宗谷線 3日も終日運転見合わせ - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16WTg3NnJPYndNYmh4aFdWTEd2a055UGk0NVJvUWIyMWxBS3ZBZ012b3B3bmMxaW5naER6NE1DeG9fbkQ3clE4bDU3Z3dzVExINFVQc092dWJsdC1WU2FF?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-02T10:27:02Z"
     }
   ]
 }
