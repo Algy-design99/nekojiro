@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-11-03T21:52:28.454017Z",
+  "updated_at": "2026-11-03T21:55:11.688348Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
     "world": 40
   },
   "items": [
+    {
+      "title": "スペインの運輸相 辞任の意向を表明 列車事故を受けて",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70111",
+      "source": "NHK",
+      "published_at": "2026-11-03T21:50:45Z",
+      "region": "jp"
+    },
     {
       "title": "JA全農 来春向け肥料値上げへ 中東情勢が主因",
       "url": "https://news.web.nhk/newsweb/na/nd-20261103de70060",
@@ -32,6 +39,13 @@
       "url": "https://news.yahoo.co.jp/pickup/6601239?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-03T21:21:42Z",
+      "region": "jp"
+    },
+    {
+      "title": "「米と合意程遠い」とイラン高官 中間選挙後の再攻撃防ぐため仲介国の外交努力続く - テレ朝NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zbmFzQmtuUmtBUHQ3RnBBWW1EZ2k2MWV1RFJHREtzcTNNMTkyVk9EWUZ1X29LQ3pDYmhQel9POUx4V1J1RXVScjlhRkVDWVJhQ19yNXdBbjR2WjVfS3Z1Rl9qbXdsdThuLUcxWlhKN0w3N0g1U09qclVn?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-03T21:18:15Z",
       "region": "jp"
     },
     {
@@ -67,13 +81,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54S2U1WGN6YnpyVEJnaWxTZFlDVVdnbno4cW1KMGllZTh1b1kxSC1pZF8tSnowOERDQlU2eDNmVWQyLXBrTElyUnJWUmY3c0E?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-03T20:33:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "スペイン列車事故 AI導入し異常検知など再発防止策",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70092",
-      "source": "NHK",
-      "published_at": "2026-11-03T20:05:00Z",
       "region": "jp"
     },
     {
@@ -175,13 +182,6 @@
       "region": "jp"
     },
     {
-      "title": "海に新生児とみられる裸の男児遺体、死後数日経過か…殺人や死体遺棄などの容疑で捜査 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtYW15MFg0UmVPNVhUZlJReEFhUFJQWVI4ZUp6MUdORU5xWElJXzNvcjg1MWU5Zjg5dzdhUWVIM0RZN1ZVcXNSQ213WFdjTlRPemQ3REtYd19TeFRhOVlCMW5WZWZ1Zw?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-03T13:07:00Z",
-      "region": "jp"
-    },
-    {
       "title": "武部農相 献金巡り新たな疑惑",
       "url": "https://news.yahoo.co.jp/pickup/6601222?source=rss",
       "source": "Yahoo!ニュース",
@@ -193,6 +193,13 @@
       "url": "https://news.yahoo.co.jp/pickup/6601219?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-03T12:38:04Z",
+      "region": "jp"
+    },
+    {
+      "title": "旧統一教会の韓鶴子総裁、入院中の「宮殿」通いで保釈取り消し - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50cTNnSnpJbWQwR0IzNEhlcnNkQmpxb3hPUk9WN1o2dXotRld2ZzUzYTNRc3ZnUFhWY18ydnBxWUJLaS02dWFPYXlKMHJxVXdQenJyRWFkeGRHS20wVEFFZ3BnVkZVdGR3?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-03T11:24:15Z",
       "region": "jp"
     },
     {
@@ -266,13 +273,6 @@
       "region": "jp"
     },
     {
-      "title": "ハースF1はサンパウロで誰を乗せるのか。オコン、平川、ドゥーハン、カマラのそれぞれの現状 - autosport web",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03MUhVdkNGWTZpelVmaTNaTjExcTV5cUxQajlGaXd3Z01iT3k4d1dtelR6SGV4VWpNX0EwdUp2aWpkLTdfZVQw?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-03T09:15:00Z",
-      "region": "jp"
-    },
-    {
       "title": "玉城デニー前沖縄県知事「戦争は絶対にさせない、憲法の下、大きな声に」 国会前で1万4000人デモ - 東京新聞",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LajdjTU5KZHl2WmpvRFk2TGdITTN3a1FhcWg4bmFNYU9scWxZUW1tOU9MYlhrQUM1UHViQ3gxeVl6dG9zMWZQLXpyQUU4Um9UTFdj?oc=5",
       "source": "Google国内",
@@ -343,10 +343,10 @@
       "region": "world"
     },
     {
-      "title": "イランが化学兵器検討と情報提供か 中間選挙後の攻撃検討する米にイスラエル - KFB福島放送",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RX0dWMXhta3pJUThkbU5HNHdhYV84RnV5QjFJT1JRMXhPZmxQV2Y5aTZHeklDZkdWaWpXa3dNV25welZfMFdOWDNTNUhTbENiUkhrNXRB?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-03T21:26:00Z",
+      "title": "「米と合意程遠い」とイラン高官 中間選挙後の再攻撃防ぐため仲介国の外交努力続く - テレ朝NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zbmFzQmtuUmtBUHQ3RnBBWW1EZ2k2MWV1RFJHREtzcTNNMTkyVk9EWUZ1X29LQ3pDYmhQel9POUx4V1J1RXVScjlhRkVDWVJhQ19yNXdBbjR2WjVfS3Z1Rl9qbXdsdThuLUcxWlhKN0w3N0g1U09qclVn?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-03T21:18:15Z",
       "region": "world"
     },
     {
@@ -385,13 +385,6 @@
       "region": "world"
     },
     {
-      "title": "毎小ニュース：国際 スペイン列車事故 日本人2人の死亡確認 - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZNGZWNGlKaDIyVW5vY0l5NWxoNGZWejRteG15WjRRNFRIRUsyOU9GNS16UjMwbkVtVVRJbnFjZFJ6MU1Pa0F4aXlqT0g4a2NaSTdsVFNRYUt4bW04VFhnSjNiZzhVUS1OR0N2SkxzdHhOdw?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-03T21:01:34Z",
-      "region": "world"
-    },
-    {
       "title": "講談社はなぜスペインでマンガ家を発掘するのか？ 海外を「制作拠点」に変える新戦略 - JBpress",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uTExVV0ViS0Z4a2RhalZua1l4RVN1alVPOWNQdFgwbF9yeXlPdGZxaTdIQWZlZXlreE5tbG5IbEJHdHNfdV9QQjgwd2ViNFUtMi1rR01B?oc=5",
       "source": "Google海外",
@@ -406,17 +399,10 @@
       "region": "world"
     },
     {
-      "title": "アメリカ中間選挙 投開票日迎える 上院選は接戦 2期目のトランプ政権へ審判 - KFB福島放送",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ldzNmcFFjb2hEc1E5UzV5clQwYzZqNlJSS2N3dlJDUy1ZWUdhSy1HcW02eDZNcVJlMV9FNTRmdFFlWjZ5OWloZ2trX2VxOEdkQXFQXzNn?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-03T20:50:00Z",
-      "region": "world"
-    },
-    {
-      "title": "京都国際1年生左腕・末永桜雅導いた近畿大会初優勝　自己最速タイ145キロで5回1失点 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdS0tWWZBaThwT3RMRTAtNkdLeS16bHNEbmN5a1luWVBMS3VxNnNCSC1qWnVsdjVsWmVaYTI4cWJLTi01SC1nRS1SVDA5S1pBSkJNQXVEZ0g1ZmpKLU1YRTZ5T2w2UHhnSWVrS00xMHVEY1JYY1NaUmp0THRENE5qWlRHbEozWVZwcFBWXzk4ZXk1WUdtSDBuTjRwaHpDVDdl0gGTAUFVX3lxTE5SLTVsOUZYclVfTDZpRTRWUm5rZkhhcGN1RXppTGxWSjdqYV9mY3dvYUxvUHZwdGZrVHR1LV81dXNBWDcyMUFDT2MzU040OXh3MjkwUlkxbmFMQnBQUGU1RXdPaVEyQVh3djV0X3ZiXzc4eDBlV1F4T0tEYWFTVzlweklBUk5UN21jcUVEUG1EWjhaMA?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-03T20:40:12Z",
+      "title": "トランプ氏、イスラエル支援打ち切り表明…共和苦戦の中間選挙影響か「なぜ我々が狂人の攻撃に耐えなければならないか」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42eDdfQ1pWcWRxeGRTWk82WFVEYWRZdFJmVThLVkNsWUJtZVdEZWJjblJOQVR6UldXUHEtTjh5N1VJeWRlZFhvWmxHdFR1ZUJPUFh2ektIZFZDd2FRMnM1YnpR?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-03T20:38:04Z",
       "region": "world"
     },
     {
@@ -429,6 +415,20 @@
     {
       "title": "日産「NAT2 SCCAツーリング2 Z」世界初公開！ 米国SEMAに登場した本格レース仕様とは（くるまのニュース） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZHZaWFJRbzFvR1FWWDYyQTNMVjVJLVJJQmJSNEdLbEh5QV83OFBSZ3FHai0yOWpvZEdjdEZBWGRRV1JncG90WmR3Qmw2ZzRpeWQ0ZkJRZER6enRLSW9QQjdCcE1DUGdWd0pDa3FjYmdmbjloMlliZEc2Q0FSQ0k?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-03T20:30:00Z",
+      "region": "world"
+    },
+    {
+      "title": "都道府県議会の海外視察、上限なしが１６府県 福岡や愛知、高額化の傾向 - カナロコ",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qa080QWxmckNma2pic3JTMVA5WFNxZkpOSlRyZGFwQ0NDUFl6QVBjaXZld1RPSVZIaFo1NEZ2QTdQYnlEMWRBeUtOS1QyLU1hY0VINTh1cVd6NWdQMkNJTnZjbDI0dDlWRDhSUg?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-03T20:30:00Z",
+      "region": "world"
+    },
+    {
+      "title": "京都国際1年生左腕・末永桜雅導いた近畿大会初優勝 自己最速タイ145キロで5回1失点 - スポニチ Sponichi Annex",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcm9wNjR0Nlc1RDRGN3lkcXVua3JkaFNWQjEzRkN0bjJWT3NoRXhCYXB1QnA0RGxCUWhYdEJYWjF0Q2drdVZtWDZmQzdRZlUtQzBuWnNjT2tDWUtPLV96ZWx2aU03Z1d3YkM1a0F2NUd3SHNLOUwycEFETGdwY2RqeHRLcW0tU29DSFZNOG9NUQ?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-03T20:30:00Z",
       "region": "world"
@@ -511,10 +511,10 @@
       "region": "world"
     },
     {
-      "title": "黒田選手（東日本国際大）に理事長賞 千葉ロッテからドラフト４位指名 学校法人昌平黌が激励 - 福島民報デジタル",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1PUHpESGJqR2RDaE5RUnpPWGJTWC1qcmVodlhUSkM2ZFRUMmRzM3FXNVN6TUw4dUtsZlREWHBrZ1JiWUdQTnM0ZjNTRTZYZEk?oc=5",
+      "title": "特集・首里城焼失7年「沖縄の象徴 世界に発信」 - 琉球新報デジタル",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rZUw2RGlqUFdlUkNxM29vU3BDRFYzdUk3WXV0RWJFdFBoWjdPUmNETmhxMnd6cnZKbzJobEVLYmRZU3Y4TlJGLTVxSTJDOHY1TTkwSUFFcHptS0F3RXpScF9FdlhnSnV2eXc?oc=5",
       "source": "Google海外",
-      "published_at": "2026-11-03T20:01:00Z",
+      "published_at": "2026-11-03T20:00:09Z",
       "region": "world"
     },
     {
@@ -546,6 +546,13 @@
       "region": "world"
     },
     {
+      "title": "塩崎恭久氏、人口減少は世界と遮断した思考 「鎖国国家」から決別を - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9qMDhLWXF6ZTAxZ1NuWkxLcWJmcTYyblJ1em1RVXo0aGk5T1piUWRpeEdJdzU3OHVUTVB0YVNWMlVrdkJzajVSalBDNmRTdmgyMkk2cW4zUW9NR3VhQjNjeE1Ici0zWDllUVJ0Xw?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-03T20:00:00Z",
+      "region": "world"
+    },
+    {
       "title": "海外視察に旅費上限なし １６府県議会 福岡や愛知、高額化 歯止め策不可欠 - 福井新聞社",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tQldVZ0pLUm9uWExsaDhFQWo0NWRGZlEzZEtHaUg3SjZHWTViZHJaaUhtN2JpWFN4ZkowUmdiV0ZWY0pSc19KcTRPc2NEeU9XU3JOa0JNQ2dPVXZkZUE?oc=5",
       "source": "Google海外",
@@ -555,13 +562,6 @@
     {
       "title": "中国安踏、独PUMA出資も株価は足踏み 「内弁慶」の返上がカギ - 日本経済新聞",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IU1FDSjFZd040TWIwdmJCOFJlQUZIamZLVDIzY0Y3RVV5b3J0TG5ZcnNwbldEYjFBNl93QllOVzFMR0EtS2RpUXdVOWF2YlRwTDNRdUJXRXM3TGgzOGZqdmRBWlFHNWVzaGtvN0RoS2ZCMk9KRFd2Ukk0UWcyZw?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-03T20:00:00Z",
-      "region": "world"
-    },
-    {
-      "title": "GM、「ロボマイカー」開発の野望 人間監視いらずのレベル4に急進 - 日経ビジネス電子版",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Wb29taTBkYlpQck1pWTZhRk1zZ0R0RW5jaDlHZFg4Sm9XQmRMRmhuZTlVbUxXTzhFWHlweEUxYnFqQTFFNDd6cVFDN21JSWlCZkhWUmZucERmbUZxN0t5bEd3?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-03T20:00:00Z",
       "region": "world"
