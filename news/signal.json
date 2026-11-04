@@ -1,11 +1,18 @@
 {
-  "updated_at": "2026-11-04T08:09:11.906047Z",
+  "updated_at": "2026-11-04T08:25:28.906317Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
     "world": 40
   },
   "items": [
+    {
+      "title": "アメリカ中間選挙 民主党が上下両院で多数派奪還へ【速報中】",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
+      "source": "NHK",
+      "published_at": "2026-11-04T08:15:49Z",
+      "region": "jp"
+    },
     {
       "title": "米大統領 敗因巡りイラン攻撃言及",
       "url": "https://news.yahoo.co.jp/pickup/6601315?source=rss",
@@ -18,13 +25,6 @@
       "url": "https://news.yahoo.co.jp/pickup/6601314?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-04T07:59:18Z",
-      "region": "jp"
-    },
-    {
-      "title": "アメリカ中間選挙 民主党が上下両院で多数派奪還へ【速報中】",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261103de69965",
-      "source": "NHK",
-      "published_at": "2026-11-04T07:53:59Z",
       "region": "jp"
     },
     {
@@ -101,7 +101,14 @@
       "title": "台風31号 暖湿気流入で関東や伊豆諸島 今夜遅くから大雨おそれ",
       "url": "https://news.web.nhk/newsweb/na/nd-20261104de70112",
       "source": "NHK",
-      "published_at": "2026-11-04T07:04:37Z",
+      "published_at": "2026-11-04T07:04:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "芦田愛菜『南田南』の“法廷メイク”に「かわいい」「違和感」分かれる賛否“子役の大先輩”もぶつかったイメージ脱却の壁 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd2VCLXNxZ3hZdkZjZVNQYjdoTjN5VGtMZkFFUUNhVXEzYnlReVp2U3Nuc1FDemtrXzdLV29oVFM1MDRsV082YnAwRlE2R3BzeE5GMVhxbDNtNGZHSkNJNkpXamhMMEdraTRqeFByQ0dSUUdGX3pBSmRfTm9raDNRMnQ0NnpZb2NUR0HSAY8BQVVfeXFMT3VMZjVSNHhfSXQ1V1BlNzIwMW9ZcTdBOWMxSGFFNXYzdHg0QUY3WWEtbUN1TXF6QWx1YjBHQlh6bWhabkhnNkRPQ1BLT2M4eGZjQWpHMno3MW1naTdiR0pjYkVYNXRqSENWUTZCaTlEdUlueV8xOGQ5ZjdLQmJMNTFaeVZHb3oxSFQ2M3R6b1k?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-04T07:00:00Z",
       "region": "jp"
     },
     {
@@ -112,31 +119,10 @@
       "region": "jp"
     },
     {
-      "title": "\"巨大\"だった！クマと衝突し脱線の特急列車_体重400キロ超の巨体が脱線原因のひとつか…運休のＪＲ北海道宗谷線で現場確認した関係者が証言〈北海道〉 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IelUtQ19SdUVKbGJkbEpLY3RkU2RkNlk2bHdrZ1VYZzdocDVucElPME8xanc4Smc4RERwc09OWmRoem1MVWVQMmNLQ016aGZ6UkhGb1ZjblYzVWVPMTB6Sm5OZ0YwM1Q2TE05NEtnczY4bWxTcHA1YXNPNkhvZGM?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-04T06:43:02Z",
-      "region": "jp"
-    },
-    {
       "title": "BYD海外販売が倍増 中国車に明暗",
       "url": "https://news.yahoo.co.jp/pickup/6601278?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-04T06:23:32Z",
-      "region": "jp"
-    },
-    {
-      "title": "民主党、上下両院「歴史的な勝利」 トランプ氏は結果「受け入れる」 [アメリカ中間選挙] - 朝日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55a1UyQW5CQzNrTGFoenNRRWREQWlSVFI4bk5KWjBkdlFKclBoOTFMaVdLaWNrWkR4UjcyTWwyZ1NFd2liTTQyT29DOUpTZlB0dnBWdXFVX3RsU041SXZGc1BOV01BVGc?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-04T05:52:23Z",
-      "region": "jp"
-    },
-    {
-      "title": "アメリカ中間選挙、政権与党と議会の「ねじれ」必至…トランプ氏「選挙結果を受け入れる用意ある」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LQjRRRlM5VWtVbTNIVGZVSkh5bmYwT05keUdtM3FwQUhrcG9yR0paWkZGOGNrcWExd3FyUll5T1JRM1RhckQ4ZGU4MXp2WnZ0VjdKcFBETkloX1hpODFyei13?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-04T05:19:47Z",
       "region": "jp"
     },
     {
@@ -154,17 +140,17 @@
       "region": "jp"
     },
     {
+      "title": "米中間選挙、民主党が上下両院で多数派奪還へ トランプ共和党は敗北 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWb3lkTnVTbnBOVTRvRVhJT0d2eW1WMjZhZjVlTEtoOWNDd01PNVJ1bWxKWnF4OE96eWFoN0d6UFFaOTdEYzlkaFRrdkdSQ3NqRHVuS1BqdDl0SFNnWVdDVXZuWTV4dG1wV2ZrRA?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-04T04:35:38Z",
+      "region": "jp"
+    },
+    {
       "title": "アングル：世界市場は既にぜい弱、ＡＩにもひび割れ - Reuters",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmbHZ5eGxQNmVHY0ZSM2VRbkNWVHpYRDBkd1M3WTd5V0Jpc2pTazBEUGNsTG9VVW8xNE5ZNDY5Q056VFM1bFprekNqQlBVVVZDckFiSWZNSmdLOWJFV095T2VSZWk2R1ZQNmFFS3FaTHZFWFlpY2RrUkl1MlhXdw?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-04T04:34:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "川崎市が発注した塗装防水工事の入札で事前に工事価格を漏らした疑い…市担当部長を逮捕 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9YaWpJVGFIeW54cTRWYmYwaGJYYlEtRFpuNDJkRzZGdm56OHhNMHVmWVR6MHp5V2lCU2hta0lSc25PT0RDbDc3OUcteEhNaXktT3NhaWdsVFEyWk11XzhldG1Vb3Y3Zw?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-04T04:30:00Z",
       "region": "jp"
     },
     {
@@ -196,10 +182,10 @@
       "region": "jp"
     },
     {
-      "title": "ビックカメラで情報流出、顧客のメアドなど1490万件 傘下のコジマ、ソフマップも - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ISndvRDRuVUhBYVFCdjRZZUxMS05PbHdXZjBhR0xySnJoSE9JWjVyY042b1hGQjB0c1EzcURzMEY2RVVleUNjU1pTSlBiMUJtQzdiZmg1ZlJUNWlHRGlsTDBiaG9PNF80dEkzZVc2RmJMdWxsOGc?oc=5",
+      "title": "トランプ大統領「投票用紙に私の名前あったら圧勝だった」 - テレ朝NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qbEVheGVqQURGM2FkNzVBRm9DdE52V1lVeG55eHNBMVlXYzZRUUVpLVZVTnlJS0VTRnFCMXFvdndkUGZIZXMyYkFwT3duQURNb2ZKTU50TFBNaE15T3pWZkVxcjQ3TVFieFRfMEJPZEZ2T001SnVSZDVn?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-04T03:54:45Z",
+      "published_at": "2026-11-04T04:00:06Z",
       "region": "jp"
     },
     {
@@ -224,10 +210,24 @@
       "region": "jp"
     },
     {
-      "title": "米国初の黒人女性知事が誕生へ 南部ジョージア州、民主のボトムズ氏 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvN01sQUxLWE4wY1hSYTFzdk03bXQ4ZE1zQi0tWllCLTVPd2ZhbTBkVjEzdUlPc3h4VmREbTNlbTJWQ295TkFXd0ZOZDNaandjZWVVRXQwOUxSVHI2ZU9rUDlGSER4YWdyLXFEQw?oc=5",
+      "title": "\"巨大\"だった！クマと衝突し脱線の特急列車_体重400キロ超の巨体が脱線原因のひとつか…運休のＪＲ北海道宗谷線で現場確認した関係者が証言〈北海道〉 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IelUtQ19SdUVKbGJkbEpLY3RkU2RkNlk2bHdrZ1VYZzdocDVucElPME8xanc4Smc4RERwc09OWmRoem1MVWVQMmNLQ016aGZ6UkhGb1ZjblYzVWVPMTB6Sm5OZ0YwM1Q2TE05NEtnczY4bWxTcHA1YXNPNkhvZGM?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-04T02:41:51Z",
+      "published_at": "2026-11-04T03:18:01Z",
+      "region": "jp"
+    },
+    {
+      "title": "ジョージア州知事選で民主候補が勝利 黒人女性初の州知事誕生へ - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41dEpnZC11MHd6czBmZkVtcC1ob3VDb0dMTGVoZVlfdmFGcURpc0dGSW9QcGNpMUlCTlZwTW1MRW9NMk03VXVfZ3BCcUlzWGlWRVhjNmpjT0RfcERaV2Y1X3l0ZWRVc3Iy?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-04T03:04:55Z",
+      "region": "jp"
+    },
+    {
+      "title": "パチンコ機器メーカー協議会の元代表理事、１億７５００万円特別背任の疑いで逮捕…還流させ私的流用か - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KZl9Obi1aamFYNzNvX1I4d0ZmSHIxZWpmWHpMcVdfVlhjVFNDS2ZNVHEyM2tEczdTSF9rbXNNUkY5Y2xKalA4N0xXWDRCNTZWWmlYWUZ2MGh2cC14eDZzWl9fS040QQ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-04T02:42:00Z",
       "region": "jp"
     },
     {
@@ -238,17 +238,17 @@
       "region": "jp"
     },
     {
+      "title": "メルアド7700万件流出か アララメッセージの不正アクセスで続報 共通環境から契約企業のサーバへ侵入 悪用も確認 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RWEtrSUg1YmhyWW4yU1FFVVc4V0pDVzgxcFJDUHlha19DYllpQ2laSUYybnZJS2MxcFBvbkQtUThCLWZNdjZLSFJiUGYxSTd2MXFpaEdqX1JmdXdTVW85aG9HcUc5VU52SEE?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-04T01:41:58Z",
+      "region": "jp"
+    },
+    {
       "title": "AI製ゲーム激増のPCゲーム公開サイトitch.ioにて「AIフィルター」実装。AI使用の「ある/なし」以外に、“どこで使ったか”もフィルタリング - AUTOMATON",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NdFRBLWl5WFU1ZVpFd3doLVF2Wkw2Wm96cXU0eDJhSVhXWGJTMXlrR3RDNF8zV2hwaUFYQ3dFQ3UxYWs3em40TXhlY2pZU1l2UU9QWXNrNlluWHlJZjNvS1RYSEdLUS1lcF9Hcw?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-04T01:29:37Z",
-      "region": "jp"
-    },
-    {
-      "title": "菊池桃子　9歳上の元官僚の夫との7回目の結婚記念日報告　幸せ夫婦ショット披露に反響「素敵なご夫婦」 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd2ViR3Q3N29UUVVmRkhyNHZMWmJHaDhVSHlpZl84cGlKeWRFVEhzRzhSQWtIZ2ZmNGRuZWdadWY4cVRXRXdaN1ZVVC15LUg0VjR3LWRVdVZ3VjU4QWlGVTZ4NlRtZnc3TkFON2ZHSk9Pa3lfRG1peERjXzFDaTJfaUp0eXNtcWYwbnFhUkM0dmpJa1pTQkpz0gGcAUFVX3lxTFB4VDRta2swNkJxc0pwNW8zTExXT0hVWXdhR2lrNUh4bFFuQUtfS25UOFR5eFlaMUdVWTB3M3ZQTWJ0MmNWMW9kTHVCNUJtX2x4UjdwZ0NoZGxUWk0zdG9sRVNQYjdwSHVMRnM2MmJLY2NPTUhyLTliUDZkbGZpOWFYUGI0V00taDZSWGJ2RUxlZ3VPZU1TbHF5NHQwWg?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-04T01:29:00Z",
       "region": "jp"
     },
     {
@@ -287,6 +287,27 @@
       "region": "jp"
     },
     {
+      "title": "アプリケーション・プラットフォーム市場―2026年～2032年の世界市場予測 - Newscast.jp",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nT2cwdnBTQXM3U2ZDbjZMQXZZR0ZpM3pIX1ptNFktNkRtc1h0cFo0SFFoSHppZDk2YnpEbTF1NEhpbjVxVVpMdm1SeWVUbHM?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T08:21:00Z",
+      "region": "world"
+    },
+    {
+      "title": "ネーションズチャンピオンシップ＞ラグビー世界12カ国最強決定戦 大西将太郎が見どころ語る 「最大の注目はフランスvs南アフリカ」（MANTANWEB） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VbDlXSnl2N0xBU0o3Q05tN3p4cEU0THI0S1poSEFXWmxxSkhqc2hudmZ3bjY0amNiNjdZTzhLSG44d1J1WldtM2w5alFlTUFnQkVPMUprc21taTJNZXU3bmdOOWVNYXFab1BVNUp4Z3pPQkhYdGg3amJSUjA2bHc?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T08:17:00Z",
+      "region": "world"
+    },
+    {
+      "title": "航空機燃料タンク市場―2026年～2032年の世界市場予測 - Newscast.jp",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VSjBMWEZPczZjQ1lYSTdmODlhMzlwOUxhc0oxNl9saFlBaVd0SGRHdVJqdXlEV0ZMc1B0c244T0N2bE5FTG40eUhDODdoaHM?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T08:16:00Z",
+      "region": "world"
+    },
+    {
       "title": "Razerから世界1,337台限定のPS5コントローラー「Razer Raiju V3 Pro Signature Edition」が発表！11月10日からRazer.com限定で販売 - Saiga NAK",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96ekVVVjYwTm9oZTRyRHhiX2RocTVHcW5sc3Z0Rm9qd3pRTDdENUh5VkVpV3NqUzVXSHZmYzE0eGM1MDlteHNOS2RVQm9KV1RvNUsyRmFnQ1NMYThwOFpKaTk2ZFg2ZGlPNTViN3JtaXFHbmJsTmVIUdIBfkFVX3lxTFByTW9Mek1udTFrOTBsa3JDRU5vSTFBS3VhejFqTWVaeUxuWmxLTTZxSXQ5aEY0S0FFSlpzeDdHUkI5a2ZVYnRZU2puajVLRmhsU0ducTdYTDRJd3lYM1RQX0IzbkV6bDkxcmE3S1lwc2p5X0F0ZXZJODA2ZzJadw?oc=5",
       "source": "Google海外",
@@ -301,10 +322,17 @@
       "region": "world"
     },
     {
-      "title": "2026年世界都市デーの国際記念行事を中国東部の福州で開催 - 宮崎日日新聞",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZMHBmSGthNkM3eElmcWlmaHFrRXZQRzJtRU40S0ZfMVhHVkNoOUJ1M1dVTXVfRkFUTmVDdjJoaFpHNU5fVFAtbXlxMlg4T2Z6WGowODg2VjJCeldSbWJMeDJjNWpqVUhUOGpVOVc1VWRyQQ?oc=5",
+      "title": "2026年世界都市デーの国際記念行事を中国東部の福州で開催 - 共同通信PRワイヤー",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04dmxGRS1uaXJiNXFmbDZyaGxLRXcxaTNob0FyNXRZNXhIcE5QNUxpQUpfdkN3dnFOX0tyLVB5RFFJaWFoenFLRmhYclo5QVBNamF2TWtOTHZOVWc?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-04T08:03:00Z",
+      "region": "world"
+    },
+    {
+      "title": "日本人が「世界一幸せな国」フィンランドで働いて驚いたこと。仕事は「いい加減」でいい？（FRaU） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KNi1Id25aeUp1Y09zWHd3ZkZ0RkI5TzV4OUZPWklWc1l5bThIQmp0ZFJndTVMSndna0ZpYzBYUDNtYlNxOGdSNU1URlE2UFRzOWFVTzlJUlpiNkh3NVJnbXdjMVBfT3JRVEZEcFJmUVlJb2hlS0tQOWVHZHZnSWM?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T08:01:36Z",
       "region": "world"
     },
     {
@@ -329,31 +357,17 @@
       "region": "world"
     },
     {
-      "title": "サファイア（Al2O3）ウィンドウの世界市場（2026年～2032年）、市場規模（コーティング済み、未コーティング）・分析レポートを発表 - Newscast.jp",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6cl84QnhiakdheUpSeUUxbkZGMEtpN2lTVXNKVUViVzlMb1Q3ZlhHV0VpT3phalNEb1hzTWU4VlR4UERlWnRDcy1SeGxnaFk?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T08:00:00Z",
-      "region": "world"
-    },
-    {
-      "title": "ディスプレイドライバチップパッケージング・テストの世界市場（2026年～2032年）、市場規模（チップパッケージング、チップテスト）・分析レポートを発表 - Newscast.jp",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAxTWJMSHZ5NGpISlgwR2RWZEdOUWJHUnAwM3g0LVRHOXR0TnNLb0tCWnJXRUs3SVNzT1p2NWxraGRIWXM3YUpjZl9hbWExeWc?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T08:00:00Z",
-      "region": "world"
-    },
-    {
-      "title": "凍結乾燥装置の世界市場（2026年～2032年）、市場規模（ラボスケール凍結乾燥機、パイロットスケール凍結乾燥機、工業用スケール凍結乾燥機）・分析レポートを発表 - Newscast.jp",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUa20tWXRTaFJ0MEJxcjAycFZJLUFqNUIzRnY4RTJNRE9mZ2RmZXJSU3d3Nkl0OTJYbXdodzlpUUpnYTZWM1hMSXd5cE4wMkk?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T08:00:00Z",
-      "region": "world"
-    },
-    {
       "title": "スズキ、2輪車・バギー車の世界累計生産1億台に - 日刊工業新聞",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03akVlQUYxZkFkOFZ5UmNSb3NSVlFrUi1LSU9CcTFTQVlmRDAwZ05DSHl2dXRVM2ZMdjdzSExLXzdBUDBwel9PM04wWGk3OEF6UUctWk1wZVg?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-04T08:00:00Z",
+      "region": "world"
+    },
+    {
+      "title": "京都市左京区に「しまむら」が新店オープンへ 世界遺産の寺に近いスーパー跡地 - 京都新聞デジタル",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE50My03RFQyOGpQdnRIaGN0bUdGRFBsU2xzd2xuUy1CM1VfOEJPT1htbEtPSXRadVpOU2ZCREtHU1BVQktQcEY5akQ2Wk9oR2hraWtINXVVVXk?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T07:57:09Z",
       "region": "world"
     },
     {
@@ -368,6 +382,13 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VVllmNmc3aWRyd2c3S1F6TEpSZTJmdlJySXgyOFprSDZvaDVvZzd3SlNRdVJ1MnI3amxkVjBjZVk1Z21aZGlZd1ZBVm40bkV5Y0JYSGw5dzRiRzctQXJiZDQzWEVvWXRt?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-04T07:37:56Z",
+      "region": "world"
+    },
+    {
+      "title": "札幌国際スキー場 ゴンドラの乗客を救助する訓練 20日の今季オープン前に - 北海道新聞デジタル",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aUTJQSHVuUWFLYVhsZjRKYWRBZ1UzbUpoYjdZT3dkUm5HZ3dMX0o0UHk4WUNnU3A3bmgxUmh5cThzVm9NdVVranpsY3Q3WjlqdTlScVlNQmZ4dw?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T07:34:59Z",
       "region": "world"
     },
     {
@@ -406,8 +427,8 @@
       "region": "world"
     },
     {
-      "title": "【初開催】地獄に堕ちる…？“死後の世界”を体験できる展覧会、非公開の重要文化財＆国宝も巨大スクリーンで（Lmaga.jp） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5EWHIxZG1CZXdWOU1RRHJuazRXWXhSVHBsUjhTeTkxQzh4di16UTJvTzlYelNPS1dYZ0hjTE1MMFg0R0ROMjYtNVFxYkdvU1ZPZ2xVdWpiTmN6RVdVd2JuTUJXNG9wM1MyVTBPbjVEelRzRXFWSnNZUFI1aHlpYVE?oc=5",
+      "title": "（２０２６年熊本地震）熊本発モーター、世界へ前進 スタートアップＷ杯、日本代表に - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXazFTY0Q2UnFmcTMzZFJZUTJ5SnpscHktMmFBTUZyRlpQQmJneGFqcUdkSTZXbWlwQ1JiVVg5LTQxeVV0bzVHVmlIMDJGb1hhemNIOVYxX1d1S1Mt?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-04T07:30:00Z",
       "region": "world"
@@ -420,10 +441,24 @@
       "region": "world"
     },
     {
+      "title": "【初開催】地獄に堕ちる…？“死後の世界”を体験できる展覧会、非公開の重要文化財＆国宝も巨大スクリーンで（Lmaga.jp） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5EWHIxZG1CZXdWOU1RRHJuazRXWXhSVHBsUjhTeTkxQzh4di16UTJvTzlYelNPS1dYZ0hjTE1MMFg0R0ROMjYtNVFxYkdvU1ZPZ2xVdWpiTmN6RVdVd2JuTUJXNG9wM1MyVTBPbjVEelRzRXFWSnNZUFI1aHlpYVE?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T07:30:00Z",
+      "region": "world"
+    },
+    {
       "title": "「世界一幸せな国」フィンランドで働く日本人が、「働きすぎないで」と上司に注意されて気づいたこと - 現代ビジネス",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9iWm45dVRUNHN4anVrbGJqNmZnb2tKLTl4eHNXUjhwVTZzZHF3dW05M3JvdEp0NTktR0VtWDRYX1pJMHFzdmNrM2VkM2MyQTlKRUJucC1KSnY?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-04T07:28:11Z",
+      "region": "world"
+    },
+    {
+      "title": "蔵内氏が2か月半ぶり公の場に「金銭授受疑惑」「ワンヘルス」「海外視察」語るか 5日に記者会見 福岡（FBS福岡放送） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WaUtuSXBoU1RScGx0NXI1ZDBxaGFCQXNpQ2RZWGlmQTlUY0N5aVAwUGI3OW5iWVd6TDdFSHNCdWhNZk5GNk9FRUdSZjIwMUdMZ3VYaENkaHBlaDhBYkhfQnpDRjNOU2pleVFodGhrblV6Y04zTkxLUGJCUDk1TVE?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T07:28:01Z",
       "region": "world"
     },
     {
@@ -438,6 +473,13 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00cXk0SmlLQmNrR1oxYlBmSkQ1dlNxSjlXQWZLblFMZkJ0Y2RXY3dqYWs4aC1SMkJfeWwyTHdPQmhZcW8xTHpZa2UxRHhBczNBUFhYNkcyRXV4dnF1NGh4SGNEbU1NTks4bzJUX1B1am11SkN4S0YtX0VGV1hTZW8?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-04T07:20:27Z",
+      "region": "world"
+    },
+    {
+      "title": "建築の国際アワード「Architecture MasterPrize 2026」株式会社中央住宅の「リーズン市川・森都」など6作品が受賞 - Digital PR Platform",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE4xRHpGUTU0RkVaOGpxdXdIakRnd2dhN3p3TEZQT3pxOFh1ZngyNHJFYllnemlYVzRyRTRxWmVZRGM0WWc?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T07:14:40Z",
       "region": "world"
     },
     {
@@ -469,10 +511,24 @@
       "region": "world"
     },
     {
+      "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T07:05:27Z",
+      "region": "world"
+    },
+    {
       "title": "金運爆上げ赤パンツ！》紅白出場人気アーティスト 海外ツアーでの“大胆披露”にネット騒然…マイペースで貫く型破りパフォーマンス（女性自身 - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53WVNYWVVfVG5BampUbGJvZlNhUGNYRGRxYVM0dDBKRFpKZEFZeGJRdldpZHFKdzZhYXVtSFduMUxTeDQ2M1NMejVXUlFKTkpzTkxwSTI2cHBLU3o1c0hJTWhWSGZGSU5QTTNadE9HOXJ0TkRpNkttY0l4b3pKRzA?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-04T07:00:51Z",
+      "region": "world"
+    },
+    {
+      "title": "川口春奈主演『ママがもうこの世界にいなくても 私の命の日記』興行収入34億円突破！ 入場者プレゼント配布決定 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHWmtiQnJJUFNsM1g2emZoZ2NzNXdkZDFnRVo3N2FuaE5VMFpzWkJwUE1nYktZQVpnbFVoZzhJRlNsRlM1d3lNakJsZTVjXzF3UkFQSVRHTU9Ka1FESEE5Tm5jd1Y1cmtGVTJ4cnNxQ2t2bi1fc21HN0dQdWdGdTQ?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-04T07:00:00Z",
       "region": "world"
     },
     {
@@ -504,66 +560,10 @@
       "region": "world"
     },
     {
-      "title": "ラグビー世界12カ国最強決定戦ネーションズチャンピオンシップ「最大の注目はフランスvs南アフリカ。楽には勝てない試合」現地リポーター・大西将太郎氏に見どころインタビュー！11月の全24試合をWOWOWで生中継！ - WOWOW ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9NbWJScFhtb19Felc2YU9pbDY0TGxvV2pxX2FWc2NBSlYyNVVvOTlaeEtUZ0RvWXQxOUE5aVB6UjVyM0ItRVdpQVB3?oc=5",
+      "title": "スターフライヤー、北九州～高雄線の国際チャーター便を2027年1～2月に運航 同社初の高雄就航 - sky-budget スカイバジェット",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZWs2ZDNGd3FOeEhMNVppeDgwQWxtbV9waXpZbk1zZURQTGpNLTZMZWxhdkQwX0Zad1ZKVWVpbENGUDNBWlFsMUQ3RmFaQmFoVjFvZkZHMS1UUXR2QndxLTh2dUJwdmZLelh1N01iNTZOMm9QU1o5TV9iZUd1dUZYWXVTZElRY0dzVkpwTVl0c0RvX3BualJidzVwU0VIempDNHJaM2NhMEkxcHY5WnFibGRlLWJRaWkwajZvUVBzd2tzTWJ4S2pnVThSQ0R3YndsVVhfaWtsd2pUdkk?oc=5",
       "source": "Google海外",
-      "published_at": "2026-11-04T06:51:42Z",
-      "region": "world"
-    },
-    {
-      "title": "メイン州上院選で共和党穏健派の代表格コリンズ氏が敗北、党への逆風かわしきれず - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02TGpfOW9KNngxV19PS3hYbVp1RVNkVFhKOFcxN0hPNjBncGlBcm9nX2EtRDRNX18zbU80bmZoejlVSWJhcV94TnZfZUZPazRXV3JENTZyMzZ5RmV1Ql9hVVFn?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-04T06:49:00Z",
-      "region": "world"
-    },
-    {
-      "title": "ユニゲ、資金調達で国際物流・在庫管理強化 - LOGISTICS TODAY",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBndXNoY0NnYjIyMUNYSllUeTJSd09Ed2tMMkM0RDZHZ3J6WGRJdmZaRE5ZWUJhN1M3S2FTZUljd0R2OEZqd1FoYlln?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T06:47:56Z",
-      "region": "world"
-    },
-    {
-      "title": "iTrustインド株式 | なぜ今、インド株に注目か？～世界の投資を呼び込むインドの潜在成長力と投資機会～ - ピクテ・ジャパン",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU2NQTHFQamJpSmJsTm5Yb3ZZNWwtSEp1VEFzSk1oZ1hIUFkxSUtDY0l1LUk2c1UteUx4ektLT0pCVThBSTRjemRfT2l3cVkzbEk3cm0zdUFnU1V3NjBVYlhGY0FSODI0dlNfME82SE0xelpoUEdJNFUwX2paQWx4WlBJLS1wLUxLVFFqUDRlU1JTd3YxenY3UFhwaHd1N0c4OUt2OTQtXzA?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T06:44:24Z",
-      "region": "world"
-    },
-    {
-      "title": "世界1位・松島輝空がストレート快勝！わずか16分で初戦突破 前週の敗戦から再スタート【卓球 WTTフランクフルト】 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13RjJMMkw1emZLaHI5RjYzRS1qN2lyRml5cmJKNWs5TDUtdHpKeHAtUTNUenM5R0Z4UmlveERrX3cxaHpOQkQtbXBCTDFQRFBqanlBNV9FRkNkVldBQzVvS2R3dW85YzBEV1dxRWJWTW5VcHM4dTYtTE9hX21aSFk?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T06:42:52Z",
-      "region": "world"
-    },
-    {
-      "title": "「サイエンスデイ群馬 2026 -量子でさぐる科学の世界-」を開催しました - 国立大学法人群馬大学",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uMGlmbWhaVDZzNld2aVQ4SzZlNmVMc3BiWHk5YjZyUnI0cjl1dWF4OVV4cnA3WjlSeE5kdGZaWWYwanNocUZjd05jSGpBUkZjMmIycDNYTQ?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T06:38:42Z",
-      "region": "world"
-    },
-    {
-      "title": "5人目の最終戦出場者が決定、世界6位コボッリ 今季は全仏OP準Vなど活躍＜男子テニス＞（tennis365.net） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WE9XbkVnZHcwTWxQTTVMNFhsVzFZT0Y3YnU2RmVYeUQwVjI4N3c0SEx4WFNrUTg3bWFHeS1BckJPb19KVUtBM291VHpKbWZlTWtodGN5MW5TQUUzclpGTGZHLXRJZGhab2Q1bmc3WDBQSjVZVlFDZ1Jqa3k4NFk?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T06:36:04Z",
-      "region": "world"
-    },
-    {
-      "title": "神村学園出身・福田師王選手（22）が国際親善試合の日本代表に初選出 鹿児島（MBC南日本放送） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GaG9KdlJUSGZtelF5YVppM2NfUHE5M05yczkyR0hNcXdOTnExQ0JwRm4xcnZOdV9fUi1KNHo5M2lRdE9oeXhVT3l0VHhTNjlCR3J1QWlqUUtFQXZINk95NEc3LTNHNTJOeDc1REFtX0p1UWxycXozTThMN0tRRzQ?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T06:35:25Z",
-      "region": "world"
-    },
-    {
-      "title": "20261104 GSワールド・シフト株式ファンド（愛称:shiftWIN） 国際社会の変容を捉えるshiftWINの投資機会 - Goldman Sachs Asset Management",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0Q1NGVRMDBMQUVYUnZ4cUhnVm1zbWw2LW9LQkhSY0FlOG0tcVpoS1FFNWVaaDdjSHRVTGRKNERtOGVVWnY1dHlreXpPelFTY24tOW5rSkVHR3NXQkhMOVk2ZGlnNzVfcncwRzkwZjZEOXVSb0ppSzlhdUtoWGtMZXd3?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-04T06:34:33Z",
+      "published_at": "2026-11-04T06:55:22Z",
       "region": "world"
     }
   ],
