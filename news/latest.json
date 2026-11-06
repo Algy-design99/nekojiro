@@ -1,13 +1,85 @@
 {
-  "updated_at": "2026-11-06T17:15:04.939753Z",
+  "updated_at": "2026-11-06T21:06:28.677197Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
     {
-      "title": "フィギュアGP中国大会 男子前半は三浦が首位 佐藤が2位",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261107de71982",
+      "title": "ナスダック一時2％上昇 買い戻しの動きも投資家の警戒感根強く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72002",
       "source": "NHK",
+      "published_at": "2026-11-06T20:57:49Z"
+    },
+    {
+      "title": "テスラ「サイバートラック」の生産を段階的に終了へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de71991",
+      "source": "NHK",
+      "published_at": "2026-11-06T20:54:09Z"
+    },
+    {
+      "title": "ヨーロッパ旅客機にまた爆破予告 テレビ局も標的に",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de71996",
+      "source": "NHK",
+      "published_at": "2026-11-06T20:52:13Z"
+    },
+    {
+      "title": "台湾有事発言1年 関係改善には時間も 対話の糸口探る 日本政府",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71967",
+      "source": "NHK",
+      "published_at": "2026-11-06T20:50:40Z"
+    },
+    {
+      "title": "消費税減税法案が衆院通過 参院で与野党の合意形成が焦点に",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de71985",
+      "source": "NHK",
+      "published_at": "2026-11-06T20:47:05Z"
+    },
+    {
+      "title": "米10月雇用16.5万人増、予想大幅に上回る 失業率4.1％に改善 - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd2RuRy11VUpnVndfWWkwZDJnZEpRdHZYTmRWWklDcy1qT3I5cHBMZDhWQm15VDFxX0VVV0JyTnZ2ZUU2YWpIblJIWTRqYjEyRUdBdmt4Q0FKd2dNMDZWTEpsN1BwcUZua0xremhWVEozazdYeGpwd2NtXzZDdWdtV3kwNEdfQQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T20:08:24Z"
+    },
+    {
+      "title": "国税庁装う偽メールが急増「メールで還付手続き案内しない」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71902",
+      "source": "NHK",
+      "published_at": "2026-11-06T20:05:13Z"
+    },
+    {
+      "title": "中国人の日本への印象「良い」「普通」で６７％、「反日」一色ではない世論浮き彫りに…北大研究室の意識調査 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zazBaUlZmQUtOMVZTV2d3eW1LNDgyVl80Nk1CODZQWlV1Mzh0RFk0TlhpTTRIMkdBZlhwaUo1dFR0TGMwZ2ZEalRINGtmYzdLa2drQ0FkMzY5OXFZcmNUYkln?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T20:00:00Z"
+    },
+    {
+      "title": "大分 陸上自衛隊戦車3人死亡事故 前の砲弾の破片が原因か",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de71984",
+      "source": "NHK",
+      "published_at": "2026-11-06T19:56:32Z"
+    },
+    {
+      "title": "【速報】トランプ大統領 最側近のワイルズ大統領首席補佐官を交代 中間選挙での大敗受けた事実上の更迭か - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kTW9ySXJVOHBOMU8zbFhMZUdfRGk2ckh4Z01XMHNub3VqVkVGaElqcGdvbkJFUVY0ZnhNZmE2X3ZhekNuSnhFNktkdXZvN1EyVTVPYkp1VThCXzd5MjF3VDBubVAwZjNXUEhsSXFNM1ZzM1hxZTBIRTZ2U0t1Nlk?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T19:47:14Z"
+    },
+    {
+      "title": "【FP1】フェルスタッペン「このダウンシフトは受け入れられない」 レッドブル代表が無線の真意を解説／F1サンパウロGP - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZSElrVlNIdjVldUFWMElWVEF1TUhsbVVtcTNjMWVsMS1MaUpSdXBlU1FOSTNhaHZiU001bG1VOVVWWXlvSlVhemVNUFMwRlYtT2FiTmdsYUFIY3hsQlJrSGNvOVJvZWZwSzdncmxPNzJvRW9QU0RvN09GbC1FemM?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T19:45:24Z"
+    },
+    {
+      "title": "フィギュアGP中国大会 男子前半は三浦が首位 佐藤が2位 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBodG1zUzg5NEh4OU41dnNKNXFRWEhia1hkejR6NFhYWllTRVgtZVFoZ05EdWFhbkl1LURVTTVGbzlfdDNZTHR6OS04Q3dlUkhYWWFhM2VlUHo5SVhrckkw?oc=5",
+      "source": "Google ニュース",
       "published_at": "2026-11-06T15:51:38Z"
+    },
+    {
+      "title": "「火がついた人が入ってきた」発見遺体は“第三者” 三重で住宅全焼 - テレ朝NEWS",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xRUo5Q0ZlODRzLTk2T3ZXUVVudEtFRTNOLU5IcUJTRHdyVHJGVTFXXzc3OENhclM3Zk0wWVJiTlZZWkJSZUFhcXBpbDVDNzlIQWJBOGpwblc3anh3S1EyTFJLM1ZDam9ldzZBd2JRTDZYZw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T15:47:00Z"
     },
     {
       "title": "RIZEボーカル JESSE容疑者逮捕",
@@ -22,10 +94,16 @@
       "published_at": "2026-11-06T15:39:05Z"
     },
     {
-      "title": "アメリカ就業者数 市場予想上回る 来週の物価動向焦点",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71979",
-      "source": "NHK",
-      "published_at": "2026-11-06T15:11:00Z"
+      "title": "［深層ＮＥＷＳ］共和党大敗がトランプ氏に与える影響「権限大きい軍事外交分野でレガシー見いだす」…長島昭久氏 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2YnJqcjVPQ3AtUWR6a2szTDgtbjRpbjJCVTc1ekRMWTZLV1VsZzJyMkxtY2FBdWhkYzRla0tVZUpneDFvd250ckZKdFpKNTRrV1dab1hOeWdHdExvSHRLaDB3?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T15:21:00Z"
+    },
+    {
+      "title": "「消費税減税」衆院通過、高市首相「支援金対象は就業者の３割以上で検討」と明言…１１日から参院で審議 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WY05tbEY3bmJ6Z1dURTFMbDF1ZUd2WXplYmFPUUdyWmg5VEVXWjJTYXVteVg5by1jUzRKZzU4UmNmQ2JmemVJMW9iTTJFTFNfa3ZBV0dCYmNjRVE1MHNjcHNGS3IzZw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T15:07:00Z"
     },
     {
       "title": "米10月雇用16.5万人増 予想上回る",
@@ -40,16 +118,16 @@
       "published_at": "2026-11-06T14:57:00Z"
     },
     {
-      "title": "訪問介護 厚生労働省が新たな支援方針 サービス維持への課題は",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71869",
-      "source": "NHK",
-      "published_at": "2026-11-06T14:50:29Z"
+      "title": "だからか！　ＬＯＳＴ１０　ラスト杖ついてる人物に、あっ！登山ツアーと極秘下山→まさか真相が決定的　落雷で事態急転【ネタバレ】 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbS02NVJxS0FJVjRCcEVsakRrVDFVeDhQOHRDemQ3Sm9aTUtxeUJFVzMxQy1KSVU1QW9Lelc4SkZPUk5nNnh3Zm5wM04xdUx6UmNLLUlNcFppWE9PRHh2eUIwbTZkMW5QZlVsMXNuTjZMYkh3VWI0c0Vscl9CR21wMnpuVdIBiAFBVV95cUxPNVk4bWNrbzQzamNNWWpvcHdZelFFZFktZ0NFbGY0a1p1TnN3eXNnMjVMM1VtRWNiZ1ZFN3dhMVVsVFUxZWs0WldUSEVpMTBybHd5bWlldE92LS1lLXNQM0dVMnA0WElfTjRYaGdUMDVseXhlbWI4Y1hPem8yTENobk1qOVdnbWVK?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T14:54:00Z"
     },
     {
-      "title": "高市首相 「台湾有事」答弁1年 “中国と安定的な関係構築を”",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71861",
-      "source": "NHK",
-      "published_at": "2026-11-06T14:42:52Z"
+      "title": "政府「ブロッキング」検討、漏えいによる二次被害の切迫で…通信事業者からは「制度的な整理が重要」との声も - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYY24xeDlpMEJFWDhPU2VGeGRMYzFDZ3FZNFB1Tm4xc0VJWUMyVnJGUU9QWGxZay0wdjZUVUt5MmpfOHlsQjBfdGltZHNsUFl3bFMybjk2Q1lxRkZ4V3ZxTklDQV8?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-06T14:34:00Z"
     },
     {
       "title": "池袋女性刺殺 容疑者死亡で不起訴",
@@ -64,34 +142,10 @@
       "published_at": "2026-11-06T14:17:32Z"
     },
     {
-      "title": "【市場反応】米10月雇用統計はポジティブサプライズ、ドル高｜FX・為替ニュース - ザイFX！",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3bG1heVoyZGVKUTctUmZvMEdFZDNiS1UyWFVQVWxlOFBSdVZKcE44dXo0Nk1yS1lSM3ZON2p2ajFyM2lSYVZ1cDBHVW1lU2o1MUE?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T14:14:00Z"
-    },
-    {
       "title": "KDDI社長 決算会見で2つのおわび",
       "url": "https://news.yahoo.co.jp/pickup/6601580?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-06T13:44:06Z"
-    },
-    {
-      "title": "サイバー攻撃対応強化で法改正検討へ 国内通信情報取得が焦点",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71963",
-      "source": "NHK",
-      "published_at": "2026-11-06T13:42:00Z"
-    },
-    {
-      "title": "政府がサイバー攻撃「緊急対策パッケージ」決定、強制遮断「ブロッキング」や被害企業に「官民救援隊」派遣 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RTjNiTDIyQ0stRlhsMWpsRVd1bk90aTBNVHd5TFA5MnhLZmxpMFNURk1KX0k2dGFVR09fdWF1c3g2QzVERVNQZklRRV9yclc0SXUzbGhrMFhXSVVQeGE1MXI3U1NiQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T13:37:00Z"
-    },
-    {
-      "title": "相次いで空き巣被害にあった男性が状況語る 愛知 岡崎",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71943",
-      "source": "NHK",
-      "published_at": "2026-11-06T13:36:21Z"
     },
     {
       "title": "無償トレードの東浜 素直に驚き",
@@ -100,34 +154,10 @@
       "published_at": "2026-11-06T13:21:59Z"
     },
     {
-      "title": "NTTドコモ 最大約30万件の顧客情報流出で陳謝 一部で勤務先や口座情報も 見舞金も検討 - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwZUcyaHJCaUZaeWZYbHF3V1d1RVduUDhKLWFHQ2FpVUx3UVN3Qmk4T2VkVE9yV1FxU29NUW9FdlFENVVFbm9mVWdPeVVsVDZ5RUEwd0FmNDlJYUMxcFZDTFFxQWdoc1dfbklpR2tGdEZrQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T12:42:48Z"
-    },
-    {
-      "title": "Juice=Juiceはファンも含めて無敵集団！カッコよくてかわいくて大人っぽくて強くて優しい魅力が満員の武道館で爆発 - ナタリー",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5kM0F4Q0IxV194WmF6ajRzRkYwR0FyYkI1MW15Y3YxcV8xd0w2bFNxNjlVdTcxUHdoM09uX1hpcV9QckxsMEp5bFRobzY?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T12:30:00Z"
-    },
-    {
       "title": "ＪＴ子会社の資産がロシア政府「管理下」に、日本政府は措置撤回を要求…経営権を事実上奪われ悪影響避けられず - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02bF9Zb2NKVkVHOGhOS2oyUWQ5MnhUc1dXcmhwVWRYeW8zaEVfejlmS0cwNkVNR1gwdzRkUkpvRG5UTFlzRnppMUNMM2R1QmstTXgtQV8tVHRBSXdUNEdseHJIQUo?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-06T12:27:00Z"
-    },
-    {
-      "title": "余命宣告後“神様の贈り物” 2200万円持ち去り実刑判決 仙台",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261106de71905",
-      "source": "NHK",
-      "published_at": "2026-11-06T12:23:00Z"
-    },
-    {
-      "title": "台湾、在パプアニューギニアの窓口機関を閉鎖 「中国が介入」と非難、LNG購入停止 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM1BNSmhWXzNSSm5kNk1sRHdTTDhuSTJCNmZyM0ttd0gtanR5RXRvaTNpblFnbjliSV92WlFQaXd6NjhZRGkzeHVRZlFnRlBRejYzZkZTZ1FXM0RjYTl5c016aWRvUjVxd3E5WjBlOUpJTGxPY3hmUDV5eDdlUThGTnFpdEJGZ0hwRFhXYQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T12:15:42Z"
     },
     {
       "title": "フランスで「最大規模」の抗議デモとストライキ、労組呼びかけ５７万人参加…一部は暴徒化し４５５人拘束 - 読売新聞",
@@ -142,46 +172,16 @@
       "published_at": "2026-11-06T12:06:05Z"
     },
     {
-      "title": "リンクサイド：千葉百音、衣装変更の理由「実はこっちが…」 中国杯女子SP - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54Qmd5YnJCbE9CSTdVMWFUTDZrVzU5MlZtTVRpSHJPUm9MZVg4MVdJOHd4VWIzeTRacXlMaGM2ZzJKTXVPd3BnM1paeVZIc01pRWdhdmZnVE5KZTF5Ry1JOEs1VEs3b3pp?oc=5",
+      "title": "10式戦車、砲身内の残骸原因か 大分・陸自演習場の4人死傷事故 - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTX0ZTaklWYjdZbk1fY1g4eDRuamhMMF9tZVE1cVZZYzBCS3BPZUNmQ1NqSzNsV1ZoQmRmVTRDU1hYb08zNUZoZHRmbkJxY25LVVdpSGhDc044ZmJDc3VBYngyVW1sdWh2?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-06T11:42:05Z"
+      "published_at": "2026-11-06T11:49:58Z"
     },
     {
-      "title": "ドコモ 流出の対象者に見舞金検討",
-      "url": "https://news.yahoo.co.jp/pickup/6601566?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-06T11:35:39Z"
-    },
-    {
-      "title": "「議員辞職ものだ」 消費減税法案「造反」4氏に執行部怒気 - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54Y2dXWEZVajlRRExXdVBGdTYzdF9Ubjg3WjdfX3pQcGl0b25SM0VQemc4NDVtSU1BaHgzNGVZZy1QTTlNTUE1SUppaWFlUU50TEptUEowNVlrY2daTDNCX0FOTzNEdnRT?oc=5",
+      "title": "ＮＴＴドコモ、情報流出３０万件 不正アクセスで口座番号も - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZM203dWs4UndqWjQtM29kYmd0ODZLZmJYMmxLbmkwcUJnNFdNY29hamJDUGZ5aHNEU2tjMU5pSDN6Q0ZVb0NGVFJFNVBrQmpyX1E4Vkt3YjBMMlV2TVl6Z18tbw?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-06T11:22:24Z"
-    },
-    {
-      "title": "マグニチュード6.1、宮城や茨城で震度3の地震 東京や神奈川でも揺れ観測、各市町村の震度一覧 11月6日19時39分発生 - 福井新聞社",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBZ0d4UmJiSUQ0OVNmb21EdV9tbGJjN25iSkwyZEVkZ2Etc3VtUkV5NU8xelE2NFJpUjJTZnNfemw2VUxnWUJoLUxYVmhuSEZ4MHRVUldpNHdpcG1VVXc?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T10:53:00Z"
-    },
-    {
-      "title": "浅野温子、松葉杖で登場 ブルーのドレス姿であいさつ - オリコンニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QR3djWDE4NXQzZF9mVXJicUNxb3RReU1ieHJBVFZkajJzblkxNS00NTFfaklhbXdwbm1oTktmSTVGUGJqOFNhdzBRM296Z0JqbVlNSXNB?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T10:25:00Z"
-    },
-    {
-      "title": "強い冬型の気圧配置に 北日本は大荒れ 大雪のおそれ - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VZGN4bHBzUDJ5TFBZY3I1cWdVOTZPTzRTZE9tUW9vNUNzOHppdnh6alFhVFdsdC1nbFlYN2dVaDZpdE45cVNJcHh0ajIwTlFnNFZvTl8wRGxhZjd3aTdv?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T10:10:13Z"
-    },
-    {
-      "title": "【女子ゴルフ】なぜ日本勢は強いのか… トップ１０に８人ズラリ ティティクルら下位 日米共催ＴＯＴＯジャパンＣ（スポーツ報知） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11NXVrNkpvcElBdlU4LWc3STM5cXVZbnE1eThPWGI3cXNoYnF3NUxxdzZnQkhIUDN1NC14WElWVGxyVE1wdkx3N2lpTTQwRVI4MmZZczA5WDlrbUtXdkhHdVY3YjFULXQ0UkFvSUVWaTZ0Mm1Vay1yRnpyT0pKTW8?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-06T10:00:26Z"
+      "published_at": "2026-11-06T11:47:00Z"
     }
   ]
 }
