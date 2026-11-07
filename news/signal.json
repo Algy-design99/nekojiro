@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T22:27:54.864279Z",
+  "updated_at": "2026-11-07T22:41:35.779290Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
@@ -7,17 +7,45 @@
   },
   "items": [
     {
+      "title": "東海道新幹線 東京～新横浜 上下線運転見合わせ 支障物の影響",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72365",
+      "source": "NHK",
+      "published_at": "2026-11-07T22:39:30Z",
+      "region": "jp"
+    },
+    {
+      "title": "東北新幹線 東京-盛岡で見合わせ",
+      "url": "https://news.yahoo.co.jp/pickup/6601731?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T22:38:37Z",
+      "region": "jp"
+    },
+    {
+      "title": "リトルなでしこ W杯準優勝に涙",
+      "url": "https://news.yahoo.co.jp/pickup/6601726?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T22:35:12Z",
+      "region": "jp"
+    },
+    {
+      "title": "東北新幹線 東京～盛岡 上下線運転見合わせ 架線の支障物影響",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72358",
+      "source": "NHK",
+      "published_at": "2026-11-07T22:28:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "愛知県で震度5強 20人超がけが",
+      "url": "https://news.yahoo.co.jp/pickup/6601724?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T22:25:19Z",
+      "region": "jp"
+    },
+    {
       "title": "VIVANT最終回 二つのハードル",
       "url": "https://news.yahoo.co.jp/pickup/6601722?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-07T22:19:31Z",
-      "region": "jp"
-    },
-    {
-      "title": "ロシア軍がウクライナに大規模攻撃 住宅など被害 市民生活影響",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72339",
-      "source": "NHK",
-      "published_at": "2026-11-07T21:46:40Z",
       "region": "jp"
     },
     {
@@ -28,24 +56,17 @@
       "region": "jp"
     },
     {
-      "title": "福岡市長選は稲富氏がややリード 調氏、森氏、新村氏が横一線で追い上げ 投票先分散し再投票の可能性も 電話による情勢調査（TNCテレビ西日本） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93MmRhcTZ6TERmZU51NnpoemlLMzZfQTdJaGlaV1lMdEx6b0RlNlpGS0NrcUZHRl9zSTBJQnZ4MHdnUjJVUHd2WHBZd3hmV000YVFRa2RjMXp2eERQRFk3bUFOUUIxMjJPSFEtV25SV2pCOGNRem5wdUhfdE53VVE?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-07T21:23:26Z",
-      "region": "jp"
-    },
-    {
-      "title": "中国で拘束 服役の大手製薬会社社員 来月刑期終え出所の見通し",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72316",
-      "source": "NHK",
-      "published_at": "2026-11-07T21:19:46Z",
-      "region": "jp"
-    },
-    {
       "title": "愛知県で震度5強 “南海トラフ巨大地震とはメカニズム異なる”",
       "url": "https://news.web.nhk/newsweb/na/nd-20261108de72252",
       "source": "NHK",
       "published_at": "2026-11-07T21:17:29Z",
+      "region": "jp"
+    },
+    {
+      "title": "台風32号(チャンパカ) 進路の向きを変える予想 週中頃に小笠原諸島に接近のおそれ - ウェザーニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9iOXBqZ0c2RWE3Rkl5Sm5PRUpGYlFIQS1RdnZHUmxIbU1LN1cyOVF4WjVIUjZ2OTRWSm40c1lHbF9oRzc0a2VwTkJ2c1lpNFR5c0hCSg?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-07T20:52:00Z",
       "region": "jp"
     },
     {
@@ -63,13 +84,6 @@
       "region": "jp"
     },
     {
-      "title": "週間天気予報 週明けの明日9日(月)は各地で雨や雪 週中頃からは晴れて気温上昇 - ウェザーニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10RjRLMTBtU3BHcS03TmcxTTMwcUxnQ3hSdW5TZXVJZWVIaEFBeXI1QjEzeWx1LVRrUEdvTHpTY3ZiR0MzS3Z0dE5OM3V2WGlRSkpOVQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-07T20:31:00Z",
-      "region": "jp"
-    },
-    {
       "title": "気象庁記者会見 “同程度の地震に注意”【会見詳細】",
       "url": "https://news.web.nhk/newsweb/na/nd-20261108de72259",
       "source": "NHK",
@@ -84,6 +98,13 @@
       "region": "jp"
     },
     {
+      "title": "【地震情報まとめ・随時更新】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA1cFdIX19aWWNLVnZuNG9DT0VhU090NU5ZYkVuMkhFdFREM0REQ0FkRk9pdVRIZlNiZlRBSmxpT2tXcVdqMFk0SjBuMTJUMWNVeC04RmFmMA?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-07T20:12:00Z",
+      "region": "jp"
+    },
+    {
       "title": "2023年からの旅路にピリオド。「VIVANT」最終回の前に立つ二つのハードル #エキスパートトピ（中西正男） - エキスパート - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTTdfQjYtS0xtT3VtUlBOaUg3VmlfV2FZc2JtVndyT2lscGhvVTlXQk56VzdIWTRjTnhndTN4TWo1b0l3N1ZfUkVWelg3MlpUMHlpN25nNVF5ZThoS0M5VEh2R3l4YVVWazBuMThiZld1Z3dHT1FTR2M4X3I4aFZ2VEZ4Z1N0UExS?oc=5",
       "source": "Google国内",
@@ -95,13 +116,6 @@
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1tNnRkVGQ1NFBqOXdLdDRhTUE1YURxbTdTeUl3UTlrcWxoRkVFdFotdFE4emNtYmZJLVJKR2FCRHJuYXR2LTVsQUhfeGU?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-07T20:00:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "地震 長野県内では売木村で震度5弱 飯田市内では倒木や落石も - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81cW9nT0N2dUkzYmtEWUJ5VTJtcHVodFdJcFZ0Nk5JWU5NcUgyY2hsbnZ6VGhRbjV0ZkVMallIU3FsLXZnZDE3TC13Yklna3ljYWpCSWE5NUFaeHJHemVR?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-07T18:43:47Z",
       "region": "jp"
     },
     {
@@ -123,20 +137,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xOTNUdTZPMVo0N2dOVUtwTGdBSlJ2NlpGR2xELWxna1BnRVA1ZEtnOXBWOU9lR3hxTWhHT1N1NnQtb0lXRFFmRXEyUVlvYzRYQU5HMjFXdks0WXpraWtYc2trWklGRm9CckRCcA?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-07T17:00:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "愛知県で震度5強 津波の心配なし",
-      "url": "https://news.yahoo.co.jp/pickup/6601719?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T16:13:23Z",
-      "region": "jp"
-    },
-    {
-      "title": "大阪維新の会「吉村体制」3期目に",
-      "url": "https://news.yahoo.co.jp/pickup/6601718?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T14:37:04Z",
       "region": "jp"
     },
     {
@@ -165,13 +165,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5leEFZSy14QUVuREU3N2w5TXZqT0pBaUhNa0RoLWtRazN0OHFBeWMwVW55LVR0M0pzeUl5Mzl2OGFjNm1NbmZvUl84cG13N3lsVkJxYkZVQTE?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-07T13:50:29Z",
-      "region": "jp"
-    },
-    {
-      "title": "FA宣言 15年ぶり「2ケタ」現実味",
-      "url": "https://news.yahoo.co.jp/pickup/6601712?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T13:46:07Z",
       "region": "jp"
     },
     {
@@ -273,10 +266,17 @@
       "region": "jp"
     },
     {
-      "title": "宇宙の“声”に耳を澄ます 地球外知的生命を探せ - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KZWdocjREOGFxT2Y3RGhTb2pXclJmUFFIZENHYUtBV293OVAzVnpQbWNzQnN2Y2RtWV9OX2tWLW1BaFE0aXBneEhQNHlQNHl6cUJ1b0FXZVNkZU1vWUZF?oc=5",
+      "title": "9日は東北～九州で冷たい雨 東京は12月並みの寒さ 日ごとの寒暖差大 2週間天気(気象予報士 吉田 友海) - tenki.jp",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nUENzZHQzMGtnLTN3SzROM0Z1bzRXdWtvdy0wRHFZZ3V0aXI3UHhlcUZ4S3FJQWQ1Q19za0szckpqZnJOZXNTc01KWUVFNWdZOV9rblgyQzlGdERHOHQwNXdhdGdJZ1JpQWVr?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-07T07:20:47Z",
+      "published_at": "2026-11-07T06:50:46Z",
+      "region": "jp"
+    },
+    {
+      "title": "米国株式市場見通し：AI関連の一段の調整リスク後退も上値追いには慎重姿勢続く - 財経新聞",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9GNnlpZE1fRGlVRzJTMjZmdFlOaGR2d0lwS2J0ZUs2ZTE4X201YkhEdUsweXJYWjViRjVmNjA3WnNmUFRNWnFFaGlTVDNkTk1uQ3BGMUhLc0ZJLUM2c1hEMVVfOA?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-07T05:32:43Z",
       "region": "jp"
     },
     {
@@ -285,6 +285,20 @@
       "source": "Google国内",
       "published_at": "2026-11-07T04:32:00Z",
       "region": "jp"
+    },
+    {
+      "title": "【VIVANT】海外ロケで1日300食提供 店を2か月半休み協力したシェフが語る舞台裏 「悩んだ時は面白そうな方に」 新潟 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TX3F2eTd4alA3UXBzSllmYWF6LXJ5VmxIeGd0UlJ3MW5wYk5KMVAxa0d1clNvOGt6UXk5Z0JnT0x3RWlaa2RiWXZqZExiWXhTUGFndW1VY1JwMmtBZU1wckhVMUhjd09EMmt3TFFvcHpiUWpLalFIU3lFR0FIRlU?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T22:38:48Z",
+      "region": "world"
+    },
+    {
+      "title": "世界記録へ挑戦！「おそらく世界唯一」頭蓋骨8000点が集まる尼崎のミュージアム、異様な“仮装祭”に潜入 - Lmaga.jp",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0Q2cxVVZsTzB5WWZ4cTR5MlBaTndxYS1lT1JfRmxSV2V6WlhSZnRvYXU1cS1sYnBZLVktY3dCNnlZSEpXWUpDM0tRYllIZ3J1anNaZ1ZpQnJCZVU?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T22:30:12Z",
+      "region": "world"
     },
     {
       "title": "アンチ使いのウィンター、世界ランク8位・陳熠をストレートで下して4強入り　準決勝は大藤沙月と対戦＜卓球・WTTチャンピオンズフランクフルト2026＞ - ｄメニューニュース",
@@ -305,13 +319,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85dkQwSjhzdnpfWWdTc0NnNVRYNmFNTnpYbGRyUXB2RnhPY0RkYTUyNVJqYmlvZlhTdll3T21hTmZtV2cwRUFjTF9aS1RVbTVMWkVuYkdUeFlhamNaMjRCQXZOdDJNaEnSAWxBVV95cUxPOGhXalJxYnBRRmxHUVpsT2t3bEVBUXZVY0FVQUt1S09BYUNBeWdMcDZIRlhmRTB2RUJPUFJBelg2RkNUSk1DUWNYT2VMRTNpcGtGcWlnb2M1aE1GeU5VZmJKQlFMaEFyeFh4cE0?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-07T22:17:10Z",
-      "region": "world"
-    },
-    {
-      "title": "乃木坂46矢田萌華“ザ・文学少女”の世界観で魅了 『週刊SPA！』表紙飾る（オリコン） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13OFY2Vi1laEdKbk9hbWVVRjRWQlFWVWQxN1VrNmlFRUMyeGVEdUJSb1U2OU5Kdmh6anZ0Y25LQ0FmbUhuUVZRMDdySzVWYnJ0azFaUXhrdzJ0bTNHZXBzd2NtdXZYMi1kOTFmQ3hhNVRQZ3RsME02ZGR1SzhSQlU?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T22:13:33Z",
       "region": "world"
     },
     {
@@ -337,7 +344,7 @@
     },
     {
       "title": "乃木坂46矢田萌華“ザ・文学少女”の世界観で魅了 『週刊SPA！』表紙飾る - オリコンニュース",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tMnhhQVU5VDh3ZHR5SmhuZ0V5cDVnSEpjQXNSVDBnbXgyZzh1OENaWjRZeEZZWGxoekdjdzFPZXM5Y2pEdWRkcDNoS1FHNk0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BeEF5OHVlanBnekFiZXlwZnpTV29TQUpuT2x4R0lPRUZXNW1wb3Q2S3IwOHNITE04ejVXNXFzeHE3NVJTQ1dTdUJUcV9OcGpzenVEdEpn?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-07T22:10:00Z",
       "region": "world"
@@ -350,17 +357,17 @@
       "region": "world"
     },
     {
+      "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T22:06:37Z",
+      "region": "world"
+    },
+    {
       "title": "【大阪・阿倍野】パンの世界大会経験シェフが集結、あべのハルカス近鉄本店でパンの祭典「ブーランジェリー博覧会」 - ｄメニューニュース",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE12dEFJYndTUWhKRXM5SFc2RnlyZS0xR3p0Vmp4aXQ3VkZ2NnRCYzRMTzYxaFo3Q3ZuaG1PLWYyWFZtYjZhMEs1UjNHdmpHS1BLLWI4WHA2TDVJbENKcGJLR1pLNml2MDZEOW5TckkxYmJ4UdIBd0FVX3lxTE1QQzlRZFpTMmZTM19qR0VIbmU0S2dCNzFEaW5kU0R2QVJ2NnY5QWk5bVFfdVBfS2xvX25nd3ZVQktpMVBHejMydklvZzdnbW9zQUxVXzFRQTM5cTE4c0tpYTNMOHFyTG16Z3dJOVJYZ2ZURGlqMkNR?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-07T22:06:32Z",
-      "region": "world"
-    },
-    {
-      "title": "世界ツアー「FLOW WORLD TOUR 2026 “NARUTO THE ROCK”」＞世界47都市を巡った世界ツアーを完走したFLOW - スポニチ Sponichi Annex",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSmFxaW5MdkNja2dvTnlKNnQ4YWJuQk5pdWtzY19EREhxdEt1VjV3a2hMOVhBdUhEZVVDYU9RTlJHT3dBM0tDZVB4OFNTMWJncm9oRkpmQkE5RHdKbHhWNUVpeVU5UHBWRm1UcTdJUm85b2NDSTN4R09hcGZxcFFJN3hfb2R1VjBzWWtLNjlIdnFYOWlzZHc?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T22:03:33Z",
       "region": "world"
     },
     {
@@ -378,10 +385,10 @@
       "region": "world"
     },
     {
-      "title": "「合併せず」は独自路線？ 全町民に10万円給付、小さな町の謎 [写真特集1/12] - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyNktVbGEtWHdlVkVscGFHaFhMa3A2WlBlU19hQXBUWTVIRDJrMURSa0hsWEd2RzZDX25YRnJuYnNUTi1hT21DOEtqT2pRQ000ejkxWjRpLS1MZFM2OURhOUdsYlMtcUE?oc=5",
+      "title": "高市首相「台湾有事」答弁1年 中国の威圧を「世界が問題視」日本はレアアース調達多角化 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUUzFsX0RGd2EwV1A4U2lzSFFIUE5DUGhEUVh6dHlrZkpTOS13NVpxX0tFS0s5bUxvSkctbWVaa09lTUQwY3p4RGlXM2dGOE5YT01zaEtEdkFfSEpkckM3UUpxT3BtU0F2cEN5MVZiWWJuSlhMWFE?oc=5",
       "source": "Google海外",
-      "published_at": "2026-11-07T21:59:00Z",
+      "published_at": "2026-11-07T22:00:00Z",
       "region": "world"
     },
     {
@@ -392,10 +399,10 @@
       "region": "world"
     },
     {
-      "title": "FLOW「世界中の皆さんありがとう！！」自身最大規模ワールドツアー完走（日刊スポーツ） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pekI4S3lrSEpOSThWbUFlUkkyblFXa2xkZnNpYUk0dWh1NGdBWXh2WmFLSTRPQTNTNXhYNjNHMXgzOWl5bjJKUVBTMVVqTXdGQTBhZ1dfbVhzUVpaQWdFaXdiVThxWGdETFF2VWZvLUlMbzJhSlZ1dHNuWjZTWFk?oc=5",
+      "title": "FLOW「世界中の皆さんありがとう！！」自身最大規模ワールドツアー完走 - 日刊スポーツ",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12eDRWWHdhYjk5a3FoNDJWVlM5TFJMZVBJSE1PV0xfWmlJckxtY2d6S2NLMXZlREN5RTR3SFlhVWkzZXpvbzdJVHl1eDMzZlJKRmFzQnlNT3Fnc1hseDZNSTViNHJfWE5OMHROcUU0SUNKQ2RDa3Rj0gF_QVVfeXFMT2NocGp2clRzczE2S25lQk9nNDNxUG1lcG9xdmRiSkRiNzFmMERCN1RId1EwekJQbnRCWE5vekt2aERFcUVnQmIyMW5WNFJZbWxHX2tiSE1XcFJWRFhYVmUteGp3MjE5UnhuSXpfeXh6bUI0Njg1RXotTnpFOC05OA?oc=5",
       "source": "Google海外",
-      "published_at": "2026-11-07T21:55:58Z",
+      "published_at": "2026-11-07T21:55:00Z",
       "region": "world"
     },
     {
@@ -441,10 +448,10 @@
       "region": "world"
     },
     {
-      "title": "世界半導体関連フォーカスファンド【09311239】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02b3VKZ1V6cWlQdHBWY3BjYWlFcjMzdDZ5NjdPYS1teEd4cVZfUzZfdkhnZzl2d2lIVkRTMjd0T21aZ1ZSYi1hWndSamVZYUt2c09iWg?oc=5",
+      "title": "eMAXIS Slim全世界株式(オール･カントリー)【0331418A】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BN1c3YjE1dGRjUzFOcHZ5cHM3U2Q2dkE2Mm1kZ3lVdUJCNi16ZDZ5LUlaaHB3V2NyVlpCTVdaRzBPVnBkT1ZxNDRhdWZrcnhvak9nQw?oc=5",
       "source": "Google海外",
-      "published_at": "2026-11-07T21:24:24Z",
+      "published_at": "2026-11-07T21:24:20Z",
       "region": "world"
     },
     {
@@ -557,13 +564,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16UnNNOFRBQTdDZDNpM3E5aUVXb0Q5TDQ1dmt4R2cxMzhSamk3R3ZyNTBkQWU3NmlZQ1czTERmbk5vck9WU2pTb21XdXFoVlU5WVduYnRkNmFZRGt5aEMyRVJaSjU?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-07T20:46:01Z",
-      "region": "world"
-    },
-    {
-      "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T20:44:09Z",
       "region": "world"
     }
   ],

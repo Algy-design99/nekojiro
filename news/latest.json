@@ -1,25 +1,49 @@
 {
-  "updated_at": "2026-11-07T21:59:39.532514Z",
+  "updated_at": "2026-11-07T22:41:34.139043Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
+    {
+      "title": "東海道新幹線 東京～新横浜 上下線運転見合わせ 支障物の影響",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72365",
+      "source": "NHK",
+      "published_at": "2026-11-07T22:39:30Z"
+    },
+    {
+      "title": "東北新幹線 東京-盛岡で見合わせ",
+      "url": "https://news.yahoo.co.jp/pickup/6601731?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T22:38:37Z"
+    },
+    {
+      "title": "リトルなでしこ W杯準優勝に涙",
+      "url": "https://news.yahoo.co.jp/pickup/6601726?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T22:35:12Z"
+    },
+    {
+      "title": "東北新幹線 東京～盛岡 上下線運転見合わせ 架線の支障物影響",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72358",
+      "source": "NHK",
+      "published_at": "2026-11-07T22:28:00Z"
+    },
+    {
+      "title": "愛知県で震度5強 20人超がけが",
+      "url": "https://news.yahoo.co.jp/pickup/6601724?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T22:25:19Z"
+    },
+    {
+      "title": "VIVANT最終回 二つのハードル",
+      "url": "https://news.yahoo.co.jp/pickup/6601722?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T22:19:31Z"
+    },
     {
       "title": "【鉄道影響】東海道新幹線 上下線遅れ 在来線一部運転見合わせ",
       "url": "https://news.web.nhk/newsweb/na/nd-20261108de72329",
       "source": "NHK",
       "published_at": "2026-11-07T21:44:28Z"
-    },
-    {
-      "title": "イタリア外相 個人情報が闇サイトに ウクライナ支援で標的か",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72338",
-      "source": "NHK",
-      "published_at": "2026-11-07T21:39:42Z"
-    },
-    {
-      "title": "中国で拘束 服役の大手製薬会社社員 来月刑期終え出所の見通し",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72316",
-      "source": "NHK",
-      "published_at": "2026-11-07T21:19:46Z"
     },
     {
       "title": "愛知県で震度5強 “南海トラフ巨大地震とはメカニズム異なる”",
@@ -28,10 +52,22 @@
       "published_at": "2026-11-07T21:17:29Z"
     },
     {
+      "title": "台風32号(チャンパカ) 進路の向きを変える予想 週中頃に小笠原諸島に接近のおそれ - ウェザーニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9iOXBqZ0c2RWE3Rkl5Sm5PRUpGYlFIQS1RdnZHUmxIbU1LN1cyOVF4WjVIUjZ2OTRWSm40c1lHbF9oRzc0a2VwTkJ2c1lpNFR5c0hCSg?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-07T20:52:00Z"
+    },
+    {
       "title": "赤旗中断80分。悪天候が生んだ大接戦でノリスがPP。ホンダPUのアロンソが今季初Q3進出を決める【予選レポート／F1第20戦】 - autosport web",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5YTWZKQk5TT1NOdy1qc0ZTdFhpSFg2R1l0N2ZFdThGazFFRXY0elNjSDR1Z0tXaURNaWZ0Nm1MdU5qRUVUdmRF?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-07T20:40:00Z"
+    },
+    {
+      "title": "【ラグビー】日本代表、ウェールズに敵地で２１―２８の惜敗 ネーションズ選手権１勝３敗、次戦はイングランド戦（スポーツ報知） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WRXVnaWhGR2R5TmpidTR3el9CSWFTcGRNMndMQUNGTURUMnUwb3hHa3lUTTF3cWttREpBb0NMUmxnVlVsNkcwUzhwWVFDd1dTb044bUVWMGY3SlBRTDhoQ1RiQ1V4YXZDOEFjeWpxa0pRRUxrWHJpT21ILVdtaDQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-07T20:35:01Z"
     },
     {
       "title": "気象庁記者会見 “同程度の地震に注意”【会見詳細】",
@@ -46,10 +82,22 @@
       "published_at": "2026-11-07T20:26:30Z"
     },
     {
-      "title": "地震 長野県内では売木村で震度5弱 飯田市内では倒木や落石も - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81cW9nT0N2dUkzYmtEWUJ5VTJtcHVodFdJcFZ0Nk5JWU5NcUgyY2hsbnZ6VGhRbjV0ZkVMallIU3FsLXZnZDE3TC13Yklna3ljYWpCSWE5NUFaeHJHemVR?oc=5",
+      "title": "【地震情報まとめ・随時更新】愛知県で最大震度5強の強い地震 けが人も 被害･交通情報の詳細 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA1cFdIX19aWWNLVnZuNG9DT0VhU090NU5ZYkVuMkhFdFREM0REQ0FkRk9pdVRIZlNiZlRBSmxpT2tXcVdqMFk0SjBuMTJUMWNVeC04RmFmMA?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-07T18:43:47Z"
+      "published_at": "2026-11-07T20:12:00Z"
+    },
+    {
+      "title": "2023年からの旅路にピリオド。「VIVANT」最終回の前に立つ二つのハードル #エキスパートトピ（中西正男） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTTdfQjYtS0xtT3VtUlBOaUg3VmlfV2FZc2JtVndyT2lscGhvVTlXQk56VzdIWTRjTnhndTN4TWo1b0l3N1ZfUkVWelg3MlpUMHlpN25nNVF5ZThoS0M5VEh2R3l4YVVWazBuMThiZld1Z3dHT1FTR2M4X3I4aFZ2VEZ4Z1N0UExS?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-07T20:02:33Z"
+    },
+    {
+      "title": "「ベストアーティスト2026」放送決定！ミセス、M!LK、BE:FIRST、HANA、キンプリ、SixTONES、＝LOVE、三代目JSBら集結 - ナタリー",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1tNnRkVGQ1NFBqOXdLdDRhTUE1YURxbTdTeUl3UTlrcWxoRkVFdFotdFE4emNtYmZJLVJKR2FCRHJuYXR2LTVsQUhfeGU?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-07T20:00:00Z"
     },
     {
       "title": "愛知 豊橋 車の販売店でショーウィンドウのガラス大きく割れる",
@@ -58,28 +106,16 @@
       "published_at": "2026-11-07T18:33:37Z"
     },
     {
-      "title": "ポーランドで銃乱射、6人死亡　容疑者の男拘束、15人負傷 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUdXdW9KVGowbTlpRUVJdzFMUXR2MFI4NlJwdFN0WUNndk9RVFpsQnF5SEQxMnJnc3k4RzNaNDl0bEl6cmdEb2lFakVEZXQ5NTNTOG5VSm9VMVlqTFpDTVpBZGY0cnM0bmU3M0U5eUpuTGFwQ0p2ZVpkazZkVVR6RlpXb0Rza0g5cUHSAY8BQVVfeXFMUDhJeDFTV1VieVU2TG5BMjlKSmtNSk9GVjNpdktKdTJQVlBhSGZFU3Q3ZXBsd0RLaW1WT2xrN0U0cVFYLVN5WThDVV9jUUllRXpZM1hPa2l3Q2hUUmh0RWxhUFBDRE9jUzNfdUF4MS1Md0s0c21aTVhpSzVIOEdyUDRQY01JaldWS2dwQVRScDA?oc=5",
+      "title": "ポーランド南部クラクフで無差別銃撃事件 6人死亡、10人超負傷 容疑者はポーランド人で警察官に撃たれ搬送 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE95TWlmNDJ4Y2xvZ0lEOEhmbXJfMThISW55ZU56Xy15Yk5jbThUQ3FjZ1hYcXV3NlBTdWNsTS1WbDhQYVg5RVR2T25CZDgySlNXRU1XRjllYw?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-07T18:11:15Z"
+      "published_at": "2026-11-07T18:30:44Z"
     },
     {
       "title": "技術職不足にあえぐ都道府県、中途採用2倍に 奨学金肩代わりで確保 - 日本経済新聞",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xOTNUdTZPMVo0N2dOVUtwTGdBSlJ2NlpGR2xELWxna1BnRVA1ZEtnOXBWOU9lR3hxTWhHT1N1NnQtb0lXRFFmRXEyUVlvYzRYQU5HMjFXdks0WXpraWtYc2trWklGRm9CckRCcA?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-07T17:00:00Z"
-    },
-    {
-      "title": "愛知県で震度5強 津波の心配なし",
-      "url": "https://news.yahoo.co.jp/pickup/6601719?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T16:13:23Z"
-    },
-    {
-      "title": "大阪維新の会「吉村体制」3期目に",
-      "url": "https://news.yahoo.co.jp/pickup/6601718?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T14:37:04Z"
     },
     {
       "title": "米中間選挙 共和党大敗の舞台裏",
@@ -94,12 +130,6 @@
       "published_at": "2026-11-07T14:15:17Z"
     },
     {
-      "title": "ラグビー日本代表 ウェールズと競り合うも敗戦 英国遠征 - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmdVZLaGhiNWYyeGktZFdYX3g0Mm9EUTRoTzZnM3hDLWI1MUp6WGQ3elVvajU1MVozeE5kTkJFTlUtSFgteXhEU19aUk5ZUnhTZXZnbXBBS1ZxYzg3RlIw?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-07T14:13:33Z"
-    },
-    {
       "title": "２０代女性監禁容疑の男「殺害して遺棄した」と供述、山林で遺体発見…女性は７月に警察に相談 - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hdGI0S1VsMFZYWmNTOGt0NG9SMzAxbk9nY25Jb0liVnlMZ3paeW1rdTJnSVhudDAxN2lLY3VmU0s4TkFJUWNENm9kYmhiZi0yYnY2eEprWi1wYVFnMzA5ZHpGdVVzQQ?oc=5",
       "source": "Google ニュース",
@@ -112,16 +142,10 @@
       "published_at": "2026-11-07T13:50:29Z"
     },
     {
-      "title": "FA宣言 15年ぶり「2ケタ」現実味",
-      "url": "https://news.yahoo.co.jp/pickup/6601712?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T13:46:07Z"
-    },
-    {
-      "title": "山本モナさん 50歳で司法修習生に",
-      "url": "https://news.yahoo.co.jp/pickup/6601706?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T13:17:48Z"
+      "title": "火星は死んでいないかもしれない：探査機がアルバ・モンスで亀裂とガス噴出孔を発見 - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95X3ZzcjFMdTJPd2c4UWFnbnZsZ1lKYkZycXVLY0E2b1A0bUd1Qmt6RUV6Z0NLUXBKZ2UwelJMcVgyVFNwVF9SNUpQUWlMWUVVaXY5Q1l2RUNEZEdsRmJuSFUxOGFZcmdsMWJ6S29TdWdZQ1Bf?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-07T13:28:35Z"
     },
     {
       "title": "基地交付金 打ち切り恐れに町反発",
@@ -154,34 +178,10 @@
       "published_at": "2026-11-07T12:18:26Z"
     },
     {
-      "title": "ロシアのJT事業に追加の大統領令 事業統括や販売の経営権も移管か - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE13REVqeVZ6Y3Z5NW1fWlVmVW1CdVNVSl9uak5XWWlud0J2SDBNbi1iclRudVJFcHhOT01YdVJ3MDNNUDR1Z25Ea01LV1pEekJUb3gyS0g5RHJjNTk0dmszcEpDNjRWOWRTVXpUVjV4M1d1SUx1b003bjVn?oc=5",
+      "title": "中国で服役中のアステラス製薬社員、来月中旬に刑期満了し帰国する見通し - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95WEJtUnhINmlOcVFKS05na0dvUEJ4VlFDOFhVTDRQMmlhOWFjN25MYTNBRTl6MWlMbXgtdE42dzA1MmhCNWxjWDBGS3U2Q3NfemxLLWNaVHU4VTRrS0ZBcEhR?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-07T11:50:59Z"
-    },
-    {
-      "title": "小嶋陽菜、結婚&第1子出産報告→『クイズ☆正解は一年後』めぐりSNSざわつく コメント続々「小木さん正解で有吉チームにポイントですね」 - オリコンニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpaGR1VVFnUklGeXhQSzFPcTZFWHYyVWpRQk12VFgzRjRMN2I5OXJZRGhFcmJ6TFhVV1N2VGQ2dkVad0NSSkdUSkpMS2JBeXEwUGZTWC1n?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-07T10:53:00Z"
-    },
-    {
-      "title": "【速報】中国拘束邦人、12月出所へ - 47NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1wd2FwZTcxNG5hZVlpR05iXzVnckdRaVB4dndQVFMtZ0VKX1JsZUJYRXQ3QkJuajRfWl9RWHNNTl9UT0J4ekVZNFlNQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-07T10:47:15Z"
-    },
-    {
-      "title": "「比類なき」吉村氏が頼み？ 維新存亡かけた来春の「大いくさ」 - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xcnJ5SjhGeEFBN0FUaU90UjRsR1JadVZaRzFZSjBtRTI2QUljelNyYTRqa1huRHZyUVE0M3F3TXpXU0R4a0dqWGpJcnlfWEh6NWdXMWpYRk84bzlYT0J4aG5SXzV4dkRF?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-07T10:06:17Z"
-    },
-    {
-      "title": "呼び捨てで首相個人を非難 やまぬ中国の対日圧力、「外交カード」のレアアース輸出調整も - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXQTRBNkFPWHRPV1lUYzBwRmVBY3FKNC1PRUdma1FzZ3lrOHNmY0F5S2haeXNHNUpUR1NUX01BbFM3NUFPSU5UZGIwNllYY0Q4THN4QkhjNjNldXNCeDk1cjFELVpNTnVEUU1ZOW01WW5uOTR1a0E?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-07T10:00:00Z"
+      "published_at": "2026-11-07T11:55:00Z"
     }
   ]
 }
