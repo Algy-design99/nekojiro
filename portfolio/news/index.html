@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>TSUKASA SIGNAL | ニュース・地震・天気</title><style>
+:root{--bg:#020d13;--panel:#071c25;--panel2:#0b2934;--edge:#08778a;--line:#20515e;--text:#e7f8fa;--muted:#8db4bd;--aqua:#20ebd6;--red:#ff5262;--gold:#ffbc57;--font:'Noto Sans JP','Yu Gothic',Meiryo,system-ui,sans-serif}*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;background:repeating-linear-gradient(0deg,transparent 0 3px,#0a263020 3px 4px),var(--bg);color:var(--text);font-family:var(--font);font-size:14px;line-height:1.65;min-height:100vh}button,select{font:inherit;cursor:pointer}button{color:var(--text);background:var(--panel2);border:1px solid var(--edge);padding:8px 12px}button:hover{border-color:var(--aqua)}button[aria-pressed="true"]{background:#07565a;color:#fff;border-color:var(--aqua)}a{color:inherit;text-decoration:none}a:hover{color:var(--aqua)}.shell{max-width:1800px;margin:auto;padding:12px 14px}.top{display:flex;align-items:center;gap:18px;border:1px solid var(--edge);background:linear-gradient(110deg,#041921,#071019);padding:14px 18px;min-height:174px;position:relative;overflow:hidden}.top:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 0 96%,#1b637024 96% 100%);background-size:26px 100%;pointer-events:none}.brand{flex:1;min-width:0;position:relative}.micro{font:700 10px/1.4 Consolas,monospace;letter-spacing:2px;color:var(--aqua)}.ascii{margin:5px 0 0;display:block;white-space:pre;font:900 clamp(7px,.88vw,15px)/.96 Consolas,'Courier New',monospace;letter-spacing:0;color:#8efff4;text-shadow:0 0 13px #15f1dc70;overflow:hidden}.brand-title{font:900 clamp(24px,3.3vw,56px)/1.05 Consolas,monospace;letter-spacing:2px;color:#a8fff3;text-shadow:0 0 18px #19c9bf8a;display:none}.sub{margin-top:12px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;color:var(--aqua);font-weight:800;font-size:17px}.sub small{font:11px Consolas,monospace;letter-spacing:2px;color:var(--muted)}.cat{width:105px;height:128px;flex:none;filter:drop-shadow(0 0 8px #12f5df75)}.controls{min-width:236px;display:flex;flex-direction:column;align-items:flex-end;gap:8px;z-index:1}.clock{font:700 22px Consolas,monospace;color:var(--aqua)}.state{font:11px Consolas,monospace;color:var(--muted)}.buttons{display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}.buttons button{padding:7px 9px;font-size:12px;font-weight:700}.modes{border-top:1px solid var(--line);padding-top:6px}.navbar{display:flex;align-items:center;gap:0;background:#061c25;border:1px solid var(--edge);border-top:0;min-height:39px;overflow-x:auto;white-space:nowrap}.navbar button{border:0;border-right:1px solid var(--line);background:none;font:700 11px Consolas,monospace;color:var(--aqua);padding:10px 16px}.navbar button.active{background:#0d4850}.navbar .live{margin-left:auto;padding:0 15px;color:#36ff9d;font:700 11px Consolas,monospace}.tickerbar{display:flex;border:1px solid var(--edge);background:#041924;margin-top:8px;min-height:40px;overflow:hidden;align-items:center}.tickerlabel{background:#d62f48;color:#fff;font-weight:800;padding:9px 16px;z-index:1;flex:none}.tickerclip{overflow:hidden;flex:1}.ticker{display:inline-block;white-space:nowrap;font-weight:700;animation:scroll 220s linear infinite;padding-left:100%}.ticker:hover{animation-play-state:paused}@keyframes scroll{to{transform:translateX(-100%)}}.statusline{display:flex;justify-content:space-between;gap:8px;padding:8px 3px;color:var(--muted);font:11px Consolas,monospace}.statusline .warning{color:var(--red)}.layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr) minmax(0,1.08fr);gap:12px;align-items:start}.panel{background:var(--panel);border:1px solid var(--edge);min-width:0;box-shadow:inset 0 1px #16c5cc2a}.panel h2{margin:0;background:var(--panel2);border-bottom:1px solid var(--edge);padding:13px 15px;display:flex;align-items:center;gap:8px;font-size:17px;line-height:1.3}.panel h2 .symbol{font-size:21px;color:var(--aqua)}.panel h2 small{font:10px Consolas,monospace;color:var(--aqua);margin-left:5px}.panel h2 .right{margin-left:auto;font:10px Consolas,monospace;color:var(--muted)}.panel h2 button{margin-left:auto;font-size:12px;padding:5px 9px}.panel-body{padding:12px 14px}.story{display:block;border-bottom:1px solid var(--line);padding:13px 4px}.story:last-child{border-bottom:0}.story.feature{background:#0d2a36;padding:14px;margin:0 0 5px;border-left:3px solid var(--aqua)}.story-title{font-size:14px;font-weight:750;line-height:1.55;overflow-wrap:anywhere}.story.feature .story-title{font-size:16px}.story .meta{color:var(--muted);font-size:11px;margin-top:6px}.story .mark{color:var(--aqua);padding-right:7px}.story .fresh{font:700 10px Consolas,monospace;color:white;background:#e03851;padding:3px 5px;margin-right:8px}.story .stale{font:700 10px Consolas,monospace;color:#ffcc77;border:1px solid #946e30;padding:2px 5px;margin-right:7px}.empty{color:var(--muted);padding:18px 8px;font-size:13px}.stack{display:flex;flex-direction:column;gap:12px}.weather-big{font-size:34px;font-weight:800;line-height:1.2}.weather-big span{font-size:16px;color:var(--aqua)}.wx-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:15px}.wx-item{border:1px solid var(--line);background:var(--panel2);padding:8px;text-align:center;font-size:11px}.wx-item b{display:block;font-size:17px}.small{color:var(--muted);font-size:12px}.data{margin:8px 0;color:var(--muted);font-size:12px}.info-link{color:var(--aqua);font-size:12px;font-weight:700}.quake-head{font-size:19px;font-weight:800;margin-bottom:6px}.quake-mag{font-size:26px;font-weight:800;color:var(--gold)}.maparea{margin-top:12px;border:1px solid var(--edge);background:var(--panel);padding:12px}.maparea h2{margin:0 0 8px;font-size:15px}.mapframe{height:380px;background:#03141b;border:1px solid var(--line);position:relative;overflow:hidden}.mapframe svg{height:100%;width:100%}.mapnote{color:var(--muted);font-size:11px;margin-top:5px}.more{width:100%;margin-top:9px}.footer{border-top:1px solid var(--edge);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:12px;padding:12px 3px;color:var(--muted);font:11px Consolas,monospace}.ads{font-family:var(--font);font-size:12px}.list-mode .layout{display:block}.list-mode .panel{margin-bottom:12px}.list-mode .stack{display:grid;grid-template-columns:1fr 1fr}.list-mode .domestic{order:2}.list-mode .world{order:3}.list-mode .story{padding:12px}.list-mode .maparea{margin-top:0}.list-mode .layout{display:flex;flex-direction:column}.list-mode .layout>*{width:100%}.list-mode .layout .stack{order:0}.list-mode .layout .domestic{order:1}.list-mode .layout .world{order:2}.list-mode .layout .maparea{order:3}.list-mode .domestic .panel-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}.list-mode .domestic .story.feature{grid-column:1/-1}.list-mode .world .panel-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}
+body[data-theme="business"]{--bg:#e9f0f5;--panel:#fff;--panel2:#e9f2f8;--edge:#9bbbd0;--line:#c7dbe8;--text:#142d40;--muted:#527083;--aqua:#006a95;--gold:#ab5d00;background:var(--bg)}body[data-theme="business"] .top{background:#e5f1f8}body[data-theme="business"] .navbar,body[data-theme="business"] .tickerbar{background:#e5f1f8}body[data-theme="business"] .story.feature{background:#e8f3f9}body[data-theme="business"] .story .fresh{color:#fff}body[data-theme="business"] .ascii{color:#006b94;text-shadow:none}body[data-theme="business"] .cat{filter:none}body[data-theme="business"] .navbar button.active{background:#c8e5f0}body[data-theme="business"] button[aria-pressed="true"]{background:#0871a0;color:#fff}body[data-theme="business"] .mapframe{background:#e9f3f7}
+@media(max-width:1100px){.ascii{font-size:9px}.cat{width:75px}.layout{grid-template-columns:1fr 1fr}.layout>.world{grid-column:1/-1}.layout>.world .panel-body{display:grid;grid-template-columns:1fr 1fr;gap:0 15px}}@media(max-width:700px){.shell{padding:5px}.top{padding:10px;min-height:0;flex-wrap:wrap;gap:6px}.ascii{display:none}.brand-title{display:block}.cat{width:60px;height:76px}.controls{width:100%;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between}.clock{font-size:17px}.buttons button{padding:5px 7px}.sub{font-size:12px;gap:5px}.sub small{font-size:9px}.layout{display:block}.layout>.panel,.layout>.stack{margin-bottom:9px}.layout>.world .panel-body,.list-mode .domestic .panel-body,.list-mode .world .panel-body{display:block}.list-mode .stack{display:block}.list-mode .stack .panel{margin-bottom:9px}.navbar .live{display:none}.panel h2{font-size:15px}.statusline{font-size:10px;flex-wrap:wrap}}
+
+/* v1.3: compact header, useful monitoring status, accessible ticker, real map */
+.top{min-height:0;gap:12px;padding:12px 16px;align-items:center}.brand{flex:0 1 auto;max-width:min(64vw,1020px)}.ascii{font-size:clamp(6px,.75vw,13px)}.sub{margin-top:7px}.cat{width:68px;height:85px}.controls{margin-left:auto;min-width:208px}.header-monitor{flex:1;min-width:165px;max-width:320px;border-left:1px solid var(--line);padding:8px 12px;display:flex;flex-direction:column;gap:7px;z-index:1}.header-monitor .hm-label{font:700 10px Consolas,monospace;letter-spacing:1px;color:var(--aqua)}.header-monitor .hm-row{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--line);font-size:11px}.header-monitor .hm-value{font:700 12px Consolas,monospace;color:var(--text)}.ticker{animation-duration:220s}.tickerclip:focus-within .ticker,.tickerclip:hover .ticker{animation-play-state:paused}.tickerbar{position:relative}.tickerhelp{flex:none;border:0;border-left:1px solid var(--line);padding:8px 10px;font-size:11px;color:var(--aqua);background:transparent}.tickerbar.paused .ticker{animation-play-state:paused}.mapframe{height:380px;overflow:hidden;touch-action:pan-x pan-y}.mapframe .leaflet-container{height:100%;width:100%;background:#102b39}.mapframe .leaflet-control-attribution{font-size:10px}.maptools{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin:7px 0}.maptools button{padding:5px 9px;font-size:11px}.maptools .small{font-size:11px}.maparea{grid-column:1/-1}.list-mode .mapframe{height:430px}body[data-theme="business"] .header-monitor .hm-value{color:#142d40}@media(max-width:1450px){.header-monitor{display:none}.brand{flex:1;max-width:none}}@media(max-width:700px){.top{padding:10px;flex-wrap:wrap}.brand{flex:1;max-width:none}.cat{width:48px;height:62px}.controls{margin-left:0;min-width:0}.mapframe{height:310px}.ticker{animation-duration:240s}}
+
+/* v1.4 approved grooming stencil and readability refinements */
+:root{--text:#f0fcff;--muted:#a9cbd4;--aqua:#51f3e4;--edge:#138b98;--line:#2b5863}
+.shell{max-width:1900px;padding:8px 12px}
+.top{min-height:156px;padding:10px 16px;gap:14px}
+.brand{flex:1 1 700px;overflow:hidden}
+.cat-art{width:190px;height:145px;flex:0 0 190px;background-size:cover;background-position:50% 51%;background-repeat:no-repeat;mix-blend-mode:screen;mask-image:radial-gradient(ellipse 70% 70% at 50% 52%,black 48%,transparent 100%);-webkit-mask-image:radial-gradient(ellipse 70% 70% at 50% 52%,black 48%,transparent 100%);filter:contrast(1.13) saturate(1.1)}
+.header-monitor{flex:0 1 280px;min-width:220px}
+.controls{min-width:225px}
+.navbar{min-height:43px}.navbar button{font-size:12px;padding:11px 14px}
+.tickerbar{min-height:45px}.ticker{animation-duration:220s;font-size:14px}
+.panel h2{font-size:17px}.story-title{font-size:15px}.story.feature .story-title{font-size:16px}.story .meta{font-size:12px}
+.small,.data{font-size:13px}.mapframe{height:380px}.maparea{margin-top:6px}
+#liveMap{height:100%;width:100%;z-index:0}
+.list-mode .layout .stack{grid-template-columns:repeat(2,minmax(0,1fr))}
+.list-mode .layout .stack .panel{min-height:260px}
+.list-mode .layout .stack .panel-body{padding:16px}
+.list-mode .layout .domestic .panel-body,.list-mode .layout .world .panel-body{grid-template-columns:repeat(2,minmax(0,1fr))}
+body[data-theme="business"] .cat-art{mix-blend-mode:multiply;filter:contrast(1.3)}
+body[data-theme="business"] .tickerbar{background:#07303c;color:white}
+body[data-theme="business"] .ticker{color:#fff}
+body[data-theme="business"] .story.feature .story-title{color:#102c40}
+body[data-theme="business"] .navbar .live{color:#176f4e}
+@media(max-width:1250px){.cat-art{width:140px;flex-basis:140px;height:125px}.header-monitor{min-width:175px}.ascii{font-size:clamp(6px,.78vw,12px)}}
+@media(max-width:850px){.top{flex-wrap:wrap}.cat-art{order:1}.header-monitor{order:2;flex:1}.controls{order:3;min-width:190px}.brand{flex-basis:100%}.list-mode .layout .stack{grid-template-columns:1fr}}
+
+/* v1.5 — ticker-to-news reading flow; remove unused vertical space */
+.statusline{display:none!important}
+.layout{margin-top:6px}
+.panel h2{min-height:0;padding-top:9px;padding-bottom:9px}
+.panel-body{min-height:0}
+/* list view: first show the headlines that just passed through the ticker */
+.list-mode .layout{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:9px 12px;align-items:start}
+.list-mode .layout>.domestic{grid-column:1;grid-row:1;order:unset;margin:0}
+.list-mode .layout>.world{grid-column:2;grid-row:1;order:unset;margin:0}
+.list-mode .layout>.stack{grid-column:1/-1;grid-row:2;order:unset;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0}
+.list-mode .layout>.maparea{grid-column:1/-1;grid-row:3;order:unset;margin:0}
+.list-mode .layout>.stack .panel{min-height:0;margin:0}
+.list-mode .layout>.stack .panel-body{padding:10px 14px}
+.list-mode .layout>.domestic .panel-body,.list-mode .layout>.world .panel-body{display:block}
+.list-mode .layout>.domestic .story,.list-mode .layout>.world .story{padding:8px 12px}
+.list-mode .layout>.domestic .story.feature,.list-mode .layout>.world .story.feature{grid-column:auto}
+.list-mode .stack .panel h2{padding:8px 12px}
+.list-mode .stack .panel-body .small{line-height:1.4}
+.list-mode .stack .panel-body .data{line-height:1.35}
+.list-mode .stack .panel-body a{display:inline-block;margin-top:3px}
+/* prevent old min-heights from reserving empty space */
+.list-mode .stack .panel,.list-mode .stack .panel-body{height:auto!important;min-height:0!important}
+@media(max-width:800px){
+.list-mode .layout{display:flex!important;flex-direction:column}
+.list-mode .layout>.domestic,.list-mode .layout>.world,.list-mode .layout>.stack,.list-mode .layout>.maparea{width:100%;order:unset;grid-column:auto;grid-row:auto}
+.list-mode .layout>.stack{display:block}
+.list-mode .layout>.stack .panel{margin-bottom:9px}
+}
+
+/* v1.6: fixed information hierarchy — ticker > weather/quake > news > map */
+.statusline{display:none!important}
+.layout,.list-mode .layout{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:8px 12px!important;align-items:start!important;margin-top:7px!important}
+.layout>.stack,.list-mode .layout>.stack{grid-column:1/-1!important;grid-row:1!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;width:auto!important;order:unset!important;margin:0!important;align-items:start!important}
+.layout>.domestic,.list-mode .layout>.domestic{grid-column:1!important;grid-row:2!important;order:unset!important;width:auto!important;margin:0!important}
+.layout>.world,.list-mode .layout>.world{grid-column:2!important;grid-row:2!important;order:unset!important;width:auto!important;margin:0!important}
+.layout>.maparea,.list-mode .layout>.maparea{grid-column:1/-1!important;grid-row:3!important;order:unset!important;width:auto!important;margin:0!important}
+.layout>.stack>.panel,.list-mode .layout>.stack>.panel{height:auto!important;min-height:0!important;margin:0!important;align-self:start!important}
+.layout>.stack .panel-body,.list-mode .layout>.stack .panel-body{padding:8px 12px!important;min-height:0!important}
+.layout>.stack .panel h2,.list-mode .layout>.stack .panel h2{padding:7px 12px!important;font-size:15px!important}
+.layout>.stack .panel h2 .right{font-size:10px}
+#weatherPanel .small[style]{font-size:11px!important;line-height:1.1!important}
+#weatherPanel select{padding:2px 4px;font-size:11px}
+#weatherPanel .weather-big{font-size:27px!important;line-height:1.15!important}
+#weatherPanel .data,#quakePanel .data{margin:4px 0!important;font-size:12px!important}
+#weatherPanel .wx-grid{margin-top:7px!important;gap:5px!important}
+#weatherPanel .wx-item{padding:4px!important;line-height:1.25!important}
+#weatherPanel .wx-item b{font-size:14px!important}
+#quakePanel .quake-head{font-size:17px!important;margin-bottom:1px!important}
+#quakePanel .quake-mag{font-size:22px!important;line-height:1.3!important}
+#quakePanel .small{font-size:11px!important}
+#quakePanel p{margin:5px 0 0!important}
+#weatherPanel .info-link{font-size:11px}
+.panel h2{padding:8px 12px!important}
+.story{padding:9px 4px!important}.story.feature{padding:10px!important}
+.top{min-height:0!important;padding:7px 12px!important;gap:8px!important}
+.brand{flex:1 1 auto!important;min-width:0!important;max-width:none!important}
+.cat-art{width:115px!important;flex:0 0 115px!important;height:105px!important;background-size:contain!important}
+.header-monitor{flex:0 0 200px!important;min-width:0!important;padding:4px 8px!important;font-size:11px!important}
+.controls{min-width:175px!important;gap:4px!important}
+.clock{font-size:20px!important}.sub{margin-top:4px!important}
+.navbar{min-height:34px!important}.navbar button{padding:7px 12px!important}
+.tickerbar{margin-top:5px!important;min-height:37px!important}
+.tickerlabel{padding:7px 12px!important}
+.maparea{padding:8px!important}.mapframe{height:320px!important}
+/* Leaflet tile assets must not inherit theme/site image sizing */
+.leaflet-container .leaflet-tile{max-width:none!important;max-height:none!important;width:256px!important;height:256px!important}
+.leaflet-container img.leaflet-marker-icon,.leaflet-container img.leaflet-marker-shadow{max-width:none!important}
+@media(max-width:1000px){.header-monitor{display:none!important}.cat-art{width:80px!important;flex-basis:80px!important;height:90px!important}}
+@media(max-width:760px){
+.layout,.list-mode .layout{display:flex!important;flex-direction:column!important}
+.layout>.stack,.list-mode .layout>.stack{display:grid!important;grid-template-columns:1fr!important;width:100%!important;order:0!important}
+.layout>.domestic,.list-mode .layout>.domestic{width:100%!important;order:1!important}
+.layout>.world,.list-mode .layout>.world{width:100%!important;order:2!important}
+.layout>.maparea,.list-mode .layout>.maparea{width:100%!important;order:3!important}
+.top{flex-wrap:wrap!important}.cat-art{width:60px!important;flex-basis:60px!important;height:65px!important}
+.controls{min-width:0!important}.mapframe{height:300px!important}
+}
+
+/* v1.8 — compact monitor, accessible typography, OSM standard tiles */
+.top{display:grid!important;grid-template-columns:minmax(0,1fr) 105px 190px 175px!important;gap:8px!important;align-items:center!important;padding:5px 10px!important}
+.brand{width:100%!important;max-width:100%!important;min-width:0!important;overflow:hidden!important}
+.brand .ascii{max-width:100%!important;overflow:hidden!important}
+.cat-art{width:105px!important;height:94px!important;min-width:0!important;flex:none!important;justify-self:center!important}
+.header-monitor{width:190px!important;min-width:0!important;flex:none!important}
+.controls{width:175px!important;min-width:0!important;flex:none!important;justify-self:end!important}
+.layout,.list-mode .layout{gap:6px 10px!important}
+.layout>.stack,.list-mode .layout>.stack{gap:10px!important}
+.layout>.stack .panel-body,.list-mode .layout>.stack .panel-body{padding:7px 10px!important}
+#quakePanel .panel-body{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:2px!important}
+#quakePanel{align-self:start!important}
+.panel h2{min-height:0!important;padding:7px 10px!important}
+.story{padding:7px 5px!important}
+.story.feature{padding:8px!important}
+.maparea{margin-top:0!important;padding:7px!important}
+.mapframe{height:330px!important}
+.leaflet-container .leaflet-tile{max-width:none!important;max-height:none!important}
+/* prevent non-map images or plugin-injected banners from sitting over the map */
+#liveMap{isolation:isolate!important;overflow:hidden!important}
+#liveMap .leaflet-pane{z-index:400}
+#liveMap .leaflet-control-container{position:relative;z-index:800}
+@media(max-width:1100px){.top{grid-template-columns:minmax(0,1fr) 85px 175px!important}.cat-art{width:85px!important;height:85px!important}.header-monitor{display:none!important}}
+@media(max-width:700px){.top{display:flex!important;flex-wrap:wrap!important}.cat-art{width:65px!important;height:65px!important}.controls{width:auto!important;margin-left:auto!important}.layout,.list-mode .layout{display:flex!important;flex-direction:column!important}.layout>.stack,.list-mode .layout>.stack{display:grid!important;grid-template-columns:1fr!important;width:100%!important}.layout>.domestic,.layout>.world,.layout>.maparea,.list-mode .layout>.domestic,.list-mode .layout>.world,.list-mode .layout>.maparea{width:100%!important}}
+
+/* v1.8: targeted four-area layout repair. No feed or map logic changed. */
+@media(min-width:1101px){
+ .top{display:flex!important;justify-content:flex-start!important;align-items:center!important;gap:10px!important}
+ .brand{flex:0 1 auto!important;width:min(45vw,790px)!important;max-width:min(45vw,790px)!important;overflow:hidden!important}
+ .brand .ascii{font-size:clamp(6px,.74vw,13px)!important}
+ .cat-art{flex:0 0 108px!important;width:108px!important;height:106px!important;margin:0!important;justify-self:auto!important}
+ .header-monitor{display:flex!important;flex:0 0 195px!important;width:195px!important;max-width:195px!important;margin:0!important}
+ .controls{flex:0 0 auto!important;margin-left:auto!important;width:auto!important;min-width:175px!important}
+}
+/* Weather and earthquake: centered content, same row height, no empty bottom gutter */
+.layout>.stack,.list-mode .layout>.stack{align-items:stretch!important;gap:10px!important}
+.layout>.stack>.panel,.list-mode .layout>.stack>.panel{height:100%!important;align-self:stretch!important;display:flex!important;flex-direction:column!important}
+#weatherPanel .panel-body,#quakePanel .panel-body{flex:1!important;min-height:0!important;display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:center!important;text-align:center!important;padding:10px 14px!important}
+#weatherPanel .panel-body{position:relative!important}
+#weatherPanel .panel-body>.small:first-child{position:absolute!important;top:7px!important;right:12px!important;text-align:right!important}
+#weatherPanel #weather{width:min(100%,680px)!important;margin:10px auto 0!important;text-align:center!important}
+#weatherPanel .wx-grid{width:100%!important;margin:8px auto 0!important}
+#weatherPanel .weather-big{margin:0 auto!important}
+#weatherPanel .panel-body>.info-link{align-self:center!important;margin-top:7px!important}
+#quakePanel .panel-body>*{max-width:100%!important}
+#quakePanel .quake-head,#quakePanel .quake-mag{margin-left:auto!important;margin-right:auto!important;text-align:center!important}
+#quakePanel .data,#quakePanel .small,#quakePanel p,#quakePanel .info-link{text-align:center!important}
+/* Keep the agreed visual hierarchy and compact mobile stacking. */
+@media(max-width:760px){
+ .top{display:flex!important}
+ .brand{width:auto!important;max-width:100%!important;flex:1 1 220px!important}
+ #weatherPanel .panel-body>.small:first-child{position:static!important;align-self:flex-end!important}
+ #weatherPanel #weather{margin-top:2px!important}
+}
+
+/* v2.0 — v1.8 visual baseline; panel positions preserved, internal alignment fixed */
+@media(min-width:761px){
+ /* Header: keep logo and adopted cat together, use remaining space for existing status/controls */
+ .top{display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:10px!important;min-height:0!important;padding:7px 12px!important}
+ .top .brand{flex:0 1 620px!important;width:auto!important;max-width:620px!important;min-width:0!important}
+ .top .brand .ascii{font-size:clamp(5px,.60vw,10px)!important;line-height:1!important}
+ .top .cat-art{flex:0 0 104px!important;width:104px!important;height:100px!important;margin:0!important}
+ .top .header-monitor{flex:0 0 190px!important;width:190px!important;min-width:0!important}
+ .top .controls{flex:0 0 auto!important;margin-left:auto!important;width:auto!important;min-width:170px!important}
+ /* List: the two news panels share the same row; no frame is nested or shifted inside another */
+ .list-mode .layout{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:10px!important;align-items:start!important}
+ .list-mode .layout>.stack{grid-column:1/-1!important;grid-row:1!important;display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:10px!important;align-items:stretch!important;width:auto!important}
+ .list-mode .layout>.domestic{grid-column:1!important;grid-row:2!important;width:auto!important;margin:0!important}
+ .list-mode .layout>.world{grid-column:2!important;grid-row:2!important;width:auto!important;margin:0!important}
+ .list-mode .layout>.maparea{grid-column:1/-1!important;grid-row:3!important;width:auto!important;margin:0!important}
+ .list-mode .domestic .panel-body,.list-mode .world .panel-body{display:block!important}
+ .list-mode .domestic .story.feature{grid-column:auto!important}
+ /* Align weather and quake content inside the existing frames */
+ .list-mode .layout>.stack>.panel{height:100%!important;min-height:0!important;align-self:stretch!important}
+ .list-mode #weatherPanel .panel-body,.list-mode #quakePanel .panel-body{display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:center!important;text-align:center!important;flex:1!important;min-height:170px!important;padding:10px 14px!important}
+ .list-mode #weatherPanel #weather{width:100%!important;max-width:620px!important}
+ .list-mode #quakePanel #quake{width:100%!important;max-width:620px!important}
+ .list-mode #weatherPanel .panel-body>.small:first-child{position:static!important;align-self:flex-end!important;margin-bottom:2px!important}
+}
+@media(min-width:761px) and (max-width:1200px){
+ .top .brand{flex:1 1 380px!important;max-width:none!important}
+ .top .header-monitor{display:none!important}
+ .top .cat-art{flex-basis:85px!important;width:85px!important;height:85px!important}
+}
+@media(max-width:760px){
+ .list-mode .layout>.stack{display:grid!important;grid-template-columns:1fr!important}
+ .list-mode .layout>.domestic,.list-mode .layout>.world{width:100%!important}
+}
+/* Preserve original monitor mode's 3 columns and side-by-side domestic/world flanking weather/quake. */
+body[data-theme="business"]{--bg:#020d13;--panel:#071c25;--panel2:#0b2934;--edge:#08778a;--line:#20515e;--text:#e7f8fa;--muted:#8db4bd;--aqua:#20ebd6}
+
+/* v2.2: spacing-only adjustment; no new content or duplicate weather/quake. */
+@media(min-width:1201px){
+ .top{display:flex!important;justify-content:space-between!important;align-items:center!important;gap:clamp(12px,2vw,34px)!important;padding:8px clamp(12px,1.5vw,26px)!important}
+ .top .brand{flex:0 1 650px!important;max-width:650px!important;min-width:390px!important}
+ .top .cat-art{flex:0 0 105px!important;width:105px!important;height:105px!important}
+ .top .header-monitor{display:flex!important;flex:0 1 240px!important;min-width:185px!important;max-width:260px!important}
+ .top .controls{flex:0 0 175px!important;min-width:175px!important;margin-left:auto!important}
+}
+/* Equal weather/earthquake frames and balanced content, not moved frames. */
+@media(min-width:761px){
+ .list-mode .layout>.stack{align-items:stretch!important}
+ .list-mode .layout>.stack>#weatherPanel,.list-mode .layout>.stack>#quakePanel{height:100%!important;align-self:stretch!important;display:flex!important;flex-direction:column!important}
+ .list-mode #weatherPanel .panel-body,.list-mode #quakePanel .panel-body{flex:1!important;justify-content:center!important}
+}
+
+/* Weather hourly cards: centered and evenly distributed, including at day rollover */
+#weatherPanel .wx-grid{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;align-items:stretch!important;gap:8px!important;width:100%!important;max-width:680px!important;margin:9px auto 0!important}
+#weatherPanel .wx-grid>.wx-item{flex:1 1 125px!important;max-width:210px!important;min-width:105px!important;text-align:center!important}
+@media(max-width:420px){#weatherPanel .wx-grid{gap:5px!important}#weatherPanel .wx-grid>.wx-item{flex-basis:90px!important;min-width:80px!important}}
+</style><link crossorigin="" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/><meta property="og:type" content="website">
+<meta property="og:url" content="https://algy-design99.github.io/nekojiro/portfolio/news/">
+<meta property="og:title" content="TSUKASA SIGNAL">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://static.fc2.com/image/noimage.gif">
+<meta name="author" content="TSUKASA"><meta name="description" content="TSUKASAの自主制作。国内・海外ニュース、天気、地震情報をまとめた自動更新の情報モニター。"><style>.brand-title{display:block!important;font-size:clamp(25px,3.3vw,44px)!important}.portfolio-bar{padding:9px 16px;background:#102a29;color:#cde6e1;font-size:12px;display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}.portfolio-bar a{text-decoration:underline}.brand{max-width:none!important;flex:1!important;min-width:0}.sub{font-size:13px}.top{flex-wrap:wrap}</style></head><body data-theme="terminal"><div class="portfolio-bar"><span>TSUKASA / 自主制作・情報モニター</span><a href="../">ポートフォリオへ戻る ↗</a></div><div class="shell" id="app"><header class="top"><div class="brand"><div class="micro">[ TSUKASA / NEWS & WEATHER ] // LIVE INFORMATION TERMINAL</div><div class="brand-title">TSUKASA SIGNAL</div><div class="sub">ニュース・天気・地震 <small>// REALTIME INFORMATION MONITOR</small></div></div><aside aria-label="監視状況" class="header-monitor"><div class="hm-label">SYSTEM // MONITOR STATUS</div><div class="hm-row"><span>ニュース</span><strong class="hm-value" id="headNews">確認中</strong></div><div class="hm-row"><span>最終取得</span><strong class="hm-value" id="headFetch">--:--</strong></div><div class="hm-row"><span>気象・地震</span><strong class="hm-value">LIVE CHECK</strong></div></aside><div class="controls"><div class="clock" id="clock">--:--:--</div><div class="state" id="status">ニュース確認待ち</div></div></header><nav class="navbar"><button class="active" data-nav="all">✚ ALL / 全体</button><button data-nav="news">▣ NEWS / ニュース</button><button data-nav="jp">◇ JAPAN / 国内</button><button data-nav="world">◎ WORLD / 海外</button><button data-nav="weather">☀ WEATHER / 天気</button><button data-nav="quake">⌁ EARTHQUAKE / 地震</button><span class="live">● LIVE MONITOR</span></nav><div class="tickerbar"><span class="tickerlabel">速報</span><div class="tickerclip"><div class="ticker" id="ticker">最新情報を取得しています…</div></div><select aria-label="速報の速度" id="tickerSpeed" style="max-width:96px;background:#082733;color:#e7f8fa;border:1px solid #138b98;padding:8px"><option value="300">ゆっくり</option><option selected="" value="220">標準</option><option value="140">速め</option></select><button aria-pressed="false" class="tickerhelp" id="pauseTicker" type="button">⏸ 一時停止</button></div><div class="statusline"><span>まず、いまの状況</span><span id="lastCheck">最終確認：未取得</span><span id="feedStatus">配信元：確認待ち</span></div><main class="layout"><section class="panel domestic" id="jpPanel"><h2><span class="symbol">▤</span>国内ニュース <small>JAPAN NEWS</small><button id="refresh">↻ 更新</button></h2><div class="panel-body" id="domestic"><div class="empty">ニュース取得中…</div></div><button class="more" hidden="" id="more">もっと見る ↓</button></section><div class="stack"><section class="panel" id="weatherPanel"><h2><span class="symbol">☀</span>天気情報 <small>WEATHER</small><span class="right">現在の観測</span></h2><div class="panel-body"><div class="small" style="text-align:right">地域 <select id="city"><option value="sapporo">札幌</option><option value="tokyo">東京</option><option value="osaka">大阪</option><option value="fukuoka">福岡</option></select></div><div id="weather"><div class="empty">天気取得中…</div></div><a class="info-link" href="https://www.jma.go.jp/bosai/warning/" rel="noopener" target="_blank">警報・注意報を確認 ↗</a></div></section><section class="panel" id="quakePanel"><h2><span class="symbol">⚡</span>地震・災害 <small>EARTHQUAKE</small><span class="right">気象庁</span></h2><div class="panel-body" id="quake"><div class="empty">地震情報取得中…</div></div></section></div><section class="panel world" id="worldPanel"><h2><span class="symbol">◎</span>海外ニュース <small>WORLD NEWS</small><span class="right">日本語配信</span></h2><div class="panel-body" id="world"><div class="empty">ニュース取得中…</div></div></section><section class="maparea" id="mapPanel" style="grid-column:1/-1"><h2>⌖ 地震・ニュース位置情報</h2><div class="maptools"><span class="small">地図はドラッグで移動・ホイールや＋−で拡大縮小</span><div><button id="mapJapan" type="button">日本全体</button> <button id="mapQuake" type="button">最新地震へ</button></div></div><div class="mapframe"><div aria-label="移動と拡大縮小ができる日本の地図" id="liveMap" role="application"></div></div><div class="mapnote" id="mapNote">地図は常時操作可能。座標が確認できた地震のみマークします。ニュースの発生場所は推測しません。</div></section></main><footer class="footer"><span>TSUKASA SIGNAL // BUILD v2.1</span><span>NEWS / WEATHER / EARTHQUAKE / WORLD · AUTO CHECK 3 MIN · NEWS ≤36H</span></footer></div><script crossorigin="" src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
+(()=>{'use strict';const $=id=>document.getElementById(id),qs=s=>document.querySelectorAll(s),now=()=>Date.now();let articles=[],expanded=false,busy=false,checkAt=0,generatedAt=0,newsRoute="",signalMap=null,quakeMarker=null,lastQuakeLatLng=null;const cities={sapporo:[43.0618,141.3545,'札幌'],tokyo:[35.6762,139.6503,'東京'],osaka:[34.6937,135.5023,'大阪'],fukuoka:[33.5902,130.4017,'福岡']};const q='(日本 OR 政府 OR 事件 OR 社会 OR 政治 OR 災害 OR 経済) when:1d -株価 -株式 -適時開示 -決算短信 -投資信託 -番組表 -テレビ番組';const w='(国際 OR 世界 OR 米国 OR 中国 OR 欧州 OR ウクライナ) when:1d -番組表 -株価 -株式 -テレビ番組';const sources=[{name:'NHK',url:'https://www3.nhk.or.jp/rss/news/cat0.xml',region:'jp'},{name:'Google国内',url:'https://news.google.com/rss/search?q='+encodeURIComponent(q)+'&hl=ja&gl=JP&ceid=JP:ja',region:'jp'},{name:'Google国際',url:'https://news.google.com/rss/headlines/section/topic/WORLD?hl=ja&gl=JP&ceid=JP:ja',region:'world'},{name:'Google海外',url:'https://news.google.com/rss/search?q='+encodeURIComponent(w)+'&hl=ja&gl=JP&ceid=JP:ja',region:'world'}];const blocked=/株価|株式情報|適時開示|決算短信|有価証券報告書|上場信託|純銀上場|投資信託|基準価額|株主優待|ストップ高|番組表|番組情報ページ|放送予定|テレビ欄|ドラマのあらすじ|広告記事|PR TIMES|プレスリリース|配信のお知らせ|今日の運勢|占い|宝くじ|競馬予想|競輪予想|【PR】/i;const jp=/[\u3040-\u30ff\u3400-\u9fff]/;const fmt=d=>new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).format(d);const time=d=>new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(d);const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const safe=u=>{try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:null}catch{return null}};const set=(id,v)=>{$(id).textContent=v};async function get(url,timeout=10000){const ctrl=new AbortController(),tm=setTimeout(()=>ctrl.abort(),timeout);try{const r=await fetch(url,{signal:ctrl.signal,cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);return r}finally{clearTimeout(tm)}}function parseXML(s){const doc=new DOMParser().parseFromString(s,'application/xml');if(doc.querySelector('parsererror'))throw Error('XML error');return [...doc.querySelectorAll('item')].map(n=>({title:n.querySelector('title')?.textContent||'',link:n.querySelector('link')?.textContent||'',date:n.querySelector('pubDate')?.textContent||'',source:n.querySelector('source')?.textContent||''}))}const NEWS_WINDOW_MS=36*60*60*1000, FUTURE_TOLERANCE_MS=10*60*1000;
+function currentArticles(arr){const t=now();return arr.filter(x=>Number.isFinite(x.date)&&x.date>=t-NEWS_WINDOW_MS&&x.date<=t+FUTURE_TOLERANCE_MS)}
+async function rss(src){
+ const feed=new URL(src.url);feed.searchParams.set('_signal',String(now()));const feedURL=feed.href;
+ const endpoints=[
+  {url:'https://api.allorigins.win/raw?url='+encodeURIComponent(feedURL),kind:'xml'},
+  {url:'https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(feedURL)+'',kind:'json'}
+ ];
+ let candidates=[],errors=[];
+ for(const endpoint of endpoints){
+  try{
+   const r=await get(endpoint.url,8500);
+   let arr;
+   if(endpoint.kind==='json'){
+    const data=await r.json();if(data.status&&data.status!=='ok')throw Error('RSS変換失敗');arr=data.items;
+   }else arr=parseXML(await r.text());
+   if(!Array.isArray(arr))throw Error('不正な配信データ');
+   const parsed=arr.map(x=>({title:x.title||'',url:x.link||'',date:Date.parse(endpoint.kind==='json'&&/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(x.pubDate||'')?x.pubDate.replace(' ','T')+'Z':(x.pubDate||x.date||'')),source:typeof x.source==='string'?x.source:(x.source?.title||src.name),region:src.region}));
+   candidates.push(...currentArticles(parsed).filter(x=>safe(x.url)&&jp.test(x.title)&&!blocked.test(x.title)));
+  }catch(e){errors.push(String(e.message||e))}
+ }
+ if(!candidates.length&&errors.length===endpoints.length)throw Error('取得経路が利用できません');
+ const seen=new Set();return candidates.sort((a,b)=>b.date-a.date).filter(x=>{const key=x.title.trim().toLowerCase();if(seen.has(key))return false;seen.add(key);return true});
+}
+function story(x,i){const age=now()-x.date;let tag=age<3600000?'<span class="fresh">NEW</span>':age>86400000?'<span class="stale">24h+</span>':'';return '<a class="story'+(i===0?' feature':'')+'" href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer"><div class="story-title">'+(i?' <span class="mark">◆</span>':'')+tag+esc(x.title)+'</div><div class="meta">'+esc(x.source)+'　/　配信 '+fmt(new Date(x.date))+'</div></a>'}function render(){articles=currentArticles(articles);const dom=articles.filter(x=>x.region==='jp'),world=articles.filter(x=>x.region==='world');$('domestic').innerHTML=dom.length?(expanded?dom:dom.slice(0,7)).map(story).join(''):'<div class="empty">国内の有効な日本語ニュースを取得できませんでした。古い記事で補完しません。</div>';$('world').innerHTML=world.length?world.slice(0,8).map(story).join(''):'<div class="empty">海外の日本語ニュースを取得できませんでした。</div>';$('more').hidden=dom.length<=7;$('more').textContent=expanded?'閉じる ↑':'もっと見る ↓';const items=articles.slice(0,12);$('ticker').textContent=items.length?items.map(x=>'◆ '+x.title).join('　　')+'　　'+items.map(x=>'◆ '+x.title).join('　　'):'ニュースを取得できませんでした';set('headNews',articles.length+' 件');if(checkAt)set('headFetch',time(new Date(checkAt)).slice(0,5));const newest=articles[0];set('lastCheck',(checkAt?'確認 '+fmt(new Date(checkAt)):'確認未完了')+(generatedAt?' / JSON生成 '+fmt(new Date(generatedAt)):'')+(newest?' / 最新配信 '+fmt(new Date(newest.date)):''));}const SIGNAL_JSON='https://raw.githubusercontent.com/Algy-design99/nekojiro/main/news/signal.json';
+const JSON_STALE_MS=30*60*1000;
+function mergeNews(arr){const seen=new Set();return currentArticles(arr).filter(x=>(x.region==='jp'||x.region==='world')&&safe(x.url)&&jp.test(x.title)&&!blocked.test(x.title)).sort((a,b)=>b.date-a.date).filter(x=>{const key=x.region+':'+x.title.trim().toLowerCase();if(seen.has(key))return false;seen.add(key);return true})}
+async function updateNews(){
+ if(busy)return;
+ busy=true;$('refresh').disabled=true;set('status','ニュースを確認中…');
+ const previous=currentArticles(articles);let incoming=[],jsonOK=false,jsonAt=0,rssOK=0,notes=[];
+ try{
+  try{
+   const response=await get(SIGNAL_JSON+'?t='+now(),12000),data=await response.json();
+   jsonAt=Date.parse(data.updated_at||'');
+   if(!Number.isFinite(jsonAt)||jsonAt>now()+FUTURE_TOLERANCE_MS||!Array.isArray(data.items))throw Error('JSONの形式・生成日時が不正です');
+   incoming=mergeNews(data.items.map(x=>({title:String(x.title||''),url:String(x.url||''),date:Date.parse(x.published_at||''),source:String(x.source||''),region:x.region})));
+   jsonOK=true;
+  }catch(e){notes.push('JSON取得失敗')}
+  const missing=region=>!incoming.some(x=>x.region===region);
+  const old=region=>!incoming.some(x=>x.region===region&&now()-x.date<=6*3600000);
+  const fallback=!jsonOK||now()-jsonAt>JSON_STALE_MS||missing('jp')||missing('world')||old('jp')||old('world');
+  if(jsonOK&&incoming.length){articles=mergeNews(incoming.concat(previous));generatedAt=jsonAt;render();}
+  if(fallback){
+   set('status','最新RSSを確認中…');
+   const results=await Promise.allSettled(sources.map(src=>rss(src)));
+   results.forEach(r=>{if(r.status==='fulfilled'&&r.value.length){rssOK++;incoming.push(...r.value)}});
+   if(!rssOK)notes.push('RSSから有効な記事を取得できませんでした');
+  }
+  articles=mergeNews(incoming.concat(previous));
+  if(jsonOK||rssOK){checkAt=now();generatedAt=jsonOK?jsonAt:0;}
+  newsRoute=rssOK?'RSS補完'+(jsonOK?' / GitHub':''):jsonOK?'GitHub':'前回記事';
+  render();
+  const d=articles.filter(x=>x.region==='jp').length,w=articles.filter(x=>x.region==='world').length;
+  set('feedStatus',newsRoute+' / 国内 '+d+'件・海外 '+w+'件');
+  let warnings=[];
+  if(!jsonOK&&!rssOK)warnings.push('取得失敗：有効期間内の前回記事を表示');
+  if(jsonOK&&now()-jsonAt>JSON_STALE_MS)warnings.push('GitHubのデータ生成が30分以上停止');
+  if(!d||!w)warnings.push((!d?'国内':'')+(!d&&!w?'・':'')+(!w?'海外':'')+'ニュースが0件');
+  if(d&&oldestRegion('jp')||w&&oldestRegion('world'))warnings.push('最新配信が6時間以上前の欄があります');
+  warnings.push(...notes);
+  set('status',warnings.length?'注意：'+warnings.join(' / '):'国内・海外ニュースの取得を確認済み');
+ }catch(e){articles=previous;render();set('feedStatus','取得失敗');set('status','取得失敗：'+String(e.message||e))}
+ finally{busy=false;$('refresh').disabled=false;}
+}
+function oldestRegion(region){return !articles.some(x=>x.region===region&&now()-x.date<=6*3600000)}
+const okNum=n=>typeof n==='number'&&Number.isFinite(n);
+const wxDesc=c=>c===0?'快晴':c===1?'晴れ':c===2?'くもり時々晴れ':c===3?'くもり':c<=48?'霧':c<=57?'霧雨':c<=67?'雨':c<=77?'雪':c<=82?'にわか雨':c<=86?'にわか雪':c>=95?'雷雨':'くもり';
+let lastWeather={key:'',html:'',at:''};
+async function updateWeather(){
+ const key=$('city').value,c=cities[key];
+ try{
+  const u='https://api.open-meteo.com/v1/forecast?latitude='+c[0]+'&longitude='+c[1]+'&current=temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m&hourly=temperature_2m,precipitation_probability&forecast_days=2&timezone=Asia%2FTokyo';
+  const j=await(await get(u)).json(),v=j.current;
+  if(!v||!okNum(Number(v.temperature_2m)))throw Error('観測値なし');
+  let hourly='';const H=j.hourly;
+  if(H&&Array.isArray(H.time)&&Array.isArray(H.temperature_2m)){
+   let start=H.time.findIndex(t=>t>=v.time);if(start<0)start=0;
+   for(let i=start;i<Math.min(start+3,H.time.length);i++){
+    if(!okNum(H.temperature_2m[i]))continue;
+    const p=H.precipitation_probability?.[i];
+    hourly+='<div class="wx-item">'+esc(String(H.time[i]).slice(11))+'<b>'+Math.round(H.temperature_2m[i])+'°</b>降水 '+(p??'--')+'%</div>';
+   }
+  }
+  const html='<div class="weather-big">'+esc(wxDesc(Number(v.weather_code)))+'　'+Math.round(v.temperature_2m)+'<span>°C</span></div><div class="data">'+esc(c[2])+'　湿度 '+esc(v.relative_humidity_2m??'--')+'%　/　風速 '+esc(v.wind_speed_10m??'--')+' km/h</div><div class="small">観測 '+esc(String(v.time).replace('T',' '))+'　(Open-Meteo)</div><div class="wx-grid">'+hourly+'</div>';
+  lastWeather={key,html,at:time(new Date())};
+  if($('city').value!==key)return;
+  $('weather').innerHTML=html;
+ }catch(e){
+  if($('city').value!==key)return;
+  const reason=esc(String(e&&e.message||'通信エラー'));
+  $('weather').innerHTML=(lastWeather.key===key&&lastWeather.html)
+   ?'<div class="small" style="color:var(--red)">最新の取得に失敗（'+reason+'）。'+esc(lastWeather.at)+' に取得した値を表示中</div>'+lastWeather.html
+   :'<div class="empty">天気の取得に失敗しました（'+reason+'）。観測値を推測して表示しません。</div>';
+ }
+}
+const SHINDO={'1':'1','2':'2','3':'3','4':'4','5-':'5弱','5+':'5強','6-':'6弱','6+':'6強','7':'7'};
+const P2P_SHINDO={10:'1',20:'2',30:'3',40:'4',45:'5弱',50:'5強',55:'6弱',60:'6強',70:'7'};
+/* 気象庁 list.json の cod は "+36.4+140.6-10000/"（緯度・経度・深さm、深さは負） */
+function parseCod(s){const m=/^([+-]\d+(?:\.\d+)?)([+-]\d+(?:\.\d+)?)(?:([+-]\d+(?:\.\d+)?))?/.exec(String(s||''));if(!m)return {lat:NaN,lon:NaN,depth:NaN};const lat=+m[1],lon=+m[2],dep=m[3]!==undefined?-(+m[3])/1000:NaN;return {lat:Math.abs(lat)<=90?lat:NaN,lon:Math.abs(lon)<=180?lon:NaN,depth:okNum(dep)&&dep>=0?dep:NaN}}
+async function quakeFromJMA(){
+ const arr=await(await get('https://www.jma.go.jp/bosai/quake/data/list.json')).json();
+ if(!Array.isArray(arr)||!arr.length)throw Error('気象庁データの形式が不正');
+ const hasMag=x=>x&&x.mag&&x.mag!=='-';
+ /* 震度速報など震源・規模が未確定の報は飛ばし、震源が確定した最新の報を使う */
+ const q=arr.find(x=>x&&x.at&&x.anm&&hasMag(x))||arr.find(x=>x&&x.at&&x.anm);
+ if(!q)throw Error('震源情報が見つかりません');
+ const c=parseCod(q.cod);
+ return {name:String(q.anm),mag:hasMag(q)?String(q.mag).replace(/^M/i,''):'',shindo:SHINDO[q.maxi]||'',at:String(q.at).replace('T',' ').slice(0,16),lat:okNum(c.lat)?c.lat:Number(q.lat),lon:okNum(c.lon)?c.lon:Number(q.lon),depth:c.depth,source:'気象庁'};
+}
+async function quakeFromP2P(){
+ const arr=await(await get('https://api.p2pquake.net/v2/history?codes=551&limit=10')).json();
+ if(!Array.isArray(arr))throw Error('P2Pデータの形式が不正');
+ const v=arr.find(x=>x&&x.earthquake&&x.earthquake.hypocenter&&x.earthquake.hypocenter.name);
+ if(!v)throw Error('P2P該当なし');
+ const e=v.earthquake,h=e.hypocenter,lat=Number(h.latitude),lon=Number(h.longitude);
+ return {name:String(h.name),mag:h.magnitude>0?String(h.magnitude):'',shindo:P2P_SHINDO[e.maxScale]||'',at:String(e.time||v.time||'').replace(/\//g,'-').slice(0,16),lat:Math.abs(lat)<=90?lat:NaN,lon:Math.abs(lon)<=180?lon:NaN,depth:h.depth>=0?Number(h.depth):NaN,source:'P2P地震情報'};
+}
+let lastQuake={html:'',at:''};
+async function updateQuake(){
+ let q=null;const errs=[];
+ for(const f of [quakeFromJMA,quakeFromP2P]){try{q=await f();break}catch(e){errs.push(String(e&&e.message||e))}}
+ if(!q){
+  const link='<a class="info-link" href="https://www.jma.go.jp/bosai/map.html#contents=earthquake_map" target="_blank" rel="noopener">気象庁で確認 ↗</a>';
+  $('quake').innerHTML=lastQuake.html
+   ?'<div class="small" style="color:var(--red)">最新の取得に失敗（'+esc(errs.join(' / '))+'）。'+esc(lastQuake.at)+' に取得した情報を表示中</div>'+lastQuake.html
+   :'<div class="empty">地震情報を取得できませんでした（'+esc(errs.join(' / '))+'）。'+link+'</div>';
+  return;
+ }
+ const inten=q.shindo?'最大震度 '+q.shindo:'震度情報確認中',mag=q.mag?'M'+q.mag:'M不明';
+ const depth=okNum(q.depth)?'　/　深さ '+(q.depth>0?'約'+Math.round(q.depth)+'km':'ごく浅い'):'';
+ const html='<div class="quake-head">'+esc(q.name)+'</div><div class="quake-mag">'+esc(inten)+'</div><div class="data">規模 '+esc(mag)+depth+'　/　発生 '+esc(q.at||'不明')+'</div><div class="small">'+esc(q.source)+'の発表情報です。速報値は更新される場合があります。</div><p><a class="info-link" target="_blank" rel="noopener" href="https://www.jma.go.jp/bosai/map.html#contents=earthquake_map">地震情報を詳しく見る ↗</a></p>';
+ lastQuake={html,at:time(new Date())};
+ $('quake').innerHTML=html;
+ const hasPos=okNum(q.lat)&&okNum(q.lon);
+ set('mapNote','最新地震：'+q.name+(hasPos?'':'（座標なし）')+'。位置が取得できない場合も地図自体は操作できます。');
+ if(hasPos)markQuake(q.lat,q.lon,q.name);
+}
+function initMap(){if(!window.L){set('mapNote','地図ライブラリの読み込みに失敗しました。通信環境を確認してください。');return}signalMap=L.map('liveMap',{zoomControl:true,scrollWheelZoom:true}).setView([37.2,137.0],5);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(signalMap);setTimeout(()=>signalMap.invalidateSize(),400);$('mapJapan').onclick=()=>signalMap.setView([37.2,137.0],5);$('mapQuake').onclick=()=>{if(lastQuakeLatLng)signalMap.setView(lastQuakeLatLng,8);else set('mapNote','最新地震の座標は未取得です。地図の移動・拡大縮小は利用できます。')};}function markQuake(lat,lon,name){lastQuakeLatLng=[lat,lon];if(!signalMap||!window.L)return;if(quakeMarker)signalMap.removeLayer(quakeMarker);quakeMarker=L.circleMarker([lat,lon],{radius:9,color:'#ff6972',weight:2,fillColor:'#f45b69',fillOpacity:.55}).addTo(signalMap).bindPopup(esc(name));}qs('[data-nav]').forEach(b=>b.onclick=()=>{qs('[data-nav]').forEach(x=>x.classList.remove('active'));b.classList.add('active');const id={all:'app',news:'jpPanel',jp:'jpPanel',world:'worldPanel',weather:'weatherPanel',quake:'quakePanel'}[b.dataset.nav];$(id).scrollIntoView({behavior:'smooth',block:'start'})});$('tickerSpeed').onchange=()=>{$('ticker').style.animationDuration=$('tickerSpeed').value+'s'};$('pauseTicker').onclick=()=>{const paused=$('ticker').closest('.tickerbar').classList.toggle('paused');$('pauseTicker').setAttribute('aria-pressed',String(paused));$('pauseTicker').textContent=paused?'▶ 再開':'⏸ 一時停止'};$('refresh').onclick=updateNews;$('more').onclick=()=>{expanded=!expanded;render()};$('city').onchange=()=>{try{localStorage.setItem('tsukasa_signal_city',$('city').value)}catch{}updateWeather()};try{document.body.dataset.theme='terminal';try{localStorage.setItem('tsukasa_signal_theme','terminal')}catch{};$('app').classList.remove('list-mode');const c=localStorage.getItem('tsukasa_signal_city');if(cities[c])$('city').value=c}catch{document.body.dataset.theme='terminal';$('app').classList.remove('list-mode')}set('clock',time(new Date()));setInterval(()=>set('clock',time(new Date())),1000);try{initMap()}catch(e){set('mapNote','地図の初期化に失敗しました：'+String(e&&e.message||e))}const refreshAll=()=>{updateNews();updateWeather();updateQuake()};refreshAll();setInterval(refreshAll,180000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshAll()});window.addEventListener('online',refreshAll);
+})();</script>
+</body></html>
