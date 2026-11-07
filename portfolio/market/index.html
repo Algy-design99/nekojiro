@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><meta name="author" content="TSUKASA"><title>TSUKASA MARKET DESK｜市場・速報・防災</title>
+<style>
+:root{--bg:#090e14;--surface:#111b25;--surface2:#17232e;--border:#293745;--text:#e9f1f5;--muted:#95a7b6;--green:#3bd7a2;--red:#ff7280;--cyan:#74cffa;--gold:#edc67b;font:14px/1.6 system-ui,-apple-system,'Yu Gothic',Meiryo,sans-serif;color:var(--text);background:var(--bg)}*{box-sizing:border-box}html,body{margin:0;min-width:0;width:100%}body{background:var(--bg);color:var(--text)}a{color:var(--cyan)}button,input,select{font:inherit}button{cursor:pointer}#site-header{position:sticky;top:0;z-index:20;background:#0d151eeF;border-bottom:1px solid var(--border);backdrop-filter:blur(16px)}.head{max-width:1700px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.brand{font-weight:850;font-size:20px;letter-spacing:.02em;color:#f1f5f8;text-decoration:none}.brand em{font-style:normal;color:var(--green)}.tagline{font-size:11px;color:var(--muted)}.head-right{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.state{font-size:12px;color:var(--muted)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#8292a0;margin-right:6px}.dot.on{background:var(--green);box-shadow:0 0 12px #3bd7a280}.dot.off{background:var(--red)}.shell{width:min(100%,1700px);padding:24px 22px 60px;margin:auto}.eyebrow{font-size:11px;font-weight:800;letter-spacing:.14em;color:var(--cyan)}.hero{display:flex;align-items:end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:19px}.hero h1{font-size:clamp(25px,3vw,39px);line-height:1.2;margin:6px 0 5px}.hero p{margin:0;color:var(--muted)}.clock{font-variant-numeric:tabular-nums;font-weight:750;font-size:16px}.badge{font-size:11px;padding:4px 9px;border:1px solid var(--border);border-radius:30px;color:var(--muted)}.quote-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}.quote{padding:17px;background:linear-gradient(135deg,#162633,#101b25);border:1px solid var(--border);border-radius:13px;min-width:0}.quote-name{font-weight:750;font-size:12px;color:#c4d1da}.quote-price{font-weight:850;font-size:clamp(22px,2.1vw,32px);line-height:1.2;letter-spacing:-.04em;font-variant-numeric:tabular-nums;margin:8px 0}.quote-meta{font-size:11px;color:var(--muted);overflow-wrap:anywhere}.layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(330px,1fr);gap:16px}.panel{min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden}.panel-h{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:16px 18px;border-bottom:1px solid var(--border)}.panel-h h2{margin:0;font-size:16px}.panel-body{padding:14px 17px}.wide{grid-column:1/-1}.chart{height:620px}.heatmap{height:540px}.calendar{height:550px}.note{font-size:11px;color:var(--muted);line-height:1.8;margin:9px 0 0}.tabs{display:flex;gap:7px;flex-wrap:wrap}.tabs button{border:1px solid var(--border);background:var(--surface2);color:var(--text);padding:5px 10px;border-radius:7px;font-size:12px}.tabs button.active{background:#254b59;border-color:#41879b;color:white}.news-list{list-style:none;margin:0;padding:0}.news-list li{padding:13px 0;border-bottom:1px solid var(--border)}.news-list li:last-child{border:0}.news-list a{font-weight:700;text-decoration:none;color:var(--text);line-height:1.5}.news-list a:hover{color:var(--cyan)}.news-list small{display:block;color:var(--muted);margin-top:5px}.link-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.quick{border:1px solid var(--border);border-radius:9px;padding:11px;text-decoration:none;color:var(--text);background:var(--surface2)}.quick:hover{border-color:var(--cyan)}.quick span{display:block;font-size:11px;color:var(--muted)}.source{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:12px}.source:last-child{border:0}.source strong{font-weight:700}.warn{color:var(--red)}.ok{color:var(--green)}.footer{margin-top:20px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:11px}.footer a{color:var(--muted)}.article-wrap{max-width:1050px;margin:35px auto;padding:0 20px}.article-wrap article{padding:24px;background:var(--surface);border:1px solid var(--border);border-radius:12px;margin:0 0 18px}.article-wrap h1,.article-wrap h2{line-height:1.4}.article-wrap .entry-body{overflow-wrap:anywhere}.article-wrap img{max-width:100%;height:auto}.article-wrap .entry-body iframe{max-width:100%}.article-wrap .pager{display:flex;justify-content:space-between;margin:18px 0}.article-wrap .comments{margin-top:20px}.article-wrap textarea,.article-wrap input{max-width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:9px}.article-wrap textarea{width:100%;min-height:130px}.article-wrap label{display:block;margin:10px 0 4px}.article-wrap input[type=submit]{margin-top:12px;cursor:pointer}#page-top{display:none}@media(max-width:1100px){.layout{grid-template-columns:1fr}.wide{grid-column:auto}.quote-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.chart{height:540px}}@media(max-width:620px){.head{padding:11px 12px}.brand{font-size:17px}.shell{padding:16px 10px 35px}.quote-grid{gap:8px}.quote{padding:12px}.quote-price{font-size:20px}.panel-h{padding:13px}.panel-body{padding:12px}.chart{height:440px}.heatmap{height:450px}.calendar{height:460px}.link-grid{grid-template-columns:1fr}.hero{margin-bottom:14px}.hero h1{font-size:25px}}
+
+/* 速報優先・省スクロール設計 */
+.shell{padding-top:13px}.hero{margin-bottom:12px}.hero h1{font-size:clamp(22px,2.2vw,30px)}.quote-grid{margin-bottom:12px}.quote{padding:12px 15px}.quote-price{font-size:clamp(21px,1.8vw,29px)}.layout{gap:12px}.chart{height:455px}.heatmap{height:455px}.calendar{height:470px}.panel-h{padding:11px 14px}.panel-body{padding:11px 14px}.news-list{max-height:390px;overflow-y:auto;scrollbar-width:thin}.news-list li{padding:9px 0}.ticker-bar{display:flex;align-items:stretch;background:#071219;border-bottom:1px solid #28515c;min-height:42px;overflow:hidden}.ticker-label{flex:0 0 auto;background:#b83641;color:#fff;font-size:12px;font-weight:850;letter-spacing:.08em;padding:11px 15px;z-index:2}.ticker-viewport{min-width:0;overflow:hidden;flex:1;position:relative}.ticker-track{display:flex;align-items:center;width:max-content;min-height:42px;animation:news-marquee 70s linear infinite;will-change:transform}.ticker-viewport:hover .ticker-track,.ticker-viewport:focus-within .ticker-track{animation-play-state:paused}.ticker-track a{display:inline-block;color:#eaf3f5;font-size:13px;text-decoration:none;padding:0 25px;border-right:1px solid #34505a;white-space:nowrap}.ticker-track a:hover{color:#7fd8ef;text-decoration:underline}@keyframes news-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}.ticker-empty{padding:10px 15px;color:#9babb3}.toolbar{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.mini-btn{border:1px solid #3d5867;border-radius:7px;background:#1c303c;color:#dbe8ef;padding:5px 10px;font-size:12px}.mini-btn:hover{border-color:#7fd8ef}.panel.folded>.fold-content{display:none}.panel.folded .fold-btn{color:#77d7ef}.panel.folded{align-self:start}.news-list a{font-weight:600}.compact-note{font-size:11px;color:#96a7b3}.quote-meta{line-height:1.45}@media(max-width:1100px){.chart,.heatmap{height:400px}}@media(max-width:620px){.ticker-label{padding:11px 9px}.ticker-track a{padding:0 16px}.chart,.heatmap{height:380px}.calendar{height:420px}.hero p{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none;width:auto;overflow-x:auto}.ticker-viewport{overflow-x:auto}}
+
+/* 地域別天気設定 */.weather-settings{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0 0 10px;font-size:12px}.weather-settings[hidden]{display:none}.weather-settings select{background:#172734;border:1px solid #466174;border-radius:6px;color:#e3edf2;padding:5px 9px}
+/* v3: 情報・防災・月間カレンダー */
+.info-switch{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:11px}.info-switch button,.life-tabs button{border:1px solid #395060;border-radius:7px;background:#172734;color:#e3edf2;padding:6px 12px;font-size:12px}.info-switch button.active,.life-tabs button.active{background:#214c5a;border-color:#55c8df;color:#fff}.info-switch .compact-note{margin-left:auto}.life-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}.life-list{height:260px;max-height:260px;overflow:auto}.life-list li{padding:9px 0}.life-footer{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding-top:12px;font-size:11px;color:var(--muted)}.month-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}.month-weekday{font-size:11px;text-align:center;color:var(--muted);padding:5px 0}.month-day{min-width:0;min-height:45px;border:1px solid #2b4050;border-radius:7px;background:#142330;color:var(--text);display:flex;align-items:flex-start;justify-content:space-between;padding:6px;font-size:12px}.month-day:hover{border-color:var(--cyan)}.month-day.today{border-color:var(--green)}.month-day.selected{background:#214b5b;border-color:var(--cyan)}.month-day.blank{visibility:hidden}.month-day .count{font-size:10px;color:var(--cyan)}.month-day{flex-direction:column;gap:2px;text-align:left}.month-day .market-flags{display:flex;flex-wrap:wrap;gap:3px}.month-day .market-flags b{font-size:9px;font-weight:700;padding:0 3px;border-radius:3px;background:#543039;color:#ffb5b5}.month-day .market-flags b.us{background:#304765;color:#b2d7ff}.month-day.weekend{background:#211d2a}.month-day.market-closed{border-color:#65404a}.market-legend{font-size:11px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap;margin:8px 0}.market-legend b{color:#ffb5b5}.market-legend .us{color:#b2d7ff}.day-details{margin-top:12px;padding:10px;border:1px solid var(--border);border-radius:8px;font-size:12px;max-height:150px;overflow:auto}.day-details a{display:block;padding:5px 0;text-decoration:none}.day-details a:hover{text-decoration:underline}#monthly-panel .panel-body{padding:12px}.ticker-track{animation-duration:85s}@media(max-width:620px){.info-switch .compact-note{width:100%;margin-left:0}.month-day{min-height:39px;padding:4px;font-size:11px}.month-day .count{font-size:9px}}
+
+/* v5: ワンビュー・マーケットデスク。主要チャートの可読性を優先 */
+:root{--desk-head:61px;--desk-ticker:42px}
+html,body{height:100%}body{overflow:hidden}
+#site-header{position:relative;height:var(--desk-head)}.head{height:100%;padding:7px 18px;max-width:none}.tagline{font-size:12px;color:#d5e5ed}.tagline-en{color:#8195a5;font-size:10px;margin-left:10px}.ticker-bar{height:var(--desk-ticker)}
+.shell{height:calc(100dvh - var(--desk-head) - var(--desk-ticker));padding:10px 16px 8px;max-width:none;display:flex;flex-direction:column;overflow:hidden}
+.info-switch{margin-bottom:6px;flex:none}.info-switch button{padding:4px 10px}.desk-bar{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:33px;margin-bottom:7px;flex:none}.desk-bar>span{font-size:11px;letter-spacing:.15em;font-weight:800;color:var(--cyan)}.desk-tools{display:flex;gap:6px;flex-wrap:wrap}.desk-tools button{background:#192d39;border:1px solid #365367;border-radius:6px;color:#d7e8ef;font-size:12px;padding:5px 10px}.desk-tools button:hover{border-color:#76d2e9}
+.quote-grid{flex:none;gap:9px;margin-bottom:9px}.quote{padding:9px 13px}.quote-name{font-size:12px}.quote-price{font-size:clamp(22px,2vw,29px);margin:3px 0}.quote-meta{font-size:10px}.layout{flex:1;min-height:0;grid-template-columns:minmax(0,1.72fr) minmax(360px,1fr);grid-template-rows:minmax(0,1fr);gap:10px}.layout>.panel:not(.drawer-panel){height:100%;min-height:0;display:flex;flex-direction:column}.panel-h{padding:8px 12px;min-height:43px;flex:none}.panel-h h2{font-size:14px}.chart,.heatmap{height:100%!important;min-height:0;flex:1}.fold-content{display:flex;flex-direction:column;min-height:0;flex:1}.fold-content>.heatmap{flex:1}.layout>.panel:not(.drawer-panel) .panel-body{padding:0 10px 4px;flex:none}.layout>.panel:not(.drawer-panel) .note{font-size:10px;margin:2px 0;line-height:1.3}
+.drawer-panel{display:none!important;position:fixed!important;z-index:52;right:16px;top:114px;width:min(580px,calc(100vw - 32px));height:min(740px,calc(100dvh - 130px));overflow:auto;box-shadow:0 25px 75px #000b}.drawer-panel.drawer-open{display:block!important}.drawer-panel .news-list{max-height:calc(100dvh - 250px)}.drawer-panel .life-list{height:auto;max-height:calc(100dvh - 320px)}.drawer-panel .calendar{height:480px}.drawer-panel .fold-content{display:block}.drawer-panel.folded .fold-content{display:none}#drawer-shade{display:none;position:fixed;inset:0;background:#0009;z-index:51}#drawer-shade.active{display:block}.drawer-close{border:1px solid #577386;border-radius:6px;background:#213a4a;color:white;padding:4px 10px;font-size:12px;margin-left:auto}.footer{display:none}
+@media(max-width:900px){body{overflow:auto}.shell{height:auto;min-height:calc(100dvh - 103px);overflow:visible}.layout{display:grid;grid-template-columns:1fr;grid-template-rows:auto}.layout>.panel:not(.drawer-panel){height:440px}.chart,.heatmap{height:100%!important}.desk-bar{align-items:flex-start}.desk-tools{justify-content:flex-end}.drawer-panel{top:65px;height:calc(100dvh - 80px)}}
+@media(max-width:620px){.tagline-en{display:none}.head{padding:7px 10px}.shell{padding:8px}.desk-bar{display:block}.desk-tools{justify-content:flex-start;margin-top:5px}.desk-tools button{font-size:11px;padding:4px 7px}.quote-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.quote{padding:8px}.quote-price{font-size:20px}.layout>.panel:not(.drawer-panel){height:400px}.ticker-bar{height:42px}.drawer-panel{right:8px;width:calc(100vw - 16px)}}
+</style>
+<style id="neko-ticker-stable-v3">
+.ticker-viewport{overflow:hidden!important;min-width:0!important;position:relative!important}
+#breaking-ticker{display:flex!important;flex-flow:row nowrap!important;align-items:center!important;width:max-content!important;min-width:max-content!important;max-width:none!important;animation:none!important;transition:none!important;transform:translate3d(0,0,0);will-change:transform}
+#breaking-ticker .neko-ticker-group{display:flex!important;flex:0 0 auto!important;width:max-content!important;min-width:max-content!important;white-space:nowrap!important;align-items:center!important}
+#breaking-ticker .neko-ticker-group a{flex:0 0 auto!important;white-space:nowrap!important;display:inline-block!important}
+</style><meta property="og:type" content="website">
+<meta property="og:url" content="https://algy-design99.github.io/nekojiro/portfolio/market/">
+<meta property="og:title" content="TSUKASA MARKET DESK">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://static.fc2.com/image/noimage.gif">
+<meta name="description" content="TSUKASAの自主制作。外部データと連携し、ニュース・市場チャート・暗号資産の約定価格・天気をまとめた情報ダッシュボード。"><style>.portfolio-bar{padding:9px 22px;background:#17251f;color:#dce9df;font-size:12px;border-bottom:1px solid #345445;display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}.portfolio-bar a{color:#a9e7c6}.brand{font-size:18px}</style></head><body><div class="portfolio-bar"><span>TSUKASA / 自主制作・外部データ連携</span><a href="../">ポートフォリオへ戻る ↗</a></div>
+<header id="site-header"><div class="head"><div><a class="brand" href="./">TSUKASA <em>MARKET DESK</em></a><div class="tagline">マーケットの今を、ひと目で。 <span class="tagline-en">MARKET INTELLIGENCE · LIVE DATA</span></div></div><div class="head-right"><span class="state"><i id="connection-dot" class="dot"></i><span id="connection-state">ライブ接続準備中</span></span><span class="clock" id="jst-clock">JST --:--:--</span></div></div></header>
+<div class="ticker-bar" role="region" aria-label="ニュース・地震・天気速報"><span class="ticker-label" id="ticker-label">速報 NEWS</span><div class="ticker-viewport"><div class="ticker-track" id="breaking-ticker"><span class="ticker-empty">ニュース受信待機中...</span></div></div></div>
+<main class="shell" id="dashboard">
+<div class="info-switch" role="group" aria-label="速報の切り替え"><button class="active" data-info="news">ニュース</button><button data-info="quake">地震速報</button><button data-info="weather">地域の天気</button><span id="info-updated" class="compact-note">情報を確認中</span></div>
+<div class="desk-bar"><span>LIVE MARKET DESK</span><div class="desk-tools"><button type="button" data-drawer="news-panel">ニュース一覧</button><button type="button" data-drawer="life-info">地震・天気</button><button type="button" data-drawer="calendar-panel">経済指標</button><button type="button" data-drawer="monthly-panel">市場休場日</button><button type="button" data-drawer="source-panel">データ状態</button><button type="button" data-drawer="links-panel">外部市場</button></div></div>
+<section class="quote-grid" aria-label="リアルタイム価格">
+<div class="quote"><div class="quote-name">Bitcoin <span class="badge">Coinbase</span></div><div class="quote-price" id="btc-price">--</div><div class="quote-meta" id="btc-meta">約定待機中</div></div>
+<div class="quote"><div class="quote-name">Ethereum <span class="badge">Coinbase</span></div><div class="quote-price" id="eth-price">--</div><div class="quote-meta" id="eth-meta">約定待機中</div></div>
+<div class="quote"><div class="quote-name">Solana <span class="badge">Coinbase</span></div><div class="quote-price" id="sol-price">--</div><div class="quote-meta" id="sol-meta">約定待機中</div></div>
+<div class="quote"><div class="quote-name">XRP <span class="badge">Coinbase</span></div><div class="quote-price" id="xrp-price">--</div><div class="quote-meta" id="xrp-meta">約定待機中</div></div>
+</section>
+<div class="layout">
+<section class="panel"><div class="panel-h"><h2>インタラクティブ株価チャート</h2><div class="tabs" id="symbol-tabs"><button class="active" data-symbol="NASDAQ:AAPL">米国株</button><button data-symbol="TVC:NI225">日経225</button><button data-symbol="FX:USDJPY">ドル円</button><button data-symbol="COINBASE:BTCUSD">BTC</button><button data-symbol="TVC:GOLD">金</button></div></div><div id="chart-host" class="chart"></div><div class="panel-body"><p class="note">TradingView公式チャート。チャート内で銘柄・時間足・指標を変更できます。取引所・データ契約によって遅延が異なります。日本株などはリアルタイムとは限りません。</p></div></section>
+<section class="panel foldable"><div class="panel-h"><h2>市場ヒートマップ</h2><span class="badge">米国大型株</span><button type="button" class="mini-btn fold-btn" aria-expanded="true">収納 −</button></div><div class="fold-content"><div id="heatmap-host" class="heatmap"></div><div class="panel-body"><p class="note">セクター別の値動きを可視化。TradingView提供。市場データの遅延に注意。</p></div></div></section>
+<section class="panel drawer-panel" id="news-panel"><div class="panel-h"><h2>最新ニュース</h2><span id="news-status" class="badge">取得中</span></div><div class="panel-body"><ul class="news-list" id="news-list"><li>ニュースを取得しています...</li></ul><p class="note">経済・金融・株式・為替・海外経済の日本語ニュースを掲載。GitHubで定期収集し、取得した記事を表示し、更新遅延時も前回取得分を保持します。</p></div></section>
+<section class="panel drawer-panel" id="life-info"><div class="panel-h"><h2>ニュース・地震・天気</h2><span class="badge" id="life-status">更新確認中</span></div><div class="panel-body"><div class="life-tabs"><button class="active" data-life="news">ニュース</button><button data-life="quake">地震情報</button><button data-life="weather">地域の天気</button></div><div class="weather-settings" id="weather-settings" hidden><label for="weather-region">表示地域 </label><select id="weather-region" aria-label="天気予報の地域"><option value="130000">東京</option><option value="016000">札幌</option><option value="040000">仙台</option><option value="150000">新潟</option><option value="230000">名古屋</option><option value="270000">大阪</option><option value="340000">広島</option><option value="400000">福岡</option><option value="470000">那覇</option></select><span class="compact-note">地域選択はこの端末に保存</span></div><ul class="news-list life-list" id="life-list"><li>情報を取得しています…</li></ul><div class="life-footer"><span id="life-source">提供元を確認中</span><a id="life-link" href="https://www.jma.go.jp/bosai/map.html#contents=earthquake_map" target="_blank" rel="noopener noreferrer">提供元を見る ↗</a></div></div></section>
+<section class="panel drawer-panel" id="monthly-panel"><div class="panel-h"><h2>市場休場カレンダー｜日本・米国</h2><div class="toolbar"><button class="mini-btn" id="month-prev" aria-label="前の月">◀</button><strong id="month-label">--</strong><button class="mini-btn" id="month-next" aria-label="次の月">▶</button><button class="mini-btn" id="month-today">今月</button></div></div><div class="panel-body"><div class="market-legend"><span><b>JP</b> 東証休場</span><span class="us">US 米国株休場</span><span>※現地日付基準</span></div><div class="month-grid" id="month-grid" aria-label="月間カレンダー"></div><p class="note">日本株（東証）・米国株（NYSE）の休場日を表示。土日・祝日を色分けし、日付を押すと市場別の状態を確認できます。短縮取引・臨時休場は対象外。</p><div class="day-details" id="day-details">日付を選択してください。</div></div></section>
+<section class="panel foldable folded drawer-panel" id="calendar-panel"><div class="panel-h"><h2>経済指標カレンダー</h2><span class="badge">発表予定の確認</span><button type="button" class="mini-btn fold-btn" aria-expanded="true">収納 −</button></div><div class="fold-content"><div id="calendar-host" class="calendar"></div><div class="panel-body"><p class="note">TradingView提供。発表時刻・重要度は配信元の情報をご確認ください。</p></div></div></section>
+<section class="panel foldable folded drawer-panel" id="source-panel"><div class="panel-h"><h2>データの信頼性・接続状態</h2><span class="badge">透明性優先</span><button type="button" class="mini-btn fold-btn" aria-expanded="true">収納 −</button></div><div class="fold-content"><div class="panel-body"><div class="source"><strong>暗号資産の約定</strong><span id="src-crypto">接続待機中</span></div><div class="source"><strong>最終約定受信</strong><span id="src-last">未受信</span></div><div class="source"><strong>ニュース取得</strong><span id="src-news">確認中</span></div><div class="source"><strong>株価チャート</strong><span>TradingView / 遅延は市場別</span></div><p class="note">暗号資産の価格はCoinbase Exchangeの約定価格で、全取引所の統合価格ではありません。WebSocket接続中でも約定がなければ価格は変わりません。90秒以上更新がない価格は「古い情報」と表示します。</p></div></div></section>
+<section class="panel foldable folded drawer-panel" id="links-panel"><div class="panel-h"><h2>トレーダー向けクイックアクセス</h2><button type="button" class="mini-btn fold-btn" aria-expanded="true">収納 −</button></div><div class="fold-content"><div class="panel-body"><div class="link-grid"><a class="quick" href="https://www.tradingview.com/markets/stocks-japan/" target="_blank" rel="noopener">日本株市場<span>銘柄・セクター</span></a><a class="quick" href="https://www.tradingview.com/markets/stocks-usa/" target="_blank" rel="noopener">米国株市場<span>指数・セクター</span></a><a class="quick" href="https://www.tradingview.com/markets/currencies/" target="_blank" rel="noopener">為替市場<span>主要通貨ペア</span></a><a class="quick" href="https://www.tradingview.com/markets/cryptocurrencies/" target="_blank" rel="noopener">暗号資産市場<span>取引量・変動率</span></a></div><p class="note">この試作版に注文機能、板情報、ポートフォリオ連携はありません。外部サービスへのリンクは別タブで開きます。</p></div></div></section>
+</div>
+<div id="drawer-shade" aria-hidden="true"></div>
+<footer class="footer">TSUKASA MARKET DESK｜情報提供のみ。売買の勧誘・価格の保証は行いません。データの遅延や通信断に注意してください。</footer>
+</main>
+<script>
+(function(){'use strict';
+function renderTicker(items,emptyMsg){
+ var root=document.getElementById('breaking-ticker');if(!root)return;
+ root.replaceChildren();
+ var sample=items.slice(0,10);
+ if(!sample.length){
+  var text=emptyMsg||'経済ニュースを取得中です。取得できない場合はニュース一覧をご確認ください。';
+  sample=[{title:text,url:'https://news.google.com/search?q=%E7%B5%8C%E6%B8%88&hl=ja&gl=JP&ceid=JP%3Aja'}];
+ }
+ for(var pass=0;pass<2;pass++){
+  var group=document.createElement('div');group.className='neko-ticker-group';
+  if(pass===1)group.setAttribute('aria-hidden','true');
+  sample.forEach(function(item){
+   var a=document.createElement('a');a.href=item.url;a.target='_blank';
+   a.rel='noopener noreferrer';a.textContent='◆ '+item.title;
+   group.appendChild(a);
+  });
+  root.appendChild(group);
+ }
+ root.style.animation='none';
+ void root.offsetWidth;
+ root.style.animation='';
+ window.dispatchEvent(new Event('resize'));
+}
+document.querySelectorAll('.foldable').forEach(function(panel){var btn=panel.querySelector('.fold-btn');function sync(){var open=!panel.classList.contains('folded');btn.textContent=open?'収納 −':'展開 ＋';btn.setAttribute('aria-expanded',String(open))}btn.addEventListener('click',function(){panel.classList.toggle('folded');sync()});sync()});
+
+var $=function(id){return document.getElementById(id)}, latest={},ws=null,tries=0,lastTick=null;
+function time(d){return new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(d)}
+function clock(){$('jst-clock').textContent='JST '+new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date())}clock();setInterval(clock,1000);
+function state(ok,s){$('connection-dot').className='dot '+(ok?'on':'off');$('connection-state').textContent=s;$('src-crypto').textContent=s}
+function show(k){var x=latest[k],p=$(k+'-price'),m=$(k+'-meta');if(!x)return;var age=Math.max(0,Math.floor((Date.now()-x.recv.getTime())/1000));p.textContent='$'+Number(x.price).toLocaleString('en-US',{minimumFractionDigits:k==='btc'?2:4,maximumFractionDigits:k==='btc'?2:4});m.textContent='約定 '+time(x.market)+' / 受信 '+time(x.recv)+' / '+age+'秒前'+(age>90?' ⚠ 古い情報':'');m.className='quote-meta'+(age>90?' warn':'')}
+function connect(){state(false,'接続中');try{ws=new WebSocket('wss://ws-feed.exchange.coinbase.com')}catch(e){state(false,'接続不可');setTimeout(connect,30000);return}ws.onopen=function(){tries=0;state(true,'Coinbase接続中');ws.send(JSON.stringify({type:'subscribe',product_ids:['BTC-USD','ETH-USD','SOL-USD','XRP-USD'],channels:['ticker']}))};ws.onmessage=function(e){var d;try{d=JSON.parse(e.data)}catch(x){return}if(d.type!=='ticker'||!d.price)return;var k={'BTC-USD':'btc','ETH-USD':'eth','SOL-USD':'sol','XRP-USD':'xrp'}[d.product_id];if(!k)return;var t=new Date(d.time);if(isNaN(t.getTime()))t=new Date();lastTick=new Date();latest[k]={price:d.price,market:t,recv:lastTick};$('src-last').textContent=time(lastTick)+' JST';show(k)};ws.onerror=function(){state(false,'通信エラー')};ws.onclose=function(){state(false,'切断・再接続待ち');setTimeout(connect,Math.min(30000,1000*Math.pow(2,Math.min(tries++,5))))}}connect();setInterval(function(){['btc','eth','sol','xrp'].forEach(show)},5000);
+function tv(id,path,config){var host=$(id);host.textContent='';var wrap=document.createElement('div');wrap.className='tradingview-widget-container';wrap.style.cssText='width:100%;height:100%';var inner=document.createElement('div');inner.className='tradingview-widget-container__widget';inner.style.cssText='height:100%;width:100%';wrap.appendChild(inner);var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src='https://s3.tradingview.com/external-embedding/'+path;s.textContent=JSON.stringify(config);wrap.appendChild(s);host.appendChild(wrap)}
+function chart(symbol){tv('chart-host','embed-widget-advanced-chart.js',{autosize:true,symbol:symbol,interval:'5',timezone:'Asia/Tokyo',theme:'dark',style:'1',locale:'ja',allow_symbol_change:true,calendar:false,hide_top_toolbar:false,hide_legend:false,support_host:'https://www.tradingview.com'})}chart('NASDAQ:AAPL');
+$('symbol-tabs').addEventListener('click',function(e){var b=e.target.closest('button[data-symbol]');if(!b)return;Array.prototype.forEach.call(this.querySelectorAll('button'),function(x){x.classList.remove('active')});b.classList.add('active');chart(b.getAttribute('data-symbol'))});
+tv('heatmap-host','embed-widget-stock-heatmap.js',{exchanges:[],dataSource:'SPX500',grouping:'sector',blockSize:'market_cap_basic',blockColor:'change',locale:'ja',colorTheme:'dark',hasTopBar:true,isDataSetEnabled:true,isZoomEnabled:true,hasSymbolTooltip:true,isMonoSize:false,width:'100%',height:'100%'});
+tv('calendar-host','embed-widget-events.js',{colorTheme:'dark',isTransparent:true,width:'100%',height:'100%',locale:'ja',importanceFilter:'0,1',countryFilter:'us,jp,eu,gb,cn'});
+var NEWS_KEY='tsukasa-market-news-good-v2';
+var goodNews=[],lastNewsStamp='',newsBusy=false;
+function validNews(data){
+ if(!data||!Array.isArray(data.items))throw Error('JSONのitems配列がありません');
+ var items=data.items.filter(function(x){return x&&typeof x.title==='string'&&x.title.trim()&&typeof x.url==='string'&&/^https:\/\//.test(x.url)}).slice(0,60);
+ if(!items.length)throw Error('表示できる記事が0件です');
+ return {items:items,stamp:data.updated_at||new Date().toISOString()};
+}
+function restoreNews(){try{var v=JSON.parse(localStorage.getItem(NEWS_KEY)||'null');if(v){var d=validNews({updated_at:v.stamp,items:v.items});goodNews=d.items;lastNewsStamp=d.stamp}}catch(e){}}
+function drawNews(items,stamp,verified){
+ var ul=$('news-list');ul.replaceChildren();
+ items.forEach(function(x){var li=document.createElement('li'),a=document.createElement('a'),sm=document.createElement('small');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=x.title;var date=Date.parse(x.published_at);sm.textContent=(x.source||'ニュース')+(Number.isFinite(date)?' / '+time(new Date(date)):'');li.append(a,sm);ul.appendChild(li)});
+ var stampDate=Date.parse(stamp),label=(verified?'取得 ':'保存済み ')+(Number.isFinite(stampDate)?time(new Date(stampDate)):'日時不明');
+ $('news-status').textContent=items.length+'件 / '+label;
+ $('src-news').textContent=items.length+'件表示 / '+label;
+ infoCache.news=items.map(function(x){return {title:x.title,url:x.url,date:x.published_at,source:x.source||'ニュース'}});
+ infoChecked.news=Date.now();newsForCalendar=items.slice();
+ /* ニュース表示中のときだけ速報欄・一覧を更新する（地震・天気タブを上書きしない）。ティッカーはrenderInfo内で更新される */
+ if(infoKind==='news')renderInfo();
+}
+async function news(){
+ if(newsBusy)return;newsBusy=true;
+ try{
+  var ctl=new AbortController(),timer=setTimeout(function(){ctl.abort()},15000),r;
+  try{r=await fetch('https://raw.githubusercontent.com/Algy-design99/nekojiro/main/news/economy.json?t='+Date.now(),{cache:'no-store',signal:ctl.signal})}finally{clearTimeout(timer)}
+  if(!r.ok)throw Error('HTTP '+r.status);
+  var data=validNews(await r.json());goodNews=data.items;lastNewsStamp=data.stamp;
+  try{localStorage.setItem(NEWS_KEY,JSON.stringify({stamp:data.stamp,items:data.items}))}catch(e){}
+  drawNews(goodNews,lastNewsStamp,true);
+ }catch(e){
+  $('src-news').textContent='取得失敗: '+(e&&e.message||String(e));
+  if(goodNews.length){drawNews(goodNews,lastNewsStamp,false);$('src-news').textContent='保存済み'+goodNews.length+'件 / 取得失敗: '+(e&&e.message||String(e))}
+  else{$('news-status').textContent='取得失敗';$('news-list').textContent='ニュース取得失敗: '+(e&&e.message||String(e));if(infoKind==='news')renderTicker([])}
+ }finally{newsBusy=false}
+}
+renderTicker([]);setInterval(function(){if(!document.hidden)news()},60000);
+/* FC2掲示板の「ニュース・地震・天気」構成を踏襲。速報欄と一覧は同じデータを利用 */
+var infoKind='news',infoCache={news:[],quake:[],weather:[]},infoSeq=0,infoChecked={},infoErr={};var newsForCalendar=[];
+var weatherRegions={'130000':{name:'東京',area:'東京地方'},'016000':{name:'札幌',area:'石狩地方'},'040000':{name:'仙台',area:'東部'},'150000':{name:'新潟',area:'下越'},'230000':{name:'名古屋',area:'西部'},'270000':{name:'大阪',area:'大阪府'},'340000':{name:'広島',area:'南部'},'400000':{name:'福岡',area:'福岡地方'},'470000':{name:'那覇',area:'本島中南部'}};
+var weatherRegion='130000';try{var storedRegion=localStorage.getItem('tsukasa-market-weather-region');if(weatherRegions[storedRegion])weatherRegion=storedRegion}catch(e){}
+$('weather-region').value=weatherRegion;
+var infoLinks={news:'https://news.google.com/home?hl=ja&gl=JP&ceid=JP:ja',quake:'https://www.jma.go.jp/bosai/map.html#contents=earthquake_map',weather:'https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code='+weatherRegion};
+$('weather-region').addEventListener('change',function(){if(!weatherRegions[this.value])return;weatherRegion=this.value;infoLinks.weather='https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code='+weatherRegion;try{localStorage.setItem('tsukasa-market-weather-region',weatherRegion)}catch(e){}infoChecked.weather=0;infoErr.weather=null;infoCache.weather=[];chooseInfo('weather')});
+function safeItems(kind){return infoCache[kind]||[]}
+function infoTime(d){return new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(d)}
+/* P2P地震情報の "YYYY/MM/DD hh:mm:ss" はJST。端末のタイムゾーンに依存しないよう+09:00で解釈する */
+function parseInfoDate(s){if(!s)return NaN;var m=/^(\d{4})\/(\d{2})\/(\d{2}) (\d{2}):(\d{2}):(\d{2})/.exec(String(s));return m?Date.parse(m[1]+'-'+m[2]+'-'+m[3]+'T'+m[4]+':'+m[5]+':'+m[6]+'+09:00'):Date.parse(s)}
+function renderInfo(){var items=safeItems(infoKind),list=$('life-list'),err=infoErr[infoKind];list.replaceChildren();$('ticker-label').textContent={news:'速報 NEWS',quake:'地震 QUAKE',weather:'天気 WEATHER'}[infoKind];$('life-link').href=infoLinks[infoKind];$('weather-settings').hidden=infoKind!=='weather';$('life-source').textContent={news:'Googleニュース経由の経済関連公開RSS',quake:'P2P地震情報／気象庁',weather:'気象庁／'+weatherRegions[weatherRegion].name}[infoKind];$('info-updated').textContent=err?'取得失敗':(infoChecked[infoKind]?'確認 '+infoTime(new Date(infoChecked[infoKind])):'取得待機中');$('life-status').textContent=items.length?items.length+'件':(err?'取得失敗':'情報待機中');document.querySelectorAll('[data-info]').forEach(function(b){b.classList.toggle('active',b.dataset.info===infoKind)});document.querySelectorAll('[data-life]').forEach(function(b){b.classList.toggle('active',b.dataset.life===infoKind)});if(!items.length){var li=document.createElement('li');li.textContent=err?'取得に失敗しました（'+err+'）。3分ごとに自動で再試行します。':'情報を確認しています…';list.appendChild(li)}items.forEach(function(x){var li=document.createElement('li'),a=document.createElement('a'),sm=document.createElement('small'),t=parseInfoDate(x.date);a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=x.title;sm.textContent=Number.isFinite(t)?infoTime(new Date(t))+' / '+(x.source||'提供元'):(x.source||'提供元');li.append(a,sm);list.appendChild(li)});renderTicker(items,err?'取得に失敗しました。右の「提供元を見る」から直接ご確認ください。':({news:'経済ニュースを取得中です。取得できない場合はニュース一覧をご確認ください。',quake:'地震情報を取得中です…',weather:'天気予報を取得中です…'})[infoKind])}
+function chooseInfo(k){infoKind=k;renderInfo();if(k!=='news')loadInfo(k)}
+document.querySelectorAll('[data-info],[data-life]').forEach(function(b){b.addEventListener('click',function(){chooseInfo(b.dataset.info||b.dataset.life)})});
+function scaleName(n){return {45:'5弱',50:'5強',55:'6弱',60:'6強',70:'7'}[n]||(n==null||n<0?'不明':String(n/10))}
+async function loadInfo(k){var token=++infoSeq,regionAtStart=weatherRegion;if(k==='news'){renderInfo();return}var ttl=k==='quake'?180000:1800000;if(infoChecked[k]&&Date.now()-infoChecked[k]<ttl){renderInfo();return}try{var url=k==='quake'?'https://api.p2pquake.net/v2/history?codes=551&limit=10':'https://www.jma.go.jp/bosai/forecast/data/forecast/'+weatherRegion+'.json';var ctl=new AbortController(),timer=setTimeout(function(){ctl.abort()},8500);var r;try{r=await fetch(url,{cache:'no-store',signal:ctl.signal})}finally{clearTimeout(timer)}if(!r.ok)throw Error('HTTP '+r.status);var data=await r.json(),items=[];if(k==='quake'){if(!Array.isArray(data))throw Error('形式不正');items=data.map(function(v){var e=v.earthquake||{},h=e.hypocenter||{};return {title:'最大震度'+scaleName(e.maxScale)+'｜'+(h.name||'震源不明')+(h.magnitude>0?' M'+h.magnitude:''),url:infoLinks.quake,date:e.time||v.time,source:'P2P地震情報'}})}else{var part=data[0].timeSeries[0],area=part.areas.find(function(x){return x.area&&x.area.name===weatherRegions[weatherRegion].area})||part.areas[0];// 気象庁の週間予報は data[1] に最高・最低気温を収録する。
+var series=[];
+data.forEach(function(block){if(block&&Array.isArray(block.timeSeries))series=series.concat(block.timeSeries)});
+function tempFor(day){
+ var low=null,high=null,areaName=weatherRegions[weatherRegion].area;
+ for(var si=0;si<series.length;si++){
+  var ts=series[si];if(!Array.isArray(ts.timeDefines))continue;
+  var j=ts.timeDefines.findIndex(function(t){return t.slice(0,10)===day});
+  if(j<0)continue;
+  var candidates=(ts.areas||[]).filter(function(a){return a&&a.area&&a.area.name===areaName});
+  // 気温の観測地点名は予報区域名と異なるため、対象地域の先頭代表地点を使用。
+  if(!candidates.length)candidates=(ts.areas||[]).filter(function(a){return a&&Array.isArray(a.tempsMin)&&Array.isArray(a.tempsMax)});
+  for(var ai=0;ai<candidates.length;ai++){
+   var a=candidates[ai],lo=a.tempsMin&&a.tempsMin[j],hi=a.tempsMax&&a.tempsMax[j];
+   if(lo!==undefined&&/^[-+]?\d+(?:\.\d+)?$/.test(String(lo)))low=Number(lo);
+   if(hi!==undefined&&/^[-+]?\d+(?:\.\d+)?$/.test(String(hi)))high=Number(hi);
+   if(low!==null||high!==null)break;
+  }
+  if(low!==null||high!==null)break;
+ }
+ if(low!==null&&high!==null)return '｜最低'+low+'℃ / 最高'+high+'℃';
+ if(high!==null)return '｜最高'+high+'℃';
+ if(low!==null)return '｜最低'+low+'℃';
+ return '';
+}
+items=part.timeDefines.slice(0,3).map(function(t,i){
+ var temp=tempFor(t.slice(0,10));
+ return {title:weatherRegions[weatherRegion].name+'｜'+((area.weathers||[])[i]||'予報を確認').replace(/\s+/g,' ').trim()+temp,url:infoLinks.weather,date:t,source:'気象庁'};
+})}if(k==='weather'&&regionAtStart!==weatherRegion)return;infoCache[k]=items;infoErr[k]=null;infoChecked[k]=Date.now();if(infoKind===k)renderInfo()}catch(e){if(k==='weather'&&regionAtStart!==weatherRegion)return;/* 失敗時はinfoCheckedを0にして次回(タブ切替・3分タイマー)に再取得する */infoCache[k]=[];infoErr[k]=(e&&e.message)||String(e);infoChecked[k]=0;if(infoKind===k)renderInfo()}}
+var monthView=new Date(),selectedDate='';monthView.setDate(1);
+function dateKey(d){var p=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);var o={};p.forEach(function(x){o[x.type]=x.value});return o.year+'-'+o.month+'-'+o.day}
+function localKey(y,m,d){return y+'-'+String(m).padStart(2,'0')+'-'+String(d).padStart(2,'0')}
+
+function nthWeekday(y,m,w,n){var d=new Date(y,m-1,1);return 1+(w-d.getDay()+7)%7+(n-1)*7}
+function equinox(y,spring){return Math.floor((spring?20.8431:23.2488)+0.242194*(y-1980)-Math.floor((y-1980)/4))}
+function jpHolidays(y){
+ var h={};function put(m,d,n){h[localKey(y,m,d)]=n}
+ put(1,1,'元日');put(1,nthWeekday(y,1,1,2),'成人の日');put(2,11,'建国記念の日');put(2,23,'天皇誕生日');put(3,equinox(y,true),'春分の日');
+ put(4,29,'昭和の日');put(5,3,'憲法記念日');put(5,4,'みどりの日');put(5,5,'こどもの日');
+ put(7,nthWeekday(y,7,1,3),'海の日');put(8,11,'山の日');put(9,nthWeekday(y,9,1,3),'敬老の日');put(9,equinox(y,false),'秋分の日');
+ put(10,nthWeekday(y,10,1,2),'スポーツの日');put(11,3,'文化の日');put(11,23,'勤労感謝の日');
+ // 国民の休日（祝日に挟まれた平日）
+ for(var i=1;i<=365+(new Date(y,1,29).getMonth()===1?1:0);i++){
+  var d=new Date(y,0,i),k=localKey(d.getFullYear(),d.getMonth()+1,d.getDate());
+  if(d.getFullYear()!==y||h[k]||d.getDay()===0)continue;
+  var prev=new Date(y,0,i-1),next=new Date(y,0,i+1);
+  if(h[localKey(prev.getFullYear(),prev.getMonth()+1,prev.getDate())]&&h[localKey(next.getFullYear(),next.getMonth()+1,next.getDate())])h[k]='国民の休日';
+ }
+ // 日曜祝日の振替休日
+ var originals=Object.keys(h).sort();
+ originals.forEach(function(k){var parts=k.split('-').map(Number),d=new Date(parts[0],parts[1]-1,parts[2]);if(d.getDay()!==0)return;
+ d.setDate(d.getDate()+1);
+ while(d.getFullYear()===y){var t=localKey(y,d.getMonth()+1,d.getDate());if(!h[t]){h[t]='振替休日';break}d.setDate(d.getDate()+1)}
+ });
+ return h;
+}
+function easter(y){var a=y%19,b=Math.floor(y/100),c=y%100,d=Math.floor(b/4),e=b%4,f=Math.floor((b+8)/25),g=Math.floor((b-f+1)/3),h=(19*a+b-d-g+15)%30,i=Math.floor(c/4),k=c%4,l=(32+2*e+2*i-h-k+7)%7,m=Math.floor((a+11*h+22*l)/451),v=h+l-7*m+114;return new Date(y,Math.floor(v/31)-1,v%31+1)}
+function observedUS(y,m,d){var x=new Date(y,m-1,d);if(x.getDay()===6)x.setDate(x.getDate()-1);if(x.getDay()===0)x.setDate(x.getDate()+1);return x}
+function usHolidays(y){
+ var h={};function putDate(d,n){if(d.getFullYear()===y)h[localKey(y,d.getMonth()+1,d.getDate())]=n}
+ function put(m,d,n){putDate(observedUS(y,m,d),n)}
+ put(1,1,'New Year’s Day');putDate(new Date(y,0,nthWeekday(y,1,1,3)),'Martin Luther King Jr. Day');
+ putDate(new Date(y,1,nthWeekday(y,2,1,3)),'Washington’s Birthday');
+ var gf=easter(y);gf.setDate(gf.getDate()-2);putDate(gf,'Good Friday');
+ var mayLast=new Date(y,5,0);mayLast.setDate(mayLast.getDate()-(mayLast.getDay()+6)%7);putDate(mayLast,'Memorial Day');
+ put(6,19,'Juneteenth');put(7,4,'Independence Day');putDate(new Date(y,8,nthWeekday(y,9,1,1)),'Labor Day');
+ putDate(new Date(y,10,nthWeekday(y,11,4,4)),'Thanksgiving Day');put(12,25,'Christmas Day');
+ // 翌年元日の前倒し振替
+ var next=observedUS(y+1,1,1);putDate(next,'New Year’s Day (observed)');
+ return h;
+}
+var holidayCache={};function marketDay(k){var y=Number(k.slice(0,4));if(!holidayCache[y])holidayCache[y]={jp:jpHolidays(y),us:usHolidays(y)};
+ var a=k.split('-').map(Number),d=new Date(a[0],a[1]-1,a[2]),weekend=d.getDay()===0||d.getDay()===6;
+ var jp=holidayCache[y].jp[k]||((k.slice(5)==='01-02'||k.slice(5)==='01-03'||k.slice(5)==='12-31')?'年末年始休場':null);
+ return {jp:jp||(weekend?'週末休場':null),us:holidayCache[y].us[k]||(weekend?'週末休場':null),weekend:weekend};
+}
+function renderDay(k){selectedDate=k;var box=$('day-details');box.replaceChildren();var title=document.createElement('strong');title.textContent=k+' の市場予定';box.appendChild(title);
+ var m=marketDay(k),p=document.createElement('p');p.textContent='日本株（東証）：'+(m.jp?'休場 — '+m.jp:'通常取引予定')+' ／ 米国株（NYSE）：'+(m.us?'休場 — '+m.us:'通常取引予定');box.appendChild(p);
+ var found=newsForCalendar.filter(function(x){return dateKey(new Date(x.published_at))===k});
+ if(found.length){var n=document.createElement('strong');n.textContent='関連する取得済みニュース（'+found.length+'件）';box.appendChild(n)}
+ found.forEach(function(x){var a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='› '+x.title;box.appendChild(a)});
+}
+function renderMonth(){var y=monthView.getFullYear(),m=monthView.getMonth()+1,grid=$('month-grid');grid.replaceChildren();$('month-label').textContent=y+'年'+m+'月';['日','月','火','水','木','金','土'].forEach(function(w){var d=document.createElement('div');d.className='month-weekday';d.textContent=w;grid.appendChild(d)});
+ var offset=new Date(y,m-1,1).getDay(),count=new Date(y,m,0).getDate(),today=dateKey(new Date());
+ for(var i=0;i<offset;i++){var blank=document.createElement('div');blank.className='month-day blank';grid.appendChild(blank)}
+ for(var d=1;d<=count;d++){(function(day){var k=localKey(y,m,day),state=marketDay(k),btn=document.createElement('button');btn.type='button';
+ btn.className='month-day'+(k===today?' today':'')+(k===selectedDate?' selected':'')+(state.weekend?' weekend':'')+(state.jp||state.us?' market-closed':'');
+ var n=document.createElement('span');n.textContent=day;btn.appendChild(n);
+ var flags=document.createElement('span');flags.className='market-flags';
+ if(state.jp){var j=document.createElement('b');j.textContent='JP';j.title=state.jp;flags.appendChild(j)}
+ if(state.us){var u=document.createElement('b');u.className='us';u.textContent='US';u.title=state.us;flags.appendChild(u)}
+ btn.appendChild(flags);btn.title='東証: '+(state.jp||'通常取引予定')+' / NYSE: '+(state.us||'通常取引予定');
+ btn.addEventListener('click',function(){renderDay(k);renderMonth()});grid.appendChild(btn)})(d)}
+}
+$('month-prev').addEventListener('click',function(){monthView.setMonth(monthView.getMonth()-1);renderMonth()});$('month-next').addEventListener('click',function(){monthView.setMonth(monthView.getMonth()+1);renderMonth()});$('month-today').addEventListener('click',function(){monthView=new Date();monthView.setDate(1);selectedDate=dateKey(new Date());renderDay(selectedDate);renderMonth()});selectedDate=dateKey(new Date());renderDay(selectedDate);renderMonth();
+/* 経済ニュース専用GitHub JSONを使用 */
+async function calendarNews(){try{var r=await fetch('https://raw.githubusercontent.com/Algy-design99/nekojiro/main/news/economy.json?calendar='+Date.now(),{cache:'no-store'});if(!r.ok)return;var data=await r.json();if(!Array.isArray(data.items))return;newsForCalendar=data.items.filter(function(x){return x&&x.published_at&&x.url&&/^https:\/\//.test(x.url)});renderMonth()}catch(e){}}
+setInterval(function(){if(!document.hidden&&infoKind!=='news')loadInfo(infoKind)},180000);
+
+/* 重要：保存済みニュースの復元・初回取得は、infoLinks等すべての定義とボタン登録が終わった最後に行う。
+   以前はinfoLinks定義より前に呼ばれ、保存済みデータがある環境で例外→以降のボタン登録が全滅していた */
+try{restoreNews();if(goodNews.length)drawNews(goodNews,lastNewsStamp,false)}catch(e){}
+news();
+
+})();
+</script>
+<footer class="footer" style="max-width:1700px;margin:auto;padding:20px">© TSUKASA — MARKET DESK · <a href="../">制作例に戻る ↗</a></footer>
+
+<script>
+(function(){
+ var shade=document.getElementById('drawer-shade');
+ function close(){document.querySelectorAll('.drawer-panel.drawer-open').forEach(function(p){p.classList.remove('drawer-open')});shade.classList.remove('active')}
+ document.querySelectorAll('[data-drawer]').forEach(function(btn){btn.addEventListener('click',function(){var panel=document.getElementById(btn.dataset.drawer);var was=panel.classList.contains('drawer-open');close();if(!was){panel.classList.add('drawer-open');shade.classList.add('active');if(panel.classList.contains('folded')){panel.classList.remove('folded');var b=panel.querySelector('.fold-btn');if(b)b.setAttribute('aria-expanded','true')}window.dispatchEvent(new Event('resize'))}})});
+ document.querySelectorAll('.drawer-panel').forEach(function(p){var h=p.querySelector('.panel-h');if(h){var b=document.createElement('button');b.className='drawer-close';b.type='button';b.textContent='閉じる ×';b.addEventListener('click',close);h.appendChild(b)}});
+ shade.addEventListener('click',close);document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
+})();
+</script>
+<script id="neko-ticker-engine-v3">
+(function(){
+'use strict';
+var track=document.getElementById('breaking-ticker');
+if(!track)return;
+var offset=0,last=0,paused=false,groupsWidth=0;
+var viewport=track.parentElement;
+function ensure(){
+ if(track.querySelector('.neko-ticker-group'))return;
+ var text=track.textContent.trim()||'経済ニュースを確認中です';
+ track.replaceChildren();
+ for(var i=0;i<2;i++){
+  var group=document.createElement('div');group.className='neko-ticker-group';
+  var item=document.createElement('span');item.className='ticker-empty';item.textContent=text+'　　';
+  group.appendChild(item);track.appendChild(group);
+ }
+}
+function width(){
+ ensure();
+ var group=track.querySelector('.neko-ticker-group');
+ if(!group)return 0;
+ var w=group.getBoundingClientRect().width;
+ if(w<1)return 0;
+ // For a short message, pad both copies identically so the ticker covers the viewport.
+ var target=Math.max(0,viewport.clientWidth+120);
+ var pads=track.querySelectorAll('.neko-ticker-padding');
+ pads.forEach(function(n){n.remove()});
+ w=group.getBoundingClientRect().width;
+ if(w<target){
+  track.querySelectorAll('.neko-ticker-group').forEach(function(g){
+   var pad=document.createElement('span');pad.className='neko-ticker-padding';
+   pad.style.cssText='display:inline-block;flex:0 0 auto;width:'+Math.ceil(target-w)+'px';
+   g.appendChild(pad);
+  });
+ }
+ return group.getBoundingClientRect().width;
+}
+function frame(t){
+ if(!last)last=t;
+ var delta=Math.min(80,Math.max(0,t-last));last=t;
+ if(!track.isConnected)return;
+ if(!paused){
+  if(!groupsWidth||offset>=groupsWidth){groupsWidth=width();offset=offset%(groupsWidth||1)}
+  offset+=delta*.075;
+  if(groupsWidth&&offset>=groupsWidth)offset-=groupsWidth;
+  track.style.transform='translate3d('+(-offset)+'px,0,0)';
+ }
+ requestAnimationFrame(frame);
+}
+viewport.addEventListener('mouseenter',function(){paused=true});
+viewport.addEventListener('mouseleave',function(){paused=false});
+viewport.addEventListener('focusin',function(){paused=true});
+viewport.addEventListener('focusout',function(){paused=false});
+// 更新時はrenderTickerから明示的に幅を再計測する。
+ // MutationObserverで幅を毎フレーム0に戻すと、移動量がリセットされ停止するため使用しない。
+window.addEventListener('resize',function(){groupsWidth=0;offset=0});
+ensure();groupsWidth=width();requestAnimationFrame(frame);
+})();
+</script>
+<script>
+/* 独立ニュース表示：他機能の初期化・描画エラーに影響されない。
+   ただし地震・天気タブ表示中は、速報欄・一覧・状態表示を上書きしない */
+(function(){
+ 'use strict';
+ var URL='https://raw.githubusercontent.com/Algy-design99/nekojiro/main/news/economy.json';
+ var KEY='tsukasa-market-independent-feed-v1';
+ function el(id){return document.getElementById(id)}
+ function onNewsTab(){var b=document.querySelector('[data-info].active');return !b||b.getAttribute('data-info')==='news'}
+ function status(message){if(el('src-news'))el('src-news').textContent=message;if(el('news-status'))el('news-status').textContent=message}
+ function fill(list,items){list.replaceChildren();items.forEach(function(x){var li=document.createElement('li'),a=document.createElement('a'),sm=document.createElement('small');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=x.title;sm.textContent=x.source||'経済ニュース';li.append(a,sm);list.appendChild(li)})}
+ function render(items,source){
+  if(!items.length)throw Error('有効なニュースが0件');
+  var list=el('news-list'),life=el('life-list'),track=el('breaking-ticker');
+  if(list)fill(list,items);
+  if(onNewsTab()){
+   if(life)fill(life,items);
+   if(track){track.replaceChildren();for(var pass=0;pass<2;pass++){var group=document.createElement('div');group.className='neko-ticker-group';if(pass)group.setAttribute('aria-hidden','true');items.slice(0,10).forEach(function(x){var a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='◆ '+x.title;group.appendChild(a)});track.appendChild(group)}window.dispatchEvent(new Event('resize'))}
+   if(el('life-status'))el('life-status').textContent=items.length+'件';
+   if(el('info-updated'))el('info-updated').textContent=source;
+  }
+  status(items.length+'件表示 / '+source);
+ }
+ function validate(data){if(!data||!Array.isArray(data.items))throw Error('items配列がありません');return data.items.filter(function(x){return x&&typeof x.title==='string'&&x.title.trim()&&typeof x.url==='string'&&/^https:\/\//.test(x.url)}).slice(0,60)}
+ async function load(){
+  var cached=[];try{cached=validate(JSON.parse(localStorage.getItem(KEY)||'null'));if(cached.length)render(cached,'保存済み')}catch(e){}
+  var ctl=new AbortController(),timer=setTimeout(function(){ctl.abort()},12000);
+  try{var r=await fetch(URL+'?v='+Date.now(),{cache:'no-store',signal:ctl.signal});if(!r.ok)throw Error('HTTP '+r.status);var items=validate(await r.json());render(items,'GitHub取得成功');try{localStorage.setItem(KEY,JSON.stringify({items:items}))}catch(e){}}
+  catch(e){if(!cached.length)status('取得失敗: '+(e.message||String(e)));else status(cached.length+'件保存表示 / 通信失敗: '+(e.message||String(e)))}
+  finally{clearTimeout(timer)}
+ }
+ window.addEventListener('load',function(){load();setInterval(load,60000)});
+})();
+</script>
+</body></html>
