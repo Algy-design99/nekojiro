@@ -1,11 +1,46 @@
 {
-  "updated_at": "2026-11-07T14:51:25.505483Z",
+  "updated_at": "2026-11-07T15:53:39.350174Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
     "world": 40
   },
   "items": [
+    {
+      "title": "J1 第14節 首位のFC東京 J1記録タイ9試合連続無失点で3連勝",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72248",
+      "source": "NHK",
+      "published_at": "2026-11-07T15:22:13Z",
+      "region": "jp"
+    },
+    {
+      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
+      "source": "NHK",
+      "published_at": "2026-11-07T15:02:24Z",
+      "region": "jp"
+    },
+    {
+      "title": "フィギュア 千葉百音が優勝 グランプリシリーズ第3戦 中国大会",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72221",
+      "source": "NHK",
+      "published_at": "2026-11-07T14:56:35Z",
+      "region": "jp"
+    },
+    {
+      "title": "大阪維新の会「吉村体制」3期目に",
+      "url": "https://news.yahoo.co.jp/pickup/6601718?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T14:37:04Z",
+      "region": "jp"
+    },
+    {
+      "title": "米中間選挙 共和党大敗の舞台裏",
+      "url": "https://news.yahoo.co.jp/pickup/6601716?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-07T14:18:01Z",
+      "region": "jp"
+    },
     {
       "title": "ラグビー日本代表×ウェールズ【速報予定】欧州遠征の初戦",
       "url": "https://news.web.nhk/newsweb/na/nd-20261107de72220",
@@ -14,10 +49,10 @@
       "region": "jp"
     },
     {
-      "title": "動物界「ものまね王」なぜ音模倣",
-      "url": "https://news.yahoo.co.jp/pickup/6601714?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T14:11:26Z",
+      "title": "２０代女性監禁容疑の男「殺害して遺棄した」と供述、山林で遺体発見…女性は７月に警察に相談 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hdGI0S1VsMFZYWmNTOGt0NG9SMzAxbk9nY25Jb0liVnlMZ3paeW1rdTJnSVhudDAxN2lLY3VmU0s4TkFJUWNENm9kYmhiZi0yYnY2eEprWi1wYVFnMzA5ZHpGdVVzQQ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-07T14:11:00Z",
       "region": "jp"
     },
     {
@@ -35,10 +70,10 @@
       "region": "jp"
     },
     {
-      "title": "露 JT法人3社を一時管理下に追加",
-      "url": "https://news.yahoo.co.jp/pickup/6601707?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-07T13:27:51Z",
+      "title": "トランプ氏最側近、保守強硬派ミラー氏起用へ…これまでに不法移民追放など攻撃的な政策実行 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yaGlvVWhVTHpub1JsWk1Mbm9ncEJyNmk1N1B4eHRwZ043bFduR3N6bFVwSlB0X3gyRFdwVFlJMmdoQnJ6TUYtcmJTRUs0c2s0RGp0a2hfeWpfdWk5cm4xT0t3?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-07T13:42:00Z",
       "region": "jp"
     },
     {
@@ -70,13 +105,6 @@
       "region": "jp"
     },
     {
-      "title": "フィギュア 千葉百音が優勝 グランプリシリーズ第3戦 中国大会",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72221",
-      "source": "NHK",
-      "published_at": "2026-11-07T13:05:57Z",
-      "region": "jp"
-    },
-    {
       "title": "フィギュア 千葉百音が優勝 グランプリシリーズ第3戦 中国大会 - NHKニュース",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qTVVHLTJrd0I4Q2trLURMai1DSEZpV3Btd2Z6YlFXM040NHhjaEhJRnRKRkQtYVlsYTdKRGhLb2xRYTVJN3I0UzllRFp6WkJwcTVaZWxlUUpHWVg4ZGtn?oc=5",
       "source": "Google国内",
@@ -84,17 +112,17 @@
       "region": "jp"
     },
     {
+      "title": "台風32号(チャンパカ) 週前半に強い勢力で小笠原諸島に接近するおそれ - ウェザーニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04X0lRRTZCWEZQTXBmU0NNS0twWEM0aGszNDZ6ZlFabV9LeWV2UV90cklVcEhaTnRMTkI1N203Z0djd3ZBc0FSclhXc1lqTlNDZjU5Ug?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-07T12:43:00Z",
+      "region": "jp"
+    },
+    {
       "title": "女性を監禁疑い 供述後に遺体発見",
       "url": "https://news.yahoo.co.jp/pickup/6601700?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-07T12:32:34Z",
-      "region": "jp"
-    },
-    {
-      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72211",
-      "source": "NHK",
-      "published_at": "2026-11-07T12:20:05Z",
       "region": "jp"
     },
     {
@@ -126,10 +154,10 @@
       "region": "jp"
     },
     {
-      "title": "福岡市長選情勢調査 稲富修二氏がリード、調、森、新村氏が追う展開 - 西日本新聞me",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XSE12NEhtV2tJMndDM1BZcjN3NnBpVERiNWxhbGg5VVg5U1dENzlHRGJNcEVDN0E4eHREMGQweDB1bnRiQUVad2hzVUJXaC1oU2RsYkl3?oc=5",
+      "title": "小嶋陽菜、結婚&第1子出産報告→『クイズ☆正解は一年後』めぐりSNSざわつく コメント続々「小木さん正解で有吉チームにポイントですね」 - オリコンニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpaGR1VVFnUklGeXhQSzFPcTZFWHYyVWpRQk12VFgzRjRMN2I5OXJZRGhFcmJ6TFhVV1N2VGQ2dkVad0NSSkdUSkpMS2JBeXEwUGZTWC1n?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-07T11:00:00Z",
+      "published_at": "2026-11-07T10:53:00Z",
       "region": "jp"
     },
     {
@@ -137,13 +165,6 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261107de72117",
       "source": "NHK",
       "published_at": "2026-11-07T10:48:45Z",
-      "region": "jp"
-    },
-    {
-      "title": "小嶋陽菜、結婚＆第1子出産 “電撃発表”にSNS騒然「声出してびっくりしたー」「こじはるがママに」 - オリコンニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZTXlCbi1qWFYyYzNEZVlvT1g1TklzUUpGdG9iZnBBai1XdlJvZVVUSzY3My1jUmYweXBUM29uak93ZnpObmRjcXFLM0dYekduRlFOekFB?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-07T10:30:00Z",
       "region": "jp"
     },
     {
@@ -182,13 +203,6 @@
       "region": "jp"
     },
     {
-      "title": "【河村勇輝】足首負傷のアクシデントも… 試合後、丁寧なファンサービス 子どもらユニホーム手に並び、そこへ笑顔でサインしハイタッチも NBA・Gリーグが注目（日テレNEWS NNN） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oRTVnU19BUlpReFFlNnpldUxLV1BpMmRlMlIyNjhRenRKbVM3b3pCa1AwWUVFdTZLOTQxNHRWVVdxb1R4YWdyMnZKb1lncGs2UV91OW51MmpORTFLdS1NZVR2blRZZ0FiYnUycXRZMjhyMWdhczI3Z2l2WXNKMTQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-07T08:12:01Z",
-      "region": "jp"
-    },
-    {
       "title": "原英莉花から佐久間朱莉へ「アメリカ来ないの？」 ジャンボ尾崎さん門下生2人が優勝戦線で最終日 - GDOゴルフニュース",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FX1NGTU1zMkpTZExTRXlXMzk5WmJNMVFHaEFZc3V4ZHVVV1k5TFFLaThqTjhuVWcxclJ6SDlxbEhsUEVMTVJaSUJzLUpMZi1YcS1kdXRSTFplNDM4Y0NTcjdXWjk3Z3lJ0gF8QVVfeXFMUEtjYXFRc2NGRnVJbVNJaTAwVVlGbnRaT1kwSzdRazhQS3ozWXY3WElPQXFPeGRfd3YzSGt6VnhvdFZtc1AtVmhPbDJEbXhGTUd2a2tIXzYyU0NKWFh0M0E2Wm5nQ2Y4SzZ4SXlIdEg1YlVaX2oxLUVWcXpTeQ?oc=5",
       "source": "Google国内",
@@ -196,17 +210,10 @@
       "region": "jp"
     },
     {
-      "title": "首位・FC東京が王者・鹿島を2-0撃破!! エースFW長倉幹樹が決勝弾、J1史上最長「847分間」無失点の大記録 - ゲキサカ",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBteDJRMDFSeDNTbjlXVUdYRHZuYjFkd2d4bUlBbmVTejNiV2xGVUtZTG9FNXNCUGh0ZTdwdi05el9vMy1hR3lJd1JEZS1oSWY4VDYzLTkwckxHMk0yY3J3TC1rcklmRTllNWdONlNB?oc=5",
+      "title": "カズがJ3最年長出場 59歳の福島・三浦知良、沼津・伊東輝悦の50歳を大幅に更新 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTUTN1QkxtdVZqaUtFZDl0YW5HcFFQTmt6TV9lN0JHLXcydHVBcWNiakJReDlYQWNRZWc0QlpvVnlZUEpZcWhHWVgtbDZhNjQtT3J3NW9neko0V0JGTkEwejFaeThQWUZxUGxqYzdHWUQzLWRRZlE?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-07T07:56:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "自民党執行部 石破氏らに文書で説明要請 消費税法案採決退席で",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261107de72136",
-      "source": "NHK",
-      "published_at": "2026-11-07T07:21:00Z",
+      "published_at": "2026-11-07T07:28:42Z",
       "region": "jp"
     },
     {
@@ -221,27 +228,6 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nUENzZHQzMGtnLTN3SzROM0Z1bzRXdWtvdy0wRHFZZ3V0aXI3UHhlcUZ4S3FJQWQ1Q19za0szckpqZnJOZXNTc01KWUVFNWdZOV9rblgyQzlGdERHOHQwNXdhdGdJZ1JpQWVr?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-07T06:50:46Z",
-      "region": "jp"
-    },
-    {
-      "title": "トランプ氏、首席補佐官に強硬派ミラー氏任命　中間選挙の歴史的敗北受け人事刷新 - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBidXlxNUtkYnI4Q1VpOU1jcXZ2UkpQTmpfb21qLWFGZU83UEJuZVN0YkNtLXdvRU1vak9xbjhhSU5uMldqV0x1QXQtcEVuNjdmRlF0eW5VN0pjaHdvSzRrNNIBZkFVX3lxTFBjVTZHM3Nnb1VMMHVvUG00VHZEQlBnakEzWXgtdk1RUlFkRTBNb0pIc0UwcXlqaGNCR1Z6WHlFOEZ1SW9CYnBXanUtVkhXOHQ3bGJod2tsM1pNMDJPS3NNLVJCcGYzQQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-07T04:32:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "恐竜の化石から赤血球の痕跡か、過去最も有力な証拠を発見 研究チーム - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTQTVGcHJiSnRKY18tY24zTEczTTJoSC1QaDFxS0t5Nkw0N2xPM2hUMEdTRVBza3FGNmlPejNaZ0tVSnhuSkhmQ1BEOFRxZmM2SVRqWQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-07T04:26:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "台風32号(チャンパカ)発生 32年ぶりの32号発生 小笠原は影響に注意 - ウェザーニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vbUY2ZVZlVG5GU2dzZWxJbmZDa2w0aG5mVHhzN0ZRRDdKd2lVVzRIbHE3dDJTaDhhS0ZBQ0JZbEdSN3hLZ0NKM2xWT0l1UEpDeTdaTg?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-07T04:17:00Z",
       "region": "jp"
     },
     {
@@ -285,6 +271,62 @@
       "source": "Google国内",
       "published_at": "2026-11-07T00:35:00Z",
       "region": "jp"
+    },
+    {
+      "title": "トランプ大統領「イランの核兵器保有を阻止していなければイスラエルと中東全体が存在していなかった」攻撃正当化 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rWU9fZk01MkEwVUppNWxQZHp1NHRjR0lkWVYyZXphSHM0cDFkMTRwWlJpVWF2TS1SakdhcEdrQ0dPSjI4MkVDVGE4WllHZC04ck5MM1o2NHo2bEpoeTh0MElZZWE4azduRUU3aU0tc3dIUFB4a3FXeWRiQ01NaG8?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-07T00:26:09Z",
+      "region": "jp"
+    },
+    {
+      "title": "「VIVANT」第23話で乃木が“父”ノゴーン・ベキと再会、役所広司は出雲大社に感激していた - ナタリー",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tQ3NheDY0LWx1UUNvWGUzTEJ3aWZqSDVxd3NqSE9RM2dheFJXVkJpTmdzQ1NZN3dFQXd0LWQ1ano0dF9NckxWazNhZw?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-07T00:00:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "世界3位・張本美和が貫禄勝ち！中国・陳幸同を撃破で準決勝は早田ひなとの日本勢対決に【卓球 WTTフランクフルト】 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94YnNLRVhGN0pvSXJyZktlNE9mdWt1MEFEM3ZyZkU0QTdRRXR3OHZONGstQ0tDLXVkR05FQnZTbEVQRFR5MUVSZFdTM2xsaWJ1T0ZkaVdSdk5vdGVjcUxtSVAzSnZYNXU2N1RPMjFaLUdUTEZDalJXdldUSE1mdFU?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T15:19:46Z",
+      "region": "world"
+    },
+    {
+      "title": "「世界遺産を火災から守る」合掌造り集落で放水消火訓練 富山県南砺市 - 47NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE10UEpWOFY5dWVyYzZoblRjSG5RNGlKa3JkUFdkOVJReFRlems2Ykd1Y0l2cmdydVdxckhUbS11VnVOb3g3UXFrYnVSNA?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T15:16:24Z",
+      "region": "world"
+    },
+    {
+      "title": "オリラジ中田、海外移住で子供の英語力はどうなった？「死に物狂いで勉強していたので」（スポニチアネックス） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85SWVWeDJ3Z0NwUGU5NTFHYjg5bEg4X1FhRTVRZXREV3MwQ3pSUzEzYWZVZkVDYnU3dG5lX3o0M2ZGZ3VzMzc0d19qUGFzWURlOTRiUFhUWnpXNHUwMVdXZWhfNl9DTzdFRzRnR0s5ZzR5Xzl1d21FR1JxcXFTNWM?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T15:16:12Z",
+      "region": "world"
+    },
+    {
+      "title": "シンガポール首相の年俸４．４億円に 日本の１１倍、アメリカの７倍 首脳で断トツ世界一なぜ？【地球コラム】 - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CS2E5dlA0dG9yNWNSblJVbk1rODRiTlBEMmg2RHdlY0JNQk1XMmdDVXNXUDhSN3FzVHpSZ2RZdUYxRTk1SElNV092UERWY0puT1Bj?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T15:15:00Z",
+      "region": "world"
+    },
+    {
+      "title": "【ボクシング】元世界王者尾川堅一が判定勝利「心に刻んで」400人応援団へ王座返り咲き誓う - 日刊スポーツ",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVTBqd25Oc25yWDFhM2pDRWlPQjZrcXNqbHFQNHlPaVQ1QmJVdy1kUUlnVS01dmxRM2hrMklCV3g3VHk4T1ZaczFfbWtaMzlrNkVKTUtTT1pNTVdpMjNiTkk3THo4X1l2SER5S1RwMVhYX2hPaDN4YWt4Z241Zm5zVEhZQVRrd2had1g0ZDVsZDJsOVAxSHc?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T14:45:44Z",
+      "region": "world"
+    },
+    {
+      "title": "【ボクシング】元世界王者尾川堅一が判定勝利「心に刻んで」400人応援団へ王座返り咲き誓う（日刊スポーツ） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UX2NZYkI2bUVYUWhhUUYzcHUyNlNLazY0RnptUnJHN29FYWFtM0s1RUhIa2p6aEF0S3RNNXZmdUdBYnE5SDZwWU02N0RfcjhDLUFMVzI0a2JlT1RfcUxweVhGY3JWUm5ubHk4cC1LNjBVRU05NUl6U3VUWjcwZlE?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T14:45:42Z",
+      "region": "world"
     },
     {
       "title": "「胸きゅん要素への期待ではなく、儚く美しい世界観を楽しむ作品」うるわしの宵の月 あおねるさんの映画レビュー（感想・評価） - 映画.com",
@@ -343,6 +385,20 @@
       "region": "world"
     },
     {
+      "title": "ジャムズ・水瀬さらら「ずっと夢だった」初写真集！「世界一かわいいぞ」ファンから祝福の嵐…１５日に愛知と大阪で発売記念イベントも開催 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtaUkzRWo4STdJSDhCRTJGMS1CSS14dnVlRThFQUVCNko5cnJwa2Vfdmx3RHpMZTJ4RUQ2Tk5iQ0s0UTE5bERTMmpxRnBoemVHWXFQNjFWaEsxWDAyWmhPdnhUbWxBNlFfUE9kRWsxSUM?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T13:59:00Z",
+      "region": "world"
+    },
+    {
+      "title": "早田ひな 世界4位にリベンジ達成！「お前の武器はフォアドライブだ」最終ゲームで自分に言い聞かせた言葉【卓球 WTTフランクフルト】（テレ東スポーツ） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2TTI5VnlTUDkzX05qTjJYRXlPVHRoZU9WTlJiZG83ZzJqYzVlVGJRUDg3MFZZVEpBNnZNN2RqWmU1Z2MwZklLVzBIS2cwek5mZndFZVVyLVBBSFNmV3ByQ2xiYXZ6YTdfaFJwNVJQbWdCZTRwM29NUlpaNTl1Q1k?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T13:56:29Z",
+      "region": "world"
+    },
+    {
       "title": "【ボクシング】旭道山のおい波田大和が東洋太平洋王座Ｖ５、世界挑戦見据え「めっちゃ行きたい」 苦手克服のためトマト柄トランクス着用も「生のトマトはダメでした」（スポーツ報知） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMZzhaTkwwT0tyaUo3NjRZV3FPazJiTklsU0RwNFcyOFFrejlVM294VWNUQkt0Slh3XzBsaWNGcDg5Y2xBeF9TX2U2RW1sektDUjRMam8xbGU1TnFKMkFtX1AxMERmaUl5VWl6MlVDNTZsclgxV3pQdm1NT1VjZW8?oc=5",
       "source": "Google海外",
@@ -357,6 +413,13 @@
       "region": "world"
     },
     {
+      "title": "【ボクシング】元世界王者・尾川堅一は初の韓国勢に判定勝利も満足せず「力を出し切れなかった」 - 日刊スポーツ",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQS01Vi1LSGhzM1lQeGZjNHZpWGFQMWxtSkZtTEZtcC1oT2tsUE54cVVkRVpEalBIRE1sUDV2YmFYcWhMeXNWZG40VUZqNm4xXzQ2Rk1nRDJiYm9DV1l0S3FHaGNWMUxjbmluMlpleDFBWmhFcUd4NHBXekdUbV8wVFNVVnNRTTVkekZOaUFyMW5yYWF6cVE?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T13:50:11Z",
+      "region": "world"
+    },
+    {
       "title": "【ボクシング】元世界王者・尾川堅一は初の韓国勢に判定勝利も満足せず「力を出し切れなかった」（日刊スポーツ） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GVFIxZnh0cC1HNDcxLTdpOEhXX2lITXBWNThqZXdJRy04WjZhRDN5N1ZXR1UwSTdraVpHa2FycmV5RmFfVGdxbU5tYXlGeTF0SmFxQjRrYy1hQUdJcTdtLWZnRE85Q2dMZy1wMnFnd1QwU0Vja3hOU1BxTzJfUDQ?oc=5",
       "source": "Google海外",
@@ -364,17 +427,17 @@
       "region": "world"
     },
     {
-      "title": "オリラジ中田、海外移住で子供の英語力はどうなった？「死に物狂いで勉強していたので」（スポニチアネックス） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85SWVWeDJ3Z0NwUGU5NTFHYjg5bEg4X1FhRTVRZXREV3MwQ3pSUzEzYWZVZkVDYnU3dG5lX3o0M2ZGZ3VzMzc0d19qUGFzWURlOTRiUFhUWnpXNHUwMVdXZWhfNl9DTzdFRzRnR0s5ZzR5Xzl1d21FR1JxcXFTNWM?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T13:49:01Z",
-      "region": "world"
-    },
-    {
       "title": "「米は再エネ投資を歓迎、中間選挙が世界へのシグナル」とAmerica Is All In幹部 - オルタナ",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE15UUFCMS00bmlseUhQSjNxQXRwakdVdHBRc1VubWI5UEEzVzBWMVdEN3lwTkctVGFPcXcwdHZrMzFrRDdVakVvag?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-07T13:47:46Z",
+      "region": "world"
+    },
+    {
+      "title": "トランプ氏最側近、保守強硬派ミラー氏起用へ…これまでに不法移民追放など攻撃的な政策実行 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yaGlvVWhVTHpub1JsWk1Mbm9ncEJyNmk1N1B4eHRwZ043bFduR3N6bFVwSlB0X3gyRFdwVFlJMmdoQnJ6TUYtcmJTRUs0c2s0RGp0a2hfeWpfdWk5cm4xT0t3?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-07T13:42:00Z",
       "region": "world"
     },
     {
@@ -389,6 +452,27 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KZkRfUEF4Sk11Y1BOVWNTQmZPS3VHSE1OMFlxWEdaNGw4UG9QaF9JUzNKQWJ3UzlvR1RTVGI0Z0hnSUNFdVpxbXZaN1M4REtwM3NKYVpqNU5iUUZrNXhWMDhZTmJ0VEcxclptWVJJRkNLMHRLWG01ZmFBTmtUeGc?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-07T13:30:00Z",
+      "region": "world"
+    },
+    {
+      "title": "元小結旭道山のおいの波田大和、佐川遼に9回TKO完勝でV5「皆が思うところにいきたい」と控えめに世界初挑戦を希望 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Bd2NWVmhpSGY2UXlvT3hLN21lSGxIM0NJbHJIVGp5d3V2ZXVvT1I3RkxINHY5T1NxM0pVUV9WLTh5dXV6TDN0aTU3c2NKdkdDcUtKQ250R1E2WGEwcTZ0amhMRkFYaU1xVEg2LVlrb21YM1BSYTZ1Sll1S1B1Z3M?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T13:30:00Z",
+      "region": "world"
+    },
+    {
+      "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T13:27:05Z",
+      "region": "world"
+    },
+    {
+      "title": "「世界遺産を火災から守る」合掌造り集落で放水消火訓練 富山県南砺市 - 中日新聞Web",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE11dkVzUjNLbWJuMnlGZkxHcGZyYWdDSGU1VGdsVC10b2hXQkNLXzdLUkR0bU1QNDY1ZGNRTWI0SmtGeGYtY0M1aVZUQ2oybkJEMldVaw?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T13:26:26Z",
       "region": "world"
     },
     {
@@ -434,6 +518,13 @@
       "region": "world"
     },
     {
+      "title": "旭道山のおい波田大和が東洋太平洋V5 苦手克服で世界は「みんなの声が高まったら」（スポニチアネックス） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15eG9qVGZiUXN4Z0daSFpxbW5kUWI0SEhTcUYydjhiaDdidkh6eGVmX2RjSWpSQUZ4YUxndmF5SWlUVlYzV2pWWnUwTk9tb2hzdHJOLXFfeWxFLXJBeEMxWldJd2JxbkdwSFFXV3pVRE1MRkVUSFRLSlpMNl96OG8?oc=5",
+      "source": "Google海外",
+      "published_at": "2026-11-07T13:06:51Z",
+      "region": "world"
+    },
+    {
       "title": "混合の森ひかる、松本悠生組が銅 世界トランポリン第4日 - 北海道新聞デジタル",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fTFJIc3RMVXRjT1hLZWNZS2F0TTBjMlJzdjdNdjJwY2hBWkZBOFRFaWVteUQxOHpybXdNT01oMUZmeVFsRjlSdDFCSUdIUjJHTC16S0xxN3hEUQ?oc=5",
       "source": "Google海外",
@@ -473,97 +564,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHI4MWJiYWNtRXZsR2ZEZEp4YXR4UkUyS0VpVjcwTEgxN1pvZllhSEVWQlc0Z2ZZTVlYYWZxeXVZLUY3SWtXcHNWV1EySVB0cm9vYi03UWx4QmZYTmVvZno2RlZ0ckVuVVhzNzlNVXZrQXRGYjl5N0JrXzhYTXR2eklXalNyUWd2?oc=5",
       "source": "Google海外",
       "published_at": "2026-11-07T12:58:00Z",
-      "region": "world"
-    },
-    {
-      "title": "たわらノーロード 全世界株式【47312197】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44cVRKdGliUWhFTl8wdlNUeXpFTGtWcXNjS3ZhWW14Rl9fWDBieWNBcm90YUdPN3dDY0FPTHNBbFhILVVnLTRVVEVNSmhqQVBJMlV6Yg?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:50:22Z",
-      "region": "world"
-    },
-    {
-      "title": "「1番気になるところが！」ママがもうこの世界にいなくても 私の命の日記 よよよさんの映画レビュー（感想・評価） - 映画.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84cjh4REtrTjFsT2xzZEJfblJjMHVucE5OTHhsaWtaU2NlcEVaRkhNVm5rLXFubTktVnRmQ1lpLWZRRnJKOF9WNDFDRnFDd2tjRGMwSnNoN0hPQQ?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:48:17Z",
-      "region": "world"
-    },
-    {
-      "title": "森ひかる、田中希湖ら決勝進出 世界トランポリン（時事通信） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fNnMzcFR4Wl9DY0ZCdUVyeWxFWjNfU1dxT0hpVWEybXh6VE9nc0gybERVVVlSWXV0cFdzbXFaZy1OcE1saFQ2UjkxaFNLdUZyZEVrcXB0eXhqYkVuSXRlbzJwUnZWb2JwLTM2aW9OQTR0eDRTcDZLMWoyaFlSVG8?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:46:13Z",
-      "region": "world"
-    },
-    {
-      "title": "【陸上】村竹ラシッド、レース前の人気漫画のポーズは「おまじないみたいなもの。鏡の前でも何回か練習した」…世界陸上１周年記念イベント（スポーツ報知） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NQU1DNHNGTGJJY3Zsc1lMNlZBMUktUXNPa0FqZm1DQlpHQXdWbDZMVTltOHVlWmh4S2J4bHdoVDROMk1INVRlVmhEb3JFcGN3UWR0RmhVX2tXUm4xY2MzWG5Tdzl3TGNpRGVocjdHY2NaQnNaY1ZmSW9NOUc2RGM?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:38:22Z",
-      "region": "world"
-    },
-    {
-      "title": "各国の報道関係者、世界メディアサミットを対話の場として評価 - 新華網日本語",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vQzdhbHpaVDFGWXpodE52ZW5sSmVVdHIzck9GUnplN2ZTSVN1UEJ5M1g5UFJDLU1QczhCUlNWMVk4S0F6QlQtb3hmZFU3aEl4N0FYZUJFZDJvTW5aemIwQUw5RFNnZHlGeVVtTUx1TFF1anRBY3c?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:37:18Z",
-      "region": "world"
-    },
-    {
-      "title": "【FGO最新情報まとめ】全世界1億DL突破記念に好きな星5サーヴァント1騎配布やマーリンのピックアップ召喚が開催 - 電撃オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5SUZsMTc4X24tOHBsNnVFSERpdmI5d0ZtY0tsdGZETEVJQl9HMm96NVBzRUlNTWxrUkhCU3lQaDd3WjVVekRxa09fVmk0aU03Vi1VVzhtcw?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:36:00Z",
-      "region": "world"
-    },
-    {
-      "title": "「海底のゴジラ」世界の地質遺産に 東京都3つ分の巨大ドームが海洋関連で初の認定…東宝怪獣が名付け親（オタク総研） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5MnRPYnFjRHRyc0ZDZnh5WndpZ1NSd0MtcXFMTE9tYzRZV3E4WkplU1IzbjAyTENVZ3hZdjRpZTlKSW1VUG5RV0U3cjk5cDdxczd0dTVNTEUwOUpjU2tKdUV0ODhfTUE1SlMxQVMxc0tkbEp5Vnhsb1ZaRThPc0k?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:26:00Z",
-      "region": "world"
-    },
-    {
-      "title": "eMAXIS Slim全世界株式(除く日本)【03316183】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqb2lvTnJ0Y3d6T2ZjNTBDZlozTnNKQzFBM2EwUEhEekk3alpReC02UWtxY19NUkIwN1pzMlB5aUZCbFprSG9HZS1DaGdmUlZyQ0ROdg?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:14:28Z",
-      "region": "world"
-    },
-    {
-      "title": "『夫婦の世界』配信はU-NEXT・Netflix・FOD｜週末一気見【11月7日掲載】 - BANGER!!!（バンガー!!!）映画評論・情報サイト",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1KTkJPR2s2ZXRHQXFqLXA0am1NZktFeEpXWGg4cUN0NDdobzVwS3g3SkFFMElXQXBJVW5ZZTZRa0tmSGVhV0Nyb09R?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:11:15Z",
-      "region": "world"
-    },
-    {
-      "title": "【期間限定】「全世界1億DL記念ピックアップ召喚」！ - Fate/Grand Order 公式サイト",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10Y3JTVV9vZUt6RkdvM19ZeE9uaWdGN1VXSF8yQ1ZrcWdwb3BrY1BkcWdUdjNzc0FlbDlUUy1qMHhBOE05Ym5lTTRSTEhWR0xyWmNxcg?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T12:04:06Z",
-      "region": "world"
-    },
-    {
-      "title": "早田ひな 準決勝進出をかけて過去1勝6敗の世界4位・蒯曼と激突！直近3連敗の難敵にリベンジなるか【卓球 WTTフランクフルト】（テレ東スポーツ） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUcy0xZUFBY1BRSEZDZjVfQ1FEb1RZalBNcDNRVWhxVWxXcUdMb1FBQ2RDRWVKN2thS1d0cks4ZmZ5WE1FNjZIdmI0Zm1KdUFQQmI4WXZUZGhFeFc1R0hwOFpEek1IOXRLMlhBejBaeWNrelh2azFZaTBSUFFrUEE?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T11:59:17Z",
-      "region": "world"
-    },
-    {
-      "title": "義母から突然「いま東京駅にいるんだけど」と電話→嫁が「お義母さん（泣）」となったまさかのお土産に「凄いです」「優しい世界」 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DbEpJeERsR214TGtQdXl6X1dzOXlmWFZwU1VMLWVRWnN0WDNhb01aSi1uT3BDWHJPamo5ZUVLQmozWDBUdW5uZzZESTB1Q3ZtNFJfaW54OTdkOHMxV0VHVjE0M3hkQW9mb3lkYm9TSGttRVNSTkc1ODNaOHNHN2M?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T11:57:00Z",
-      "region": "world"
-    },
-    {
-      "title": "女子は宮本珠莉愛＆勝部陽日／梅田巴花が優勝 [J30ITF大阪国際ジュニアテニストーナメント]（テニスマガジンONLINE） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Id2ZDRDlRVGRpdmlnX3g2M1JLV01IeFFGWWtuLUJyaURRSHdNTEx4UTY4cXMwQnZIS19BZmFjOUZKN3BfQkZsYko4WHk1Uld2UU83R2djUEtvTDlOSDNMaDBuUy1uOVRxQmlFeFd4R0VnTEFoNS1tSEZCejVpNHc?oc=5",
-      "source": "Google海外",
-      "published_at": "2026-11-07T11:55:00Z",
       "region": "world"
     }
   ],
