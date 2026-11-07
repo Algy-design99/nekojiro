@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Signal-specific domestic and international Japanese news feed."""
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import datetime as dt
 import email.utils
 import json
@@ -30,12 +31,12 @@ def date(s):
         except (ValueError,TypeError):return None
 def fetch(region,name,url,now):
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; NekojiroSignal/1.0)","Accept":"application/rss+xml,application/xml,text/xml"})
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            with urllib.request.urlopen(req,timeout=18) as r: raw=r.read(2000000)
+            with urllib.request.urlopen(req,timeout=10) as r: raw=r.read(2000000)
             break
         except Exception:
-            if attempt==2:raise
+            if attempt==1:raise
             time.sleep(attempt+1)
     root=ET.fromstring(raw)
     nodes=root.findall(".//item") if not root.tag.endswith("}feed") else root.findall("a:entry",NS)
@@ -56,14 +57,17 @@ def main():
     now=dt.datetime.now(UTC)
     regions={"jp":[],"world":[]}
     errors=[]
-    for region,name,url in SOURCES:
-        try:
-            data=fetch(region,name,url,now)
-            regions[region].extend(data)
-            print(region,name,len(data))
-        except Exception as e:
-            errors.append(f"{region}/{name}: {type(e).__name__}: {e}")
-            print(errors[-1])
+    with ThreadPoolExecutor(max_workers=len(SOURCES)) as pool:
+        pending={pool.submit(fetch,region,name,url,now):(region,name) for region,name,url in SOURCES}
+        for future in as_completed(pending):
+            region,name=pending[future]
+            try:
+                data=future.result()
+                regions[region].extend(data)
+                print(region,name,len(data))
+            except Exception as e:
+                errors.append(f"{region}/{name}: {type(e).__name__}: {e}")
+                print(errors[-1])
     for region in regions:
         seen=set(); unique=[]
         for item in sorted(regions[region],key=lambda x:x["published_at"],reverse=True):
