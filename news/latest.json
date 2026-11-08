@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T18:54:28.583228Z",
+  "updated_at": "2026-11-08T19:31:59.795891Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
@@ -8,12 +8,6 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261109de72671",
       "source": "NHK",
       "published_at": "2026-11-08T18:04:34Z"
-    },
-    {
-      "title": "米中間選挙で形勢逆転 複数州がデータセンター許可を凍結 マスク氏は計算力の「核ボタン」を握る - BigGo ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvMTdzV1QzekxYajd4M3Y3M09UUW5MbnVGRFpaWVRFQWY2N0xFbGpCT1dyNC1ya2ZqanFieHhMclBvV2R2bUkwUTJBMHlXOTlTZEltRTBSQy1XUTNyZUh5RVlZUmNuclkwQ3JfTl9ITUJXYUNy?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T16:23:43Z"
     },
     {
       "title": "佐賀 鳥栖 ブリヂストン工場で火事 3時間半後に消し止められる",
@@ -94,6 +88,12 @@
       "published_at": "2026-11-08T12:49:07Z"
     },
     {
+      "title": "応募約1万4000人！「たくろう万博」で一番の倍率……“万博民”が大満足した、まさかの芸人パビリオン - Lmaga.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEaDR0OWVyUzVJOFRxLVl3R24zVEFON2RnRWJPeVFjeWo1dkh1Z1NYUjBPREszbTFzeDVJUUF1ZWwzcjBHTm96VUJhX1lQclBEOXBpWg?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T12:24:25Z"
+    },
+    {
       "title": "「VIVANT」最終回 SNSの反応",
       "url": "https://news.yahoo.co.jp/pickup/6601836?source=rss",
       "source": "Yahoo!ニュース",
@@ -122,6 +122,12 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261108de72408",
       "source": "NHK",
       "published_at": "2026-11-08T10:37:06Z"
+    },
+    {
+      "title": "米中間選挙で形勢逆転 複数州がデータセンター許可を凍結 マスク氏は計算力の「核ボタン」を握る - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvMTdzV1QzekxYajd4M3Y3M09UUW5MbnVGRFpaWVRFQWY2N0xFbGpCT1dyNC1ya2ZqanFieHhMclBvV2R2bUkwUTJBMHlXOTlTZEltRTBSQy1XUTNyZUh5RVlZUmNuclkwQ3JfTl9ITUJXYUNy?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T10:28:51Z"
     },
     {
       "title": "サウジ首都金融街に攻撃、超高層ビル「アラムコタワー」で被害…フーシが市街地に対象拡大か - 読売新聞",
@@ -160,12 +166,6 @@
       "published_at": "2026-11-08T09:40:00Z"
     },
     {
-      "title": "中心市街で銃乱射、６人死亡 実行犯は極右思想傾倒か―ポーランド南部 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CeGR6ZW42dzFLc0dzWGpodFI0eXFXYnpqMHpYNzgxaWxEcmxrdmhaMTNmaTRqd1k2amkwcllHUDlXam90V2dkU2R3UE5KdEZNX2dzQVBKZ2pseG5jUjhxLXVvNA?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T09:29:00Z"
-    },
-    {
       "title": "ロシア JT事業の移管先企業は元政府機関職員が運営 周到に準備か 現地メディア - テレ朝NEWS",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90RGJ5aWo3aFBKNmdDN0s5QzlSZE1nOHpqeHR1YnpjVWZkajhzTWFTM0lLa2FuSEo5OVhtWGdjdWlGMUpDdzBKUWprSS1VVWh1Qi0yaHRzR1FDOExIWnNpSTljNWpmZ3lpTW9yanotOWpESXdmbFdLODJ3?oc=5",
       "source": "Google ニュース",
@@ -178,10 +178,10 @@
       "published_at": "2026-11-08T09:15:49Z"
     },
     {
-      "title": "M!LK・塩崎太智 子ども転倒後にトランポリンで“大はしゃぎ”動画が波紋、「元気キャラ」裏目続くいっぽうで注目集めた“別メンバー” - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wV3JCR0JMb3M4blVvUzhMTEZsdjFpU1ctbmJFeFFsQnFqZkRHUUEwLV9SZWlwaFJ6WE5HM0FkRWE0Zzd3azJOWE9mdFVOVklOekx2Zng5eUlsNlpYSUk0Slc2ZFhubV9wQ2ZfZklYaEpaVGNHV05NZFZQMjJGRk0?oc=5",
+      "title": "青森市議会議員選挙 午後4時現在の推定投票率は前回を下回る | ABAニュース - ABA青森朝日放送",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SN3ROOU1TeXJnVkJqQW9ldnRUOGladGlzcC1LV2FlR1hfN2JOUUJyUGZVWEd2d2lhOTYzSnpvSWYwWHZkZHNtMmdUZzlNMzBmdmJBUzFaZEI?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-08T08:25:00Z"
+      "published_at": "2026-11-08T09:10:00Z"
     }
   ]
 }
