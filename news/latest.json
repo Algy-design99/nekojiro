@@ -1,13 +1,25 @@
 {
-  "updated_at": "2026-11-08T07:18:43.646481Z",
+  "updated_at": "2026-11-08T08:04:24.957423Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
     {
-      "title": "卓球・中国勢が男女とも8強で全滅",
-      "url": "https://news.yahoo.co.jp/pickup/6601798?source=rss",
+      "title": "大谷ユニ 9270万円で入札も不成立",
+      "url": "https://news.yahoo.co.jp/pickup/6601805?source=rss",
       "source": "Yahoo!ニュース",
-      "published_at": "2026-11-08T07:02:07Z"
+      "published_at": "2026-11-08T07:36:38Z"
+    },
+    {
+      "title": "競馬場どよめく 3連単1206万円",
+      "url": "https://news.yahoo.co.jp/pickup/6601802?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-08T07:29:17Z"
+    },
+    {
+      "title": "愛知で震度５強、鉄道各線が始発から運転見合わせ…愛知県内で男女２４人負傷 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93TEpfSXJxdFhUbzFBd2FDQktrRnZTNWs0YUFKbEV4M05rZkM5VTJheXozQkpFalVrTWdYeml0YjJNb2RJM3pRNWRncnVWc1l4eHo1Sk9nWEFMOE5yd1ZiZzJ4VjZNQQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T07:11:48Z"
     },
     {
       "title": "書店員刺される 男「社会に恨み」",
@@ -16,10 +28,28 @@
       "published_at": "2026-11-08T06:59:28Z"
     },
     {
+      "title": "【フィギュア】三浦佳生が3年ぶりGP優勝「スケート人生で一番のパフォーマンス」ファイナル進出決定（スポニチアネックス） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00dlhDUDNGRVlldl92QmNPRUszaXBIdGlaUFZ5aHIyaFVIVHZzYk9YUk1jbTFKb0RRQTJiYllGQVZyVl9tcTRLMkRaYm9lbnVoODZ4SDFiZFVLUkRJWmloSXlFdTMzb19WU0pBaWhaZmFPM09lQlctUFZJOUV4ajQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T06:58:44Z"
+    },
+    {
+      "title": "台風 強い勢力で小笠原諸島接近か",
+      "url": "https://news.yahoo.co.jp/pickup/6601792?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-08T06:51:34Z"
+    },
+    {
       "title": "倉庫には古米の山 赤字覚悟で販売",
       "url": "https://news.yahoo.co.jp/pickup/6601793?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-08T06:42:20Z"
+    },
+    {
+      "title": "9日は広く冷たい雨で東京都心は1月並みの寒さか 15日頃も広く雨 2週間天気予報(気象予報士 吉田 友海) - tenki.jp",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yZjdKNTRKc2tpSWhkYUxOWERFc1JaX2NiTnJiSmZlSTZkaUYwZU9sa2xqejV1UExXZFYyamdsZGZWYnVqeTUtdVM4WUFZSzNWaUtLUkhjd3NIVlM4XzRic2VDSGthSHF0clV3?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T06:41:23Z"
     },
     {
       "title": "消費税減税法案 自民 小林政調会長“制度イメージわく審議を”",
@@ -28,16 +58,16 @@
       "published_at": "2026-11-08T06:40:30Z"
     },
     {
-      "title": "アイスペース米法人もＮＡＳＡ月面輸送事業の契約対象に選定…直接受注の競争入札に参加資格 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11eEZSZVBOT28yYzFCaTJLRXlleU5EbXg3U3ZrOWtSYzZQUll4TFVMdVZWNXhlcjFtTXkxTmI3bWtiZnZzbEpLQWZDZnRhcVhmcUo1eTJmUWJTSTltU2s3dHd6NlA?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T06:19:00Z"
-    },
-    {
       "title": "小泉防衛相 陸海空自衛隊の垣根を越えた組織のあり方検討",
       "url": "https://news.web.nhk/newsweb/na/nd-20261108de72476",
       "source": "NHK",
       "published_at": "2026-11-08T06:18:52Z"
+    },
+    {
+      "title": "スマホがデジタル使い捨てカメラに。フィルム選びから撮影までを再現した新サービス「FilmLog.」公開。IT専門学校1年生が独自のシステムを開発 - RBB TODAY",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YZDMyb0U5aDl1TGtGSnk3Rm5KclNXaEtJQkptbUs5NmhYWDRDZG40N3hEcHRqYUU5VUItdkRJaThtRlhuOG1WN3FpYnF1TTVMZGtWWUNXbXE4aEUtZUtCdmVnUjA3RVZENlRKUW92a0dPMnlfWUcwUg?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T06:16:02Z"
     },
     {
       "title": "44mmから42mmへ！ モーリス・ラクロア「アイコン」10周年、クロノグラフが小径＆薄型化した次世代モデルに - VAGUE(ヴァーグ)",
@@ -46,10 +76,16 @@
       "published_at": "2026-11-08T06:11:15Z"
     },
     {
-      "title": "ゲーム機、タオルで包むのやめました。Belkin「Nintendo Switch 2のためのケース」が長旅の味方 - Gizmodo",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY3E5SlNhcDJEcXMwRWJZM2pNQ0wzYWtrTjlWN2hlWUY1ZTJxcWo4ay1YczFVUmZCZnlmV1NpZGxqQTZycUxUVWhDZ3ZpRU9ka3FVMnZ5R2JiUDJ5VHdKTDMzZXdQUzBfOE1NMlczV25UMEVsbjU0aWJIeTdZc0xKZVBSM0tTUQ?oc=5",
+      "title": "「社会全体に恨み」現行犯逮捕の男性 大阪・梅田の切りつけ - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FYlk4TVptd0g0eWcyZmNFT2ZLbVcwaU02M2VvYzRMbUZVbHNRMWw0S3lid2t6U2x5UWJOTm0tY1pWdVVNc3VYMWxqWFBuQUFpZHdBZEdPTndoamptN3MxOV9XVUs1R1BD?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-08T05:35:00Z"
+      "published_at": "2026-11-08T05:59:11Z"
+    },
+    {
+      "title": "佐久間朱莉が米ツアー初優勝、４打差の２位は岩井明愛…ＴＯＴＯジャパンクラシック - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uMHREd19NWlBDLWhHbmxCcHNOY21EeUw1em1nQTgxMEFwM3NSN2tQOUxvTHNvSDF1UjZOeUNTejk0d21DYkhqT3BmWE1iRnpzTlRUUU9UVk1oUUdyeTB4Q0NXdy1Zaks5Rnc?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T05:42:00Z"
     },
     {
       "title": "自民 消費減税採決棄権で処分検討",
@@ -70,22 +106,16 @@
       "published_at": "2026-11-08T05:07:19Z"
     },
     {
-      "title": "関東・東北・中部で地震 Ｍ５．６ 東京、神奈川、埼玉、千葉、静岡などで揺れ 最大震度３ 震源は茨城県沖 地震が及んだ地域人口３３４８万人 - 千葉日報オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5leEFZSy14QUVuREU3N2w5TXZqT0pBaUhNa0RoLWtRazN0OHFBeWMwVW55LVR0M0pzeUl5Mzl2OGFjNm1NbmZvUl84cG13N3lsVkJxYkZVQTE?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T05:00:08Z"
-    },
-    {
       "title": "JR内房線 約1か月半ぶりに全線再開 利用者から喜びの声 千葉",
       "url": "https://news.web.nhk/newsweb/na/nd-20261108de72318",
       "source": "NHK",
       "published_at": "2026-11-08T04:49:25Z"
     },
     {
-      "title": "露衛星の軍事利用開始か ウ警戒",
-      "url": "https://news.yahoo.co.jp/pickup/6601779?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-08T04:43:39Z"
+      "title": "自民党 消費減税法案“棄権”の4議員に処分検討 9日正午までに退席理由の説明を - テレ朝NEWS",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85WkJIeVZBNURyeElEVURscEp0bG9qSHVsWFFXYTJEYS1udkxwNE81bXlvUzFOb1NaV28yV3pscG80RDdqZjNZZGxXYmZPRU9fTzBJV3lHdFV5N1VsOW9GVXhoSEhVZ3VIY1hTS1VrNnRsQm8?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T04:33:36Z"
     },
     {
       "title": "のっちと結婚の渋谷 8歳から子役",
@@ -94,34 +124,28 @@
       "published_at": "2026-11-08T04:11:36Z"
     },
     {
-      "title": "大阪・梅田の書店で切りつけ、命に別条なし 男性を現行犯逮捕 - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DYWszNS00NjVqbm9HRWZ2QzdSblRIVzZKMmVoTkRtVHBhbFNrYW9VMEJ5M2pzemp2MFJWOFJmUkVCRmlBQ0tsT0JQY0xhRXRTQ0NYS3JwYlZCZVNrRWJGVHRvWFllN3VL?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T03:44:03Z"
-    },
-    {
-      "title": "のっちと結婚 渋谷謙人がコメント",
-      "url": "https://news.yahoo.co.jp/pickup/6601765?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-08T03:22:33Z"
-    },
-    {
-      "title": "「パフューム」のっちさんが結婚 所属事務所が発表、俳優の渋谷謙人さんと - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14NVVhSWJQeGYwd1oyWHRkM0ZEenRub0JJN2laYk0yVkFEWmFPTVB3NGRXb0JUWWZOMEIyM2xzUkN1WnhDeWdaWm9neUViWWcyV2lzR2VmNWY3R0xvSGY3QWRLMFRKeDc0WjV3TW0xSURDay1Mcmc?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T03:17:53Z"
-    },
-    {
       "title": "山林で女性遺体 監禁疑いで逮捕の容疑者と交際の女性か",
       "url": "https://news.web.nhk/newsweb/na/nd-20261108de72420",
       "source": "NHK",
       "published_at": "2026-11-08T03:14:00Z"
     },
     {
-      "title": "フランツィスカ 世界1位の松島輝空を破る大金星！「ファンが僕に翼を与えてくれる」地元での4強入りに感激【卓球 WTTフランクフルト】 - テレビ東京",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaTFpCSGpKQ20wU19fR3BOWnhDcVFFbFJaUW1tcWpUQmhGcUNBUEtBQ0xOVlAwR0RzUTloZmEtRklSZmMxMnA1UHB0WGhjMmpIZkZoM2l5aU5nTEhJOTg5MnM0STNUeHpFaG5fMVFqLW0?oc=5",
+      "title": "中国卓球に衝撃！男女ともにベスト8で全滅 中国メディアも異例の結果を報道「9人全員が敗退」日本勢5人が4強入り【卓球 WTTフランクフルト】 - テレビ東京",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fVVBUaDItZVh4ZWowXy0wYldwd3BiMEYwWWFsWWU1SERhRk5td0IyVndXNzVKMWRLNkd0RDRaRFBTaVZEYlJlVVpTU0FhT3NhQ2lvQ2RvbUdraWk0Ui1iTXA5d2FlSFprTlpSM0JXa2g?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-08T02:34:56Z"
+      "published_at": "2026-11-08T03:04:54Z"
+    },
+    {
+      "title": "ＪＲ内房線、全線で運転再開…当初の年末予定から前倒し - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxa2RYS0daMk16ZzBlZTZ5d2V2RVFtbDJva2UxOHVwVXUtMnZXaVdQRFpuZkdoVUV5YVM1RXBON2dDNGpPYTZFMnRiSjkwRm5iWlQ0b3RpdV8xTDY1UEhjYnIwRml1UQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T02:28:00Z"
+    },
+    {
+      "title": "Perfume・のっちと俳優・渋谷謙人が結婚！のっち「挑戦と成長を重ねてまいります」 - テレ朝NEWS",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EY29vVGZwMHppb2VxWjlQSVJRc2xxZjF4VGx5bVd1akU2UW1NWW55Z3g5cEpLZE5JY0tGRzNpZHdjS1dMQXh6enROVGRKb1QzR2VkZ016cERadzdjbjByTTNPclI4aml5anhmMWthZHU?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-08T02:24:00Z"
     },
     {
       "title": "山林で女性遺体 監禁疑いで逮捕の容疑者と交際の女性か - NHKニュース",
@@ -130,34 +154,22 @@
       "published_at": "2026-11-08T02:22:55Z"
     },
     {
-      "title": "愛知県で未明に震度5強 南海トラフ想定域も気象庁「プレート特段変化なし」 - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83VzdUZzVHbWFYTXdPMmQ5cDAzdmZEN2x5M1ZlelRRRUgxZTlvT1JoT2tvWDZlLW5IZUJIOWxLZVVsX1BnaXplSE0wVVFtM3I0QzdLek5HcnIzdFVMWWF3eDdoR3MwRGE4MlFsUXlEQkxnQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T02:14:00Z"
-    },
-    {
       "title": "トランプ大統領 総合格闘技団体代表に報道官打診",
       "url": "https://news.web.nhk/newsweb/na/nd-20261108de72412",
       "source": "NHK",
       "published_at": "2026-11-08T02:03:00Z"
     },
     {
-      "title": "熊本県天草・芦北地方でM4.3の地震 熊本県で震度4 津波の心配なし - ウェザーニュース",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pdXdla3NyOUl3UGpmck1xQmM3VHpiSkw3MjFzVTc4dkxlVUtSZVJCVUExSUlUdEdrSFN6amRabDNrZ1JpcXh1T0xydl9ndmhZcEFKaFdZdmp5VlE?oc=5",
+      "title": "日銀、ETF売却加速の深謀 政権との協調狙ったカードか - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxaHNpbnJtNTBZd3B5LTZubXExblNHX1NLV1lCN2JsYjJyU3JkZ19VeWpxcXZ0NlU5STJLQzRkX3F2djYxZG9fYWp1TGRrNDl3elNQc3Yta3F5NlcyRkhJdkhScUlJUDFoYXZJcw?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-08T01:58:00Z"
+      "published_at": "2026-11-08T02:00:00Z"
     },
     {
-      "title": "北日本は寒気の影響が続く 北海道は吹雪のところも - ウェザーニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE05cUN0Um5JZkpjakxieUlvMW5fY3NBazNzSEFidGNYTzdXNXFxLTJEd2lRQlBiTUVkZ0NZdjRySWdrX1k3LWVZYlp5eW1PcWRzdDN3cg?oc=5",
+      "title": "熊本で震度4の地震、長崎や福岡でも揺れ 各市町村の震度一覧、11月8日午前10時53分ごろ発生 - 福井新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xWXRUYTJ4eGxzYVozS2UwQkZRajRxSGVMWDZQMWk5NVR2UDNBbGFzWWpFcy1TNVVlWUIyNHN6TExNellsaVdjLW1VZnhIWXRBZzBJcUZscGo4d3JmYlE?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-08T01:46:00Z"
-    },
-    {
-      "title": "【速報】岩井明愛、荒木優奈が首位タイで後半へ 佐久間朱莉、原英莉花が1打差で追う - GDOゴルフニュース",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwSDlNWjdPLTdoR0tpTm0yUy1pc2tTRlF5ekg2UEtReURiaWZLTGdTcmVhNGxEb1FZc3M5TXZEZ3RMR1NJU2QyUk1qdlpTQzd6NXVFeU1XbjNFaEZ6SGZUbTNPUEY1aG5k0gF8QVVfeXFMUHdDa3U2SkJ4b21IU3RESUxQMUN6NzdNRFJ2UFlrQVRScE10LTNuOVc4a3ZTN0x0S0lCeWp5WmZHQ3JtdzR0UnJtQl9IanNmVmZ6cnNRaUZ0emVOTm1fTktUa01Nb0FpOHMyNzZFR3ljVWx2c1hrVS00VVh0NQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T01:09:57Z"
+      "published_at": "2026-11-08T01:59:00Z"
     },
     {
       "title": "ガザで豪雨 テント7万張が浸水と当局発表 避難民の生活さらに厳しく - FNNプライムオンライン",
@@ -170,18 +182,6 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkbzV2Z1V3UXFHcXpqaXF5d0Q0QUF2THZ6TGNpWnJ3elZGMGFkdmtXczlXYnVFRWlvUnZJZmVfNkxEdFMyNEw2czRmX3Vva1FqMlROVw?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-08T00:52:00Z"
-    },
-    {
-      "title": "イスラエル 第2党アイゼンコット氏に組閣要請へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261108de72392",
-      "source": "NHK",
-      "published_at": "2026-11-08T00:50:00Z"
-    },
-    {
-      "title": "VIVANT：“過酷ロケ”に挑んだ別班員に阿部寛が謝罪 「すべて野崎のせいです」 - Mantan Web",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIUHNWZVlTQlQ2THB2RmlvLThmZ2xJWjd3Y2dxd2J1QXFsc1BUQmoyZlZJbWZvc3N6MjZQdURyZEdaZGZ2RHUtS3VDbUxmbFExbU1wY1hrY1JkTzVIWFRpTHZZQXBhd1RQQ2ow?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-08T00:20:00Z"
     }
   ]
 }
