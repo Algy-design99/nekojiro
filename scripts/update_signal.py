@@ -18,7 +18,8 @@ SOURCES = [
  ("jp","Yahoo!ニュース","https://news.yahoo.co.jp/rss/topics/top-picks.xml"),
  ("jp","Google国内","https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja"),
  ("world","Google国際","https://news.google.com/rss/headlines/section/topic/WORLD?hl=ja&gl=JP&ceid=JP:ja"),
- ("world","Google海外","https://news.google.com/rss/search?q=%E5%9B%BD%E9%9A%9B%20OR%20%E4%B8%96%E7%95%8C%20OR%20%E6%B5%B7%E5%A4%96%20when%3A1d&hl=ja&gl=JP&ceid=JP:ja"),
+ ("world","NHK国際","https://www.nhk.or.jp/rss/news/cat6.xml"),
+ ("world","Yahoo!国際","https://news.yahoo.co.jp/rss/topics/world.xml"),
 ]
 NS={"a":"http://www.w3.org/2005/Atom"}
 def value(node,tag):
