@@ -1,8 +1,32 @@
 {
-  "updated_at": "2026-11-09T19:55:54.578171Z",
+  "updated_at": "2026-11-09T20:49:22.058023Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
+    {
+      "title": "ロシアの独立系新聞「最後の日」 30年余の歴史に幕",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73218",
+      "source": "NHK",
+      "published_at": "2026-11-09T20:44:27Z"
+    },
+    {
+      "title": "ナスダック一時3％超上昇 AI規制の懸念後退や原油安で",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73229",
+      "source": "NHK",
+      "published_at": "2026-11-09T20:40:49Z"
+    },
+    {
+      "title": "自民 維新 安全保障3文書改定向けきょうから作業チームが協議",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261109de73179",
+      "source": "NHK",
+      "published_at": "2026-11-09T20:25:40Z"
+    },
+    {
+      "title": "暴走は必要悪か、自由を謳歌するAI アンソロピックが気づいた｢感情｣ - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrR09SMkNoUVVBU0lZb3d0bTkxVDlDTFR4N3dzOHFFY1RBZDUtSW9BQng1bkxoNFIzUVZEWFFUcXRUZGo3THRqT0pnMXJlbTVtSDRyZVM0UlFKZWduM2xWQnk0RWRkQ3ZXanVpTA?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-09T19:00:00Z"
+    },
     {
       "title": "サカナＡＩ、来年秋にも新規株式公開を検討…日米同時上場・日本の新興企業として最大規模の可能性 - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43dTZBalhyRG9rNXVzNFBzb1pHMEJkYlhwOFRYREJFTGF3RWQ1SVk3MEQ3SW1EeGxnYzJ2c3Jva205dGpCOUthWXFjdkpnX2Z1T3hER21ZNnptUkctQV9xbkdodmU?oc=5",
@@ -34,6 +58,12 @@
       "published_at": "2026-11-09T15:05:00Z"
     },
     {
+      "title": "［深層ＮＥＷＳ］米大統領首席補佐官にミラー氏起用、「政策のブレーキ役ではなくアクセル役」…安井明彦氏 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FSjl5aUxiRXlYZ0VkRDQ3eTVPWVhnYzBHNXFyUlEwRUtjNzFZNm1GZWpHTFpvTGl4UlBqUWZpVm9PTTdGZVZxRmNIZ0ZHNGhxVjB3V3B6M2R3eTFyejJvZ1NB?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-09T14:46:00Z"
+    },
+    {
       "title": "【地震発生】埼玉県など東日本で地震…マグニチュード5・9 東京都、神奈川県、福島県、宮城県、新潟県、長野県など揺れる 茨城県沖が震源、地震が相次ぐ（埼玉新聞） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hYjBpTUYzOE05elRpNXljck1YUzdEOWxUVjlFUzRFUHpURjdaLWVXRVJNM2J4b0V6UDdPd0dIc1BqbDVYUWRQSGRiNnctQmloX3hCOVpZWUdNbjIyR0oteFBpWWVKaWRxcDhmbms5TFhYd0pCQnNMZXdpNGplelE?oc=5",
       "source": "Google ニュース",
@@ -58,22 +88,10 @@
       "published_at": "2026-11-09T13:53:00Z"
     },
     {
-      "title": "東日本大震災震源域のプレート固着でひずみ蓄積が再開 東北大 - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjMU1jLTdILXRJREVRS2h5dXNnU1dMY3lTcVFWMXFOcXV4OGhTUTk4V25hR2FPTVc5RmFGMWl4ZFA2Tmh5cGdBcFN3aHZIRXotMUlWckoxR2UzQ1B4bVFV?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-09T13:40:00Z"
-    },
-    {
       "title": "大地震エネルギー蓄積か 日本海溝",
       "url": "https://news.yahoo.co.jp/pickup/6601961?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-09T13:37:17Z"
-    },
-    {
-      "title": "初の９人制フィギュア・シンクロ国際大会、日本勢Ｖ…７月に五輪採用決まり１６人制から急きょ切り替え - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nWFhLVVpVV3lnWHZ4MWJCNHRHaDlzVUw4X2JVOGFHcVRoN1gweUdTdW0wYkdULXhnUEV2eEhpZ2lhVVFFeEhBZFdlVFc0ZndROVpPVFdLbEJmX1RhdHdleFZ5UlJWc3Jpd25kdQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-09T13:19:00Z"
     },
     {
       "title": "震度5強 震源を静岡県西部から愛知県東部に変更 気象庁 - NHKニュース",
@@ -82,10 +100,10 @@
       "published_at": "2026-11-09T13:13:00Z"
     },
     {
-      "title": "震度5強 震源を静岡県西部から愛知県東部に変更 気象庁",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261109de73182",
-      "source": "NHK",
-      "published_at": "2026-11-09T13:13:00Z"
+      "title": "戒告処分の自民・石破茂氏「厳粛に受け止める」総裁経験者では初 小渕氏ら3氏も戒告 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOC1aY09lMHRVWGd1TjRYZUtQeGpGWWNoU3QwXzhDaWpnY0hsdElNSzRTaU1tQnZMMTIwUGpvQk9fVXVTOEpWc3dFWU5POHBWM04zdnJTc05Cb1RRaFQycUg4ZThDTmhqVzVpZV9ZSmZlS0V6MEoyUkFRWmdLc1hjQ2k0T285dUdMdkhWNA?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-09T13:05:59Z"
     },
     {
       "title": "強い台風32号(チャンパカ) 明日10日(火)夜に小笠原諸島に接近 - ウェザーニュース",
@@ -100,6 +118,12 @@
       "published_at": "2026-11-09T12:43:25Z"
     },
     {
+      "title": "ＣＯＰ３１開幕、ＡＩ用データセンター建設などで温室効果ガス急増…脱炭素目指す国際宣言を策定へ - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMS2g1emNDOVJsd1dMR3VEOWZpVW1ja1hzME5sWW5yVGdXZjg3ZVlFQU51RGE4LUh1eC1JdzRubTJIVGpTV3pLTTU3VEdUTmVjWnktRGRYUzh5dVp1Ylc3UVJ0Um1pQQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-09T12:37:00Z"
+    },
+    {
       "title": "高市首相が党幹部会食後のＧ７オンライン首脳会議欠席、「全く飲酒していない」…木原官房長官がＳＮＳ指摘に反論 - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ld1kyN0hsQjdVS0xXR1lmcEhaalk4RS1iLXNOcXdkOXplT29LdnhRZzJQNWlxU2VuaTZQUm05SHlDQVRSREJ1NGdtRzhvZ2FBZnZmc2FHazZrMkxuMDV3ekZSNnNodw?oc=5",
       "source": "Google ニュース",
@@ -112,28 +136,16 @@
       "published_at": "2026-11-09T12:10:07Z"
     },
     {
+      "title": "『南田南弁護士は天才肌』芦田愛菜&高橋文哉のロマンチック2ショット実現へ…「ついに夕日のシーン」「素敵ですね」 - オリコンニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BY21vV1NEUTFieENMWklrN2RnYm11STdKTU12RnRjUGFNdWtaSGt3UndWamFIeWhsY0VUZFRZWE8zVUU5RUM1anhEZjVrUVpWZ0NxTk53?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-09T11:45:00Z"
+    },
+    {
       "title": "ジャニー喜多川氏性加害で当事者の会元副代表と会社側が和解",
       "url": "https://news.web.nhk/newsweb/na/nd-20261109de73160",
       "source": "NHK",
       "published_at": "2026-11-09T11:38:47Z"
-    },
-    {
-      "title": "中曽根氏も小泉氏も不問、石破氏は戒告 自民党「造反」の歴史 - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jU2JYcGNoT0c2S2RHWjVQVmFhWWtMYmVoYlN1MFVuc2U3UDE1a3pad1I5UzlVeHZRZmtyOFkwbnlfZ3YyQW5Nb09kdkFSdWVwQmtVRGJZZlRnRk1LY1oxa1EtY1p2YnlI?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-09T11:30:22Z"
-    },
-    {
-      "title": "『南田南弁護士は天才肌』キャラクター紹介・広川凪沙(平岩紙) 法律事務所の代表で「就職を巡る疑念」も - オリコンニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90N051Z0FsMzQ5bnN6NTBaanNyRFRhNFBfcDFudS1qOHItYWZWWmtkclpUMVUxaGxjUmJjR0RqaEYtSHZuNS1PMWVmQXhpcHQ4d1Vqa2Rn?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-09T11:15:00Z"
-    },
-    {
-      "title": "気候変動：7000億円の請求書、宛先には日本も 気候災害のツケ誰が払う - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vLTFGT2pkNkFuZG43aVV0RUVzVjl3UGZjZEw5bGpHNFV3NEJoOVlHUHlLSlBRbjlXUGZZV0oyd1lzS1I0RnJNTG9GSG1ubHlDYUZSQkFUbGtQX1hLU0FCaGdnVHI4UjBU?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-09T11:13:37Z"
     },
     {
       "title": "同僚踏みつけ死亡させた疑い 逮捕",
@@ -142,34 +154,16 @@
       "published_at": "2026-11-09T11:10:10Z"
     },
     {
-      "title": "火星の火山はまだ生きている？ 巨大火山の亀裂の近くに謎のガス - ナショナルジオグラフィック日本版",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52Q0NVRmhYR0FpWEpuZWlCQks5bGRuTl9DdkxCLTFaSnY0RFVJVlFsdU50ZktrMDgxMVdKSV9QLWdDVldSQk42dF96eC1ublJNeVBVYWxIVkhUYzktSjdEdmpmYw?oc=5",
+      "title": "8割近くが屋内で発症「低体温症」の怖さ 毎年1000人超が死亡、気温急降下でリスク増 電気ガス代高騰で“暖房控え”も - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1idFJHVTIwODd3bTFhUWc2TnF6WFB2SEwweVJJLXA0ZVFfVzFLMzRUUzM4a2hwZzVSNkN5YWFjRjZwYWdEZHp6dnZpdlpnOVRNbGl1dEswUC12Skw5VFhoLWV6NjJrRmZJeGJpa1J2MTlibllET1BrUjl1dVQ1a0U?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-09T11:00:00Z"
-    },
-    {
-      "title": "トランプ氏が移民政策「厳しすぎた」、「中間選挙」大敗の一因と認める…人事刷新方針もルビオ氏「残る」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1XcnlNcDBySy1aVzJFVUlQelhfRWJIX3ZWblZKWnZUcVlKLWl0eFptRkRnWExNNVdRb3RNYnVza2pkWXdzZ1E3UzNQMlM5dDVZb0xCcm10MG5nNV83RFI0czZn?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-09T10:43:00Z"
-    },
-    {
-      "title": "東京1月並み寒さ 北海道は吹雪＆積雪 - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwNUJjZF9Td0hXWEJzTndpaVk2TXVJY2dBdkdhZkxOMW9hUmMxaWY5V001Y2NncTBBUDFwa0JSbkFRRnVGRmtIRHNxZlJtNllaTWU1VklOdGQ3U3lVOFZiSnpZNGNWUVZLbVl4T2ZQVHUzQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-09T10:26:08Z"
+      "published_at": "2026-11-09T10:48:23Z"
     },
     {
       "title": "山口県警 ミスでボーナスなど8000万円余が未払い 一部時効に",
       "url": "https://news.web.nhk/newsweb/na/nd-20261109de73131",
       "source": "NHK",
       "published_at": "2026-11-09T10:22:00Z"
-    },
-    {
-      "title": "車から強力電波 周辺スマホ強制的に2Gに 詐欺メール送信狙いか",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261109de72718",
-      "source": "NHK",
-      "published_at": "2026-11-09T10:20:09Z"
     },
     {
       "title": "ニトリに不正アクセス 最大3762万件の個人情報が流出の可能性",
@@ -182,6 +176,12 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261109de73129",
       "source": "NHK",
       "published_at": "2026-11-09T10:11:00Z"
+    },
+    {
+      "title": "大相撲九州場所2日目 横綱 豊昇龍が朝乃山に勝ち初日から2連勝 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0d2l6MkJZMTZlMHNLNHVYczFWWXktbUEyT2M3UGNHejM1REsyY3dTTmc4ZnktM2xZWWhMRFI3V2Z4UVBxLVdUS1Q5QkpySHpfRWxibnBzSWN0NUZjblRz?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-09T09:58:51Z"
     }
   ]
 }
