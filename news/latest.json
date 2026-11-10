@@ -1,19 +1,43 @@
 {
-  "updated_at": "2026-11-10T10:22:49.079791Z",
+  "updated_at": "2026-11-10T10:53:22.063265Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
     {
-      "title": "四国電力子会社社員死亡 第三者委員会の設置を会社側が発表",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73742",
+      "title": "エルニーニョ現象 過去最大の強さに どんな影響が",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73297",
       "source": "NHK",
-      "published_at": "2026-11-10T10:03:00Z"
+      "published_at": "2026-11-10T10:48:54Z"
+    },
+    {
+      "title": "日商簿記など 合否や得点が流出か",
+      "url": "https://news.yahoo.co.jp/pickup/6602077?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-10T10:37:38Z"
+    },
+    {
+      "title": "スズキ中間決算 インドでの販売好調で売り上げ過去最高",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73754",
+      "source": "NHK",
+      "published_at": "2026-11-10T10:31:36Z"
+    },
+    {
+      "title": "市長ら逮捕 阿波市役所に家宅捜索",
+      "url": "https://news.yahoo.co.jp/pickup/6602075?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-10T10:21:42Z"
+    },
+    {
+      "title": "タカラトミー ロゴマーク変更へ",
+      "url": "https://news.yahoo.co.jp/pickup/6602074?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-10T10:11:01Z"
     },
     {
       "title": "自民 小渕氏 税調副会長の退任求められ受け入れ 古川氏は辞任",
       "url": "https://news.web.nhk/newsweb/na/nd-20261110de73714",
       "source": "NHK",
-      "published_at": "2026-11-10T09:54:03Z"
+      "published_at": "2026-11-10T09:54:00Z"
     },
     {
       "title": "SBGが7680億円の赤字 中間決算",
@@ -28,10 +52,10 @@
       "published_at": "2026-11-10T09:47:03Z"
     },
     {
-      "title": "JIS不適合生コン製造などで認証取り消し 麻生コンクリート工業",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261110de73726",
-      "source": "NHK",
-      "published_at": "2026-11-10T09:39:27Z"
+      "title": "「モバイルＳｕｉｃａ」タッチ不要に、２８年春に山手線全駅など…３１年度末までにＪＲ東全エリアで - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IMzdObUFEOExjTE5rZWZhNjVBcVYyLVVwUFR6cnhmcDlndUdrcGo3ZnM3RkJESXJPa0JxVlU3aG1LU2xmRE9fNklsODZBM2lNUE9Vc0NoTEo1N0htd3JKTnlOVVE?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-10T09:40:00Z"
     },
     {
       "title": "原子力潜水艦 導入視野に検討へ",
@@ -49,31 +73,19 @@
       "title": "ダルメシアンにかまれ女性が大けが 飼い主を逮捕 千葉",
       "url": "https://news.web.nhk/newsweb/na/nd-20261110de73681",
       "source": "NHK",
-      "published_at": "2026-11-10T09:08:39Z"
+      "published_at": "2026-11-10T09:08:00Z"
     },
     {
       "title": "ソフトバンクグループ中間決算 7680億円の赤字 DC計画変更で",
       "url": "https://news.web.nhk/newsweb/na/nd-20261110de73545",
       "source": "NHK",
-      "published_at": "2026-11-10T09:07:33Z"
+      "published_at": "2026-11-10T09:07:00Z"
     },
     {
-      "title": "証明書のコンビニ交付 障害相次ぐ",
-      "url": "https://news.yahoo.co.jp/pickup/6602063?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-10T09:06:39Z"
-    },
-    {
-      "title": "緒方理貢 トライアウト不参加に",
-      "url": "https://news.yahoo.co.jp/pickup/6602064?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-10T09:06:36Z"
-    },
-    {
-      "title": "アイドル恋愛NGは古い? 識者見解",
-      "url": "https://news.yahoo.co.jp/pickup/6602060?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-10T08:48:45Z"
+      "title": "藤凌駕、横綱豊昇龍を破って初金星　付け出しデビューから11場所と3日は7位のスピード記録 - 日刊スポーツ",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12WlBLb3ltOTEzXzFqVDBOQWhwdWl1UzFwYkQyWVFmdXUtalNDSFpleE15VUtIeDdTbnpmMW1ETlMxS3dXMFZkWG1HOTRGVkxpX2JpY3JXYWJZaGlTRFFnMWh5bjE2RHJlY3Q1N1pQWGx0NUhl0gF8QVVfeXFMTVE0TTVuMWM4ZFNacGVGRDlna0ZjZ1lacXBONGhUWUZ6amcydUlDR3ZTZUhKdEw0YXd1VHZORkUxU3Zwc3dQcmxFUjFpclg5cWN5SXVEcnRUemsySXpWM18wMWxjVi1pZjRabUd1dS1Zc1JoYXVXQ2tqRlI5dg?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-10T08:48:22Z"
     },
     {
       "title": "巨人 ドラフト1位指名であいさつ 織田翔希投手は同席せず - NHKニュース",
@@ -106,16 +118,10 @@
       "published_at": "2026-11-10T08:15:00Z"
     },
     {
-      "title": "【オリックス】ドラフト１位・角田楓斗が堂々の公約「新人王を狙って」「取れるタイトルは全部取りたい」契約金１億円 年俸１６００万円で仮契約 手薄な先発を埋める即戦力右腕（スポーツ報知） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11Z2JDRmVBX0o5LWp4QUZEc09fTEtKQzI3eWRJUnhfZnBfVGlURGlGRlhUVXVoYjVMSkMxM3RkTENkYW95SVN0cDdXcmhMeFJsS21NTkdJRWU3OXh2dFJBZ2d6ekxyMDZDWlNRZHhGalo1Z2xwRkRYZC0xX1EtTW8?oc=5",
+      "title": "古川元法相、自民税調副会長辞任の意向 減税法案採決を退席 - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NU3Y2NXlMcFc4V3hpSUo4SW5kVFU3SmtTMFVxMUliRUY5N0JaOFhpU2s3czJNZjhwZnJKYzNKdE43eFQyU0YwN3pHLWRCdnVfYUtfWHFWV0daLUlZYTdYX1dTQ0FxUnlX?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-10T07:40:01Z"
-    },
-    {
-      "title": "JR東「ウォークスルー改札」山手線全駅など再来年春に導入へ - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kWGNTS3EwcnZIU3lDVjFpZXBwR056Rk9wek9PaXJWOEJKRWY0TXlGOUcwbmpBWnZJbHdkX2IxUnlrTHRLbEFlSEluSnJlNlRiTWUxVmtFSnlRN2VzVEVN?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-10T07:19:00Z"
+      "published_at": "2026-11-10T07:42:14Z"
     },
     {
       "title": "JR東「ウォークスルー改札」山手線全駅など再来年春に導入へ",
@@ -136,14 +142,14 @@
       "published_at": "2026-11-10T07:10:00Z"
     },
     {
-      "title": "サケ不漁でお歳暮商戦に影、イクラ含め高騰し値上げや販売中止も…全国の来遊数は１９８９年以降で最少 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13cEFxUkpiRGpTSjQxM0RJU2ZJV0JDcE5uSFlDMm5sNXpZRzB3Y1QwSG81eENRQzFjcW9xVDJXN2dES3kzUlBhejAxS1dzQzkycldfZWFGdzRuWlphcmJMb2hRY00?oc=5",
+      "title": "エンドリッキ、日本との再戦へ「実力はよく分かっている」 ロス五輪出場の可能性にも言及「五輪代表でもA代表でも、呼ばれたら必ず行く」（サッカーキング） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BTEY4a2NDVTRkS3dROEd3ekRBRERvRW9ySDVzN21Sc2xtTmxaekJKR21yUzhuUzF1TnNOLW5HS0o2ZTJlYUZxZUVzb3gteGswamtncU9hTFhLSnFRMm5MdWp3TTZVbEdiNGFlYl8xMl81Rzd0cVhvc0M3SGZWT0k?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-10T07:00:00Z"
+      "published_at": "2026-11-10T07:03:43Z"
     },
     {
-      "title": "「Galaxy Z Fold8」に乗り換えて1カ月、パスポート型の横長画面はマンガも動画も快適　ただし、“あの機能”には注意も（1/3 ページ） - ITmedia PC USER - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIQjk5N0xxRFVtZmdCb1lNWDN3T1Z4QXVONUt6b1lTcFZQWFFIQmR4Z0lydENCUmFSanEtNms4anpPQTI2UFkzM3BQbDJZb2RuQ09sLWhvT1p5aUh2a2pueEZBM0hIZXRtc1VILXI1c9IBaEFVX3lxTE9UeUFQazdhTkYyenlzQTAxX0xYTUxqUVhiaEY4QmlnNnJTUFNKT0Q1cVQtMlpjUGpfQlNrMGo4M2dnNzlyNkdHdDFhb2E0cUZ2ZFVrRFRkSUptU3NhVXRmQkExQlRBNVZT?oc=5",
+      "title": "サケ不漁でお歳暮商戦に影、イクラ含め高騰し値上げや販売中止も…全国の来遊数は１９８９年以降で最少 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13cEFxUkpiRGpTSjQxM0RJU2ZJV0JDcE5uSFlDMm5sNXpZRzB3Y1QwSG81eENRQzFjcW9xVDJXN2dES3kzUlBhejAxS1dzQzkycldfZWFGdzRuWlphcmJMb2hRY00?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-10T07:00:00Z"
     },
@@ -166,16 +172,10 @@
       "published_at": "2026-11-10T06:33:08Z"
     },
     {
-      "title": "中国、米露との3カ国首脳会談で台本読み上げ形式要求か 実現不透明と米紙 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40dkNWNUt5cGtNaTdaSzdsWVZxMUlQZ2NuYVZOejNyT2lWMnNZSGhoYS13YVh0am5ieTFrdUtodlFDRHk5aDcwdDJkZXVPU1FYUl82dDMwWDIwcjZyS0NqMEFsRGVlNmRhei1mN3Jtckx0YUI0TUE?oc=5",
+      "title": "【GTA6】本日より事前ダウンロードがスタート。容量は最大で約212GB。11月19日よりプレイ可能に - 電撃オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkd3VnUEVJY1l2X3ZXTVZnQ3E4d3k5dmxKOFRZSExCZkZkQjEyVVFGYkZqSl80REVsR2lEcURlbmNGUE4wVlNXQ1F6dndLeXZqMjVreDJobkMtZw?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-10T06:09:40Z"
-    },
-    {
-      "title": "広島床田、森下、坂倉、中日上林、西武高橋ら10選手がFA宣言選手を公示　２桁超え15年ぶり - 日刊スポーツ",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OQ3RqZnV1X3lyQTBMSktzMHRuVDJTdHNmWXBrOEJyU1RGRDVidjhubXdBaTFPMm9Rd25jdVItN2ZybXdscVl2R09qandGVHRqeGxhS1FlRTJ6enZFdUtFSFJ3M2VKNVZ5Si10b29YQzTSAXhBVV95cUxPcHI0M1RIcUZka0VSX3BkdG5qT1VtWHJaXzh5clVpcHAzVTBSenZFeWpQSVc1NUxZMnZTZ1BrbEdVc2dKam5NcjNUeDF3cV9RaDFPaFdRY2twbERSRGg0M3U2X0VjQUtQNnRiWmZ2NElwaFhPUDY3X1c?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-10T06:04:00Z"
+      "published_at": "2026-11-10T06:25:00Z"
     },
     {
       "title": "徳島・阿波市長らを逮捕 詐欺容疑、修理費用を上乗せ請求―県警 - 時事ドットコム",
