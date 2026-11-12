@@ -1,13 +1,79 @@
 {
-  "updated_at": "2026-11-12T20:28:36.557024Z",
+  "updated_at": "2026-11-12T22:14:53.964007Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
     {
-      "title": "最高検が生成AIの捜査などへの使用で指針 全国の検察庁に周知",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261112de75099",
+      "title": "マイクロソフトで接続障害が発生 世界各地に影響のおそれ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
       "source": "NHK",
-      "published_at": "2026-11-12T20:25:21Z"
+      "published_at": "2026-11-12T22:03:39Z"
+    },
+    {
+      "title": "エヌビディアCEO辞任 動揺広がる",
+      "url": "https://news.yahoo.co.jp/pickup/6602361?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-12T21:59:48Z"
+    },
+    {
+      "title": "プーチン大統領 米特使らと会談で局地停戦提案 ウクライナ警戒",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75124",
+      "source": "NHK",
+      "published_at": "2026-11-12T21:51:31Z"
+    },
+    {
+      "title": "EBiDANが紅白初出場 節目に悲願",
+      "url": "https://news.yahoo.co.jp/pickup/6602360?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-12T21:45:40Z"
+    },
+    {
+      "title": "山形 寒河江 住宅火災で2人の遺体 3人居住か 連絡とれず",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75126",
+      "source": "NHK",
+      "published_at": "2026-11-12T21:42:00Z"
+    },
+    {
+      "title": "幾田りら 髪染め本格俳優デビュー",
+      "url": "https://news.yahoo.co.jp/pickup/6602359?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-12T21:40:10Z"
+    },
+    {
+      "title": "エヌビディア フアンCEOが辞任 業界全体に影響も",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261112de75078",
+      "source": "NHK",
+      "published_at": "2026-11-12T21:38:00Z"
+    },
+    {
+      "title": "米エヌビディア、ジェンスン・フアンＣＥＯが辞任…不倫発覚で引責か - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oSXpUd0dUR1VRTkI3NGloUUlXZncyanprYXFJX2hTR1RLc2dkYjJ6QmNmZ3RTbWdXVXljQjJ4VWhzbUo2QVdOeFNTUC1iNWNIdHhUUU94SFlBRjNReGZ0U19QVC0?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-12T21:35:03Z"
+    },
+    {
+      "title": "マイクロソフト「365」大規模障害",
+      "url": "https://news.yahoo.co.jp/pickup/6602357?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-12T21:11:23Z"
+    },
+    {
+      "title": "無印良品、クレカ番号「全桁流出」の経緯説明--「不要になっても16桁をマスクせずに保存」 - CNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yY3JNQlZHeGZ2bmZXYVNuTWVnUDZGcFNLUFJKUmpRc1hBT09qWmNUR19Cc2tLUUpTa3hnQ3ZicXB4MzFCaXN4eTdrd2dmT2QzcWc?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-12T21:05:15Z"
+    },
+    {
+      "title": "広島 3人死亡火災 同居の32歳長男が火つけたか 放火容疑で逮捕",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75122",
+      "source": "NHK",
+      "published_at": "2026-11-12T20:51:00Z"
+    },
+    {
+      "title": "マイクロソフトのサービスで世界的な接続障害が発生 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9aYW9kVEUxc2wxVF84MWN4b3Y5UUROdzRnRG1xajhwLU5kRXBtNnFGeFVoOVhTekI0RWlaV2ttRlRlbC05Z1g4eVpPWktpUkE4cGJsazNkakRhMVRXRm5v?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-12T20:42:04Z"
     },
     {
       "title": "ロシアによる北海道新聞記者拘束1か月 即時解放求め続ける",
@@ -16,10 +82,16 @@
       "published_at": "2026-11-12T20:22:55Z"
     },
     {
-      "title": "防衛研究所 中国にとって南シナ海はアメリカと対抗する基盤",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75106",
-      "source": "NHK",
-      "published_at": "2026-11-12T20:07:14Z"
+      "title": "「トランプはもう終わり」は大間違い？歴史的大敗から始まる驚きの逆転シナリオ（ダイヤモンド・オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wdXBZUnN3ZGo0MWl1cjBCV2EtdTFxMzdGWEZfZzdJanRCVFIzZVlaNC1vdGozWmQ3YmRlbHV4YzRxRmR4N1gwbHB5bGxwSmtxT256UDRuTW9lY2VuT2c3NlF2dVZLczQyRzU0c3g0UlRrbENLZmkxbmJZZTBweVk?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-12T20:02:21Z"
+    },
+    {
+      "title": "中国海軍・海警・「海上民兵」が連携、南シナ海で「他国の船舶に対する圧力を強めている」…防衛研究所が警鐘 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmd0l6eExkNU1vbi0yUEp0VHhjZVBFYUJneXhNNzd6Q0tJRHVNX256LWpZQUpWcEg2eVZYbUcydXJsOGdOZDhacVFfMENDTlpON1Y4M09MUmhSdndrdXJSbTNyYmx6QQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-12T20:00:00Z"
     },
     {
       "title": "消費税減税法案 参院特別委で質疑へ 効果や支援金めぐり論戦",
@@ -28,34 +100,22 @@
       "published_at": "2026-11-12T19:55:40Z"
     },
     {
-      "title": "ウクライナ アメリカの衛星通信サービス再び制限",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75118",
-      "source": "NHK",
-      "published_at": "2026-11-12T19:49:42Z"
-    },
-    {
-      "title": "円相場1ドル＝160円台 約2か月ぶり円安水準",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75110",
-      "source": "NHK",
-      "published_at": "2026-11-12T19:43:22Z"
-    },
-    {
-      "title": "エヌビディア フアンCEOが辞任 業界全体に影響も",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261112de75078",
-      "source": "NHK",
-      "published_at": "2026-11-12T19:26:59Z"
-    },
-    {
       "title": "バンク・オブ・アメリカ：GTA VI、ローンチ販売で19億ドルを稼がなければテイクツー投資家を満足させられず - BigGo ファイナンス",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMRWRnVkpRMFpSSjdTam9ENzB3cVJxR0UxaUtuWGhLbEI4Nl9WQ21mVVhJSGtIU3dPei1ORGZ1c2hCTWw3M2ZnZ0E2RkwxR2VCVU8yLTdBdGNqZHV3RlExdW5aeDV6TzhtMjJRRXl2dGVtVTBN?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-12T18:09:58Z"
     },
     {
-      "title": "エヌビディアＣＥＯ辞任、ＡＩ業界に影響も 暫定トップにクレスＣＦＯ - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTHNtRTljbXpkbmVMOTBrY3NPcm1NdUtneEdUeTk3dFg5c3ZvTDRvUHlSaElwMmwzcktDNW5xOWVZeWlkWHF2NnRrMUs5MjgxcGc3blBxYXlXb2k4YXhvTkNiT3ZwNXI2MlBDYTNIaXU4UjhFd2dkS0VYTzJCck1uOGxwMHRwUQ?oc=5",
+      "title": "米首都ワシントンで銃撃、5人死傷 ホワイトハウス北東 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SNG5GVVRGSHR6eXMySkZDYk05X2xMRlU3SUFpWl9DWkkxNzFJVVctdWxIczg2Q2lqSFlrcVlPZWVNTER5bHFYT3VVZXVvV0xxM2JDMlNVWV9VODdFX2x0YmdTanNXUkN3R1pyRg?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-12T17:55:51Z"
+      "published_at": "2026-11-12T16:25:56Z"
+    },
+    {
+      "title": "ニコラ・ツォロフ、2027年はレッドブルとレーシングブルズでリザーブドライバーに就任 - autosport web",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE11aGlvZTZfdFdhQnk4aE8tOWEydmhtMERsZVNpaGUxMlU5aUF1NWN0ZW0wcklNNUM2cVA4VEJ2T05fcjFhVW5r?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-12T15:39:00Z"
     },
     {
       "title": "米ワシントンで銃撃事件 5人負傷",
@@ -64,16 +124,10 @@
       "published_at": "2026-11-12T15:13:03Z"
     },
     {
-      "title": "米国株式市場・序盤＝ＡＩ関連株急落、エヌビディアＣＥＯ辞任で資金供給懸念 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPekhSSlJaUC1jVGtnblVZNFE5NWtuQkJyLWstQUxDVk1xZ0R0QTFuNWhWb01SZlN5ZDhqTHRMSTFIYmIxbVhKWFhwdUsyZkxRYU5OVFpHS0RpWTRLeW5zUTRGa3J1WW9Zc2dxbFdGTFF1eTRHOUt4b3dpNURTWjd3Xzdn0gGHAUFVX3lxTFBsOUZRYmQ0ekg2azBLanRBeEdtWnBNVlgzbndDeFlVU25KMXRHeURVYU1ibVJmN3dXRElnWG1KQjhfcnRMbnVraXNmd0pENVBpM1JPd0xVaW4tX0pNbFE4ZmM0bzVTdzU5TnJ2akRZOHJhal9USXJyaElTcmdGZFVHYWJRd1loVQ?oc=5",
+      "title": "【ＮＹ為替オープニング】原油相場やFRB高官発言、米30年債入札を睨む - ザイFX！",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1alQwTnVVYzJDRDBYWFBkMUNkb3ZPV3ZkVF9rek9iSE1GbW16M1pyLURCWGxVb2RMM3dGTUFfYkVXZHBUczhmQ0FQUXpOVmxiSEE?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-12T14:40:53Z"
-    },
-    {
-      "title": "［深層ＮＥＷＳ］消費税減税法案の採決前退席、石破茂氏「自分が信じてもいないことに賛成できない」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yYnJ6Z0lIZnplU2NiSGlhUjlpMkFvN3RfY2F5Rlk3UURNWVNjU3N0MGZ4Qk96WHRoWDRWMS1OMVQwOGFUSlk0cXhlSjgzVWhrMVFHTWh1NEE0R2RZWGVSMS0ybXZ3UQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-12T14:37:00Z"
+      "published_at": "2026-11-12T15:07:00Z"
     },
     {
       "title": "広島の３人死亡火災、住人の長男を逮捕…何らかの方法で火放ち自宅を全焼させた疑い - 読売新聞",
@@ -82,34 +136,16 @@
       "published_at": "2026-11-12T14:32:00Z"
     },
     {
-      "title": "米国防長官ら 墓地で衛兵から叱責",
-      "url": "https://news.yahoo.co.jp/pickup/6602354?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-12T14:26:32Z"
-    },
-    {
       "title": "映画「スター・ウォーズ」50周年、エピソード4の幻のオリジナル版が日米同時公開決定 - ナタリー",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE40Tkt1bDZYQmFMU2JUaWFlM01GSEpndVk2bnRiZmZLTUVfbGVyU1JBNzB0bmZELWdzNGN1X2lxd3VGV3ByanhIVnNvZw?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-12T14:23:00Z"
     },
     {
-      "title": "【市場反応】米先週分新規失業保険申請件数は増加、予想も上回る、ドルは底堅い｜FX・為替ニュース - ザイFX！",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tQ3diTXlValA3Zm11ZVlxWDl1N3JoSFhIZWhLbmZoS2JpTkZEbGdCV0dEOFg0dEJleFptWjZOekNJR2xYdmgxeHVPcmt1UVU0c3c?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-12T14:13:00Z"
-    },
-    {
       "title": "銭湯侵入疑い 男は国際的犯罪Gか",
       "url": "https://news.yahoo.co.jp/pickup/6602352?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-12T14:10:37Z"
-    },
-    {
-      "title": "エヌビディアのフアンCEOが辞任",
-      "url": "https://news.yahoo.co.jp/pickup/6602353?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-12T14:08:14Z"
     },
     {
       "title": "「これまでのPimaxの常識を覆す完成度」超小型軽量PC VR『Dream Air』シリーズ徹底解剖！実写さながらのMicro-OLED映像美と驚異の装着快適性 - PR TIMES",
@@ -124,16 +160,16 @@
       "published_at": "2026-11-12T14:00:00Z"
     },
     {
-      "title": "海岸にクジラの死骸 深海の希少種",
-      "url": "https://news.yahoo.co.jp/pickup/6602351?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-12T13:57:11Z"
-    },
-    {
       "title": "山県秀 ソフトバンク正木の２打席連発に「エグいの一言」 この日ベンチで感じたことは - 道新スポーツ",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qMUxEaUpLbVVnM3VKMjlXR3g1WTlnSzBvM2N5SW9HQWtzMmFHN01RUnBqQWdFeHpkdVV1cEtHbl8tOHdiWmhFakE0cXk4Vk1yWTdPLWNSdWgxNjNGbGQyTGxn?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-12T13:40:52Z"
+    },
+    {
+      "title": "アメリカ側が「思いやり予算」３倍の５年で３兆円超要求…来年度以降の日本側負担巡る交渉、難航の恐れ - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBZTDUwazhpRTkwdWs0VExPazh1WWNRZWt0bWw3WmhvU2ZiZkRSZC1NTVEzOXhPenlyTlk5dFpzLXZDUmpwVTlZc29scVhBWkZOTUVidzFtOUF2ZXR3OFV4V19CTzhmdw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-12T13:39:00Z"
     },
     {
       "title": "タマホーム 5年以上前から不正か",
@@ -142,46 +178,10 @@
       "published_at": "2026-11-12T13:34:28Z"
     },
     {
-      "title": "【アジアCS】金丸夢斗「打線も助けてくれ嬉しかった」７回無失点で井口ジャパン“初陣”勝利 - 日刊スポーツ",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TVTFsR0lOeWN0T0tZQzRYQmtyd1FCZER2NmhwQlY5MlduaWdNSk9va1JhVk53UFNtd0JHUmhZcTVwdTByU0JYaEtKak9LbGI4c29LMEZ4ekpXSkhNdndPZGNYMmF6UW5PYi0wdFdJcDjSAXhBVV95cUxOSVZDblNWamc2R3NxX2hQSVNhZU12b055ejlxMnZxV081T3JZSXBWZVhKdkpUYklZeTF6akVWT1VYRGFWcWZ1bzdNRGFTd2JPNTNIekpaSGtzZTVsZjc4OGU5S0tfQXpPNGtnT0k2UUxFS0xSS0ZGRlY?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-12T13:23:00Z"
-    },
-    {
       "title": "勤務先から21億円超横領疑い 逮捕",
       "url": "https://news.yahoo.co.jp/pickup/6602347?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-12T13:05:20Z"
-    },
-    {
-      "title": "星街すいせい、決意を胸に飛び立つ新たな世界 集大成を見せた“最大規模”アリーナツアーを振り返る - リアルサウンド",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fNzNtZk9WUG1YZno2Zm9EUWxRaHg0WlpmOGtyRHdRdnNxLUlvMUNQMTRZZ3dIcVIwTEJHdm9ENmc5WHpqYTgzUkIxTjlwVEdCZXFOQ21JYmZBdw?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-12T13:00:53Z"
-    },
-    {
-      "title": "【ソフト＆ハード週間販売数】『ゼルダの伝説 時のオカリナ』リメイク版が首位スタート。Switch2版『ステラーブレイド』もランクイン【11/2～11/8】 - ファミ通",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jVjN4emhGS3VoQ3dWUmVHZ2Z0QjVsZ2N0dmR2LWxOMzRjMHoxSEpLXzNFUHNSTFNUVEhOZHF3aFpFbVM3Z3JDeTRoMTU0SWZwY24zVDhxbw?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-12T13:00:00Z"
-    },
-    {
-      "title": "米特使がプーチン氏と会談 3カ国協議受け、ゼレンスキー氏とも面会へ - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OemJEd3YyYm1MZ1VUMjZFY2l6cVU4QXltcEk3WUNpeWJoTkpia2pxZWFHeDBLUEdhNzNPeG5oRmROV0VKaXA4ZHVlTF9BeXZFYkFTMUlzdk9ybF9EYzloN1R0b0tZRnlpb2ZjeQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-12T12:12:15Z"
-    },
-    {
-      "title": "蒔田彩珠です 森七菜がついたうそ",
-      "url": "https://news.yahoo.co.jp/pickup/6602341?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-12T12:06:42Z"
-    },
-    {
-      "title": "ブラジル代表、ヴィニシウス・エステヴァン・ハイラン・ハフィーニャ共存の攻撃的布陣で日本戦へ！ ブルーノ・ギマランイスも全体練習に合流（サッカーキング） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtR1dQNFJzbTlZSXlWMVIyNlFWTEEwbU5kZXRlaEhEbVVCUFR1Wkx4VzhKbnpRRlNFUW45S29yZHQ3WDJiS25QeWRUMVdOUnFQMUU5QjRTak0yT0xmaDBObzZsYzlsMjdqNk55X3lVbzUteEU5SUhIQml5eXlublk?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-12T11:50:07Z"
     }
   ]
 }
