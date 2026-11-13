@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T16:18:01.833841Z",
+  "updated_at": "2026-11-13T17:34:14.698650Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
@@ -8,6 +8,18 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261113de75728",
       "source": "NHK",
       "published_at": "2026-11-13T15:35:00Z"
+    },
+    {
+      "title": "トランプ氏「突然の方針転換」か、対イラン「合意不要」と投稿…合意目指す局面「とっくに過ぎ去った」とも（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yeFpqcE11Um5PZDlSSUdiSG5wbkVmckVRcXBvUTI0Z1N4NFg3cHVYNGg3UDFUWXNaTVl4N1paS2RDVFpWbFFteWwweVhnQ1d5WHhndE5ZT0JxcDMxaHZkelFfTnhVNm1KdmlITWxmUTBDS1pldzFFTmVxT1F0c2c?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-13T15:32:52Z"
+    },
+    {
+      "title": "「アウトルック」大規模障害で「人生初ファクス」「電話でやり取り」…影響は企業・官公庁・大学にも - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtdjVUMFN6VWpEdEVFd2JJZXFkSjljQlljd01kXzZEa0tUSmgyZUJ0d24xdEcxRHJxZkpCMUdFbFBaUFJBLTREaWZRYlFGdlZKLTdodU54UWZnME1CRlNzY1ZaUjh5dw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-13T15:00:00Z"
     },
     {
       "title": "自衛官の給与引き上げ法が成立",
@@ -46,6 +58,12 @@
       "published_at": "2026-11-13T13:52:45Z"
     },
     {
+      "title": "大阪府枚方市:３歳長女の頭や腹など殴り殺害、父親を殺人容疑で逮捕…体に数十か所のあざ・日常的に虐待か - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iRHU2emlHdU4tN1RVbE9PQm1KTkFYUS1LckV2dG9zV2dONWxjc0FoXy1aN3p0WjdRUklMcElsYjBKVzV1UlRTSUV1QnpDbmxEcVRGZkx6WWZ1ZUJuVGNMZlJQM0VIdw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-13T13:50:00Z"
+    },
+    {
       "title": "マイクロソフトの接続障害「日本は比較的安定した状態続く」",
       "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
       "source": "NHK",
@@ -55,13 +73,7 @@
       "title": "【アジアCS】正木弾！宗山弾！“名刀”「正宗」コンビで侍ジャパンが韓国斬り！決勝進出へ大前進 - 日刊スポーツ",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rLXByZDdiejQ4REVKVHZDeDhQVEhDOTB4RzJZSWt2MDlVVWNhU2tWa1pka0tWSm5qN0licEFFU0tMc014LWtUaHdKeXA5TFdobXJKSWo3ZS1TX3E4cjVaZWhxbks4NVpUeEI5REQ3SzPSAXhBVV95cUxNLWhqZzdlR0tJczlGUEZ6TGlsdnpfRHA0Y05xNXN2emE2UUt3VDZjTWVMYi0xa0dSMld0aUx3T3NDYTZMWjhiWGg1TjRqMnZ5QjlCSnZJcTJrX3pUZDFMdWJsSzRTZTVzVjJxYmV1dnltcW1HM0VodGM?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-13T13:27:22Z"
-    },
-    {
-      "title": "東大総長 選考会議が2位藤垣氏の逆転の経緯を改めて説明 - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiZ3VOR3lRX2t0Qk8tU1RhTlFSbXR2WmZzVFhGdjZ4c21fQ2kzSjNNVUtTRDVGdUIwU25Zai1KRXhDSkNqVG1KX1pFaGhyaWEyWFRwT3RsZ1c4dGpHNldN?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-13T13:25:48Z"
+      "published_at": "2026-11-13T13:30:00Z"
     },
     {
       "title": "「週明け怖い」MS障害の影響広く",
@@ -82,16 +94,16 @@
       "published_at": "2026-11-13T13:00:02Z"
     },
     {
-      "title": "スパイ疑惑の女性の企業、NVIDIA半導体を上海に納入か 米報道 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hdlFpdkxUNjdablJqWXVFQktJaW5HMnBfV2NjZUJVZ2NZQ2dvVm84TjJ2MlNnVkpPV1BwaXFITjg4SFFJU1BjaVd1Q2IxcGs0bk81NzNBcTZOZTRDM28yeFpYU05menI3UHhoQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-13T12:51:40Z"
-    },
-    {
       "title": "大雨被害の由利本荘市 災害死判断",
       "url": "https://news.yahoo.co.jp/pickup/6602465?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-13T12:44:56Z"
+    },
+    {
+      "title": "だからか！ ＶＩＶＡＮＴ １人忘れてる！柚木薫の違和感ある強烈反応に、あっ！背後にいるまさか黒幕 第２話に伏線、ラスボスはロシアではない 情報知り得た人物 - デイリースポーツ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2elFTR0dfQWs0VFhMclRfYTlURUNWbGpKdEFpenRHaHg5ZlQwVDhhNUNGNk9vcWlvLUVCcFVVZVo0bG83ZUpmRnJZRjA5QjhtS1lTUFNSd3k1QmFSQ0dTTWV4aUxxRlNfdFE?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-13T12:38:32Z"
     },
     {
       "title": "大阪 枚方 3歳女児死亡で両親逮捕 虐待か",
@@ -106,10 +118,10 @@
       "published_at": "2026-11-13T12:19:10Z"
     },
     {
-      "title": "高卒自衛官の生涯年収、初の「３億円超」見込みに…基本給月額３・４％引き上げ・「転居手当」新設も - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yVVlXVi1WYWp1bmlidEFpVExNUzZUbHVnU1laVlpFdEw1VEZ5cllkVGs3X2FzeF92dTNJTzNUS29tcDhlaUppVXFBMTZteDBXWHdYWW1WLV90b1Z4TXgtVHpJeFlmQQ?oc=5",
+      "title": "巨人ファンクラブ会員のメールアドレス８０万７０３０件が外部流出…管理システムにサイバー攻撃（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZTk15MHRHUmQ0dEYydWtYbllsenNpbFBUOGhkZjhGR2Z5RjJEa0tLOTZQNnpwY0NMYXJQMzdKUG1seXloWEkzVXYyLU1ZZHBUVzVXenVXQUJRNmF4VHZHNmVtUVpsUTB6WXBYTHZKamNwUVN4aTZEYzFyeC1LOUk?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-13T12:00:00Z"
+      "published_at": "2026-11-13T11:14:22Z"
     },
     {
       "title": "大手損保2社 タマホーム通じた火災保険販売停止へ",
@@ -118,16 +130,10 @@
       "published_at": "2026-11-13T11:11:00Z"
     },
     {
-      "title": "ビル崩壊の瞬間の“内部映像” 隣の建物は壁なくなり住人ぼうぜん 子供2人含む8人死亡18人ケガ ニューヨーク - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtWWZMdnViZG1RSENTakQ3akU3WUQ5M3RicDVvYnljZEh0QThTQ2pNaGNqU3BCdWJyYnlZQXpfOVNrQzgzRGZhSHBOR25TY0Y1NkxQSXZiWTdoRWNGeHlvdzVFU291cTJqX2x2N0Nsb1NmMElhVjByR1JRWURHRlU?oc=5",
+      "title": "マイクロソフト、初代Xboxの21タイトルをPCライブラリに追加 「スター・ウォーズ」11作品が中心に - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUjkzUk1jUUswZXVoT2szb2JkT3AwS25ubFAtalRIc1BZSDhYTmNFTmI2eEtQMXFZcGtHdi1KdEViaExyYW5ib0tKWVlaSWI3eTZFbS1zazJ3RF9HbC1PQ2JyTHhpXzh2YWNzeS1SUVhqXzB5?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-13T10:50:32Z"
-    },
-    {
-      "title": "一山本「年末は家で紅白をみる」　おかみさんだった高田みづえの出場決定に「すごい」 - 日刊スポーツ",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kcVBFSEdDWGhXYi00VzRoR2NvMHNsbWhLR0dEWWdyby1mV1hYU3hOb1hFM3M4WDdqdXFQRmpqY2ZoelNtQlY4TElhdGFSRmExNmszZ0dGMnhuS05BRkk3MFJ0QkxueHZoTVd1b1F1ZWU1UWQw0gF8QVVfeXFMT0RZcGpPZVZZbG1uWmFZenlHT0tnYy03ZFJTMVB4RUxaUE5CeGRYNy1PR1hvVjZCVVZGU1A4QlV1OUYxMEc4NV9KV1E0NkpNbFY0NU40Z2ZIMFhsYnRvV3lsYWFEaENDdDVJU0l2S2pIUnJrZHBBNEYtdVRvcQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-13T10:36:54Z"
+      "published_at": "2026-11-13T10:36:00Z"
     },
     {
       "title": "消費税減税法案 支援金“勤労者5割以上対象で検討”高市首相",
@@ -142,28 +148,16 @@
       "published_at": "2026-11-13T10:24:48Z"
     },
     {
-      "title": "死亡の3歳女児、暴行で食道が破裂し息ができなくなったか 殺人容疑で父親を逮捕 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9icHNyNVBZVE14YUZUbmxJSDlqaEZXZG5iRFR4SWNoendWYkE0MlEtU0VLZ3lYWGFnTlQ0MXhENzB2V0Qyb0lhUWtjVEFZOEFjckpmTW9oVXltTHVCNlNuS3pqRVY2c0c3V3Ntam5LYnp6QVdMc2c?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-13T10:15:25Z"
-    },
-    {
       "title": "海老名の県道交差点、女性２人がひかれ死亡 トラック走り去る - カナロコ",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPT01TRy1fandpUjlneWZpdFRZMTFoaWtCVWhzNU1DZnY5cFNFQ29ENlVsdDZWQ2EybWRJVTBVYmQzLW9WN0VqRjloUF96S0hqY2haVElpd05xZ3VneE1IRzg3TzVZTFlQTV9VUXFn?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-13T10:00:00Z"
     },
     {
-      "title": "大相撲九州場所6日目 横綱 豊昇龍 高安に勝って連敗３で止める - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRdkVwZlJhVzEyaXZPZlRndHlrTWJKaDNUS3BnSFFOdVFzVm1FMHNaWFd1VHhxeDJHUWUwOTlyNTlUSTR5ZXFQZDhfaXB1VTBiWk5BV0EyaDhVM3VCb3NB?oc=5",
+      "title": "アリス・フアン氏の中国企業、禁止のエヌビディア半導体を入手 - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ReE1iaW1PajNKU2ZmYmg5OU5hUWlBbnpkT2lJTmJwaV9Wb21iSDFPMUJPUENwdjkxYzZ0alpMSjMwN09JV25Ea2s5am9TSFRReTlIQktTZElySzhuTmZmYUVnR0ZwMjRIdnJVd0QweXFjQTViVDBV?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-13T09:48:23Z"
-    },
-    {
-      "title": "マイクロソフトのメール障害、政府職員も電話などで連絡対応…木原官房長官「省庁間の連絡調整で支障継続」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yRjR4Ym44anNVUnM0ekxLdUVrYTdDeHNYM3FqblU0dTZuNXlSMmtmcm9YRjB1ZWNEU0Nkd0t3VE1YSEc1M2ZGc2dQNzN3YTNEVGZ5ZWFPbld4Slhpd0wzMnl2RUY1UQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-13T09:30:00Z"
+      "published_at": "2026-11-13T09:25:33Z"
     },
     {
       "title": "「紅白歌合戦」モナキなど７組が初出場、特別企画で稲葉浩志さん…渡辺美里さんは２１年ぶり２回目 - 読売新聞",
@@ -176,6 +170,12 @@
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pajFrcjZwTUV5UEJWcFl4QjlWUXFLWDdBSnZ4aFR4WnhQNE1uZnV0OUxfNEsyOUNkSTZXOXpRV2cyVXFIVl9VTWlfaE42OHhNeE1odGlxbnZkQUQ0eDdYM19kQQ?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-13T09:16:00Z"
+    },
+    {
+      "title": "大手損保2社 タマホーム通じた火災保険販売停止へ - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uamFzRDBwSlRmdG1rSFdGMF9fY3Zab05YOGFNMGpCSW9UeTNGSHBWVTJPblpBemVPbWVEYlZzekFGS2Z2WkRndmJNWHhrRjNSMTI2cmc0bG9zTzZBNVdB?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-13T09:11:08Z"
     },
     {
       "title": "MLB挑戦 慶大・広池はどんな投手",
