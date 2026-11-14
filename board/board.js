@@ -48,6 +48,7 @@ async function renderThread(){
  $('board-back').href='./?board='+post.category;$('board-back').textContent='← '+post.category_name+'に戻る';
  const at=catalog.threads.findIndex(p=>p.id===threadId),nav=$('board-neighbors');for(const [index,label]of[[at-1,'← 前のスレッド'],[at+1,'次のスレッド →']])if(catalog.threads[index])nav.append(link(label,'./?thread='+catalog.threads[index].id));
  if(location.hash){const id=decodeURIComponent(location.hash.slice(1));document.getElementById(id)?.scrollIntoView();}
+ const edit=link('この記事を編集','../admin/?site=board&id='+encodeURIComponent(post.id));edit.target='_blank';edit.rel='noopener';edit.className='board-edit-link';const toolbar=$('board-back').parentElement;if(!toolbar.querySelector('.board-edit-link'))toolbar.append(edit);
  await enablePosting(post);
 }
 async function enablePosting(post){
