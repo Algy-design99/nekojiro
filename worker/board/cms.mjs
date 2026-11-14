@@ -42,7 +42,7 @@ export function sanitizeElement(el){
 async function sanitize(body){return new HTMLRewriter().on('*',{element:sanitizeElement}).transform(new Response(body)).text();}
 async function inputJSON(request,limit=600000){if(Number(request.headers.get('Content-Length'))>limit)throw Error('データが大きすぎます。');const raw=await request.text();if(encoder.encode(raw).length>limit)throw Error('データが大きすぎます。');return JSON.parse(raw);}
 export class GitHub {
- constructor(token,fetcher=fetch){this.token=token;this.fetcher=fetcher;}
+ constructor(token,fetcher=(...args)=>fetch(...args)){this.token=token;this.fetcher=fetcher;}
  async call(path,method='GET',body){const r=await this.fetcher('https://api.github.com/repos/'+REPO+'/'+path,{method,headers:{'Authorization':'Bearer '+this.token,'Accept':'application/vnd.github+json','User-Agent':'TSUKASA-Content-Admin','Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});if(r.status===404)return null;if(!r.ok){const e=Error('GitHubの処理に失敗しました（'+r.status+'）。');e.status=r.status;throw e;}return r.status===204?{}:r.json();}
  async read(path){const d=await this.call('contents/'+path+'?ref=main');if(!d)return null;if(d.encoding!=='base64'||!d.content)throw Error('記事データを読み込めませんでした。');return JSON.parse(decoder.decode(un64(d.content.replace(/\s/g,''))));}
  async publish(path,document,assets=[]){
