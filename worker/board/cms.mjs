@@ -57,9 +57,50 @@ export class GitHub {
 export class ContentAdmin {
  constructor(ctx,env){this.ctx=ctx;this.env=env;this.github=new GitHub(env.CMS_GITHUB_TOKEN);}
  async body(site,id,meta){const parts=[];for(let i=0;i<(meta.chunks||0);i++)parts.push(await this.ctx.storage.get('draft-body:'+site+':'+id+':'+i)||'');return parts.join('');}
+
+ async live(site,id){const meta=await this.ctx.storage.get('live-meta:'+site+':'+id);if(!meta)return null;const {chunks,...doc}=meta;let body='';for(let i=0;i<(chunks||0);i++)body+=await this.ctx.storage.get('live-body:'+site+':'+id+':'+i)||'';return {...doc,...(meta.status==='published'?{body}:{})};}
+ async setLive(doc,assets=[]){
+  const body=doc.body||'',parts=[];for(let i=0;i<body.length;i+=12000)parts.push(body.slice(i,i+12000));
+  const {body:_,...meta}=doc,job=String(Date.now())+':'+crypto.randomUUID();
+  await this.ctx.storage.transaction(async storage=>{
+   for(let i=0;i<parts.length;i++){await storage.put('live-body:'+doc.site+':'+doc.id+':'+i,parts[i]);await storage.put('backup-body:'+job+':'+i,parts[i]);}
+   await storage.put('live-meta:'+doc.site+':'+doc.id,{...meta,chunks:parts.length});
+   await storage.put('backup:'+job,{...meta,chunks:parts.length,assets,job});
+   await storage.setAlarm(Date.now()+1000);
+  });
+ }
+ async alarm(){
+  const pending=await this.ctx.storage.list({prefix:'backup:',limit:1});
+  for(const [key,item]of pending){
+   try{let body='';for(let i=0;i<item.chunks;i++)body+=await this.ctx.storage.get('backup-body:'+item.job+':'+i)||'';
+    const {chunks,assets,job,...meta}=item;const doc={...meta,...(meta.status==='published'?{body}:{})};
+    await this.github.publish('content/'+doc.site+'/'+doc.id+'.json',doc,assets);
+    await this.ctx.storage.delete(key);for(let i=0;i<chunks;i++)await this.ctx.storage.delete('backup-body:'+job+':'+i);
+   }catch{await this.ctx.storage.setAlarm(Date.now()+60000);return;}
+  }
+  if((await this.ctx.storage.list({prefix:'backup:',limit:1})).size)await this.ctx.storage.setAlarm(Date.now()+2000);
+ }
+ async publicContent(url){
+  if(url.pathname==='/api/content/list'){
+   const site=url.searchParams.get('site')||'board';if(!SITES.includes(site))return json({error:'Invalid site'},400);
+   const rows=await this.ctx.storage.list({prefix:'live-meta:'+site+':',limit:1000});
+   return json({articles:[...rows.values()].map(({chunks,comments,...meta})=>meta)});
+  }
+  if(url.pathname==='/api/content/article'){
+   const site=url.searchParams.get('site'),id=url.searchParams.get('id');if(!validKey(site,id))return json({error:'Invalid article'},400);
+   const doc=await this.live(site,id);if(!doc)return json({error:'No live override'},404);if(doc.status!=='published')return json({error:'この記事は非公開です。'},410);return json(doc);
+  }
+  if(url.pathname==='/api/content/image'){
+   const id=url.searchParams.get('id');if(!/^[0-9a-f-]{36}$/.test(id||'')||!await this.ctx.storage.get('image-public:'+id))return json({error:'Not found'},404);
+   const meta=await this.ctx.storage.get('image-meta:'+id);if(!meta)return json({error:'Not found'},404);let data='';for(let i=0;i<meta.chunks;i++)data+=await this.ctx.storage.get('image-body:'+id+':'+i)||'';
+   return new Response(un64(data),{headers:{...cors,'Content-Type':meta.type,'X-Content-Type-Options':'nosniff'}});
+  }
+  return json({error:'Not found'},404);
+ }
  async fetch(request){
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers:cors});
   const url=new URL(request.url),path=url.pathname.replace('/api/admin','');
+  if(url.pathname.startsWith('/api/content/')&&request.method==='GET')return this.publicContent(url);
   if((this.env.CMS_ADMIN_PASSWORD||'').length<16||!this.env.CMS_GITHUB_TOKEN)return json({error:'管理画面の接続設定がまだ完了していません。'},503);
   if(request.headers.get('Origin')!==ORIGIN)return json({error:'管理画面から操作してください。'},403);
   try{
@@ -90,17 +131,17 @@ export class ContentAdmin {
    if(path==='/publish'&&request.method==='POST'){
     const req=await inputJSON(request,4000);if(!validKey(req.site,req.id))return json({error:'記事が不正です。'},400);const k='draft-meta:'+req.site+':'+req.id,meta=await this.ctx.storage.get(k);if(!meta||meta.revision!==req.revision)return json({error:'下書きを保存してから公開してください。'},409);
     let body=await this.body(req.site,req.id,meta);const imageIds=[...new Set([...body.matchAll(/cms-image:\/\/([0-9a-f-]{36})/g)].map(m=>m[1]))];if(imageIds.length>8)return json({error:'画像は1記事につき8枚までです。'},400);const assets=[];
-    for(const imageId of imageIds){const image=await this.ctx.storage.get('image-meta:'+imageId);if(!image)throw Error('下書き画像が見つかりません。画像を追加し直してください。');let encoded='';for(let i=0;i<image.chunks;i++)encoded+=await this.ctx.storage.get('image-body:'+imageId+':'+i)||'';const blob=await this.github.call('git/blobs','POST',{content:encoded,encoding:'base64'});const imagePath='media/'+imageId+'.'+image.ext;assets.push({path:imagePath,mode:'100644',type:'blob',sha:blob.sha});body=body.replaceAll('cms-image://'+imageId,ORIGIN+'/nekojiro/'+imagePath);}
-    body=await sanitize(body);const {chunks,wasPublished,...fields}=meta;const doc={...fields,body,status:'published',publishedAt:new Date().toISOString()};const sha=await this.github.publish('content/'+req.site+'/'+req.id+'.json',doc,assets);
-    const latest=await this.ctx.storage.get(k);if(latest?.revision===meta.revision)await this.ctx.storage.put(k,{...meta,status:'publishing',wasPublished:true,publishCommit:sha});return json({commit:sha,status:'publishing',message:'公開処理を受け付けました。サイトへの反映を待っています。'});
+    for(const imageId of imageIds){const image=await this.ctx.storage.get('image-meta:'+imageId);if(!image)throw Error('下書き画像が見つかりません。画像を追加し直してください。');let encoded='';for(let i=0;i<image.chunks;i++)encoded+=await this.ctx.storage.get('image-body:'+imageId+':'+i)||'';const blob=await this.github.call('git/blobs','POST',{content:encoded,encoding:'base64'});const imagePath='media/'+imageId+'.'+image.ext;assets.push({path:imagePath,mode:'100644',type:'blob',sha:blob.sha});body=body.replaceAll('cms-image://'+imageId,url.origin+'/api/content/image?id='+imageId);}
+    body=await sanitize(body);const {chunks,wasPublished,...fields}=meta;const doc={...fields,body,status:'published',publishedAt:new Date().toISOString()};for(const imageId of imageIds)await this.ctx.storage.put('image-public:'+imageId,true);if(req.site==='board')await this.setLive(doc,assets);else await this.github.publish('content/'+req.site+'/'+req.id+'.json',doc,assets);
+    const latest=await this.ctx.storage.get(k);if(latest?.revision===meta.revision)await this.ctx.storage.put(k,{...meta,status:req.site==='board'?'published':'publishing',wasPublished:true});return json({status:req.site==='board'?'published':'publishing',message:req.site==='board'?'公開しました。GitHubへのバックアップは自動で続行します。':'公開処理を受け付けました。サイトへの反映を待っています。'});
    }
    if((path==='/unpublish'||path==='/delete')&&request.method==='POST'){
-    const req=await inputJSON(request,4000);if(!validKey(req.site,req.id))return json({error:'記事が不正です。'},400);const k='draft-meta:'+req.site+':'+req.id;let meta=await this.ctx.storage.get(k);const remote=await this.github.read('content/'+req.site+'/'+req.id+'.json');let commit=null;if((meta?.revision??remote?.revision??0)!==req.revision)return json({error:'別の更新があります。記事を開き直してください。'},409);
+    const req=await inputJSON(request,4000);if(!validKey(req.site,req.id))return json({error:'記事が不正です。'},400);const k='draft-meta:'+req.site+':'+req.id;let meta=await this.ctx.storage.get(k);const remote=await this.live(req.site,req.id)||await this.github.read('content/'+req.site+'/'+req.id+'.json');let commit=null;if((meta?.revision??remote?.revision??0)!==req.revision)return json({error:'別の更新があります。記事を開き直してください。'},409);
     if(remote?.status==='published'){
      if(!meta){const {body,...rest}=remote;const chunks=[];for(let i=0;i<body.length;i+=12000)chunks.push(body.slice(i,i+12000));meta={...rest,chunks:chunks.length,wasPublished:true};for(let i=0;i<chunks.length;i++)await this.ctx.storage.put('draft-body:'+req.site+':'+req.id+':'+i,chunks[i]);}
-     commit=await this.github.publish('content/'+req.site+'/'+req.id+'.json',{site:req.site,id:String(req.id),status:'unpublished',updatedAt:new Date().toISOString(),revision:meta.revision});
+     const tombstone={site:req.site,id:String(req.id),status:'unpublished',updatedAt:new Date().toISOString(),revision:meta.revision};if(req.site==='board'){await this.setLive(tombstone);commit='queued';}else commit=await this.github.publish('content/'+req.site+'/'+req.id+'.json',tombstone);
     }
-    if(!meta)return json({error:'記事が見つかりません。'},404);await this.ctx.storage.put(k,{...meta,status:path==='/delete'?'trash':'draft',updatedAt:new Date().toISOString()});return json({status:path==='/delete'?'trash':'draft',commit,message:commit?'非公開処理を受け付けました。':'下書きを更新しました。'});
+    if(!meta)return json({error:'記事が見つかりません。'},404);await this.ctx.storage.put(k,{...meta,status:path==='/delete'?'trash':'draft',updatedAt:new Date().toISOString()});return json({status:path==='/delete'?'trash':'draft',commit,message:commit?'非公開にしました。':'下書きを更新しました。'});
    }
    if(path==='/image'&&request.method==='POST'){
     const data=await inputJSON(request,3000000);const types={'image/png':'png','image/jpeg':'jpg','image/webp':'webp','image/gif':'gif'},ext=types[data.type];if(!ext||typeof data.base64!=='string')return json({error:'PNG・JPEG・WebP・GIF画像を選んでください。'},400);

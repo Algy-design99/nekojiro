@@ -27,9 +27,23 @@ function renderList(){
  for(const t of rows.slice(page*30,(page+1)*30)){const row=document.createElement('div');row.className='thread-row';const a=link(t.title,'./?thread='+t.id);a.className='board-row-title';const meta=document.createElement('span');meta.className='thread-date';meta.textContent='['+t.category_name+']';row.append(a,meta);$('board-rows').append(row);}
  const pager=$('board-pagination');pager.replaceChildren();if(rows.length>30){for(const [label,delta]of[['← 前へ',-1],['次へ →',1]]){const button=document.createElement('button');button.textContent=label;button.disabled=page+delta<0||(page+delta)*30>=rows.length;button.onclick=()=>{page+=delta;renderList();$('board-list-title').scrollIntoView({block:'start'});};pager.append(button);}const label=document.createElement('span');label.textContent=(page+1)+' / '+Math.ceil(rows.length/30);pager.append(label);}
 }
+async function publicArticle(entry){
+ const config=await configPromise;
+ if(config?.api){
+  try{const r=await fetch(config.api+'/api/content/article?site=board&id='+threadId,{cache:'no-store'});if(r.status===410)throw Object.assign(Error('この記事は非公開です。'),{gone:true});if(r.ok)return r.json();}catch(e){if(e.gone)throw e;}
+ }
+ return entry?.contentPath?getJSON('../'+entry.contentPath):(await bodies()).find(p=>p.id===threadId);
+}
+async function mergeLiveCatalog(){
+ const config=await configPromise;if(!config?.api)return;
+ try{const r=await fetch(config.api+'/api/content/list?site=board',{cache:'no-store'});if(!r.ok)return;const data=await r.json();const map=new Map(catalog.threads.map(x=>[String(x.id),x]));
+ for(const d of data.articles){if(d.status!=='published'){map.delete(String(d.id));continue;}map.set(String(d.id),{id:Number(d.id),title:d.title,category:d.category,category_name:d.category_name,date:(d.publishedAt||'').slice(5,10).replace('-','/'),publishedAt:d.publishedAt,contentPath:'content/board/'+d.id+'.json'});}
+ catalog.threads=[...map.values()].sort((a,b)=>(b.publishedAt||'').localeCompare(a.publishedAt||'')||b.id-a.id);
+ }catch{}
+}
 async function renderThread(){
  $('board-index').hidden=true;$('board-reading').hidden=false;$('board-title').textContent='読み込み中…';
- const entry=catalog.threads.find(p=>p.id===threadId);const post=entry?.contentPath?await getJSON('../'+entry.contentPath):(await bodies()).find(p=>p.id===threadId);if(!post)throw Error('このスレッドは見つかりませんでした。');
+ const entry=catalog.threads.find(p=>p.id===threadId);const post=await publicArticle(entry);if(!post)throw Error('このスレッドは見つかりませんでした。');
  document.title=post.title+' - 猫じろう掲示板';$('board-title').textContent=post.title;$('neko-original-posts').innerHTML=post.body;$('neko-comment-list').innerHTML=post.comments||'';
  $('board-back').href='./?board='+post.category;$('board-back').textContent='← '+post.category_name+'に戻る';
  const at=catalog.threads.findIndex(p=>p.id===threadId),nav=$('board-neighbors');for(const [index,label]of[[at-1,'← 前のスレッド'],[at+1,'次のスレッド →']])if(catalog.threads[index])nav.append(link(label,'./?thread='+catalog.threads[index].id));
@@ -46,5 +60,5 @@ async function enablePosting(post){
  try{const response=await fetch(api,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:form.elements.name.value,body:form.elements.body.value,website:form.elements.website.value})});const data=await response.json();if(!response.ok)throw Error(data.error||'投稿できませんでした');form.elements.body.value='';$('board-post-status').textContent='投稿しました。';await refresh();}catch(error){$('board-post-status').textContent=error.message;}finally{button.disabled=false;}});
 }
 $('board-search').addEventListener('submit',event=>{event.preventDefault();const next=new URLSearchParams();if(params.has('board'))next.set('board',params.get('board'));const q=$('board-query').value.trim();if(q)next.set('q',q);location.href='./?'+next;});
-getJSON('catalog.json').then(async data=>{catalog=data;if(threadId)await renderThread();else if(params.has('board')||params.has('q')||params.has('archive'))renderList();else renderHome();await loadOriginalRails();}).catch(error=>{const target=threadId?$('board-title'):$('board-rows');target.textContent=error.message;target.classList.add('board-error');});
+getJSON('catalog.json').then(async data=>{catalog=data;await mergeLiveCatalog();if(threadId)await renderThread();else if(params.has('board')||params.has('q')||params.has('archive'))renderList();else renderHome();await loadOriginalRails();}).catch(error=>{const target=threadId?$('board-title'):$('board-rows');target.textContent=error.message;target.classList.add('board-error');});
 })();

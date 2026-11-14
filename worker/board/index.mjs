@@ -5,7 +5,7 @@ const headers={'Content-Type':'application/json; charset=utf-8','Access-Control-
 const reply=(data,status=200)=>new Response(JSON.stringify(data),{status,headers});
 export default {async fetch(request,env){
  const url=new URL(request.url),match=url.pathname.match(/^\/api\/threads\/(\d+)$/);
- if(url.pathname.startsWith('/api/admin'))return env.ADMIN.get(env.ADMIN.idFromName('content-admin-v1')).fetch(request);
+ if(url.pathname.startsWith('/api/admin')||url.pathname.startsWith('/api/content/'))return env.ADMIN.get(env.ADMIN.idFromName('content-admin-v1')).fetch(request);
  if(request.method==='OPTIONS')return new Response(null,{status:204,headers});
  if(url.pathname==='/health')return reply({ok:true,service:'nekojiro-board-posts',cmsReady:(env.CMS_ADMIN_PASSWORD||'').length>=16&&!!env.CMS_GITHUB_TOKEN});
  if(!match)return reply({error:'Not found'},404);
