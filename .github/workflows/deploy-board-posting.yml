@@ -43,19 +43,19 @@ jobs:
           import urllib.request,json,time,pathlib
           account=__import__('os').environ['CLOUDFLARE_ACCOUNT_ID']
           token=__import__('os').environ['CLOUDFLARE_API_TOKEN']
-          request=urllib.request.Request('https://api.cloudflare.com/client/v4/accounts/'+account+'/workers/subdomain',headers={'Authorization':'Bearer '+token})
+          request=urllib.request.Request('https://api.cloudflare.com/client/v4/accounts/'+account+'/workers/subdomain',headers={'Authorization':'Bearer '+token,'User-Agent':'Mozilla/5.0'})
           with urllib.request.urlopen(request,timeout=20) as response:subdomain=json.load(response)['result']['subdomain']
           api='https://nekojiro-board-posts.'+subdomain+'.workers.dev'
           for attempt in range(12):
             try:
-              with urllib.request.urlopen(api+'/health',timeout=10) as response:assert json.load(response)['ok']
-              with urllib.request.urlopen(api+'/api/threads/232',timeout=10) as response:assert 'comments' in json.load(response)
+              with urllib.request.urlopen(urllib.request.Request(api+'/health',headers={'User-Agent':'Mozilla/5.0'}),timeout=10) as response:assert json.load(response)['ok']
+              with urllib.request.urlopen(urllib.request.Request(api+'/api/threads/232',headers={'User-Agent':'Mozilla/5.0'}),timeout=10) as response:assert 'comments' in json.load(response)
               break
             except Exception:
               if attempt==11:raise
               time.sleep(5)
           pathlib.Path('board/posting.json').write_text(json.dumps({'api':api}),encoding='utf-8')
-          with urllib.request.urlopen(api+'/health',timeout=10) as response:health=json.load(response)
+          with urllib.request.urlopen(urllib.request.Request(api+'/health',headers={'User-Agent':'Mozilla/5.0'}),timeout=10) as response:health=json.load(response)
           if health.get('cmsReady'):
             pathlib.Path('admin/config.json').write_text(json.dumps({'api':api}),encoding='utf-8')
           PY
