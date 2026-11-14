@@ -1,12 +1,15 @@
+import {ContentAdmin} from './cms.mjs';
+export {ContentAdmin};
 const ORIGIN='https://algy-design99.github.io';
 const headers={'Content-Type':'application/json; charset=utf-8','Access-Control-Allow-Origin':ORIGIN,'Access-Control-Allow-Methods':'GET,POST,OPTIONS','Access-Control-Allow-Headers':'Content-Type','Cache-Control':'no-store','Vary':'Origin'};
 const reply=(data,status=200)=>new Response(JSON.stringify(data),{status,headers});
 export default {async fetch(request,env){
  const url=new URL(request.url),match=url.pathname.match(/^\/api\/threads\/(\d+)$/);
+ if(url.pathname.startsWith('/api/admin'))return env.ADMIN.get(env.ADMIN.idFromName('content-admin-v1')).fetch(request);
  if(request.method==='OPTIONS')return new Response(null,{status:204,headers});
- if(url.pathname==='/health')return reply({ok:true,service:'nekojiro-board-posts'});
+ if(url.pathname==='/health')return reply({ok:true,service:'nekojiro-board-posts',cmsReady:(env.CMS_ADMIN_PASSWORD||'').length>=16&&!!env.CMS_GITHUB_TOKEN});
  if(!match)return reply({error:'Not found'},404);
- const thread=Number(match[1]);if(!Number.isSafeInteger(thread)||thread<4||thread>232)return reply({error:'スレッドが見つかりません'},404);
+ const thread=Number(match[1]);if(!Number.isSafeInteger(thread)||thread<1)return reply({error:'スレッドが見つかりません'},404);
  if(!['GET','POST'].includes(request.method))return reply({error:'Method not allowed'},405);
  if(request.method==='POST'){
   if(request.headers.get('Origin')!==ORIGIN)return reply({error:'投稿元を確認できません'},403);

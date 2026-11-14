@@ -16,6 +16,8 @@ jobs:
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CMS_GITHUB_TOKEN: ${{ secrets.CMS_GITHUB_TOKEN }}
+      CMS_ADMIN_PASSWORD: ${{ secrets.CMS_ADMIN_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
       - name: Verify Cloudflare connection
@@ -30,6 +32,11 @@ jobs:
       - name: Deploy separate posting Worker
         working-directory: worker/board
         run: npx --yes wrangler@4 deploy
+      - name: Set private content management secrets when configured
+        if: env.CMS_GITHUB_TOKEN != '' && env.CMS_ADMIN_PASSWORD != ''
+        working-directory: worker/board
+        run: |
+          python -c "import os,json; assert len(os.environ['CMS_ADMIN_PASSWORD'])>=16; print(json.dumps({k:os.environ[k] for k in ['CMS_GITHUB_TOKEN','CMS_ADMIN_PASSWORD']}))" | npx --yes wrangler@4 secret bulk
       - name: Verify API and connect frontend
         run: |
           python - <<'PY'
@@ -48,12 +55,15 @@ jobs:
               if attempt==11:raise
               time.sleep(5)
           pathlib.Path('board/posting.json').write_text(json.dumps({'api':api}),encoding='utf-8')
+          with urllib.request.urlopen(api+'/health',timeout=10) as response:health=json.load(response)
+          if health.get('cmsReady'):
+            pathlib.Path('admin/config.json').write_text(json.dumps({'api':api}),encoding='utf-8')
           PY
       - name: Save frontend connection
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add board/posting.json
+          git add board/posting.json admin/config.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Connect anonymous board posting API'
           for i in 1 2 3 4 5; do
