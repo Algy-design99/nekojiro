@@ -69,31 +69,17 @@ async function news(){
 }
 async function quake(){var data=await (await req('https://api.p2pquake.net/v2/history?codes=551&limit=8',8500)).json();var rows=data.map(function(v){var e=v.earthquake||{},h=e.hypocenter||{};var sh=e.maxScale;var scale=sh==null||sh<0?'未確定':sh===45?'5弱':sh===50?'5強':sh===55?'6弱':sh===60?'6強':sh===70?'7':String(sh/10);return {title:'最大震度'+scale+'｜'+(h.name||'震源不明')+(h.magnitude>0?' M'+h.magnitude:'（規模未確定）'),link:'https://www.jma.go.jp/bosai/map.html#contents=earthquake_map',date:e.time||v.time};});if(!rows.length)throw Error('データなし');return {rows:rows,from:'P2P地震情報（気象庁発表情報を再配信）',url:'https://www.p2pquake.net/'};}
 async function weather(){/* 気象庁の公開JSON：札幌管区の予報。CORS不可の場合はリンク表示へ切替 */var data=await (await req('https://www.jma.go.jp/bosai/forecast/data/forecast/016000.json',8500)).json();var part=data[0].timeSeries[0],area=part.areas.find(function(x){return x.area&&x.area.name==='石狩地方';})||part.areas[0];var rows=part.timeDefines.slice(0,3).map(function(t,i){return {title:'札幌周辺｜'+(area.weathers&&area.weathers[i]?area.weathers[i].replace(/\s+/g,' ').trim():'予報を見る'),date:t,link:'https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=016000'};});return {rows:rows,from:'気象庁・北海道石狩地方の天気予報',url:'https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=016000'};}
-async function threads(){
- // FC2が出力した最新スレッド一覧を基準にする。2つの表示枠を横断し、日付順に再整列。
- var nodes=Array.from(document.querySelectorAll('.neko-home-recent .thread-row,#neko-more-threads .thread-row'));
- var seen=new Set(),now=new Date();
- var rows=nodes.map(function(node,index){
-   var a=node.querySelector(':scope > a[href]');if(!a)return null;
-   var title=a.textContent.trim(),link=safeUrl(a.href),dateNode=node.querySelector('.thread-date');
-   var stamp=dateNode?dateNode.textContent.match(/(\d{1,2})\s*\/\s*(\d{1,2})/):null;
-   var time=0;
-   if(stamp){var month=+stamp[1],day=+stamp[2],year=now.getFullYear();time=new Date(year,month-1,day).getTime();if(time>now.getTime()+86400000)time=new Date(year-1,month-1,day).getTime();}
-   return {title:title,link:link,date:'',time:time,index:index};
- }).filter(function(r){if(!r||!r.title||!r.link||seen.has(r.link))return false;seen.add(r.link);return true;});
- rows.sort(function(a,b){return b.time-a.time||a.index-b.index;});
- rows=rows.slice(0,12);
- if(!rows.length)throw Error('新着スレッドなし');
- return {rows:rows,from:'猫じろう掲示板・トップの新着一覧',url:'https://jig0u.fc2.net/'};
-}
+async function threads(){var response=await req('catalog.json'),catalog=await response.json();var rows=catalog.threads.slice(0,12).map(function(t){return {title:t.title,link:new URL('./?thread='+t.id,location.href).href,date:''};});if(!rows.length)throw Error('新着スレッドなし');return {rows:rows,from:'猫じろう掲示板・新着スレッド',url:new URL('./',location.href).href};}
 var tickerTimer=null,tickerObserver=null;
-function stopTicker(){if(tickerTimer){clearInterval(tickerTimer);tickerTimer=null;}if(tickerObserver){tickerObserver.disconnect();tickerObserver=null;}moving.style.animation='none';box.classList.remove('is-ticker-running');}
+function stopTicker(){if(tickerTimer!==null){cancelAnimationFrame(tickerTimer);tickerTimer=null;}if(tickerObserver){tickerObserver.disconnect();tickerObserver=null;}moving.style.setProperty('animation','none','important');moving.style.setProperty('transform','translate3d(0,0,0)','important');box.classList.remove('is-ticker-running');}
 function scrollHeadlines(valid){
  moving.replaceChildren();var group=document.createElement('span');group.className='neko-info-marquee-group';
- valid.forEach(function(r){var a=document.createElement('a');a.href=safeUrl(r.link);a.target='_blank';a.rel='noopener noreferrer';a.textContent='◆ '+(fmt(r.date)?'['+fmt(r.date)+'] ':'')+r.title;group.appendChild(a);});
- moving.appendChild(group);var copy=group.cloneNode(true);copy.setAttribute('aria-hidden','true');Array.from(copy.querySelectorAll('a')).forEach(function(a){a.tabIndex=-1});moving.appendChild(copy);
- function measure(){if(!group.isConnected)return;var distance=group.getBoundingClientRect().width;if(!distance)return;moving.style.setProperty('--neko-info-distance',distance+'px');moving.style.setProperty('--neko-info-duration',Math.max(1,distance/82.5)+'s');box.classList.add('is-ticker-running');}
- measure();if(window.ResizeObserver){tickerObserver=new ResizeObserver(measure);tickerObserver.observe(moving.parentElement);}if(document.fonts)document.fonts.ready.then(measure);
+ valid.forEach(function(r){var a=document.createElement('a');a.href=safeUrl(r.link);a.target='_blank';a.rel='noopener noreferrer';a.textContent='◆ '+(fmt(r.date)?'['+fmt(r.date)+'] ':'')+r.title;group.appendChild(a);});moving.appendChild(group);
+ if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ var copy=group.cloneNode(true);copy.setAttribute('aria-hidden','true');copy.querySelectorAll('a').forEach(function(a){a.tabIndex=-1;});moving.appendChild(copy);
+ var distance=0,offset=0,last=0;function measure(){distance=group.getBoundingClientRect().width;if(distance)offset%=distance;}
+ measure();if(window.ResizeObserver){tickerObserver=new ResizeObserver(measure);tickerObserver.observe(group);tickerObserver.observe(moving.parentElement);}if(document.fonts)document.fonts.ready.then(measure);box.classList.add('is-ticker-running');
+ function frame(now){var dt=last?Math.min(64,now-last):0;last=now;if(distance&&!document.hidden&&!box.classList.contains('is-ticker-paused'))offset=(offset+dt*.0825)%distance;moving.style.setProperty('transform','translate3d('+(-offset)+'px,0,0)','important');tickerTimer=requestAnimationFrame(frame);}tickerTimer=requestAnimationFrame(frame);
  var pause=document.getElementById('neko-info-pause');if(!pause){pause=document.createElement('button');pause.id='neko-info-pause';pause.className='neko-info-pause';pause.type='button';pause.textContent='⏸ 一時停止';pause.setAttribute('aria-pressed','false');pause.onclick=function(){var yes=box.classList.toggle('is-ticker-paused');pause.setAttribute('aria-pressed',String(yes));pause.textContent=yes?'▶ 再開':'⏸ 一時停止';};box.querySelector('.neko-info-tabs').appendChild(pause);}
 }
 function render(result,kind){

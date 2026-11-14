@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['board/assets-source.json', 'board/threads.json.gz', 'scripts/restore_board_assets.py', '.github/workflows/restore-board-assets.yml']
+    paths: ['board/assets-source.json', 'board/threads.json.gz', 'board/ads.html.gz', 'scripts/restore_board_assets.py', '.github/workflows/restore-board-assets.yml']
 permissions:
   contents: write
 concurrency:
@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add board/assets board/threads.json
+          git add board/assets board/threads.json board/ads.html
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Preserve recovered board images and plain JSON fallback'
           for i in 1 2 3 4 5; do

@@ -2,12 +2,14 @@
 (() => {
 const $=id=>document.getElementById(id),params=new URLSearchParams(location.search);
 let catalog,threadId=Number(params.get('thread')),page=0;
+document.body.classList.toggle('neko-home-page',!threadId);
 const configPromise=fetch('posting.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
 async function getJSON(url){const r=await fetch(url);if(!r.ok)throw Error('読み込みに失敗しました（'+r.status+'）');return r.json();}
 async function bodies(){
  if('DecompressionStream'in window){const r=await fetch('threads.json.gz');if(!r.ok)throw Error('本文を取得できませんでした');return new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).json();}
  return getJSON('threads.json');
 }
+async function loadOriginalRails(){try{const response=await fetch('ads.html');if(!response.ok)return;const wrapper=document.createElement('div');wrapper.innerHTML=await response.text();const rails=wrapper.firstElementChild;if(!rails)return;document.getElementById('bbs').append(rails);const script=document.createElement('script');script.src='ads.js';document.body.append(script);}catch{}}
 function link(text,url){const a=document.createElement('a');a.textContent=text;a.href=url;return a;}
 function renderList(){
  const board=params.has('board')?Number(params.get('board')):null,q=(params.get('q')||'').normalize('NFKC').toLocaleLowerCase();
@@ -38,5 +40,5 @@ async function enablePosting(post){
  try{const response=await fetch(api,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:form.elements.name.value,body:form.elements.body.value,website:form.elements.website.value})});const data=await response.json();if(!response.ok)throw Error(data.error||'投稿できませんでした');form.elements.body.value='';$('board-post-status').textContent='投稿しました。';await refresh();}catch(error){$('board-post-status').textContent=error.message;}finally{button.disabled=false;}});
 }
 $('board-search').addEventListener('submit',event=>{event.preventDefault();const next=new URLSearchParams();if(params.has('board'))next.set('board',params.get('board'));const q=$('board-query').value.trim();if(q)next.set('q',q);location.href='./?'+next;});
-getJSON('catalog.json').then(async data=>{catalog=data;if(threadId)await renderThread();else renderList();}).catch(error=>{const target=threadId?$('board-title'):$('board-rows');target.textContent=error.message;target.classList.add('board-error');});
+getJSON('catalog.json').then(async data=>{catalog=data;if(threadId)await renderThread();else renderList();await loadOriginalRails();}).catch(error=>{const target=threadId?$('board-title'):$('board-rows');target.textContent=error.message;target.classList.add('board-error');});
 })();

@@ -16,3 +16,6 @@ def recover(item):
 with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(recover,manifest))
 assert all((root/x['path']).exists() for x in manifest)
 print('Preserved',len(posts),'threads and',len(manifest),'images')
+
+compressed=root/'ads.html.gz'
+if compressed.exists():(root/'ads.html').write_bytes(gzip.decompress(compressed.read_bytes()))
