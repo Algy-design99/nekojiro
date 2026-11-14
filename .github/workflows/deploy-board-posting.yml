@@ -1,0 +1,64 @@
+name: Deploy anonymous board posting
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['worker/board/**', '.github/workflows/deploy-board-posting.yml']
+permissions:
+  contents: write
+concurrency:
+  group: deploy-board-posting
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Cloudflare connection
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo '::error::Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in repository Actions secrets. No Cloudflare changes were made.'
+            exit 1
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Deploy separate posting Worker
+        working-directory: worker/board
+        run: npx --yes wrangler@4 deploy
+      - name: Verify API and connect frontend
+        run: |
+          python - <<'PY'
+          import urllib.request,json,time,pathlib
+          account=__import__('os').environ['CLOUDFLARE_ACCOUNT_ID']
+          token=__import__('os').environ['CLOUDFLARE_API_TOKEN']
+          request=urllib.request.Request('https://api.cloudflare.com/client/v4/accounts/'+account+'/workers/subdomain',headers={'Authorization':'Bearer '+token})
+          with urllib.request.urlopen(request,timeout=20) as response:subdomain=json.load(response)['result']['subdomain']
+          api='https://nekojiro-board-posts.'+subdomain+'.workers.dev'
+          for attempt in range(12):
+            try:
+              with urllib.request.urlopen(api+'/health',timeout=10) as response:assert json.load(response)['ok']
+              with urllib.request.urlopen(api+'/api/threads/232',timeout=10) as response:assert 'comments' in json.load(response)
+              break
+            except Exception:
+              if attempt==11:raise
+              time.sleep(5)
+          pathlib.Path('board/posting.json').write_text(json.dumps({'api':api}),encoding='utf-8')
+          PY
+      - name: Save frontend connection
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add board/posting.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Connect anonymous board posting API'
+          for i in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main || exit 1
+            sleep 3
+          done
+          exit 1
