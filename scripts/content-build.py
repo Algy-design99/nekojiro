@@ -58,6 +58,12 @@ def render():
  for d in board:
   rows.append({'id':int(d['id']),'title':d['title'],'category':d['category'],'category_name':d['category_name'],'date':d.get('legacyDate')or (d.get('publishedAt')or '')[5:10].replace('-','/'),'contentPath':f'content/board/{d["id"]}.json','responses':len(re.findall(r'class="[^"\n]*\bres\b',d['body']))})
  save(ROOT/'board/catalog.json',{'categories':categories,'threads':rows})
+ menu=ROOT/'board/index.html'
+ if menu.exists():
+  source=menu.read_text(encoding='utf-8')
+  source=re.sub(r'(data-category-no="(\d+)"[^>]*>[\s\S]*?<span class="thread-date">)\(\d+\)',lambda m:m[1]+'('+str(counts.get(int(m[2]),0))+')',source)
+  menu.write_text(source,encoding='utf-8')
+
  save(ROOT/'content/board/index.json',[summary(d)for d in board])
  base='https://algy-design99.github.io/nekojiro/board/'
  items=''.join('<item><title>'+html.escape(d['title'])+'</title><link>'+base+'?thread='+d['id']+'</link><guid>'+base+'?thread='+d['id']+'</guid></item>'for d in board[:50])
