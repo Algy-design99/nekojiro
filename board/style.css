@@ -1082,3 +1082,8 @@ body{background:var(--nj-bg)}
 
 /* migration-restored-rails */
 #neko-a8 a[aria-disabled="true"]{pointer-events:none;cursor:default;filter:grayscale(.55)}
+
+/* FC2 homepage arrangement: full-width folders, then paired recent lists. */
+.restored-layout{display:block;margin:14px 0}.restored-layout .board-directory{margin:0 0 10px}.restored-layout .board-directory .neko-folder-list{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;padding:9px}.restored-layout .neko-home-lower{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:10px}.restored-layout .neko-home-lower .thread-row{display:flex;align-items:center;gap:5px;min-width:0}.restored-layout .neko-home-lower .thread-row>a{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;flex:1}.restored-layout .neko-home-lower .thread-date{white-space:nowrap;font-size:10px;flex-shrink:0}.restored-layout .neko-home-footgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.board-footer{border-top:1px solid #aaa;justify-content:flex-start;font-size:11px;padding:12px 4px;gap:10px}.board-footer>span{flex-basis:100%;color:#666;font-size:10px}.restored-layout .neko-home-lower .thread-index{margin:0}.restored-layout .board-search{padding:9px}.restored-layout [hidden]{display:none!important}
+@media(max-width:900px){.restored-layout .board-directory .neko-folder-list{grid-template-columns:repeat(2,minmax(0,1fr))!important}.restored-layout .neko-home-lower{grid-template-columns:1fr}}
+@media(max-width:540px){.restored-layout .board-directory .neko-folder-list{grid-template-columns:1fr!important}.restored-layout .neko-home-footgrid{grid-template-columns:1fr}.restored-layout .neko-home-lower .thread-date{max-width:90px;overflow:hidden;text-overflow:ellipsis}}

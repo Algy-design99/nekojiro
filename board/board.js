@@ -11,7 +11,12 @@ async function bodies(){
 }
 async function loadOriginalRails(){try{const response=await fetch('ads.html');if(!response.ok)return;const wrapper=document.createElement('div');wrapper.innerHTML=await response.text();const rails=wrapper.firstElementChild;if(!rails)return;document.getElementById('bbs').append(rails);const script=document.createElement('script');script.src='ads.js';document.body.append(script);}catch{}}
 function link(text,url){const a=document.createElement('a');a.textContent=text;a.href=url;return a;}
+function renderHome(){
+function fill(id,threads){const box=$(id);box.replaceChildren();for(const t of threads){const row=document.createElement('div');row.className='thread-row';const mark=document.createElement('span');mark.className='thread-mark';mark.textContent='■';const a=link(t.title,'./?thread='+t.id);const meta=document.createElement('span');meta.className='thread-date';meta.append(link('['+t.category_name+']','./?board='+t.category),' '+(t.date||''));row.append(mark,a,meta);box.append(row);}}
+fill('home-recent-rows',catalog.threads.slice(0,5));fill('home-more-rows',catalog.threads.slice(5,10));
+}
 function renderList(){
+ $('board-home').hidden=true;$('board-results').hidden=false;
  const board=params.has('board')?Number(params.get('board')):null,q=(params.get('q')||'').normalize('NFKC').toLocaleLowerCase();
  const rows=catalog.threads.filter(t=>(board===null||t.category===board)&&(!q||t.title.normalize('NFKC').toLocaleLowerCase().includes(q)));
  const category=catalog.categories.find(c=>c.id===board);
@@ -40,5 +45,5 @@ async function enablePosting(post){
  try{const response=await fetch(api,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:form.elements.name.value,body:form.elements.body.value,website:form.elements.website.value})});const data=await response.json();if(!response.ok)throw Error(data.error||'投稿できませんでした');form.elements.body.value='';$('board-post-status').textContent='投稿しました。';await refresh();}catch(error){$('board-post-status').textContent=error.message;}finally{button.disabled=false;}});
 }
 $('board-search').addEventListener('submit',event=>{event.preventDefault();const next=new URLSearchParams();if(params.has('board'))next.set('board',params.get('board'));const q=$('board-query').value.trim();if(q)next.set('q',q);location.href='./?'+next;});
-getJSON('catalog.json').then(async data=>{catalog=data;if(threadId)await renderThread();else renderList();await loadOriginalRails();}).catch(error=>{const target=threadId?$('board-title'):$('board-rows');target.textContent=error.message;target.classList.add('board-error');});
+getJSON('catalog.json').then(async data=>{catalog=data;if(threadId)await renderThread();else if(params.has('board')||params.has('q')||params.has('archive'))renderList();else renderHome();await loadOriginalRails();}).catch(error=>{const target=threadId?$('board-title'):$('board-rows');target.textContent=error.message;target.classList.add('board-error');});
 })();
