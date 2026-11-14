@@ -1,11 +1,39 @@
 {
-  "updated_at": "2026-11-14T15:08:13.220965Z",
+  "updated_at": "2026-11-14T15:57:06.254670Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
     "world": 40
   },
   "items": [
+    {
+      "title": "高市首相 東南アジアなどと「アジア版IEA」創設を提唱で調整",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de76011",
+      "source": "NHK",
+      "published_at": "2026-11-14T15:46:05Z",
+      "region": "jp"
+    },
+    {
+      "title": "【地震速報】熊本県で震度3 津波の心配なし",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76024",
+      "source": "NHK",
+      "published_at": "2026-11-14T15:29:59Z",
+      "region": "jp"
+    },
+    {
+      "title": "ラグビー日本代表×イングランド【速報予定 1:40】聖地で対戦",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75976",
+      "source": "NHK",
+      "published_at": "2026-11-14T15:17:15Z",
+      "region": "jp"
+    },
+    {
+      "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LNjBaeUdQeGRVVC1RdUlwblRZcXVWeWdyNXNGYVltSWx5QlYwRWhHck9fOHFIWDRRa0g2UHUwRHBYSEItcThoTGJZTnBFUzE4QnlPZjFLUE1RaW1SRzVR?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T15:04:36Z",
+      "region": "jp"
+    },
     {
       "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす",
       "url": "https://news.web.nhk/newsweb/na/nd-20261114de75990",
@@ -28,17 +56,10 @@
       "region": "jp"
     },
     {
-      "title": "ラグビー日本代表×イングランド【速報予定 1:40】聖地で対戦",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75976",
-      "source": "NHK",
-      "published_at": "2026-11-14T14:30:04Z",
-      "region": "jp"
-    },
-    {
-      "title": "自民 松山参院会長 消費税減税法案“国民・公明 方向性同じ”",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de76006",
-      "source": "NHK",
-      "published_at": "2026-11-14T14:07:30Z",
+      "title": "第3次森保ジャパンで存在感高める瀬古歩夢「成長を見せられた」 後半AT劇的弾の坂元達裕を称賛「セレッソ時代ずっと一緒に切磋琢磨してきた」（サッカーキング） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OQXpRemNzSEg5SFZGZHhsWGlzRlUtb3prYjNMRUhZc0xtaE4yblZXOHJlNDhqY09kTjVDb1NRaTAxZUt5SXV0d3FDV1dwR3pMRFFRV0pxbjNuRWZMTGxwcnJDc3p1Nm1oajdwMGdicWlOY01KMlhrNTJkWktCdkU?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T14:21:59Z",
       "region": "jp"
     },
     {
@@ -70,13 +91,6 @@
       "region": "jp"
     },
     {
-      "title": "プロ野球:侍ジャパン3連勝で韓国との決勝へ アジア野球、豪にコールド勝ち - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLaG9Sd0NmblBjUVJwVTZyNXY3WndCTmdrRUlaTlJ5cTBGVnE4WF95V1FYU2RSczlXS1c0TmRrdTB1NWZqRTVFd29lTEtpYzg3N2xIRV9nb1hGUWZJU0ZSTHd1RTJFbjVLRmJENQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T13:07:18Z",
-      "region": "jp"
-    },
-    {
       "title": "ロシアがＮＡＴＯへ「旧共産圏加盟前」まで撤退要求か…ラトビア首相、議論に応じれば「プーチン氏のわなにはまる」 - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nME9TRk9XUUZVZ2ZBTVR0UHZPMDNoaUMzZW5EcWtRLUx0cXAtX3VSdkhRa3hveGhiNUk1NGJzbWZlQk14cHFHcHB4SnA1VFhkTnlOTEZvN0JPRzNPSWhrSHpR?oc=5",
       "source": "Google国内",
@@ -98,17 +112,17 @@
       "region": "jp"
     },
     {
-      "title": "サッカー日本代表 終盤の劇的ゴールでブラジル撃破！ 坂元達裕が後半ATに決勝点&久保・中村にゴール生まれる - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuWGtGcklPbThLYnBxcXpEbzVyQmJXemE2T0NqSkIzczdOb0ZyMVlBNjE1SHVNNFJqYnExQzVXWmEtYm12ZUtIT3RtX1VIZEY0Y0Utd3gwZzVEZzc3VUpXclVwRm9VR1FYbS1FdHpobmlZYnVsU2ZQYmNORE52WnM?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T12:12:24Z",
-      "region": "jp"
-    },
-    {
       "title": "エヌビディアＣＥＯと「蜜月」のトランプ氏、スパイ疑惑が政権に波及…「ウォーターゲート事件に匹敵か」との指摘も - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByYUdoS3lTb0pta3A1QXk4cDAwNWdQQjY1RnZzSUVFM0dJdUN3QTROVzlxeGJtajhKdlBxUi16TkVVSmJJMlNVbkYzUm1mamw0Zkl3Rmw3bjBJamhWQ2FfZmNn?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-14T12:03:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "AI悪用の攻撃拠点、千台発見 サイトの弱点探索、不正侵入疑い（共同通信） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJSUJiWkxiSnJVUTF1ajJuYWkwb3ExSHhkN2M4cXpVNzZEbThGYU4xbkdVT3VLMklIdGlBYUxtOXVfVnJFRjB5LXd6MlZpVmFreWZKOFRHUV81LVJVdVQ4Y1dXNzhDTnZMbHBpYWphRmxKNk5tZjR5QmFsc2JscWM?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T12:00:02Z",
       "region": "jp"
     },
     {
@@ -137,6 +151,13 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tb2tFTGNZZE0ySFRhdGxRbF9uSXVmU1ZtS3RiVWN6b3VqTHNYNTBxcXB2R2tmczd6XzlsSnhlMHBmVkpCWXVmWVc2TTJjeENIdk9YVFZKNHZvQ2l0ZHBFQkxpWVNqUTJzTHZQWl93?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-14T11:10:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "神奈川・海老名で２人死亡のひき逃げ事件、容疑で逮捕の男「事故については全くわからない」と否認 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ORlF6VDFSREFrMVNrcWp0cUgteG5ualZlR21tWWZLVHVBMHVzUnVXYWR3ZmxEZk9UNWJPZUdTWkNKckREOFhuNGFjOEc0cTYwMURad1VaTk02MTZBbjhuV2V1Zjhodw?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T10:56:00Z",
       "region": "jp"
     },
     {
@@ -189,13 +210,6 @@
       "region": "jp"
     },
     {
-      "title": "野球日本代表 3試合連続2桁安打で3連勝し決勝進出 - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxZWw5TW5EX3ZpQy1hOV9fUUlnam1pUUFKZWJuVmUtNmx1MGxUTXhZRkV6dWQxQTVveWdwZlo4OEdwM2dEdFhNcTJhVUFJZUxITF9lV1V3cEJIdXc1cnJV?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T08:36:00Z",
-      "region": "jp"
-    },
-    {
       "title": "いわきの３歳児暴行死、事件前の対応巡り市と県の主張食い違う…市長「同じ思いなら最悪の事態防げたかもしれない」 - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iZVRqdk1yWHF0dXpqRE1YNm5yZm50WHNWRzNWNkR6eE5fZjJVQTAtWEs4dVB3VDhVS3UwX0JjMlVMQ19sRWxJdnAxa1dOYXdnNU5iNXFkbWZJUVhuRFY0bTZFVEptdw?oc=5",
       "source": "Google国内",
@@ -207,6 +221,13 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1taDdYZkV0MkZoVWhXQ0pnWDl2b2hTN0k5SWtUZjZGN3BsLWtEV3B1SjRDMEItLUhwcUZHLTBndzYxdWVVUE5XdU5heC13Nkl3ell6Ug?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-14T08:00:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "佐久間大介メイク中の前髪上げ無造作ヘアからふんわりセンター分けした完成後の姿を披露「ヘアセット前でもすでにかっこいい」「もぐもぐシーンかわいい」「お肌ピカピカしてる」 - THE FIRST TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IT0pwTkQ4OVJKNDl6YUYybTBkTnByXzZLSEZrZkNta0xqdXBxN05UTEZEV1J0aWktVEJza01pb1V6eXhiWjZVUDBLWVJyem9Ua1UwaGxmTlU?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T07:59:05Z",
       "region": "jp"
     },
     {
@@ -231,24 +252,17 @@
       "region": "jp"
     },
     {
-      "title": "最新情報ー第42回伊藤園レディスゴルフトーナメントー明日へひとこと - 日本女子プロゴルフ協会",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jcWVDa1pOYnJ6RHBoaHY0bjRmZ0pZdEFvRVdTVHI5MHhySUdSc0swOUtGM1pudU1YMnpxd3ZhaTdHT1lDT0NjRjZiQjVXbVk?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T07:05:08Z",
-      "region": "jp"
-    },
-    {
-      "title": "マイクロソフトの接続障害 全面復旧と発表",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75755",
-      "source": "NHK",
-      "published_at": "2026-11-14T07:04:00Z",
-      "region": "jp"
-    },
-    {
       "title": "「私も侵略の甘い汁吸った」戦争遺児の女性が語る日本の加害責任 - 毎日新聞",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mRTlUYmpFTTljTlFSTnFDS3hKa294QVFHT2NzMHlFU0MzRko5dUVvVUxNcW0xMEdZdGRDbkhvRzBCeG16VzcxUlZHNXBRckFRLU93QnNLbHMwMVFIYWI0MWJDTGg4Z3Jw?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-14T07:00:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "プロ野球:侍ジャパン3連勝で韓国との決勝へ アジア野球、豪にコールド勝ち - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLaG9Sd0NmblBjUVJwVTZyNXY3WndCTmdrRUlaTlJ5cTBGVnE4WF95V1FYU2RSczlXS1c0TmRrdTB1NWZqRTVFd29lTEtpYzg3N2xIRV9nb1hGUWZJU0ZSTHd1RTJFbjVLRmJENQ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T06:05:49Z",
       "region": "jp"
     },
     {
@@ -266,24 +280,10 @@
       "region": "jp"
     },
     {
-      "title": "雅子さま 京友禅の「紅葉」をまとい皇后の風格にじむ「金の大王松」の帯 装いから伝わるベトナム国家主席夫妻への想い - AERA DIGITAL",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxSnh3cUdIOGdOdDBMeEYzRnp5djdtNExvV3BRblFwQV96UjJtSjM1NVpIbFpkVTlwdDFFMFlIaXFJMVgtVU9Ea1VnR1dLeV9IUENvV3FWdmwwZw?oc=5",
+      "title": "男女が路上でもみ合い 夫とみられる男性切りつけた疑いで女逮捕 「殺すため、刺したことに間違いない」 - 神戸新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MWmhESVpoSDJEMEhYRnAyTDNMY00tVTdNUGg5Qk15MXczSEZFQWhyWVh2TzE4dWhUWGJTNE9BS3RZcnFNc1hKdHN5YndHX25KU2xiM1M3alFmdjBydDVJcW5kZGd5UkJZeVlsaw?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-14T04:24:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "タマホーム 不正請求疑いで保険代理業廃業へ 外部調査も検討 | NHKニュース | 企業・経営、不動産、香川県 - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtVHhPRHFKNlVvRlJGRUJORFhpbW0ycTBqcHZST0tSN1FOeWZrMDBKS0JCUVh0Z0l6V0EzVXh1Ml80eGFGcmh3MUtlZERuR1BwRnZHeVlfTGZCN1ZDanNF?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T04:09:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "海老名市ひき逃げ事件 トラック運転の49歳男逮捕 容疑否認「全く分からない」 - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LT0Q2UnpHT1NlYnFHSzM4UnFYckI5OTlnejJMWVU1QUJIR2NUOFhIWi1YMXU3QldlYWdHeXhrQmF1VjRaV3hKX2ZnMnZ4dU5TZjVpRGtmek9SN1gwRjcwbVl0WDF1RUxoRG9TclFfUG83QQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T03:53:37Z",
+      "published_at": "2026-11-14T04:22:00Z",
       "region": "jp"
     },
     {
@@ -305,6 +305,13 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nME9TRk9XUUZVZ2ZBTVR0UHZPMDNoaUMzZW5EcWtRLUx0cXAtX3VSdkhRa3hveGhiNUk1NGJzbWZlQk14cHFHcHB4SnA1VFhkTnlOTEZvN0JPRzNPSWhrSHpR?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-14T13:04:00Z",
+      "region": "world"
+    },
+    {
+      "title": "イラン再攻撃巡り深まる孤立 イスラエル首相に自制求める声：時事ドットコム - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhUk5hLWs2YWJuT0xhS3BvRFAtcXczLTdRU2tvMVVUNTBXTWtDbnNtVnMtdG9CNDRBdGxOV3JKb1VnMThITlJrcXRSZUFxWjVxTk01M2cxaXFnZnhfUUZJd2MxTQ?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-14T11:30:00Z",
       "region": "world"
     },
     {
@@ -360,6 +367,13 @@
       "title": "自閉症の日本人画家の個展がニューヨークで開催",
       "url": "https://news.web.nhk/newsweb/na/nd-20261114de75906",
       "source": "NHK国際",
+      "published_at": "2026-11-14T08:32:00Z",
+      "region": "world"
+    },
+    {
+      "title": "北京初雪の万里の長城 凍った石畳を四つんばいでのぼる観光客 (2026年11月14日掲載) - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1UVWkwd1VkRVo2c3ZtaFlkWHVwMDY0Ync5dnltalROdFVINHJUUl9hcnRPUk1fcW5LcjNjMUFUSkhfTXlIbE50VE9oN3NBN3pvSm5BUmNJbDhwa2VncUE?oc=5",
+      "source": "Google国際",
       "published_at": "2026-11-14T08:32:00Z",
       "region": "world"
     },
@@ -550,20 +564,6 @@
       "url": "https://news.yahoo.co.jp/pickup/6602499?source=rss",
       "source": "Yahoo!国際",
       "published_at": "2026-11-13T23:17:38Z",
-      "region": "world"
-    },
-    {
-      "title": "米大統領選、不出馬検討か バンス氏、中間選挙の共和大敗受け - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93cmRNSnROQkp1R2FPaDQ1bWlSa1M5WjE2dk9ERXdKa3hyQWdtakJaSHZpS283VGU2YXJ3dXFTZnZIWmw1NjY2Y1FRMTVtMEdjcWgxazNJeF9adTgtNTJlaTFHTQ?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-13T22:49:00Z",
-      "region": "world"
-    },
-    {
-      "title": "米ニューオーリンズでタンカーと遊覧船衝突 129人乗り、救出作業続く - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YMHllbVBYVzN2SzVITlBKUXNiaTktRjR5UkFlSFlaVk5yRmtLU0dVNmFkUWJtUU5xZkRTVE5YVnVzdU1oejZPalBuX0pvTG1aMks3d0ZyOVNFV3c5T2lyUk5pcHozUmdKQ18zbw?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-13T21:24:30Z",
       "region": "world"
     }
   ],
