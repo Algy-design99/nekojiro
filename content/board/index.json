@@ -1,5 +1,17 @@
 [
   {
+    "site": "board",
+    "id": "1794640834097",
+    "title": "【管理人からのお知らせ】猫じろう掲示板、こちらで運営を再開しました",
+    "category": 16,
+    "category_name": "運営・隔離",
+    "status": "published",
+    "createdAt": "2026-11-14T07:21:05.309Z",
+    "updatedAt": "2026-11-14T07:21:05.309Z",
+    "revision": 1,
+    "publishedAt": "2026-11-14T07:21:05.454Z"
+  },
+  {
     "title": "【相談】もしも黒沼が校長の学校があったら、朝礼は何分で終わる？",
     "category": 12,
     "category_name": "雑談",
