@@ -1,1 +1,3422 @@
-{"categories": [{"id": 1, "name": "科学・技術", "count": 1}, {"id": 2, "name": "経済", "count": 1}, {"id": 3, "name": "IT・ネット", "count": 12}, {"id": 4, "name": "スポーツ", "count": 8}, {"id": 5, "name": "政治", "count": 5}, {"id": 6, "name": "社会", "count": 2}, {"id": 7, "name": "ゲーム", "count": 8}, {"id": 8, "name": "災害", "count": 2}, {"id": 9, "name": "地域", "count": 2}, {"id": 10, "name": "事件", "count": 1}, {"id": 11, "name": "掲示板史", "count": 2}, {"id": 12, "name": "雑談", "count": 8}, {"id": 14, "name": "オカルト", "count": 46}, {"id": 15, "name": "生活", "count": 17}, {"id": 16, "name": "運営・隔離", "count": 5}, {"id": 18, "name": "ニュース速報", "count": 17}, {"id": 19, "name": "独身男性板", "count": 1}, {"id": 20, "name": "家具板", "count": 2}, {"id": 21, "name": "美容板", "count": 0}, {"id": 22, "name": "ほのぼの板", "count": 0}, {"id": 23, "name": "哲学板", "count": 1}, {"id": 24, "name": "民俗・神話学板", "count": 0}, {"id": 25, "name": "心理学板", "count": 0}, {"id": 26, "name": "詩・ポエム板", "count": 0}, {"id": 27, "name": "日本史板", "count": 8}, {"id": 28, "name": "考古学板", "count": 0}, {"id": 29, "name": "地理・人類学板", "count": 0}, {"id": 30, "name": "数学板", "count": 0}, {"id": 31, "name": "化学板", "count": 0}, {"id": 32, "name": "天文・気象板", "count": 0}, {"id": 33, "name": "芸術デザイン板", "count": 0}, {"id": 34, "name": "文学板", "count": 0}, {"id": 35, "name": "歴史板", "count": 0}, {"id": 36, "name": "オカルト板", "count": 0}, {"id": 37, "name": "世界史板", "count": 0}, {"id": 38, "name": "言語学板", "count": 0}, {"id": 39, "name": "社会学板", "count": 0}, {"id": 40, "name": "物理板", "count": 0}, {"id": 41, "name": "生物板", "count": 0}, {"id": 42, "name": "教育学板", "count": 0}, {"id": 43, "name": "美術鑑賞板", "count": 0}, {"id": 44, "name": "なんでもあり板", "count": 0}, {"id": 45, "name": "独身女性限定板", "count": 0}, {"id": 46, "name": "モテない女性板", "count": 0}, {"id": 47, "name": "カップル板", "count": 0}, {"id": 48, "name": "純情恋愛板", "count": 0}, {"id": 49, "name": "人生相談板", "count": 0}, {"id": 50, "name": "電波・お花畑板", "count": 0}, {"id": 51, "name": "ガイドライン板", "count": 7}, {"id": 52, "name": "顔文字板", "count": 0}, {"id": 53, "name": "ラウンジ板", "count": 0}, {"id": 54, "name": "天国板", "count": 0}, {"id": 55, "name": "夢・独り言板", "count": 0}, {"id": 56, "name": "モテない男性板", "count": 0}, {"id": 57, "name": "孤独な男性板", "count": 0}, {"id": 58, "name": "恋愛サロン板", "count": 1}, {"id": 59, "name": "失恋板", "count": 3}, {"id": 60, "name": "お笑い小咄板", "count": 0}, {"id": 61, "name": "バカニュース板", "count": 0}, {"id": 62, "name": "AAサロン板", "count": 0}, {"id": 63, "name": "モナー板", "count": 0}, {"id": 64, "name": "ニュー速VIP板", "count": 0}, {"id": 65, "name": "シベリア超速報板", "count": 0}, {"id": 66, "name": "生活全般板", "count": 0}, {"id": 67, "name": "家庭板", "count": 0}, {"id": 68, "name": "掃除全般板", "count": 0}, {"id": 69, "name": "既婚女性板", "count": 2}, {"id": 70, "name": "冠婚葬祭板", "count": 0}, {"id": 71, "name": "お風呂・銭湯板", "count": 0}, {"id": 72, "name": "化粧板", "count": 0}, {"id": 73, "name": "身体・健康板", "count": 0}, {"id": 74, "name": "料理板", "count": 0}, {"id": 75, "name": "生活サロン板", "count": 0}, {"id": 76, "name": "一人暮らし板", "count": 1}, {"id": 77, "name": "育児板", "count": 1}, {"id": 78, "name": "既婚男性板", "count": 0}, {"id": 79, "name": "通販・買い物板", "count": 0}, {"id": 80, "name": "DIY板", "count": 0}, {"id": 81, "name": "ファッション板", "count": 1}, {"id": 82, "name": "ダイエット板", "count": 0}, {"id": 83, "name": "大学生活板", "count": 3}, {"id": 84, "name": "学歴板", "count": 3}, {"id": 85, "name": "教育・先生板", "count": 0}, {"id": 86, "name": "就職板", "count": 0}, {"id": 87, "name": "公務員板", "count": 0}, {"id": 88, "name": "派遣業界板", "count": 0}, {"id": 89, "name": "経営学板", "count": 1}, {"id": 90, "name": "店舗運営板", "count": 0}, {"id": 91, "name": "大学受験板", "count": 0}, {"id": 92, "name": "専門学校板", "count": 0}, {"id": 93, "name": "アルバイト板", "count": 0}, {"id": 94, "name": "転職板", "count": 0}, {"id": 95, "name": "リーマン板", "count": 0}, {"id": 96, "name": "資格全般板", "count": 0}, {"id": 97, "name": "税金経理会計板", "count": 0}, {"id": 98, "name": "自作PC板", "count": 3}, {"id": 99, "name": "PC初心者板", "count": 0}, {"id": 100, "name": "ハードウェア板", "count": 0}, {"id": 101, "name": "Windows板", "count": 0}, {"id": 102, "name": "Mac板", "count": 0}, {"id": 103, "name": "プログラム板", "count": 1}, {"id": 104, "name": "ネットワーク板", "count": 0}, {"id": 105, "name": "インターネット板", "count": 0}, {"id": 106, "name": "携帯・PHS板", "count": 0}, {"id": 107, "name": "携帯コンテンツ板", "count": 0}, {"id": 108, "name": "ネットサービス板", "count": 0}, {"id": 109, "name": "パソコン一般板", "count": 0}, {"id": 110, "name": "ノートPC板", "count": 0}, {"id": 111, "name": "ソフトウェア板", "count": 0}, {"id": 112, "name": "Linux板", "count": 0}, {"id": 113, "name": "プログラマー板", "count": 2}, {"id": 114, "name": "Web制作板", "count": 0}, {"id": 115, "name": "セキュリティ板", "count": 0}, {"id": 116, "name": "プロバイダー板", "count": 0}, {"id": 117, "name": "携帯機種板", "count": 0}, {"id": 118, "name": "ブログ板", "count": 0}, {"id": 119, "name": "家庭用ゲーム板", "count": 0}, {"id": 120, "name": "ゲームサロン板", "count": 0}, {"id": 121, "name": "レトロゲーム板", "count": 0}, {"id": 122, "name": "ゲーム音楽板", "count": 0}, {"id": 123, "name": "携帯ゲーソフト板", "count": 0}, {"id": 124, "name": "アーケード板", "count": 0}, {"id": 125, "name": "シューティング板", "count": 0}, {"id": 126, "name": "ネトゲ実況板", "count": 0}, {"id": 127, "name": "大規模MMO板", "count": 0}, {"id": 128, "name": "PCゲーム板", "count": 0}, {"id": 129, "name": "将棋・チェス板", "count": 0}, {"id": 130, "name": "クイズ雑学板", "count": 0}, {"id": 131, "name": "家ゲーRPG板", "count": 0}, {"id": 132, "name": "ゲーム速報板", "count": 0}, {"id": 133, "name": "レトロ32bit以上板", "count": 0}, {"id": 134, "name": "ゲーム業界、ハードウェア板", "count": 0}, {"id": 135, "name": "携帯ゲーRPG板", "count": 0}, {"id": 136, "name": "格闘ゲーム板", "count": 0}, {"id": 137, "name": "音ゲー板", "count": 0}, {"id": 138, "name": "ネトゲ質問板", "count": 0}, {"id": 139, "name": "小規模MMO板", "count": 0}, {"id": 140, "name": "同人ゲーム板", "count": 0}, {"id": 141, "name": "囲碁・オセロ板", "count": 0}, {"id": 142, "name": "漫画板", "count": 3}, {"id": 143, "name": "懐かし漫画板", "count": 0}, {"id": 144, "name": "週刊少年漫画板", "count": 0}, {"id": 145, "name": "アニメ板", "count": 0}, {"id": 146, "name": "アニメサロン板", "count": 0}, {"id": 147, "name": "懐かしアニメ平成板", "count": 0}, {"id": 148, "name": "声優個人板", "count": 0}, {"id": 149, "name": "同人板", "count": 0}, {"id": 150, "name": "SF・FT・ホラー板", "count": 0}, {"id": 151, "name": "漫画サロン板", "count": 0}, {"id": 152, "name": "少年漫画板", "count": 0}, {"id": 153, "name": "少女漫画板", "count": 0}, {"id": 154, "name": "アニメ２板", "count": 0}, {"id": 155, "name": "懐かしアニメ昭和板", "count": 0}, {"id": 156, "name": "声優総合板", "count": 0}, {"id": 157, "name": "特撮！板", "count": 0}, {"id": 158, "name": "ライトノベル板", "count": 0}, {"id": 159, "name": "音楽一般板", "count": 5}, {"id": 160, "name": "邦楽サロン板", "count": 0}, {"id": 161, "name": "邦楽女性ソロ板", "count": 0}, {"id": 162, "name": "洋楽板", "count": 0}, {"id": 163, "name": "ジャズ板", "count": 0}, {"id": 164, "name": "パンク板", "count": 0}, {"id": 165, "name": "楽器・作曲板", "count": 0}, {"id": 166, "name": "映画一般・8mm板", "count": 0}, {"id": 167, "name": "懐かし邦画板", "count": 0}, {"id": 168, "name": "テレビ番組板", "count": 1}, {"id": 169, "name": "テレビドラマ板", "count": 9}, {"id": 170, "name": "お笑い芸人板", "count": 0}, {"id": 171, "name": "ラジオ番組板", "count": 8}, {"id": 172, "name": "邦楽板", "count": 0}, {"id": 173, "name": "邦楽男性ソロ板", "count": 0}, {"id": 174, "name": "邦楽グループ板", "count": 0}, {"id": 175, "name": "クラシック板", "count": 0}, {"id": 176, "name": "HR・HM板", "count": 0}, {"id": 177, "name": "インディーズ板", "count": 0}, {"id": 178, "name": "カラオケ板", "count": 0}, {"id": 179, "name": "映画作品・人板", "count": 0}, {"id": 180, "name": "懐かし洋画板", "count": 0}, {"id": 181, "name": "懐かしテレビ板", "count": 0}, {"id": 182, "name": "懐かしドラマ板", "count": 0}, {"id": 183, "name": "芸能板", "count": 0}, {"id": 184, "name": "趣味一般板", "count": 1}, {"id": 185, "name": "カメラ板", "count": 0}, {"id": 186, "name": "文房具板", "count": 0}, {"id": 187, "name": "模型・プラモ板", "count": 0}, {"id": 188, "name": "鉄道路線・車両板", "count": 0}, {"id": 189, "name": "車板", "count": 1}, {"id": 190, "name": "バイク板", "count": 0}, {"id": 191, "name": "航空・船舶板", "count": 0}, {"id": 192, "name": "海外旅行板", "count": 0}, {"id": 193, "name": "釣り板", "count": 0}, {"id": 194, "name": "ペット大好き板", "count": 0}, {"id": 195, "name": "アクアリウム板", "count": 0}, {"id": 196, "name": "写真撮影板", "count": 0}, {"id": 197, "name": "デジカメ板", "count": 0}, {"id": 198, "name": "時計・小物板", "count": 1}, {"id": 199, "name": "鉄道総合板", "count": 0}, {"id": 200, "name": "バス・バス路線板", "count": 0}, {"id": 201, "name": "車種・メーカー板", "count": 1}, {"id": 202, "name": "自転車板", "count": 0}, {"id": 203, "name": "国内旅行板", "count": 0}, {"id": 204, "name": "登山キャンプ板", "count": 0}, {"id": 205, "name": "園芸板", "count": 0}, {"id": 206, "name": "犬猫大好き板", "count": 3}, {"id": 207, "name": "食べ物板", "count": 2}, {"id": 208, "name": "グルメ外食板", "count": 0}, {"id": 209, "name": "ラーメン板", "count": 0}, {"id": 210, "name": "カレー板", "count": 1}, {"id": 211, "name": "パン板", "count": 0}, {"id": 212, "name": "ソフトドリンク板", "count": 0}, {"id": 213, "name": "居酒屋板", "count": 0}, {"id": 214, "name": "レシピ板", "count": 0}, {"id": 215, "name": "Ｂ級グルメ板", "count": 0}, {"id": 216, "name": "そば・うどん板", "count": 0}, {"id": 217, "name": "お菓子板", "count": 0}, {"id": 218, "name": "お茶・珈琲板", "count": 0}, {"id": 219, "name": "酒・Bar板", "count": 0}, {"id": 220, "name": "スポーツサロン板", "count": 0}, {"id": 221, "name": "野球総合板", "count": 0}, {"id": 222, "name": "国内サッカー板", "count": 0}, {"id": 223, "name": "日本代表蹴球板", "count": 0}, {"id": 224, "name": "テニス板", "count": 0}, {"id": 225, "name": "陸上競技板", "count": 0}, {"id": 226, "name": "相撲板", "count": 0}, {"id": 227, "name": "格闘技板", "count": 0}, {"id": 228, "name": "武道・武芸板", "count": 0}, {"id": 229, "name": "ゴルフ板", "count": 0}, {"id": 230, "name": "プロ野球板", "count": 2}, {"id": 231, "name": "高校野球板", "count": 0}, {"id": 232, "name": "海外サッカー板", "count": 0}, {"id": 233, "name": "バスケット板", "count": 0}, {"id": 234, "name": "卓球板", "count": 0}, {"id": 235, "name": "水泳板", "count": 1}, {"id": 236, "name": "プロレス板", "count": 1}, {"id": 237, "name": "ボクシング板", "count": 0}, {"id": 238, "name": "スキースノボ板", "count": 0}, {"id": 239, "name": "オリンピック板", "count": 0}, {"id": 240, "name": "ニュース速報板", "count": 0}, {"id": 241, "name": "芸スポ速報+板", "count": 1}, {"id": 242, "name": "科学ニュース+板", "count": 0}, {"id": 243, "name": "懐かしニュース板", "count": 0}, {"id": 244, "name": "社会・世評板", "count": 0}, {"id": 245, "name": "経済板", "count": 0}, {"id": 246, "name": "市況1板", "count": 1}, {"id": 247, "name": "金融板", "count": 0}, {"id": 248, "name": "警察板", "count": 0}, {"id": 249, "name": "環境・電力板", "count": 0}, {"id": 250, "name": "ニュース速報+板", "count": 0}, {"id": 251, "name": "ビジネスnews+板", "count": 0}, {"id": 252, "name": "ニュース議論板", "count": 0}, {"id": 253, "name": "交通情報板", "count": 0}, {"id": 254, "name": "政治板", "count": 0}, {"id": 255, "name": "株式板", "count": 0}, {"id": 256, "name": "市況2板", "count": 7}, {"id": 257, "name": "法律勉強相談板", "count": 0}, {"id": 258, "name": "消防救急防災板", "count": 0}, {"id": 259, "name": "地方自治知事板", "count": 0}, {"id": 260, "name": "北海道板", "count": 0}, {"id": 261, "name": "東京板", "count": 0}, {"id": 262, "name": "神奈川板", "count": 0}, {"id": 263, "name": "北陸・甲信越板", "count": 0}, {"id": 264, "name": "近畿板", "count": 0}, {"id": 265, "name": "東北板", "count": 0}, {"id": 266, "name": "多摩板", "count": 0}, {"id": 267, "name": "関東板", "count": 0}, {"id": 268, "name": "東海板", "count": 0}, {"id": 269, "name": "大阪板", "count": 0}, {"id": 270, "name": "中国板", "count": 0}, {"id": 271, "name": "四国板", "count": 0}, {"id": 272, "name": "九州板", "count": 0}, {"id": 273, "name": "沖縄板", "count": 0}], "threads": [{"id": 232, "title": "【相談】もしも黒沼が校長の学校があったら、朝礼は何分で終わる？", "category": 12, "category_name": "雑談", "responses": 84, "date": "11/14"}, {"id": 231, "title": "【秋ドラマ】1位は「救命病棟24時」88票、2位「VIVANT」85票　わずか3票差の人気投票", "category": 18, "category_name": "ニュース速報", "responses": 81, "date": "11/14"}, {"id": 230, "title": "【支援金】勤労者の5割以上を対象に検討、子2人世帯は最大年6万円　参院で消費減税法案審議", "category": 18, "category_name": "ニュース速報", "responses": 100, "date": "11/14"}, {"id": 229, "title": "【神奈川】海老名の2人死亡ひき逃げ、49歳会社員を逮捕　容疑を否認", "category": 18, "category_name": "ニュース速報", "responses": 126, "date": "11/14"}, {"id": 228, "title": "【札幌】マンションの灯油36リットル盗んだ疑い、57歳男を現行犯逮捕　「お金がもったいなくて」", "category": 18, "category_name": "ニュース速報", "responses": 126, "date": "11/14"}, {"id": 227, "title": "ロシアがJT現地7社を一時管理下に　サハリン2への波及も懸念", "category": 18, "category_name": "ニュース速報", "responses": 123, "date": "11/14"}, {"id": 226, "title": "Microsoft 365障害、一部メール復旧も全面復旧は未定　待ち続ける職場に混乱", "category": 18, "category_name": "ニュース速報", "responses": 125, "date": "11/14"}, {"id": 225, "title": "NVIDIAフアン氏辞任の余波、米ラトニック商務長官の更迭も協議か", "category": 18, "category_name": "ニュース速報", "responses": 124, "date": "11/14"}, {"id": 224, "title": "トランプ氏「イランとの合意不要」バンス副大統領には国内問題への注力指示", "category": 18, "category_name": "ニュース速報", "responses": 123, "date": "11/14"}, {"id": 223, "title": "NVIDIAフアンCEO辞任、33年の経営に幕　暫定CEOはクレス氏", "category": 18, "category_name": "ニュース速報", "responses": 121, "date": "11/14"}, {"id": 222, "title": "黒沼の街っていう都市伝説、知ってる奴いる？", "category": 14, "category_name": "オカルト", "responses": 137, "date": "11/13"}, {"id": 221, "title": "ラジオの録音を自動で切り分けたいんだが", "category": 113, "category_name": "プログラマー板", "responses": 156, "date": "11/12"}, {"id": 220, "title": "学祭の代わりにオンライン新歓やることになったんだが", "category": 83, "category_name": "大学生活板", "responses": 188, "date": "11/12"}, {"id": 219, "title": "宿屋の選択肢がセーブ後だけおかしくなるんだが", "category": 113, "category_name": "プログラマー板", "responses": 145, "date": "11/12"}, {"id": 218, "title": "町内会の回覧板をPDFにしたら文字がずれるんだけど", "category": 3, "category_name": "IT・ネット", "responses": 1, "date": "11/12"}, {"id": 217, "title": "古いカセットの片側だけ音が小さいんだが直せる？", "category": 159, "category_name": "音楽一般板", "responses": 1, "date": "11/12"}, {"id": 216, "title": "PythonのCSV処理がたまに二重登録になるんだが原因が分からない", "category": 103, "category_name": "プログラム板", "responses": 1, "date": "11/12"}, {"id": 215, "title": "黒沼幻司のラジオで雨の日の音を集めたいのですが", "category": 171, "category_name": "ラジオ番組板", "responses": 1, "date": "11/12"}, {"id": 214, "title": "黒沼幻司のラジオで近所の音を紹介したいのですが", "category": 0, "category_name": "未分類", "responses": 1, "date": "11/11"}, {"id": 213, "title": "黒沼幻司のラジオで使う足音を作りたいのですが", "category": 171, "category_name": "ラジオ番組板", "responses": 1, "date": "11/11"}, {"id": 212, "title": "黒沼幻司のラジオ、次回から電話相談を始めたいのですが", "category": 171, "category_name": "ラジオ番組板", "responses": 1, "date": "11/11"}, {"id": 211, "title": "黒沼幻司のラジオ、番組のジングルを募集します", "category": 171, "category_name": "ラジオ番組板", "responses": 1, "date": "11/11"}, {"id": 210, "title": "黒沼幻司のラジオ、公開収録の席札をどうするか", "category": 171, "category_name": "ラジオ番組板", "responses": 1, "date": "11/11"}, {"id": 209, "title": "黒沼幻司のラジオ、公開収録の観覧者を探しています", "category": 171, "category_name": "ラジオ番組板", "responses": 1, "date": "11/11"}, {"id": 208, "title": "黒沼幻司の深夜ラジオ、リスナー感謝企画のお知らせ", "category": 0, "category_name": "未分類", "responses": 1, "date": "11/11"}, {"id": 207, "title": "黒沼幻司の深夜ラジオ、先週のお便りについて", "category": 171, "category_name": "ラジオ番組板", "responses": 1, "date": "11/11"}, {"id": 206, "title": "黒沼幻司の深夜ラジオ、今夜の放送について", "category": 171, "category_name": "ラジオ番組板", "responses": 133, "date": "11/11"}, {"id": 205, "title": "親父が古地図を信じて庭を掘ろうとしてるんだが", "category": 27, "category_name": "日本史板", "responses": 123, "date": "11/09"}, {"id": 204, "title": "祖母が戦国武将の名前で家族を呼び始めたんだが", "category": 27, "category_name": "日本史板", "responses": 123, "date": "11/09"}, {"id": 203, "title": "じいちゃんが俺の部屋を江戸時代にしようとしてる", "category": 27, "category_name": "日本史板", "responses": 129, "date": "11/09"}, {"id": 202, "title": "家の古い道具を歴史資料として持っていきたいんだが", "category": 27, "category_name": "日本史板", "responses": 169, "date": "11/09"}, {"id": 201, "title": "祖母が江戸時代の時刻で生活しようとしている", "category": 27, "category_name": "日本史板", "responses": 144, "date": "11/09"}, {"id": 200, "title": "祖父が武将の名前を犬につけようとしているんだが", "category": 27, "category_name": "日本史板", "responses": 106, "date": "11/09"}, {"id": 199, "title": "うちの屋号を調べてたら父親がのれんを作り始めた", "category": 27, "category_name": "日本史板", "responses": 105, "date": "11/09"}, {"id": 198, "title": "祖父の自由研究が戦国時代から帰ってこない", "category": 27, "category_name": "日本史板", "responses": 81, "date": "11/09"}, {"id": 197, "title": "本棚を買ったら祖父が毎朝拝んでる", "category": 20, "category_name": "家具板", "responses": 89, "date": "11/09"}, {"id": 196, "title": "買ったばかりの椅子に誰も座ってくれない", "category": 20, "category_name": "家具板", "responses": 81, "date": "11/09"}, {"id": 195, "title": "母が家の中で整理券を配り始めたんだが", "category": 15, "category_name": "生活", "responses": 77, "date": "11/09"}, {"id": 194, "title": "父が家族会議を開きたがるんだけど議題がない", "category": 15, "category_name": "生活", "responses": 121, "date": "11/09"}, {"id": 193, "title": "隣のおばあちゃんに植木鉢を預かったんだが", "category": 15, "category_name": "生活", "responses": 85, "date": "11/09"}, {"id": 192, "title": "大家さんに野菜をもらったんだが、お返しは何がいい？", "category": 15, "category_name": "生活", "responses": 123, "date": "11/09"}, {"id": 191, "title": "洗濯機の中から知らない靴下が出てきたんだが", "category": 15, "category_name": "生活", "responses": 73, "date": "11/09"}, {"id": 190, "title": "隣の部屋に回覧板を持っていくタイミングがわからない", "category": 15, "category_name": "生活", "responses": 79, "date": "11/09"}, {"id": 189, "title": "録画した番組の最後だけ毎回切れるんだが、どうすればいい？", "category": 168, "category_name": "テレビ番組板", "responses": 43, "date": "11/09"}, {"id": 188, "title": "社員3人の会社なんだが組織図を作れと言われた", "category": 89, "category_name": "経営学板", "responses": 64, "date": "11/09"}, {"id": 187, "title": "漫画家のサイン会で編集者にだけサインもらった", "category": 142, "category_name": "漫画板", "responses": 87, "date": "11/09"}, {"id": 186, "title": "漫画の単行本を買うたびに母親が帯だけ保管してる", "category": 142, "category_name": "漫画板", "responses": 113, "date": "11/09"}, {"id": 185, "title": "猫が毎晩、台所の前に一列に並ぶんだが", "category": 206, "category_name": "犬猫大好き板", "responses": 157, "date": "11/03"}, {"id": 184, "title": "うちの犬が散歩のたびに知らない家の前で座り込む", "category": 206, "category_name": "犬猫大好き板", "responses": 78, "date": "11/03"}, {"id": 183, "title": "うちの猫が毎朝、俺の靴だけ玄関から運ぶんだが", "category": 206, "category_name": "犬猫大好き板", "responses": 159, "date": "11/03"}, {"id": 182, "title": "親父がデスクトップのアイコンを全部消したと言い張ってる", "category": 3, "category_name": "IT・ネット", "responses": 249, "date": "11/01"}, {"id": 181, "title": "漫画の貸し借りに返却期限を設けたいんだが", "category": 142, "category_name": "漫画板", "responses": 239, "date": "11/01"}, {"id": 180, "title": "防災袋を玄関に置いたら家族に邪魔者扱いされた", "category": 8, "category_name": "災害", "responses": 271, "date": "11/01"}, {"id": 179, "title": "親父が家族会議に不信任案を出してきたんだが", "category": 5, "category_name": "政治", "responses": 266, "date": "11/01"}, {"id": 178, "title": "町内会の会議を国会方式にしたいと言い出した親父を止めたい", "category": 5, "category_name": "政治", "responses": 229, "date": "11/01"}, {"id": 177, "title": "為替のアラート音を変えたら会社で大変なことになった", "category": 256, "category_name": "市況2板", "responses": 176, "date": "11/01"}, {"id": 176, "title": "指値を入れたら母親が毎回電話してくるんだが", "category": 256, "category_name": "市況2板", "responses": 246, "date": "11/01"}, {"id": 175, "title": "指標発表のたびに隣の部屋から拍手が聞こえるんだが", "category": 256, "category_name": "市況2板", "responses": 216, "date": "11/01"}, {"id": 174, "title": "FXで勝った日の夕飯が毎回おかしくなる件", "category": 256, "category_name": "市況2板", "responses": 168, "date": "11/01"}, {"id": 173, "title": "【芸能】新人歌手・星野マコ、商店街イベントで「アンコール」の意味を勘違い", "category": 241, "category_name": "芸スポ速報+板", "responses": 145, "date": "11/01"}, {"id": 172, "title": "腕時計を褒められた時の返し方が分からない", "category": 198, "category_name": "時計・小物板", "responses": 285, "date": "11/01"}, {"id": 171, "title": "新車の納車式って断ってもいいの？", "category": 201, "category_name": "車種・メーカー板", "responses": 231, "date": "11/01"}, {"id": 170, "title": "車の芳香剤を替えたら助手席に誰も乗らなくなった", "category": 189, "category_name": "車板", "responses": 222, "date": "11/01"}, {"id": 169, "title": "市民プールで毎回監視員に泳ぎ方を心配される", "category": 235, "category_name": "水泳板", "responses": 174, "date": "11/01"}, {"id": 168, "title": "父親が野球中継を見るたびに監督へ電話しようとする", "category": 230, "category_name": "プロ野球板", "responses": 156, "date": "11/01"}, {"id": 167, "title": "球場の応援で一人だけ手拍子がずれるんだが", "category": 230, "category_name": "プロ野球板", "responses": 170, "date": "11/01"}, {"id": 166, "title": "娘が幼稚園で「うちの父は係長」と言いふらしている", "category": 77, "category_name": "育児板", "responses": 175, "date": "10/31"}, {"id": 165, "title": "管理人の日記「ニュースサイトをつくった」", "category": 16, "category_name": "運営・隔離", "responses": 150, "date": "10/31"}, {"id": 164, "title": "【管理人日記】掲示板に速報欄を付けて、経済情報局も作った", "category": 16, "category_name": "運営・隔離", "responses": 99, "date": "10/30"}, {"id": 163, "title": "【アンチ黒沼幻司31】掲示板の広告に変なのがいるんだが（画像あり）", "category": 14, "category_name": "オカルト", "responses": 141, "date": "10/30"}, {"id": 162, "title": "痔がつらすぎて座ることすら信用できなくなった", "category": 15, "category_name": "生活", "responses": 94, "date": "10/30"}, {"id": 161, "title": "【アンチ黒沼幻司】怪談より本人の言動が怖い件 Part30", "category": 14, "category_name": "オカルト", "responses": 120, "date": "10/30"}, {"id": 160, "title": "【アンチ黒沼幻司】ラジオの周波数にまで割り込んでくる件 Part29", "category": 14, "category_name": "オカルト", "responses": 99, "date": "10/30"}, {"id": 159, "title": "【相談】うちの食パンだけ妙に礼儀正しいんだが", "category": 207, "category_name": "食べ物板", "responses": 98, "date": "10/29"}, {"id": 158, "title": "【悲報】母ちゃんがカレーの具を面接で決めるようになった", "category": 210, "category_name": "カレー板", "responses": 224, "date": "10/29"}, {"id": 157, "title": "趣味を聞かれるたびに違う答えを言ってたら収拾つかなくなった", "category": 184, "category_name": "趣味一般板", "responses": 185, "date": "10/29"}, {"id": 156, "title": "【相談】隣の席の人が毎朝ジャズの曲名で挨拶してくる", "category": 12, "category_name": "雑談", "responses": 141, "date": "10/29"}, {"id": 155, "title": "【管理人日記】配信する予定はないのに配信画面が4種類になった", "category": 16, "category_name": "運営・隔離", "responses": 121, "date": "10/29"}, {"id": 154, "title": "【管理人日記】配信素材と広告付きプロフィールは作った。配信予定はない。", "category": 16, "category_name": "運営・隔離", "responses": 191, "date": "10/29"}, {"id": 153, "title": "【黒沼幻司】RPGの宿屋に黒沼そっくりの奴がいる件【アンチスレ㉘】", "category": 14, "category_name": "オカルト", "responses": 181, "date": "10/29"}, {"id": 152, "title": "【黒沼幻司】駅の回収箱を漁ってるところを目撃したんだが【アンチ㉗】", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/28"}, {"id": 151, "title": "【黒沼アンチ㉖】恋愛サロンのモザイク男、比較画像まで作られててワロタ", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/27"}, {"id": 150, "title": "【黒沼アンチ㉖】恋愛サロンに黒沼らしき男のデート写真が晒されてる件", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/27"}, {"id": 149, "title": "【これ普通？】昨日会った人が自分の顔入りタオルを見せてきた", "category": 58, "category_name": "恋愛サロン板", "responses": 121, "date": "10/27"}, {"id": 148, "title": "【黒沼アンチ㉕】スーパーに黒沼らしき奴がいたんだが、見てた商品が謎", "category": 14, "category_name": "オカルト", "responses": 181, "date": "10/27"}, {"id": 147, "title": "【黒沼アンチ㉔】黒沼幻司すなっく、製造元が普通の菓子会社なんだが", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/26"}, {"id": 146, "title": "【黒沼アンチ㉓】霊波測定済みタオルを買った奴が帰宅した件", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/26"}, {"id": 145, "title": "【黒沼アンチ㉒】オフ会に潜入した奴が物販の写真を上げてる件", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/26"}, {"id": 144, "title": "【黒沼アンチ㉑】親父の釣果ノートに「ゲン坊船酔い」と書いてある件", "category": 14, "category_name": "オカルト", "responses": 261, "date": "10/26"}, {"id": 143, "title": "【黒沼アンチ⑳】親父の釣り仲間の集合写真にゲンさんがいるらしい", "category": 14, "category_name": "オカルト", "responses": 203, "date": "10/26"}, {"id": 142, "title": "【黒沼アンチ⑲】若い頃の写真が出てきたのに本人が否定してる件", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/26"}, {"id": 141, "title": "【黒沼アンチ⑱】怪談ポスターの目が合うと父が言い張っている件", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/26"}, {"id": 140, "title": "【黒沼アンチ⑰】怪談展示会のコピーに「黒沼様 お忘れ物」と印字されたんだが", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/26"}, {"id": 139, "title": "【黒沼アンチ⑯】月9最終回で本名が出たらしいが、本人は説明する気あるのか", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/26"}, {"id": 138, "title": "【月9実況⑧・最終回】雨上がりの約束　黒い客の名前がついに判明した件", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/26"}, {"id": 137, "title": "【月9実況⑦】雨上がりの約束 第9話　黒い客がしゃべると母が字幕をつける件", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/26"}, {"id": 136, "title": "【月9実況⑥】雨上がりの約束 第8話　黒い客のために妹が座布団を用意してる", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/26"}, {"id": 135, "title": "【月9実況⑤】雨上がりの約束 第7話　黒い客が出ると祖母がテレビの音量を下げるんだが", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/26"}, {"id": 134, "title": "【月9】雨上がりの約束 第6話実況④　奥の客の正体より、喫茶店の皿がうるさい件", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/25"}, {"id": 133, "title": "【月9】雨上がりの約束 第5話実況③　奥の客、今なんか言った？", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/25"}, {"id": 132, "title": "【月9】雨上がりの約束を語るスレ②　あの喫茶店の客、また映ってないか", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/25"}, {"id": 131, "title": "【月9】今期のドラマ、喫茶店の奥の人が気になる件", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/25"}, {"id": 130, "title": "【月9】今期のドラマを語ってたら家族の反応が気になってきた件", "category": 169, "category_name": "テレビドラマ板", "responses": 121, "date": "10/25"}, {"id": 129, "title": "【大荒れ】怪談イベントアンチスレ⑮ 黒沼", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 128, "title": "【検証】怪談イベントアンチスレ⑭ 図書館の資料に黒沼の名前がない", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 127, "title": "【失言】怪談イベントアンチスレ⑬ 黒沼先生", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 126, "title": "【急展開】怪談イベントアンチスレ⑫ 黒沼本人らしき人物が現れた", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 125, "title": "【混線】怪談イベントアンチスレ⑪ 黒沼先生の偽物が増えすぎて本物を見失う", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 124, "title": "【混乱】怪談イベントアンチスレ⑩ 黒沼先生が三人いるんだが", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 123, "title": "【追跡】怪談イベントアンチスレ⑨ 黒沼の正体を探ってたら本人が増えた件", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 122, "title": "【検証】求人広告の成功体験が仕事と関係なさすぎる件", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 121, "title": "【検証】平成6年の怪談FAX、特典④だけ「当日発表」なのが怖い Part8", "category": 14, "category_name": "オカルト", "responses": 121, "date": "10/25"}, {"id": 120, "title": "【発掘】怪談イベントを叩いてたら平成6年のFAXチラシが出てきた件 Part7", "category": 14, "category_name": "オカルト", "responses": 280, "date": "10/25"}, {"id": 119, "title": "【本人降臨】怪談イベントの擁護荒らし、黒沼先生が正体を隠しきれない件 Part6", "category": 14, "category_name": "オカルト", "responses": 273, "date": "10/25"}, {"id": 118, "title": "【検証】怪談イベントの擁護荒らし、黒沼先生本人だった疑惑 Part5", "category": 14, "category_name": "オカルト", "responses": 150, "date": "10/25"}, {"id": 117, "title": "【騒然】怪談イベントの黒沼先生を調べてたら謎の擁護が湧いた件 Part4", "category": 14, "category_name": "オカルト", "responses": 91, "date": "10/25"}, {"id": 116, "title": "【追跡】怪談イベントの黒沼先生、名前が増えすぎて誰だか分からない件 Part3", "category": 14, "category_name": "オカルト", "responses": 84, "date": "10/25"}, {"id": 115, "title": "【検証】怪談イベントの心霊ジャーナリスト、結局誰なんだよ Part2", "category": 14, "category_name": "オカルト", "responses": 92, "date": "10/25"}, {"id": 114, "title": "【疑惑】心霊ジャーナリストの怪談イベント、怖いのは物販だろ", "category": 14, "category_name": "オカルト", "responses": 81, "date": "10/25"}, {"id": 113, "title": "【怪現象】曲が終わるたび電子レンジが返事するんだが", "category": 159, "category_name": "音楽一般板", "responses": 81, "date": "10/25"}, {"id": 112, "title": "【疑問】母ちゃんが俺のCDに勝手な曲名つけてる", "category": 159, "category_name": "音楽一般板", "responses": 81, "date": "10/25"}, {"id": 111, "title": "【困惑】うちのカセットデッキ、録音すると拍手だけ上手い", "category": 159, "category_name": "音楽一般板", "responses": 81, "date": "10/25"}, {"id": 110, "title": "【謎】隣の部屋から毎晩「ド」だけ聞こえてくる", "category": 159, "category_name": "音楽一般板", "responses": 81, "date": "10/25"}, {"id": 109, "title": "【謎】冷蔵庫のプリンに「先に失礼します」と貼られてる", "category": 207, "category_name": "食べ物板", "responses": 81, "date": "10/25"}, {"id": 108, "title": "【不可解】台所の輪ゴムが毎日一本ずつ増えてるんだが", "category": 15, "category_name": "生活", "responses": 81, "date": "10/25"}, {"id": 107, "title": "【謎】玄関の靴べらが毎朝ちょっとずつ移動してるんだが", "category": 15, "category_name": "生活", "responses": 81, "date": "10/25"}, {"id": 106, "title": "【珍事】商店街で落とし物の傘が係長に昇進している件", "category": 18, "category_name": "ニュース速報", "responses": 81, "date": "10/25"}, {"id": 105, "title": "【怪奇】大学の自習室で俺の席だけ毎回「おかえり」って書かれてる", "category": 83, "category_name": "大学生活板", "responses": 81, "date": "10/25"}, {"id": 104, "title": "【不可解】ゼミ室の冷蔵庫で俺の麦茶だけ実験扱いされてる", "category": 83, "category_name": "大学生活板", "responses": 81, "date": "10/24"}, {"id": 103, "title": "【珍事】草野球のベンチに毎週「盗塁禁止」って書かれるんだが", "category": 4, "category_name": "スポーツ", "responses": 81, "date": "10/22"}, {"id": 102, "title": "【謎】卓球サークルで俺のラケットだけ休憩札を立てられる", "category": 4, "category_name": "スポーツ", "responses": 83, "date": "10/22"}, {"id": 101, "title": "【謎】バドミントンサークルで俺だけ「回収王」と呼ばれ始めた", "category": 4, "category_name": "スポーツ", "responses": 87, "date": "10/21"}, {"id": 100, "title": "【怪現象】ジョギングを始めたら近所の犬に周回数を管理されてる", "category": 4, "category_name": "スポーツ", "responses": 78, "date": "10/21"}, {"id": 99, "title": "【珍事】草野球のスコア係が俺の凡退だけ妙に丁寧に記録してる", "category": 4, "category_name": "スポーツ", "responses": 78, "date": "10/21"}, {"id": 98, "title": "【不可解】うちの家族、誰も頼んでないのに玄関の靴が一足ずつ増える", "category": 15, "category_name": "生活", "responses": 81, "date": "10/21"}, {"id": 97, "title": "【怪現象】対戦ゲームを始めると母親の声で洗濯物を取り込めと言われる", "category": 7, "category_name": "ゲーム", "responses": 81, "date": "10/21"}, {"id": 96, "title": "【疑問】すれちがい通信で毎回「今から帰る」って言う奴がいる", "category": 7, "category_name": "ゲーム", "responses": 82, "date": "10/21"}, {"id": 95, "title": "【困惑】母親がRPGの主人公を町内会の人だと思ってる", "category": 7, "category_name": "ゲーム", "responses": 81, "date": "10/21"}, {"id": 94, "title": "【謎】中古DSソフトのケースに『予備』と書かれた割り箸が入ってた", "category": 7, "category_name": "ゲーム", "responses": 81, "date": "10/21"}, {"id": 93, "title": "【怪】コントローラーに「二番」って紙が貼られてるんだが", "category": 7, "category_name": "ゲーム", "responses": 81, "date": "10/21"}, {"id": 92, "title": "【謎】学食のカレー、俺だけ福神漬けが二か所に盛られる", "category": 84, "category_name": "学歴板", "responses": 81, "date": "10/21"}, {"id": 91, "title": "【疑問】ゼミの座席表で俺の名前だけ「仮」になってる", "category": 84, "category_name": "学歴板", "responses": 81, "date": "10/21"}, {"id": 90, "title": "【珍事】会社のお茶当番表で俺の大学だけ「仮」になってる", "category": 84, "category_name": "学歴板", "responses": 81, "date": "10/21"}, {"id": 89, "title": "【不可解】うちの家族、誰も頼んでないのに玄関の靴が一足ずつ増える", "category": 15, "category_name": "生活", "responses": 81, "date": "10/20"}, {"id": 88, "title": "【不可解】娘がぬいぐるみを毎朝一列に並べ直してる", "category": 15, "category_name": "生活", "responses": 85, "date": "10/20"}, {"id": 87, "title": "【謎】母が冷蔵庫に貼るメモだけ毎回ちょっと偉そう", "category": 15, "category_name": "生活", "responses": 83, "date": "10/20"}, {"id": 86, "title": "【珍事】ブログのコメント欄に毎晩「おやすみ」だけ書く奴がいる", "category": 3, "category_name": "IT・ネット", "responses": 84, "date": "10/20"}, {"id": 85, "title": "【怪現象】PCを起動するたび机の引き出しが1cm開くんだが", "category": 98, "category_name": "自作PC板", "responses": 83, "date": "10/19"}, {"id": 84, "title": "【不可解】PCケースの上に毎朝ネジが一本置いてある", "category": 98, "category_name": "自作PC板", "responses": 82, "date": "10/19"}, {"id": 83, "title": "【検証】電源を切るたび机の下で「コトン」と鳴るんだが", "category": 98, "category_name": "自作PC板", "responses": 81, "date": "10/19"}, {"id": 82, "title": "【謎】会社の伝言メモに毎朝「あとで」とだけ書いてある", "category": 51, "category_name": "ガイドライン板", "responses": 81, "date": "10/19"}, {"id": 81, "title": "【怪現象】会社の壁掛けカレンダーだけ毎朝一日進んでる", "category": 51, "category_name": "ガイドライン板", "responses": 80, "date": "10/19"}, {"id": 80, "title": "【検証】職場の傘立てに毎週一本だけ知らない傘が増える", "category": 51, "category_name": "ガイドライン板", "responses": 81, "date": "10/19"}, {"id": 79, "title": "【検証】玄関の「おかえり」置物が毎朝壁を向いている件", "category": 51, "category_name": "ガイドライン板", "responses": 81, "date": "10/19"}, {"id": 78, "title": "【謎】うちの冷蔵庫のプリンだけ毎朝少し前進してるんだが", "category": 51, "category_name": "ガイドライン板", "responses": 81, "date": "10/19"}, {"id": 77, "title": "【不可解】空にした盛り塩の皿に毎朝一粒だけ戻ってくる", "category": 14, "category_name": "オカルト", "responses": 81, "date": "10/16"}, {"id": 76, "title": "【怪奇】元カノの写真立てが毎朝ひっくり返ってる", "category": 59, "category_name": "失恋板", "responses": 81, "date": "10/16"}, {"id": 75, "title": "【謎】別れた彼女のスリッパが毎朝玄関に出てる", "category": 59, "category_name": "失恋板", "responses": 81, "date": "10/15"}, {"id": 74, "title": "【怪現象】別れた彼女の声で「返して」が聞こえるんだが", "category": 59, "category_name": "失恋板", "responses": 81, "date": "10/15"}, {"id": 73, "title": "【検証】冷蔵庫のメモが必ず「以上。」で終わる件", "category": 51, "category_name": "ガイドライン板", "responses": 81, "date": "10/15"}, {"id": 72, "title": "【改訂】マンションの掲示板に「貼り紙の貼り方」が増殖してる", "category": 51, "category_name": "ガイドライン板", "responses": 81, "date": "10/15"}, {"id": 71, "title": "【不可解】誰もいない部屋で毎晩「お先に」と聞こえる", "category": 23, "category_name": "哲学板", "responses": 81, "date": "10/15"}, {"id": 70, "title": "【謎】留守中に玄関の靴が毎日きれいに揃ってる", "category": 76, "category_name": "一人暮らし板", "responses": 81, "date": "10/15"}, {"id": 69, "title": "【怪音】午前零時、台所で誰かが「チン」と鳴らす", "category": 14, "category_name": "オカルト", "responses": 81, "date": "10/15"}, {"id": 68, "title": "【怪奇】台所の戸棚から「おかえり」と声がするんだが", "category": 14, "category_name": "オカルト", "responses": 81, "date": "10/15"}, {"id": 67, "title": "【怪奇】夜11時半になると押し入れからゴングが鳴るんだが", "category": 236, "category_name": "プロレス板", "responses": 81, "date": "10/15"}, {"id": 66, "title": "【国会】高市首相「朝の支度で男性首相より3〜4時間」発言に賛否　スレ民は朝食の洗い物で大揉め", "category": 18, "category_name": "ニュース速報", "responses": 81, "date": "10/15"}, {"id": 65, "title": "【速報】軍用スターリンクに時速160km制限、ドローン作戦に支障　住民「通信にもスピード違反あるのか」", "category": 18, "category_name": "ニュース速報", "responses": 81, "date": "10/15"}, {"id": 64, "title": "【速報】武部新氏が農水相に起用へ　父も農水相経験者、住民の関心はなぜかジャガイモに", "category": 18, "category_name": "ニュース速報", "responses": 61, "date": "10/15"}, {"id": 63, "title": "【謎】うちの炊飯器が日経平均に合わせて点滅してる件", "category": 246, "category_name": "市況1板", "responses": 61, "date": "10/15"}, {"id": 62, "title": "【怪現象】親父が毎朝ドル円を見て植木鉢を動かしてる件", "category": 256, "category_name": "市況2板", "responses": 61, "date": "10/15"}, {"id": 61, "title": "【異変】うちの目覚まし時計、ドル円より先に動くんだが", "category": 256, "category_name": "市況2板", "responses": 61, "date": "10/15"}, {"id": 60, "title": "【相談】為替レートを見すぎてスーパーの値札まで売買サインに見えるんだが", "category": 256, "category_name": "市況2板", "responses": 61, "date": "10/15"}, {"id": 59, "title": "【踊る大捜査線】新作で室井さん不在、すみれさんも退職　登場しない名物キャラが残した存在感", "category": 18, "category_name": "ニュース速報", "responses": 61, "date": "10/15"}, {"id": 58, "title": "【横浜】ドラクエ×FFが初の合同冬イベント　スライムとチョコボがみなとみらいに登場", "category": 18, "category_name": "ニュース速報", "responses": 61, "date": "10/15"}, {"id": 57, "title": "【ホルムズ海峡】コンテナ2500個超の貨物船が炎上・沈没　イラン「機雷に接触」", "category": 18, "category_name": "ニュース速報", "responses": 61, "date": "10/15"}, {"id": 56, "title": "【札幌】新琴似の複合ビルで火災、女性1人搬送　2階部分が激しく焼損", "category": 18, "category_name": "ニュース速報", "responses": 61, "date": "10/15"}, {"id": 55, "title": "【相談】旦那が毎朝スリッパを玄関に並べるんだけど", "category": 69, "category_name": "既婚女性板", "responses": 61, "date": "10/15"}, {"id": 54, "title": "【相談】流行のレイヤードを真似したら脱ぐ順番がわからなくなった", "category": 81, "category_name": "ファッション板", "responses": 81, "date": "10/15"}, {"id": 53, "title": "【相談】夫が冷蔵庫の卵に一個ずつ名前を書いている", "category": 69, "category_name": "既婚女性板", "responses": 62, "date": "10/15"}, {"id": 52, "title": "【相談】うちの玄関マットが毎朝ちょっとずつ帰宅してくる", "category": 15, "category_name": "生活", "responses": 81, "date": "10/14"}, {"id": 51, "title": "【相談】会社で俺の弁当だけ毎日『ごちそうさま』されてる", "category": 19, "category_name": "独身男性板", "responses": 123, "date": "10/14"}, {"id": 50, "title": "【相談】誰もいない階段から毎朝『二階です』って聞こえる", "category": 14, "category_name": "オカルト", "responses": 125, "date": "10/14"}, {"id": 49, "title": "【相談】うちの冷蔵庫が毎週木曜だけ他人行儀になる", "category": 14, "category_name": "オカルト", "responses": 81, "date": "10/14"}, {"id": 48, "title": "【相談】留守中に誰かがカレンダーの予定を書き換えてる", "category": 14, "category_name": "オカルト", "responses": 85, "date": "10/14"}, {"id": 47, "title": "【相談】夜中に押し入れから拍手が聞こえる", "category": 14, "category_name": "オカルト", "responses": 86, "date": "10/14"}, {"id": 46, "title": "【相談】うちの玄関だけ毎晩『おかえり』って聞こえるんだが", "category": 14, "category_name": "オカルト", "responses": 81, "date": "10/14"}, {"id": 45, "title": "【相談】町内の公衆電話に忘れ物したら、知らない人から家に届いた", "category": 12, "category_name": "雑談", "responses": 141, "date": "10/14"}, {"id": 44, "title": "【相談】商店街の福引きで「店長を一日貸します」が当たったんだが", "category": 12, "category_name": "雑談", "responses": 119, "date": "10/14"}, {"id": 43, "title": "【相談】中古で買った机の引き出しに「未来の俺」からの苦情が入ってた", "category": 14, "category_name": "オカルト", "responses": 140, "date": "10/14"}, {"id": 42, "title": "【相談】隣の部屋の目覚まし時計、毎朝俺の名前を呼んでる気がする", "category": 14, "category_name": "オカルト", "responses": 108, "date": "10/14"}, {"id": 41, "title": "【検証】うちの冷蔵庫、プリンを入れると翌朝必ず逆向きになってる  コピー", "category": 15, "category_name": "生活", "responses": 60, "date": "10/14"}, {"id": 40, "title": "【悲報】町内会の回覧板、俺のところだけ毎回ちょっと温かい   コピー", "category": 12, "category_name": "雑談", "responses": 40, "date": "10/14"}, {"id": 39, "title": "【謎】選挙ポスターの候補者、全員同じ写真館で撮ってる説ｗｗｗ", "category": 5, "category_name": "政治", "responses": 0, "date": "10/09"}, {"id": 38, "title": "【悲報】市役所の意見箱に「意見箱が高すぎる」と投書した結果ｗｗｗ", "category": 6, "category_name": "社会", "responses": 0, "date": "10/09"}, {"id": 37, "title": "【検証】パソコンの時計を2099年にしたらネットが未来になるのか試した結果ｗｗｗ", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/09"}, {"id": 36, "title": "【実況】町内の将棋大会に小学生が来たんだが、誰も勝てない", "category": 12, "category_name": "雑談", "responses": 0, "date": "10/09"}, {"id": 35, "title": "【謎】商店街に「水曜日は存在しません」って看板が立ってる", "category": 9, "category_name": "地域", "responses": 0, "date": "10/08"}, {"id": 34, "title": "【悲報】親父がインターネットを印刷して保存してる", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/08"}, {"id": 33, "title": "【ADSL】12M契約したのに速度が出ない件", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/08"}, {"id": 32, "title": "平成が終わる前に捨てたいもの", "category": 15, "category_name": "生活", "responses": 0, "date": "10/08"}, {"id": 31, "title": "ガラケー使ってるだけで馬鹿にされる時代", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/08"}, {"id": 30, "title": "Wii買ったのに家族が誰も遊んでくれない", "category": 7, "category_name": "ゲーム", "responses": 0, "date": "10/08"}, {"id": 29, "title": "おまいら今何の着メロにしてる？", "category": 12, "category_name": "雑談", "responses": 0, "date": "10/08"}, {"id": 28, "title": "深夜2時になると隣の空き部屋から電話が鳴る", "category": 14, "category_name": "オカルト", "responses": 0, "date": "10/08"}, {"id": 27, "title": "【運営】猫じろう掲示板へようこそ", "category": 16, "category_name": "運営・隔離", "responses": 0, "date": "10/08"}, {"id": 26, "title": "【相談】隣の家の雪かきを勝手にやったら怒られた", "category": 15, "category_name": "生活", "responses": 0, "date": "10/08"}, {"id": 25, "title": "【相談】留守中に留守電が入ってるんだが", "category": 14, "category_name": "オカルト", "responses": 0, "date": "10/08"}, {"id": 24, "title": "【助けて】ラスボス倒したのにエンディングが始まらない", "category": 7, "category_name": "ゲーム", "responses": 0, "date": "10/08"}, {"id": 23, "title": "【検証】この掲示板、管理人が名無しで書き込んでるだろ", "category": 11, "category_name": "掲示板史", "responses": 0, "date": "10/08"}, {"id": 22, "title": "【急募】隣の部屋から毎晩拍手が聞こえる", "category": 12, "category_name": "雑談", "responses": 0, "date": "10/08"}, {"id": 21, "title": "【自治】固定ハンドルが増えすぎて名無しが書き込めない件", "category": 11, "category_name": "掲示板史", "responses": 0, "date": "10/08"}, {"id": 20, "title": "【政治】高市首相「仕事で返せ」簗農水相の予算カット発言、まだ終わらない", "category": 5, "category_name": "政治", "responses": 0, "date": "10/08"}, {"id": 19, "title": "【悲報】49歳男性「彼女ができるかも」→3255万円消える", "category": 10, "category_name": "事件", "responses": 0, "date": "10/08"}, {"id": 18, "title": "【熊出没】埼玉県民「秩父なら普通だろ」→駅の近くだった", "category": 9, "category_name": "地域", "responses": 0, "date": "10/08"}, {"id": 17, "title": "【地震】関東、朝から揺れすぎじゃね？", "category": 8, "category_name": "災害", "responses": 0, "date": "10/08"}, {"id": 16, "title": "【朗報】大谷翔平、102打席ホームランなしでもシャンパンファイトを満喫", "category": 4, "category_name": "スポーツ", "responses": 0, "date": "10/08"}, {"id": 15, "title": "朗報】Google「画像生成AI半額にしたぞ」", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/08"}, {"id": 14, "title": "【悲報】PC民、GTA6が遊べると思ったら遊べなかった", "category": 7, "category_name": "ゲーム", "responses": 0, "date": "10/08"}, {"id": 13, "title": "台風27号、逝く", "category": 6, "category_name": "社会", "responses": 0, "date": "10/08"}, {"id": 12, "title": "【AI】Qwen、指示されてないのに自分のモデルを再学習　バグ修正でまさかの本体改造", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/08"}, {"id": 11, "title": "【また不正アクセス】損保ジャパン、顧客情報延べ約6万件が漏えいした可能性　委託先が被害", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/08"}, {"id": 10, "title": "【Qilin】「日本は世界最悪のセキュリティ体制を持つ国のひとつ」日本への攻撃増加にも言及", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/08"}, {"id": 9, "title": "【相撲】旧高砂部屋ビル解体へ　小錦さん、水戸泉が語る「あの頃」の記憶", "category": 4, "category_name": "スポーツ", "responses": 0, "date": "10/08"}, {"id": 8, "title": "【立憲】「食料品消費税ゼロ」から給付中心へ方針転換　物価高対策", "category": 5, "category_name": "政治", "responses": 0, "date": "10/08"}, {"id": 7, "title": "【広島】矢野雅哉に戦力外通告「まだまだ野球を続けたい」現役続行へ準備", "category": 4, "category_name": "スポーツ", "responses": 0, "date": "10/08"}, {"id": 6, "title": "【サイバー攻撃】ソフトバンク子会社にランサムウェア攻撃　自治体HPなど閲覧不能、495の企業・自治体に影響", "category": 3, "category_name": "IT・ネット", "responses": 0, "date": "10/08"}, {"id": 5, "title": "【悲報】人気生ドーナツ店「PIECE OF BAKE」突然の全店休業　運営会社が破産申請へ", "category": 2, "category_name": "経済", "responses": 0, "date": "10/07"}, {"id": 4, "title": "【ノーベル賞】硤合憲三さん、受賞の知らせはスーパーで買い物中ｗｗｗ", "category": 1, "category_name": "科学・技術", "responses": 0, "date": "10/07"}]}
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "科学・技術",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "name": "経済",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "name": "IT・ネット",
+      "count": 12
+    },
+    {
+      "id": 4,
+      "name": "スポーツ",
+      "count": 8
+    },
+    {
+      "id": 5,
+      "name": "政治",
+      "count": 5
+    },
+    {
+      "id": 6,
+      "name": "社会",
+      "count": 2
+    },
+    {
+      "id": 7,
+      "name": "ゲーム",
+      "count": 8
+    },
+    {
+      "id": 8,
+      "name": "災害",
+      "count": 2
+    },
+    {
+      "id": 9,
+      "name": "地域",
+      "count": 2
+    },
+    {
+      "id": 10,
+      "name": "事件",
+      "count": 1
+    },
+    {
+      "id": 11,
+      "name": "掲示板史",
+      "count": 2
+    },
+    {
+      "id": 12,
+      "name": "雑談",
+      "count": 8
+    },
+    {
+      "id": 14,
+      "name": "オカルト",
+      "count": 46
+    },
+    {
+      "id": 15,
+      "name": "生活",
+      "count": 17
+    },
+    {
+      "id": 16,
+      "name": "運営・隔離",
+      "count": 5
+    },
+    {
+      "id": 18,
+      "name": "ニュース速報",
+      "count": 17
+    },
+    {
+      "id": 19,
+      "name": "独身男性板",
+      "count": 1
+    },
+    {
+      "id": 20,
+      "name": "家具板",
+      "count": 2
+    },
+    {
+      "id": 21,
+      "name": "美容板",
+      "count": 0
+    },
+    {
+      "id": 22,
+      "name": "ほのぼの板",
+      "count": 0
+    },
+    {
+      "id": 23,
+      "name": "哲学板",
+      "count": 1
+    },
+    {
+      "id": 24,
+      "name": "民俗・神話学板",
+      "count": 0
+    },
+    {
+      "id": 25,
+      "name": "心理学板",
+      "count": 0
+    },
+    {
+      "id": 26,
+      "name": "詩・ポエム板",
+      "count": 0
+    },
+    {
+      "id": 27,
+      "name": "日本史板",
+      "count": 8
+    },
+    {
+      "id": 28,
+      "name": "考古学板",
+      "count": 0
+    },
+    {
+      "id": 29,
+      "name": "地理・人類学板",
+      "count": 0
+    },
+    {
+      "id": 30,
+      "name": "数学板",
+      "count": 0
+    },
+    {
+      "id": 31,
+      "name": "化学板",
+      "count": 0
+    },
+    {
+      "id": 32,
+      "name": "天文・気象板",
+      "count": 0
+    },
+    {
+      "id": 33,
+      "name": "芸術デザイン板",
+      "count": 0
+    },
+    {
+      "id": 34,
+      "name": "文学板",
+      "count": 0
+    },
+    {
+      "id": 35,
+      "name": "歴史板",
+      "count": 0
+    },
+    {
+      "id": 36,
+      "name": "オカルト板",
+      "count": 0
+    },
+    {
+      "id": 37,
+      "name": "世界史板",
+      "count": 0
+    },
+    {
+      "id": 38,
+      "name": "言語学板",
+      "count": 0
+    },
+    {
+      "id": 39,
+      "name": "社会学板",
+      "count": 0
+    },
+    {
+      "id": 40,
+      "name": "物理板",
+      "count": 0
+    },
+    {
+      "id": 41,
+      "name": "生物板",
+      "count": 0
+    },
+    {
+      "id": 42,
+      "name": "教育学板",
+      "count": 0
+    },
+    {
+      "id": 43,
+      "name": "美術鑑賞板",
+      "count": 0
+    },
+    {
+      "id": 44,
+      "name": "なんでもあり板",
+      "count": 0
+    },
+    {
+      "id": 45,
+      "name": "独身女性限定板",
+      "count": 0
+    },
+    {
+      "id": 46,
+      "name": "モテない女性板",
+      "count": 0
+    },
+    {
+      "id": 47,
+      "name": "カップル板",
+      "count": 0
+    },
+    {
+      "id": 48,
+      "name": "純情恋愛板",
+      "count": 0
+    },
+    {
+      "id": 49,
+      "name": "人生相談板",
+      "count": 0
+    },
+    {
+      "id": 50,
+      "name": "電波・お花畑板",
+      "count": 0
+    },
+    {
+      "id": 51,
+      "name": "ガイドライン板",
+      "count": 7
+    },
+    {
+      "id": 52,
+      "name": "顔文字板",
+      "count": 0
+    },
+    {
+      "id": 53,
+      "name": "ラウンジ板",
+      "count": 0
+    },
+    {
+      "id": 54,
+      "name": "天国板",
+      "count": 0
+    },
+    {
+      "id": 55,
+      "name": "夢・独り言板",
+      "count": 0
+    },
+    {
+      "id": 56,
+      "name": "モテない男性板",
+      "count": 0
+    },
+    {
+      "id": 57,
+      "name": "孤独な男性板",
+      "count": 0
+    },
+    {
+      "id": 58,
+      "name": "恋愛サロン板",
+      "count": 1
+    },
+    {
+      "id": 59,
+      "name": "失恋板",
+      "count": 3
+    },
+    {
+      "id": 60,
+      "name": "お笑い小咄板",
+      "count": 0
+    },
+    {
+      "id": 61,
+      "name": "バカニュース板",
+      "count": 0
+    },
+    {
+      "id": 62,
+      "name": "AAサロン板",
+      "count": 0
+    },
+    {
+      "id": 63,
+      "name": "モナー板",
+      "count": 0
+    },
+    {
+      "id": 64,
+      "name": "ニュー速VIP板",
+      "count": 0
+    },
+    {
+      "id": 65,
+      "name": "シベリア超速報板",
+      "count": 0
+    },
+    {
+      "id": 66,
+      "name": "生活全般板",
+      "count": 0
+    },
+    {
+      "id": 67,
+      "name": "家庭板",
+      "count": 0
+    },
+    {
+      "id": 68,
+      "name": "掃除全般板",
+      "count": 0
+    },
+    {
+      "id": 69,
+      "name": "既婚女性板",
+      "count": 2
+    },
+    {
+      "id": 70,
+      "name": "冠婚葬祭板",
+      "count": 0
+    },
+    {
+      "id": 71,
+      "name": "お風呂・銭湯板",
+      "count": 0
+    },
+    {
+      "id": 72,
+      "name": "化粧板",
+      "count": 0
+    },
+    {
+      "id": 73,
+      "name": "身体・健康板",
+      "count": 0
+    },
+    {
+      "id": 74,
+      "name": "料理板",
+      "count": 0
+    },
+    {
+      "id": 75,
+      "name": "生活サロン板",
+      "count": 0
+    },
+    {
+      "id": 76,
+      "name": "一人暮らし板",
+      "count": 1
+    },
+    {
+      "id": 77,
+      "name": "育児板",
+      "count": 1
+    },
+    {
+      "id": 78,
+      "name": "既婚男性板",
+      "count": 0
+    },
+    {
+      "id": 79,
+      "name": "通販・買い物板",
+      "count": 0
+    },
+    {
+      "id": 80,
+      "name": "DIY板",
+      "count": 0
+    },
+    {
+      "id": 81,
+      "name": "ファッション板",
+      "count": 1
+    },
+    {
+      "id": 82,
+      "name": "ダイエット板",
+      "count": 0
+    },
+    {
+      "id": 83,
+      "name": "大学生活板",
+      "count": 3
+    },
+    {
+      "id": 84,
+      "name": "学歴板",
+      "count": 3
+    },
+    {
+      "id": 85,
+      "name": "教育・先生板",
+      "count": 0
+    },
+    {
+      "id": 86,
+      "name": "就職板",
+      "count": 0
+    },
+    {
+      "id": 87,
+      "name": "公務員板",
+      "count": 0
+    },
+    {
+      "id": 88,
+      "name": "派遣業界板",
+      "count": 0
+    },
+    {
+      "id": 89,
+      "name": "経営学板",
+      "count": 1
+    },
+    {
+      "id": 90,
+      "name": "店舗運営板",
+      "count": 0
+    },
+    {
+      "id": 91,
+      "name": "大学受験板",
+      "count": 0
+    },
+    {
+      "id": 92,
+      "name": "専門学校板",
+      "count": 0
+    },
+    {
+      "id": 93,
+      "name": "アルバイト板",
+      "count": 0
+    },
+    {
+      "id": 94,
+      "name": "転職板",
+      "count": 0
+    },
+    {
+      "id": 95,
+      "name": "リーマン板",
+      "count": 0
+    },
+    {
+      "id": 96,
+      "name": "資格全般板",
+      "count": 0
+    },
+    {
+      "id": 97,
+      "name": "税金経理会計板",
+      "count": 0
+    },
+    {
+      "id": 98,
+      "name": "自作PC板",
+      "count": 3
+    },
+    {
+      "id": 99,
+      "name": "PC初心者板",
+      "count": 0
+    },
+    {
+      "id": 100,
+      "name": "ハードウェア板",
+      "count": 0
+    },
+    {
+      "id": 101,
+      "name": "Windows板",
+      "count": 0
+    },
+    {
+      "id": 102,
+      "name": "Mac板",
+      "count": 0
+    },
+    {
+      "id": 103,
+      "name": "プログラム板",
+      "count": 1
+    },
+    {
+      "id": 104,
+      "name": "ネットワーク板",
+      "count": 0
+    },
+    {
+      "id": 105,
+      "name": "インターネット板",
+      "count": 0
+    },
+    {
+      "id": 106,
+      "name": "携帯・PHS板",
+      "count": 0
+    },
+    {
+      "id": 107,
+      "name": "携帯コンテンツ板",
+      "count": 0
+    },
+    {
+      "id": 108,
+      "name": "ネットサービス板",
+      "count": 0
+    },
+    {
+      "id": 109,
+      "name": "パソコン一般板",
+      "count": 0
+    },
+    {
+      "id": 110,
+      "name": "ノートPC板",
+      "count": 0
+    },
+    {
+      "id": 111,
+      "name": "ソフトウェア板",
+      "count": 0
+    },
+    {
+      "id": 112,
+      "name": "Linux板",
+      "count": 0
+    },
+    {
+      "id": 113,
+      "name": "プログラマー板",
+      "count": 2
+    },
+    {
+      "id": 114,
+      "name": "Web制作板",
+      "count": 0
+    },
+    {
+      "id": 115,
+      "name": "セキュリティ板",
+      "count": 0
+    },
+    {
+      "id": 116,
+      "name": "プロバイダー板",
+      "count": 0
+    },
+    {
+      "id": 117,
+      "name": "携帯機種板",
+      "count": 0
+    },
+    {
+      "id": 118,
+      "name": "ブログ板",
+      "count": 0
+    },
+    {
+      "id": 119,
+      "name": "家庭用ゲーム板",
+      "count": 0
+    },
+    {
+      "id": 120,
+      "name": "ゲームサロン板",
+      "count": 0
+    },
+    {
+      "id": 121,
+      "name": "レトロゲーム板",
+      "count": 0
+    },
+    {
+      "id": 122,
+      "name": "ゲーム音楽板",
+      "count": 0
+    },
+    {
+      "id": 123,
+      "name": "携帯ゲーソフト板",
+      "count": 0
+    },
+    {
+      "id": 124,
+      "name": "アーケード板",
+      "count": 0
+    },
+    {
+      "id": 125,
+      "name": "シューティング板",
+      "count": 0
+    },
+    {
+      "id": 126,
+      "name": "ネトゲ実況板",
+      "count": 0
+    },
+    {
+      "id": 127,
+      "name": "大規模MMO板",
+      "count": 0
+    },
+    {
+      "id": 128,
+      "name": "PCゲーム板",
+      "count": 0
+    },
+    {
+      "id": 129,
+      "name": "将棋・チェス板",
+      "count": 0
+    },
+    {
+      "id": 130,
+      "name": "クイズ雑学板",
+      "count": 0
+    },
+    {
+      "id": 131,
+      "name": "家ゲーRPG板",
+      "count": 0
+    },
+    {
+      "id": 132,
+      "name": "ゲーム速報板",
+      "count": 0
+    },
+    {
+      "id": 133,
+      "name": "レトロ32bit以上板",
+      "count": 0
+    },
+    {
+      "id": 134,
+      "name": "ゲーム業界、ハードウェア板",
+      "count": 0
+    },
+    {
+      "id": 135,
+      "name": "携帯ゲーRPG板",
+      "count": 0
+    },
+    {
+      "id": 136,
+      "name": "格闘ゲーム板",
+      "count": 0
+    },
+    {
+      "id": 137,
+      "name": "音ゲー板",
+      "count": 0
+    },
+    {
+      "id": 138,
+      "name": "ネトゲ質問板",
+      "count": 0
+    },
+    {
+      "id": 139,
+      "name": "小規模MMO板",
+      "count": 0
+    },
+    {
+      "id": 140,
+      "name": "同人ゲーム板",
+      "count": 0
+    },
+    {
+      "id": 141,
+      "name": "囲碁・オセロ板",
+      "count": 0
+    },
+    {
+      "id": 142,
+      "name": "漫画板",
+      "count": 3
+    },
+    {
+      "id": 143,
+      "name": "懐かし漫画板",
+      "count": 0
+    },
+    {
+      "id": 144,
+      "name": "週刊少年漫画板",
+      "count": 0
+    },
+    {
+      "id": 145,
+      "name": "アニメ板",
+      "count": 0
+    },
+    {
+      "id": 146,
+      "name": "アニメサロン板",
+      "count": 0
+    },
+    {
+      "id": 147,
+      "name": "懐かしアニメ平成板",
+      "count": 0
+    },
+    {
+      "id": 148,
+      "name": "声優個人板",
+      "count": 0
+    },
+    {
+      "id": 149,
+      "name": "同人板",
+      "count": 0
+    },
+    {
+      "id": 150,
+      "name": "SF・FT・ホラー板",
+      "count": 0
+    },
+    {
+      "id": 151,
+      "name": "漫画サロン板",
+      "count": 0
+    },
+    {
+      "id": 152,
+      "name": "少年漫画板",
+      "count": 0
+    },
+    {
+      "id": 153,
+      "name": "少女漫画板",
+      "count": 0
+    },
+    {
+      "id": 154,
+      "name": "アニメ２板",
+      "count": 0
+    },
+    {
+      "id": 155,
+      "name": "懐かしアニメ昭和板",
+      "count": 0
+    },
+    {
+      "id": 156,
+      "name": "声優総合板",
+      "count": 0
+    },
+    {
+      "id": 157,
+      "name": "特撮！板",
+      "count": 0
+    },
+    {
+      "id": 158,
+      "name": "ライトノベル板",
+      "count": 0
+    },
+    {
+      "id": 159,
+      "name": "音楽一般板",
+      "count": 5
+    },
+    {
+      "id": 160,
+      "name": "邦楽サロン板",
+      "count": 0
+    },
+    {
+      "id": 161,
+      "name": "邦楽女性ソロ板",
+      "count": 0
+    },
+    {
+      "id": 162,
+      "name": "洋楽板",
+      "count": 0
+    },
+    {
+      "id": 163,
+      "name": "ジャズ板",
+      "count": 0
+    },
+    {
+      "id": 164,
+      "name": "パンク板",
+      "count": 0
+    },
+    {
+      "id": 165,
+      "name": "楽器・作曲板",
+      "count": 0
+    },
+    {
+      "id": 166,
+      "name": "映画一般・8mm板",
+      "count": 0
+    },
+    {
+      "id": 167,
+      "name": "懐かし邦画板",
+      "count": 0
+    },
+    {
+      "id": 168,
+      "name": "テレビ番組板",
+      "count": 1
+    },
+    {
+      "id": 169,
+      "name": "テレビドラマ板",
+      "count": 9
+    },
+    {
+      "id": 170,
+      "name": "お笑い芸人板",
+      "count": 0
+    },
+    {
+      "id": 171,
+      "name": "ラジオ番組板",
+      "count": 8
+    },
+    {
+      "id": 172,
+      "name": "邦楽板",
+      "count": 0
+    },
+    {
+      "id": 173,
+      "name": "邦楽男性ソロ板",
+      "count": 0
+    },
+    {
+      "id": 174,
+      "name": "邦楽グループ板",
+      "count": 0
+    },
+    {
+      "id": 175,
+      "name": "クラシック板",
+      "count": 0
+    },
+    {
+      "id": 176,
+      "name": "HR・HM板",
+      "count": 0
+    },
+    {
+      "id": 177,
+      "name": "インディーズ板",
+      "count": 0
+    },
+    {
+      "id": 178,
+      "name": "カラオケ板",
+      "count": 0
+    },
+    {
+      "id": 179,
+      "name": "映画作品・人板",
+      "count": 0
+    },
+    {
+      "id": 180,
+      "name": "懐かし洋画板",
+      "count": 0
+    },
+    {
+      "id": 181,
+      "name": "懐かしテレビ板",
+      "count": 0
+    },
+    {
+      "id": 182,
+      "name": "懐かしドラマ板",
+      "count": 0
+    },
+    {
+      "id": 183,
+      "name": "芸能板",
+      "count": 0
+    },
+    {
+      "id": 184,
+      "name": "趣味一般板",
+      "count": 1
+    },
+    {
+      "id": 185,
+      "name": "カメラ板",
+      "count": 0
+    },
+    {
+      "id": 186,
+      "name": "文房具板",
+      "count": 0
+    },
+    {
+      "id": 187,
+      "name": "模型・プラモ板",
+      "count": 0
+    },
+    {
+      "id": 188,
+      "name": "鉄道路線・車両板",
+      "count": 0
+    },
+    {
+      "id": 189,
+      "name": "車板",
+      "count": 1
+    },
+    {
+      "id": 190,
+      "name": "バイク板",
+      "count": 0
+    },
+    {
+      "id": 191,
+      "name": "航空・船舶板",
+      "count": 0
+    },
+    {
+      "id": 192,
+      "name": "海外旅行板",
+      "count": 0
+    },
+    {
+      "id": 193,
+      "name": "釣り板",
+      "count": 0
+    },
+    {
+      "id": 194,
+      "name": "ペット大好き板",
+      "count": 0
+    },
+    {
+      "id": 195,
+      "name": "アクアリウム板",
+      "count": 0
+    },
+    {
+      "id": 196,
+      "name": "写真撮影板",
+      "count": 0
+    },
+    {
+      "id": 197,
+      "name": "デジカメ板",
+      "count": 0
+    },
+    {
+      "id": 198,
+      "name": "時計・小物板",
+      "count": 1
+    },
+    {
+      "id": 199,
+      "name": "鉄道総合板",
+      "count": 0
+    },
+    {
+      "id": 200,
+      "name": "バス・バス路線板",
+      "count": 0
+    },
+    {
+      "id": 201,
+      "name": "車種・メーカー板",
+      "count": 1
+    },
+    {
+      "id": 202,
+      "name": "自転車板",
+      "count": 0
+    },
+    {
+      "id": 203,
+      "name": "国内旅行板",
+      "count": 0
+    },
+    {
+      "id": 204,
+      "name": "登山キャンプ板",
+      "count": 0
+    },
+    {
+      "id": 205,
+      "name": "園芸板",
+      "count": 0
+    },
+    {
+      "id": 206,
+      "name": "犬猫大好き板",
+      "count": 3
+    },
+    {
+      "id": 207,
+      "name": "食べ物板",
+      "count": 2
+    },
+    {
+      "id": 208,
+      "name": "グルメ外食板",
+      "count": 0
+    },
+    {
+      "id": 209,
+      "name": "ラーメン板",
+      "count": 0
+    },
+    {
+      "id": 210,
+      "name": "カレー板",
+      "count": 1
+    },
+    {
+      "id": 211,
+      "name": "パン板",
+      "count": 0
+    },
+    {
+      "id": 212,
+      "name": "ソフトドリンク板",
+      "count": 0
+    },
+    {
+      "id": 213,
+      "name": "居酒屋板",
+      "count": 0
+    },
+    {
+      "id": 214,
+      "name": "レシピ板",
+      "count": 0
+    },
+    {
+      "id": 215,
+      "name": "Ｂ級グルメ板",
+      "count": 0
+    },
+    {
+      "id": 216,
+      "name": "そば・うどん板",
+      "count": 0
+    },
+    {
+      "id": 217,
+      "name": "お菓子板",
+      "count": 0
+    },
+    {
+      "id": 218,
+      "name": "お茶・珈琲板",
+      "count": 0
+    },
+    {
+      "id": 219,
+      "name": "酒・Bar板",
+      "count": 0
+    },
+    {
+      "id": 220,
+      "name": "スポーツサロン板",
+      "count": 0
+    },
+    {
+      "id": 221,
+      "name": "野球総合板",
+      "count": 0
+    },
+    {
+      "id": 222,
+      "name": "国内サッカー板",
+      "count": 0
+    },
+    {
+      "id": 223,
+      "name": "日本代表蹴球板",
+      "count": 0
+    },
+    {
+      "id": 224,
+      "name": "テニス板",
+      "count": 0
+    },
+    {
+      "id": 225,
+      "name": "陸上競技板",
+      "count": 0
+    },
+    {
+      "id": 226,
+      "name": "相撲板",
+      "count": 0
+    },
+    {
+      "id": 227,
+      "name": "格闘技板",
+      "count": 0
+    },
+    {
+      "id": 228,
+      "name": "武道・武芸板",
+      "count": 0
+    },
+    {
+      "id": 229,
+      "name": "ゴルフ板",
+      "count": 0
+    },
+    {
+      "id": 230,
+      "name": "プロ野球板",
+      "count": 2
+    },
+    {
+      "id": 231,
+      "name": "高校野球板",
+      "count": 0
+    },
+    {
+      "id": 232,
+      "name": "海外サッカー板",
+      "count": 0
+    },
+    {
+      "id": 233,
+      "name": "バスケット板",
+      "count": 0
+    },
+    {
+      "id": 234,
+      "name": "卓球板",
+      "count": 0
+    },
+    {
+      "id": 235,
+      "name": "水泳板",
+      "count": 1
+    },
+    {
+      "id": 236,
+      "name": "プロレス板",
+      "count": 1
+    },
+    {
+      "id": 237,
+      "name": "ボクシング板",
+      "count": 0
+    },
+    {
+      "id": 238,
+      "name": "スキースノボ板",
+      "count": 0
+    },
+    {
+      "id": 239,
+      "name": "オリンピック板",
+      "count": 0
+    },
+    {
+      "id": 240,
+      "name": "ニュース速報板",
+      "count": 0
+    },
+    {
+      "id": 241,
+      "name": "芸スポ速報+板",
+      "count": 1
+    },
+    {
+      "id": 242,
+      "name": "科学ニュース+板",
+      "count": 0
+    },
+    {
+      "id": 243,
+      "name": "懐かしニュース板",
+      "count": 0
+    },
+    {
+      "id": 244,
+      "name": "社会・世評板",
+      "count": 0
+    },
+    {
+      "id": 245,
+      "name": "経済板",
+      "count": 0
+    },
+    {
+      "id": 246,
+      "name": "市況1板",
+      "count": 1
+    },
+    {
+      "id": 247,
+      "name": "金融板",
+      "count": 0
+    },
+    {
+      "id": 248,
+      "name": "警察板",
+      "count": 0
+    },
+    {
+      "id": 249,
+      "name": "環境・電力板",
+      "count": 0
+    },
+    {
+      "id": 250,
+      "name": "ニュース速報+板",
+      "count": 0
+    },
+    {
+      "id": 251,
+      "name": "ビジネスnews+板",
+      "count": 0
+    },
+    {
+      "id": 252,
+      "name": "ニュース議論板",
+      "count": 0
+    },
+    {
+      "id": 253,
+      "name": "交通情報板",
+      "count": 0
+    },
+    {
+      "id": 254,
+      "name": "政治板",
+      "count": 0
+    },
+    {
+      "id": 255,
+      "name": "株式板",
+      "count": 0
+    },
+    {
+      "id": 256,
+      "name": "市況2板",
+      "count": 7
+    },
+    {
+      "id": 257,
+      "name": "法律勉強相談板",
+      "count": 0
+    },
+    {
+      "id": 258,
+      "name": "消防救急防災板",
+      "count": 0
+    },
+    {
+      "id": 259,
+      "name": "地方自治知事板",
+      "count": 0
+    },
+    {
+      "id": 260,
+      "name": "北海道板",
+      "count": 0
+    },
+    {
+      "id": 261,
+      "name": "東京板",
+      "count": 0
+    },
+    {
+      "id": 262,
+      "name": "神奈川板",
+      "count": 0
+    },
+    {
+      "id": 263,
+      "name": "北陸・甲信越板",
+      "count": 0
+    },
+    {
+      "id": 264,
+      "name": "近畿板",
+      "count": 0
+    },
+    {
+      "id": 265,
+      "name": "東北板",
+      "count": 0
+    },
+    {
+      "id": 266,
+      "name": "多摩板",
+      "count": 0
+    },
+    {
+      "id": 267,
+      "name": "関東板",
+      "count": 0
+    },
+    {
+      "id": 268,
+      "name": "東海板",
+      "count": 0
+    },
+    {
+      "id": 269,
+      "name": "大阪板",
+      "count": 0
+    },
+    {
+      "id": 270,
+      "name": "中国板",
+      "count": 0
+    },
+    {
+      "id": 271,
+      "name": "四国板",
+      "count": 0
+    },
+    {
+      "id": 272,
+      "name": "九州板",
+      "count": 0
+    },
+    {
+      "id": 273,
+      "name": "沖縄板",
+      "count": 0
+    }
+  ],
+  "threads": [
+    {
+      "id": 232,
+      "title": "【相談】もしも黒沼が校長の学校があったら、朝礼は何分で終わる？",
+      "category": 12,
+      "category_name": "雑談",
+      "date": "11/14",
+      "contentPath": "content/board/232.json",
+      "responses": 84
+    },
+    {
+      "id": 231,
+      "title": "【秋ドラマ】1位は「救命病棟24時」88票、2位「VIVANT」85票　わずか3票差の人気投票",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/231.json",
+      "responses": 81
+    },
+    {
+      "id": 230,
+      "title": "【支援金】勤労者の5割以上を対象に検討、子2人世帯は最大年6万円　参院で消費減税法案審議",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/230.json",
+      "responses": 100
+    },
+    {
+      "id": 229,
+      "title": "【神奈川】海老名の2人死亡ひき逃げ、49歳会社員を逮捕　容疑を否認",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/229.json",
+      "responses": 126
+    },
+    {
+      "id": 228,
+      "title": "【札幌】マンションの灯油36リットル盗んだ疑い、57歳男を現行犯逮捕　「お金がもったいなくて」",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/228.json",
+      "responses": 126
+    },
+    {
+      "id": 227,
+      "title": "ロシアがJT現地7社を一時管理下に　サハリン2への波及も懸念",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/227.json",
+      "responses": 123
+    },
+    {
+      "id": 226,
+      "title": "Microsoft 365障害、一部メール復旧も全面復旧は未定　待ち続ける職場に混乱",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/226.json",
+      "responses": 125
+    },
+    {
+      "id": 225,
+      "title": "NVIDIAフアン氏辞任の余波、米ラトニック商務長官の更迭も協議か",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/225.json",
+      "responses": 124
+    },
+    {
+      "id": 224,
+      "title": "トランプ氏「イランとの合意不要」バンス副大統領には国内問題への注力指示",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/224.json",
+      "responses": 123
+    },
+    {
+      "id": 223,
+      "title": "NVIDIAフアンCEO辞任、33年の経営に幕　暫定CEOはクレス氏",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "11/14",
+      "contentPath": "content/board/223.json",
+      "responses": 121
+    },
+    {
+      "id": 222,
+      "title": "黒沼の街っていう都市伝説、知ってる奴いる？",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "11/13",
+      "contentPath": "content/board/222.json",
+      "responses": 137
+    },
+    {
+      "id": 221,
+      "title": "ラジオの録音を自動で切り分けたいんだが",
+      "category": 113,
+      "category_name": "プログラマー板",
+      "date": "11/12",
+      "contentPath": "content/board/221.json",
+      "responses": 156
+    },
+    {
+      "id": 220,
+      "title": "学祭の代わりにオンライン新歓やることになったんだが",
+      "category": 83,
+      "category_name": "大学生活板",
+      "date": "11/12",
+      "contentPath": "content/board/220.json",
+      "responses": 188
+    },
+    {
+      "id": 219,
+      "title": "宿屋の選択肢がセーブ後だけおかしくなるんだが",
+      "category": 113,
+      "category_name": "プログラマー板",
+      "date": "11/12",
+      "contentPath": "content/board/219.json",
+      "responses": 145
+    },
+    {
+      "id": 218,
+      "title": "町内会の回覧板をPDFにしたら文字がずれるんだけど",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "11/12",
+      "contentPath": "content/board/218.json",
+      "responses": 1
+    },
+    {
+      "id": 217,
+      "title": "古いカセットの片側だけ音が小さいんだが直せる？",
+      "category": 159,
+      "category_name": "音楽一般板",
+      "date": "11/12",
+      "contentPath": "content/board/217.json",
+      "responses": 1
+    },
+    {
+      "id": 216,
+      "title": "PythonのCSV処理がたまに二重登録になるんだが原因が分からない",
+      "category": 103,
+      "category_name": "プログラム板",
+      "date": "11/12",
+      "contentPath": "content/board/216.json",
+      "responses": 1
+    },
+    {
+      "id": 215,
+      "title": "黒沼幻司のラジオで雨の日の音を集めたいのですが",
+      "category": 171,
+      "category_name": "ラジオ番組板",
+      "date": "11/12",
+      "contentPath": "content/board/215.json",
+      "responses": 1
+    },
+    {
+      "id": 214,
+      "title": "黒沼幻司のラジオで近所の音を紹介したいのですが",
+      "category": 0,
+      "category_name": "未分類",
+      "date": "11/11",
+      "contentPath": "content/board/214.json",
+      "responses": 1
+    },
+    {
+      "id": 213,
+      "title": "黒沼幻司のラジオで使う足音を作りたいのですが",
+      "category": 171,
+      "category_name": "ラジオ番組板",
+      "date": "11/11",
+      "contentPath": "content/board/213.json",
+      "responses": 1
+    },
+    {
+      "id": 212,
+      "title": "黒沼幻司のラジオ、次回から電話相談を始めたいのですが",
+      "category": 171,
+      "category_name": "ラジオ番組板",
+      "date": "11/11",
+      "contentPath": "content/board/212.json",
+      "responses": 1
+    },
+    {
+      "id": 211,
+      "title": "黒沼幻司のラジオ、番組のジングルを募集します",
+      "category": 171,
+      "category_name": "ラジオ番組板",
+      "date": "11/11",
+      "contentPath": "content/board/211.json",
+      "responses": 1
+    },
+    {
+      "id": 210,
+      "title": "黒沼幻司のラジオ、公開収録の席札をどうするか",
+      "category": 171,
+      "category_name": "ラジオ番組板",
+      "date": "11/11",
+      "contentPath": "content/board/210.json",
+      "responses": 1
+    },
+    {
+      "id": 209,
+      "title": "黒沼幻司のラジオ、公開収録の観覧者を探しています",
+      "category": 171,
+      "category_name": "ラジオ番組板",
+      "date": "11/11",
+      "contentPath": "content/board/209.json",
+      "responses": 1
+    },
+    {
+      "id": 208,
+      "title": "黒沼幻司の深夜ラジオ、リスナー感謝企画のお知らせ",
+      "category": 0,
+      "category_name": "未分類",
+      "date": "11/11",
+      "contentPath": "content/board/208.json",
+      "responses": 1
+    },
+    {
+      "id": 207,
+      "title": "黒沼幻司の深夜ラジオ、先週のお便りについて",
+      "category": 171,
+      "category_name": "ラジオ番組板",
+      "date": "11/11",
+      "contentPath": "content/board/207.json",
+      "responses": 1
+    },
+    {
+      "id": 206,
+      "title": "黒沼幻司の深夜ラジオ、今夜の放送について",
+      "category": 171,
+      "category_name": "ラジオ番組板",
+      "date": "11/11",
+      "contentPath": "content/board/206.json",
+      "responses": 133
+    },
+    {
+      "id": 205,
+      "title": "親父が古地図を信じて庭を掘ろうとしてるんだが",
+      "category": 27,
+      "category_name": "日本史板",
+      "date": "11/09",
+      "contentPath": "content/board/205.json",
+      "responses": 123
+    },
+    {
+      "id": 204,
+      "title": "祖母が戦国武将の名前で家族を呼び始めたんだが",
+      "category": 27,
+      "category_name": "日本史板",
+      "date": "11/09",
+      "contentPath": "content/board/204.json",
+      "responses": 123
+    },
+    {
+      "id": 203,
+      "title": "じいちゃんが俺の部屋を江戸時代にしようとしてる",
+      "category": 27,
+      "category_name": "日本史板",
+      "date": "11/09",
+      "contentPath": "content/board/203.json",
+      "responses": 129
+    },
+    {
+      "id": 202,
+      "title": "家の古い道具を歴史資料として持っていきたいんだが",
+      "category": 27,
+      "category_name": "日本史板",
+      "date": "11/09",
+      "contentPath": "content/board/202.json",
+      "responses": 169
+    },
+    {
+      "id": 201,
+      "title": "祖母が江戸時代の時刻で生活しようとしている",
+      "category": 27,
+      "category_name": "日本史板",
+      "date": "11/09",
+      "contentPath": "content/board/201.json",
+      "responses": 144
+    },
+    {
+      "id": 200,
+      "title": "祖父が武将の名前を犬につけようとしているんだが",
+      "category": 27,
+      "category_name": "日本史板",
+      "date": "11/09",
+      "contentPath": "content/board/200.json",
+      "responses": 106
+    },
+    {
+      "id": 199,
+      "title": "うちの屋号を調べてたら父親がのれんを作り始めた",
+      "category": 27,
+      "category_name": "日本史板",
+      "date": "11/09",
+      "contentPath": "content/board/199.json",
+      "responses": 105
+    },
+    {
+      "id": 198,
+      "title": "祖父の自由研究が戦国時代から帰ってこない",
+      "category": 27,
+      "category_name": "日本史板",
+      "date": "11/09",
+      "contentPath": "content/board/198.json",
+      "responses": 81
+    },
+    {
+      "id": 197,
+      "title": "本棚を買ったら祖父が毎朝拝んでる",
+      "category": 20,
+      "category_name": "家具板",
+      "date": "11/09",
+      "contentPath": "content/board/197.json",
+      "responses": 89
+    },
+    {
+      "id": 196,
+      "title": "買ったばかりの椅子に誰も座ってくれない",
+      "category": 20,
+      "category_name": "家具板",
+      "date": "11/09",
+      "contentPath": "content/board/196.json",
+      "responses": 81
+    },
+    {
+      "id": 195,
+      "title": "母が家の中で整理券を配り始めたんだが",
+      "category": 15,
+      "category_name": "生活",
+      "date": "11/09",
+      "contentPath": "content/board/195.json",
+      "responses": 77
+    },
+    {
+      "id": 194,
+      "title": "父が家族会議を開きたがるんだけど議題がない",
+      "category": 15,
+      "category_name": "生活",
+      "date": "11/09",
+      "contentPath": "content/board/194.json",
+      "responses": 121
+    },
+    {
+      "id": 193,
+      "title": "隣のおばあちゃんに植木鉢を預かったんだが",
+      "category": 15,
+      "category_name": "生活",
+      "date": "11/09",
+      "contentPath": "content/board/193.json",
+      "responses": 85
+    },
+    {
+      "id": 192,
+      "title": "大家さんに野菜をもらったんだが、お返しは何がいい？",
+      "category": 15,
+      "category_name": "生活",
+      "date": "11/09",
+      "contentPath": "content/board/192.json",
+      "responses": 123
+    },
+    {
+      "id": 191,
+      "title": "洗濯機の中から知らない靴下が出てきたんだが",
+      "category": 15,
+      "category_name": "生活",
+      "date": "11/09",
+      "contentPath": "content/board/191.json",
+      "responses": 73
+    },
+    {
+      "id": 190,
+      "title": "隣の部屋に回覧板を持っていくタイミングがわからない",
+      "category": 15,
+      "category_name": "生活",
+      "date": "11/09",
+      "contentPath": "content/board/190.json",
+      "responses": 79
+    },
+    {
+      "id": 189,
+      "title": "録画した番組の最後だけ毎回切れるんだが、どうすればいい？",
+      "category": 168,
+      "category_name": "テレビ番組板",
+      "date": "11/09",
+      "contentPath": "content/board/189.json",
+      "responses": 43
+    },
+    {
+      "id": 188,
+      "title": "社員3人の会社なんだが組織図を作れと言われた",
+      "category": 89,
+      "category_name": "経営学板",
+      "date": "11/09",
+      "contentPath": "content/board/188.json",
+      "responses": 64
+    },
+    {
+      "id": 187,
+      "title": "漫画家のサイン会で編集者にだけサインもらった",
+      "category": 142,
+      "category_name": "漫画板",
+      "date": "11/09",
+      "contentPath": "content/board/187.json",
+      "responses": 87
+    },
+    {
+      "id": 186,
+      "title": "漫画の単行本を買うたびに母親が帯だけ保管してる",
+      "category": 142,
+      "category_name": "漫画板",
+      "date": "11/09",
+      "contentPath": "content/board/186.json",
+      "responses": 113
+    },
+    {
+      "id": 185,
+      "title": "猫が毎晩、台所の前に一列に並ぶんだが",
+      "category": 206,
+      "category_name": "犬猫大好き板",
+      "date": "11/03",
+      "contentPath": "content/board/185.json",
+      "responses": 157
+    },
+    {
+      "id": 184,
+      "title": "うちの犬が散歩のたびに知らない家の前で座り込む",
+      "category": 206,
+      "category_name": "犬猫大好き板",
+      "date": "11/03",
+      "contentPath": "content/board/184.json",
+      "responses": 78
+    },
+    {
+      "id": 183,
+      "title": "うちの猫が毎朝、俺の靴だけ玄関から運ぶんだが",
+      "category": 206,
+      "category_name": "犬猫大好き板",
+      "date": "11/03",
+      "contentPath": "content/board/183.json",
+      "responses": 159
+    },
+    {
+      "id": 182,
+      "title": "親父がデスクトップのアイコンを全部消したと言い張ってる",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "11/01",
+      "contentPath": "content/board/182.json",
+      "responses": 249
+    },
+    {
+      "id": 181,
+      "title": "漫画の貸し借りに返却期限を設けたいんだが",
+      "category": 142,
+      "category_name": "漫画板",
+      "date": "11/01",
+      "contentPath": "content/board/181.json",
+      "responses": 239
+    },
+    {
+      "id": 180,
+      "title": "防災袋を玄関に置いたら家族に邪魔者扱いされた",
+      "category": 8,
+      "category_name": "災害",
+      "date": "11/01",
+      "contentPath": "content/board/180.json",
+      "responses": 271
+    },
+    {
+      "id": 179,
+      "title": "親父が家族会議に不信任案を出してきたんだが",
+      "category": 5,
+      "category_name": "政治",
+      "date": "11/01",
+      "contentPath": "content/board/179.json",
+      "responses": 266
+    },
+    {
+      "id": 178,
+      "title": "町内会の会議を国会方式にしたいと言い出した親父を止めたい",
+      "category": 5,
+      "category_name": "政治",
+      "date": "11/01",
+      "contentPath": "content/board/178.json",
+      "responses": 229
+    },
+    {
+      "id": 177,
+      "title": "為替のアラート音を変えたら会社で大変なことになった",
+      "category": 256,
+      "category_name": "市況2板",
+      "date": "11/01",
+      "contentPath": "content/board/177.json",
+      "responses": 176
+    },
+    {
+      "id": 176,
+      "title": "指値を入れたら母親が毎回電話してくるんだが",
+      "category": 256,
+      "category_name": "市況2板",
+      "date": "11/01",
+      "contentPath": "content/board/176.json",
+      "responses": 246
+    },
+    {
+      "id": 175,
+      "title": "指標発表のたびに隣の部屋から拍手が聞こえるんだが",
+      "category": 256,
+      "category_name": "市況2板",
+      "date": "11/01",
+      "contentPath": "content/board/175.json",
+      "responses": 216
+    },
+    {
+      "id": 174,
+      "title": "FXで勝った日の夕飯が毎回おかしくなる件",
+      "category": 256,
+      "category_name": "市況2板",
+      "date": "11/01",
+      "contentPath": "content/board/174.json",
+      "responses": 168
+    },
+    {
+      "id": 173,
+      "title": "【芸能】新人歌手・星野マコ、商店街イベントで「アンコール」の意味を勘違い",
+      "category": 241,
+      "category_name": "芸スポ速報+板",
+      "date": "11/01",
+      "contentPath": "content/board/173.json",
+      "responses": 145
+    },
+    {
+      "id": 172,
+      "title": "腕時計を褒められた時の返し方が分からない",
+      "category": 198,
+      "category_name": "時計・小物板",
+      "date": "11/01",
+      "contentPath": "content/board/172.json",
+      "responses": 285
+    },
+    {
+      "id": 171,
+      "title": "新車の納車式って断ってもいいの？",
+      "category": 201,
+      "category_name": "車種・メーカー板",
+      "date": "11/01",
+      "contentPath": "content/board/171.json",
+      "responses": 231
+    },
+    {
+      "id": 170,
+      "title": "車の芳香剤を替えたら助手席に誰も乗らなくなった",
+      "category": 189,
+      "category_name": "車板",
+      "date": "11/01",
+      "contentPath": "content/board/170.json",
+      "responses": 222
+    },
+    {
+      "id": 169,
+      "title": "市民プールで毎回監視員に泳ぎ方を心配される",
+      "category": 235,
+      "category_name": "水泳板",
+      "date": "11/01",
+      "contentPath": "content/board/169.json",
+      "responses": 174
+    },
+    {
+      "id": 168,
+      "title": "父親が野球中継を見るたびに監督へ電話しようとする",
+      "category": 230,
+      "category_name": "プロ野球板",
+      "date": "11/01",
+      "contentPath": "content/board/168.json",
+      "responses": 156
+    },
+    {
+      "id": 167,
+      "title": "球場の応援で一人だけ手拍子がずれるんだが",
+      "category": 230,
+      "category_name": "プロ野球板",
+      "date": "11/01",
+      "contentPath": "content/board/167.json",
+      "responses": 170
+    },
+    {
+      "id": 166,
+      "title": "娘が幼稚園で「うちの父は係長」と言いふらしている",
+      "category": 77,
+      "category_name": "育児板",
+      "date": "10/31",
+      "contentPath": "content/board/166.json",
+      "responses": 175
+    },
+    {
+      "id": 165,
+      "title": "管理人の日記「ニュースサイトをつくった」",
+      "category": 16,
+      "category_name": "運営・隔離",
+      "date": "10/31",
+      "contentPath": "content/board/165.json",
+      "responses": 150
+    },
+    {
+      "id": 164,
+      "title": "【管理人日記】掲示板に速報欄を付けて、経済情報局も作った",
+      "category": 16,
+      "category_name": "運営・隔離",
+      "date": "10/30",
+      "contentPath": "content/board/164.json",
+      "responses": 99
+    },
+    {
+      "id": 163,
+      "title": "【アンチ黒沼幻司31】掲示板の広告に変なのがいるんだが（画像あり）",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/30",
+      "contentPath": "content/board/163.json",
+      "responses": 141
+    },
+    {
+      "id": 162,
+      "title": "痔がつらすぎて座ることすら信用できなくなった",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/30",
+      "contentPath": "content/board/162.json",
+      "responses": 94
+    },
+    {
+      "id": 161,
+      "title": "【アンチ黒沼幻司】怪談より本人の言動が怖い件 Part30",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/30",
+      "contentPath": "content/board/161.json",
+      "responses": 120
+    },
+    {
+      "id": 160,
+      "title": "【アンチ黒沼幻司】ラジオの周波数にまで割り込んでくる件 Part29",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/30",
+      "contentPath": "content/board/160.json",
+      "responses": 99
+    },
+    {
+      "id": 159,
+      "title": "【相談】うちの食パンだけ妙に礼儀正しいんだが",
+      "category": 207,
+      "category_name": "食べ物板",
+      "date": "10/29",
+      "contentPath": "content/board/159.json",
+      "responses": 98
+    },
+    {
+      "id": 158,
+      "title": "【悲報】母ちゃんがカレーの具を面接で決めるようになった",
+      "category": 210,
+      "category_name": "カレー板",
+      "date": "10/29",
+      "contentPath": "content/board/158.json",
+      "responses": 224
+    },
+    {
+      "id": 157,
+      "title": "趣味を聞かれるたびに違う答えを言ってたら収拾つかなくなった",
+      "category": 184,
+      "category_name": "趣味一般板",
+      "date": "10/29",
+      "contentPath": "content/board/157.json",
+      "responses": 185
+    },
+    {
+      "id": 156,
+      "title": "【相談】隣の席の人が毎朝ジャズの曲名で挨拶してくる",
+      "category": 12,
+      "category_name": "雑談",
+      "date": "10/29",
+      "contentPath": "content/board/156.json",
+      "responses": 141
+    },
+    {
+      "id": 155,
+      "title": "【管理人日記】配信する予定はないのに配信画面が4種類になった",
+      "category": 16,
+      "category_name": "運営・隔離",
+      "date": "10/29",
+      "contentPath": "content/board/155.json",
+      "responses": 121
+    },
+    {
+      "id": 154,
+      "title": "【管理人日記】配信素材と広告付きプロフィールは作った。配信予定はない。",
+      "category": 16,
+      "category_name": "運営・隔離",
+      "date": "10/29",
+      "contentPath": "content/board/154.json",
+      "responses": 191
+    },
+    {
+      "id": 153,
+      "title": "【黒沼幻司】RPGの宿屋に黒沼そっくりの奴がいる件【アンチスレ㉘】",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/29",
+      "contentPath": "content/board/153.json",
+      "responses": 181
+    },
+    {
+      "id": 152,
+      "title": "【黒沼幻司】駅の回収箱を漁ってるところを目撃したんだが【アンチ㉗】",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/28",
+      "contentPath": "content/board/152.json",
+      "responses": 121
+    },
+    {
+      "id": 151,
+      "title": "【黒沼アンチ㉖】恋愛サロンのモザイク男、比較画像まで作られててワロタ",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/27",
+      "contentPath": "content/board/151.json",
+      "responses": 121
+    },
+    {
+      "id": 150,
+      "title": "【黒沼アンチ㉖】恋愛サロンに黒沼らしき男のデート写真が晒されてる件",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/27",
+      "contentPath": "content/board/150.json",
+      "responses": 121
+    },
+    {
+      "id": 149,
+      "title": "【これ普通？】昨日会った人が自分の顔入りタオルを見せてきた",
+      "category": 58,
+      "category_name": "恋愛サロン板",
+      "date": "10/27",
+      "contentPath": "content/board/149.json",
+      "responses": 121
+    },
+    {
+      "id": 148,
+      "title": "【黒沼アンチ㉕】スーパーに黒沼らしき奴がいたんだが、見てた商品が謎",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/27",
+      "contentPath": "content/board/148.json",
+      "responses": 181
+    },
+    {
+      "id": 147,
+      "title": "【黒沼アンチ㉔】黒沼幻司すなっく、製造元が普通の菓子会社なんだが",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/147.json",
+      "responses": 121
+    },
+    {
+      "id": 146,
+      "title": "【黒沼アンチ㉓】霊波測定済みタオルを買った奴が帰宅した件",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/146.json",
+      "responses": 121
+    },
+    {
+      "id": 145,
+      "title": "【黒沼アンチ㉒】オフ会に潜入した奴が物販の写真を上げてる件",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/145.json",
+      "responses": 121
+    },
+    {
+      "id": 144,
+      "title": "【黒沼アンチ㉑】親父の釣果ノートに「ゲン坊船酔い」と書いてある件",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/144.json",
+      "responses": 261
+    },
+    {
+      "id": 143,
+      "title": "【黒沼アンチ⑳】親父の釣り仲間の集合写真にゲンさんがいるらしい",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/143.json",
+      "responses": 203
+    },
+    {
+      "id": 142,
+      "title": "【黒沼アンチ⑲】若い頃の写真が出てきたのに本人が否定してる件",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/142.json",
+      "responses": 121
+    },
+    {
+      "id": 141,
+      "title": "【黒沼アンチ⑱】怪談ポスターの目が合うと父が言い張っている件",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/141.json",
+      "responses": 121
+    },
+    {
+      "id": 140,
+      "title": "【黒沼アンチ⑰】怪談展示会のコピーに「黒沼様 お忘れ物」と印字されたんだが",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/140.json",
+      "responses": 121
+    },
+    {
+      "id": 139,
+      "title": "【黒沼アンチ⑯】月9最終回で本名が出たらしいが、本人は説明する気あるのか",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/26",
+      "contentPath": "content/board/139.json",
+      "responses": 121
+    },
+    {
+      "id": 138,
+      "title": "【月9実況⑧・最終回】雨上がりの約束　黒い客の名前がついに判明した件",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/26",
+      "contentPath": "content/board/138.json",
+      "responses": 121
+    },
+    {
+      "id": 137,
+      "title": "【月9実況⑦】雨上がりの約束 第9話　黒い客がしゃべると母が字幕をつける件",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/26",
+      "contentPath": "content/board/137.json",
+      "responses": 121
+    },
+    {
+      "id": 136,
+      "title": "【月9実況⑥】雨上がりの約束 第8話　黒い客のために妹が座布団を用意してる",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/26",
+      "contentPath": "content/board/136.json",
+      "responses": 121
+    },
+    {
+      "id": 135,
+      "title": "【月9実況⑤】雨上がりの約束 第7話　黒い客が出ると祖母がテレビの音量を下げるんだが",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/26",
+      "contentPath": "content/board/135.json",
+      "responses": 121
+    },
+    {
+      "id": 134,
+      "title": "【月9】雨上がりの約束 第6話実況④　奥の客の正体より、喫茶店の皿がうるさい件",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/25",
+      "contentPath": "content/board/134.json",
+      "responses": 121
+    },
+    {
+      "id": 133,
+      "title": "【月9】雨上がりの約束 第5話実況③　奥の客、今なんか言った？",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/25",
+      "contentPath": "content/board/133.json",
+      "responses": 121
+    },
+    {
+      "id": 132,
+      "title": "【月9】雨上がりの約束を語るスレ②　あの喫茶店の客、また映ってないか",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/25",
+      "contentPath": "content/board/132.json",
+      "responses": 121
+    },
+    {
+      "id": 131,
+      "title": "【月9】今期のドラマ、喫茶店の奥の人が気になる件",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/25",
+      "contentPath": "content/board/131.json",
+      "responses": 121
+    },
+    {
+      "id": 130,
+      "title": "【月9】今期のドラマを語ってたら家族の反応が気になってきた件",
+      "category": 169,
+      "category_name": "テレビドラマ板",
+      "date": "10/25",
+      "contentPath": "content/board/130.json",
+      "responses": 121
+    },
+    {
+      "id": 129,
+      "title": "【大荒れ】怪談イベントアンチスレ⑮ 黒沼",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/129.json",
+      "responses": 121
+    },
+    {
+      "id": 128,
+      "title": "【検証】怪談イベントアンチスレ⑭ 図書館の資料に黒沼の名前がない",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/128.json",
+      "responses": 121
+    },
+    {
+      "id": 127,
+      "title": "【失言】怪談イベントアンチスレ⑬ 黒沼先生",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/127.json",
+      "responses": 121
+    },
+    {
+      "id": 126,
+      "title": "【急展開】怪談イベントアンチスレ⑫ 黒沼本人らしき人物が現れた",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/126.json",
+      "responses": 121
+    },
+    {
+      "id": 125,
+      "title": "【混線】怪談イベントアンチスレ⑪ 黒沼先生の偽物が増えすぎて本物を見失う",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/125.json",
+      "responses": 121
+    },
+    {
+      "id": 124,
+      "title": "【混乱】怪談イベントアンチスレ⑩ 黒沼先生が三人いるんだが",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/124.json",
+      "responses": 121
+    },
+    {
+      "id": 123,
+      "title": "【追跡】怪談イベントアンチスレ⑨ 黒沼の正体を探ってたら本人が増えた件",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/123.json",
+      "responses": 121
+    },
+    {
+      "id": 122,
+      "title": "【検証】求人広告の成功体験が仕事と関係なさすぎる件",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/122.json",
+      "responses": 121
+    },
+    {
+      "id": 121,
+      "title": "【検証】平成6年の怪談FAX、特典④だけ「当日発表」なのが怖い Part8",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/121.json",
+      "responses": 121
+    },
+    {
+      "id": 120,
+      "title": "【発掘】怪談イベントを叩いてたら平成6年のFAXチラシが出てきた件 Part7",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/120.json",
+      "responses": 280
+    },
+    {
+      "id": 119,
+      "title": "【本人降臨】怪談イベントの擁護荒らし、黒沼先生が正体を隠しきれない件 Part6",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/119.json",
+      "responses": 273
+    },
+    {
+      "id": 118,
+      "title": "【検証】怪談イベントの擁護荒らし、黒沼先生本人だった疑惑 Part5",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/118.json",
+      "responses": 150
+    },
+    {
+      "id": 117,
+      "title": "【騒然】怪談イベントの黒沼先生を調べてたら謎の擁護が湧いた件 Part4",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/117.json",
+      "responses": 91
+    },
+    {
+      "id": 116,
+      "title": "【追跡】怪談イベントの黒沼先生、名前が増えすぎて誰だか分からない件 Part3",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/116.json",
+      "responses": 84
+    },
+    {
+      "id": 115,
+      "title": "【検証】怪談イベントの心霊ジャーナリスト、結局誰なんだよ Part2",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/115.json",
+      "responses": 92
+    },
+    {
+      "id": 114,
+      "title": "【疑惑】心霊ジャーナリストの怪談イベント、怖いのは物販だろ",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/25",
+      "contentPath": "content/board/114.json",
+      "responses": 81
+    },
+    {
+      "id": 113,
+      "title": "【怪現象】曲が終わるたび電子レンジが返事するんだが",
+      "category": 159,
+      "category_name": "音楽一般板",
+      "date": "10/25",
+      "contentPath": "content/board/113.json",
+      "responses": 81
+    },
+    {
+      "id": 112,
+      "title": "【疑問】母ちゃんが俺のCDに勝手な曲名つけてる",
+      "category": 159,
+      "category_name": "音楽一般板",
+      "date": "10/25",
+      "contentPath": "content/board/112.json",
+      "responses": 81
+    },
+    {
+      "id": 111,
+      "title": "【困惑】うちのカセットデッキ、録音すると拍手だけ上手い",
+      "category": 159,
+      "category_name": "音楽一般板",
+      "date": "10/25",
+      "contentPath": "content/board/111.json",
+      "responses": 81
+    },
+    {
+      "id": 110,
+      "title": "【謎】隣の部屋から毎晩「ド」だけ聞こえてくる",
+      "category": 159,
+      "category_name": "音楽一般板",
+      "date": "10/25",
+      "contentPath": "content/board/110.json",
+      "responses": 81
+    },
+    {
+      "id": 109,
+      "title": "【謎】冷蔵庫のプリンに「先に失礼します」と貼られてる",
+      "category": 207,
+      "category_name": "食べ物板",
+      "date": "10/25",
+      "contentPath": "content/board/109.json",
+      "responses": 81
+    },
+    {
+      "id": 108,
+      "title": "【不可解】台所の輪ゴムが毎日一本ずつ増えてるんだが",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/25",
+      "contentPath": "content/board/108.json",
+      "responses": 81
+    },
+    {
+      "id": 107,
+      "title": "【謎】玄関の靴べらが毎朝ちょっとずつ移動してるんだが",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/25",
+      "contentPath": "content/board/107.json",
+      "responses": 81
+    },
+    {
+      "id": 106,
+      "title": "【珍事】商店街で落とし物の傘が係長に昇進している件",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "10/25",
+      "contentPath": "content/board/106.json",
+      "responses": 81
+    },
+    {
+      "id": 105,
+      "title": "【怪奇】大学の自習室で俺の席だけ毎回「おかえり」って書かれてる",
+      "category": 83,
+      "category_name": "大学生活板",
+      "date": "10/25",
+      "contentPath": "content/board/105.json",
+      "responses": 81
+    },
+    {
+      "id": 104,
+      "title": "【不可解】ゼミ室の冷蔵庫で俺の麦茶だけ実験扱いされてる",
+      "category": 83,
+      "category_name": "大学生活板",
+      "date": "10/24",
+      "contentPath": "content/board/104.json",
+      "responses": 81
+    },
+    {
+      "id": 103,
+      "title": "【珍事】草野球のベンチに毎週「盗塁禁止」って書かれるんだが",
+      "category": 4,
+      "category_name": "スポーツ",
+      "date": "10/22",
+      "contentPath": "content/board/103.json",
+      "responses": 81
+    },
+    {
+      "id": 102,
+      "title": "【謎】卓球サークルで俺のラケットだけ休憩札を立てられる",
+      "category": 4,
+      "category_name": "スポーツ",
+      "date": "10/22",
+      "contentPath": "content/board/102.json",
+      "responses": 83
+    },
+    {
+      "id": 101,
+      "title": "【謎】バドミントンサークルで俺だけ「回収王」と呼ばれ始めた",
+      "category": 4,
+      "category_name": "スポーツ",
+      "date": "10/21",
+      "contentPath": "content/board/101.json",
+      "responses": 87
+    },
+    {
+      "id": 100,
+      "title": "【怪現象】ジョギングを始めたら近所の犬に周回数を管理されてる",
+      "category": 4,
+      "category_name": "スポーツ",
+      "date": "10/21",
+      "contentPath": "content/board/100.json",
+      "responses": 78
+    },
+    {
+      "id": 99,
+      "title": "【珍事】草野球のスコア係が俺の凡退だけ妙に丁寧に記録してる",
+      "category": 4,
+      "category_name": "スポーツ",
+      "date": "10/21",
+      "contentPath": "content/board/99.json",
+      "responses": 78
+    },
+    {
+      "id": 98,
+      "title": "【不可解】うちの家族、誰も頼んでないのに玄関の靴が一足ずつ増える",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/21",
+      "contentPath": "content/board/98.json",
+      "responses": 81
+    },
+    {
+      "id": 97,
+      "title": "【怪現象】対戦ゲームを始めると母親の声で洗濯物を取り込めと言われる",
+      "category": 7,
+      "category_name": "ゲーム",
+      "date": "10/21",
+      "contentPath": "content/board/97.json",
+      "responses": 81
+    },
+    {
+      "id": 96,
+      "title": "【疑問】すれちがい通信で毎回「今から帰る」って言う奴がいる",
+      "category": 7,
+      "category_name": "ゲーム",
+      "date": "10/21",
+      "contentPath": "content/board/96.json",
+      "responses": 82
+    },
+    {
+      "id": 95,
+      "title": "【困惑】母親がRPGの主人公を町内会の人だと思ってる",
+      "category": 7,
+      "category_name": "ゲーム",
+      "date": "10/21",
+      "contentPath": "content/board/95.json",
+      "responses": 81
+    },
+    {
+      "id": 94,
+      "title": "【謎】中古DSソフトのケースに『予備』と書かれた割り箸が入ってた",
+      "category": 7,
+      "category_name": "ゲーム",
+      "date": "10/21",
+      "contentPath": "content/board/94.json",
+      "responses": 81
+    },
+    {
+      "id": 93,
+      "title": "【怪】コントローラーに「二番」って紙が貼られてるんだが",
+      "category": 7,
+      "category_name": "ゲーム",
+      "date": "10/21",
+      "contentPath": "content/board/93.json",
+      "responses": 81
+    },
+    {
+      "id": 92,
+      "title": "【謎】学食のカレー、俺だけ福神漬けが二か所に盛られる",
+      "category": 84,
+      "category_name": "学歴板",
+      "date": "10/21",
+      "contentPath": "content/board/92.json",
+      "responses": 81
+    },
+    {
+      "id": 91,
+      "title": "【疑問】ゼミの座席表で俺の名前だけ「仮」になってる",
+      "category": 84,
+      "category_name": "学歴板",
+      "date": "10/21",
+      "contentPath": "content/board/91.json",
+      "responses": 81
+    },
+    {
+      "id": 90,
+      "title": "【珍事】会社のお茶当番表で俺の大学だけ「仮」になってる",
+      "category": 84,
+      "category_name": "学歴板",
+      "date": "10/21",
+      "contentPath": "content/board/90.json",
+      "responses": 81
+    },
+    {
+      "id": 89,
+      "title": "【不可解】うちの家族、誰も頼んでないのに玄関の靴が一足ずつ増える",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/20",
+      "contentPath": "content/board/89.json",
+      "responses": 81
+    },
+    {
+      "id": 88,
+      "title": "【不可解】娘がぬいぐるみを毎朝一列に並べ直してる",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/20",
+      "contentPath": "content/board/88.json",
+      "responses": 85
+    },
+    {
+      "id": 87,
+      "title": "【謎】母が冷蔵庫に貼るメモだけ毎回ちょっと偉そう",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/20",
+      "contentPath": "content/board/87.json",
+      "responses": 83
+    },
+    {
+      "id": 86,
+      "title": "【珍事】ブログのコメント欄に毎晩「おやすみ」だけ書く奴がいる",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/20",
+      "contentPath": "content/board/86.json",
+      "responses": 84
+    },
+    {
+      "id": 85,
+      "title": "【怪現象】PCを起動するたび机の引き出しが1cm開くんだが",
+      "category": 98,
+      "category_name": "自作PC板",
+      "date": "10/19",
+      "contentPath": "content/board/85.json",
+      "responses": 83
+    },
+    {
+      "id": 84,
+      "title": "【不可解】PCケースの上に毎朝ネジが一本置いてある",
+      "category": 98,
+      "category_name": "自作PC板",
+      "date": "10/19",
+      "contentPath": "content/board/84.json",
+      "responses": 82
+    },
+    {
+      "id": 83,
+      "title": "【検証】電源を切るたび机の下で「コトン」と鳴るんだが",
+      "category": 98,
+      "category_name": "自作PC板",
+      "date": "10/19",
+      "contentPath": "content/board/83.json",
+      "responses": 81
+    },
+    {
+      "id": 82,
+      "title": "【謎】会社の伝言メモに毎朝「あとで」とだけ書いてある",
+      "category": 51,
+      "category_name": "ガイドライン板",
+      "date": "10/19",
+      "contentPath": "content/board/82.json",
+      "responses": 81
+    },
+    {
+      "id": 81,
+      "title": "【怪現象】会社の壁掛けカレンダーだけ毎朝一日進んでる",
+      "category": 51,
+      "category_name": "ガイドライン板",
+      "date": "10/19",
+      "contentPath": "content/board/81.json",
+      "responses": 80
+    },
+    {
+      "id": 80,
+      "title": "【検証】職場の傘立てに毎週一本だけ知らない傘が増える",
+      "category": 51,
+      "category_name": "ガイドライン板",
+      "date": "10/19",
+      "contentPath": "content/board/80.json",
+      "responses": 81
+    },
+    {
+      "id": 79,
+      "title": "【検証】玄関の「おかえり」置物が毎朝壁を向いている件",
+      "category": 51,
+      "category_name": "ガイドライン板",
+      "date": "10/19",
+      "contentPath": "content/board/79.json",
+      "responses": 81
+    },
+    {
+      "id": 78,
+      "title": "【謎】うちの冷蔵庫のプリンだけ毎朝少し前進してるんだが",
+      "category": 51,
+      "category_name": "ガイドライン板",
+      "date": "10/19",
+      "contentPath": "content/board/78.json",
+      "responses": 81
+    },
+    {
+      "id": 77,
+      "title": "【不可解】空にした盛り塩の皿に毎朝一粒だけ戻ってくる",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/16",
+      "contentPath": "content/board/77.json",
+      "responses": 81
+    },
+    {
+      "id": 76,
+      "title": "【怪奇】元カノの写真立てが毎朝ひっくり返ってる",
+      "category": 59,
+      "category_name": "失恋板",
+      "date": "10/16",
+      "contentPath": "content/board/76.json",
+      "responses": 81
+    },
+    {
+      "id": 75,
+      "title": "【謎】別れた彼女のスリッパが毎朝玄関に出てる",
+      "category": 59,
+      "category_name": "失恋板",
+      "date": "10/15",
+      "contentPath": "content/board/75.json",
+      "responses": 81
+    },
+    {
+      "id": 74,
+      "title": "【怪現象】別れた彼女の声で「返して」が聞こえるんだが",
+      "category": 59,
+      "category_name": "失恋板",
+      "date": "10/15",
+      "contentPath": "content/board/74.json",
+      "responses": 81
+    },
+    {
+      "id": 73,
+      "title": "【検証】冷蔵庫のメモが必ず「以上。」で終わる件",
+      "category": 51,
+      "category_name": "ガイドライン板",
+      "date": "10/15",
+      "contentPath": "content/board/73.json",
+      "responses": 81
+    },
+    {
+      "id": 72,
+      "title": "【改訂】マンションの掲示板に「貼り紙の貼り方」が増殖してる",
+      "category": 51,
+      "category_name": "ガイドライン板",
+      "date": "10/15",
+      "contentPath": "content/board/72.json",
+      "responses": 81
+    },
+    {
+      "id": 71,
+      "title": "【不可解】誰もいない部屋で毎晩「お先に」と聞こえる",
+      "category": 23,
+      "category_name": "哲学板",
+      "date": "10/15",
+      "contentPath": "content/board/71.json",
+      "responses": 81
+    },
+    {
+      "id": 70,
+      "title": "【謎】留守中に玄関の靴が毎日きれいに揃ってる",
+      "category": 76,
+      "category_name": "一人暮らし板",
+      "date": "10/15",
+      "contentPath": "content/board/70.json",
+      "responses": 81
+    },
+    {
+      "id": 69,
+      "title": "【怪音】午前零時、台所で誰かが「チン」と鳴らす",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/15",
+      "contentPath": "content/board/69.json",
+      "responses": 81
+    },
+    {
+      "id": 68,
+      "title": "【怪奇】台所の戸棚から「おかえり」と声がするんだが",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/15",
+      "contentPath": "content/board/68.json",
+      "responses": 81
+    },
+    {
+      "id": 67,
+      "title": "【怪奇】夜11時半になると押し入れからゴングが鳴るんだが",
+      "category": 236,
+      "category_name": "プロレス板",
+      "date": "10/15",
+      "contentPath": "content/board/67.json",
+      "responses": 81
+    },
+    {
+      "id": 66,
+      "title": "【国会】高市首相「朝の支度で男性首相より3〜4時間」発言に賛否　スレ民は朝食の洗い物で大揉め",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "10/15",
+      "contentPath": "content/board/66.json",
+      "responses": 81
+    },
+    {
+      "id": 65,
+      "title": "【速報】軍用スターリンクに時速160km制限、ドローン作戦に支障　住民「通信にもスピード違反あるのか」",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "10/15",
+      "contentPath": "content/board/65.json",
+      "responses": 81
+    },
+    {
+      "id": 64,
+      "title": "【速報】武部新氏が農水相に起用へ　父も農水相経験者、住民の関心はなぜかジャガイモに",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "10/15",
+      "contentPath": "content/board/64.json",
+      "responses": 61
+    },
+    {
+      "id": 63,
+      "title": "【謎】うちの炊飯器が日経平均に合わせて点滅してる件",
+      "category": 246,
+      "category_name": "市況1板",
+      "date": "10/15",
+      "contentPath": "content/board/63.json",
+      "responses": 61
+    },
+    {
+      "id": 62,
+      "title": "【怪現象】親父が毎朝ドル円を見て植木鉢を動かしてる件",
+      "category": 256,
+      "category_name": "市況2板",
+      "date": "10/15",
+      "contentPath": "content/board/62.json",
+      "responses": 61
+    },
+    {
+      "id": 61,
+      "title": "【異変】うちの目覚まし時計、ドル円より先に動くんだが",
+      "category": 256,
+      "category_name": "市況2板",
+      "date": "10/15",
+      "contentPath": "content/board/61.json",
+      "responses": 61
+    },
+    {
+      "id": 60,
+      "title": "【相談】為替レートを見すぎてスーパーの値札まで売買サインに見えるんだが",
+      "category": 256,
+      "category_name": "市況2板",
+      "date": "10/15",
+      "contentPath": "content/board/60.json",
+      "responses": 61
+    },
+    {
+      "id": 59,
+      "title": "【踊る大捜査線】新作で室井さん不在、すみれさんも退職　登場しない名物キャラが残した存在感",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "10/15",
+      "contentPath": "content/board/59.json",
+      "responses": 61
+    },
+    {
+      "id": 58,
+      "title": "【横浜】ドラクエ×FFが初の合同冬イベント　スライムとチョコボがみなとみらいに登場",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "10/15",
+      "contentPath": "content/board/58.json",
+      "responses": 61
+    },
+    {
+      "id": 57,
+      "title": "【ホルムズ海峡】コンテナ2500個超の貨物船が炎上・沈没　イラン「機雷に接触」",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "10/15",
+      "contentPath": "content/board/57.json",
+      "responses": 61
+    },
+    {
+      "id": 56,
+      "title": "【札幌】新琴似の複合ビルで火災、女性1人搬送　2階部分が激しく焼損",
+      "category": 18,
+      "category_name": "ニュース速報",
+      "date": "10/15",
+      "contentPath": "content/board/56.json",
+      "responses": 61
+    },
+    {
+      "id": 55,
+      "title": "【相談】旦那が毎朝スリッパを玄関に並べるんだけど",
+      "category": 69,
+      "category_name": "既婚女性板",
+      "date": "10/15",
+      "contentPath": "content/board/55.json",
+      "responses": 61
+    },
+    {
+      "id": 54,
+      "title": "【相談】流行のレイヤードを真似したら脱ぐ順番がわからなくなった",
+      "category": 81,
+      "category_name": "ファッション板",
+      "date": "10/15",
+      "contentPath": "content/board/54.json",
+      "responses": 81
+    },
+    {
+      "id": 53,
+      "title": "【相談】夫が冷蔵庫の卵に一個ずつ名前を書いている",
+      "category": 69,
+      "category_name": "既婚女性板",
+      "date": "10/15",
+      "contentPath": "content/board/53.json",
+      "responses": 62
+    },
+    {
+      "id": 52,
+      "title": "【相談】うちの玄関マットが毎朝ちょっとずつ帰宅してくる",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/14",
+      "contentPath": "content/board/52.json",
+      "responses": 81
+    },
+    {
+      "id": 51,
+      "title": "【相談】会社で俺の弁当だけ毎日『ごちそうさま』されてる",
+      "category": 19,
+      "category_name": "独身男性板",
+      "date": "10/14",
+      "contentPath": "content/board/51.json",
+      "responses": 123
+    },
+    {
+      "id": 50,
+      "title": "【相談】誰もいない階段から毎朝『二階です』って聞こえる",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/14",
+      "contentPath": "content/board/50.json",
+      "responses": 125
+    },
+    {
+      "id": 49,
+      "title": "【相談】うちの冷蔵庫が毎週木曜だけ他人行儀になる",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/14",
+      "contentPath": "content/board/49.json",
+      "responses": 81
+    },
+    {
+      "id": 48,
+      "title": "【相談】留守中に誰かがカレンダーの予定を書き換えてる",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/14",
+      "contentPath": "content/board/48.json",
+      "responses": 85
+    },
+    {
+      "id": 47,
+      "title": "【相談】夜中に押し入れから拍手が聞こえる",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/14",
+      "contentPath": "content/board/47.json",
+      "responses": 86
+    },
+    {
+      "id": 46,
+      "title": "【相談】うちの玄関だけ毎晩『おかえり』って聞こえるんだが",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/14",
+      "contentPath": "content/board/46.json",
+      "responses": 81
+    },
+    {
+      "id": 45,
+      "title": "【相談】町内の公衆電話に忘れ物したら、知らない人から家に届いた",
+      "category": 12,
+      "category_name": "雑談",
+      "date": "10/14",
+      "contentPath": "content/board/45.json",
+      "responses": 141
+    },
+    {
+      "id": 44,
+      "title": "【相談】商店街の福引きで「店長を一日貸します」が当たったんだが",
+      "category": 12,
+      "category_name": "雑談",
+      "date": "10/14",
+      "contentPath": "content/board/44.json",
+      "responses": 119
+    },
+    {
+      "id": 43,
+      "title": "【相談】中古で買った机の引き出しに「未来の俺」からの苦情が入ってた",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/14",
+      "contentPath": "content/board/43.json",
+      "responses": 140
+    },
+    {
+      "id": 42,
+      "title": "【相談】隣の部屋の目覚まし時計、毎朝俺の名前を呼んでる気がする",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/14",
+      "contentPath": "content/board/42.json",
+      "responses": 108
+    },
+    {
+      "id": 41,
+      "title": "【検証】うちの冷蔵庫、プリンを入れると翌朝必ず逆向きになってる  コピー",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/14",
+      "contentPath": "content/board/41.json",
+      "responses": 60
+    },
+    {
+      "id": 40,
+      "title": "【悲報】町内会の回覧板、俺のところだけ毎回ちょっと温かい   コピー",
+      "category": 12,
+      "category_name": "雑談",
+      "date": "10/14",
+      "contentPath": "content/board/40.json",
+      "responses": 40
+    },
+    {
+      "id": 39,
+      "title": "【謎】選挙ポスターの候補者、全員同じ写真館で撮ってる説ｗｗｗ",
+      "category": 5,
+      "category_name": "政治",
+      "date": "10/09",
+      "contentPath": "content/board/39.json",
+      "responses": 0
+    },
+    {
+      "id": 38,
+      "title": "【悲報】市役所の意見箱に「意見箱が高すぎる」と投書した結果ｗｗｗ",
+      "category": 6,
+      "category_name": "社会",
+      "date": "10/09",
+      "contentPath": "content/board/38.json",
+      "responses": 0
+    },
+    {
+      "id": 37,
+      "title": "【検証】パソコンの時計を2099年にしたらネットが未来になるのか試した結果ｗｗｗ",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/09",
+      "contentPath": "content/board/37.json",
+      "responses": 0
+    },
+    {
+      "id": 36,
+      "title": "【実況】町内の将棋大会に小学生が来たんだが、誰も勝てない",
+      "category": 12,
+      "category_name": "雑談",
+      "date": "10/09",
+      "contentPath": "content/board/36.json",
+      "responses": 0
+    },
+    {
+      "id": 35,
+      "title": "【謎】商店街に「水曜日は存在しません」って看板が立ってる",
+      "category": 9,
+      "category_name": "地域",
+      "date": "10/08",
+      "contentPath": "content/board/35.json",
+      "responses": 0
+    },
+    {
+      "id": 34,
+      "title": "【悲報】親父がインターネットを印刷して保存してる",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/08",
+      "contentPath": "content/board/34.json",
+      "responses": 0
+    },
+    {
+      "id": 33,
+      "title": "【ADSL】12M契約したのに速度が出ない件",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/08",
+      "contentPath": "content/board/33.json",
+      "responses": 0
+    },
+    {
+      "id": 32,
+      "title": "平成が終わる前に捨てたいもの",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/08",
+      "contentPath": "content/board/32.json",
+      "responses": 0
+    },
+    {
+      "id": 31,
+      "title": "ガラケー使ってるだけで馬鹿にされる時代",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/08",
+      "contentPath": "content/board/31.json",
+      "responses": 0
+    },
+    {
+      "id": 30,
+      "title": "Wii買ったのに家族が誰も遊んでくれない",
+      "category": 7,
+      "category_name": "ゲーム",
+      "date": "10/08",
+      "contentPath": "content/board/30.json",
+      "responses": 0
+    },
+    {
+      "id": 29,
+      "title": "おまいら今何の着メロにしてる？",
+      "category": 12,
+      "category_name": "雑談",
+      "date": "10/08",
+      "contentPath": "content/board/29.json",
+      "responses": 0
+    },
+    {
+      "id": 28,
+      "title": "深夜2時になると隣の空き部屋から電話が鳴る",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/08",
+      "contentPath": "content/board/28.json",
+      "responses": 0
+    },
+    {
+      "id": 27,
+      "title": "【運営】猫じろう掲示板へようこそ",
+      "category": 16,
+      "category_name": "運営・隔離",
+      "date": "10/08",
+      "contentPath": "content/board/27.json",
+      "responses": 0
+    },
+    {
+      "id": 26,
+      "title": "【相談】隣の家の雪かきを勝手にやったら怒られた",
+      "category": 15,
+      "category_name": "生活",
+      "date": "10/08",
+      "contentPath": "content/board/26.json",
+      "responses": 0
+    },
+    {
+      "id": 25,
+      "title": "【相談】留守中に留守電が入ってるんだが",
+      "category": 14,
+      "category_name": "オカルト",
+      "date": "10/08",
+      "contentPath": "content/board/25.json",
+      "responses": 0
+    },
+    {
+      "id": 24,
+      "title": "【助けて】ラスボス倒したのにエンディングが始まらない",
+      "category": 7,
+      "category_name": "ゲーム",
+      "date": "10/08",
+      "contentPath": "content/board/24.json",
+      "responses": 0
+    },
+    {
+      "id": 23,
+      "title": "【検証】この掲示板、管理人が名無しで書き込んでるだろ",
+      "category": 11,
+      "category_name": "掲示板史",
+      "date": "10/08",
+      "contentPath": "content/board/23.json",
+      "responses": 0
+    },
+    {
+      "id": 22,
+      "title": "【急募】隣の部屋から毎晩拍手が聞こえる",
+      "category": 12,
+      "category_name": "雑談",
+      "date": "10/08",
+      "contentPath": "content/board/22.json",
+      "responses": 0
+    },
+    {
+      "id": 21,
+      "title": "【自治】固定ハンドルが増えすぎて名無しが書き込めない件",
+      "category": 11,
+      "category_name": "掲示板史",
+      "date": "10/08",
+      "contentPath": "content/board/21.json",
+      "responses": 0
+    },
+    {
+      "id": 20,
+      "title": "【政治】高市首相「仕事で返せ」簗農水相の予算カット発言、まだ終わらない",
+      "category": 5,
+      "category_name": "政治",
+      "date": "10/08",
+      "contentPath": "content/board/20.json",
+      "responses": 0
+    },
+    {
+      "id": 19,
+      "title": "【悲報】49歳男性「彼女ができるかも」→3255万円消える",
+      "category": 10,
+      "category_name": "事件",
+      "date": "10/08",
+      "contentPath": "content/board/19.json",
+      "responses": 0
+    },
+    {
+      "id": 18,
+      "title": "【熊出没】埼玉県民「秩父なら普通だろ」→駅の近くだった",
+      "category": 9,
+      "category_name": "地域",
+      "date": "10/08",
+      "contentPath": "content/board/18.json",
+      "responses": 0
+    },
+    {
+      "id": 17,
+      "title": "【地震】関東、朝から揺れすぎじゃね？",
+      "category": 8,
+      "category_name": "災害",
+      "date": "10/08",
+      "contentPath": "content/board/17.json",
+      "responses": 0
+    },
+    {
+      "id": 16,
+      "title": "【朗報】大谷翔平、102打席ホームランなしでもシャンパンファイトを満喫",
+      "category": 4,
+      "category_name": "スポーツ",
+      "date": "10/08",
+      "contentPath": "content/board/16.json",
+      "responses": 0
+    },
+    {
+      "id": 15,
+      "title": "朗報】Google「画像生成AI半額にしたぞ」",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/08",
+      "contentPath": "content/board/15.json",
+      "responses": 0
+    },
+    {
+      "id": 14,
+      "title": "【悲報】PC民、GTA6が遊べると思ったら遊べなかった",
+      "category": 7,
+      "category_name": "ゲーム",
+      "date": "10/08",
+      "contentPath": "content/board/14.json",
+      "responses": 0
+    },
+    {
+      "id": 13,
+      "title": "台風27号、逝く",
+      "category": 6,
+      "category_name": "社会",
+      "date": "10/08",
+      "contentPath": "content/board/13.json",
+      "responses": 0
+    },
+    {
+      "id": 12,
+      "title": "【AI】Qwen、指示されてないのに自分のモデルを再学習　バグ修正でまさかの本体改造",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/08",
+      "contentPath": "content/board/12.json",
+      "responses": 0
+    },
+    {
+      "id": 11,
+      "title": "【また不正アクセス】損保ジャパン、顧客情報延べ約6万件が漏えいした可能性　委託先が被害",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/08",
+      "contentPath": "content/board/11.json",
+      "responses": 0
+    },
+    {
+      "id": 10,
+      "title": "【Qilin】「日本は世界最悪のセキュリティ体制を持つ国のひとつ」日本への攻撃増加にも言及",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/08",
+      "contentPath": "content/board/10.json",
+      "responses": 0
+    },
+    {
+      "id": 9,
+      "title": "【相撲】旧高砂部屋ビル解体へ　小錦さん、水戸泉が語る「あの頃」の記憶",
+      "category": 4,
+      "category_name": "スポーツ",
+      "date": "10/08",
+      "contentPath": "content/board/9.json",
+      "responses": 0
+    },
+    {
+      "id": 8,
+      "title": "【立憲】「食料品消費税ゼロ」から給付中心へ方針転換　物価高対策",
+      "category": 5,
+      "category_name": "政治",
+      "date": "10/08",
+      "contentPath": "content/board/8.json",
+      "responses": 0
+    },
+    {
+      "id": 7,
+      "title": "【広島】矢野雅哉に戦力外通告「まだまだ野球を続けたい」現役続行へ準備",
+      "category": 4,
+      "category_name": "スポーツ",
+      "date": "10/08",
+      "contentPath": "content/board/7.json",
+      "responses": 0
+    },
+    {
+      "id": 6,
+      "title": "【サイバー攻撃】ソフトバンク子会社にランサムウェア攻撃　自治体HPなど閲覧不能、495の企業・自治体に影響",
+      "category": 3,
+      "category_name": "IT・ネット",
+      "date": "10/08",
+      "contentPath": "content/board/6.json",
+      "responses": 0
+    },
+    {
+      "id": 5,
+      "title": "【悲報】人気生ドーナツ店「PIECE OF BAKE」突然の全店休業　運営会社が破産申請へ",
+      "category": 2,
+      "category_name": "経済",
+      "date": "10/07",
+      "contentPath": "content/board/5.json",
+      "responses": 0
+    },
+    {
+      "id": 4,
+      "title": "【ノーベル賞】硤合憲三さん、受賞の知らせはスーパーで買い物中ｗｗｗ",
+      "category": 1,
+      "category_name": "科学・技術",
+      "date": "10/07",
+      "contentPath": "content/board/4.json",
+      "responses": 0
+    }
+  ]
+}

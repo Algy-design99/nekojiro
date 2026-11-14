@@ -1,0 +1,38 @@
+[
+  {
+    "site": "food",
+    "id": "article-1",
+    "title": "好きな一杯を、自分の言葉で。コーヒーの小さな味わいメモ。",
+    "category": "一杯",
+    "category_name": "一杯",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 1
+  },
+  {
+    "site": "food",
+    "id": "article-2",
+    "title": "いつものトーストに、何を添える？ ひと皿の組み合わせ方。",
+    "category": "ひと皿",
+    "category_name": "ひと皿",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 2
+  },
+  {
+    "site": "food",
+    "id": "article-3",
+    "title": "カフェの一時間を、どう過ごす？ 本と会話と、何もしない時間。",
+    "category": "ひと息",
+    "category_name": "ひと息",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 3
+  }
+]

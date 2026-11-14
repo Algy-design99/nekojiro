@@ -1,0 +1,38 @@
+[
+  {
+    "site": "work",
+    "id": "article-1",
+    "title": "時間がかかる仕事を、作業・待ち・やり直しに分けてみる。",
+    "category": "ほどく",
+    "category_name": "ほどく",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 1
+  },
+  {
+    "site": "work",
+    "id": "article-2",
+    "title": "短い手順書に、始め方・終わり方・迷ったときを書く。",
+    "category": "整える",
+    "category_name": "整える",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 2
+  },
+  {
+    "site": "work",
+    "id": "article-3",
+    "title": "改善は一か所から。試す前に決めておきたいこと。",
+    "category": "試す",
+    "category_name": "試す",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 3
+  }
+]

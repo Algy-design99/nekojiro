@@ -1,0 +1,38 @@
+[
+  {
+    "site": "travel",
+    "id": "article-1",
+    "title": "目的地は一つ。知らないまちを歩く日の組み立て方。",
+    "category": "街歩き",
+    "category_name": "街歩き",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 1
+  },
+  {
+    "site": "travel",
+    "id": "article-2",
+    "title": "旅先の一軒を、どう選ぶ？ 食事と休憩の小さな段取り。",
+    "category": "食と店",
+    "category_name": "食と店",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 2
+  },
+  {
+    "site": "travel",
+    "id": "article-3",
+    "title": "写真の前に、少し立ち止まる。景色の記憶の残し方。",
+    "category": "風景",
+    "category_name": "風景",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 3
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "site": "living",
+    "id": "article-1",
+    "title": "部屋を変える前に、いつ・どこで・何をしているかを見る。",
+    "category": "空間",
+    "category_name": "空間",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 1
+  },
+  {
+    "site": "living",
+    "id": "article-2",
+    "title": "取り出す・使う・戻す。毎日の動きから置き場所を考える。",
+    "category": "動線",
+    "category_name": "動線",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 2
+  },
+  {
+    "site": "living",
+    "id": "article-3",
+    "title": "部屋全部ではなく、一つの居場所から整えてみる。",
+    "category": "居場所",
+    "category_name": "居場所",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 3
+  }
+]

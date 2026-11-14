@@ -1,0 +1,38 @@
+[
+  {
+    "site": "craft",
+    "id": "article-1",
+    "title": "手になじむ道具は、どこが違うのか。",
+    "category": "使う",
+    "category_name": "使う",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 1
+  },
+  {
+    "site": "craft",
+    "id": "article-2",
+    "title": "定規とメジャー。何を測るかから選んでみる。",
+    "category": "比べる",
+    "category_name": "比べる",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 2
+  },
+  {
+    "site": "craft",
+    "id": "article-3",
+    "title": "作る前に、寸法と手順を書いておく。",
+    "category": "作る",
+    "category_name": "作る",
+    "status": "published",
+    "revision": 0,
+    "createdAt": null,
+    "updatedAt": null,
+    "order": 3
+  }
+]
