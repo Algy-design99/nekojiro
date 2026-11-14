@@ -1087,3 +1087,27 @@ body{background:var(--nj-bg)}
 .restored-layout{display:block;margin:14px 0}.restored-layout .board-directory{margin:0 0 10px}.restored-layout .board-directory .neko-folder-list{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;padding:9px}.restored-layout .neko-home-lower{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:10px}.restored-layout .neko-home-lower .thread-row{display:flex;align-items:center;gap:5px;min-width:0}.restored-layout .neko-home-lower .thread-row>a{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;flex:1}.restored-layout .neko-home-lower .thread-date{white-space:nowrap;font-size:10px;flex-shrink:0}.restored-layout .neko-home-footgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.board-footer{border-top:1px solid #aaa;justify-content:flex-start;font-size:11px;padding:12px 4px;gap:10px}.board-footer>span{flex-basis:100%;color:#666;font-size:10px}.restored-layout .neko-home-lower .thread-index{margin:0}.restored-layout .board-search{padding:9px}.restored-layout [hidden]{display:none!important}
 @media(max-width:900px){.restored-layout .board-directory .neko-folder-list{grid-template-columns:repeat(2,minmax(0,1fr))!important}.restored-layout .neko-home-lower{grid-template-columns:1fr}}
 @media(max-width:540px){.restored-layout .board-directory .neko-folder-list{grid-template-columns:1fr!important}.restored-layout .neko-home-footgrid{grid-template-columns:1fr}.restored-layout .neko-home-lower .thread-date{max-width:90px;overflow:hidden;text-overflow:ellipsis}}
+
+/* Individual threads: restore the FC2 reading arrangement. */
+body.neko-thread-page{background:#ebf0f4;color:#111}
+.neko-thread-page #neko-info{display:none!important}
+.neko-thread-page #bbs-header{margin-bottom:12px}
+.neko-thread-page #board-reading>.thread-toolbar:first-child{margin:0 0 12px;padding:0 4px 7px;gap:0;font-size:13px;line-height:1.7}
+.neko-thread-page #board-reading>.thread-toolbar:first-child>a+a{border-left:1px solid #aaa;padding-left:10px;margin-left:10px}
+.neko-thread-page #neko-thread{padding:0!important;margin:0;border:0;background:transparent;box-shadow:none}
+.neko-thread-page #board-title{font-size:20px;font-weight:400;color:#e00000;line-height:1.5;padding:0 4px;margin:10px 0 28px}
+.neko-thread-page #neko-original-posts{width:calc(100% - 110px)!important;margin:0 0 0 110px!important;padding:0 18px 0 0!important;font-size:16px!important;line-height:1.45!important}
+.neko-thread-page #neko-original-posts .neko-thread,.neko-thread-page #neko-original-posts .neko-res-list{padding:0!important;margin:0!important;font-size:16px!important;line-height:1.45!important}
+.neko-thread-page #neko-original-posts .res{margin:0 0 22px!important;padding:0!important;font-size:16px!important;line-height:1.45!important}
+.neko-thread-page #neko-original-posts .meta,.neko-thread-page #neko-original-posts .body{font-size:16px!important;font-weight:400;line-height:1.45!important}
+.neko-thread-page #neko-comments{margin:26px 18px 0 110px}
+.neko-thread-page #neko-comments .neko-reader-heading{display:block!important;font-size:15px;font-weight:400;border-top:1px solid #bdc9d1;padding-top:14px}
+.neko-thread-page #neko-comments #neko-comment-list:not(:empty){display:block!important}
+.neko-thread-page .board-live-reply .meta{color:#008000}
+.neko-thread-page #board-neighbors{margin-top:20px}
+@media(max-width:700px){
+ .neko-thread-page #board-title{font-size:19px;margin-bottom:22px}
+ .neko-thread-page #neko-original-posts{width:100%!important;margin:0!important;padding:0 8px!important}
+ .neko-thread-page #neko-comments{margin:24px 8px 0}
+ .neko-thread-page #board-reading>.thread-toolbar:first-child{font-size:12px}
+}

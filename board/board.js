@@ -3,6 +3,7 @@
 const $=id=>document.getElementById(id),params=new URLSearchParams(location.search);
 let catalog,threadId=Number(params.get('thread')),page=0;
 document.body.classList.toggle('neko-home-page',!threadId);
+document.body.classList.toggle('neko-thread-page',!!threadId);
 const configPromise=fetch('posting.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
 async function getJSON(url){const r=await fetch(url);if(!r.ok)throw Error('読み込みに失敗しました（'+r.status+'）');return r.json();}
 async function bodies(){
@@ -30,7 +31,7 @@ async function renderThread(){
  $('board-index').hidden=true;$('board-reading').hidden=false;$('board-title').textContent='読み込み中…';
  const entry=catalog.threads.find(p=>p.id===threadId);const post=entry?.contentPath?await getJSON('../'+entry.contentPath):(await bodies()).find(p=>p.id===threadId);if(!post)throw Error('このスレッドは見つかりませんでした。');
  document.title=post.title+' - 猫じろう掲示板';$('board-title').textContent=post.title;$('neko-original-posts').innerHTML=post.body;$('neko-comment-list').innerHTML=post.comments||'';
- $('board-back').href='./?board='+post.category;$('board-back').textContent='← '+post.category_name+'へ戻る';
+ $('board-back').href='./?board='+post.category;$('board-back').textContent='← '+post.category_name+'に戻る';
  const at=catalog.threads.findIndex(p=>p.id===threadId),nav=$('board-neighbors');for(const [index,label]of[[at-1,'← 前のスレッド'],[at+1,'次のスレッド →']])if(catalog.threads[index])nav.append(link(label,'./?thread='+catalog.threads[index].id));
  if(location.hash){const id=decodeURIComponent(location.hash.slice(1));document.getElementById(id)?.scrollIntoView();}
  await enablePosting(post);
