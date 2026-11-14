@@ -1,187 +1,187 @@
 {
-  "updated_at": "2026-11-14T09:27:09.780057Z",
+  "updated_at": "2026-11-14T15:38:52.179517Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
     {
-      "title": "アメリカ航空当局 全米の運航停止措置解除 8000便超欠航",
+      "title": "【地震速報】熊本県で震度3 津波の心配なし",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76024",
+      "source": "NHK",
+      "published_at": "2026-11-14T15:29:59Z"
+    },
+    {
+      "title": "ラグビー日本代表×イングランド【速報予定 1:40】聖地で対戦",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75976",
+      "source": "NHK",
+      "published_at": "2026-11-14T15:17:15Z"
+    },
+    {
+      "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LNjBaeUdQeGRVVC1RdUlwblRZcXVWeWdyNXNGYVltSWx5QlYwRWhHck9fOHFIWDRRa0g2UHUwRHBYSEItcThoTGJZTnBFUzE4QnlPZjFLUE1RaW1SRzVR?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T15:04:36Z"
+    },
+    {
+      "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75990",
+      "source": "NHK",
+      "published_at": "2026-11-14T15:04:36Z"
+    },
+    {
+      "title": "ブラジル監督 会見も怒り収まらず",
+      "url": "https://news.yahoo.co.jp/pickup/6602607?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T14:56:54Z"
+    },
+    {
+      "title": "MS 障害原因は過去の増強作業",
+      "url": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T14:42:06Z"
+    },
+    {
+      "title": "自民 松山参院会長 消費税減税法案“国民・公明 方向性同じ”",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de76006",
+      "source": "NHK",
+      "published_at": "2026-11-14T14:07:30Z"
+    },
+    {
+      "title": "大倉士門 妻との連絡1日100往復超",
+      "url": "https://news.yahoo.co.jp/pickup/6602605?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T13:56:06Z"
+    },
+    {
+      "title": "AI悪用攻撃拠点か 世界で千台発見",
+      "url": "https://news.yahoo.co.jp/pickup/6602602?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T13:45:44Z"
+    },
+    {
+      "title": "古いAndroidスマホ、捨てないで！ Wi-Fi中継機に変えて「電波の死角」をなくす裏ワザ（ライフハッカー・ジャパン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JYmh3dnNHU04xdXU2U2dHLVlxNFRrLWY2bzdjbHZhaUtRYzJ6Z3R3TmFVSkprUXFYZHVkeHoxeFNSTFF6bHRlT216cU5RSDR0Qkw4Zlg3TXktMlVXWmJKemJveVJhVTZnTWo3NExvVlZycThSbHdFZVJybzA0VGc?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T13:31:01Z"
+    },
+    {
+      "title": "杉原千畝「命のビザ」パスポートの複製 生存のユダヤ人に寄贈",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75993",
+      "source": "NHK",
+      "published_at": "2026-11-14T13:08:50Z"
+    },
+    {
+      "title": "ロシアがＮＡＴＯへ「旧共産圏加盟前」まで撤退要求か…ラトビア首相、議論に応じれば「プーチン氏のわなにはまる」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nME9TRk9XUUZVZ2ZBTVR0UHZPMDNoaUMzZW5EcWtRLUx0cXAtX3VSdkhRa3hveGhiNUk1NGJzbWZlQk14cHFHcHB4SnA1VFhkTnlOTEZvN0JPRzNPSWhrSHpR?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T13:04:00Z"
+    },
+    {
+      "title": "縦型ショートドラマ トラブル急増",
+      "url": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T12:56:42Z"
+    },
+    {
+      "title": "日本兵の墓が無縁化 解消に法の壁",
+      "url": "https://news.yahoo.co.jp/pickup/6602590?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T12:32:53Z"
+    },
+    {
+      "title": "エヌビディアＣＥＯと「蜜月」のトランプ氏、スパイ疑惑が政権に波及…「ウォーターゲート事件に匹敵か」との指摘も - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByYUdoS3lTb0pta3A1QXk4cDAwNWdQQjY1RnZzSUVFM0dJdUN3QTROVzlxeGJtajhKdlBxUi16TkVVSmJJMlNVbkYzUm1mamw0Zkl3Rmw3bjBJamhWQ2FfZmNn?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T12:03:00Z"
+    },
+    {
+      "title": "Motorola公式、やらかす。次の折りたたみの名前を意図せずフライング - Gizmodo",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jYmoyZUVkQWU5ZFQ5UkFlX0pyb09lVjdXQl9JRl8xYWdFckRZemJGSXExTW1VOEtoV00yaEVPZjVReWIxUEhyZnhNZ0dFRFU0MlZJYTNTcUVTMDlqWWVTajRKWi05VlpnTmJQWQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T12:00:00Z"
+    },
+    {
+      "title": "力士の魁禅さん33歳で死去 胃がん",
+      "url": "https://news.yahoo.co.jp/pickup/6602587?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T11:50:10Z"
+    },
+    {
+      "title": "米中露の接近 日本政府は危機感",
+      "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T11:17:04Z"
+    },
+    {
+      "title": "米海軍“ブルーエンジェルス”の青×黄を40mmに！ シチズン「プロマスター SKY」は20気圧防水＆エコ・ドライブ - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tb2tFTGNZZE0ySFRhdGxRbF9uSXVmU1ZtS3RiVWN6b3VqTHNYNTBxcXB2R2tmczd6XzlsSnhlMHBmVkpCWXVmWVc2TTJjeENIdk9YVFZKNHZvQ2l0ZHBFQkxpWVNqUTJzTHZQWl93?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T11:10:00Z"
+    },
+    {
+      "title": "アメリカのトランプ大統領も出席 15日からASEAN首脳関連会議始まる - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rbWV0YmxpdDFDaFh1Tm5odDlMLVkzU0x4Q2xpRjZXTHZudzRKVHNNRmxPQW9rYlVSOTB0MmdtRmhSOVlFOXBZekZ5OUhMX2ZZVDIxLUR2dU1mQVM2ZmlXUC1uUWc3RVlKRkU5bG9n?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T10:43:24Z"
+    },
+    {
+      "title": "『GTA6』予約数1200万本突破との推定値が判明。“ゲーム史上最多”説が出てからも毎日80万本ペースでの上乗せが続く - GameBusiness.jp",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sZFBlOGtWNVd3a1JIa0ttaGRoR0RYNUFNc0tOcEpiVlk4SjVHSzhqOTdyRWxCLW1yYmkwVVZyRmxGekFyZWJhYlVMSU5Ha2VuVHE3aHRVY3VhdTgzY3d0clFsaE1ra3ZS?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T10:30:03Z"
+    },
+    {
+      "title": "演じた役がドラゴンボールの登場人物・桃白白モデルに 韓国俳優の黄正利さん死去、81歳 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBXX3J0ZjRRaVg5T0F3ekt0OXE5ZzlYZURnaTNTTlNmT204Q3ZkeEVvWERYZXZjalRMc3Q4Mnkwc1BHeU05dXEwMFBkbm4tY0ZkOGhydlVSaWloNF9rc1VyTnhlZFRGMGtnVUNPUzk5WDQyQ2dCWEE?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T10:01:28Z"
+    },
+    {
+      "title": "「史上初」の米中露首脳会談、核軍縮など協議も米政府高官は「合意に至るとは想定していない」「入り口だ」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yWnBEaGdCNDl1Vm1aVjludmJ1al96V1QxbGFWcEVGeEFBV1F6U2FHRFhhYVhjZlAtMHFFazRoRmlfNkdSNlRvOXZmMjczMldNWTEwS1VGNnR5a0FjTzVIOVZ3?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-14T09:46:00Z"
+    },
+    {
+      "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
       "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
       "source": "NHK",
-      "published_at": "2026-11-14T09:26:09Z"
+      "published_at": "2026-11-14T09:26:00Z"
     },
     {
-      "title": "“この性能”、8万円台で買えちゃっていいの？ 3画面出力もできるミニPCがお気に入り──GMKtec NucBox M5S (1/5) - ASCII.jp",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zXzh2VmduMDFhYWNqM0pjVkRkVTZMY3JZdGJNYmtxWl9RcjhDUjhDSWFpeG9pNDJRVmlpazZraXotUGg3anl5d0FsT0FjZ2tCY3k2MQ?oc=5",
+      "title": "大阪・枚方3歳女児虐待死 3月にも女児の顔にあざ 8月の死亡時には数十カ所確認 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxNm5FNEEtNHAwWFBDb3NFbTllRnpZbEhuR3FpcjQ1VDRBWHVodjloRms2VmtGMmwtWFAtZHM5enNSY3dfZU1YdEs5ZFZDSTF1V0xFQjNmcm1WVE1QUnZQYVZWVVZPM2VSakFCWlctazE2VUlXb0E?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-14T09:00:00Z"
-    },
-    {
-      "title": "JR北海道 新観光列車「赤い星」公開 ターゲットは富裕層",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75833",
-      "source": "NHK",
-      "published_at": "2026-11-14T08:51:58Z"
-    },
-    {
-      "title": "ヤクルトと東京六大学の記念試合で大リーグの村上が始球式",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75935",
-      "source": "NHK",
-      "published_at": "2026-11-14T08:48:27Z"
-    },
-    {
-      "title": "米の航空混乱 途方に暮れる乗客",
-      "url": "https://news.yahoo.co.jp/pickup/6602568?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T08:45:15Z"
+      "published_at": "2026-11-14T09:18:11Z"
     },
     {
       "title": "大阪 枚方女児死亡 体に古いもの含め数10か所のあざ",
       "url": "https://news.web.nhk/newsweb/na/nd-20261114de75748",
       "source": "NHK",
-      "published_at": "2026-11-14T08:44:18Z"
+      "published_at": "2026-11-14T08:44:00Z"
     },
     {
-      "title": "侍ジャパンに大敗 豪の悪夢の40分",
-      "url": "https://news.yahoo.co.jp/pickup/6602564?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T08:30:42Z"
-    },
-    {
-      "title": "米中ロ3か国首脳会談 19日に初めての開催へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75768",
-      "source": "NHK",
-      "published_at": "2026-11-14T08:26:24Z"
-    },
-    {
-      "title": "病気で90cmの14歳 一緒に泣いた母",
-      "url": "https://news.yahoo.co.jp/pickup/6602563?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T08:12:36Z"
-    },
-    {
-      "title": "3歳死亡 歩行訓練で腹立てたと父",
-      "url": "https://news.yahoo.co.jp/pickup/6602559?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T07:49:18Z"
-    },
-    {
-      "title": "Twitchで『GTA6』1万本以上を無料配布と予告！「アルティメット・エディション」も含まれる - Game*Spark",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrSklEdXBPTHdLY2pJZmVlVWtBaGVTemRKNVdvNW5VQ1AyNkdCUmFOeHZ3TkFjbVNjczJ5VFZlaTZVT21uWFhVOS02TkhyZmgwQUZlWVFDWVZyc2xhSzBTUk5xWUNVdw?oc=5",
+      "title": "【侍ジャパン】そろって3戦連発、MVP争いで高め合う“正宗コンビ”「打点でちょっと負けている」「すごいプレッシャー」 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nOUF0b05DeDJiSzZmOWdONTRzZ2MyVzk4LVVWZ3hVVXlwZGZQc0ZTT2llTEFHbFFTa01pU2Y2bHVxdHV1UzRBeERiemJjWGMwOWZCSEw3VkJXT0RXRG5qWWtXY25qcVp1emN4Z2JRX0kwSGFhc2I0TUFLRmpLLTg?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-14T07:45:07Z"
+      "published_at": "2026-11-14T08:43:51Z"
     },
     {
-      "title": "三重・伊賀市営住宅の家賃滞納、最長３６年４か月「督促しているが」…２３６戸には別人が居住 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aUm9NekFTcU9ubnBfYjVzZmxxUjlJY2kxQkdtT2pyaEduaE5LWWUzZ3pGUHNsZXJGR0JRS0xQYTFud25EU0FQTjIwUDRZOWdONjlNLVZIaVgwRTMwYm4wWUV6SVVHdw?oc=5",
+      "title": "いわきの３歳児暴行死、事件前の対応巡り市と県の主張食い違う…市長「同じ思いなら最悪の事態防げたかもしれない」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iZVRqdk1yWHF0dXpqRE1YNm5yZm50WHNWRzNWNkR6eE5fZjJVQTAtWEs4dVB3VDhVS3UwX0JjMlVMQ19sRWxJdnAxa1dOYXdnNU5iNXFkbWZJUVhuRFY0bTZFVEptdw?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-14T07:23:00Z"
+      "published_at": "2026-11-14T08:23:00Z"
     },
     {
-      "title": "米マイクロソフトが大規模障害の全面復旧を発表、原因は「設備増強作業の不備」…サイバー攻撃やＡＩ暴走は否定 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52UFozY3F3Y3YtYWlYZ2FNZlVQSXFnUVhEVTdEdDF4dEFjZWRKQVU0UlhtVWxTT01OWWZkZDVvdGxncUVIWUJYTllEVm1PQnJEVVViQ3BvWGxYUkc0bFktRjd5REE?oc=5",
+      "title": "明日11月15日(日)の天気予報 低気圧や前線が通過 全国的に雨で激しく降る所も - ウェザーニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1taDdYZkV0MkZoVWhXQ0pnWDl2b2hTN0k5SWtUZjZGN3BsLWtEV3B1SjRDMEItLUhwcUZHLTBndzYxdWVVUE5XdU5heC13Nkl3ell6Ug?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-14T07:13:00Z"
+      "published_at": "2026-11-14T08:00:00Z"
     },
     {
-      "title": "最新情報ー第42回伊藤園レディスゴルフトーナメントー明日へひとこと - 日本女子プロゴルフ協会",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jcWVDa1pOYnJ6RHBoaHY0bjRmZ0pZdEFvRVdTVHI5MHhySUdSc0swOUtGM1pudU1YMnpxd3ZhaTdHT1lDT0NjRjZiQjVXbVk?oc=5",
+      "title": "佐久間大介メイク中の前髪上げ無造作ヘアからふんわりセンター分けした完成後の姿を披露「ヘアセット前でもすでにかっこいい」「もぐもぐシーンかわいい」「お肌ピカピカしてる」 - THE FIRST TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IT0pwTkQ4OVJKNDl6YUYybTBkTnByXzZLSEZrZkNta0xqdXBxN05UTEZEV1J0aWktVEJza01pb1V6eXhiWjZVUDBLWVJyem9Ua1UwaGxmTlU?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-14T07:05:08Z"
-    },
-    {
-      "title": "マイクロソフトの接続障害 全面復旧と発表",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75755",
-      "source": "NHK",
-      "published_at": "2026-11-14T07:04:00Z"
-    },
-    {
-      "title": "急逝したFWと衝突のGK処分 欧州",
-      "url": "https://news.yahoo.co.jp/pickup/6602553?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T06:53:32Z"
-    },
-    {
-      "title": "市営住宅236戸に別人が入居 伊賀",
-      "url": "https://news.yahoo.co.jp/pickup/6602552?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T06:51:30Z"
-    },
-    {
-      "title": "明日は全国の広い範囲で雨 局地的に激しい雨が降るおそれ - ウェザーニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE05NUwwMjhYYk9CNXliRVg3YnVLNmhFMlBZc216eVFHYVRGMjEwTThKelBRbUlVZ2FpZlBlWVpaNEFtcU9CVkV5Nk1IMUVJX2VRZ3JwZQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T06:32:00Z"
-    },
-    {
-      "title": "エヌビディアCEO 後任選定難航か",
-      "url": "https://news.yahoo.co.jp/pickup/6602554?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T06:24:31Z"
-    },
-    {
-      "title": "「急いでいるなら階段を使え」GACKTがエスカレーターを歩く人々に怒り (2026年11月14日掲載) - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4yQl9DWllEUGx1OFk3YjBHM3RIQ2tSS0w2X1RlZmtzVEt0Zmo2cGNZdUZPbFBlZHhURC1yREMzNzlrNGhRMG9MUGp3YmRyMXROWER2Z3A3cVA4cC1SU2c?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T06:14:10Z"
-    },
-    {
-      "title": "SixTONESが2度目の大賞「anan AWARD 2026」開催 KEY TO LIT・高石あかりら豪華集結【受賞一覧】 - モデルプレス",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ZaUNvUmhjdzhFSk9SVHh1QU1DR0s1bW82T1RWYnI4VGRaN3EwNDZFc1hnSDhsVmVxRjZoczA5cFowcWdzN2NNSExHVdIBR0FVX3lxTFBHZjZMcVBDSUl3OEsyVEFBX0U3SkZVOXJ5ejctV0FwNFZHWnpTSGN3LXU1eFZjQlBLM1pYeVZ4czhHbFdpTmtv?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T06:12:05Z"
-    },
-    {
-      "title": "バイデン氏、回顧録で恨み節　24年の大統領選撤退 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUm8tVnBVdzJPSlp3THZrOEtJcmZpV3BCMzNuQ2YzQ05tdFdGYnItT193RW9aTGt2VzRqcjl4MFphZGFwWmJOWVZnMzNYY1lQVlI4WnNMTTc4dGE0QnFoRHB2ZG5yd1Z5NzJfNWkzRW1ELVlLMDJBaEE0OVdOZU8wSWZuNFpBM3BMSEHSAY8BQVVfeXFMT0kyLVcxYUZoZmxmWDFDQjdXQ0tUUV9GTFBfWFAwRmx0UzEyek05WjQ1VXhURkwyclRtWXg4NXpUeFU3djVDR1JzanlLTVBxOHQ1SmFvbk5rajVWVVpJVnhfQ3YwZnFIclBZc0wxTEVtVkl2c3ZfZkJYYUtOcS0zQUFSdS1EZDNtNjJ3anR0YWM?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T06:12:00Z"
-    },
-    {
-      "title": "【NBA】八村塁、シュート不発もシーズンハイの12リバウンド！クリッパーズがサンダーとの激戦を制す＜DUNKSHOOT＞ - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02MXRtb2VoY1lHMjhsYWtXV1lrR2dBeDBLdGlrejVBSVBlTkdHemtQckd3eWlhYUZjc3VFb05SZWFKQmo5bXpEeGlBd2o2cWdaWEt5V1ZrMld1VlcxTGgtRGRNYlJmWVNoNk1KNUV2WDRvWkUzd2pVWm11dG4ycXM?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T06:08:00Z"
-    },
-    {
-      "title": "侍ジャパン3連勝で決勝へ アジアプロ野球、豪にコールド勝ち - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLaG9Sd0NmblBjUVJwVTZyNXY3WndCTmdrRUlaTlJ5cTBGVnE4WF95V1FYU2RSczlXS1c0TmRrdTB1NWZqRTVFd29lTEtpYzg3N2xIRV9nb1hGUWZJU0ZSTHd1RTJFbjVLRmJENQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T06:05:49Z"
-    },
-    {
-      "title": "「いつまでも仲よく」横田めぐみさんとの“約束”胸に再会待つ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75794",
-      "source": "NHK",
-      "published_at": "2026-11-14T05:40:56Z"
-    },
-    {
-      "title": "山本草太はスケートアメリカを２位発進 ノーミスでのシーズンベストにガッツポーズ 首位は世界王者イリア・マリニン【フィギュア・ＧＰシリーズ】（中日スポーツ） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1COElYU2x2Z05ubFU3bDFXbzhBVlh6cXJkMTVSSVZORHRXNnRwU2MwUjdwdnZSc1p2dEZtVzFBSXk1Sm9WTEo3RDk1Wlg1UnhJTXc4NTV0Z0d3WEJOel9NTmlxMU1XWXE1SFV5c0g0ZXp2VGJIQnc3VTkwbzIwUUU?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T04:44:33Z"
-    },
-    {
-      "title": "安保3文書「同志国と実効的連携」集団的抑止力へ強化 防衛省、国家防衛戦略に方針明記へ - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbFZPSnl0NTJpUmdYYnRGVEItOW5nTEFsTjRmZmZhN3J4Y1pSdFFwZ2VweFNWRUdfVU5hTnBWdThvUWJUUVVySUU4a01KZXVQel81dDFWNHJYR2tCRW1xdjFhT1NZN0dNUFJDSGc5OExTeE5BelBSRHMxTFNISFF3WWFnbS04d1R6WGwxeg?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T04:39:19Z"
-    },
-    {
-      "title": "京阪HD 不正アクセスで最大22万人余のLINE情報流出か - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xcGdWaU96RHFsTExkUWlLUFdoR2k0RmVVSnY5V183YjIxVHNrZVk0RGNQT3BSdktOcXhzVEhua1F5MHc4Z2dSelhOMDl6WHFlcFlwcjh2Tlg3eUJsN0pn?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T04:07:03Z"
-    },
-    {
-      "title": "速報アジアプロ野球 侍Jvs.豪州 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mN05GeEkybTVwR203STJocEl5Z0lrMGdoMTgwVDdfWDBrYmZuekpvU0tVLUdkWDg2Z3VYVDJLTHE1dmhGTUlfNVhldnlMRG1E?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T03:42:17Z"
-    },
-    {
-      "title": "【まとめ】全米の空港で約7000便欠航…航空機の地上待機命令は解除 運輸長官「レーダーと通信に不安定な状態発生」“管制システム老朽化でルーターに負荷” - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1IWVBzWFhvVGJwZVRtZkFIVXQ2UjJacXQ5eGFzV1JCZk56SjB4QXo4c2xkcGYzSWdIX3QxTEVVLU9xOXkzWDcxbDdLR1F1T3hyLUIyLTFOMW1aZV9KLVZzLU90eVA0ckwwMmVadTZaOGhKSDVTeHRWTUlR?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-14T03:13:00Z"
+      "published_at": "2026-11-14T07:59:05Z"
     }
   ]
 }
