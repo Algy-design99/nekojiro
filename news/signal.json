@@ -1,11 +1,32 @@
 {
-  "updated_at": "2026-11-14T23:47:59.922812Z",
+  "updated_at": "2026-11-15T00:04:20.768291Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
     "world": 40
   },
   "items": [
+    {
+      "title": "ゼレンスキー大統領“米がNATO加盟と交換で軍撤退を打診”",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76042",
+      "source": "NHK",
+      "published_at": "2026-11-15T00:01:47Z",
+      "region": "jp"
+    },
+    {
+      "title": "若手登竜門の国際コンクール バイオリンで小西真璃花さん4位",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76044",
+      "source": "NHK",
+      "published_at": "2026-11-14T23:53:25Z",
+      "region": "jp"
+    },
+    {
+      "title": "VIVANTドラム編 地上波初放送へ",
+      "url": "https://news.yahoo.co.jp/pickup/6602625?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T23:37:30Z",
+      "region": "jp"
+    },
     {
       "title": "7時頃登校し清掃 校長に児童感化",
       "url": "https://news.yahoo.co.jp/pickup/6602624?source=rss",
@@ -17,7 +38,14 @@
       "title": "インフルエンサー「あっすん」 風営法違反疑いで逮捕",
       "url": "https://news.web.nhk/newsweb/na/nd-20261115de76043",
       "source": "NHK",
-      "published_at": "2026-11-14T23:25:45Z",
+      "published_at": "2026-11-14T23:25:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "横田さん拉致49年 母が思い吐露",
+      "url": "https://news.yahoo.co.jp/pickup/6602620?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-14T23:10:36Z",
       "region": "jp"
     },
     {
@@ -28,31 +56,10 @@
       "region": "jp"
     },
     {
-      "title": "高市首相激怒「石破・小渕の乱」の行方、参院否決なら「離党勧告」「衆院解散」 平井文夫 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMFMzLWNmLTVSX3Z5T0tGa0ZiLWljVU9mYUVHMHZzYklMT1ZyalI3VC12T1RJOEtCb2EwRDU3WC1iTFo0eVpMbnMyUS1MSTRielJJUWJXN2pyaGJfN19GU0RKUDZ3YkpJNktYemh3c1V4ckRvcTZBOGlWRXdXUkU2U1c2bUZBR2QyeFl4cENZY3hldmRuekdCVG9JYVk?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T23:05:32Z",
-      "region": "jp"
-    },
-    {
-      "title": "ゼレンスキー大統領“米がNATO加盟と交換で軍撤退を打診”",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76042",
-      "source": "NHK",
-      "published_at": "2026-11-14T22:59:38Z",
-      "region": "jp"
-    },
-    {
       "title": "Netflixが値上げ 最安は990円に",
       "url": "https://news.yahoo.co.jp/pickup/6602619?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-14T22:58:48Z",
-      "region": "jp"
-    },
-    {
-      "title": "NHK紅白歌合戦 注目の大トリ誰か",
-      "url": "https://news.yahoo.co.jp/pickup/6602616?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T22:43:33Z",
       "region": "jp"
     },
     {
@@ -70,24 +77,10 @@
       "region": "jp"
     },
     {
-      "title": "首相 「アジア版IEA」創設提唱へ",
-      "url": "https://news.yahoo.co.jp/pickup/6602615?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-14T22:36:41Z",
-      "region": "jp"
-    },
-    {
       "title": "インフルエンサー「あっすん」を風営法違反容疑で逮捕、経営する飲食店で従業員に無許可接待させる - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1anduNWw3RWZzaUNJUTdlNGlKTGZVMzN6VnJTV0JNSGZGNjM2aTVoV00zYmJfYkNtTVpoRG8zcmc1S0IzMExYcDlHSnFCNjRzb0psQ1h6cU5qWC1CSlQtYlNDR01nUQ?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-14T22:33:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "【2001（平成13）年11月15日】マイクロソフトがゲーム機Xbox発売 - media.rakuten-sec.net",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DZGlaaHF4NmdTSzVRVzczSG5hamNrdWVvR0N1eDdtc25admRXTTlWSW1ZVGZDamo2aDc2cEVSWjhEUTFFd3dtOEM1X3JnT3VtTW1pSWJidkJLZw?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T22:30:00Z",
       "region": "jp"
     },
     {
@@ -105,10 +98,24 @@
       "region": "jp"
     },
     {
-      "title": "ツアー2勝目へ吉田優利が2差3位 渋野日向子は「74」 - ALBA Net",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mNXdjaDM5X3AtTHlISjJhS0ZuLTJXYzQzTmR5Yl8weXpFMFQ5cm94TGNwRFJTOEVLYWZOQzFwblNwbDgxZGVpSTM1QlVjQ2RuSGNmU1ZCcDRwRVJCUld0Z0gtLXl1MXYxWU1nYW16ZXpPNU9TUHF3?oc=5",
+      "title": "吉田優利が今季2勝目へ2打差3位浮上 原英莉花と岩井明愛14位で最終日 - GDOゴルフニュース",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrdF8zVEpBajBsMEk4bmVrN0dTQW9TcHFzYUo5V0g2bjd5VVoxd1U4aUNfd25zNHpOTkJiMnQ3dlUxeFpsSUNMMlhRdUtpakFxTTdoVEdMMHVLTFY0TEUxMWZVcnF5UENUcE5fZEtlVnZwVTjSAYcBQVVfeXFMTkN3aEhCQTZqY0xqSlFDRG1pR05fTGk2NHUtWF9xeGozN0JkYWkwYWRabDM4TGRnQmZaR0lJUTZtZG15WkY4dUhFZFpuRWR0ZmZaQVlnUHZCMnBXemNVbUh6R2hWQ3MxRVhKLUdVbkJrS2VhelZPRWJIRGFyVEZWWnBLOVh2VHFB?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-14T22:12:34Z",
+      "published_at": "2026-11-14T22:12:38Z",
+      "region": "jp"
+    },
+    {
+      "title": "全面レストアで美しく蘇った！ 日本名「ダックス」として知られる56年前のホンダ「CT70トレイル」を米国オークションで発見 いくらで落札された？ - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16WC1KWGhQN3VsUS1PNnpQTjlxaWtyZHZoS3IxYVRBb0FST1Z6ZWZsd3ZpZWI5VXdtVFdaSndJaVhJSTlETjNOd29KSlVtSVV6Q3IyOS1KcDJheTVlY3VqSVdsSzlaOFhqeFpnaXlB?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T22:10:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "米中戦争「最も可能性高い結末」 アリソン教授が語る、罠を逃れる道 - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ab1hiRDlrcmFrdzBHY09DNXlmUFNiVmRtU0JaXzU0aG9zY2tNUkZhaTN4eGVGV3lESUVTNXZMV2NIa1Y4LTZ1OVlyVGJxcUt4R0JpOU1SZk1MUHJSLV9IeWI5WkZ4UTQ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T22:06:37Z",
       "region": "jp"
     },
     {
@@ -133,13 +140,6 @@
       "region": "jp"
     },
     {
-      "title": "有吉弘行、ラジオで相方と大ゲンカの女性芸人に“公開説教”「仲悪いと、みんなが気使っちゃうからな」 - スポーツ報知",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MTzVIb3FLSU5OSnU5WDNOU2xSM0ZRVFVEYVQwX3E2RG42c1RFNUhvR2w1Y3pOS0ZYM29KbV8xUEtLZWpyZnpFdVVIWUJRZmZjWFJrakxyUFlNLUtIRlBoWHVB?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T21:00:31Z",
-      "region": "jp"
-    },
-    {
       "title": "Twitchで『GTA6』1万本以上を無料配布と予告！「アルティメット・エディション」も含まれる - GameBusiness.jp",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UajBGcF9YRm1tR043S3N2T0wxbzBFN01NMkxzR2hGa3pqN0VqWUdCdlJQRVN3MEg1a0dQUjZ0WDYtcW9Hdk84WGMwR0pyMWJIS21Pem5pR2V6RzBWb0JYd0M0eUpSQmZX?oc=5",
       "source": "Google国内",
@@ -161,6 +161,13 @@
       "region": "jp"
     },
     {
+      "title": "ASEAN首脳会議開幕へ トランプ大統領のアジアへの姿勢にも注目 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wWnFBSklqTUMxV3JfUl9iQUM5eWFLc29sSUpiZ1N0dTl3aTJCcHpGYlp0NGNYdm1DQ0Jib1U4V0tETEdseFZ5X3ZqVmM5SkVXTlY0RVNHM0JqNmk4RjBV?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T20:12:00Z",
+      "region": "jp"
+    },
+    {
       "title": "ASEAN首脳会議開幕へ トランプ大統領のアジアへの姿勢にも注目",
       "url": "https://news.web.nhk/newsweb/na/nd-20261114de75995",
       "source": "NHK",
@@ -175,10 +182,10 @@
       "region": "jp"
     },
     {
-      "title": "３歳女児の遺体にあざ５０か所、逮捕の父「しつけで殴ったことある」…大阪・枚方虐待死 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jeV9ybnI4Y0ZBaE1xeEJoN1JNTXBXQnZVeXg3c0xCVWlxQ0o3TkJlUHJ0MkNGQWgyRGx0RzZkRGgxT1YzNXlhYUFyQlpMNjUwcnE5cDlwdnM1RFVrRms4X01UOHJvZw?oc=5",
+      "title": "涙に終わったW杯から138日。因縁のブラジル撃破にMF田中碧「とてつもなくうれしい」 - ゲキサカ",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94a28xYXlqeUVlUV83Y3RlSGZmZjYxU3kzaG1WRVdYMWpBMFoxaXFjbUxSUFpFVURzaDkyVFVacmZXNFJpejVCR3RnY1FnWnZfWEtCUWptREF0bXJNdVBGYUZ6eXhBaWVSNjlN?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-14T20:00:00Z",
+      "published_at": "2026-11-14T17:27:00Z",
       "region": "jp"
     },
     {
@@ -196,17 +203,17 @@
       "region": "jp"
     },
     {
-      "title": "久保の”スルー”に感謝のMF中村敬斗、ブラジル撃破弾再び「1年間で見たら勝ち越した」 - ゲキサカ",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55S2hYcWJBeUpWSlF5eGJjdVRmZWNHcTBvV0VkNm1YSVdLWDBIc19FTDNtclFJejBqV0pxTHJLQi13WlJCVkpPMkRkVi10OTZTZ2VDcFVBS0FyUHFQMFhXalV2X2ZpV0drRFdR?oc=5",
+      "title": "小倉優子、弁当作りに「これめちゃくちゃ便利！」3828円アイテムを絶賛　スタッフも「こんな商品あるの知らなかった」と驚き（1/2） | エンタメ ねとらぼ - ねとらぼ",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDbnJ6Uk5QVUttekM1Z2pxc2Z3dFpSOW9Td3JuVHhBN1JhbkxkZmF6Z29TVy1IQWt2UEI4dURVclgxb2swel9lTzlseWxoQkN2SXFtSDE4bXVCa3U2RGfSAWNBVV95cUxOd1VNQXRMWDZZWUxLOXR2X2FVWU5mUmxYZHdiT19mUWdlY3RCQ1Qyc3g4OElmWXNzTGlIWWFGWnctREpsYkdxaldScmo0VGN5YjVITUpteDN2UmpFdG9NX0R0bjA?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-14T14:36:00Z",
+      "published_at": "2026-11-14T15:20:00Z",
       "region": "jp"
     },
     {
-      "title": "アメリカ側がウクライナに「NATO加盟と引き換えにドンバス撤退」初めて打診 ゼレンスキー大統領明らかに - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPMEV1T0J6VFc0YVhEa2xnMldjTEl4cmMzNjJKTVpiUmUzdHpIa21Bdk1KSnh3b0FUX24yQ1pnZEhUVlI4RkZWbEM1ako1d2lDUDloWTZraG1SWWlubGN4UnpIUG9VN2RMWVZKZ1ZYYzdFSWNFamlQeFZrdzV6dk0?oc=5",
+      "title": "【セルジオ越後】ブラジルに勝ったけど、それで世界の強豪に肩を並べたと思ったら大間違い。日本は圧倒できていなかったし、ヴィニシウスのようなスターもいないんだから（SOCCER DIGEST Web） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIRk53QXJvdGVLenhVeTNBOUhRMTRkM1NjN2VJbzJLdlBaODBXVGNSR2FrcGZVbnhXSTNXMVN3aXJwVk81cEYtLXBYbFVpQmdoSzhGdlFSU1NVT1Z1Zm00RExwbmxYSThoOHJMaEtPUDQ3S0lxSEhsQ0U0OFFLVVE?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-14T14:31:47Z",
+      "published_at": "2026-11-14T14:50:00Z",
       "region": "jp"
     },
     {
@@ -217,6 +224,13 @@
       "region": "jp"
     },
     {
+      "title": "有吉弘行、ラジオで相方と大ゲンカの女性芸人に“公開説教”「仲悪いと、みんなが気使っちゃうからな」 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hQlNaaGVvS21oakxVSVhrZEVTRkxPaTZPbGs5WEVDREJQYWZ1Rkd0V3RtVXl3clNTUjZDU1QzVXNCZ01UZ29VdlRKS2hoNENVR01TQ2MwNFZrZWhiSDJOdE5sRFdIZTNHZjEyaVdR?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T14:02:00Z",
+      "region": "jp"
+    },
+    {
       "title": "「二度と造れない車両」 新観光列車「赤い星」公開、ラウンジや畳敷き茶室も JR北海道 - 産経ニュース",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iLXRGVVhhY0FRWnBEOWhxRlVwWTBjNV9nSjFvWTNlT1BYRjBPTC02TGVjZHJfeVJzWU43M2xLZXY4SkhTNkpXQlJvcmVtLXlDTjZ0bHplcHJ1NDRjMUI5MFlIUVFlVWJESjdEQjlzVjdaazl3ZUE?oc=5",
       "source": "Google国内",
@@ -224,10 +238,17 @@
       "region": "jp"
     },
     {
-      "title": "杉原千畝「命のビザ」パスポートの複製 生存のユダヤ人に寄贈",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75993",
-      "source": "NHK",
-      "published_at": "2026-11-14T13:08:50Z",
+      "title": "ロシアがＮＡＴＯへ「旧共産圏加盟前」まで撤退要求か…ラトビア首相、議論に応じれば「プーチン氏のわなにはまる」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nME9TRk9XUUZVZ2ZBTVR0UHZPMDNoaUMzZW5EcWtRLUx0cXAtX3VSdkhRa3hveGhiNUk1NGJzbWZlQk14cHFHcHB4SnA1VFhkTnlOTEZvN0JPRzNPSWhrSHpR?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T13:04:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "「国境越える再分配を」＝民主改革代表、インドで演説 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nZk8xWF9rbWJ5SlNLcFNBUnU3VUJtMkloV1JJZV96aFE1NzdDZ2pjLWwyb3ZFVmVCX05kRHpKVUhZanVnTFc2bnFpOFdUMjhQRHlLVGxQV3pIenVMQy1xdURBT09IQdIBa0FVX3lxTE5wZ190Mnlyajgwajd1U0dTd1NGQXVvNEZCWGlYRTVVaHFsWU9sM1NlSFdBUlRJMjhtOWdQMjYyTnJxU2VNakdRcDExSUlLY1FPZjhCb1VWYXNxQ3pDNTBVdlY5RU9OcTlSVFo4?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-14T12:34:38Z",
       "region": "jp"
     },
     {
@@ -235,13 +256,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByYUdoS3lTb0pta3A1QXk4cDAwNWdQQjY1RnZzSUVFM0dJdUN3QTROVzlxeGJtajhKdlBxUi16TkVVSmJJMlNVbkYzUm1mamw0Zkl3Rmw3bjBJamhWQ2FfZmNn?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-14T12:03:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "アメリカのトランプ大統領も出席 15日からASEAN首脳関連会議始まる - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rbWV0YmxpdDFDaFh1Tm5odDlMLVkzU0x4Q2xpRjZXTHZudzRKVHNNRmxPQW9rYlVSOTB0MmdtRmhSOVlFOXBZekZ5OUhMX2ZZVDIxLUR2dU1mQVM2ZmlXUC1uUWc3RVlKRkU5bG9n?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T10:43:24Z",
       "region": "jp"
     },
     {
@@ -259,32 +273,32 @@
       "region": "jp"
     },
     {
-      "title": "ようやく「全面復旧」発表 マイクロソフト大規模障害、滞留メールの処理完了 丸1日続く - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sSXJlcGFmTlpFTUFJT2F1MU1qYnM4a1VVeHhOQ0F3NmlQVUNpWmxSZkVLOS1Ka19RaE1Xc1dRMTVCX3I5cVlxMF8tU2hpTFpQSzJRMXo0bzBmekV6V0lNd3FUYjNRSWZiQWlUNGRJaHhBT3kxYVE?oc=5",
+      "title": "「史上初」の米中露首脳会談、核軍縮など協議も米政府高官は「合意に至るとは想定していない」「入り口だ」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yWnBEaGdCNDl1Vm1aVjludmJ1al96V1QxbGFWcEVGeEFBV1F6U2FHRFhhYVhjZlAtMHFFazRoRmlfNkdSNlRvOXZmMjczMldNWTEwS1VGNnR5a0FjTzVIOVZ3?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-14T08:16:30Z",
+      "published_at": "2026-11-14T09:46:00Z",
       "region": "jp"
     },
     {
-      "title": "SixTONES田中樹、KEY TO LITは“びっくり箱” 期待することを明かす - オリコンニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvTnIyeXF5MVU4eDYzT3E3cFV2U01OZGtqSFRlejlDNDdJRGJmS3NJcDBnSlBzcHowd054WWJVcWlsTS03X0F0U0VENEVQWXh1UWktR3hR?oc=5",
+      "title": "大阪・枚方3歳女児虐待死 3月にも女児の顔にあざ 8月の死亡時には数十カ所確認 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxNm5FNEEtNHAwWFBDb3NFbTllRnpZbEhuR3FpcjQ1VDRBWHVodjloRms2VmtGMmwtWFAtZHM5enNSY3dfZU1YdEs5ZFZDSTF1V0xFQjNmcm1WVE1QUnZQYVZWVVZPM2VSakFCWlctazE2VUlXb0E?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-14T07:25:00Z",
+      "published_at": "2026-11-14T09:18:11Z",
       "region": "jp"
     },
     {
-      "title": "【解説】 強硬姿勢を崩さないプーチン氏、ウクライナ和平の条件を一段と拡大 - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HQ0dvTnFDRHlPY1JUSzh0dlREWG5PZmFpNEJTdjhqUU13MmMtVkNTM3F6ZDd3RHB0MjlCT3AzRmZGNmhXOC1DLUJYSW9LT2dzUXFPOWxMNWRfV1BYcTJKaNIBZkFVX3lxTE5Ea1JvUGRCSUVnVEx1aDNhaUxSNWJsd3dCdThTWS16LUFOVi1UZFNlWnVmZkZLNEEyNlYyaGpPVDJjOXpWTzEyRlVwSk90Nkl6bFRyVVZremZoOGFoVnB4UllXWlFPUQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T06:18:48Z",
-      "region": "jp"
+      "title": "ゼレンスキー大統領“米がNATO加盟と交換で軍撤退を打診”",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76042",
+      "source": "NHK国際",
+      "published_at": "2026-11-15T00:01:47Z",
+      "region": "world"
     },
     {
-      "title": "ホワイトハウス、米ロ中首脳の歴史的会談を実施すると発表　トランプ大統領、プーチン大統領、習主席が来週中国に集まると - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZMDczMkU2LUhFc24yUzNUWTMwZFYzOU5GdTQ5THVpbXFLRFh1dUx0V01uZUpCN3g2d25kNmdFVXZFVnlpN3FBVkU5RDlIRjJUM3NWakRSM2duYTd2QWtPbNIBZkFVX3lxTE1PQms1aXQ4Ml95VktCWlVuUDlIRDVBM3ZaSThKbHV3bFEzYW5GQVpmcWNSUHB0cFFscE04XzljNk93YlY2WjhxMWVFdVB5WE5ZYmtzOFVVZ2kwZGViNDNETUUyZ2tjQQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-14T05:48:48Z",
-      "region": "jp"
+      "title": "若手登竜門の国際コンクール バイオリンで小西真璃花さん4位",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76044",
+      "source": "NHK国際",
+      "published_at": "2026-11-14T23:53:25Z",
+      "region": "world"
     },
     {
       "title": "ウのNATO加盟で東部撤退 米打診",
@@ -301,10 +315,17 @@
       "region": "world"
     },
     {
-      "title": "ゼレンスキー大統領“米がNATO加盟と交換で軍撤退を打診”",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76042",
-      "source": "NHK国際",
-      "published_at": "2026-11-14T22:59:38Z",
+      "title": "民主、アラスカ知事選勝利　28年ぶり、全米30州掌握 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaTFZUkxZcXRtcGU4b21pLTJ5bVFuVVJBd19OcG83WWpEeDBjZ2FrWGhwcDZRNC1JLVpybTdtXzd2MGNOMnJpNTY2dmhYZXBNU0F4aWp4ZG1RZi1fU2lwT2tEWWM4WF92cHVWeVp6ZVRBbGxwWGtuMFlJT2RGcHFETXVyYmlOQTFZTGfSAY8BQVVfeXFMT01TWE5wUzhDeXN5TWpsS3VGYXBOeW1NUTh4Z2ZnQzduUWNDeUNNWVlXSktZZFEyR1U3OE8wN0NKSnZ4OVlHY2ItU1ZpdlBqcWk5YmlLdmwzV21QNDJlRGFnWVVnNFJvcmMyX0ttd19Qd01rcEpNVi1mZXp0ZFpTaXA3MkZMekhUMHR3UDlYRHM?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-14T23:15:00Z",
+      "region": "world"
+    },
+    {
+      "title": "「NATO加盟条件にドンバス放棄」米がウクライナに可否質問 ゼレンスキー氏公表 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQlM0YXIteXgyaGpnclNVdHRJY1dyNk9CQ1JRM3FqbTVJZXF2ZEN4UE0zTmdTSGxSMTJjSEs5MDYyRzZJdWg0TlFJMWk1QlBKNFgtU05NTk1pMTFuUzVQYlBwMDlQeHVXUXhGdm9QSFNISXV1enZBSjJvRi1ucjhSMWxKandZOWlvVXo4OA?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-14T22:33:56Z",
       "region": "world"
     },
     {
@@ -354,13 +375,6 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yeFpqcE11Um5PZDlSSUdiSG5wbkVmckVRcXBvUTI0Z1N4NFg3cHVYNGg3UDFUWXNaTVl4N1paS2RDVFpWbFFteWwweVhnQ1d5WHhndE5ZT0JxcDMxaHZkelFfTnhVNm1KdmlITWxmUTBDS1pldzFFTmVxT1F0c2c?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-14T19:05:48Z",
-      "region": "world"
-    },
-    {
-      "title": "アメリカ側がウクライナに「NATO加盟と引き換えにドンバス撤退」初めて打診 ゼレンスキー大統領明らかに - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPMEV1T0J6VFc0YVhEa2xnMldjTEl4cmMzNjJKTVpiUmUzdHpIa21Bdk1KSnh3b0FUX24yQ1pnZEhUVlI4RkZWbEM1ako1d2lDUDloWTZraG1SWWlubGN4UnpIUG9VN2RMWVZKZ1ZYYzdFSWNFamlQeFZrdzV6dk0?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-14T14:31:47Z",
       "region": "world"
     },
     {
@@ -434,16 +448,16 @@
       "region": "world"
     },
     {
-      "title": "米国が検討している同盟国設計のフリゲート艦、潜在的な調達候補は6ヶ国 - 航空万能論GF",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcnpJbWJkU19vcTYyVTQ1MU1qMTFLa3ZkNTMzNzZnYmliMGZHYWVuQlZab3VKN0RhYkpwMjQ4Q00zUk11Ql9KMl9QcG53bm4zblg3U2RJS0g0ZHdHM3pKRXRRNUlfaVFERW8tdDFEWlV4TG1CbHNMODZjandGTk1LMnBwZzFXLXFXOUdBLVR4b05JX3ZiajZjdmZlVVZWUHd6cm1HVFZYV0Rvd0lNUFk3aXlrcVJzMlhmWmJaemVienN4N0hTR1pF?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-14T08:32:19Z",
-      "region": "world"
-    },
-    {
       "title": "自閉症の日本人画家の個展がニューヨークで開催",
       "url": "https://news.web.nhk/newsweb/na/nd-20261114de75906",
       "source": "NHK国際",
+      "published_at": "2026-11-14T08:32:00Z",
+      "region": "world"
+    },
+    {
+      "title": "北京初雪の万里の長城 凍った石畳を四つんばいでのぼる観光客 (2026年11月14日掲載) - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1UVWkwd1VkRVo2c3ZtaFlkWHVwMDY0Ync5dnltalROdFVINHJUUl9hcnRPUk1fcW5LcjNjMUFUSkhfTXlIbE50VE9oN3NBN3pvSm5BUmNJbDhwa2VncUE?oc=5",
+      "source": "Google国際",
       "published_at": "2026-11-14T08:32:00Z",
       "region": "world"
     },
@@ -459,20 +473,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FWEZCY2l3eTgyMzRoM2VoMmFMMWlUcEJGTHZETllHejRjMXFDM2RhSVphX25kRmlLTVJaWTZtWWhjT0dHRlNjX2NNQnVZSl93RFQ2UnoyYnE0Uy02LW56WWh6Y195U2dYanZORQ?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-14T08:00:24Z",
-      "region": "world"
-    },
-    {
-      "title": "米攻撃型原潜の整備遅延が約半分まで改善、年1400日を年780日まで圧縮 - 航空万能論GF",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNM3RkZUhydVY5bG9pQ05SMTNBaWRZMDFFV3BpUFpDQjhncXUxOHVsSVNrX3hoMDgwUkFfNTFiZDc3X25oNFpoRFV5M3JpcWVzOGxQcGNVQVl3aXpmSHdvTF9aUXhfdFJ6YXpGSnpOMkdWZS1sM1pXUktNVHpNZmx1RHBMVjF6bzByd08wdlZwMDIwVzVUOFN1dTEzOWR6QklTNEp5X2RFNnpaWE9mZU80dFR3cFliRTY4ZUNzZHhfYnh0QkR5V3FMbEkxODE5QXROTm12TXdXWEdFSGF3S0kwTW52VWJHa1VnYXo3Vk51cjUxbzcwX3FXMHR6dVM5Q1p0d19rV0Rn?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-14T07:37:46Z",
-      "region": "world"
-    },
-    {
-      "title": "パリ同時多発テロから11年 劇場で追悼式典（ABEMA TIMES） - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONlBJcW9VdHBET2dPZGFaT1FIQkJEODhINFFLci1nc3FMUkVFQW10RzlYOHZXSThvV3RTZzFmLUR5MzR0azNtYUc1czNsRVhMTFAyU3E4MHJybE9vUV90V2RLRWdtejZwbXZSZU90NnNQUFpwSjV4NlFDZ2syUWtyNmFn?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-14T07:30:00Z",
       "region": "world"
     },
     {
@@ -497,10 +497,10 @@
       "region": "world"
     },
     {
-      "title": "バイデン氏、回顧録で恨み節　24年の大統領選撤退 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUm8tVnBVdzJPSlp3THZrOEtJcmZpV3BCMzNuQ2YzQ05tdFdGYnItT193RW9aTGt2VzRqcjl4MFphZGFwWmJOWVZnMzNYY1lQVlI4WnNMTTc4dGE0QnFoRHB2ZG5yd1Z5NzJfNWkzRW1ELVlLMDJBaEE0OVdOZU8wSWZuNFpBM3BMSEHSAY8BQVVfeXFMT0kyLVcxYUZoZmxmWDFDQjdXQ0tUUV9GTFBfWFAwRmx0UzEyek05WjQ1VXhURkwyclRtWXg4NXpUeFU3djVDR1JzanlLTVBxOHQ1SmFvbk5rajVWVVpJVnhfQ3YwZnFIclBZc0wxTEVtVkl2c3ZfZkJYYUtOcS0zQUFSdS1EZDNtNjJ3anR0YWM?oc=5",
+      "title": "バイデン氏、回顧録で恨み節 24年の大統領選撤退 - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HVUN5aHgwRG0yeW8tSXRBYndkblFTT3h6eU9DdXRNU1ozd3hYQy1Ua0VGenRkaDFpNE1sQ19fNklQTmVKdEFuRlZvekFsbEt5dWVnUlYyUEJ2MkpTcnJr?oc=5",
       "source": "Google国際",
-      "published_at": "2026-11-14T06:12:00Z",
+      "published_at": "2026-11-14T06:12:46Z",
       "region": "world"
     },
     {
