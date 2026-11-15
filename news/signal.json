@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T18:46:20.888907Z",
+  "updated_at": "2026-11-15T19:39:56.071008Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
@@ -46,13 +46,6 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
       "source": "NHK",
       "published_at": "2026-11-15T16:37:18Z",
-      "region": "jp"
-    },
-    {
-      "title": "【読者限定割引クーポンあり】「現場でやっていたことを、ひとつのアプリに」現役照明技師が自作した撮影ノートアプリ「ShootBinder」 - VIDEO SALON",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sbXowSU9GTFFwV241enZXTm5aVXBjZWxCRGpFeWwwUy05S3RRQm83cUJicDVYRXhpbFZjZnZpTGFXOVh2Y3huWXdZU3lWbzB6Y1NuUQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T15:57:12Z",
       "region": "jp"
     },
     {
@@ -217,15 +210,15 @@
       "region": "jp"
     },
     {
-      "title": "自民も共産も相乗りした品川区長 圧倒的強さの先に「都知事選」の声 [東京都] - 朝日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jaFJJVU1mT0FCN1RfNVlUZmRhN1JjSXRKMEJmRmpPbHVNeV9FUWl1UzVOeDhObXJ0NXhTcmJvTVR6bl9YUU5sRVNJM19qODJBWGxBdUNxV1FZVVJoMUtyWThFTDUyaFE?oc=5",
+      "title": "【速報】大西氏の4選確実 熊本市長選 - 熊本日日新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40YlFnaW03Z0lTZWhEWWtmbVBhTnlfQjhDR2lmbTllZ1ZCMVRad1RjNFdBSDF1QmtRSmp1bnlKTVFHNzBqX0RSUlhkSXo4Nk0?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-15T11:00:00Z",
       "region": "jp"
     },
     {
-      "title": "【速報】大西氏の4選確実 熊本市長選 - 熊本日日新聞社",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40YlFnaW03Z0lTZWhEWWtmbVBhTnlfQjhDR2lmbTllZ1ZCMVRad1RjNFdBSDF1QmtRSmp1bnlKTVFHNzBqX0RSUlhkSXo4Nk0?oc=5",
+      "title": "自民も共産も相乗りした品川区長 圧倒的強さの先に「都知事選」の声 [東京都] - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jaFJJVU1mT0FCN1RfNVlUZmRhN1JjSXRKMEJmRmpPbHVNeV9FUWl1UzVOeDhObXJ0NXhTcmJvTVR6bl9YUU5sRVNJM19qODJBWGxBdUNxV1FZVVJoMUtyWThFTDUyaFE?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-15T11:00:00Z",
       "region": "jp"
@@ -249,6 +242,13 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tdGxGQ3IyeGRFaDB5S0Q1MzhyZXpqWkJHYXlsZXB1cUVCYTNEOERqbTZWakk1TjFUbWdPRjNqcThXb05MSzlYMVMtZnE3cWNKdDZCNnBfdWN4NkJHS3drUjRoNGtKeEplVFE?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-15T09:35:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "【写真まとめ】 両陛下、豊かな海づくり大会に出席 2日間の様子は [大阪府] - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJR1l6UzF1Z2dHeWthdVJ0eDNXNzlDem5RXzlTZFF1akxrTzNWdHBMT0l2akNjS01UOFlXTjg3WXBiUXVONmxFSWhfVlhxQjJHZ1NHcFRHaUJTR1Z3bE5EWnM2VE1NUjg?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T09:30:00Z",
       "region": "jp"
     },
     {
@@ -301,8 +301,8 @@
       "region": "world"
     },
     {
-      "title": "「ドローン大国」中国の首都・北京 ドローン所持が全面的に禁止に (2026年11月15日掲載) - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SUnpCZEZ4Sjk1T3g3SWxIc1VFMG9uc2NneVNzZTFNdDB6ZEp3QnBMelNBRGhZN2JqQm5tbU5oYzdnREd0X3p4UDZSNUxfYW1GNFFEbWhPYTF1a3pIMmc?oc=5",
+      "title": "中国・北京でドローン所持が全面的禁止に 「ドローン大国」でなぜ？ - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mN25tcEVwRUV0amNCZ3prR1h3ZVAzX3dpV19JbVVBUkNjY3Q4UUJVU2VuLTZZMlJuVkVjbWUwOXhSd2lQenRmaVRRLVlCUHpSS0JDVWl4MGtoTkNwLUpr?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-15T13:26:01Z",
       "region": "world"
