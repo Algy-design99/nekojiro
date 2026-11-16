@@ -1,19 +1,61 @@
 {
-  "updated_at": "2026-11-16T01:58:40.667545Z",
+  "updated_at": "2026-11-16T02:58:43.538264Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
     {
-      "title": "NTTドコモ 全国で通信障害 今月3度目",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76369",
-      "source": "NHK",
-      "published_at": "2026-11-16T01:53:36Z"
-    },
-    {
-      "title": "7～9月GDP 年率換算で-0.1％ 4期ぶりマイナス 個人消費減少で",
+      "title": "7～9月GDP 年率換算で-0.1％ 4期ぶりマイナス 個人消費減少",
       "url": "https://news.web.nhk/newsweb/na/nd-20261116de76344",
       "source": "NHK",
-      "published_at": "2026-11-16T01:52:42Z"
+      "published_at": "2026-11-16T02:49:33Z"
+    },
+    {
+      "title": "ちばてつやさん死去 賞は継続方針",
+      "url": "https://news.yahoo.co.jp/pickup/6602771?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T02:43:49Z"
+    },
+    {
+      "title": "日韓首脳 17日にフィリピンで会談",
+      "url": "https://news.yahoo.co.jp/pickup/6602766?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T02:38:36Z"
+    },
+    {
+      "title": "茨城 常磐道で車複数台の事故 十数人けがの情報 消防",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76371",
+      "source": "NHK",
+      "published_at": "2026-11-16T02:30:00Z"
+    },
+    {
+      "title": "ドコモ「5G SA」でまた通信障害",
+      "url": "https://news.yahoo.co.jp/pickup/6602767?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T02:26:41Z"
+    },
+    {
+      "title": "元ジャンポケ斉藤慎二被告 性的暴行の罪で懲役4年の実刑判決",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76383",
+      "source": "NHK",
+      "published_at": "2026-11-16T02:22:00Z"
+    },
+    {
+      "title": "介護従事者の平均給与1万6000円余増 前年同時期比　厚労省調査",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76367",
+      "source": "NHK",
+      "published_at": "2026-11-16T02:13:48Z"
+    },
+    {
+      "title": "元ジャンポケ斉藤被告 実刑判決",
+      "url": "https://news.yahoo.co.jp/pickup/6602765?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T02:09:34Z"
+    },
+    {
+      "title": "NTTドコモ 全国で通信障害 不正アクセスか含め原因調査急ぐ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76369",
+      "source": "NHK",
+      "published_at": "2026-11-16T01:53:00Z"
     },
     {
       "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
@@ -22,22 +64,46 @@
       "published_at": "2026-11-16T01:47:34Z"
     },
     {
+      "title": "【速報】常磐道でダンプカーなど7台絡む玉突き事故 12人ケガ…うち1人が重傷か（日テレNEWS NNN） - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTlY5YlZ3RDdfZlNVQ0ZBRmRsRzM3RkN4WDZBTlJORVVmN3FCRlJiMVR3alVHQ3JTN1J2T0ktNEhJZURmckF3dlNvUGhwVVpRdlBvVE1teGhEb1NWcHFvLU9nVlpYcHBmX0d6WjI0QVVDV2RZVkdSaUhoOXJYeUpTYnpqY0dub1RPbDg3M2pR?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-16T01:46:00Z"
+    },
+    {
       "title": "常磐道で車7台絡む事故 12人けが",
       "url": "https://news.yahoo.co.jp/pickup/6602763?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-16T01:44:09Z"
     },
     {
-      "title": "レイ・アウト、iPhone Duo対応のクリアケース4種とガラスフィルムを発売！ - AppBank",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83TDlOMFJhNXVvcVUxSlZWV25iT2NtVFpkUGdEVEYyU3ozVS1JZXhpc2ZoVmRBR09GYU9GQU1CaXFsWXdscFlXZjROczVrM0tqWTQ5Z2FsTnl0eXVxVWoxRUl4UlE3eHY1Nmc?oc=5",
+      "title": "ドコモ、また「5G SA」で通信障害 今月3回目【更新】 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54elJuMGp2VU1tR2pmYWJPdUlPUHVJbXpObHQ1WXhQay1uT0lLZTJfMTBhOUwtX0pENnZqMnYwN3lZR1BKeXVxZDJ4MTFwX3NXTXA0VHpXM21INHVaeTZ1ZVVrNHo0RzE3Q1E?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-16T01:41:06Z"
+      "published_at": "2026-11-16T01:34:53Z"
+    },
+    {
+      "title": "TORRAS、人気の「Ostand」シリーズから折りたたみスマホの「立てづらい」「傷が心配」に応える「iPhone Duo」対応ケース2モデルを新発売！ - 沖縄タイムス社",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzTUZDbWRHX2wyWEFaRzJmM2ZDN0laWV9kUzlSRkVqQng0Y2JoOC1STXpFWDBDdXlvZGE3ekdYdHFJdW5PSDY0cEFNZWl6cnBpZjBMcUliQWgzbXdEdkE?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-16T01:32:15Z"
+    },
+    {
+      "title": "フィギュア 中井亜美 今季世界最高点で連勝 GPファイナル進出 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE43bF9YVE5QenNxS1lJWWJNdmRMY1pLWlF3cXl0aXRvN3p2VU1namtoVXJyeVVRMk9qbGZZVVh2YzMyNWtZaUhUNzJCQmItQl9IOHpIUC1iYWo1RkE2OE53?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-16T01:15:26Z"
     },
     {
       "title": "フィギュア 中井亜美 今季世界最高点で連勝 GPファイナル進出",
       "url": "https://news.web.nhk/newsweb/na/nd-20261116de76349",
       "source": "NHK",
       "published_at": "2026-11-16T01:15:26Z"
+    },
+    {
+      "title": "再選挙の福岡市長選挙、後継指名なく主要政党も組織的な動き見せず…対立軸なく混戦に拍車 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42MEI2UExIdHRleU1IcUtISGZNUFV2WFFGYjItcklJTUhPVWN6UVNueU1SQ3Vsa1RwMG5ZTkpVT2pDSGR4NUdUVTAwakV5azRmQ2N0ZEdBRWU1UkFqWkZFSnVRT25jdw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-16T00:59:00Z"
     },
     {
       "title": "コンテナホテル8年で145店舗 背景",
@@ -58,58 +124,28 @@
       "published_at": "2026-11-16T00:30:13Z"
     },
     {
-      "title": "7-9月期実質GDP 4期ぶりマイナス",
-      "url": "https://news.yahoo.co.jp/pickup/6602758?source=rss",
+      "title": "エボラ アフリカ中部で今なお猛威",
+      "url": "https://news.yahoo.co.jp/pickup/6602757?source=rss",
       "source": "Yahoo!ニュース",
-      "published_at": "2026-11-16T00:24:20Z"
+      "published_at": "2026-11-16T00:17:16Z"
     },
     {
-      "title": "7-9月のGDP 年率-0.1％ 4期ぶりのマイナス - NHKニュース",
+      "title": "「出入り口をアメ車がふさいで写真撮影」「エンジン音が絶え間なく」松田翔太の“交通違反”トラブルを住民が証言 パトカーも出動する事態に（デイリー新潮） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83c2hoM0lnUG1xeWZ4bllqa05kNmhHLXlkelV0bWpxbjBkRjZzVWEtOThuX1dtLURZb3NFdVZ1T0c0eTZqcklfZVFVd3FuZ2JNTk14RGVGcThZZ0JPZmRJZWxVUTRlUmoyS3JQRmJXd01MNEpiaUNfUmVQQl9GMlk?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-16T00:11:02Z"
+    },
+    {
+      "title": "7～9月のGDP 年率-0.1％ 4期ぶりのマイナス - NHKニュース",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKV2g5ajZRWnRoY3M4ZjllYi1SN1B4V2dDV29vbG1TUE93Mnh3bDUtcnVRNWJFRWp6V1h4WWtZMTRMeGQyRTAwdmFPZ3k1dlczMFh6VVc2VUFvVnhPQzVJ?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-15T23:56:23Z"
     },
     {
-      "title": "「審判に試合を左右された」名将アンチェロッティ激怒会見、現地記者が見たウラ側…ブラジル代表が漏らした“本当の日本代表評”「事前の研究でわかっていた」（Number Web） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mYmJBbTYwdDJUeU1xNktXOFRiX2pUVHJ1RUJpS0pjVGgwRzZXcE5QSFMtcWJYLXB5MFJIUXdYMkRLVjFwSGM0UTNLbDQ4LXVTcXd0c2t4QXdnNDA5TU02T1J2aWRLeFVQWXVPYnAycXpCY1IwcEhlMzFpVlh6RVk?oc=5",
+      "title": "吉田優利は追い上げ及ばず3打差3位 原英莉花に新人賞 35歳ダンカン悲願の初優勝 - GDOゴルフニュース",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pWGxFVnBTSWhkaWpjdldURlUwNGdJOXlnUHZtM1BWQTFYMUpobkh6clZOZEFTRzZBcl9KX1I4R05JYldfZVhFal9NWGpvcDczUWxYazNSbXBvdFRaek9qNVF6QU1PUmphX3BZaFl1cTE1UWPSAYcBQVVfeXFMT2s3MVp3MHJkVlhUbnVORDZLSFFqNTFFdTBLb0ItbHlsUGZtNGhnRjFUUzVfRkZVT3pqZU1PdEt2eVhXMUZYUTdkVFpDUDdlZzNxTENSanVGYnlMaDlDYXFjMTZlOC1BeEYzdkZuX1BRTHVabk8xMFQ4U042MWdJOU5vMlAyZ0pB?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-15T23:41:16Z"
-    },
-    {
-      "title": "「I'm so happy」中井亜美GP連勝",
-      "url": "https://news.yahoo.co.jp/pickup/6602754?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T23:26:08Z"
-    },
-    {
-      "title": "福岡市長選 再選挙が確実に",
-      "url": "https://news.yahoo.co.jp/pickup/6602753?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T23:22:11Z"
-    },
-    {
-      "title": "AIに思考丸投げ 16歳「今後怖い」",
-      "url": "https://news.yahoo.co.jp/pickup/6602749?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T23:22:11Z"
-    },
-    {
-      "title": "福岡市長選は再選挙、過去7例で首位6勝 唯一の逆転は3位から…わずか6票差での決着も - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUkU5bnNOMTQ5dUIxWDNWODZQWGxPd1hOVXdrcGlqYUlLVnN6Y3YzN3hURWRVQjB5cWEzVThIaVU0MHJtV3JBNVNDUDBqWDUwX1RHUUR1TUt2ZUQzeWR2NlN4bEZXQW0xa2x1MXhHdlY5V2UzdDU1QzN6WllOcUt5QTRLWUNKZjJxSnlfaA?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T23:18:18Z"
-    },
-    {
-      "title": "【フィギュアＧＰアメリカ】圧巻！中井亜美（新潟市出身）ＧＰ2連勝、ファイナル進出決定 「イメージ通りの演技できた」 - 新潟日報",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kTC1Uc1NsbkQ4bVUwNTY1RTFzcVNxTndodHRSN2Fib20zRjhNSUZqR3hlWmU0eTJ6VEZlbWdjcUt6V24zR2xNa2RJb09naXBfZUQ3eWNCNVVvWXhYeUE?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T23:05:00Z"
-    },
-    {
-      "title": "大人には使いこなせない。タッチ式MacBook Proを1週間触ってたどり着いた答え - Gizmodo",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RU2tWbGtWd3F1WGtKVTJ4MzhfX08yc095amw2c2JWdFAzQmpPNU9YYWY4Y0lRdDRlaHJwSVRPOWlGUmZadk9QSkxpbVlSNXBlVGJ1SXdFMXdsMmpvZHN5d2pGREFBcDZWamhneFc5RQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T23:00:00Z"
+      "published_at": "2026-11-15T23:52:49Z"
     },
     {
       "title": "色にこだわるシャープが選んだ“スーパー量子ドット”。麻倉怜士「アクオスX9Aには揺るぎない色の安定感がある」[Sponsored] - AV Watch",
@@ -118,22 +154,22 @@
       "published_at": "2026-11-15T23:00:00Z"
     },
     {
-      "title": "日経平均株価、米ハイテク株安重荷 内需株が支え（先読み株式相場） - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhcmtlNjRhRGZmMHh6U2Voa0JJY2J6UDc0V0FxSEg0NGlXUktnY3FBSlFaY1dzX3pjTUZHT2xuME50Q080X0U3VXVDU2g3WFRiamZVX0JuM21jTHhscWktYktPc1piM2VvS0VoRg?oc=5",
+      "title": "大人には使いこなせない。タッチ式MacBook Proを1週間触ってたどり着いた答え - Gizmodo",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RU2tWbGtWd3F1WGtKVTJ4MzhfX08yc095amw2c2JWdFAzQmpPNU9YYWY4Y0lRdDRlaHJwSVRPOWlGUmZadk9QSkxpbVlSNXBlVGJ1SXdFMXdsMmpvZHN5d2pGREFBcDZWamhneFc5RQ?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-15T22:37:05Z"
+      "published_at": "2026-11-15T23:00:00Z"
     },
     {
-      "title": "フアン氏がNVIDIA復帰協議 報道",
-      "url": "https://news.yahoo.co.jp/pickup/6602744?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T22:28:14Z"
+      "title": "第5話ゲスト・正名僕蔵＆愛希れいかがコメント「見るからにダンスができなさそうな役、ありのままの私で演じられました（笑）」（正名）『南田南弁護士は天才肌』 - めざましmedia",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kaTdtRkkyWE03QlNpNW42T091MWk1YW1pY0l0bXNkMTdaWV9WTWhlVDBzTElndmpXbzdRTmpCLWN0Q1BFVmdVWmYtQzRTUzNGbEZz?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-15T23:00:00Z"
     },
     {
-      "title": "マグサイサイ賞授賞式 ミャンマー人権団体創設者などに授与",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76314",
-      "source": "NHK",
-      "published_at": "2026-11-15T22:03:00Z"
+      "title": "【サッカー日本代表】ブラジル相手に真っ向勝負で勝ったからこそ浮かぶ「疑問」 Ｗ杯の借りは、Ｗ杯でしか返せない - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9udWFPLW02SlVSaXc4TXQ0azJUbFRSR2ZBLVhWUXByRVNiZWcxNk0yVE5wb0EzSWJpTHVJTm9teWdzVlhvYU1rZTlEQlBNdHIzLVZfMmhkMDV0RnE2NV85Q2NRNmtqSkdtdHBGTVVNUW9OVUJWTDJmSmF2a09ZN00?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-15T22:18:13Z"
     },
     {
       "title": "再建なった首里城正殿、完成式を前に内部公開…豪華な装飾は新たな知見を反映しより忠実に再現 - 読売新聞",
@@ -146,42 +182,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RNFJHdjBTZk1tSzJ1OEJkaUNER0tic0dHbmNWakc5NEl4TEdzQTlOM1gwMmpMS081THlRSkYtb1RURi1KWUVFS0ZBY0p6bkJubWZkeGJwN0FZZw?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-15T22:00:00Z"
-    },
-    {
-      "title": "Access Accepted第879回：「GTA6」をプレイする前に知っておきたい10のこと。犯罪者カップルの歴史から，進化したゲームシステムまで - 4Gamer.net",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5MHlFNnZ2bFhBU1RYLWxJVXpRUWxKYkJqSzFqVXE1Mm1KRWhHYzM1QVFZMFZvbUphVkIwdlV1NEVLT2ZKNjVEV3plSVZGdzdELUtzRURyS1ZtbVdfZ0ZXNnByQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T22:00:00Z"
-    },
-    {
-      "title": "やす子運営子ども食堂の公式X、一部の決めつけ投稿に不快感「嘘つき」とぴしゃり - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRDBMcFA1VmJMQkxobTEydWlUWEZOX3V2a0pBcVVnRHZINFlMZDVISTMtUmNYVGo2MTRzTEg0aXMzZlM5Q1l1d25XSlFHMWdFTFFFb0RnZkEtOTNMRUdDcm44LWIzT3c3NnpnVmtmd1ByVzRqLXkxWnUxekpheTNsSzYtVmJiTUtsLVFBcjhQNm8xdUo5aThVaEZ6WEZYWDjSAaQBQVVfeXFMTm83SGlVQkczNGl5VHk1UzBWM1ZkSW9PYTNRR2lsN1NkclE5UkduRklKTWFZeWh6bVVLUXRrSWdGSnU2Vkx6TG14Z2F5MUpCTW0wWF82S0xTVzlGcjZ2SjFrOFVUbHVUWmNQRXpWbjVpLTQ4VHkyc25rQVpKVzdUNmQ3NDRrN2gwcEhSRHVTTzNqNWpjVDZuOVpoN05OYkJNeFdqUXk?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T21:40:00Z"
-    },
-    {
-      "title": "吉田優利トップ3入り 原英莉花が新人賞、渋野日向子は準シード入り - ALBA Net",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVNTEweUZyLVVkRXVYMS0ySWdiLXBDd0hfRkRDZ1MyUXFGRUR6N2hIYXZuOXRiMVM2Y1FINmNRTzhUYU1UTGdlQVY3dFJiS1FLYnpSRFhuMFJJckVrdVF0Q0NXTjlUd0Y0NjRSQldPbEdGd184Znkw?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T21:06:44Z"
-    },
-    {
-      "title": "週間天気予報 18日(水)は荒天警戒 その後は冬型強まる - ウェザーニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LNzRfazVseHhmQkQ1azBmYWpHVUd3bXYwZ29WcHl0dWwybXJDdnk3cFYxamMxWGo2aUxITTZzM29pX1F6MVFfTHo3dU52QTl6R3Racw?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T21:00:00Z"
-    },
-    {
-      "title": "Microsoft 365障害はなぜ長引いたのか？　原因・タイムラインと「SLAクレジット」請求方法まとめ：Windowsフロントライン（1/3 ページ） - ITmedia PC USER - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIUGR1TmlETTJ6d1NlTFpYQlV5QjR1bG5mdHhsU1NyQ0paRjdCSDNVd1A2VlVseWxnZHJmRVZTWFg2TUE2M2V6U3RNejg5X0U2V0llR0VTRGdUeHNDNEtWdVVrU0ZRZUxPQUUya0JMSdIBaEFVX3lxTFBxSzU5X1dzd205RGowb1diaFdmSDUwV2ZLaU9teXNOWEg3c0JZTWhOZUdPVWlRWjZhVlo2UGVCS3NUOUFYa2htNmZvNzJyV0xrTWJiNjVaT0VaRklXVkV1M3ExN1NyLTNj?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T21:00:00Z"
-    },
-    {
-      "title": "「スピッツ」ドラマー崎山さん事故で入院 来年の全国ツアー「慎重に判断」所属事務所 - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94OWNTVzZ4cmkwbzZjOWhuOFlURTVJVnFYMnMxMGNCSWQtS1FXdHZhMXVNWlM5NmdrZHVER09GUkhBMVhmdVB5WVFMMllTNW1VbnZIY2JUT3BTOGFNQnR5RExiaE14U3FEUF81bmpfenFuQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-15T20:56:00Z"
     }
   ]
 }
