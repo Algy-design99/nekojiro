@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T10:28:39.478136Z",
+  "updated_at": "2026-11-16T10:48:20.336669Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
@@ -7,17 +7,24 @@
   },
   "items": [
     {
-      "title": "トップの一時不在が確実、福岡市長選の再選挙で候補どうする？…有権者らから早期決着を望む声 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBQ2pQTTRkSThvbFBEVFZMOUJGZnU3enBCRFhEV0RuMXVOUmk5Um5XV2NJaG56TEdBaGt5Rm14c2FzdW1TRTZ0RjhoV1RKb3ltbnJYdWp5eGp4RHpZWEhoMUR1Wndsdw?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-16T10:06:53Z",
+      "title": "日テレ・徳島えりかアナが退社へ",
+      "url": "https://news.yahoo.co.jp/pickup/6602823?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T10:35:20Z",
       "region": "jp"
     },
     {
-      "title": "横綱・豊昇龍まさかの5敗目 9日目",
-      "url": "https://news.yahoo.co.jp/pickup/6602821?source=rss",
+      "title": "戦力外の矢野雅哉ら 球団に要請書",
+      "url": "https://news.yahoo.co.jp/pickup/6602822?source=rss",
       "source": "Yahoo!ニュース",
-      "published_at": "2026-11-16T10:05:30Z",
+      "published_at": "2026-11-16T10:22:36Z",
+      "region": "jp"
+    },
+    {
+      "title": "再選挙の福岡市長選、各候補者どうする？「挑む」「まだ決められず」 [福岡県] - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUY0YycFRVR0h2YjZfZy16UXNyRFVKemhmbUNDU2JfNjBBeE94VnQyTzVvOUxSODk0UGZsMkNxb19iYUhfcldhaEhZQ2pLZU1RWlI1eTZlel9KdXJQUHFqU0txV3V4dm8?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T10:11:44Z",
       "region": "jp"
     },
     {
@@ -35,13 +42,6 @@
       "region": "jp"
     },
     {
-      "title": "ゴルフ植竹希望 交通事故遭い欠場",
-      "url": "https://news.yahoo.co.jp/pickup/6602818?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-16T09:43:34Z",
-      "region": "jp"
-    },
-    {
       "title": "マンション短期売買 課税強化検討",
       "url": "https://news.yahoo.co.jp/pickup/6602817?source=rss",
       "source": "Yahoo!ニュース",
@@ -56,6 +56,13 @@
       "region": "jp"
     },
     {
+      "title": "スーパーコンピューター「富岳」に不正アクセス、計算データなど機密情報漏えいの恐れ…理研が調査 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fbDgycXZ0YzlsUGhHZzZIQ0VvVmZKdU5uQlZ6OFNaVVFrZXdxZGxNekhZRzJ2Rnl0NC1kRUxkc0RhU3ZrZzZxTTZZQTRHMHhQYlRYMDAwblJVLVRyN2lWeUNRQXY?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T09:24:00Z",
+      "region": "jp"
+    },
+    {
       "title": "タイムズカーの会員数 1.4万人減",
       "url": "https://news.yahoo.co.jp/pickup/6602816?source=rss",
       "source": "Yahoo!ニュース",
@@ -67,6 +74,13 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96eHBSbko0a2RUQUhsRFlmQTFQYUJLNTRHX29KbHZPbTVaVDZhOC1BcVdsdkFiWXp5WFZuM0VONnhqU2N3VEhiU3c3Tm1ZUzVURDZVcVllZnczZnRXRjhaWHRCWjdOZlg5ZDc5cA?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-16T09:07:27Z",
+      "region": "jp"
+    },
+    {
+      "title": "横綱大の里が尊富士を圧倒し８連勝、横綱豊昇龍は熱海富士に押し出され連敗…玉鷲が４２歳誕生日に白星 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jSVpicWxGMWVGYnRvQ0NtZUNmR1dfWkdiNXd5eldVT2N1Rng0cVVHV19ubWpxdWt5OGZDTS1pcUIyTm8zQ2pubHVYYTVwd2tReXl5QXRRbXhjMzhQbC1sUWM2WkxSYmx3R1E?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T09:04:00Z",
       "region": "jp"
     },
     {
@@ -112,13 +126,6 @@
       "region": "jp"
     },
     {
-      "title": "理研のスパコン「富岳」に不正アクセス 稼働停止して状況確認 - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rYUkza3FTb2FweElPSTVCS3hLOS1UZnVRbzV1TkFtanVYbnNQUkEyQXY2QTdIVXZ1NFRHeEg1Q2NVbms2SS0ycjhtemFTRWJTenBEMl9SakE1WDlUdUJn?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-16T08:17:18Z",
-      "region": "jp"
-    },
-    {
       "title": "理研のスパコン「富岳」に不正アクセス 稼働停止して状況確認",
       "url": "https://news.web.nhk/newsweb/na/nd-20261116de76603",
       "source": "NHK",
@@ -147,13 +154,6 @@
       "region": "jp"
     },
     {
-      "title": "【11/17】日本代表対パラグアイ代表は地上波放送あり？テレビ中継予定・ネット配信予定｜MIZUHO BLUE CHALLENGE - DAZN",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQeE4zRXRvZDUtYjR5bFZtNVgzZkUtd0k0bU1jVFVfQ1p6azZRTjQ2Z1BHNFFaeFBma25HRElneGVtYkZoQjVFUjRPclFJWDBPWTdJSnVwVXRuZ2dDQjJhT0ZmbWhfTGoyanFEcWFxTkI2Z3VMQ0hlNllkWThJdHZGaS1iLWx4MlhhM1lNZEVEZkxvdWVDNWtWYzFydDAzZjFSXzRfTDk4Q1lSSWVMZVhJTWdzOHpya1I3TkZvd1ZpeVJOWWNVSWpFTG1EWW9BRG5uSlhqUmtCWDQ1RmtiaVh0d2xoWjlpNlY2a000TlpUcnNyYnlrOFE?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-16T07:50:19Z",
-      "region": "jp"
-    },
-    {
       "title": "ニデック、26年4〜9月の半期報告書提出期限を延長 12月16日に - 日本経済新聞",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoZzQzV1lfLWduTmpnakI0WTRSenQ4S0lscVlCQlhsNjRfZGVtQ0JSdUM3Ynd0YUdYRDdGOWVXUFh1SVR0RThNWUNPbnRvMHdvOUEwREtQdE80SzZHMjF0d2I3d3V0VnVsVmVUZA?oc=5",
       "source": "Google国内",
@@ -172,13 +172,6 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
       "source": "NHK",
       "published_at": "2026-11-16T07:33:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "立民・水岡代表、高市内閣の高支持率を疑問視「信じられない」「ちょっと理解できない」 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTnYtbF9VV251cmczeHZBY0daazdwckJvX2pEX3pISURrOF9Da3NBNFBFWlZSRzVCRkpoeXZSTjRoQ2U2MnFmTnBLNVE5UXZ0dTdsTGs0V0FKNGFEdl8yc3U2U0M3N0FJc1NDaFlOQ1RXSGdwcE1IZHdORFNpMFVfSHhyWk0xTFRRaWM1Vw?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-16T07:25:03Z",
       "region": "jp"
     },
     {
@@ -210,6 +203,13 @@
       "region": "jp"
     },
     {
+      "title": "選手権の組み合わせが決定！ “前回王者”神村学園は札幌大谷、“インターハイ王者”静岡学園は興南と対戦 - サッカーキング",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfaWxxMTEyakdpX1hHNTU5d0VDbkEzWlZrdnJsb0VxajNqdnhSclBfRlFtRnlNU1BsckY5SmdZaVM0MUF0bWlyRFdGWVNvWnhXbjBpUmRHRWk3Wkx5M1B5VDJsNXRpejNTeno5M0plZ05ibmN6b0FNNVN3?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T06:06:11Z",
+      "region": "jp"
+    },
+    {
       "title": "俳優の中田乃愛さん死去、23歳 テレビ東京「ウルトラマンテオ」に出演中 - 産経ニュース",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XbG44M2ZTSWFCcWNBNW9NOHd5aWsxdy1OYW83MTZneEx6bXYxeng4cjl0cG9qRHFqMmJtTVBXSzNRbGF4YTJlSjgzek5nTXNvTC1GRUFRTUk3dGNvVkFqeC1KUDJMQzRlUEc0NWlUeUE0X21EUmc?oc=5",
       "source": "Google国内",
@@ -217,24 +217,17 @@
       "region": "jp"
     },
     {
-      "title": "第105回全国高校サッカー選手権-組み合わせ抽選会 - スポーツナビ",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQU0wwbVZOaHp4SExqcU9ZTEpGaGlJSjU4cXYtaGV2RGw2ZUhqMmlZTmdHcGd3bnl2Z2N1RlhiSzhXZFlqbzRndllsNUpRYmt2VlZR?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-16T05:00:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "「あげぽよ」生みの親、元eggモデル川端かな子さんを殺害疑い、同居の男を逮捕 - 東京新聞",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44SU1vbEhDS1UwejdVdmY5MjlwSk83dzc4NVFCaVZlQUVYMTFEUnNkOUgwc1RpZFhVSjlTdFBWWUhtMnlRTXUwQzBvRWUxS0RINGVF?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-16T04:45:00Z",
-      "region": "jp"
-    },
-    {
       "title": "元ジャンポケ斉藤慎二被告側が即日控訴 懲役4年の実刑判決不服 - 毎日新聞",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UeWlqanpRQWRsZ2VqLVJoOFRzdmNYRXNTbGVHZUpnenhLMGlEbEx6OHBrWVJyMVZHNFFZQTJ0SjgzcXNTUS02MVBuRGZ2Q3ZySEJHdU1aOW5GNXlyTXRVT0p3RGdlOVBy?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-16T04:41:15Z",
+      "region": "jp"
+    },
+    {
+      "title": "【速報】池袋モデル女性殺人事件 同棲していた男逮捕 被害者は元「エッグ」モデル 「あげぽよ」で人気（テレビ朝日系（ANN）） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HRFdMekVEOWlLeV9EcEVSdnpqTE9YZmhSOVNUQnlIaGV0VHNJd1VYUVotNFA0MV9CSURtc19udVNBSkd3MkctREdTcUcxLTdMODBZVkM1M1NhT2VnTXA1ZHg2elJrVE5HWHpzM3BqVDQ2MmhzOXNta1VsVmhmeWM?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T04:38:13Z",
       "region": "jp"
     },
     {
@@ -277,6 +270,13 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zSTJXcTFla0JnaXc2dzdpSVNJempINjVmeG9sRlE4V2xneV9BS3lObzZLWTN6bllQMTlPSkM0RG1uaDFaNmNyc2J1LTlGUjZqcjNUdzViYXVrSDVCckNHY3EwMjdTTkx1T0JOYVc3MElKZ3JWekHSAYoBQVVfeXFMUHhZRWszOUdqVWotdmNaTUMwbUhHMTBsRU9WNjV5dEc3Z1pmMFJaMnhzODBMZDFDNFgyRGJKM3ZvTVV2Y2ZJWTV2SG9MOVNRbndhSVlwU3AzZ3RFUmFzYWNVTGdLdExGd0JRZ09aNUlwbmFRQ3pnd3JpSGtsbUZDbVFibjRmZzlCX1F3?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-16T02:14:06Z",
+      "region": "jp"
+    },
+    {
+      "title": "「全国一斉観察会『太陽系マラソン』が30以上の公開天文台で開催決定！100周年の感動を全国で共有」 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40X2p5Ry15dUxmTUNqcnAtQTFOUzdXQWxmc3A1SkdGRWFhdjVkUWhkZnM1QjFNWEhKU1FQRU9GZUhjVDh4c0RrMEVyNjB1QnAzdE9yMldpNUNraFlzOTZKT2dRUTdNUzRPWXc?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T01:01:53Z",
       "region": "jp"
     },
     {
@@ -434,6 +434,13 @@
       "region": "world"
     },
     {
+      "title": "高市総理がフィリピン・中国訪問へ出発 あすトランプ大統領らと首脳会合 習主席やプーチン大統領と“接触”あるか注目 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hcDg5M1hBWldNN3lfT3YtRERDVFpUV2RITXZuVmg4eWtKcDU1M0lORERSVUVMOEVvOGkyeGdxTG1MOFdtdUE4bWVjN0lSOFR1by1lbEtxVEI0Y05DSzk2TTF5aURxU05mSmJ6Z01n?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-16T03:20:27Z",
+      "region": "world"
+    },
+    {
       "title": "ベンガル湾で熱帯低気圧が発達 インド東部に上陸の見込み - ウェザーニュース",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00MGc5cGpaZF9zckVjOWFqa0FjTVYwTmRPRy1oZ3dLcWtLVHhZdDEyWFNIYW94THkzUXlNUDd5RHdVSW1SdmdJSFBwanVmOUEtTzJucg?oc=5",
       "source": "Google国際",
@@ -448,24 +455,10 @@
       "region": "world"
     },
     {
-      "title": "日米豪印「クアッド」の結束確認へ トランプ米大統領との対話模索 高市首相、比へ出発 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUWZ1aFBwWWRiNHB0YnE0aHpyYmNNWF92cXpZNkY1M3NUSGthcUNwc1JxTG9OUjV4UjU3VGIwQjB4VTZIelBJcnVwNks1dWFDQjNKUm00OEplV0lnckRINjE3UkIzdjlkb1pvT0p0Sm9DN3NDcUtJSklENzFGbTZsZ216RVhOcXNYWU42LQ?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-16T02:46:43Z",
-      "region": "world"
-    },
-    {
       "title": "トランプ氏・習近平氏・プーチン氏の米中露首脳会談、中国外務省も追認で開催発表…議題については言及せず - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLTS1taW5zLU81ZnJBV09MalVRd1dkR1RtZ1p2MWpKSkNZNmE5Rm5oZEtla0s0aHFIV0c0a2pMVUVnYWluYWdLSXFJSnl5WkFYT0hsS1l4RDFheTlFOFd4ZWxn?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-16T02:25:00Z",
-      "region": "world"
-    },
-    {
-      "title": "赤ちゃんコアラがニシキヘビに締め付けられ絶体絶命 助けようと必死でひっかく母コアラ 女性が遭遇し無事救助 オーストラリア - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wV2hYQ2R0VjJDMFNja3FHYTlmUHVFNlRldXRNa0ZxQ0hVcHZSZzJSWWVwWlZVRG9xMjdlQzRzeG5yRnpVa21RbmpDbFRCZjUwUFQyT0pnMWdaaWNIYVRzakVmTkVhOE5zdFpLQVhDODFheTBtYVdRWVl5RHdQWWs?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-16T02:04:00Z",
       "region": "world"
     },
     {
@@ -536,6 +529,13 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XM0hzSXlOTTJnUUhmdTc3d3BMbjdNZWpFWlo4VmNFRy1uSndYbUl6ajNlVk9weHV3U0VjRklFbmxNZ0xDRGFtSkw0ZVNkTWhnVmt6VDVMMi1FVThkXzZwNVp1YzQxNl9Yenl1ajJuTTZkREFDc09FNWY3MjVUVE0?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-16T00:00:00Z",
+      "region": "world"
+    },
+    {
+      "title": "エストニア、ロシアとの国境を12月から全面閉鎖 防衛企業の放火未遂など破壊工作に対抗 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVEdtRlpnM21tUFFTLVVHemJ1VjlDWFJPZ0gwVjZFMHpYcGQtWTF2WlJacEtVZ2NNU3BwU3BmS3BwY3d4TVVMYUlpSS1BMlRycHp4TVQ0NDBzYjFVUFRaRjVUUGY0NkthaFJ6ZFAxbmU5aVU5SV9oQ04xY1I2WlRiTHFsdGRVLWtBdHVscQ?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-15T23:35:34Z",
       "region": "world"
     },
     {
