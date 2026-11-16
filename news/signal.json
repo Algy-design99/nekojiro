@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T23:31:04.207007Z",
+  "updated_at": "2026-11-16T02:48:12.532010Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
@@ -7,108 +7,227 @@
   },
   "items": [
     {
-      "title": "福岡市長選 再選挙が確実に",
-      "url": "https://news.yahoo.co.jp/pickup/6602753?source=rss",
+      "title": "ちばてつやさん死去 賞は継続方針",
+      "url": "https://news.yahoo.co.jp/pickup/6602771?source=rss",
       "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T23:22:11Z",
+      "published_at": "2026-11-16T02:43:49Z",
       "region": "jp"
     },
     {
-      "title": "AI敵視から融和へ Disney路線変更",
-      "url": "https://news.yahoo.co.jp/pickup/6602748?source=rss",
+      "title": "日韓首脳 17日にフィリピンで会談",
+      "url": "https://news.yahoo.co.jp/pickup/6602766?source=rss",
       "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T22:52:25Z",
+      "published_at": "2026-11-16T02:38:36Z",
       "region": "jp"
     },
     {
-      "title": "JSR売却 差益9000億円超の見込み",
-      "url": "https://news.yahoo.co.jp/pickup/6602747?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T22:47:18Z",
+      "title": "茨城 常磐道で車複数台の事故 十数人けがの情報 消防",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76371",
+      "source": "NHK",
+      "published_at": "2026-11-16T02:30:24Z",
       "region": "jp"
     },
     {
-      "title": "１６日の東京株式市場見通し＝半導体逆風、好業績内需を選別へ(ウエルスアドバイザー) - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQnQ3LVpDZFgxOUNKcjVJdEc2YXlZVkRvLVBZTmVDOGptVFpmUVR0Wlo4QzVyaEFaU1dtcHBMemtXckpNYU9FUmpuYzAyMHdEOFlOaFI1LUFmdFdYTzdaeFRBSVlZNnp2bG1ualVlZi1teHo0TjgtZ0JhQlZveF9sUlhPOVJUMVk?oc=5",
+      "title": "ドコモ「5G SA」でまた通信障害",
+      "url": "https://news.yahoo.co.jp/pickup/6602767?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T02:26:41Z",
+      "region": "jp"
+    },
+    {
+      "title": "元ジャンポケ斉藤慎二被告 性的暴行の罪で懲役4年の実刑判決",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76383",
+      "source": "NHK",
+      "published_at": "2026-11-16T02:22:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "介護従事者の平均給与1万6000円余増 前年同時期比　厚労省調査",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76367",
+      "source": "NHK",
+      "published_at": "2026-11-16T02:13:48Z",
+      "region": "jp"
+    },
+    {
+      "title": "元ジャンポケ斉藤被告 実刑判決",
+      "url": "https://news.yahoo.co.jp/pickup/6602765?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T02:09:34Z",
+      "region": "jp"
+    },
+    {
+      "title": "NTTドコモ 全国で通信障害 不正アクセスか含め原因調査急ぐ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76369",
+      "source": "NHK",
+      "published_at": "2026-11-16T01:53:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "7～9月GDP 年率換算で-0.1％ 4期ぶりマイナス 個人消費減少で",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76344",
+      "source": "NHK",
+      "published_at": "2026-11-16T01:52:42Z",
+      "region": "jp"
+    },
+    {
+      "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76245",
+      "source": "NHK",
+      "published_at": "2026-11-16T01:47:34Z",
+      "region": "jp"
+    },
+    {
+      "title": "常磐道で車7台絡む事故 12人けが",
+      "url": "https://news.yahoo.co.jp/pickup/6602763?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T01:44:09Z",
+      "region": "jp"
+    },
+    {
+      "title": "ドコモ、また「5G SA」で通信障害 今月3回目【更新】 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54elJuMGp2VU1tR2pmYWJPdUlPUHVJbXpObHQ1WXhQay1uT0lLZTJfMTBhOUwtX0pENnZqMnYwN3lZR1BKeXVxZDJ4MTFwX3NXTXA0VHpXM21INHVaeTZ1ZVVrNHo0RzE3Q1E?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-15T22:44:28Z",
+      "published_at": "2026-11-16T01:34:53Z",
       "region": "jp"
     },
     {
-      "title": "大学発ベンチャー過去10年で3.5倍",
-      "url": "https://news.yahoo.co.jp/pickup/6602745?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T22:43:59Z",
+      "title": "TORRAS、人気の「Ostand」シリーズから折りたたみスマホの「立てづらい」「傷が心配」に応える「iPhone Duo」対応ケース2モデルを新発売！ - 沖縄タイムス社",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzTUZDbWRHX2wyWEFaRzJmM2ZDN0laWV9kUzlSRkVqQng0Y2JoOC1STXpFWDBDdXlvZGE3ekdYdHFJdW5PSDY0cEFNZWl6cnBpZjBMcUliQWgzbXdEdkE?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T01:32:15Z",
       "region": "jp"
     },
     {
-      "title": "フアン氏がNVIDIA復帰協議 報道",
-      "url": "https://news.yahoo.co.jp/pickup/6602744?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T22:28:14Z",
+      "title": "調布・電気通信大学で調布祭 TOOBOEさんライブ、ロボット操縦体験も - 調布経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55MlF3TUN6TTRLYkd0djlWc0Y4WG1ZUEdQX29Za0V6TW5YU3BkelNqX1FDSTl4TUNxeVRZNXJMTFJ2T3NsYVE2SmlDX1ppb1c5?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T01:18:10Z",
       "region": "jp"
     },
     {
-      "title": "エストニア ロシアとの国境閉鎖へ",
-      "url": "https://news.yahoo.co.jp/pickup/6602742?source=rss",
+      "title": "フィギュア 中井亜美 今季世界最高点で連勝 GPファイナル進出",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76349",
+      "source": "NHK",
+      "published_at": "2026-11-16T01:15:26Z",
+      "region": "jp"
+    },
+    {
+      "title": "フィギュア 中井亜美 今季世界最高点で連勝 GPファイナル進出 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE43bF9YVE5QenNxS1lJWWJNdmRMY1pLWlF3cXl0aXRvN3p2VU1namtoVXJyeVVRMk9qbGZZVVh2YzMyNWtZaUhUNzJCQmItQl9IOHpIUC1iYWo1RkE2OE53?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T01:15:26Z",
+      "region": "jp"
+    },
+    {
+      "title": "再選挙の福岡市長選挙、後継指名なく主要政党も組織的な動き見せず…対立軸なく混戦に拍車 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42MEI2UExIdHRleU1IcUtISGZNUFV2WFFGYjItcklJTUhPVWN6UVNueU1SQ3Vsa1RwMG5ZTkpVT2pDSGR4NUdUVTAwakV5azRmQ2N0ZEdBRWU1UkFqWkZFSnVRT25jdw?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T00:59:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "コンテナホテル8年で145店舗 背景",
+      "url": "https://news.yahoo.co.jp/pickup/6602759?source=rss",
       "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T22:20:16Z",
+      "published_at": "2026-11-16T00:42:07Z",
+      "region": "jp"
+    },
+    {
+      "title": "中国に隕石落下 ハンターが殺到",
+      "url": "https://news.yahoo.co.jp/pickup/6602760?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T00:40:35Z",
+      "region": "jp"
+    },
+    {
+      "title": "エボラ アフリカ中部で今なお猛威",
+      "url": "https://news.yahoo.co.jp/pickup/6602757?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-16T00:17:16Z",
+      "region": "jp"
+    },
+    {
+      "title": "「出入り口をアメ車がふさいで写真撮影」「エンジン音が絶え間なく」松田翔太の“交通違反”トラブルを住民が証言 パトカーも出動する事態に（デイリー新潮） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83c2hoM0lnUG1xeWZ4bllqa05kNmhHLXlkelV0bWpxbjBkRjZzVWEtOThuX1dtLURZb3NFdVZ1T0c0eTZqcklfZVFVd3FuZ2JNTk14RGVGcThZZ0JPZmRJZWxVUTRlUmoyS3JQRmJXd01MNEpiaUNfUmVQQl9GMlk?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-16T00:11:02Z",
+      "region": "jp"
+    },
+    {
+      "title": "7～9月のGDP 年率-0.1％ 4期ぶりのマイナス - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKV2g5ajZRWnRoY3M4ZjllYi1SN1B4V2dDV29vbG1TUE93Mnh3bDUtcnVRNWJFRWp6V1h4WWtZMTRMeGQyRTAwdmFPZ3k1dlczMFh6VVc2VUFvVnhPQzVJ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T23:56:23Z",
+      "region": "jp"
+    },
+    {
+      "title": "エストニア、ロシアとの国境を12月から全面閉鎖 防衛企業の放火未遂など破壊工作に対抗 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVEdtRlpnM21tUFFTLVVHemJ1VjlDWFJPZ0gwVjZFMHpYcGQtWTF2WlJacEtVZ2NNU3BwU3BmS3BwY3d4TVVMYUlpSS1BMlRycHp4TVQ0NDBzYjFVUFRaRjVUUGY0NkthaFJ6ZFAxbmU5aVU5SV9oQ04xY1I2WlRiTHFsdGRVLWtBdHVscQ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T23:35:34Z",
+      "region": "jp"
+    },
+    {
+      "title": "色にこだわるシャープが選んだ“スーパー量子ドット”。麻倉怜士「アクオスX9Aには揺るぎない色の安定感がある」[Sponsored] - AV Watch",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQSUFScjlIODVnbnZ2eDVwNVduWG9DM2NKU1ZZZDI0X2JiZ1ZicG5JcUc2eVpXN1Nwak1fNXZ0RkpQM3A0RE9oRkIyaWJBcEpsLWd4WUZwX3hnblZQYURHRndIc2ZsYzJyOWlRYk1jSQ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T23:00:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "大人には使いこなせない。タッチ式MacBook Proを1週間触ってたどり着いた答え - Gizmodo",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RU2tWbGtWd3F1WGtKVTJ4MzhfX08yc095amw2c2JWdFAzQmpPNU9YYWY4Y0lRdDRlaHJwSVRPOWlGUmZadk9QSkxpbVlSNXBlVGJ1SXdFMXdsMmpvZHN5d2pGREFBcDZWamhneFc5RQ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T23:00:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "第5話ゲスト・正名僕蔵＆愛希れいかがコメント「見るからにダンスができなさそうな役、ありのままの私で演じられました（笑）」（正名）『南田南弁護士は天才肌』 - めざましmedia",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kaTdtRkkyWE03QlNpNW42T091MWk1YW1pY0l0bXNkMTdaWV9WTWhlVDBzTElndmpXbzdRTmpCLWN0Q1BFVmdVWmYtQzRTUzNGbEZz?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T23:00:00Z",
       "region": "jp"
     },
     {
       "title": "【サッカー日本代表】ブラジル相手に真っ向勝負で勝ったからこそ浮かぶ「疑問」 Ｗ杯の借りは、Ｗ杯でしか返せない - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9udWFPLW02SlVSaXc4TXQ0azJUbFRSR2ZBLVhWUXByRVNiZWcxNk0yVE5wb0EzSWJpTHVJTm9teWdzVlhvYU1rZTlEQlBNdHIzLVZfMmhkMDV0RnE2NV85Q2NRNmtqSkdtdHBGTVVNUW9OVUJWTDJmSmF2a09ZN00?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-15T22:18:13Z",
+      "published_at": "2026-11-15T22:16:36Z",
       "region": "jp"
     },
     {
-      "title": "Access Accepted第879回：「GTA6」をプレイする前に知っておきたい10のこと。犯罪者カップルの歴史から，進化したゲームシステムまで - 4Gamer.net",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5MHlFNnZ2bFhBU1RYLWxJVXpRUWxKYkJqSzFqVXE1Mm1KRWhHYzM1QVFZMFZvbUphVkIwdlV1NEVLT2ZKNjVEV3plSVZGdzdELUtzRURyS1ZtbVdfZ0ZXNnByQQ?oc=5",
+      "title": "再建なった首里城正殿、完成式を前に内部公開…豪華な装飾は新たな知見を反映しより忠実に再現 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KYjZJa1RCWU95TUhhd3F1QzRRS2hoYzkteFZqWXp0NHYzZGFyYTMwU1dNd0QtOFlqM2d1N1pXM0JFczRnUWtsQ1A1eVpYN19JV1VEbTBYc3hhN1dVSGFDalJERzBMM2Q5SXF0TUln?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-15T22:00:00Z",
       "region": "jp"
     },
     {
-      "title": "ゼレンスキー大統領 米の衛星通信サービスの制限解除訴え",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261116de76330",
-      "source": "NHK",
-      "published_at": "2026-11-15T21:53:31Z",
-      "region": "jp"
-    },
-    {
-      "title": "松山市長選挙 新人の中野泰誠氏が初当選",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76096",
-      "source": "NHK",
-      "published_at": "2026-11-15T21:40:51Z",
-      "region": "jp"
-    },
-    {
-      "title": "ジェンスン・フアン氏、エヌビディアＣＥＯ復帰を側近と協議＝ＦＴ - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TTmJzZFhuUk9rSXFtMGFPOUpIMDJ5NXFQVlo2WktGSmpwMFFjYkJsVHJPSEQxU3JvOXV2YURBajd6WHluUmk0MVA4VkJQTVNWRy1lcmN2dXhYanhLWHBnRnRzMzNCSTI4UlJKQUhveDcySW03T1BNcHRRNFBnX3M?oc=5",
+      "title": "ジェンスン・フアン、エヌビディアへの復帰を早くも検討との報道 - Forbes JAPAN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RNFJHdjBTZk1tSzJ1OEJkaUNER0tic0dHbmNWakc5NEl4TEdzQTlOM1gwMmpMS081THlRSkYtb1RURi1KWUVFS0ZBY0p6bkJubWZkeGJwN0FZZw?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-15T21:34:09Z",
+      "published_at": "2026-11-15T22:00:00Z",
       "region": "jp"
     },
     {
-      "title": "再選挙の福岡市長選挙、各陣営の受け止め様々「最多得票に感謝」「次こそてっぺん」「頑張りたいが…」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3Wm9Gc2hDVXMtNkRRSkxMSXBpTTJRODgtc1dEMFNGSHpBRGZvaHZ3YjJWRHdBTThnYThCeGktZUZhcU0tX2NpZG1acXZCanVXRUh4RDFNRVg5T3N1WWhFeHNMb2l6dw?oc=5",
+      "title": "日本海側は雨や雪 晴れる太平洋側も一部で雨 風が強い 今日16日(月)の天気(気象予報士 日直主任) - tenki.jp",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6Y29Gbl80X0ZGQnU1cHY3aDBXQXZ2S253UWMzNTRHTnBhOTNnUGg0UDN6SUVINDRXdGo0ajhseUlGT0xvUVZ5MmNCdmdJSWw1RFl4SUxZT0E5a2hzSWFFeW1teUlFWnc5VXc?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-15T21:30:00Z",
+      "published_at": "2026-11-15T21:51:13Z",
       "region": "jp"
     },
     {
-      "title": "福岡市長選挙 再選挙へ 候補者13人 法定得票数に届かず",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76099",
-      "source": "NHK",
-      "published_at": "2026-11-15T21:29:57Z",
+      "title": "スペイン代表、イングランドに2-3敗戦で公式戦44試合無敗＆12連勝がストップ MFアンダーソンが一発退場もイングランドがグループ首位突破 - フットボールチャンネル",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aVGpOSE51SWxPM1ljMlF0ZnQ3OFk5cDBIVW1FWFJ0ZXh5OWU1SzFSckF0S1dWVTF4RzZQMFFFaWxwNkhoNnFQT1d2Q0owZFlzZm5hemc2Rmw1YW1WaXpuV2FHWXk?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T21:50:54Z",
       "region": "jp"
     },
     {
-      "title": "特急と衝突し車火災 遺体を発見",
-      "url": "https://news.yahoo.co.jp/pickup/6602737?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T21:14:12Z",
+      "title": "やす子運営子ども食堂の公式X、一部の決めつけ投稿に不快感「嘘つき」とぴしゃり - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRDBMcFA1VmJMQkxobTEydWlUWEZOX3V2a0pBcVVnRHZINFlMZDVISTMtUmNYVGo2MTRzTEg0aXMzZlM5Q1l1d25XSlFHMWdFTFFFb0RnZkEtOTNMRUdDcm44LWIzT3c3NnpnVmtmd1ByVzRqLXkxWnUxekpheTNsSzYtVmJiTUtsLVFBcjhQNm8xdUo5aThVaEZ6WEZYWDjSAaQBQVVfeXFMTm83SGlVQkczNGl5VHk1UzBWM1ZkSW9PYTNRR2lsN1NkclE5UkduRklKTWFZeWh6bVVLUXRrSWdGSnU2Vkx6TG14Z2F5MUpCTW0wWF82S0xTVzlGcjZ2SjFrOFVUbHVUWmNQRXpWbjVpLTQ4VHkyc25rQVpKVzdUNmQ3NDRrN2gwcEhSRHVTTzNqNWpjVDZuOVpoN05OYkJNeFdqUXk?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T21:40:00Z",
       "region": "jp"
     },
     {
@@ -126,52 +245,24 @@
       "region": "jp"
     },
     {
-      "title": "Microsoft 365障害はなぜ長引いたのか？　原因・タイムラインと「SLAクレジット」請求方法まとめ：Windowsフロントライン（1/3 ページ） - ITmedia PC USER - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIUGR1TmlETTJ6d1NlTFpYQlV5QjR1bG5mdHhsU1NyQ0paRjdCSDNVd1A2VlVseWxnZHJmRVZTWFg2TUE2M2V6U3RNejg5X0U2V0llR0VTRGdUeHNDNEtWdVVrU0ZRZUxPQUUya0JMSdIBaEFVX3lxTFBxSzU5X1dzd205RGowb1diaFdmSDUwV2ZLaU9teXNOWEg3c0JZTWhOZUdPVWlRWjZhVlo2UGVCS3NUOUFYa2htNmZvNzJyV0xrTWJiNjVaT0VaRklXVkV1M3ExN1NyLTNj?oc=5",
+      "title": "ANN世論調査 減税の財源説明「不十分」8割 内閣支持率50.8％に上昇 - テレ朝NEWS",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUmpLMDVmZERUMWUtQUpqRlVubjNGUHRSNlN3Z1NEY19VZ0JzUkdsRldITmprQVRCdWF2amcxQklXLWdNaWU5VFJmcTQwQ3ZtVjNkd1BycWR0LU5nVzJoQXFQR0pZbFROZlR5MTUwdEw3R0k?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-15T21:00:00Z",
+      "published_at": "2026-11-15T20:52:33Z",
       "region": "jp"
     },
     {
-      "title": "ごみをタイルに、タイルをアートに―多治見の伝統産業をリブランディング - Nippon.com",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UdnZqcWM0aV9kY0NiVlpkN1hkalBMWmFfMFpOS29xRzhLeTluQnVBZFlzZ2szTy1LY2hUSGw2aURrVzAzb3l5bFJiSlQzdDVrQ19ReA?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T21:00:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "「スピッツ」ドラマー崎山さん事故で入院 来年の全国ツアー「慎重に判断」所属事務所 - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94OWNTVzZ4cmkwbzZjOWhuOFlURTVJVnFYMnMxMGNCSWQtS1FXdHZhMXVNWlM5NmdrZHVER09GUkhBMVhmdVB5WVFMMllTNW1VbnZIY2JUT3BTOGFNQnR5RExiaE14U3FEUF81bmpfenFuQQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T20:56:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "イエメン 暫定政権側 バーブルマンデブ海峡から撤退報道も | NHKニュース | 中東、イエメン、サウジアラビア - NHKニュース",
+      "title": "イエメン 暫定政権側 バーブルマンデブ海峡から撤退報道も - NHKニュース",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FNlA1NmZUN2VPcGZrTWRxNWJtNjJjUUlJb2pvNUs2ZUJPdzVLcVdvZkg3Nmd6T0o5YnFKNlQxbXcxMHJlX082T2h6eFNJbWZldW5Ec0tpdVgxX0Y2eHU4?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-15T20:51:47Z",
       "region": "jp"
     },
     {
-      "title": "ウクライナ 重機遠隔操作してがれき処理 日本の支援で実証実験",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76292",
-      "source": "NHK",
-      "published_at": "2026-11-15T20:40:08Z",
-      "region": "jp"
-    },
-    {
-      "title": "大阪 枚方 3歳女児死亡 父親が約1時間断続的に暴行か",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76282",
-      "source": "NHK",
-      "published_at": "2026-11-15T20:26:58Z",
-      "region": "jp"
-    },
-    {
-      "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76245",
-      "source": "NHK",
-      "published_at": "2026-11-15T20:21:35Z",
+      "title": "宿題ぐらい「自力でやらないと」…でも勉強はチャッピー頼み、思考丸投げ「自分の今後怖い」（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jVjVkWlA1dE5iQmVRZDdYODkxRjVWMnZZYVZyS1J5Vm1wSDdEZDFxSmFBeGNGVzZvckR6U3JpbXAtckVxbjNTaERIanFMdlBLN3VETVVLb1JaVkowZXBGWGwyOS12S3dkVDB0a3FQTFpGQkxfNUxncUlJazdDSVU?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-15T20:00:54Z",
       "region": "jp"
     },
     {
@@ -189,108 +280,87 @@
       "region": "jp"
     },
     {
-      "title": "野球日本代表 韓国に5対1で勝利し大会3連覇",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
-      "source": "NHK",
-      "published_at": "2026-11-15T16:37:18Z",
-      "region": "jp"
-    },
-    {
-      "title": "エストニア、12月からロ国境閉鎖へ（共同通信） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yNG5ldVZ1clBuM2dUa2MwU25Nc0lPczdnR3NmOXkySl81ajF1M3llY1RWSjl2LTNsZlFyUHJSVGhVOXlYTDZKX1RBTjF3RFBHSF9sZWNtNjQ1bFRqUXozWGxtM2w2VE9fU2N0aEZHako4Rm5CcV92QzVsckVlQ1E?oc=5",
+      "title": "アンソロピック「220兆円」上場へ AIの価値、市場が19日に審判 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41MUJYRW53Yk50aGpYTEZmcWM5WlVEdXZTRFVnNGIyLVJMc2p0aVFxNW45a1BoejFlTHp5LWljUnBRQlYtUWtqQkM5bUlnU20tT0ZxZW1xM0tYN0pmZzBMWDM5OHlWMlVYaDhicA?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-15T16:15:55Z",
+      "published_at": "2026-11-15T20:00:00Z",
       "region": "jp"
     },
     {
-      "title": "ＸーＧＵＮ・さがね正裕が舞鶴市議選当選 相方の西尾氏も三郷市議で議員コンビ誕生 - 東スポWEB",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVdy1NdHVyZnc2aElobVJrc2szckdvUENXTWtrd08tdmljV1RJcXJvZV80N05Nb0tHaW1KMWpQSUMzMFpjanNpaS1RNTlYLW1zeGFLc3lFMDNHMjFC?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T15:22:00Z",
-      "region": "jp"
+      "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76245",
+      "source": "NHK国際",
+      "published_at": "2026-11-16T01:47:34Z",
+      "region": "world"
     },
     {
-      "title": "櫻坂46、大雨のZOZOマリンで6周年ライブ開催 卒業の松田里奈→山﨑天へ“キャプテン”リレー【セットリストあり】 - オリコンニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTOXFVT2NhdXNpa2todTc4R3ZzWEM4MEFiT0RmVkZYd2lmWlVrdkh1QlFJUW44Q3NPcTU5V0hCMjloX1hvaVBoaUg4VkhBaVdDV2RoODZ3?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T15:06:00Z",
-      "region": "jp"
+      "title": "【詳細】ロシア ウクライナに軍事侵攻（11月15日の動き）",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261028de67090",
+      "source": "NHK国際",
+      "published_at": "2026-11-16T01:40:21Z",
+      "region": "world"
     },
     {
-      "title": "松山市長選挙 中野泰誠氏（無・新）が初当選確実 新人の田中氏に競り勝つ【愛媛】 - FNNプライムオンライン",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Dcm5FdjNMUkZ4ZEJTOHZZWnNaMlAzenJuWm9RcU80ejZkeGRheDZVVEZSY3FpZjBJRDdoTnhyRGpDSkFZZzVXTEg4bFdJdw?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T14:55:00Z",
-      "region": "jp"
+      "title": "【詳細】ロシア ウクライナに軍事侵攻（11月14日の動き）",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261028de67088",
+      "source": "NHK国際",
+      "published_at": "2026-11-16T01:38:13Z",
+      "region": "world"
     },
     {
-      "title": "侍J宗山塁が大会MVP 正木苦笑い",
-      "url": "https://news.yahoo.co.jp/pickup/6602733?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-15T13:56:37Z",
-      "region": "jp"
-    },
-    {
-      "title": "小泉防衛相、ＡＩ基本方針見直しを表明…「ＡＩとデータを実際の防衛力強化につなげる」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYM3hXMEpGZlc0clVScF9QV1RtNDREeFJrYTJ2eEFpcVFzOGNnZ081QnFQb3g3UUZieDFiYzlsTlVvcVI1aXdUTzdlNlBWaGFtV3ZOaG5DMkxhWGdIUUdIS2wwV3Vtdw?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T12:19:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "愛知県小牧市の強盗殺人未遂事件 容疑者の1人の両親が中日新聞の取材に応じる：中日新聞Web - 中日新聞Web",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VTFRkaV81YmtRSExFRmswUDliN2dtam1yNDRlVHo3dHN0RHU4RjY4cXZZZjVTOGNEcWhlYmcyMDFNVjJJUjBYV2laMDlBUWZJUG9sWA?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T11:50:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "【大河ドラマ 豊臣兄弟！】第44回「ある家臣の死」回想 疎外感に苛まれる秀次の企て、豊臣家を揺るがす 「お互いの姿を見て」しまった兄弟の絆、風前の灯なのか - 美術展ナビ",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBN2VJN0ZWWjVVYVZZUnNqRGpLVVdtNHlLQy1XVlVOUlBhZ0RseWNkVUF5UFljQy1NN1BXSE1YVDA2SHFZbVVNWGs1MVlMNFk2WmFjVEhDTVVDVV9HaFlvN0daNVZfc2pn?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T11:45:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "ミャンマーへの関与継続で合意 ＡＳＥＡＮ首脳、政治代表の復帰巡り協議―南シナ海「行動規範」年内妥結見送り - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYQWFBQTRrYWt1NFNjSUdXQ2hKRHhRZ0U1MGs4YmFMV25kbUxwajlvQXY1RkJfWFhaUkVUOUNhOFNqUDdZbC1rSHhTc2dEdldSS0NVZ0JPYXd4UXZGLV9tWndmWQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T11:33:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "【速報】大西氏の4選確実 熊本市長選 - 熊本日日新聞社",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40YlFnaW03Z0lTZWhEWWtmbVBhTnlfQjhDR2lmbTllZ1ZCMVRad1RjNFdBSDF1QmtRSmp1bnlKTVFHNzBqX0RSUlhkSXo4Nk0?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T11:00:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "「ＮＡＴＯ加盟と引き換えにドンバス撤退」米側が打診とゼレンスキー氏…正式提案なら国民投票の考え - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLZlA5ZlRlOS1lbFhuMmM0aHVWazgtRTJZWUE1QjBMbzBEOHhtX0hBZk1BdFBSWUNtaWpyOTBNMklfbXdoU2FzcGp5V0RDNVhOQWlfcUVxSUFXWC1BU1A3cGVB?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T10:02:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "「ラヴ上等」出演の「あっすん」逮捕 無許可で風俗営業容疑、警察がマニュアルや1600万円押収 - 東京新聞",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE16aXo2YjF4eHdZX01HRHlyQWMyN1pkZkFzTmJLRVFSNkVSWnIydDR4c3dTRlJKTGlNZGktOFB6U1hLRV84UkxHckQ4YWY3bHFLOVVv?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T09:52:36Z",
-      "region": "jp"
-    },
-    {
-      "title": "自信持てなかった桑木志帆、「連続ダブルボギー」の夢も…初の年間女王に「もう考えなくていいんだ」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tdGxGQ3IyeGRFaDB5S0Q1MzhyZXpqWkJHYXlsZXB1cUVCYTNEOERqbTZWakk1TjFUbWdPRjNqcThXb05MSzlYMVMtZnE3cWNKdDZCNnBfdWN4NkJHS3drUjRoNGtKeEplVFE?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-15T09:35:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "エボラ出血熱、アフリカ中部で今なお猛威…政情不安で医療活動に限界・ワクチン実用化もメド立たず - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOYkZobTZkZ2Zhc18yRFNLRXZLVkhLR1EtREFuallwdmJfeEhHM0RUaGlZbEdZanllMnpoX3JpbnY3bTM4UklENmd5aEVSNmU1Vzk4R2Zfb25ZX0QwYmJkS213?oc=5",
+      "title": "大勝の民主党、党路線巡り亀裂浮上 トランプ対応で意見割れる - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16aGxuN1JXQjJ5T0dEZjJ5Q25pYU10VWV1S3BFUk5ELWtFdHFhOHRuc0hkblRHUENVTjlRdWpGS3pTNjJ3cnRnUXhQNnBJSXZwdkxiLXhsM3JQaENEUkswakJSUjNkZF9nU1RGb2tSd3RxUnhpNmdHTFNCYTJBaGc?oc=5",
       "source": "Google国際",
-      "published_at": "2026-11-15T22:33:28Z",
+      "published_at": "2026-11-16T00:54:00Z",
+      "region": "world"
+    },
+    {
+      "title": "トランプ氏が仰天構想を発表!! 既存の序列をひっくり返す「世界最大航空ショー実施」プラン…本当の狙いは？ - carview!",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMkhzaXB1YkU2QW5ubVJzcnJWdWl6bmtrYWZJV1Z0THJaNk5JajFXdERqX3F5SkFmb2x5Sm9iX3VpUGlqa1FuV3RvMUJVWXcwekV2bWttcmpYOUYxVWZmTjFVOV9hMlBxUXFYdENXSzZTQ2JLTGYtVG9UbFhnWjVmUXJ6Wms3LUJ0?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-16T00:42:00Z",
+      "region": "world"
+    },
+    {
+      "title": "エボラ アフリカ中部で今なお猛威",
+      "url": "https://news.yahoo.co.jp/pickup/6602757?source=rss",
+      "source": "Yahoo!国際",
+      "published_at": "2026-11-16T00:17:16Z",
+      "region": "world"
+    },
+    {
+      "title": "中国・河北省に隕石落下、重さ30キロの破片も 現地に「隕石ハンター」殺到 ネットでは90グラム約11万円の値 - FNNプライムオンライン",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiMFloNkctdDN5aHRMbmgwbWx2a1lSVU13N21zdHlPYm9DR2pNOEh6SHpKYXVIcUlUZ0N4bVJpaTlXZ1pya1RQTHBaOXpBUQ?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-16T00:10:00Z",
+      "region": "world"
+    },
+    {
+      "title": "米中ロ首脳会談を前に「プーチン大統領」を焦らせる最前線の惨状…上官が兵士を粛清する“ゼロイング”の悪夢、前線に送られた新兵の生存期間は“最短10日間”とも（デイリー新潮） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tRXFFdnM2S0ZfS2dJT25famdqVW45NG1wVVhOWDhMY3Y2U2JORmd2RU9DaGx2Y3F1V2I4UTVZdXk0LUNCZU5OdlFwS1NhY21WcGZEbjFCTWNYOE9KT2VhRDVnOGY0a1lFUGh0c21tOW9GU3pvMnd3UGFGUDA1VVk?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-16T00:02:12Z",
+      "region": "world"
+    },
+    {
+      "title": "アゼルバイジャンの「ヒジャブ」禁止令、周辺諸国を巻き込む外交問題に発展 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XM0hzSXlOTTJnUUhmdTc3d3BMbjdNZWpFWlo4VmNFRy1uSndYbUl6ajNlVk9weHV3U0VjRklFbmxNZ0xDRGFtSkw0ZVNkTWhnVmt6VDVMMi1FVThkXzZwNVp1YzQxNl9Yenl1ajJuTTZkREFDc09FNWY3MjVUVE0?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-16T00:00:00Z",
+      "region": "world"
+    },
+    {
+      "title": "エストニア、ロシアとの国境を12月から全面閉鎖 防衛企業の放火未遂など破壊工作に対抗 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVEdtRlpnM21tUFFTLVVHemJ1VjlDWFJPZ0gwVjZFMHpYcGQtWTF2WlJacEtVZ2NNU3BwU3BmS3BwY3d4TVVMYUlpSS1BMlRycHp4TVQ0NDBzYjFVUFRaRjVUUGY0NkthaFJ6ZFAxbmU5aVU5SV9oQ04xY1I2WlRiTHFsdGRVLWtBdHVscQ?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-15T23:35:34Z",
+      "region": "world"
+    },
+    {
+      "title": "エボラ出血熱、アフリカ中部で今なお猛威…政情不安で医療活動に限界・ワクチン実用化もメド立たず（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zb0ZpYVgzVUlPQXlka2k2QndqclBNcWM4VXRVM0lOMDd6ak91d2tXWVdnY19iSFRNeTMyc0JhZm1jZHJtanBKR0IySTktRFVUdTNra2ZNUzNsc2p6NWI5cHlCRVRlblJGUWFNRGpHUWpZQ051NXUzMDlFVUVxc0k?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-15T22:33:32Z",
       "region": "world"
     },
     {
@@ -304,7 +374,7 @@
       "title": "マグサイサイ賞授賞式 ミャンマー人権団体創設者などに授与",
       "url": "https://news.web.nhk/newsweb/na/nd-20261115de76314",
       "source": "NHK国際",
-      "published_at": "2026-11-15T22:03:44Z",
+      "published_at": "2026-11-15T22:03:00Z",
       "region": "world"
     },
     {
@@ -315,28 +385,21 @@
       "region": "world"
     },
     {
-      "title": "エストニア、ロシア国境閉鎖へ 防衛企業への破壊工作疑惑受け（ロイター） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81M1hHVHBVM1hjQ0VIa1NXZU1TSE1RVTlla1dSZzZtZzF1SDNXSVBxNXUtZ1puR3ZGNzAtS242WXpLS3pFNURwZWNrLVF5V2VqUEFIckJ3OEhGQzVSSEFKTTk2R3Rhb1Qxa2RFZVdxSkJjakw3c0plZTBPNUhvZ3c?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T21:45:09Z",
-      "region": "world"
-    },
-    {
-      "title": "ロシアにおびき寄せた外国人の旅券を取り上げて戦場に…「プーチン大統領」戦死者最大66万人の“穴埋め”は「外国人の人身売買」「報奨金目当ての人狩り」（デイリー新潮） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GY2MyWVJ6Rkl4dFFzU0lWbktPSjh4ZnJBeUlaa0R4ZFl2ZzBqc093T3NLVmtySlltaWJOQ2t6cUhSWFJzS3pvWXFVNnhzb1JFeTl5N0pTRk8tY2xpWFU1ZEN6ZzEzUElJcVFEak5tNk01Nzg3Ymo5VlF0aWJhVXM?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T21:13:43Z",
-      "region": "world"
-    },
-    {
       "title": "ASEAN 南シナ海「行動規範」 年内妥結は見送りに",
       "url": "https://news.web.nhk/newsweb/na/nd-20261115de76312",
       "source": "NHK国際",
-      "published_at": "2026-11-15T21:12:18Z",
+      "published_at": "2026-11-15T21:12:00Z",
       "region": "world"
     },
     {
-      "title": "イエメン 暫定政権側 バーブルマンデブ海峡から撤退報道も | NHKニュース | 中東、イエメン、サウジアラビア - NHKニュース",
+      "title": "習近平総書記の“粛清”から生き残った「注目人物」 消されなかった理由とは（デイリー新潮） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SSmo5ekg2VTJ1VFdPQzBUbnhZVV9OaGxubFJmd2tmUmRzZ0pDSWRjajVFNHJWMXZLdmlTUFFfaUpSUFUxSGZvcUIyUWtDQTJ1VF9TM0QzaFBZNGQtbzU1cHlpVUN6N0Y2V3dTajJkY3J5SlJoZFhHeWExbUZFUGc?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-15T20:56:20Z",
+      "region": "world"
+    },
+    {
+      "title": "イエメン 暫定政権側 バーブルマンデブ海峡から撤退報道も - NHKニュース",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FNlA1NmZUN2VPcGZrTWRxNWJtNjJjUUlJb2pvNUs2ZUJPdzVLcVdvZkg3Nmd6T0o5YnFKNlQxbXcxMHJlX082T2h6eFNJbWZldW5Ec0tpdVgxX0Y2eHU4?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-15T20:51:47Z",
@@ -350,7 +413,7 @@
       "region": "world"
     },
     {
-      "title": "ウクライナ 重機遠隔操作してがれき処理 日本の支援で実証実験 - NHKニュース",
+      "title": "ウクライナ 重機遠隔操作してがれき処理 日本の支援で実証実験 | NHKニュース | ウクライナ情勢 - NHKニュース",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zQkFYVUZFWHFxYVFWaXR5d0VrbVY0OWNVcFMyWWE1ZkxhNnVDLVU1aHh0djFVWFdUY2Rqc2hqaVF1UF9wSUFFNW1raTBIOHozODl3N0RFam9YMDNuRGRv?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-15T20:40:08Z",
@@ -360,35 +423,42 @@
       "title": "ウクライナ 重機遠隔操作してがれき処理 日本の支援で実証実験",
       "url": "https://news.web.nhk/newsweb/na/nd-20261115de76292",
       "source": "NHK国際",
-      "published_at": "2026-11-15T20:40:08Z",
+      "published_at": "2026-11-15T20:40:00Z",
       "region": "world"
     },
     {
-      "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76245",
-      "source": "NHK国際",
-      "published_at": "2026-11-15T20:21:35Z",
-      "region": "world"
-    },
-    {
-      "title": "「新ヤルタ」懸念のAPEC 高市首相は逆風下の外交へ、米中ロ接近 - 日本経済新聞",
+      "title": "「新ヤルタ」懸念のAPEC、高市首相は逆風下の外交へ 米中ロ接近 - 日本経済新聞",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00ajJkUEo3QW1IbGZ3T0tJZkpyajNvMXNuaXJrYkx2V2RBUjFMMjh2aUh3eEo4ZnJEaDFXVjVaX0FkYnFpcFVMVnBDVUJOWjhtRS1ZeFd3VkxsUkNCVVZvTFNwYnR6aXNBYm5nWg?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-15T20:00:00Z",
       "region": "world"
     },
     {
-      "title": "激動期の安保：ウクライナがロシアのネット関連施設を攻撃 報復とは別の狙いも - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0elVHal9QS3VrVFJRMDl2SjZuY1ViSlBCTG9GV1h3MEFpdVpOWUJJWUwxbnBaVjl4UHU2a0RRVG0xTkNTVEV0TGhRYW40ZVU3bmRRVkd1WkpidUtCRkp1bG8tcldjUVhN?oc=5",
+      "title": "これまで住んでいなかったイスラエル人の入植が活発化…ヨルダン川西岸エリコ、パレスチナ人「自分の家なのに近づけない」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DNVRHTDZkQ1VOM2ZwUWhpWVBBdHZFdUZOWWFXM0xrelNxNFRwb0RZem1fOEExWkpMY2Y4SzhoQXZNcWZDQVdaeHhMYTEyQ1ZPS3A0bVdXb255bnh5WFItU1pn?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-15T20:00:00Z",
       "region": "world"
     },
     {
-      "title": "給与明細や書留の郵送基盤が標的に、2,200万人の氏名・住所が流出 ラ・ポスト子会社（ビジネス＋IT） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zSUUtaS1wSWdPdXJtVzdmY3ZWUUJEYzgwalZNdkxzOUlVMEFjam5KNXZubE83U19USjRYc3dLei1XNVYtX1JmQ3M0WXc0MjJ2T3VDU2Y4aDlvcXItQjNZTEhnMXVneVlRcU9SVm0yckloMDhJdHplNlRWSEw0ZTA?oc=5",
+      "title": "私有地侵入やポイ捨て… オーバーツーリズム「発生」2割、日経調査 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tcWRCRzBfTmFJQTl5ejdpNFN1QWNhOXRuRVVKLTNGVVlzSWRqV0xPRk41V2Njc2dRYzFqRzdNMjloS3hWTlFDTmF1WmRNZEMtd0RTamwzTHc5eEtGaklXVVlIekl5aHRuZ1Nkbg?oc=5",
       "source": "Google国際",
-      "published_at": "2026-11-15T16:57:14Z",
+      "published_at": "2026-11-15T20:00:00Z",
+      "region": "world"
+    },
+    {
+      "title": "ＡＳＥＡＮにＡＰＥＣ、トランプ氏が外交ウィーク…「新ヤルタ会談」にクアッドも「多くのことを話し合う」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BQXNFYWdfYkpJcUZzYjlnazdRZTExUE01YW41WUZoTkZzNmRGaWd1bGhiVEpNTkpoR29ZUm5Pb0pYTlFGQ2dueTdwRlI2YzE1MElLLV9vOVo4MGFWSlUzaVdB?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-15T20:00:00Z",
+      "region": "world"
+    },
+    {
+      "title": "社説：中間選挙後の高市外交 「トランプ一択」は通じぬ - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yaERKS1oxLVY5OGlDQUd5Wjl6ZGVmTk11ZVhDMFdPZmVjWHFvcVNWckFPTTBXMmdPTUxfVElXUER6V214NlQ1MVdUQWowdGNCM1dYWTl6bE84VjVvTWlyOW9SVFY0N1hT?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-15T17:01:12Z",
       "region": "world"
     },
     {
@@ -399,8 +469,8 @@
       "region": "world"
     },
     {
-      "title": "中国・北京でドローン所持が全面的禁止に 「ドローン大国」でなぜ？ - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mN25tcEVwRUV0amNCZ3prR1h3ZVAzX3dpV19JbVVBUkNjY3Q4UUJVU2VuLTZZMlJuVkVjbWUwOXhSd2lQenRmaVRRLVlCUHpSS0JDVWl4MGtoTkNwLUpr?oc=5",
+      "title": "ドローン大国の北京 15日期限で所持を全面禁止 (2026年11月15日掲載) - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SUnpCZEZ4Sjk1T3g3SWxIc1VFMG9uc2NneVNzZTFNdDB6ZEp3QnBMelNBRGhZN2JqQm5tbU5oYzdnREd0X3p4UDZSNUxfYW1GNFFEbWhPYTF1a3pIMmc?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-15T13:26:01Z",
       "region": "world"
@@ -427,10 +497,17 @@
       "region": "world"
     },
     {
-      "title": "ミャンマーへの関与継続で合意 ＡＳＥＡＮ首脳、政治代表の復帰巡り協議―南シナ海「行動規範」年内妥結見送り - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYQWFBQTRrYWt1NFNjSUdXQ2hKRHhRZ0U1MGs4YmFMV25kbUxwajlvQXY1RkJfWFhaUkVUOUNhOFNqUDdZbC1rSHhTc2dEdldSS0NVZ0JPYXd4UXZGLV9tWndmWQ?oc=5",
+      "title": "ASEAN、南シナ海「行動規範」年内の妥結断念 比外相「8割合意」 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54OTlwNEw3NXhkNVVZTFg0WWF5ZkRJY2x4UWdZUDVJUEhKTnhMSHJOaVh2MVczMmFSMXI4b21CVHBkTFpzVzNMMXljMGRQb3o4V1ZsMFNoMWlqSE1aSHVCd1JLLTBoT1gyazRlSQ?oc=5",
       "source": "Google国際",
-      "published_at": "2026-11-15T11:33:00Z",
+      "published_at": "2026-11-15T11:45:30Z",
+      "region": "world"
+    },
+    {
+      "title": "アラスカ州知事選で民主候補が当選確実…民主６州奪還、非改選含め３０州押さえる - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZdTI5TklEZGFIRTUxSlRQaDdUNFlHclo4WV8xSWZTRkxXX0lLY1E4akU5VXRnVnRvcGtjS2F5bnJYbjFXVU9ROUVWZXduLVY3NXowM1VxbXdkbmp2YXRSMElB?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-15T10:35:00Z",
       "region": "world"
     },
     {
@@ -438,6 +515,13 @@
       "url": "https://news.yahoo.co.jp/pickup/6602707?source=rss",
       "source": "Yahoo!国際",
       "published_at": "2026-11-15T10:26:37Z",
+      "region": "world"
+    },
+    {
+      "title": "旅客機が着陸時に「尾部をこすって煙が立ちのぼる」超鮮明な映像が公開される 世界の航空ファンも息をのむ - carview!",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUDVPbDBHbElxZ2VWb0pCa3A1WkNuSFIzWXljUU1lRVFzSnJUcWJHcW5YZGNtZmR6VkRRRGFqVGxzUVNHYWItNHMzektYT1g2c3pTcEpHc1hDRlptR0k0TjA4Um5BVFp4UXMyWGtWVjVYNFJXaVYyWkI5emJhbWxYQmc5bF81RDZq?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-15T10:12:00Z",
       "region": "world"
     },
     {
@@ -480,90 +564,6 @@
       "url": "https://news.yahoo.co.jp/pickup/6602697?source=rss",
       "source": "Yahoo!国際",
       "published_at": "2026-11-15T08:56:52Z",
-      "region": "world"
-    },
-    {
-      "title": "米政府がヘリウムを特定重要物質に指定 AIと半導体生産の生命線 - Forbes JAPAN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDalpZMWZ0NWEtbDhROEl2c0JlbXBKMXFiRkdOYnBRdUpySjZVV094eDFtc3BNdDFRSFFtR0Q1ckJXQ0tCTkdHWS11SFA0U1g5U3JyZTVKcFpOZw?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T08:30:00Z",
-      "region": "world"
-    },
-    {
-      "title": "長年のブレイクダンスで頭皮に腫瘍、「ヘッドスピン」による症状と研究者 24年報告 - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ISUF1Z29GVjRuNTF5R0d1RmItNVJIajNYYVB4S2VzdnIxRU5wNlhxYXB4YXJWU2hDWHZSM3psdnpGWV9yRWpaZ2ZYbDdaS0VqTkRUTg?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T08:24:00Z",
-      "region": "world"
-    },
-    {
-      "title": "スペースXの大型宇宙船 地球周回後の発射台キャッチに初成功",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76047",
-      "source": "NHK国際",
-      "published_at": "2026-11-15T07:48:00Z",
-      "region": "world"
-    },
-    {
-      "title": "民主、非改選含め全米30州掌握 知事選、アラスカも勝利 - 47NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IRWhBLUREdmxCaU5NU3ZEOW1naEFNUGtwN25vd3ZEMmdZNEtyRzBxaHQ5Z3gyQV9jdUViQk0xX2tnc3djSHEwaFcwQQ?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T06:54:00Z",
-      "region": "world"
-    },
-    {
-      "title": "北朝鮮、中国人観光に防疫の障壁 新鴨緑江大橋開通1カ月 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuTFJnUEFQMkJFbTVHMFU3d1ZPbnB1QTItVUw0b2JFZFFZRkZENnlkZy1WZUZ4ZVpZeFpDSVJKUnlHSTRVZlFGSUpEZURTcDY4NHlOOHhLV0RQVWxlcDlnckFMWGdoS05hcV9OYg?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T06:25:28Z",
-      "region": "world"
-    },
-    {
-      "title": "アメリカ・カナダ西海岸で高波 週明けも大きなうねり - ウェザーニュース",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFSTRPN19fZFhiUnJBU0xhUTIyMTVScXZraEJQVE9VcHFRYlBtMzZienlwdjNsc25wTHVoUkl3dk1BcjhyeWN0S0w2UGFTMms1YkJnSg?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T04:47:00Z",
-      "region": "world"
-    },
-    {
-      "title": "米中露が会談へ 日本は蚊帳の外か",
-      "url": "https://news.yahoo.co.jp/pickup/6602660?source=rss",
-      "source": "Yahoo!国際",
-      "published_at": "2026-11-15T04:19:08Z",
-      "region": "world"
-    },
-    {
-      "title": "トランプ政権が弁護士15人増員 議会対策、野党民主党の追及に備え - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94SEZJMkdXSFhpcXktbjI2Y2tYYVBFa3VFZ2xtNm56VlZEWUtvV085RF9XdzBiRmNVRWgzN0FucG4xTFIzaVEzQzhUNTdCeHlua2U5bFA5YjJkdXRBcEh4T1VOQVRFR21qTFpjdw?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T04:04:03Z",
-      "region": "world"
-    },
-    {
-      "title": "米の「中国脅威論」どう生まれた",
-      "url": "https://news.yahoo.co.jp/pickup/6602656?source=rss",
-      "source": "Yahoo!国際",
-      "published_at": "2026-11-15T03:40:02Z",
-      "region": "world"
-    },
-    {
-      "title": "アメリカ 空港で欠航や遅延トラブル 当局「15日中に正常化へ」",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76032",
-      "source": "NHK国際",
-      "published_at": "2026-11-15T02:48:00Z",
-      "region": "world"
-    },
-    {
-      "title": "見た目はステルス戦闘機、でも違う!? 韓国の新型戦闘機「KF-21」が目指すのは“開発すること” - carview!",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaWhEZXgxSXRwelhOaTgtR0NGZGlRd2txNzFlOG84SmZ2ZE9GT1RvRjJHbVlsbkFmT2JndUJHTm1LVnI0QzQtUFJGUnJnYjMxLTNLbGhXRlkxRUVibzhGZ1FqRHdjLVV3VVBQYkdkVUpkNThuWGlhM3lrRUJZbHAyOER2cVdMbUlX?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T02:42:00Z",
-      "region": "world"
-    },
-    {
-      "title": "「菓子爆弾」食べ男性死亡 インド：時事ドットコム - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vNTN6dGdNSURjSDgxbEpZMGk3VHFqMHFyUUlHenRmaUFyTEJna0FmS0ZnQzBYS3ZKa0ZVa2UzaEQ1VFRsTHNWaXB1c2VJN2ZTWTAyRTJpWUJHMWNiQS1Ja3Jfbw?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-15T01:54:00Z",
       "region": "world"
     }
   ],
