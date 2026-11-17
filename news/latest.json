@@ -1,13 +1,55 @@
 {
-  "updated_at": "2026-11-17T02:35:32.336060Z",
+  "updated_at": "2026-11-17T03:11:04.188401Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
+    {
+      "title": "高市首相 今夜クアッド首脳会合 中国念頭に\"深刻懸念”表明へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76934",
+      "source": "NHK",
+      "published_at": "2026-11-17T02:58:51Z"
+    },
+    {
+      "title": "「伝説の左腕」江夏豊さんが死去",
+      "url": "https://news.yahoo.co.jp/pickup/6602890?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-17T02:56:39Z"
+    },
+    {
+      "title": "中野 女性刺殺事件 容疑者「冷たくあしらわれ腹が立ち刺した」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76925",
+      "source": "NHK",
+      "published_at": "2026-11-17T02:53:00Z"
+    },
+    {
+      "title": "群馬 前橋 住宅街にクマが出没 男性1人が襲われ頭などにけが",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76952",
+      "source": "NHK",
+      "published_at": "2026-11-17T02:47:00Z"
+    },
+    {
+      "title": "ドコモ通信障害 藤井総務相「大変遺憾」原因究明求める",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76976",
+      "source": "NHK",
+      "published_at": "2026-11-17T02:44:53Z"
+    },
+    {
+      "title": "3選手要請書 広島「精査し対応」",
+      "url": "https://news.yahoo.co.jp/pickup/6602887?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-17T02:41:18Z"
+    },
     {
       "title": "東京・葛飾区の住宅街にシカ1頭",
       "url": "https://news.yahoo.co.jp/pickup/6602884?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-17T02:16:52Z"
+    },
+    {
+      "title": "はやぶさ2の目標小惑星を変更 エンジン不調で到達断念 内閣府委員会提出資料で判明 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnV0diNDRPUEtlMVNuVnB4c2MyNE52dnFKbDBYU0wyb1BqZGZRR2ZFYWdTQmUzWUc0d2didWs1QURjRGFTTERCakF1aWFfQTI4MDFKdW5CZTdNVWFCQ01DTE5DZGV3T2N4MmNqWkZCZ1dsOFZnaGc?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-17T02:14:34Z"
     },
     {
       "title": "米中露 共同コミュニケを発表へ",
@@ -16,16 +58,10 @@
       "published_at": "2026-11-17T02:13:12Z"
     },
     {
-      "title": "群馬 前橋 住宅街にクマが出没 男性1人が襲われ頭などにけが",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76952",
-      "source": "NHK",
-      "published_at": "2026-11-17T02:12:00Z"
-    },
-    {
-      "title": "「はやぶさ２」目標小惑星変更 エンジン不調で - 福島民報デジタル",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoa0U0enlXeHRydWNsWnh5YnN2NjNwSmoyZU1XaDY4Qk0ydVNvT1diRkUzaGtUZGpnN3B5YWVZQ3pHRkFNeGUyMll5dkVBUnM?oc=5",
+      "title": "ロシア機が領空侵犯か 福岡・沖ノ島周辺で：時事ドットコム - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBwZ0JROV9yanl5TG4xbmMzbVBQWkpmTUZXVDhpMlNncGNWaEw1cEdrU2lrRmdOR2RTWkxlcWtNd0JTMkk5MzFGUTBsc1pyZVVQdWYxWkl0bkxZTGVlRFU5aU5yZw?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-17T02:00:00Z"
+      "published_at": "2026-11-17T02:13:00Z"
     },
     {
       "title": "「白い麻婆豆腐」じわじわ拡大",
@@ -34,34 +70,22 @@
       "published_at": "2026-11-17T01:47:32Z"
     },
     {
-      "title": "「森保監督、釈明させてください！」ブラジル戦後の舞台裏、敵FWヴィニシウスとの“やり取り”をよりによって目撃されてしまい… - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DTENsWXNlaXV3d29VdVZJMllyWFpjbXVlRmtqUFdkVUtYUU1OTmZMSUJfdjVIS1JFdy1QOUxIWmE1X3l5TzZ1enlZSkpZR1FCYkxISUNqdFlyek5qcUdUclJMWWFnRnMtd01wWjFPalpUQ2hndTNva2ZJMGhwNW8?oc=5",
+      "title": "「GTA6」のゲームコードが当たる！ Twitchにて期間限定のキャンペーン開催 「GTA」の限定スタンプやチャットバッジも配布 - GAME Watch",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tUUJfVWg2bnZFU3BEaE1uR1dKM0ZIMjBpZU5nSnJ3VllnZFl2cWloNUY4QUtOSnhFS25Jd05EQXlPeFdjb09CemdYdU9oMGpKRktqdUVjRUlzQXBjVmVZc0pPNUdSZw?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-17T01:47:00Z"
+      "published_at": "2026-11-17T01:47:24Z"
     },
     {
-      "title": "推定ロシア機領空侵犯 福岡沖ノ島",
-      "url": "https://news.yahoo.co.jp/pickup/6602882?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-17T01:47:00Z"
-    },
-    {
-      "title": "ロシア機が領空侵犯か 福岡・沖ノ島周辺で：時事ドットコム - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBwZ0JROV9yanl5TG4xbmMzbVBQWkpmTUZXVDhpMlNncGNWaEw1cEdrU2lrRmdOR2RTWkxlcWtNd0JTMkk5MzFGUTBsc1pyZVVQdWYxWkl0bkxZTGVlRFU5aU5yZw?oc=5",
+      "title": "イランが米首都で「汚い爆弾」の使用を計画か 米情報機関 CNN EXCLUSIVE - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGd3RBMmp3aGFMMmxrTnpiYkRySERnSnI2NlR1X3ZReV91N0ZCQkg3ZlBGYzU3LWpaS1h0aGVkWkRlSWlBemZmNkp0V2laUVg2?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-17T01:38:00Z"
+      "published_at": "2026-11-17T01:37:00Z"
     },
     {
-      "title": "ロシア機か 一時領空侵犯 福岡 沖ノ島周辺",
+      "title": "ロシア機と推定の航空機が領空侵犯 福岡 沖ノ島周辺",
       "url": "https://news.web.nhk/newsweb/na/nd-20261117de76912",
       "source": "NHK",
-      "published_at": "2026-11-17T01:37:43Z"
-    },
-    {
-      "title": "７代目ジェームズ・ボンドにロバート・パティンソンさん「人生で最高の栄誉」「夢がかなったと言っても」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xTmhwZUk1d2taTU1DMzNGbW1VelA1TjRyb2hvYXdHNTVNVVZYSDRHTzJzYlVuWDBvd0dJS2NfRnBIRzhiSjhqM1JLMHZkOE9TYkNFdHk0enZ3UjQtX3NMVkdEUmgzb2ZtZDVwSnJ3?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-17T01:34:00Z"
+      "published_at": "2026-11-17T01:37:00Z"
     },
     {
       "title": "MS大規模障害 幹部が原因を説明",
@@ -70,10 +94,22 @@
       "published_at": "2026-11-17T01:32:41Z"
     },
     {
+      "title": "トランプ氏「正恩氏と会談するかも」 「習主席次第」、ロシアも同調：時事ドットコム - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rRDZrY3YyckRnX0xTbzhZUkNsZHo3bnJna2VzRi1JVzJXUFBPcDQxWHczNUc0YUMwdHBCSzVieVVSM2pEM0JnZllsZWx1YlA5RTlfelFPMy1kcmNFcklRLTVWcw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-17T01:22:00Z"
+    },
+    {
       "title": "菊地直子さん 逃亡の日々振り返る",
       "url": "https://news.yahoo.co.jp/pickup/6602875?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-17T01:18:28Z"
+    },
+    {
+      "title": "「やっぱファウルじゃないじゃん」ブラジルが猛抗議した南野拓実のボール奪取シーンに関する“証拠映像”を『Team Cam』が公開!? 「明らかに南野が先にボールに触れてる」（サッカー批評Web） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIMTBWVmEwWkVwb3NUQmIzQVBRZGJZU3AyR3N4Rzd3a0VXWWpwM2llQUtKdnBBVG80OGxKV3Bya2tQQ2hITlgwR29Pa0VqZmJEWHJEOW1idVgzdGZkNDN6bFptVWxpZm5IODhydktNMHhLWjg4STgzelZ6WWJiTE0?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-17T01:15:30Z"
     },
     {
       "title": "Pimax、年間最大セール「ブラックフライデー2026」を11月16日より正式開催！ 企業リリース - 日刊工業新聞",
@@ -88,28 +124,10 @@
       "published_at": "2026-11-17T00:58:26Z"
     },
     {
-      "title": "前橋市の住宅街にクマ 男性がけが",
-      "url": "https://news.yahoo.co.jp/pickup/6602873?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-17T00:56:27Z"
-    },
-    {
-      "title": "強盗殺人未遂事件 容疑者に中学生も 愛知 小牧",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76910",
-      "source": "NHK",
-      "published_at": "2026-11-17T00:48:00Z"
-    },
-    {
-      "title": "米ウェザーチャンネルが「GTA6」の“天気”を独占紹介 豪雨や雷雨、濃霧までリアルに再現 - ASCII.jp",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9nQi1TN1JWSjgtNFlFTEVGYnlONnpGNmZMRzRMc2w4blJ6aHpZbkNTaEdmbmd0c2lleU5remYzNnVaOVF4dTQ3Z1JtbXFiYXVrSFBRcA?oc=5",
+      "title": "【速報】愛子さまシンガポールに向け皇居を出発 2回目の外国公式訪問 大統領表敬やランの命名式、植樹式などに出席 21日まで滞在へ（日テレNEWS NNN） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aV2JnZlVHUHoxZjkzaWZMUkNqMHJ3ckxIdmxSb3Z4OUhJb0VHczUxTEE1MWZvX3pvcEo5RHZBR2t6VFdfZ0QzbTEzVUVvZ1dvdG5jY1p4TzRTZTZTbDd4REh3d1BteDVzZjk2YVRDNU5SdUxBb1RkOGZOYWprVG8?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-17T00:45:00Z"
-    },
-    {
-      "title": "ＦＩＦＡ会長選、ＵＥＦＡが仏連盟会長に立候補要請…インファンティノ現会長に反対の立場で擁立を模索 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaUUVVZGNUcWpKdkYyVGlNREs3TE9rMmFyMkdYNnlMZk15clNPV3YyZ3hjbXpaU3VZYThRMlhLcFFXSVViNFZOZTVHbnFwNnVrUDhIY0JGNjVzY1hmZVg2MGlRWmRscXV1cFJwNFBibnNvOEMyeVVV?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-17T00:30:00Z"
+      "published_at": "2026-11-17T00:55:00Z"
     },
     {
       "title": "町内会入らずゴミ捨て場利用 賛否",
@@ -124,22 +142,28 @@
       "published_at": "2026-11-17T00:25:05Z"
     },
     {
+      "title": "オランダ監督チャビ、ドイツ戦0-5大敗に…「私たちはフットボールをしていなかった。理解できないし受け入れられない」（GOAL） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4V1N3RTA2Q3plWk9ENm5wbFVzTmExdU5MYU5qdG1UWllOemNZRlFFRmJJNHFjemF1NTZGbWRVUXNRNzJheUx5UUdKai1BbF9qVVZFUHpzYTMzTTY2ekxzQmpHQXJzTjY3TTBhclY1bjN1ektkRFV2Z1B5b0tFMUU?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-17T00:18:04Z"
+    },
+    {
+      "title": "金・銀価格が1年ぶり安値に下落、米FRB利上げ観測が重し - Forbes JAPAN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11RW55a0VBN1Y3OEotUlhhTGhUM0c4dkRHdmpHdElrTUR4REpQQjNGaTFZOW9sUHN2cTZrWGx2US1BcHhsa3dGTF9JaFRtT2VPX0RTRWJmVUFldw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-17T00:15:00Z"
+    },
+    {
       "title": "トランプ大統領 フアン氏エヌビディアCEOへの復帰を容認の姿勢",
       "url": "https://news.web.nhk/newsweb/na/nd-20261117de76901",
       "source": "NHK",
       "published_at": "2026-11-16T23:22:00Z"
     },
     {
-      "title": "愛子さま きょうからシンガポールを公式訪問",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76896",
-      "source": "NHK",
-      "published_at": "2026-11-16T22:01:00Z"
-    },
-    {
-      "title": "「飲食店で客と従業員として知り合った」 東京・中野女性刺殺、逮捕の男供述 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4NTdDU19QaUdfS2JlMV9WRk5kZlFSZzUyQm5IWEkycGJDakRJc1JWMVJiX2ZmSDVIb0pFMzlXZGVtUy1mZWN2NENwRkFTR29QZTI2OW1CZzFXOElNZ19tRHRfNHJIZExiMkhuTkl2VUdXNFNNYUE?oc=5",
+      "title": "ロシア報道官 日ロ首脳会談の可能性「排除せず」 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNQ212MHg2eHV6anA5Sl9yVWE4YjB3SFlMSzQ1QUVqOUp4RFVjSXRJM3U4Y3J2dHRyTU9md1p1OHdNbUdkWkF6d3FEUC1hUmdhMkRBVE1aXzVCcGVfVC1z?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-16T22:00:00Z"
+      "published_at": "2026-11-16T22:21:00Z"
     },
     {
       "title": "桑木志帆は10位キープ 吉田優利が自己最高を更新／女子世界ランク - GDOゴルフニュース",
@@ -148,40 +172,16 @@
       "published_at": "2026-11-16T21:55:54Z"
     },
     {
-      "title": "ロシア報道官、プーチン氏と高市氏の首脳会談「否定せず」 APEC会議で - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1VVpaY0V4d29BbWlsWk1qdDh4QVY2VzlLRG0tNlhLWE80Wlc1STFLN2RaelNrbU5jdS10NFNza1dFN0ppWlMycXJ1RFVlV05fZ3FRaUZoV3hTcGNBM1k2ZDI1YjduaEpzdlpSYQ?oc=5",
+      "title": "芦田愛菜主演『南田南弁護士』第5話ゲスト俳優に反響「ダンスキレキレ」「さすが宝塚」 愛希れいかが登場 - オリコンニュース",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43M3JKZUhIb1ZZMEV4MS1aTVM0MVZsOTk2WHhWMjI1RS00Zzl1VGtWaGxMbld4ZUV6a0pkekhzUzZaQXlVdXFHbWk3eGFtYkE4bm5hSFZR?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-16T21:13:29Z"
+      "published_at": "2026-11-16T21:45:00Z"
     },
     {
-      "title": "長濱ねる、ジェシーの相棒役に起用 『ハボウの轍』で新人調査員役「皆さまの日々の楽しみになればうれしいです」（オリコン） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UTkljQWtNbXYtT1JaZWo5aWhTdnUwbnRFLW5JVE9NNWk5b3JHNGtieHN5TlFTOHdYWncxYjNTOW9IbkZPcUVIVGxuWmt4dmg5M2o5WVFhRDBjRXl3Y2pQS3hsNkRTajMwd0puSndqVEU5OXV3M1dwVGJySVdJVlU?oc=5",
+      "title": "路上で20代女性刺され死亡 39歳男を逮捕「飲食店で知り合った」黒いトートバッグは「盗まれないように持って行った」 東京・中野区 - FNNプライムオンライン",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5acWtvS0M4dUNvZ2ppVWRlM01pUzlmbXo4QkZxaGdQZU84dEd6OXMxeTlCZ0Vlc3UyU21FSFUtNWY3b2xPY0NrdDZXQXJNQQ?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-16T21:07:43Z"
-    },
-    {
-      "title": "理研のスパコン「富岳」不正アクセス 研究データなど漏えいか - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rUjliZU9LZWxucXNqcDFYcTJ4M1hnWm05dnRURDJ4cXE5am1FbHJDTzlqX2JsTTd3enB5UzJNaTFiSUhRNkZYblVPUEswQlpmYXk2RkdpdTRoYUF1cmE4?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-16T20:44:00Z"
-    },
-    {
-      "title": "理研のスパコン「富岳」不正アクセス 研究データなど漏えいか",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76883",
-      "source": "NHK",
-      "published_at": "2026-11-16T20:44:00Z"
-    },
-    {
-      "title": "クアッド首脳 中国動向念頭\"経済的威圧に深刻懸念表明\"で調整 - NHKニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XbHBNWS1tRFNQTng1NXpzQU1nTHkwdVo0ZXM0OUg1dmJDdGh6Qy1CVjBETmlQR28xSGJibkkwSTdydkpaMHFma21XU3BWd1ozbVd2QzQ3MnRnNGxEd2tn?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-16T20:35:00Z"
-    },
-    {
-      "title": "東京 中野 女性刺殺事件 39歳容疑者を強盗殺人未遂疑いで逮捕",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261117de76885",
-      "source": "NHK",
-      "published_at": "2026-11-16T20:23:00Z"
+      "published_at": "2026-11-16T21:14:00Z"
     }
   ]
 }
