@@ -1,37 +1,157 @@
 {
-  "updated_at": "2026-11-19T17:27:48.799228Z",
+  "updated_at": "2026-11-19T23:17:02.032027Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
     {
-      "title": "PHPに新たなぜい弱性 修正プログラム公開 サービス一時停止も",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78620",
+      "title": "米中ロ首脳会談の影響注視 同盟国・同志国と連携強化 日本政府",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de78749",
       "source": "NHK",
-      "published_at": "2026-11-19T17:19:49Z"
+      "published_at": "2026-11-19T23:04:33Z"
     },
     {
-      "title": "アンソロピックがナスダック上場 AI開発で初、ブーム持続占う - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qX0xNOXRqUTg3dzRoQ3VoeWhkR1ozTU92OWIwRmZ4RFZJV3BBQ0lnR3NycC1PdGtVbnR3NE9WTEdzQnJwRVNkOWtXcUthb21WT2c4WDFaT2Y3QnZ4UVM4TDhoaTZVRlRMMkVWTA?oc=5",
+      "title": "カビなど原因「加湿器肺炎」とは",
+      "url": "https://news.yahoo.co.jp/pickup/6603232?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-19T22:57:26Z"
+    },
+    {
+      "title": "常総学院・島田直也監督が退任",
+      "url": "https://news.yahoo.co.jp/pickup/6603230?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-19T22:43:47Z"
+    },
+    {
+      "title": "アンソロピック 初日終値約97ドル",
+      "url": "https://news.yahoo.co.jp/pickup/6603229?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-19T22:36:03Z"
+    },
+    {
+      "title": "首相の中国訪問「新ヤルタ」警戒",
+      "url": "https://news.yahoo.co.jp/pickup/6603228?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-19T22:35:06Z"
+    },
+    {
+      "title": "米AI開発「アンソロピック」上場 過去最大規模の約13兆円調達",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de78753",
+      "source": "NHK",
+      "published_at": "2026-11-19T22:23:06Z"
+    },
+    {
+      "title": "習氏 台湾問題で米大統領をけん制",
+      "url": "https://news.yahoo.co.jp/pickup/6603226?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-19T22:22:36Z"
+    },
+    {
+      "title": "NYダウ大幅続落 1100ドル超安 5か月ぶりに5万ドルを割り込む（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rV1poUTZtdjBHV0VjcUNiOG9UMlY0T1JJMWE1QTdGMjlHNnRpczNuUUVnWG12a2c2QVpSQ3ZTWEVCbHNwRUxlQkZncmUtQkZfdFppUC16RTFJOFkxUTBxaTdyYVVwRkl6emhpU1hKWnhqMXN3X3JTY2FlWUhYUnc?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-19T16:45:48Z"
+      "published_at": "2026-11-19T22:17:03Z"
     },
     {
-      "title": "ドイツBMW 2018年以来の24時間ストライキ実施へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78723",
+      "title": "ダウ平均株価が5万ドル割れ 終値としては約5か月ぶり",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de78760",
       "source": "NHK",
-      "published_at": "2026-11-19T16:43:15Z"
+      "published_at": "2026-11-19T22:15:13Z"
     },
     {
-      "title": "資産情報漏えいした可能性の楽天証券に金融庁が報告徴求命令",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78725",
+      "title": "強い冬型の気圧配置 北海道・北陸で暴風警戒 山沿いでは積雪も",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de78769",
       "source": "NHK",
+      "published_at": "2026-11-19T22:09:25Z"
+    },
+    {
+      "title": "LOVE大谷映美里＆山本杏奈 東京ドームシティ降臨で来場客「キャー！」イルミネーションにもうっとり（スポニチアネックス） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03bTdrYjZlQ1I5ZFU1S01hOS1ydlZQWmNKa3p2SDNLYy01NXU2VXplVXhRajhqQjJFdG12TmFUUzVJUjdmMFpvdjRRcHUzd1BfR25SVVBCd0dFV0VSbFdXX3lDaHh4VlNLNVRrUTdoY1F3Q3dkSWZaVGE3T3RwZWM?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T22:07:13Z"
+    },
+    {
+      "title": "探査機ボイジャー1号 トラブル発生も「1光日」到達確認 NASA - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BQ1h6R21VbzJ2N1RsVTVJVWlEd1d0c0JWNzhwbGRqOE1NQUVvdWhqbTVqWFFnVDJFXzNUbjdYMlFHWGswRmZ1ZFVfQ2MxeXNDalJLMFJIQ1p2VGEzM0FR?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T22:02:16Z"
+    },
+    {
+      "title": "ゴルフ - CMEグループ ツアー選手権 リーダーズボード - スポーツナビ",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12b3lzNGFWQ2RQSXlHNklCVnpVb3dKQXR0Vi1Ya1ZaZXI4WnAxTW80QnA0WHBGc3VZSTZJa2RlTUNrZUo3WXp2UWxONEhrNFI3cDZzQkdObkdSRzI0MjV2a19nbzN4ZU9hWm51RUhR?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T21:46:18Z"
+    },
+    {
+      "title": "楽天証券に対し集団訴訟の動き",
+      "url": "https://news.yahoo.co.jp/pickup/6603224?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-19T21:42:41Z"
+    },
+    {
+      "title": "米国株式市場＝主要3指数2％超安、アンソロピック上場でもＡＩ熱戻らず - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN3FMTlNIaUdpZ2VlNnZoMk5LRXZYTjV2bDdIN3c2eGxCVmdZOVYwYjBVWW96MjdTLV9rcnkyRW00U0xiV3hSaEdsLUkwMU5HZDljVDJiNFEzV0REdlp3SjZHZ3d6aGpkQ20wbG1KSXZTWWlJdndkTDl6V1JKRXVBcWpDY2RLT2ZBakg3SVZpSFA?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T21:38:34Z"
+    },
+    {
+      "title": "地面師たち 新シリーズの制作決定",
+      "url": "https://news.yahoo.co.jp/pickup/6603223?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-19T21:31:41Z"
+    },
+    {
+      "title": "高畑充希「FIRST TAKE」に初挑戦",
+      "url": "https://news.yahoo.co.jp/pickup/6603222?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-19T21:23:25Z"
+    },
+    {
+      "title": "ロヒンギャ迫害はジェノサイドと認定 国際司法裁判所が判決",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78716",
+      "source": "NHK",
+      "published_at": "2026-11-19T21:04:18Z"
+    },
+    {
+      "title": "初の米中ロ首脳会談 国際秩序や国際情勢への影響が焦点",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de78735",
+      "source": "NHK",
+      "published_at": "2026-11-19T21:00:00Z"
+    },
+    {
+      "title": "桜田ひよりが究極のキャラ変！ 髪大胆カット＆鮮烈オレンジピンク色に ＧＰ帯連ドラ初単独主演（デイリースポーツ） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3bGlvaVhhWkZKcmdrNkFpWjEzd0RrNjVqWTc3dkd6VWpmZC0wS19VMjVHak92XzFwendFSl9UeWVjdElfR2E1eFpkVGVqeTR1NENxVjYyNHN1UGc5QkdGS2JqdEJDX0JkLWVKXzI0ekVlbTFVbWZVMk5RNUFUVE0?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T20:15:53Z"
+    },
+    {
+      "title": "「公開天文台」開設あす100年 自然と宇宙に癒やされて みさと天文台、気軽に星空ツアーを 紀美野 ／和歌山 - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Qc0lQNWg3WjVHMTZGRi15N21zcmM1UF9rU0NzX3pETDhtMXUwWE5pSmtyUnVVSWxXRHdGRzhwX1Fkbk5LbkpvWnFrOV9LWmtUUmJ1QjlPVkdtSVhZeG53WjBkdElWaFU0?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T20:01:09Z"
+    },
+    {
+      "title": "外泊中繰り返し「転んだ」 兵庫3歳女児暴行死（共同通信） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tSGE3NDd0QktvUGR5eDd6STRDZTFfa1dxVXkzOHU0SjQtOW1IRkZuNHhXOEtadlZVWmNHVW1vanB0OEluVFBzZGhOT2Z4cG9scTRCQndQTlFiOS0xTVl5RU1lZnhxUUJkekFicTdFRE03eW5xdW4tR3JweklEdFU?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T18:39:01Z"
+    },
+    {
+      "title": "2026年F1第21戦ラスベガスGP TV放送＆タイムスケジュール - autosport web",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5XUDB3M29FSEJFbXV6R3dIaTdpSVhveHBNcV9rU05DQnRQdVNKdHVnV21kaFFMa0tqN2gyckhXZTRMbWIxWS1z?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T17:28:59Z"
+    },
+    {
+      "title": "資産情報漏えいした可能性の楽天証券に金融庁が報告徴求命令 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03ZWdNRkxsd0MwdUtPYUhMTlNJd0ZJZjNwNjNPT0RfSy1tOGlkM3R5WHdXaXgwUXhQbHZNZFo2c0VnNkRFZkxNc3JLcU9aTGlLNl9BQUtpTW1YeUcydGdv?oc=5",
+      "source": "Google ニュース",
       "published_at": "2026-11-19T15:51:34Z"
     },
     {
-      "title": "アンソロピック 米ナスダック上場",
-      "url": "https://news.yahoo.co.jp/pickup/6603220?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-19T14:50:41Z"
+      "title": "トランプ大統領 イランへの大規模攻撃を検討か ブルームバーグ通信 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ydFZqUUVJbkFZa0N0X3d4cERGUHdSVEJNaFl6NTJleF9QOVFNenIxQTZLckRPZ05FWWI3NTFYSktjclNXd0VlQXJHMlpvbGhxUEJUUUlpVWQ1dWo4TjVjemp4Z0xWb0MxemNyTHd30gFzQVVfeXFMTmVFUDZRNnhNVDVrWHp0YTYzYjVEX1N5cXRVQVJuVlUxM3BQV0kydlhsTmFuSTVtUW1QT1JxMEpyem5tblBjSXNMdlNPWFpCSS1WWFhRZEtBOFhfLUw0enVkYVJ2T3JERjBHVUhrMFlGbDhGVQ?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T15:30:30Z"
     },
     {
       "title": "高市首相 トランプ大統領から米中ロ首脳会談の説明受ける",
@@ -40,22 +160,16 @@
       "published_at": "2026-11-19T14:48:26Z"
     },
     {
-      "title": "高市首相、米中露首脳会談の終了後にトランプ氏と電話会談…日米の結束を示す - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5RWEQ1T1hyb3otbU9keXUtUk80Q2FGODMzX0lqNi1pUkwyY2pWVld5a0lxTE5OdkF3Q1JEUlBLaU9Zb0h4b3lHZ0xqVGl1bkpS?oc=5",
+      "title": "AFC最優秀監督にJ1町田・黒田氏 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9YTXQxNV9nNnVYaV82QVY4UEFuMGx6YVdsTnlPVFZQaENXVU9xZjlTOGtueElHSDVyUzcwd3NOTk5XUlB4UGVObEVfRnlDckRf?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-19T14:00:34Z"
+      "published_at": "2026-11-19T13:55:30Z"
     },
     {
-      "title": "千葉3人切りつけ事件 男を再逮捕",
-      "url": "https://news.yahoo.co.jp/pickup/6603214?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-19T13:47:35Z"
-    },
-    {
-      "title": "丸山隆平 沢尻エリカと意気投合",
-      "url": "https://news.yahoo.co.jp/pickup/6603211?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-19T13:28:21Z"
+      "title": "【訃報】「木綿のハンカチーフ」歌手・太田裕美さん死去 「乳がん」の原因や予防法を医師が解説 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLa1hBaXBDSmFpSkFtZlhmZEktUk1rSVh2MGNWOTNiSWI5NnVaUGFhdjRrWElRZXB1RjZpTmZ3Mkw0WjVUeHdHc2Z0eXVjamtN?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-19T13:51:02Z"
     },
     {
       "title": "APECが閉幕 AI活用の推進で一致 - Yahoo!ニュース",
@@ -64,124 +178,10 @@
       "published_at": "2026-11-19T13:23:12Z"
     },
     {
-      "title": "APECが閉幕 AI活用の推進で一致",
-      "url": "https://news.yahoo.co.jp/pickup/6603210?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-19T13:23:12Z"
-    },
-    {
-      "title": "ロヒンギャ迫害はジェノサイドと認定 国際司法裁判所が判決",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78716",
-      "source": "NHK",
-      "published_at": "2026-11-19T13:18:00Z"
-    },
-    {
-      "title": "｢適切な儀礼上の手配している｣ 中国 高市総理｢冷遇｣に反論 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XV2daTUJITkJDdFgtYlZoTm9VQ3RELWw1WE1ZV294ZlBETGZkQzdyMDcyNTNHUWNoQk9UNXBGTHZXcUpTWUNVVWxfcnBkS1J4?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T13:07:14Z"
-    },
-    {
-      "title": "橋本環奈 おばを訪ね初の一人海外",
-      "url": "https://news.yahoo.co.jp/pickup/6603209?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-19T13:05:31Z"
-    },
-    {
-      "title": "高市首相を「冷遇」? 中国が反論",
-      "url": "https://news.yahoo.co.jp/pickup/6603208?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-19T13:03:28Z"
-    },
-    {
       "title": "日本政府、米中露首脳会談で国際環境への影響注視…高市首相「日本の利益が損なわれることはない」 - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03VkxJWkxGdTJkRmxBLVpSbVoxMkVfcjdHcGtTX2hsM0VVSWloVXVhUnNld0FUSndqMEY0TzdUZmtXbXhCNXlURW9WVkFFNzJaSWotUEM1SDNLd28wbGNPcndXNlotQQ?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-19T12:57:00Z"
-    },
-    {
-      "title": "楽天証券、金融庁から報告徴求命令受領と発表…不正アクセスによる１５７２万口座分の個人情報漏えいで - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43Zks1a01CSExSMVR1cE9QbVhSNERaX3VOMTBsZHplNzhnUzhad184bVR3VHlIVUtla05ncy1YVmJ3VTBJVU5DVllPWmwxODdBMlpFMzhZUWRHM3RQRXE0dkphOFA?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T12:53:00Z"
-    },
-    {
-      "title": "Pimax、VRヘッドセット＆アクセサリー統合管理ソフト「Pimax Play」の最新エコシステム機能を発表！ - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZLW9WM2Uzd3lLb3NUTngwaWhoQXdlbFJaTlRGUENIQVpYaDZ4clh4RkFXSm14YzQ5WV9GSXc1R3RJYnJ4ZHhZUVNuU3lxN2hHbmRUaFlhWmVtLTFMb0Z0ZUEwTTRkcnlZaXc?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T12:50:01Z"
-    },
-    {
-      "title": "史上初 米中ロ首脳会談で「平和宣言」 核リスク低減へ対話を",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78117",
-      "source": "NHK",
-      "published_at": "2026-11-19T12:32:00Z"
-    },
-    {
-      "title": "日米対抗ソフトボール2026 試合結果 - 日本ソフトボール協会",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTTBwV0pXOXJzMEduVFEyS3VlMU85WlFydm85Mjl3VTRkWlhOeU1WREFwamJWTE5YSEFJZUFjTHdzenhHVjNVaVhaVUcyVHpVellrTEZmNS1KRHZ1dThPVEVzZjJuTnFEUWRTOTg1aDNvR0h3UThlLUN4ZERhUHNHX0lHTU1uNFpa?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T12:27:46Z"
-    },
-    {
-      "title": "【日本代表】ネーションズチャンピオンシップ・スコットランド戦のメンバー発表。前節ノンメンバー7名を起用 - ラグビーリパブリック",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0UzQzM3hSSFU2NmJ6WU1HWVZLZGtWcV9vMXFZZTZsNmtRbGR3NW1WalMwOWxpNi1SVnRIX1h6ckc2emtzWHdOTk9DWUVZb2RDRlYtVW8zb9IBXEFVX3lxTE54MURtZ2ZYdHE3clU4blpnaFlzckhneEtVLTF3V1VlMFRsVTd2TWsycngyTDZLN0V4QzlVTWpVX21BQ2lLaG9ORk1aM3RCVjF1ZlkyTlh2YkthSkw1?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T12:09:29Z"
-    },
-    {
-      "title": "楽天証券に報告徴求命令 金融庁",
-      "url": "https://news.yahoo.co.jp/pickup/6603203?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-19T12:06:41Z"
-    },
-    {
-      "title": "ICJ「ロヒンギャ迫害はジェノサイド」 ガザ巡る訴訟に影響か - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PMXBvbG54dkEtTWFnODJPYjlfYmRJeWJBeTdBb0RQS0pXNHE1MFlBaHNpUENfOGFwVUVqdTYtSU5rUVFYTVdtOHpib09NdWI4MW5tU0ZjbUZFLW5FanpIOHQ0MDJXYXpB?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T11:46:28Z"
-    },
-    {
-      "title": "非上場株評価見直し 政府・与党見送りで調整 統一選影響回避か（毎日新聞） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EVUM1cTlqUWNhcnJXX1g1ei1FSlJnc2tOMEF6bjNVbFl3VE5DWDhCODBmMVBNc0pGYjFObEVQU2RFN0ZHdkk3X3FMem83c1hrWkZ0cVpJRjN0WDJHeVh2d2pIUEFtSTJuNXNRRGVmYTd4V0RqRGRJSmM0eEw0ek0?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T11:35:08Z"
-    },
-    {
-      "title": "ちいかわ寿司皿 抽選配布の問題点",
-      "url": "https://news.yahoo.co.jp/pickup/6603182?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-19T11:23:53Z"
-    },
-    {
-      "title": "秋の京都でまたアートの“破壊行為”「ブツブツ言いながらコンクリートの塊投げつける」 先週の被害は犯人が名乗り出る - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLMTVtV2hIaXd4aTQtZTd5OU9HdkFnT05wdmNzN2NfcWxGakZEellna2xNMDNqbzY0NDBRT1gtY19DbGlOUzVLeExTTU9PdEt5SDhRMHJSRUhEOWRuWlRXci13WWNxUTJJdFk5Z1Bud1A2UEF5VmtIcEwwbEZFS2c?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T10:52:19Z"
-    },
-    {
-      "title": "【速報】ロシア爆撃機2機、対馬海峡から日本海へ - 47NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTOTBlNm1DeUNDN2xPSkIybnMxbzhLaURTUV92N0c4a3BGZm9qeGJDdGExQms1bHgwVUJMTkU1VEExTHpGTGRhS3l4Yw?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T10:44:46Z"
-    },
-    {
-      "title": "愛子さま、リー・シェンロン上級大臣と笑顔で友好親善「心からの感謝を」 天皇ご一家にちなんだランの花束のプレゼントも - FNNプライムオンライン",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5hRVJIUG9sUEs5N3JscENWSERWQ21Hck96RnBrWDJ2Q21QcXhBamFzODU3WmxOc1lVRVQ3aVFOOWxnN3RvMGpCbC15bDlDQQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T10:30:00Z"
-    },
-    {
-      "title": "後遺症で歩く事ができず》“2カ月”失踪アイドル マツコ番組でブレイク→活動休止→閉鎖病棟で車イス生活の“壮絶”半生と語った“決意”（女性自身 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zd0NMcVZIeXh5N29LYUJNQld6S1RQX3l2NF9XeHRha24xblRnOFFsdUpzQkVUREpST2JyTHNxYlVFM2JObUxoejJ2Zmtua2dOdlRYTnFzRExZX2piSk9qbFllNUVqdm9oemNWREdEXzVOSXB1VDcxWGplRVRvQzQ?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-19T10:10:07Z"
-    },
-    {
-      "title": "【動画】米中首脳会談 貿易やAIなど意見を交わしたか",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261119de78419",
-      "source": "NHK",
-      "published_at": "2026-11-19T10:07:46Z"
     }
   ]
 }
