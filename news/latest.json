@@ -1,8 +1,26 @@
 {
-  "updated_at": "2026-11-20T12:43:30.272101Z",
+  "updated_at": "2026-11-20T13:13:45.868805Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
+    {
+      "title": "長野県 国道142号で車100台ほど動けず 徐々に解消へ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de79424",
+      "source": "NHK",
+      "published_at": "2026-11-20T12:55:28Z"
+    },
+    {
+      "title": "熊本県で震度4 津波の心配なし",
+      "url": "https://news.yahoo.co.jp/pickup/6603337?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-20T12:53:13Z"
+    },
+    {
+      "title": "FIFA会長選挙 田嶋氏 立候補の推薦確保までの詳しい経緯 語る",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261120de79127",
+      "source": "NHK",
+      "published_at": "2026-11-20T12:40:56Z"
+    },
     {
       "title": "中国外務省 高市首相の台湾めぐる説明に「誤った言動是正を」",
       "url": "https://news.web.nhk/newsweb/na/nd-20261120de79438",
@@ -34,6 +52,12 @@
       "published_at": "2026-11-20T12:16:00Z"
     },
     {
+      "title": "【千葉】２位柏との千葉ダービー制し３連勝！呉屋が決勝点、３戦連続無失点で暫定13位まで浮上（日刊スポーツ） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNUdyVWM1dDhBUklqU1JheGNTb1VDY1JlMVR0LW16bGV5aWVNVENEM1Fiajh3dTRmaGxzdk5Nc29GcW1DakhGYWh1enRvVGtTbTBjeHQzYkdHaWk4QVo2SlFPb3Q2VmYxOTUyYWdOMy1zWnJYalM4TFZNWmlzd1E?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-20T12:12:50Z"
+    },
+    {
       "title": "自民党で関文科相の辞任論が浮上 - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUZi1KaGtxaXBJU3NiQVZoSlFwQTh3bG9jZEVla2FlZHNlQ3dWU0wzNjdhQzZJMHlvcWdJOHB5ak1SWFdJdHdCWXBfSFgzcWxL?oc=5",
       "source": "Google ニュース",
@@ -46,22 +70,10 @@
       "published_at": "2026-11-20T12:02:20Z"
     },
     {
-      "title": "長野県 国道142号のトンネル付近で車100台ほどが動けず",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261120de79424",
-      "source": "NHK",
-      "published_at": "2026-11-20T11:57:00Z"
-    },
-    {
       "title": "小中高生の自殺者数 最多ペース",
       "url": "https://news.yahoo.co.jp/pickup/6603331?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-20T11:41:48Z"
-    },
-    {
-      "title": "横綱・豊昇龍 勝ち越しで感極まる",
-      "url": "https://news.yahoo.co.jp/pickup/6603330?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-20T11:20:22Z"
     },
     {
       "title": "大型クロマグロ漁獲枠 25%増合意",
@@ -82,12 +94,6 @@
       "published_at": "2026-11-20T11:00:00Z"
     },
     {
-      "title": "太平洋クロマグロ 韓国や台湾との協議で大型魚25％増枠へ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261120de79372",
-      "source": "NHK",
-      "published_at": "2026-11-20T10:59:00Z"
-    },
-    {
       "title": "ココイチ売却 米KKRに優先交渉権",
       "url": "https://news.yahoo.co.jp/pickup/6603327?source=rss",
       "source": "Yahoo!ニュース",
@@ -98,18 +104,6 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vbUlhYTlSQVdNeU1qVXp3UnZBOVB3dFNnd1o4aFd0d1RCblFXRWQ1a18yUEZwUGtsak14Y1oxQmV1YnN3WTNIc0RKRzZocjY5ajZTS3BlT0lsQ21VWnk5TTRZdFB6V0JyNWMxSg?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-20T10:20:27Z"
-    },
-    {
-      "title": "横浜市長 市長公舎の廃止方針表明",
-      "url": "https://news.yahoo.co.jp/pickup/6603326?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-20T10:13:05Z"
-    },
-    {
-      "title": "【大相撲】豊昇龍は横綱として優勝０回…師匠の立浪親方が指令「やっぱり、しないといけない」（東スポWEB） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TeFdJVW5SWVQ3R05nSklRdkNmaVlKVE1RcnN6Mkp6T2h4RVFFb2FnZmttdDJvQUJUYkk4MlBBUzl1TmF3NjNlc2E5YlQ4TjRJNUhQc3lXRmVpWUdyeTV0eG8zZjVqNWpCRWJFOERwOEx5MHR6MXZWRjZJOUdCNGM?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-20T10:05:25Z"
     },
     {
       "title": "『VIVANT』ドラムの幼少期を描く物語が地上波初放送 野崎を信頼する理由が明らかに（ENCOUNT） - Yahoo!ニュース",
@@ -130,22 +124,46 @@
       "published_at": "2026-11-20T10:01:39Z"
     },
     {
+      "title": "高市首相とペルーのケイコ・フジモリ大統領が会談…日本製の災害対応機材の購入に５億円の無償資金協力へ - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9scFB0M3RmMFo3b1FGYmlhVHlXMTRhem5HWTZqSlpIajJ2dC1hM0lONWJwWGhvN2xiYmR0aEZmTW9NOEEtbWwzRFpKaHpQdGM1NUo2LUJCSU95bDlzdEpaOEQ3SmFzZw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-20T10:00:00Z"
+    },
+    {
+      "title": "【明治神宮大会】九州共立大が初戦突破 高校の部は常葉大菊川と二松学舎大付が４強／速報中 - 日刊スポーツ",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHTWc3VjFISXNEakpUbHYwbUhkbjdfVUFiR1V2SWpnLW54cEI5X2YwcHlQQTBkcERoRzZWU1oweURiUnhqWGNBaHpZc0JpUGxKQzhyUmhHZkhtTXJLSERjLVlaV1VocnVTYmJ3WGJQSVlWZVBYS1MwSXlCSWxSZ28?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-20T09:51:00Z"
+    },
+    {
       "title": "横綱大の里が平幕若元春に貫禄の勝利で２敗に並ぶ ３敗で熱海富士、金峰山が追う（日刊スポーツ） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBVVN0ZHRnQ1Y0RldpV2FiWGJobmZJR3I2bnRvUG4tMUhxcngxUmgyX3VpRE41cWFZem8xNHdmejFrNVdmNzBaTDBsNlVURkpCeUsyczNPQ0F2UG5VQlppVU1IZzVBZkpRbjJ1REcxbTNJNFJFNUF0dnkzUzFnY3c?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-20T09:32:53Z"
     },
     {
-      "title": "iPhone Duoで「顔認証によるロック解除」が追加へ　iOS 27.3 Beta 2で確認、ただしFace IDとは別物 - ITmedia Mobile - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrWmVHcHNhaWhIVFd2VmNHS2EtblY1OFgtYWtqUGwzV1QtdC1XVXZNSUNETmxOY3JGZ0xJbjRkRjN4d0lCSzZncGt4MGxNZjFhQUtuc1dKeDNzZG53WTY1aEQ5QWI1djFzcnBVN2FUa9IBaEFVX3lxTE9VMzJYTXpuS0NNcy1ITzNJaDZVUlNKTGVuSTFUbnFiLWNYV0Z2bWIxa2RUdFVybUlvaTR1RTNDY2tNYXZFd09NOGY5STVOUHhLSnROR2x0M0pDbk0yT2s0VUVWNzhlbm9F?oc=5",
+      "title": "山形-宮城の国道 複数台スタック - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9odkFUN01IV1Itcy02WnplejBlanZaV0tJbHlraTJzaWtPTEROUUtzMVNMX3RFOW1iOUpOSzJqejJVZkJoeDFlYmtVQmktbWNt?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-20T09:25:00Z"
+      "published_at": "2026-11-20T09:19:31Z"
     },
     {
-      "title": "中国外務省が「誤った言動の是正」を改めて要求 高市首相の立場表明を受け - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOXzZ1YUUtVEpJdmREY08xUWxPbjdLUjNLcWJtcXJLYnppVUhIZlVKLUYwTUhOZURtcFcxYnVCNnJ2VklGeUxDRHZzcVBSenFpcjVKQ0hyR2ZJa3NEaUhnZGNhMm12TmthZnE0T09CWXZCekpiWF9pSS1TNWxpRlY1Uy02aXpLY09oRUFjRw?oc=5",
+      "title": "ツルハHD シンガポール事業撤退",
+      "url": "https://news.yahoo.co.jp/pickup/6603315?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-20T09:13:59Z"
+    },
+    {
+      "title": "政府の内部資料流出か、基幹システムに不正アクセス デジタル庁発表 [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqTWE5dVRTWGxBV2RmTGFJNVlyVHBTYnZYS3M0aUFVWTZoazlZSl95S1dheWlPbGVILUdkYklsRENSb0owN2k2OUZXS2ItMk5BNFlWRThMclNob0ZYdk9WWXBVcUl6aDg?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-20T09:23:21Z"
+      "published_at": "2026-11-20T09:11:09Z"
+    },
+    {
+      "title": "【期間限定】『劇場アニメーション「魔法使いの夜」公開記念キャンペーン』開催！ - Fate/Grand Order 公式サイト",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80Vk5qZ2lRVkFlcnhmcXI2Y1pRYXBmYVEyNk1Na2RwM015X0lnUWh1QXRiZDl0cGtYVXF0Y1FWOGhoTS1aNG50OGktZmRJUnBEaURfTg?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-20T09:09:42Z"
     },
     {
       "title": "明治「スーパーカップ」値上げへ - Yahoo!ニュース",
@@ -154,34 +172,16 @@
       "published_at": "2026-11-20T08:40:19Z"
     },
     {
-      "title": "アップルユーザーならFire TVよりこっち！ HomePodと連動でド迫力の音が出せる新Apple TV 4K（アスキー） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DcXhCUGdDRktKRUpfSVBIOG05WmVIdW01cVBVb2xYUHBXZzFOUXZBZ1ptOVdoeHJtNnVjcTJzTWdYbTI2YjdIbVZyNHk4LWU1cVlqUGRUNmJHaWM3OXg2dWlwc2ZFcjdIVUxUanc2YlJ4alpHdERXNFo2R092Nk0?oc=5",
+      "title": "ボイジャー1号の1光日到達に博物館の展示に注目集まる 羽咋 - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXQVFRVF9yRGcyeXVPU3JvUzg5cFNxWkRsMnA0QmlXWEtCMkx4dnNTVHZMNll6T0NZQ05YR2NndWU2bUl2cDNLZG9oTUpaVXVXTUNoNWNsSzhZZHZTSUFV?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-20T08:22:22Z"
+    },
+    {
+      "title": "韓国に「親しみ感じる」６１・８％に上昇、中露への親近感は低下…内閣府「外交に関する世論調査」 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EXy0zM2lNTEV2bVBXMUNuSWZ5dWp5QWpnMGtTeHAyOERQbjhYWTVtcjNidFF2OVRMVzNEdm96enBld3NJNnNfSUd5UXE0N1NPNVRadjhNeEVJdjhiZkRSU0JUQWlLQQ?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-20T08:00:00Z"
-    },
-    {
-      "title": "トランプ氏のＮＹＴに対する名誉毀損訴訟、審理続行へ（ロイター） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xQWd5UHA4cWd3ZldoellaR09haGxDcXpZMlg3RGY4ZnBCSW5VQ2FURVY5SUVuWldtNWg2TDllVk8tRC1aTUV1QmFNRUZQQUhSUllVM0RvY055bFdid28ySmVjYUxRUUZoNGNOR1pRU212bTdXX1NqdG45a0dIQ2s?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-20T07:52:55Z"
-    },
-    {
-      "title": "日本代表戦を振り返るパラグアイのメディア＆選手たち チラベルトは「ブラジルがやらないことをした」 - webスポルティーバ",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPamJ4MFNEbkhuVmJsbnltelFSd1dRaG5qUm5kLUt5elRGOVVMbE1RRkoyd1NFaFNMRXlpVzFLWUlTdlJ3TjhlQjlscmxmS0w2RW9UTzdnN2F2bElMNWt0SEtua1Z0N1NONmJnNnRmU0NXc0lBQXMtc0tCUFVnZXc4MA?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-20T07:35:22Z"
-    },
-    {
-      "title": "今年のインフルエンザは「だらだら流行」 北日本で増加、大都市圏は横ばい #エキスパートトピ（倉原優） - エキスパート - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSmZ1eUFyamZFVDh5YUJwVXlBSHFrQnl4ejM3ZU1Cc2RUcjBWNy1ZX0tfZ3IzdWI2NTE2bGVXbGFObTBPRTdOLTBrbkFtc09weENCaE5WanFxeGRzcWctWHZ3a2VlMlpua0ZTWnhLSXM5bnFaS2lfeEtQYlB4VUlIZnlWUDNPZFFG?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-20T07:31:22Z"
-    },
-    {
-      "title": "ダンロップフェニックストーナメント 2026 - 日本ゴルフツアー機構",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlNnVJZ3RjVV9MZ3ZRYWpzX1A5eGRMRXJYWHFUSFZEY2pNLUkxWHFyQndUdGJIdWxmWTJ0Q3VhcmlLOHI0MWN1bXJrN1h2ZEFGTDZfZG5JZE9RUTJZNFVMamJ3?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-20T07:28:00Z"
     }
   ]
 }
