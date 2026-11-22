@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T02:06:35.385173Z",
+  "updated_at": "2026-11-22T03:27:04.230959Z",
   "max_age_hours": 36,
   "counts": {
     "jp": 40,
@@ -7,17 +7,80 @@
   },
   "items": [
     {
+      "title": "イラン バーレーンの米軍施設を標的に攻撃と発表 緊張続く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79868",
+      "source": "NHK",
+      "published_at": "2026-11-22T03:22:27Z",
+      "region": "jp"
+    },
+    {
+      "title": "福島 北塩原村 ホテル宿泊客の帰宅開始 孤立は500世帯余で続く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
+      "source": "NHK",
+      "published_at": "2026-11-22T03:20:10Z",
+      "region": "jp"
+    },
+    {
+      "title": "既婚者専用マッチングアプリ 実態",
+      "url": "https://news.yahoo.co.jp/pickup/6603531?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-22T03:19:01Z",
+      "region": "jp"
+    },
+    {
+      "title": "見た目は大きく変わらないグーグル「Pixel Watch 5」は前モデルからどこが進化したのか？（アスキー） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HdUVZVTBTNlFwMGRmSmpWTnR2Ym54Y1EzTWVjbXFJanBrUUptdDJEMVNRLWpEQlBKOEpnMjgtaXlRTjJacEJGY0hWQjlBeVg4bE12Rm14aWJTam9KZWxGTV85dk9wa2t6NTRiaGFvTTh6czM0QVg2Q2dGdy16RFk?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-22T03:00:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "日本海側中心に断続的に雪と雨 各地今シーズン一番の冷え込み",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79767",
+      "source": "NHK",
+      "published_at": "2026-11-22T02:55:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "坂元達裕が衝撃ゴール 完璧ミドル",
+      "url": "https://news.yahoo.co.jp/pickup/6603528?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-22T02:53:28Z",
+      "region": "jp"
+    },
+    {
+      "title": "無資格注射疑いのペット店 実態は",
+      "url": "https://news.yahoo.co.jp/pickup/6603523?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-22T02:33:53Z",
+      "region": "jp"
+    },
+    {
+      "title": "AI兵器先行の米露 規制に消極姿勢",
+      "url": "https://news.yahoo.co.jp/pickup/6603522?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-22T02:31:54Z",
+      "region": "jp"
+    },
+    {
+      "title": "火災で焼失の首里城正殿 午後から国主催の復元完成式 沖縄",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79841",
+      "source": "NHK",
+      "published_at": "2026-11-22T02:15:23Z",
+      "region": "jp"
+    },
+    {
+      "title": "首里城正殿の復元完成式、きょう開催 焼失から7年、23日に一般公開開始 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kakRfY2J4SGswa1pkazVRT2pRdVlsRWZlOFAzMTFFNlVPVnh3MEVjcjZTaUYxamNMRlI5Vy1zSzZ4Sy1HVHBLZEplQXJpS2NM?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-22T02:00:19Z",
+      "region": "jp"
+    },
+    {
       "title": "大学オールジェンダートイレ 賛否",
       "url": "https://news.yahoo.co.jp/pickup/6603518?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-22T01:47:04Z",
-      "region": "jp"
-    },
-    {
-      "title": "日本海側中心に雨や雪 新潟では土砂災害に厳重警戒を",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261121de79767",
-      "source": "NHK",
-      "published_at": "2026-11-22T01:39:40Z",
       "region": "jp"
     },
     {
@@ -28,7 +91,7 @@
       "region": "jp"
     },
     {
-      "title": "JAXAの探査機「みお」、水星軌道へ 米国勢以外で初めて - 日本経済新聞",
+      "title": "JAXAの探査機「みお」、水星軌道入り 米国勢以外で初めて - 日本経済新聞",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xNEIzZ3JuVFY5a2dpZ0NYczVvSlJDWHYzY3RGYmxlQW9sOGFNSDRNODliQm9nRVRnRGU5RHoxY2RzY3JqeGg5S0dXUzRfRE1rVXdGUEQ2d2czcHkzYlhndld0eDdES0o2NjVscA?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-22T01:18:21Z",
@@ -42,13 +105,6 @@
       "region": "jp"
     },
     {
-      "title": "三山 紅白より多い234人とけん玉",
-      "url": "https://news.yahoo.co.jp/pickup/6603514?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-22T01:09:43Z",
-      "region": "jp"
-    },
-    {
       "title": "36万円超の「iPhone Duo」、買って合わなかったら返品できる？　Apple Storeの返品条件と注意すべき“落とし穴”（1/2 ページ） - ITmedia Mobile - ITmedia",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42MklaWFJJOXN4eXFqZFVpVnlpWmtMem5kamZ4OUNBdmt4cEN4WWhFUjUtbWVUaVhrOU1rSndndVh4OFQyNDhuYTdnVnAxQjkxRWg4U2d0M3RhQXlsSlFnd1ROYzQxQ013M2FNd3VlQdIBaEFVX3lxTE1MWVd5bjU5UGR3aEpOcGlBN3lWR3pzeUlIb1UtVGNPb2xWUTBkaXJmX1F1aU9Xek9zR3lhYlFFazhDVWdTb01MT0lkcGZRdWFUc1BOSnZLYkdnRlF3Ym5UekcyR2RyVmtp?oc=5",
       "source": "Google国内",
@@ -56,10 +112,10 @@
       "region": "jp"
     },
     {
-      "title": "メンズメイク 若者を悩ます世代差",
-      "url": "https://news.yahoo.co.jp/pickup/6603512?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-22T00:58:05Z",
+      "title": "上田綺世 約１か月ぶりに実戦復帰、中村敬斗のリヨンに敗戦も「真の攻撃の火付け役だった」（東スポWEB） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LUTIyY2VoeUpyanRKeVh1WmNjUkRMdUhQenhTdWRyVEppekt6X0hST0JDVzhjVm5id1dRLXRCcjk2M01GSjBNV3UxSm5mME1uZzgzSnhYa0QyOU03QmxHUkJHcThaRDZmZk5CQkkxNkNBUmpsSjFQVWRYYXQ2Ylk?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-22T00:45:30Z",
       "region": "jp"
     },
     {
@@ -70,9 +126,16 @@
       "region": "jp"
     },
     {
-      "title": "大雪で水族館停電 生き物を移動",
-      "url": "https://news.yahoo.co.jp/pickup/6603510?source=rss",
-      "source": "Yahoo!ニュース",
+      "title": "卓球中国も畏怖…日本の28歳女子にもらい泣き「感動しました」 2週連続Vで号泣「とっても素敵です」（THE ANSWER） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SZjNMamhmdW50eGlVUTlGNTlpdkhWdmcyQmhzaVBaSjhRM196RFoxMTFpbERaYXpleWdpcnJGTGNOd05WSGZQNnpPSE5fZUctb0lLbzBqelRMc1ZLXzhIbkZvU0xScGdWTms4QlVRblNTZGpJVnh2amhXWVF4ZkE?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-22T00:42:07Z",
+      "region": "jp"
+    },
+    {
+      "title": "箱根駅伝の「試金石」上尾ハーフマラソン １０Ｋ２８分４８秒 国学院大の野中恒亨、創価大の山口翔輝、早大の佐々木哲ら出場 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rT3ZNTjdkd2ZUb0pxMHJ1MVIyTnNQNjc0eU55ekZUdWx4UEF4Q0dTYThsaGVpMUFnR2p4TnlaeUdDaXJEQW5wd1NHQ2hBZ1ZtM3ZNdTZ2dVczWjNfWjlLRmJTdmtNbkt5ZFpSMG9zcmV4dlFvNnk2WmpCS1Q1NnM?oc=5",
+      "source": "Google国内",
       "published_at": "2026-11-22T00:38:32Z",
       "region": "jp"
     },
@@ -81,13 +144,6 @@
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Gdm54ejZ4NUtWS0JCNnY3SjdreThjRFBIOHhDR3pMS2M1YzVrNXhfYWthX1N2eC1sX2hRWlFPSGFVRzRDZlZxcXdpVQ?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-22T00:30:26Z",
-      "region": "jp"
-    },
-    {
-      "title": "「脱化石」削除巡り紛糾 COP31",
-      "url": "https://news.yahoo.co.jp/pickup/6603508?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-22T00:26:56Z",
       "region": "jp"
     },
     {
@@ -105,20 +161,6 @@
       "region": "jp"
     },
     {
-      "title": "ウクライナ前線＞防護ネットが果てしなく道路を覆う異様 自爆ドローン飛び交う地帯で(写真21枚)（玉本英子） - エキスパート - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaExlNXlEY2FfZDhJMjJCZ0NDYmhVVFc1N2d0Q3RQRnczcS01dkZQTXVvMlJ0eGVLV0FrMXBmaUxiMllNY2lpbjVRSnkxcUZfeEpkb3htWUZYeTJaNEowRHMzNjBZRk5xTVhjYjUyUlhKdHdQVDdFYTFzWVhMTkZUbS1OUGdlcUtq?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T23:34:23Z",
-      "region": "jp"
-    },
-    {
-      "title": "六花亭クレカ情報流出 不正利用の被害確認 8千件はさらに氏名や住所も - 北海道新聞デジタル",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAteFR0am1NQldIYk9zTjZKelhaOW9RV3ppVDhQR3p4RFNSWjFYTFBxbUVzWDNuNWpnamZXeF9aZk1JdHVIeDhHX2xGYmF2QnIwa3VXWHloV3U4UQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T23:33:13Z",
-      "region": "jp"
-    },
-    {
       "title": "父のヤンチャぶり明かした東出昌大に加藤浩次「まさか息子が…オヤジ超えだよ」（東スポWEB） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91OWpRSXNnWGdscUtHYUY5Zjg1MjV4U1lMaU9fenRyY0VMZ1BULW9sWERZTUJ2bExCcjhVU25vdkl5ckZ5X0E5cGFGeVJtM09ueW16SVZWemk0YVJFSzhqVEdpai1RYzV1RnlOMm96b0QxbDEyX3AwcXZldHM0UHc?oc=5",
       "source": "Google国内",
@@ -133,20 +175,6 @@
       "region": "jp"
     },
     {
-      "title": "朝ドラ「ブラッサム」の視聴率はなぜ低下したのか 石橋静河演じるヒロインに“共感できなくなった”理由（デイリー新潮） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53VWZtQm1wVWg0bmRzT0o5ZEF2bXVpdGJpMDZzbHZhR3IxcXdSN1Z4c2JGbnJkZDZ3Z3BSNHpHZGhwV1p6YUtvcmNKdEZkZzRGTGhRbk9BLVVmX1RBVFVOaFVOc09wdkdkRjRtbzNTSEp3Q1o0MHE2dUJSd1Awd2c?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T23:09:31Z",
-      "region": "jp"
-    },
-    {
-      "title": "ゼレンスキー大統領「3か国首脳会談はロシアにとっては失敗」",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79819",
-      "source": "NHK",
-      "published_at": "2026-11-21T23:07:00Z",
-      "region": "jp"
-    },
-    {
       "title": "兵庫3歳死亡 家庭へ復帰なぜ判断 - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAySjh2NjExVUFrQ0V5WmhwcFp2ell6dmhZclRmLTBkVUdCaDVzeFBDaHdEX2Y5NXA5NnNYcEY2TlNtdDZEbkg5aE9zMnJCNndE?oc=5",
       "source": "Google国内",
@@ -154,17 +182,10 @@
       "region": "jp"
     },
     {
-      "title": "首里城正殿の復元完成式、きょう開催 焼失から7年、23日に一般公開開始 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kakRfY2J4SGswa1pkazVRT2pRdVlsRWZlOFAzMTFFNlVPVnh3MEVjcjZTaUYxamNMRlI5Vy1zSzZ4Sy1HVHBLZEplQXJpS2NM?oc=5",
+      "title": "朝ドラ「ブラッサム」の視聴率はなぜ低下したのか 石橋静河演じるヒロインに“共感できなくなった”理由（デイリー新潮） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53VWZtQm1wVWg0bmRzT0o5ZEF2bXVpdGJpMDZzbHZhR3IxcXdSN1Z4c2JGbnJkZDZ3Z3BSNHpHZGhwV1p6YUtvcmNKdEZkZzRGTGhRbk9BLVVmX1RBVFVOaFVOc09wdkdkRjRtbzNTSEp3Q1o0MHE2dUJSd1Awd2c?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-21T22:52:28Z",
-      "region": "jp"
-    },
-    {
-      "title": "DeNA 広島FAの森下暢仁と交渉 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBnQWJQQTNQeVpOWExPeW5JSmJ5aHRlMGVRakJtQWNzbHU1RUplNHM0VE1BYm1malFBX2xBYk5DYTBlT05zS3U0WGdKdjZqVV9J?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T22:38:36Z",
+      "published_at": "2026-11-21T23:00:12Z",
       "region": "jp"
     },
     {
@@ -175,10 +196,31 @@
       "region": "jp"
     },
     {
-      "title": "ホテル更衣室で保育園児など盗撮疑い 福島県警の行政職員逮捕",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79820",
-      "source": "NHK",
-      "published_at": "2026-11-21T22:29:44Z",
+      "title": "都会のオアシス…大阪「うめきたの森」にレストラン開業、ゆったりソファ＆緑に囲まれたテラス席も - Lmaga.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FNlpYNTlkMExxX0ZaT2xiaTlJM2lIZG5sTmMtOHF0R0hRVk9BUC1ZeUh6N1drdHozX0dVd1JYc3V4SUd4RmM3YXMwWFlPcTAxVDdrZw?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-21T22:29:22Z",
+      "region": "jp"
+    },
+    {
+      "title": "米女子ゴルフ最終戦、吉田優利が首位と１打差の２位タイに浮上…岩井明愛が６位・山下美夢有が７位 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ENGNDb2x2RXozUTNtSmpwZHRNMGhtZEpGV1NPM0NabnJEMzJ1UDl2NUpyOFVPQVJGa2Znd2pCcE9icWx4OG1oSXhUbGF3VDlxTlpTczJoSVU0Vl9Na2tCTDc0X0U2YVE1Z1E?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-21T22:06:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "次期防衛費、ローンが圧迫 「６０兆円無責任」与党猛反発 - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uMF9LMVljTHB2NWVFWllQbHp3WE5JQ3pNY2xVc0NGQi13bndUcUFHbk5iazd5Ml9mcS16ZUZBeWlKQUp1QzNEb1dqaXVCX1BsWGZDV3c0cDEtMkZoMUY4Z1pMQQ?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-21T21:57:00Z",
+      "region": "jp"
+    },
+    {
+      "title": "二十四節気の小雪だが北陸付近で大雪続く 交通障害や倒木などに注意 あす勤労感謝の日は広範囲で行楽日和 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83WHZHUjNYSmZpUTlKWU5CU19qdHBSZVFUNl9LMzQ4Z1VzRFJ0LVJhaWRac1dicDdVQ0V1RXRsdS0yQ3BMN0kxelBWd3BwNWUtNnBhZ0xoSTBDb1dmZ1JJVVU4R1ZGN0tNYTlyVUFPSlVGcmw1c3M5NDJIOG5jMHc?oc=5",
+      "source": "Google国内",
+      "published_at": "2026-11-21T20:49:19Z",
       "region": "jp"
     },
     {
@@ -196,22 +238,15 @@
       "region": "jp"
     },
     {
-      "title": "吉田優利が1打差2位で最終日へ 岩井明愛6位 山下美夢有7位 優勝賞金6億円超のシーズン最終戦 - GDOゴルフニュース",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ORXYydGczOG5aMkNlWVdKZVZuWDV5ZVhVT0FLYUxZMTl1MlRZMlR3VHdKNG5fWGJjMU5fTkdGcVlsTGd4LThDOHo1eXN1bk9NZVp1Z0tSbEJlQi1XTmZMQl94cUpqdW5UaWlVNFpRdjA0RWvSAYcBQVVfeXFMTl91TEFDbkw0WkhCUFNNSEVXbDQ0Um9JYXZMVzdDV0lNd0w3RmhHTmRmM2UwSzk3VTZMaWl1MEpoMVJjdXg4ay1nSG5zeXIycmVBT1F5VjdtT3RtLXF6THhDV0xUN3FMOEJsOER0NldaWmJfMl9aWDdCTXZSTEc5NGpydWxocEdv?oc=5",
+      "title": "ＡＩが攻撃目標決める「自律型致死兵器システム」ルール見通せず、規制の方向性巡り各国相違…国際会合で協議継続 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10UDZyS2RScGc3OW8zQmRiUGo3ZnVyUkNJVGZhUGc2TGFPMVlQYmR4WUhhU01aaUVmZ24zVE4ycENHRmsyNXRuOUp6My1VMVc0WVdsN1plZkVtVWdlNGZYRmdB?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-21T20:29:05Z",
+      "published_at": "2026-11-21T20:00:00Z",
       "region": "jp"
     },
     {
-      "title": "福島 北塩原村で国道通行止め 住民や宿泊客の孤立状態続く",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
-      "source": "NHK",
-      "published_at": "2026-11-21T20:02:31Z",
-      "region": "jp"
-    },
-    {
-      "title": "いつまで続く「護送船団」 預金減少時代に迫る三菱UFJの決断 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vTlI1S3RBYlJscWpIenk2M2NHYWh0Rml5TkkxWHgtMHZZVXpMSW9OYWF1MEtLdDhQbnNjWWR1NllXZEJhYU5CTTBUa3g4WjFIMEtRZGFOOGlKcnZHMFpIZm1MbUw3Z1R3Z2VvdQ?oc=5",
+      "title": "「住民サービスに格差」「そもそも偏在ない」…税収格差是正巡り都と地方がせめぎ合い - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5a1Blb1ByQmNKWHU0aV9kRC1JbWdhNEtIZkVWSzJkdWs3TDdWTWNfQzU4X1JPc3RwOUVBVWd4c1RPM2lFRE8xWWN6ZlZUSV96YWZySkQtbE5kNjNFaG55RllkSWJ5dw?oc=5",
       "source": "Google国内",
       "published_at": "2026-11-21T20:00:00Z",
       "region": "jp"
@@ -224,10 +259,10 @@
       "region": "jp"
     },
     {
-      "title": "坂元達裕が”同い年”日本人対決で大仕事! 残留争い勝利に導くスーパーボレー弾、鎌田大地の新体制C・パレスは5連敗で最下位脱出ならず - ゲキサカ",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZMVhBRm1MMlJUcE9DWHZMNlJWQnFLOXhBRldrN3dmU0o2UXExSzhTVTlXZTJSTFlJT3FCNmVRT0xkVnlaR1d5d1kyN2kwVWl0cEhpQVdENnl6RVg3cFlSdjJiVTFsN0Nhcnc4?oc=5",
+      "title": "雪の影響で500世帯余りが孤立状態 倒木など相次ぐ 福島・北塩原村 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50MVg4MUtvZzcwNE5GS0Viam9jRHFTWWFoc3I0SC0yQkFSeE1XeU5jZzZJemk2TDZiWWtHWHZkMzFhZDJVZllBaDRhT2l4VlpHS2cxdVdGbw?oc=5",
       "source": "Google国内",
-      "published_at": "2026-11-21T16:57:00Z",
+      "published_at": "2026-11-21T19:14:19Z",
       "region": "jp"
     },
     {
@@ -252,39 +287,11 @@
       "region": "jp"
     },
     {
-      "title": "＜更新＞北塩原村で1400人孤立 住民や宿泊客 大雪で国道、県道に倒木 停電も続く - 福島民報デジタル",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzVThkM0JMUHZEQXhIMlREa1RXczVuN2ZNNXYwT2FzS3hyV0RzbkVTV2t6NTE0UzhCR2RPRG1TaEVLbk5ISUhSajdwSlA2ZGs?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T13:01:31Z",
-      "region": "jp"
-    },
-    {
-      "title": "長野市など県北西部で停電続く 復旧見込みは23日 鬼無里地区や大町市、白馬村で避難所開設 - 信濃毎日新聞デジタル",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1sOXczYWNNXzR4Vm5xeXZhei0xRTlYNmJzajZ0Z2ZOQjhfM0dsbm8tVHlwTEQxbGJzTEV2S0Z0Sk54bkVpVU9PWEliSXktdVlEYThXQjN5bmgxcVN3S28tNHNSR25rY2YzNUFsaUhveTM?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T13:00:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "世界の核９割保有する米中露で「責任」議論、トランプ氏「日本などは少し取り残された」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WVER6bzJkbDVCV0xNYXNINjhPU01Bd1dyMDcwcmJ5T0dfOWJNYUhhYkNwRzVCeHJmRmRMNnZjcnliZUtVODBkTG80alhpTURwdGFwbVVRMy1WM09WWXF3ZlF3?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T12:36:00Z",
-      "region": "jp"
-    },
-    {
-      "title": "Pimax ×「VR Tracker Manager」コラボレーションキャンペーンを開始！ブラックフライデー期間中の対象ヘッドセット購入でフルトラ管理・診断ツール（通常1,500円）を無料プレゼント - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BclZsMXpXa3V2bTg1NkYyLTJoZVItbmFFNkgtQzI5UWNlQ1hja25VMmFmS0QxWEl4RDRtN2gxc2NJNlpKcFVGWFhkZXZwb21CbHFjMG5kckRIM1NmWUxEeVVKNVFXSGhjOWc?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T11:00:01Z",
-      "region": "jp"
-    },
-    {
-      "title": "高橋一生さん、舞台「ＴＨＥ ＢＥＥ」降板…出演中に手を開放骨折し手術 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91OHl6UVdJNW9CbVdYSjlJdVVOVFJYOXJ0amxVaHk2MzRqeEFvNlllaExZM3VrTVBUVlNaSXlqSGIwTWxLRllZckVrRjBET29Ha3dQajc0TXVUNXl5cGxtYWxKTnlwdFN2aURsYQ?oc=5",
-      "source": "Google国内",
-      "published_at": "2026-11-21T09:53:00Z",
-      "region": "jp"
+      "title": "イラン バーレーンの米軍施設を標的に攻撃と発表 緊張続く",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261122de79868",
+      "source": "NHK国際",
+      "published_at": "2026-11-22T03:22:27Z",
+      "region": "world"
     },
     {
       "title": "ブラジル南部 猛烈な嵐で4人死亡",
@@ -315,6 +322,13 @@
       "region": "world"
     },
     {
+      "title": "トランプ大統領、イランの核兵器保有阻止へ「恒久的な合意」目指す 任期残り約2年、政権交代後も効力を - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wY3JPb0JMeGZaNHpORUxlRl9jZ1lzbVRVQl9ZWXFIVV83NERMN2R6XzM0enRueHJfYXhETG1vS2JOLVEyVl9NcEkxNldCY2xKZFZxSmJYYWRWRDNOY2xrNzY0X3VaUkFWbGRVNWpB?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-22T00:31:00Z",
+      "region": "world"
+    },
+    {
       "title": "「脱化石」削除巡り紛糾 COP31",
       "url": "https://news.yahoo.co.jp/pickup/6603508?source=rss",
       "source": "Yahoo!国際",
@@ -336,10 +350,17 @@
       "region": "world"
     },
     {
-      "title": "ウクライナ前線＞防護ネットが果てしなく道路を覆う異様 自爆ドローン飛び交う地帯で(写真21枚)（玉本英子） - エキスパート - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaExlNXlEY2FfZDhJMjJCZ0NDYmhVVFc1N2d0Q3RQRnczcS01dkZQTXVvMlJ0eGVLV0FrMXBmaUxiMllNY2lpbjVRSnkxcUZfeEpkb3htWUZYeTJaNEowRHMzNjBZRk5xTVhjYjUyUlhKdHdQVDdFYTFzWVhMTkZUbS1OUGdlcUtq?oc=5",
+      "title": "フィンランド近海でウクライナのドローン攻撃、ロシア船が炎上（ＡＦＰ＝時事） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ONkw5ZFZCalNMQnFvOHZ4VUNtYWdhTkR1NHN3d0ZYRG5SYkdVU2s3WDE5ZU5zTkF5bVNxMkhJV2FwUFJERXpwMUhBT1hKUzFMaEdKYm9MM3JyVFd6bDlRSlo2OE9jM0hyQWh6OFF1bW5mUVQ1LThvVkQ5N2Rsbm8?oc=5",
       "source": "Google国際",
-      "published_at": "2026-11-21T23:34:23Z",
+      "published_at": "2026-11-21T23:16:26Z",
+      "region": "world"
+    },
+    {
+      "title": "「町がなくなった」 猛烈な嵐で4人死亡、8000戸に被害 ブラジル南部（ＡＦＰ＝時事） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBEVzNKZFFfTUtkajBNSDdfd0JWa3BlY0JmTHZnUHp2UlllaGhvTzJQcmlKY1BJTTI4dURCV010MVl5QnhBcnQ0N1JjTjUwYmRYZnFyeTlRU2tuWHVUSWlLdEk2LUlYaEVqZ2VoM1A4bXNWYTlKNDNkQTRmTklwLWc?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-21T23:16:26Z",
       "region": "world"
     },
     {
@@ -350,10 +371,10 @@
       "region": "world"
     },
     {
-      "title": "「アクセルペダルが戻らなくなった」自動車整備工場で車が暴走、7台巻き込む事故の瞬間 「被害に遭った車は全て使用不可能」 トルコ（FNNプライムオンライン（フジテレビ系）） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yRlNYdGhzbXl6SG1LU2NJYWJFNWRyTGRXajFMRTU4TnRJTXJLWDVIY1dYTUtYcTctSlAtZGdDMGpRd3d4NlVkSEVuNEpEazY3Nmw5TWJzSEhUcUR5bEFMRHV2NnZfU2RST2x2UFdFaTNrTTZ5cUNYRmU2MDZ2Y2s?oc=5",
+      "title": "メキシコ麻薬組織「ベルトラン・レイバ」の首領を拘束 銃撃戦で11人死亡 米も協力 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jODF4SE1TSm1DaUJwaWhMZkJsWXRDMFdOdy1JWjc5anAyQTJIbF9kUmZGa285Z0JtSGVXdWpPTTNUYi1Jc0R0MV9lc0s3dDFHN0xXRVhRNEhPU0J0MWhCbW1vUzZaeThmOUpDcldfX2xIQ0tiU1E?oc=5",
       "source": "Google国際",
-      "published_at": "2026-11-21T22:32:14Z",
+      "published_at": "2026-11-21T22:44:34Z",
       "region": "world"
     },
     {
@@ -361,6 +382,13 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261122de79786",
       "source": "NHK国際",
       "published_at": "2026-11-21T22:06:00Z",
+      "region": "world"
+    },
+    {
+      "title": "「アクセルペダルが戻らなくなった」自動車整備工場で車が暴走、7台巻き込む事故の瞬間 「被害に遭った車は全て使用不可能」 トルコ - FNNプライムオンライン",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLQ3FKY2pBWGVwQXVyNWlyek8td19FWmE3aVNuTnQydUJOcTJDblVYNDFxNk1rSy1RUWRKeUpZZkhwX29yODFBZm5SMjBGUQ?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-21T22:00:00Z",
       "region": "world"
     },
     {
@@ -399,7 +427,7 @@
       "region": "world"
     },
     {
-      "title": "ＡＩがで攻撃目標決める「自律型致死兵器システム」ルール見通せず、規制の方向性巡り各国相違…国際会合で協議継続 - 読売新聞",
+      "title": "ＡＩが攻撃目標決める「自律型致死兵器システム」ルール見通せず、規制の方向性巡り各国相違…国際会合で協議継続 - 読売新聞",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10UDZyS2RScGc3OW8zQmRiUGo3ZnVyUkNJVGZhUGc2TGFPMVlQYmR4WUhhU01aaUVmZ24zVE4ycENHRmsyNXRuOUp6My1VMVc0WVdsN1plZkVtVWdlNGZYRmdB?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-21T20:00:00Z",
@@ -413,17 +441,10 @@
       "region": "world"
     },
     {
-      "title": "米国のICC制裁と国際秩序 「法は大国と戦う武器」「日本は直言を」 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuN3ZwVjh5VjJrVHFDeV9zUW55ZkpzVXllZXViOHA1NHBKZ3NaSGNkc2ZXeEl6dTFxNGhISVVDSjNaWFM5Mk1paDdtWkR1ZnFzVEtkaC12eUtJbkxMazZUS1h2MmRWdGVWS2dfQw?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-21T20:00:00Z",
-      "region": "world"
-    },
-    {
       "title": "FBIの犯罪情報データベースに不正アクセスか トランプ大統領「良くないことだ」（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ST2pyMzAtakpIMG5LdUcwNmI2bEx3amZzQ24yZDUwS21ZNjlQSmsxVFJWRTJ6SUlTZ0hkeDE4Tk41LXQ2YmpkRDJ0ZFlweWt4SFdES3poX0pycXM5alNUX2Q2VnU2OEtZWmpwRjdjbEVWZ1pDMW1DTlBNN0R4eEE?oc=5",
       "source": "Google国際",
-      "published_at": "2026-11-21T17:06:33Z",
+      "published_at": "2026-11-21T17:03:15Z",
       "region": "world"
     },
     {
@@ -431,13 +452,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcklUUUVmM1lYSlQ2UEZCX2RBTkdVX19nVkY3QXhxTGJBWU91LVVhNm53UXlrTURUSHpLVUk4MGhDOWwxekR3akZDdjVSNEtoN3ZCVjBWWDRVOEVUa1Vhc3ZIdVE1R0hVV3hzSi1QZUdQTWZkNGZHN3BxMWhtVkVKXzRwaDFReThs?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-21T15:35:18Z",
-      "region": "world"
-    },
-    {
-      "title": "北欧の海でロシア貨物船が攻撃され炎上漂流 「戦争が近くに…」フィンランド首相 - テレ朝NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85Ui1wbDk2VXFlZTdlbWtIQVdrTmdFUS1vNW5QT2hBWDg2YXlzUm1zMEpNT2NENm9jQ0tiMzZxaXNNeER1TDlreEJuRWZuamhDUkhSV0kwR19fc2FDME5XQ0Ftd2FCeUZtRTJpOFNYNjNGRjA5UF9GZ2l3?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-21T15:10:17Z",
       "region": "world"
     },
     {
@@ -452,13 +466,6 @@
       "url": "https://news.web.nhk/newsweb/na/nd-20261028de67165",
       "source": "NHK国際",
       "published_at": "2026-11-21T13:00:00Z",
-      "region": "world"
-    },
-    {
-      "title": "世界の核９割保有する米中露で「責任」議論、トランプ氏「日本などは少し取り残された」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WVER6bzJkbDVCV0xNYXNINjhPU01Bd1dyMDcwcmJ5T0dfOWJNYUhhYkNwRzVCeHJmRmRMNnZjcnliZUtVODBkTG80alhpTURwdGFwbVVRMy1WM09WWXF3ZlF3?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-21T12:36:00Z",
       "region": "world"
     },
     {
@@ -490,13 +497,6 @@
       "region": "world"
     },
     {
-      "title": "米中露がICC非難 トランプ氏強調 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6V1RXc3lBLVZCZlBBaHV5RlF3ZEIzV1htZWt4UlAzbTc1OHowODdOR21zTmlhYWlNNTQ3UjR2UEN4NFloTGdGMEdDRHpnY1J1?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-21T09:32:17Z",
-      "region": "world"
-    },
-    {
       "title": "米中露がICC非難 トランプ氏強調",
       "url": "https://news.yahoo.co.jp/pickup/6603442?source=rss",
       "source": "Yahoo!国際",
@@ -515,13 +515,6 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nSVg5NE1xVnJaeU1pYXZ3UURCRlBxWmQ2MkxmZlB4OF9qZkRiSFZ0Z3ppMnNmTGpBOW5fb1czTkJVRmVPbm80S25jazJfbV9jb0M0U3h3WDMtS3ZmMHJlSGtPbk1mZ2JDNXY5bTBfWWwyY240RG92ZnBB?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-21T09:22:48Z",
-      "region": "world"
-    },
-    {
-      "title": "FBI最重要指名手配者の麻薬カルテル首領、メキシコ軍の作戦で身柄拘束か 激しい銃撃戦も（CNN.co.jp） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3Y0dtNW1obUtrci1MOG9MeGl0VXhXcDNOamkycXI3U09RczlRTUs3WTNSOUU1TXRfVUVpalhZaFV1VTRfNW9OSzJNZDdiajF1dHJtWWluZEZSZnFGc19YTkdFbnBGcXBQRzlxMmp4aFZpNzQzOTI0SXJTbk1weTQ?oc=5",
-      "source": "Google国際",
-      "published_at": "2026-11-21T09:13:00Z",
       "region": "world"
     },
     {
@@ -564,6 +557,13 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRVkNXa1Zqblc3cWFnVDk3bkl2ZEY0U2U2U25qanRQQXk3bmpDdnp6WmpUdm85T0lnZ0xWT28xWWNtZ1p3bk5ibUdMQ2dWXzRsTWtDeGJ3eHFpcTBETWxQQUlZRzFlaUpw?oc=5",
       "source": "Google国際",
       "published_at": "2026-11-21T06:00:00Z",
+      "region": "world"
+    },
+    {
+      "title": "グレタ・トゥーンベリさん アルバニアの反政府デモに参加「アルバニアは売り物ではない」 - 東スポWEB",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NTlBRRkNOMllpVGVVSEdHYjlKdXF2a25xa25IUGtaSmd0ek1fR1JDZF9DWWJuWWNVS2M3aXFFUUFIVDNCZERKMk9rQ0FSOHVqVVRWQXJ3eUhnMkVt?oc=5",
+      "source": "Google国際",
+      "published_at": "2026-11-21T05:58:00Z",
       "region": "world"
     }
   ],
