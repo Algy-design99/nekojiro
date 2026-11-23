@@ -1,21 +1,308 @@
 {
-  "updated_at": "2026-11-23T09:48:16.038655Z",
+  "updated_at": "2026-11-23T12:19:19.595929Z",
   "max_age_hours": 36,
   "count": 60,
   "items": [
+    {
+      "title": "仮想通貨弱気相場でDAT各社が大幅含み損、ストラテジーは5.6兆円の準備金を強調 - CoinPost",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9mU0RsMjRWcnJ3TmdkcnJPYTctODRrTG9xWmd2MDNzMGc2Z3BxM01iQUZmOU1JQTJuN3VCNG53dThQc28?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T12:00:40Z"
+    },
+    {
+      "title": "為替相場 23日（日本時間21時） - 47NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBraTFIdUtPZ2RYbXhrQmxZOE5haXowTG1KcmgyS0NocENkUFlOZTRVTTdFbGRDWG9XS1hIbl9WWnVFVFpMMklfX2ZZRQ?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T12:00:00Z"
+    },
+    {
+      "title": "ビットコインと金が下落、12月のFRB利上げ観測を市場が織り込み、ドル高基調が続く - VT Markets",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWTEyNGtDN1lSQ2M1OUs3WGtpS2xBZjB5Q3lFbFJ0eXJlTV9WSmk0Yzl2R05sLWE3cHFfZWE2XzlpYXVlcWthZmdjNVVkTWJqdkhPbEVqSzhhY3k1ZmdhWW55MzJjNDhBYnVkSE1yNVZPVXZaa21hd3ZlVUcyMWx0dno2Tl9scXY5c1VVbGFBZVZaREdtdUd5R2xhSlJWbDJKY0J3eEM3bEU0NjByazk3eGoyVXp1RlZqRW5YcDNPdE9GQUhjUzk4YVJLSzZHWXM?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T11:55:06Z"
+    },
+    {
+      "title": "ドル円は159円台を回復＝ロンドン為替概況 - みんかぶ FX/為替",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE42dmpUendRUk1ubWhiLVd2aW13TTFuMWowcWxLMlczSllqcmJLX0lfVDg2c0wyUk9OcmJLOTFiczNvb3ZRTm5rMw?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T11:52:50Z"
+    },
+    {
+      "title": "NYダウの指数情報・推移 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T11:23:03Z"
+    },
+    {
+      "title": "銀行に200万円預けたら、1年でいくら増える!? PayPay銀行が新金利を発表 - DXマガジン",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBvVlBZZXdGSndzTzBpRmRGVXBHamFSa2lzY3dWLV82XzZGRzZHNGt4OFc1RkphTmFCckZ2X0tHOUZTYU1kd0gwcEVuby0?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T11:22:04Z"
+    },
+    {
+      "title": "上海総合の指数情報・推移 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+      "source": "世界経済",
+      "category": "世界経済",
+      "published_at": "2026-11-23T11:16:58Z"
+    },
+    {
+      "title": "ビットコイン年初来安値の背景、4つの買い手の後退とマイナーの売り（2026/11/23｜コラム） - Iolite（アイオライト）",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbVdRaWJFQnU3Mnd0aFNmaWxuNG1XMmRaa0ZHTlFvV29FU3ZxN2dYbW5MdU5BdTQ5VlNXVUlPeEpkS2NHZnVqZU55TnBVYlhrejdsaUNFMVI2OWl4Vmx6dnR1aUFOU1A3ZmNROG9KcHA2dnI4QlgyRG1HX2doMVF3ZFJMQjJrM19lVldBT2FDbVZpd00?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T11:15:00Z"
+    },
+    {
+      "title": "マイクロソフト【MSFT】：株価・株式情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAxRXBKdmdzSThNRTNZMHdKR2p2ZEo5UDRfUGlwSGNUQzBIcTM0YmxqcEphdFJlclVkMnJONWw0RXdNekJ1TFpNMjhQVV9lYVU?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T11:12:53Z"
+    },
+    {
+      "title": "欧州外国為替市場概況・20時 ドル円、じり高(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2dEMVh6SnFHckwxbFctdEVkVXB1eFBGbmkzOWJjRjcxMFVSRkp6RmY3QTlxNDhZbnVNUEtlSWdjRWFLcW1zY2k2c0FaX0p5UTA3UmNBMWtoSGR5Qk5UaU9IcjlJaGhWRTRTR2YtVmE3RGNPcWNVcVZUaGxfc0JOcC0yTDhMNnc?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T11:07:18Z"
+    },
+    {
+      "title": "米国株市場前取引で半導体株が一斉高、韓国SKハイニックス10%超上昇・エヌビディア9%超上昇、金銀も同時に上昇 - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fWldtRUVBM2RobFA5UVdpSGdYbEVDZWRQSXo0YUZONk4wcHJCMXlBN2xPNHZpT1VYLWwzUGlodElmOU1ySkhzZ3M0eWZ2OHVWOUo0cWtvX2hFeDVncTZsOG8zMHFpZlB4RmV5N1lOa25fLW1Q?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T11:05:00Z"
+    },
+    {
+      "title": "台湾の空売り規制強化策が効果、台湾株急騰778ポイント 台湾ドルは午後に反転し32.895台湾ドルで引け - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5udGh5b3ZxcXZHamV0YjR3RHk4RHpjcVdGTzZLX3JwVHYzcEluMjdkaVFjWXBMZjNHanFoeFBiQzZpSGVEUDVJZ3ZjemFBTVJjTDBDSEw0VmdQYXlsZjY1M2JXNHZrZkF3VFhZdjhYOHdBSFlX?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T11:05:00Z"
+    },
+    {
+      "title": "FX実践解説、相場分析＆リアルトレード、ドル円などの注目材料（2026年11月23日） - 外為どっとコム",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpdXZmaVNjNkVqQ0RCUjM2VTRvSC1zWWoyMllXMU5NQXh1Q2pUMzlheV9LMGZDTU5NRnd5WkptOGZrWUs5Z0ROUUhUM05LMVVsVEhHbnQzcmZIT1dHdkFIRnN5NA?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T11:00:00Z"
+    },
+    {
+      "title": "【今日の仮想通貨ニュース】ビットコイン一時5.5万ドル台、6万ドル回復｜アンソロピックの時価総額がBTC超え - JinaCoin",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ZSlRabHlPcUxzLVAzNFM5ZlpDOEZuN1pTR3VxNUFJejZBZFFDTWxLaWN4Mk9XZmF0d014aS0tX0JFSjNjM1U2dHZVODZ5RElfSU1xQkZZZUp4Vjh5?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T10:52:16Z"
+    },
+    {
+      "title": "秋田市の２０代男性、暗号資産６６０万円相当だまし取られる - 秋田魁新報電子版",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wNXZsd2JpdGVQQkpSby1zQmxaT2hteC1xYUI2S29xanRUQk1kX09nTFhWcXhnVGplQ1RIWVExUEkyREFGbS1LT1BfYVJRZUFBUjcyVGk2ZE5sUFV3QXdWbHZB?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T10:52:00Z"
+    },
+    {
+      "title": "秋田市の２０代男性、暗号資産６６０万円相当だまし取られる - 47NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1sSlhRaGpCcHdMVWNzVGNUY2ZTNHdxczBTaWgzRjkzcDJTalQyNkJBRDI5ejZDS0FnVFlHSFdQWG9HTmxqbkQ4aFBLcw?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T10:52:00Z"
+    },
+    {
+      "title": "ジェンスン・フアンとモーリス･チャンの「30年の口約束」｜週刊池田信夫 - Howl.Link",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBUYnRpQmRDdUF5a3hLR2tqYmxmamNCbXJCQzlPQ19wb2ItaVhxYzVJMUdsaHBrcHQ1em00?oc=5",
+      "source": "世界経済",
+      "category": "世界経済",
+      "published_at": "2026-11-23T10:51:18Z"
+    },
+    {
+      "title": "eMAXIS Slim国内株式(日経平均)【03311182】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zdkVBRWpTSVZ3Y2YxbjVlS2RTTG5aZElFZGx6Vnd3Y1BJUk9KSVduckVyUnUxZWFtcFN4em5TbXJQcUUwanQ0c1FmMVRvMFNDdGR4cw?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T10:43:03Z"
+    },
+    {
+      "title": "NY為替見通し＝ドル円、リスクセンチメントに左右される展開か(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM2N2WXVpV3pRMXdRdVVBQy1aOUotQ2VkOWd3NUJLTktmRXZHb2ZlZDh0VFdXdnZLcWxWQVp5cVd6MFZnYlkzSlVWYk56MXh5cG5obkF0M21MdFZBd0NLYzRSN055U0ZuM1p1ZDJBemdOTGtRRVotX1lRUHhZc25hWDBuM2hZSlE?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T10:42:04Z"
+    },
+    {
+      "title": "スペース・エクスプロレーション・テクノロジーズ【SPCX】：株価・株式情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1TNlQzZEhOT2NLUzlIZ1lRejMzX09oV3hCaXNlRVNlemFIVFRQX2xzbHFMQkVlUEhLakxaZzRObGRRRTN1LUhfWXJmQmw2MHc?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T10:40:49Z"
+    },
+    {
+      "title": "ビットコイン、5万5000ドル台から反発し6万1000ドル台回復 感謝祭週の経済指標ラッシュを控え - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIQk0wZjBVbUdtSE53WGs1dUQ1X2QtdUNnNU1pN1djbmlWeWFPMzdLTS04YWNYdDFkTm9iX1RITWtkRjc4V0ZQYTB1Uno5c20wVWF3TUcwSDRxZ1oxQmEyV0U4NTFhR1F2bWMxU0tlSl9IaFV3?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T10:35:00Z"
+    },
+    {
+      "title": "ペロブスカイトで「ヨウ素」注目 生産量世界2位、埋蔵量1位 経済安保上の重要性高まる - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wZHBwOVdfSHI4dXpWM3ItUnV0U3pmZ1c4N3lJcFhzcFJCQ3lQSklYSkozQnZfV01vQndxVDJIZS16VGZhcEdvWmxza1pqTHNNVnFpUy0zbGFoME9HYnU2OWVsdDRtOXZBd2ZhYldQejQxa2JFX1E?oc=5",
+      "source": "経済全般",
+      "category": "経済全般",
+      "published_at": "2026-11-23T10:34:31Z"
+    },
+    {
+      "title": "アライアンス･バーンスタイン･米国成長株投信Dコース毎月決算型(為替ヘッジなし)予想分配金提示型の基準価額・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zckZSdHVvbExXV2xBc3Qtdk51MGlVVU9UNHZWeVRPMnRTNFJ6RTlfMjByUlZ6UEc4WGhvVURYd2RIRW5Oa0hXeXVMd0xETDdqamdPZw?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T10:33:33Z"
+    },
+    {
+      "title": "勤労感謝の日に70円ラーメン提供 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Zak43MnFneEZGZGtmNmlyTHE0b3VuTHFoUEFRM2JOU2Fac2s5clVqU3BiSVY3bFR5eUdCOVU3LXI1NDZoMktwWTljWlMtRjNC?oc=5",
+      "source": "経済全般",
+      "category": "経済全般",
+      "published_at": "2026-11-23T10:31:55Z"
+    },
+    {
+      "title": "円売りが一服、ドル円は１５９．１０台で伸び悩む＝ロンドン為替 - みんかぶ FX/為替",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8xbThQaC1lMldiS3lCVUhIenNHbDdyam1BcGdzcUxNT2hseG9ONkFuQm1raWtDbHB6TTdNNUY1bTN0WnYydGlKdQ?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T10:27:50Z"
+    },
+    {
+      "title": "戦略的自律性：ベトナムは内部からの強さを必要としている。 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNRmNtT1lINjdLdU9nZ0JVcWtFZlV1THg4YmRUVEFpRnlrSXA5VnBwY2ZKSTFpT1F6OVNoRjJBV1dCX2VianBGNDM4dVcySHQ1TkJLSHNaM3dPLWd5ODVtR1V2OVZveFFxdlh6Y1hoZGduUzlQaGZEMDNrY3E?oc=5",
+      "source": "世界経済",
+      "category": "世界経済",
+      "published_at": "2026-11-23T10:26:51Z"
+    },
+    {
+      "title": "英ＰＭＩ速報値が予想を下回る、ややポンド売りの反応＝ロンドン為替 - みんかぶ",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1uTnFDRlozNTZaNmRlbGlfM2REckhjVEhOa25mZ243VEJTWG1QRi0wMFY1LVBic2V3ay1ZSmEyeG9SLURnaFE?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T10:09:00Z"
+    },
+    {
+      "title": "リップルCEOガーリングハウス氏、ビットコイン100万ドル到達を支持 法定通貨の価値浸食を理由に - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaTnA3a3dOeG1oMzdyVVNSOU5Scmw4aUE0QzhfSm03SkFUWVhEc18ySmtTUHBaMVhCai1ZM0lFVUkxeUFITU1rV1NFSEN2ZG9ZMVpPSnRCLVFwNjM2SGpzODlTQldJZFdBQklndFhtLVN3OWl2?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T10:05:00Z"
+    },
+    {
+      "title": "なぜ今、 「海最前列」なのか - ps.nikkei.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VcDVJVVE1dlR1OGg3N3hIdG5zYk5zZE1fbGp0UjJsSVZucl9ZR0FGbzliU0VCUGZQWFE3VGRaX21oSExYckowbHVBWG0xb01uOEtB?oc=5",
+      "source": "日本経済",
+      "category": "日本経済",
+      "published_at": "2026-11-23T10:04:03Z"
+    },
+    {
+      "title": "金まで売られたAI株ショック、ビットコインも「デジタルゴールド」になれず - crypto-times.jp",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QNmZMNlVNNmY0b19HbTk3LWRxNUh1UE5uRVVyZ21seTlyeXRGTHJwZFRtTDNvdmJHZmx5Rjk0dFQwend3US1wOFZYQ2gyOGdrc29oVzRSdDU1bGhtTzhNdVgwSUI3cXg3TXhTUmpJS0t0eVN3RVE?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T10:02:30Z"
+    },
+    {
+      "title": "第2157回ロト6の当選番号速報 11月23日の抽選結果、キャリーオーバー額 - 福井新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ELXhNNkU1cmhMMU5ldDBGTlgteGlqWUV4eUxVMkdKSF9nNTFmUjM4Qk1VVHdvMEg4TkdDNlk1TV8yUFV6SjY2RS1hUW42ZWg3Y1NCbFExRVNXRkotbHc?oc=5",
+      "source": "経済全般",
+      "category": "経済全般",
+      "published_at": "2026-11-23T10:01:00Z"
+    },
+    {
+      "title": "［社説］美容医療は地域医療へ負担を - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtT0p1bjVZcFhhUGRQelhOdkR5MGpVdk04NlZXU1B2UDExS2pyTlgxMElTbVVjRzFtVk9fLTlocXh1dDJZblpQYVVSSFl6NGV6WEFGV211SW5HWnlqY0pZc0x3ZUllUmxvbEo4ZA?oc=5",
+      "source": "日本経済",
+      "category": "日本経済",
+      "published_at": "2026-11-23T10:00:00Z"
+    },
+    {
+      "title": "「容疑者の1人だ」警察官語る男から電話 20代男性が暗号資産約660万円相当の詐欺被害 - 日テレNEWS NNN",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeV9SdnV2eGh5dzViV0hESVhzRW1OVGZ1OXYyVnpXb3U0NXVGUGU2TlplaG1kWjd4MEsyUE1OcThpYmU0V0diR3A1dnBxY3licEg4a1hnb3NrQ3hSelcwUFY0eHVKZFhLZDQ4LXdCNEVORHZ4UU04MktVdEJzb2psRHJCWnBGQUU?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T10:00:00Z"
+    },
+    {
+      "title": "ブラックロックのIBITが主導、米国現物ビットコインETFから17.9億ドルの資金流出 - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcERPUVExZDBOUDNmM3lidlNFUkJiSHd5Uzg5RExTN2JlaTJ1TjFnbjZlR3lISkx6TWlkczFvUzZ1cERjeW4yTTNTRktlaTBDUTUwdXBPeWppM2dETlptdDg3RHloV2dPbTg1U0FaeVFFYnNq?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T09:55:00Z"
+    },
+    {
+      "title": "東京国税局、暗号資産の申告漏れ39億円を摘発 追徴課税は12億円 - BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NZTg1d0VlTG9mTHdqZWdKN0x2cDRRSFUzZTFlTFJ5MXJiQjB1UVJ3b0hLYUl2V0hhNVppaDZwNjFFSm9rOWpWN3dmZE5OOUpGVENWbVluTENEdE9ZVnRKR1Zkak5hM1g3Zkt4ZzVZOUs0cWZx?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T09:55:00Z"
+    },
+    {
+      "title": "ALAMCO 日経平均ファンド【6831100B】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTkdqOWtmWUI3SGlRS0R6cHhqZXYtUDNtQjJKREczUDA5Zlk4djBXY3JkWHZTYzRTeFQ4ZEdWMW1SMWhFN01Mb2M5Y3JMVmlCT3lPbg?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T09:54:35Z"
+    },
+    {
+      "title": "インベスコ 世界厳選株式オープン＜為替ヘッジなし＞(毎月決算型)【18312991】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTjlOZzdQUEdTdXdtbG1meUpMcWtGZmZhdmhuYkhadW1qbURDdkpYMTB2TWF6cWYwSzdTQVlpZ0pXbzZuVl9QMnlFRlFHRC1wMTZydw?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T09:54:34Z"
+    },
+    {
+      "title": "アルファベット【GOOG】：株価・株式情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1razdWeTFYd2FjWm9WUVlraE9tOEVLXzYzd1FiZ21ueHpaUUNLMl9vdzNrc1BJejVyckVfdnRmaWlpUEg4dDVYOHVXc2xYbkE?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T09:51:59Z"
+    },
+    {
+      "title": "1ドル159円の円安でもビットコインは1000万円割れ、次に怖いのは円高か - CRYPTO TIMES",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MV004dEhLS196MXg0akQtQk9OcndPNllHREMxV3F1YWxQR3EyN1FBbFY2MXY5emxTNkNBREFGLTNNNUlmQVdfQ3ZqREtSV2MtT1dSMHh6aVBKNDczcE1uYlFJUFJPeDlQR2hZZklXTnA4M29VU19IQVFiUQ?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T09:48:25Z"
+    },
+    {
+      "title": "東京国税局、暗号資産の追徴税額12億円に 調査体制強化＝報道 - Iolite（アイオライト）",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5jX2swUGFRanM3T2FYVWVJX2ZZSFJXSjhQa25WczlPUXZ6WjJDTy10N0p4eHYzdVp0YlN3YnNxa1VWWG1vV2xvcnQycHlPczZv?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T09:41:20Z"
+    },
     {
       "title": "米国株が閉まる週末、Nvidiaの値段を付けていたのは仮想通貨の取引所だった - CRYPTO TIMES",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeHM5bjhBd1ZBN1ZaY1RuTHM3ZW14X05PVUtZaEV2N3hMUnZoMTF4VzI1dVRFaGxQOUliWU9lc09tR2YwaG1nUUxZemQ5S19NazdPLVNuTVZzNjltdER6VXoyWHVxLUk4NFFpZmZ1NVE3aGhwT2V6aVJ4THI5aWhBb2x0aUY?oc=5",
       "source": "株式市場",
       "category": "株式市場",
-      "published_at": "2026-11-23T09:33:45Z"
+      "published_at": "2026-11-23T09:32:25Z"
     },
     {
-      "title": "しっぽこ社長(秘書) (@bakabonnawazo) on X - Howl.Link",
-      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9mZVBHdFViakJDb0l4UkVjN1psYjVwTUt5bW5mcE1SRkd0Skw5bkZweGRlOC1yQi1IN3Yw?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T09:30:17Z"
+      "title": "３連休最終日…関越道・川越ＩＣ付近で３４km、東北道・久喜ＩＣでも３０キロkmの渋滞 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tYWhNMnRmcE00LWhOQlB1cGUxWkZNUGxQNGV5Rzc2M2tRWUNISFp4b1J3bk5qSkpGVl9oY3ZsaDh1eGNuSjI5N2VuSnlzd05Mc245bFpxTnpJeE55TVpDaTlrX3hIUQ?oc=5",
+      "source": "経済全般",
+      "category": "経済全般",
+      "published_at": "2026-11-23T09:31:00Z"
+    },
+    {
+      "title": "株安・円安・金利高 今後の相場の行方は？【明日への投資戦略 11/24～11/27】 - テレ東BIZ",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sRHFGQVZtZEJSRnNEWWF6R1hqZVllY0hXejRvaUpYZ0ozUHktVXFrUzlEVWZKRXdsR0xidkw2RDZsamUwYXVVLW9ic1MwY0tDU3pPUG9mWWVRWjNobURDY19oSi1jZw?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T09:30:27Z"
     },
     {
       "title": "欧州為替：ドル・円は小高い、159円台に定着 執筆 Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
@@ -32,11 +319,32 @@
       "published_at": "2026-11-23T09:28:00Z"
     },
     {
-      "title": "欧州為替：ドル・円は小高い、159円台に定着(フィスコ) - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT3J6VlgtS0J5b3BTcXBjYm5KRDZtZUpMSGkyTWZOOFVkUGtYN0s2R1EzTnN0T1Y0bkt5bW4zZEhtZENGMnA4NEZCR2FDUmRkSW1Udk5jemx3ZFNRVFlSdmprU2FqWjNnSDJGVnhtWHlQYThsYnJfQ0lYYXRqYlI2UVAxNXVqN1E?oc=5",
+      "title": "ビザ【V】：株価・株式情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE42NWl1cXZ5V2IyUEFqTUgwNnRPR0N4elZYTXhzel9VaFJUT0dOaXB5VElURmd0SUhzV01hMXlmenViX1hBTkxwaDhIRQ?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T09:24:30Z"
+    },
+    {
+      "title": "マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5",
+      "source": "株式市場",
+      "category": "株式市場",
+      "published_at": "2026-11-23T09:23:55Z"
+    },
+    {
+      "title": "欧州為替：ドル・円は小高い、159円台に定着 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQelNGMGNfMlJHNWF4V3AtU3d2cmVkRXFNd05sQnBuNFJScERUcHJfa3VKSG5PR3hTQWU0ZkxNR3ZXVnNxR3FuS2pseF9XT0lrQ2ZMVTVLdDFwdXR3NmRpTnh5V0xNNlk2dk1ZRW1RMFg2cnlmV180aXU0WEFsTC1ZdUk3d3NpRUHSAYwBQVVfeXFMT1QtTjVoYk5jOF9rc0hLT3pOeUhrRVpGVTVrakRkRTNFR0NUM0UtNkJocjUxMUlIYW9MdlpUWUdKLTdlYTNVdXpCa2dQX0pUZU5RaGlCMVBFOEtQYW44Vnl1ekhKazA0LWhPSzF4RzhfaWwzVklPeTQtbGpUOUFUc0t5X2JRRkM4S21ONnE?oc=5",
       "source": "為替・金融",
       "category": "為替・金融",
-      "published_at": "2026-11-23T09:18:05Z"
+      "published_at": "2026-11-23T09:18:00Z"
+    },
+    {
+      "title": "netWIN GSテクノロジー株式ファンド Bコース(為替ヘッジなし)【3531299B】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5TM2E5UzlRTlNERERRd1pDaGlOYU5uNlE3enp1VmoxZ1hZOGdPdTc0TmJmRmxzYVRDM3BId0Uxa3lGMk5vU0FxZzl2TUR0TGdkNjhmTg?oc=5",
+      "source": "為替・金融",
+      "category": "為替・金融",
+      "published_at": "2026-11-23T09:11:48Z"
     },
     {
       "title": "為替相場 ２３日（日本時間１８時） - nnn.co.jp",
@@ -68,31 +376,17 @@
     },
     {
       "title": "米国株急落後の見通しをどう読む？AI投資の回収と資金管理が焦点に - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83WUxoNk9Va054VktZbFVlZktRME53andMYVNXMUxOOENSbXlRTXZBVkt2VThONGRid0FmNk9MQy04WjllMHkzVjdwLXIxYzI4X1h1ZlJpa0Q3VkZ1amc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZTXM4RzZoYUR6NzhGcHBKNjRudDJSRUhITXRIUUo5MHFaX1hkanQwZDRhdndYUk43SVVpSENSbHBHR3hUMG11MzNkNlI3RDVFeWw3Z0R1cGlmWjNadWNZ?oc=5",
       "source": "株式市場",
       "category": "株式市場",
       "published_at": "2026-11-23T09:04:24Z"
     },
     {
-      "title": "ユーロ圏経済指標【製造業PMI（購買担当者景気指数・速報値）】 - みんかぶ FX/為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1BS280bWl0ZVFBOWNZS0FkOC1tYWc3NDk4V3VBa2NNR21xZ2RuUVkxNUdwS0I4WlN4eHlkS0wwVWN0Tk1XaGtTVw?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T09:00:51Z"
-    },
-    {
-      "title": "為替相場 23日（日本時間18時） - 47NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBraTFIdUtPZ2RYbXhrQmxZOE5haXowTG1KcmgyS0NocENkUFlOZTRVTTdFbGRDWG9XS1hIbl9WWnVFVFpMMklfX2ZZRQ?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T09:00:00Z"
-    },
-    {
-      "title": "Ｎｅｗｓモーニングサテライト【2027年 問われる市場のレジリエンス】 - テレビ東京",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUG1FMmlkQnpVRkVrdFZiZWJmMzIwTVlZS29hSXhrWFBnSHRhc3A3aFp1MS1KLUVvUklhSnRES1QzajRnQ1B2ZGQ0UTZrRmI3N1M3aW5CbWYzOVVvZXpKMndvQ0VSajZUSVVibG9ZZG50aGhScTRrMG40YjdNYU5Sc2YyWVZoZ3Z2aFNycktpVXY1UQ?oc=5",
-      "source": "日本経済",
-      "category": "日本経済",
-      "published_at": "2026-11-23T08:59:57Z"
+      "title": "世界都市ランキングで香港が3位、シンガポール・北京・上海を上回る - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kTU9OeEZuNGdDUXRscERFRkdtalMtak9hTmIzRG13TXZ2U2lyd0V6QXYxNDZOTEtEZWE2VjAyYUVOSGNCYXkzSEE4NnpDdWlyQVYxVm84TTBPMnZNenUyY0k5Zm5uSWNRbnVRT0RqaEpKTlU?oc=5",
+      "source": "世界経済",
+      "category": "世界経済",
+      "published_at": "2026-11-23T09:03:29Z"
     },
     {
       "title": "eMAXIS 日経半導体株インデックス【03311247】：基準価格・投資信託情報 - Yahoo!ファイナンス",
@@ -102,6 +396,13 @@
       "published_at": "2026-11-23T08:59:34Z"
     },
     {
+      "title": "Krakenのカナダドル市場におけるビットコイン価格、障害により1万7,000米ドルまで下落 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Vd3UwY2otWnFQQ3c0ejl5SFB1bTNHUjllZkp5WDRIYkx1dExMX0hULXdFM1ZvcnVxOV9hODVqZEYtREwxeXNzeVk2cWFleTE4SnZiLVRwLW1fdw?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T08:57:16Z"
+    },
+    {
       "title": "「落ちるナイフは掴むな」BTC暴落で一転、キヨサキ氏が買い増し見送りへ - BitTimes",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WT1QzOVY5NVpjeVdxbzFPNGdUYV9iY1ZEa1gxSUxFUGF0bFlaMUJaX05ORGJQTTVuTUw3ZHNQU0JiTjFRSE9mV1VLR0ZxUQ?oc=5",
       "source": "暗号資産",
@@ -109,11 +410,11 @@
       "published_at": "2026-11-23T08:53:23Z"
     },
     {
-      "title": "ユーロが買われる、１１月の独ＰＭＩ速報値が予想を上回る＝ロンドン為替 - みんかぶ FX/為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1rUVZvdzJCQmIzT29LS3FxX3dob0YwMVVDTXFZUWxjSXQzRFptSENCV2hxU3BFQ1FPUTFqSGVYQUNZOUc1NThpaw?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:51:50Z"
+      "title": "過去最高の清算が発生する中、Binanceのビットコイン未決済建玉が40%急減 - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdFdzQ2F6STVTblI5NlJaVjBNZVZ2Ry1EbHBVTF9mUFZ5NmI3M2U0VUh2aWtQbm1LWUREUTdkRUh1VWhKc0tUTVNOUmllMngxYVN2c3NYanA1ZG54MWRiVTIxVU9tRlcwS3BHSVZ6NjNpRW5XMmJ6dDZQeWdURUFSX0xxRWR2bW1Ubl9mQjRaaVkzVmt5SEE?oc=5",
+      "source": "暗号資産",
+      "category": "暗号資産",
+      "published_at": "2026-11-23T08:52:15Z"
     },
     {
       "title": "為替相場 ２３日（日本時間１８時） - 中日新聞Web",
@@ -121,307 +422,6 @@
       "source": "為替・金融",
       "category": "為替・金融",
       "published_at": "2026-11-23T08:51:00Z"
-    },
-    {
-      "title": "米国株の調整局面はいつ底を打つのか？ゴールドマン・サックスが3つの潜在的シグナルを示し、S&P500指数が12ヶ月以内に8,700ポイントを目指すと予想！ - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNkdiakk2Q1BOVmUxVzNPU2pMSjdWUDBwRkwtRjN3Sk1fTDFSejJ5NUZOdk9KcTNVSUdiR0lVNk5scVZjRzFpMUJfWVI0VHRJUnBfQzVBcXNBREQ2ZXRpMURQMGtWemRnc3ZlWGZxTVAzc1JieG5USVpxWG93NEhXNEFhcldvNENSX3pwUmVTU2JNc1RyVm1ZN3dfMGJsbWo5QWREZU5n?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T08:37:53Z"
-    },
-    {
-      "title": "ウォール街の急落で12月のFRBによる0.5ポイント利上げ観測が消滅 - BigGo ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Qb0JuaWZrQ1dCeW04Ri1OT1hpSnpvV3BBYUkxQUVCbnJnSlJ1RHByZjMxV1JRVDlHY0VQSi1PR2dsVHFER2hjT1dTTk1Za2Z1MS05MjZZVkJhM0tMUEtDX1ZoX2VTR2pCWDRIbFVDX0R5SzZl?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:35:00Z"
-    },
-    {
-      "title": "韓国金融委員会、暗号資産事業者の審査厳格化へ 高リスク海外取引所への送金を監視 - BigGo ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ZbEo3cFc4XzNOWDU0THFEbFNXSkRxMmhRem0tS3NRRUgyR3BBSUxENmpVLVBfVzNMN0F1dnZ3ZVFKVDJtcWhZVXVLVDY1UTJ2dzRuc0hMakJTOGdNaXJxNkpPQ1g1U0V6TjVOeWNicHZSaXFJ?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T08:35:00Z"
-    },
-    {
-      "title": "ドル円160円の攻防、AI株投資による円売りも？介入警戒で上値重く - CRYPTO TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMmp6VDZRT05VdGUzUnk3MDIwUEo5V2NpYUZvbEY4N0gwRm95THU4Y09zQ2RMTkR0RloybElURGVzeC1aTXRhTjNYTHd2LVM1M0plcHA3cU11RVBBMG9jcG9hV1d3S3NxcHFXXzg2WS1iUnZWeWk1NnRtSlVpWlBxU0FwRlE3NGxGSFJGS3IzdGRzcXlhbUp3ZUFDZEQ3b2toOUVqWFZlWHg?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:32:16Z"
-    },
-    {
-      "title": "香港株 ハンセン指数は０．１２％安の２２３８３．７４で取引終了 - みんかぶ FX/為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBsR1VkRkoyVDZOVEp5QTVZVzY2M0dNcHFGQVFqbE9vbkVuUDYtaE9EczFRNHJiY2plUW5HV1hoYmlWVXg4aTRYNQ?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:31:50Z"
-    },
-    {
-      "title": "独経済指標【製造業PMI（購買担当者景気指数）（速報値）】 - みんかぶ FX/為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9DekpoNU5qMXZDb2NmdkpjZEZZMXFNaVUxNEtIS2cwNTlQMHlWT2dPM25Na2U2bzRlWGRCbDJ3TUdaS1ZhRFFiSg?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:30:51Z"
-    },
-    {
-      "title": "エヌビディア2位陥落「あ、やっぱり」信用取引の追い証払えず強制決済で底打ち…【NISA4カ月で買われた米国株ベスト30】 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84b3JVRXJraVdMVk0wZUJDMnlnVWZtbjhQOTNtcUt6X0xIZXA1ZWI0c2Jrd3ZPYnNFeno1azQ1NVRyTzlLYnpaSVhDUmN6WXU5T0h4UUY5dTBXY2lzT2xwQTVUV3BZb3Zidnp3NDZLcHoySHlqZ0otMWNDakRvbWM?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T08:30:37Z"
-    },
-    {
-      "title": "東京為替：ドル・円は小じっかり、クロス円に追随 執筆 Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DblZibnVXdjBRZGVKMXBQUzUta2FZOVIyNjNsbzFWYjBFdlB3UEhMbWhQU1A2UXRxZE9BVlhZT293ZXVnVVJQYXM2dmdPcElmY0RJY0N0d19GdG1kMUd4SlFvOTRFSVk?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:30:00Z"
-    },
-    {
-      "title": "仏経済指標【製造業PMI（速報・購買担当者景気指数）】 - みんかぶ FX/為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ac1V6YWtMWkVzV3V0QndSMVdhVW5RT0FLb1NJek9VTHRsWG9yUlhkeGRuaGZ3amdfTFhMTjg2MmNXY2thZ3NJWg?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:15:50Z"
-    },
-    {
-      "title": "東京為替：ドル・円は小じっかり、クロス円に追随 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaHNFTjFkYmZaMS1Za1ROUHZVMDBVV2F2ZkFyS0ZuM0h0UWVjQzM1Um1HR2RuVlM2YTZzS2FGMEtOQmozWnU4X1hNVDR5STk3VFpyMWs2MHpDNUppbk9ESGJCeUN3Wl9hT0s5cUtXel9qZ1dQbUtVczBwYTk3b2V4OTBTTlRPa1XSAYwBQVVfeXFMTUtGbFNpUzd2VzBqejVlTjRUSEJkR29JeC1aWWhDblRsQ2J1RHlTQ3lBT1MyUW5XdU1yRGYteHFrYmhCMHVDeFl5U2U5NVhQbF9QSTE1cDBZZ1pJd3o2Y2R5QVlrNTNGLWpKUFhYVjdNZXlCOE9Ra3FYdlpPb2JpNUFLUVNBRENGMnpBZXc?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:15:00Z"
-    },
-    {
-      "title": "ブルーム・エネルギー【BE】：株価・株式情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QZkpXWjRsNlpuandIYXZCdVEydktuMEVPUGVnbUl5V1FQcllDRlBFQ2FhaFVUWkFCcWJNTEVGa2VYZTdWUjJTN2g4RUs?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T08:13:46Z"
-    },
-    {
-      "title": "S＆P 500の指数情報・推移 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CYUlyUG83cXdIaU84Q1g4dlhEbjJvNlJROFBNYWFKUzJYTmVTRXY1aVo5Sld6emQ1MzcwR29jUWg4Y2FqTlR1d2FZd2hhMU9uX0I0?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T08:13:28Z"
-    },
-    {
-      "title": "「EV補助金」予算が“枯渇” 今年度の申請受付が終了 経産省発表 来年度の補助は「検討中」 中国「BYD」が軽EVを日本市場に初投入 本格的にシェア拡大狙う（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BS0g0bjlRVEp2a1NERlkxdGczelJKLUFkSzk3LVgwWGNheGVsaS05SmQ2dnVtOWoteUwwaXF2U2hjSmoxaTVTc1JqSmZyTHpzUzZqdmxmYTZqYXJYYmxCekE2cjdTVFNOTFQ1eVVPZElHcWlmZnBsQlhsNlVlNDg?oc=5",
-      "source": "経済全般",
-      "category": "経済全般",
-      "published_at": "2026-11-23T08:13:06Z"
-    },
-    {
-      "title": "通貨オプション ボラティリティー ドル円１週間は６．６３％ - みんかぶ FX/為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtMjhiUFgza3pCU0ozY2Zvazlna0dQanJlS1lmbEh5SFA1cDFJSmlKM3UzdzJVeUhTdnp0U3NwUnFMQTVyZ1NKOA?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:10:50Z"
-    },
-    {
-      "title": "【LIVE】『揺れる世界と債券の行方 金利高局面での立ち回り【モーサテプレミアムセミナー】』のライブ配信について - U-NEXTヘルプセンター",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Uc01NWUdTZXFOMGdCZHNDZXJIVXBPR0hPR2dCdFE4eVhuX0xwMnQ2Y0s2VnlBOHczc2RlZWZ0LVpOOVR4cHRwUENlankyTGdnWm1Mei1KcmV4UHlt?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:07:52Z"
-    },
-    {
-      "title": "東京外国為替市場概況・17時 ドル円、上昇一服(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYVVCVUNXLVZrcHpYUHdiZ3pEYUNLQjZGNU5aaC1wZXVhel92c3pRMDlKQ3gtZElsbWFxeGMtLTR3WFQ1dTh3SUE5ZE5xNV9TWFhsWmVIZC1MdUVTbFZfMzhjbXd0NDhaOFNMSnYyMWtxXzNmTXRqV1ljRUlHd0UwY2NqSVV2UWc?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T08:07:47Z"
-    },
-    {
-      "title": "バイナンスのビットコイン建玉が40%縮小、レバレッジ巻き戻し進む - BigGo ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CUTlSWUhYMktmNjRGSnFqM0JKUFpOdFRnY29PcGpQYnZiclVOS21WVWNPVkZOZ2ZLcnZzVU44blYwX2V0bDIxOGtETjVia3Z4eXE1blAyWVFZZm95VlhWNFNqaFZNTjg0LXFNQlN0MVZmVW9p?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T08:05:00Z"
-    },
-    {
-      "title": "VanEck、ビットコイン等の仮想通貨ETF保管機関からGeminiを除外 Coinbaseとの契約は継続 - nextmoney.jp",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE11ZU93dFNwbWxYcEFFVzE2bDB3aUFCVlV6Y0lmZXR6ZTZkVDBnMERXUE13QTFPMnlQMzVaS05aLV9KaUE?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T08:01:54Z"
-    },
-    {
-      "title": "Anthropic PBC Tokenized Stock (Coinbase)（ANTc）の買い方：初心者向けガイド（2026年） - WEEX",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlZEs1Xzc5WmZQZHN1SUhaSVRubnZkQTdJanhuLVRCUkY2WWgyRTZzbXJEWThDYjV4cTBaVTZ2cWVZZWM3NzYyMTRmRXpiaU1mbF9ySjFXTlpQNVA0TnJUZGltbEtUTDk0cHRDdURuZmZocDNmR1N5YWloUmJSZw?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T08:00:01Z"
-    },
-    {
-      "title": "新薬開発を政投銀が支援 国際競争力引き上げへ、最終治験に共同投資 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pcWpHUnFEbUFmdkxuc2RJWTJDdHM4QUFVRm04dUdTZXlGYkpzNTRmNnR2c19TTTk5NGpYZzRqOUJCVk9HZ003aXk0M3ZtdEhDOXdoY2w4SHZlc2FYS0xVSDNCY1dwWXlicjRzYg?oc=5",
-      "source": "経済全般",
-      "category": "経済全般",
-      "published_at": "2026-11-23T08:00:00Z"
-    },
-    {
-      "title": "兼松が航空機エンジン部品販売 延びる機体寿命、交換需要を開拓 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xSzg5dVdXZUE5bXRsQmRMSHB4UTlrMk5kemVMdVZJVlgyY2hvUExiR1ByczMwa1JYTEpFTnpsdjM4eGxqZW1Kcm50NVlSWk11RERpREgtRVU1cG0yU2ZLV011dnpIaU1LQ3Rhcg?oc=5",
-      "source": "経済全般",
-      "category": "経済全般",
-      "published_at": "2026-11-23T08:00:00Z"
-    },
-    {
-      "title": "エヌビディア2位陥落「あ、やっぱり」信用取引の追い証払えず強制決済で底打ち…【NISA4カ月で買われた米国株ベスト30】 - AERA DIGITAL",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlOHlOMUFRd3FScTBDelp4M3diQWVQSU96eG5jTTNwYUZxbzg4MTc5aEQ1eVVBUzl2RWw3a3VybzhyV1I2cmJ4c3NsOHpWQnR6?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T08:00:00Z"
-    },
-    {
-      "title": "【テクニカル】テクニカルポイント＝豪ドル円サポート1 103.89（2025/12/23安値） - 外為どっとコム",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2Y3g4WTU1T1UxYkx1MV9JbnBoUzZKQm5YLVdaNUpQRHNnM3RIUmoxTldiVnlBY1FTcG5oeDJ1M25hR3dFNXh4bDE4cVNQemd3bUc5QjAydjl3RzI0VFNscVU3QQ?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T07:59:10Z"
-    },
-    {
-      "title": "auAM トリプル・NASDAQ100 為替ヘッジ無し【AY31226A】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13ZTZPemF2S182Nzh6b2U2Q0I0VUhSYXpJUXJiWnNRUFlteDFmSzhiY0FBUzFMYjF2dGVXeG9SX3ZmRFV6VmpzT0RkR1ZIZVlLY2Fjbw?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T07:58:18Z"
-    },
-    {
-      "title": "ALAMCO 日経平均ファンド【6831100B】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTkdqOWtmWUI3SGlRS0R6cHhqZXYtUDNtQjJKREczUDA5Zlk4djBXY3JkWHZTYzRTeFQ4ZEdWMW1SMWhFN01Mb2M5Y3JMVmlCT3lPbg?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T07:55:21Z"
-    },
-    {
-      "title": "アックマン氏がFRBのインフレ目標に反論 3%がより現実的と主張、追加利上げは世界恐慌招くと警告 - BigGo ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xdDBrMHNCSEJ6a0dWc0xrQVBxZFVLU1diV2dXR0xFYlNocGQ1STh6eUpQRHdJYnZIekJpMmNDNVFES2dXZXFTQlRIcnY4MVctRWtjeU9pXzZha0xXTmlsWmk0TXp0OE5tM3FPbnB4VHlLNXpM?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T07:55:00Z"
-    },
-    {
-      "title": "円売りが優勢、ドル円は一時１５９円台に上昇＝ロンドン為替 - みんかぶ FX/為替",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QQTBFckFEY1FETUZpOWRERmNiSy05ZHZLRmdEYVVRMDhkM1ozcHZzenIzMngxbExpeW81dmRsNlVyZ192c2dBdA?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T07:44:51Z"
-    },
-    {
-      "title": "韓国株が3.3％急落 2日連続の一時取引停止＝新興株は約2年ぶり安値 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02c0V1UDNKN2ZSOUJkdUlLSWxyODN0dkpBRm1sSWJ2OEVFN19JZFFJazlwOHJEenl2S09ycm1YNFE4ZTVITV9NbnZjRDRzOUNTWTdkN2dyV3gwbVB6NGRmNTAzeWZyMWF6R0VJLTJUaTRDYXhCNXJReGdoeEhGYTg?oc=5",
-      "source": "経済全般",
-      "category": "経済全般",
-      "published_at": "2026-11-23T07:39:52Z"
-    },
-    {
-      "title": "イデコ拠出限度額12月引き上げ 月7千円増、加入年齢も拡大（共同通信） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DdTRpeXBuRkFNYWZYOW5Nam9yOWNfWkxaeUw1a3ZXZndpUkJQdUNyMUxNYUlKU0pGSXhvZk1rRkhhQS12S2M2dHRtSm0wVG8zYVc1S3l6VGRGUndHRmhTelJUT0daTGZ4SkxGdEdhTWZ2RFBLa0VRSnkzLVJ1YU0?oc=5",
-      "source": "経済全般",
-      "category": "経済全般",
-      "published_at": "2026-11-23T07:39:19Z"
-    },
-    {
-      "title": "トランプ氏「米国にとっても最善策」エヌビディア創業者のCEO復帰を希望 - CRYPTO TIMES",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWXdGSHhLa0lBMkJCd05zTWFzQU5XZ2E2VVVMelZnalBJcXBKdUQwTXNQVTRoZS1IdHNidnFBZlEzNnZyeDJDaVFWd2c3SWVsdjNQbXIwejJzMWlGVkhJaEp5ei0wczNCcTNvdFVjTDMweFVldEZCR2NMeUxON0NTRFRYaHNDLVp2WVNuYTdR?oc=5",
-      "source": "経済全般",
-      "category": "経済全般",
-      "published_at": "2026-11-23T07:38:02Z"
-    },
-    {
-      "title": "eMAXIS Slim国内株式(日経平均)【03311182】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zdkVBRWpTSVZ3Y2YxbjVlS2RTTG5aZElFZGx6Vnd3Y1BJUk9KSVduckVyUnUxZWFtcFN4em5TbXJQcUUwanQ0c1FmMVRvMFNDdGR4cw?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T07:37:19Z"
-    },
-    {
-      "title": "暗号資産アナリストのAnsem氏、11月23～24日をZEC・HYPE・PUMPの底値形成候補期間と指摘 - BigGo ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yaWRHUzljcDRwRkFKQVhaeDNKU3VhNWxTUnQ4bXZEcUpQSlJ4cUN5YWdwUTZtX3FSMjd5Qnp0N0t2elgxN1laMWdvN2pmRldDYzlYZHhsOUlGeWZ6bk93LVJnWjNtVVdrV2x0TmU4VjVlX19U?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T07:35:00Z"
-    },
-    {
-      "title": "アライアンス･バーンスタイン･米国成長株投信Dコース毎月決算型(為替ヘッジなし)予想分配金提示型の基準価額・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zckZSdHVvbExXV2xBc3Qtdk51MGlVVU9UNHZWeVRPMnRTNFJ6RTlfMjByUlZ6UEc4WGhvVURYd2RIRW5Oa0hXeXVMd0xETDdqamdPZw?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T07:33:17Z"
-    },
-    {
-      "title": "中国デジタル産業、1～9月の売上高14.8％増 AI需要が成長をけん引 - 中国経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9FY2JvSVRJRWF0ZUZsV2w4cHlCMS1WeFNDMmtJY2JfOUZnNlE4MHJQNEdKREZ1bTEteWlyS05tZ24wOFlrTHZHSmdJOA?oc=5",
-      "source": "世界経済",
-      "category": "世界経済",
-      "published_at": "2026-11-23T07:30:00Z"
-    },
-    {
-      "title": "価値の99％が消失、トランプ大統領の暗号資産暴落と当局の本格調査 - Forbes JAPAN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuRnZrYXdhZXliN0Ytb0ZWWUFrT09qUlRRWEYtVXZFejZNVDhTMkVqM2lrQWJETzB1UzhOZDJPVmJLdzRCVVVEazR4aFNiSm8zRlhmYlZ4RmFTZw?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T07:30:00Z"
-    },
-    {
-      "title": "NYダウの指数情報・推移 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T07:27:17Z"
-    },
-    {
-      "title": "英国、2027年10月から仮想通貨取引所による自社プラットフォームでのマーケットメイクを禁止 - BigGo ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1RSnhSazNQRUtiWlA3WDdickxya2FWdEx5LWllRUFidkFDdm5DWkxvcnZRUTV6bjZXcmZCWXV3cFhoeDE2ZzZxMXF4UWFINHNna2doamk2OXN2SzZmTzBzT0dCbXl3OVNLYXV4cW9CN1dRa245?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T07:25:00Z"
-    },
-    {
-      "title": "このスウェーデンのビットコイン財務会社は、自社保有の一部を取引中に30 BTCを失いました - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMXl5aHcyU3RzT0NRWXk0M0hQVHVmM1hQS092RjBLSWlBTXJPQ09GSUVtdXdvMmNtcnI2VTliVEpHa1MxNlBJd3FkMmdLYnlxSlJ6SWcteGt1MVl6eHF5SnFOSDg5LUstSVpxT1lxcVN2bHE1dHI3RkVkWUNzSGNqU1JGYTdQZWF0WGpSb2lucW9naGRZUGVReFhLNG53YWhuX3hHQ2U3Ung2M0tJeUF3VHFoZGVHMG14c2dpa20wRVA?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T07:18:45Z"
-    },
-    {
-      "title": "SBI 日本株4.3ブル【8931317C】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wNm41RkZ0R2lEbUJoU3cwaGpwV0JTR1VvVFJVZ0F4TjFUM1ZjQkhrajZKSFNQVWx5ZElFRjM1WkdGRTIwVDdFclpfMmRYX1puTTZVbg?oc=5",
-      "source": "株式市場",
-      "category": "株式市場",
-      "published_at": "2026-11-23T07:17:12Z"
-    },
-    {
-      "title": "東京為替：ドル・円は伸び悩み、クロス円は続伸 執筆 Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2ZFBFSGFwc0xhUUJJd3dQSGFNcTZHZ2IzTWREMkZCRXRVdkxWRy13dDdLVmRSMU9VQmRXWHBHR1BJa0NvUlBiaHhnLTBvbUpzNXBleDZ3dTJKZkdVc1F2c0llcENIeTg?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T07:15:00Z"
-    },
-    {
-      "title": "ゴールド･ファンド(為替ヘッジなし)【02312177】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPVWx3d01OWnVhVXZpWlk3WlVldmYyaGh6Q3RLRzk1MGNJMUFPWWhTX0tYVlF5OE50UzBjSDM4Mm51cWV6eUZrelNENXA4RmFOaGxfLQ?oc=5",
-      "source": "為替・金融",
-      "category": "為替・金融",
-      "published_at": "2026-11-23T07:13:13Z"
-    },
-    {
-      "title": "ビットコイン、清算売りの後に6万1,000ドル超へ反発 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fWjdJSzRFdGRhQWphdnV5ZjVhN3M5WGlWY2lhdmZQUmcxdEF4eVhCdl9PdGhTdGdMZ25Lb3hQeEJfZXVnbzIxRDNTSE1va05xci1mMnppMUM2SmxLWWdzaVRQamJXOUpFSFg1STQ0RklOdGM?oc=5",
-      "source": "暗号資産",
-      "category": "暗号資産",
-      "published_at": "2026-11-23T07:13:00Z"
-    },
-    {
-      "title": "【三里河中国経済観察】中国・烏鎮のAI企業7社が注目　地方経済をけん引 - AFPBB News",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2UFc5bTQ0TVNHcllrZmFTVU43YnBvTVJ4Rm9uWFJWS2dveklaQVlIWXl5Z1lEZjhxNmJHZUkydWZOQi0zU0lXd01vMEZBSlRJSGfSAVRBVV95cUxOUVBrZ2tmb1I5S1N2ZWNMNVRBTGRBS3pGUlFOSE1MSFM5c29qZHE4eFlfNzR2TmVUdURrWDQzdGRGWHNKRmMyeW9OQ3FlbEdod1kwUUc?oc=5",
-      "source": "世界経済",
-      "category": "世界経済",
-      "published_at": "2026-11-23T07:12:37Z"
     }
   ],
   "errors": []
