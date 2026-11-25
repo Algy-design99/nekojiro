@@ -53,3 +53,16 @@ footer{color:#a8b5c5}
 #research-card-preview{max-width:390px;margin:1rem auto;padding:.8rem;border:1px solid #677488;border-radius:.4rem}
 #research-card-preview img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}
 .rich-body .research-citation{vertical-align:super;font-size:.75em}
+
+.site-access { margin: 0 0 1rem; padding: clamp(.85rem,2vw,1.35rem); border:1px solid #45536a; border-radius: .65rem; background:#192537; color:#f0f5fa; }
+.site-access :is(h2,h3,p) { margin:0 0 .4rem; }
+.site-access h2 { font-size:clamp(1.15rem,3vw,1.5rem); }
+.site-access h3 { font-size:1rem; }
+.site-access-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin-top: .8rem; }
+.site-access ul { margin:.3rem 0; padding:0; list-style:none; }
+.site-access li + li { margin-top:.3rem; }
+.site-access li a { display:inline-flex; align-items:center; min-height:2rem; color:#abe1fa; overflow-wrap:anywhere; }
+.site-access small,.site-access-note { display:block; color:#c4d0df; font-size:.85rem; }
+.site-access summary { min-height:2.55rem; padding-block:.45rem; cursor:pointer; font-weight:650; }
+.site-access-note { margin-top:.4rem !important; }
+@media(max-width: 42rem){.site-access-grid { grid-template-columns:minmax(0,1fr); } .site-access li a{ min-height:2.75rem; }}
