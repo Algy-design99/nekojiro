@@ -40,11 +40,15 @@ jobs:
           done
           exit 1
       - uses: actions/configure-pages@v5
+      - name: Stage public site without administrative source
+        run: |
+          mkdir -p "$RUNNER_TEMP/nekojiro-pages"
+          rsync -a --exclude='.git/' --exclude='_admin-ui/' --exclude='worker/' ./ "$RUNNER_TEMP/nekojiro-pages/"
       - uses: actions/upload-pages-artifact@v3
         id: artifact
         with:
           name: github-pages-${{ github.run_attempt }}
-          path: '.'
+          path: ${{ runner.temp }}/nekojiro-pages
       - name: Wait for the Pages artifact to be listed
         env:
           GH_TOKEN: ${{ github.token }}

@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['worker/board/**', '.github/workflows/deploy-board-posting.yml']
+    paths: ['worker/board/**', '_admin-ui/**', '.github/workflows/deploy-board-posting.yml']
 permissions:
   contents: write
 concurrency:
@@ -29,6 +29,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Prepare private console assets
+        run: python worker/board/build-console.py
       - name: Deploy separate posting Worker
         working-directory: worker/board
         run: npx --yes wrangler@4 deploy
@@ -57,6 +59,25 @@ jobs:
           pathlib.Path('board/posting.json').write_text(json.dumps({'api':api}),encoding='utf-8')
           with urllib.request.urlopen(urllib.request.Request(api+'/health',headers={'User-Agent':'Mozilla/5.0'}),timeout=10) as response:health=json.load(response)
           if health.get('cmsReady'):
+            import os, urllib.parse, urllib.error, http.cookiejar
+            def get(path):
+              return urllib.request.Request(api+path,headers={'User-Agent':'Mozilla/5.0'})
+            for path in ('/console/', '/console/admin.js', '/console/api/admin/options'):
+              try:
+                urllib.request.urlopen(get(path),timeout=15)
+              except urllib.error.HTTPError as error:
+                assert error.code==401, (path,error.code)
+                assert 'サイト一覧'.encode() not in error.read()
+              else:
+                raise RuntimeError('Console content was publicly accessible: '+path)
+            jar=http.cookiejar.CookieJar()
+            opener=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+            form=urllib.parse.urlencode({'password':os.environ['CMS_ADMIN_PASSWORD']}).encode()
+            req=urllib.request.Request(api+'/console/',data=form,headers={'Origin':api,'User-Agent':'Mozilla/5.0'})
+            with opener.open(req,timeout=20) as result:
+              assert result.status==200 and b'site-access-grid' in result.read()
+            with opener.open(get('/console/api/admin/options'),timeout=20) as result:
+              assert 'research' in json.load(result)['sites']
             pathlib.Path('admin/config.json').write_text(json.dumps({'api':api}),encoding='utf-8')
           PY
       - name: Save frontend connection

@@ -1,0 +1,66 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TSUKASA 記事管理</title><link rel="stylesheet" href="style.css?v=access1"></head><body>
+<header><div><p class="eyebrow">TSUKASA / CONTENT DESK</p><h1>記事をつくる、整える、公開する。</h1></div><a href="https://algy-design99.github.io/nekojiro/sites/" target="_blank" rel="noopener">公開サイト一覧 ↗</a></header>
+<main><section class="site-access" id="site-access" aria-labelledby="site-access-title">
+<h2 id="site-access-title">サイト一覧・アクセス解析</h2>
+<p>公開ページと、媒体ごとのアクセス解析を確認できます。</p><p>比較するときは期間を直近28日間に揃え、閲覧数・検索クリック・読者の反応をそれぞれ確認してください。</p>
+<div class="site-access-grid">
+  <section><h3>アクセス数を確認</h3>
+    <ul>
+      <li><a href="https://livedoor.blogcms.jp/blog/prrle-7xfor0vl/report/" target="_blank" rel="noopener">ライブドア版のアクセス解析</a><small>PV・訪問者・人気記事</small></li>
+      <li><a href="https://note.com/dashboard" target="_blank" rel="noopener">noteのアクセス状況</a><small>ページビュー・表示回数・反応</small></li>
+      <li><a href="https://search.google.com/search-console/" target="_blank" rel="noopener">Google検索からの流入を確認</a><small>Search Consoleで登録・確認済みのサイトが対象</small></li>
+    </ul>
+  </section>
+  <section><h3>公開ページを開く</h3>
+    <details><summary>GitHub Pagesのサイト</summary><ul>
+      <li><a href="https://algy-design99.github.io/nekojiro/" target="_blank" rel="noopener">猫じろうトップ</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/sites/" target="_blank" rel="noopener">テーマ別サイト一覧</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/research/" target="_blank" rel="noopener">猫じろう調査室</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/board/" target="_blank" rel="noopener">猫じろう掲示板</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/portfolio/" target="_blank" rel="noopener">ポートフォリオ</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/dougubako/" target="_blank" rel="noopener">道具箱</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/kuronuma/" target="_blank" rel="noopener">黒沼幻司 公式記録室</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/signal/" target="_blank" rel="noopener">SIGNAL</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/economy/" target="_blank" rel="noopener">経済情報局</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/music/" target="_blank" rel="noopener">MUSIC</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/work/" target="_blank" rel="noopener">しごとの整理室</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/living/" target="_blank" rel="noopener">間と日々</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/food/" target="_blank" rel="noopener">匙とひと息</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/travel/" target="_blank" rel="noopener">まちの余白</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro/craft/" target="_blank" rel="noopener">手のあと</a></li>
+      <li><a href="https://algy-design99.github.io/nekojiro-rekishiita/" target="_blank" rel="noopener">歴史板＠猫じろう</a></li>
+    </ul></details>
+    <details><summary>外部サービスのサイト</summary><ul>
+      <li><a href="https://animer0n.blog.jp/" target="_blank" rel="noopener">ライブドア版 猫じろう調査室</a></li>
+      <li><a href="https://jig0u.fc2.net/" target="_blank" rel="noopener">FC2版 猫じろう掲示板</a></li>
+      <li><a href="https://note.com/anim3r0n" target="_blank" rel="noopener">note</a></li>
+    </ul></details>
+    <p class="site-access-note">GitHub PagesとFC2版のPVは未計測です。Search ConsoleのクリックはGoogle検索からの流入のみです。</p>
+  </section>
+</div>
+</section>
+<section class="connection"><div><strong id="connection-label">接続を確認しています</strong><p id="connection-note">未接続でも、この端末での下書き作成・プレビュー・ファイル保存ができます。</p></div><form id="login-form" hidden><label for="password">管理者パスワード</label><div class="row"><input id="password" type="password" autocomplete="current-password" maxlength="256"><button id="login-button" disabled>ログイン</button><button type="button" id="logout" hidden>ログアウト</button></div></form></section>
+<p id="message" role="status" aria-live="polite"></p>
+<div class="workspace"><aside><label for="site">投稿先</label><select id="site"><option value="research">猫じろう調査室</option><option value="board" selected>猫じろう掲示板</option><option value="work">しごとの整理室</option><option value="living">間と日々</option><option value="food">匙とひと息</option><option value="travel">まちの余白</option><option value="craft">手のあと</option></select><div class="row"><button id="new" type="button">＋ 新しい記事</button><button id="reload" type="button">一覧更新</button></div><label for="search">記事を探す</label><input id="search" type="search" placeholder="タイトルで検索"><p class="muted" id="list-note"></p><ul id="article-list"></ul></aside>
+<section class="editor"><div class="editor-heading"><h2 id="editor-heading">新しい記事</h2><span id="article-state" class="badge">この端末の下書き</span></div>
+<form id="editor-form"><label for="title">タイトル</label><input id="title" maxlength="180" required placeholder="記事・スレッドのタイトル"><label for="category" id="category-label">板</label><select id="category" required></select>
+<div class="row tools"><label class="file-button">原稿を読み込む<input id="import" type="file" accept=".html,.htm,.txt,.json" hidden></label><label class="file-button">画像を追加<input id="image" type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden disabled></label><label class="format">入力形式<select id="format"><option value="plain">文章（改行を段落に）</option><option value="html">HTML（作成ツールの出力）</option></select></label></div>
+<section id="research-editor" hidden>
+<label for="research-body">本文</label>
+<div class="editor-tools" role="group" aria-label="本文の装飾">
+<button type="button" data-command="formatBlock" data-value="h2">見出し</button><button type="button" data-command="bold">太字</button><button type="button" data-insert="image">画像</button><button type="button" data-insert="link">リンク</button><button type="button" data-insert="emoji">絵文字</button>
+<details id="research-more"><summary>挿入・装飾</summary><div class="editor-tools">
+<button type="button" data-command="formatBlock" data-value="h3">小見出し</button><button type="button" data-command="formatBlock" data-value="blockquote">引用</button><button type="button" data-command="italic">斜体</button><button type="button" data-command="strikeThrough">取り消し線</button><button type="button" data-insert="mark">マーカー</button><button type="button" data-command="insertUnorderedList">箇条書き</button><button type="button" data-command="insertOrderedList">番号付きリスト</button><button type="button" data-command="insertHorizontalRule">区切り線</button><button type="button" data-command="removeFormat">装飾を解除</button><button type="button" data-insert="table">表</button><button type="button" data-insert="note">囲み枠</button><button type="button" data-insert="source">出典</button><button type="button" data-insert="internal">過去記事リンク</button><button type="button" data-insert="anchor">見出しリンク</button>
+</div></details>
+</div>
+<div id="research-body" class="rich-body" contenteditable="true" role="textbox" aria-multiline="true" aria-label="本文"></div>
+<div class="editor-tools rich-options"><label><input type="checkbox" id="research-toc"> 目次を表示</label><label><input type="checkbox" id="research-plain-paste"> テキストのみで貼り付け</label><button type="button" data-insert="cover">記事カード画像</button><button type="button" id="rich-html-toggle" aria-pressed="false">HTMLを表示</button></div>
+<p id="research-cover-state" class="muted"></p><p id="research-save-state" class="muted" role="status"></p>
+<dialog id="research-dialog"><div id="research-dialog-fields"></div><div class="editor-tools"><button type="button" id="research-dialog-apply">挿入する</button><button type="button" id="research-dialog-cancel">閉じる</button></div></dialog>
+</section><label for="body" id="body-label">本文</label><textarea id="body" rows="18" required spellcheck="false" placeholder="文章を書き込むか、作成ツールのHTMLを貼り付けます。"></textarea>
+<p class="muted">入力中の内容は、この端末にも自動保存します。画像はログイン後に追加でき、公開までは非公開の保存先で扱います。</p>
+<div class="actions"><button type="button" id="preview">プレビュー</button><button type="button" id="export">下書きをファイル保存</button><button type="button" id="save" disabled>下書きを保存</button><button type="button" id="publish" class="primary" disabled>公開する</button></div>
+<div class="secondary-actions"><button type="button" id="copy-public-link" hidden>記事URLをコピー</button><a id="public-link" href="#" target="_blank" rel="noopener" hidden>公開ページを開く ↗</a><button type="button" id="unpublish" disabled>非公開にする</button><button type="button" id="delete" class="danger" disabled>削除する</button></div>
+<p class="muted small">公開先はGitHubです。非公開・削除後も、公開済みの内容はGitHubの履歴に残ります。</p></form>
+<section id="preview-area" hidden><div class="editor-heading"><h2>公開前の確認</h2><button type="button" id="close-preview">閉じる</button></div><div class="preview-widths" id="preview-widths" hidden><button type="button" data-preview-width="desktop" aria-pressed="true">PC</button><button type="button" data-preview-width="mobile" aria-pressed="false">スマホ</button></div><div id="preview-viewport"><iframe id="preview-frame" title="記事プレビュー" sandbox=""></iframe></div><div id="research-card-preview" hidden></div><p id="research-preview-check" class="muted" hidden></p><p class="muted small" id="preview-note">本文の確認用です。</p></section></section></div>
+</main><footer>TSUKASA · 記事作成・投稿管理</footer><script src="research-editor.js?v=editor2"></script><script src="admin.js?v=editor2"></script></body></html>

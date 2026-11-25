@@ -3,6 +3,12 @@ main = "index.mjs"
 compatibility_date = "2026-11-14"
 workers_dev = true
 
+[assets]
+directory = "./console-assets"
+binding = "CONSOLE_ASSETS"
+run_worker_first = true
+html_handling = "none"
+
 [[durable_objects.bindings]]
 name = "BOARD"
 class_name = "BoardRoom"
