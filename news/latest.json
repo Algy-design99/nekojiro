@@ -1,8 +1,86 @@
 {
-  "updated_at": "2026-11-25T20:35:28.278222Z",
+  "updated_at": "2026-11-25T22:40:04.318531Z",
   "max_age_hours": 36,
   "count": 30,
   "items": [
+    {
+      "title": "【地震情報】熊本県で震度３",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261125de81455",
+      "source": "NHK",
+      "published_at": "2026-11-25T22:36:06Z"
+    },
+    {
+      "title": "二宮和也 2年ぶりに映画主演へ",
+      "url": "https://news.yahoo.co.jp/pickup/6603995?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-25T22:33:26Z"
+    },
+    {
+      "title": "【速報】死亡女児臓器に萎縮、強いストレス受けたか - 47NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xWnlkVWVMTGt2QVRUUENXN1kza05zTE9TaXJmXy02dVp6a1dKd0hKSVFtNk45NzNraS1iMHd0akVxenNmWnhsWjV3aw?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-25T22:28:26Z"
+    },
+    {
+      "title": "アメリカ バンス副大統領「フアン氏は捜査対象ではない」",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81573",
+      "source": "NHK",
+      "published_at": "2026-11-25T22:12:47Z"
+    },
+    {
+      "title": "鹿児島 姶良で住宅火災 住んでいるとみられる3人と連絡取れず",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81572",
+      "source": "NHK",
+      "published_at": "2026-11-25T21:54:36Z"
+    },
+    {
+      "title": "大谷 今後の二刀流について語る - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MSTJPOGttODdYN3lqM1lUSmhxd3UybktDMWZlSE54d0NmWXUtMUlQWFU3MlJFSUtiVmtfekxkLXFoNGZEa0t0LURnTEIxbjlY?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-25T21:53:14Z"
+    },
+    {
+      "title": "大谷 今後の二刀流について語る",
+      "url": "https://news.yahoo.co.jp/pickup/6603994?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-25T21:52:32Z"
+    },
+    {
+      "title": "米 過剰生産で日本など追加関税 既存税率含め日本は最大15％に",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81560",
+      "source": "NHK",
+      "published_at": "2026-11-25T21:35:30Z"
+    },
+    {
+      "title": "趣里&杉野遥亮 フジ月9でW主演",
+      "url": "https://news.yahoo.co.jp/pickup/6603992?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-25T21:25:42Z"
+    },
+    {
+      "title": "福岡 駅員殴った疑いで49歳逮捕 男性刺殺事件と関連調べ",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261125de81511",
+      "source": "NHK",
+      "published_at": "2026-11-25T21:20:10Z"
+    },
+    {
+      "title": "フアン氏の復帰 企業統治に批判",
+      "url": "https://news.yahoo.co.jp/pickup/6603991?source=rss",
+      "source": "Yahoo!ニュース",
+      "published_at": "2026-11-25T21:15:51Z"
+    },
+    {
+      "title": "ニコン「ZR」がアップデート、H.265収録時もREDのカラーサイエンスで撮影可能に - GetNavi web",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBTU1R0M3VOeFJZWml2M09vcWx0ajRzM3ZwUU9CaXpxSm9sclRYdzkxUi14dUJWdUxuaWJiQ3N4NzhKbEszZ1NiR2p0NWU?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-25T21:15:00Z"
+    },
+    {
+      "title": "神木隆之介 29年NHK大河主演 「まさかこんな日が来るなんて」 朝ドラと両作主演は男性史上初快挙（スポニチアネックス） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBacE5pMEE0eU9Jb1VRTU5rZjJJTXc3amJacV82eU82ZURvbEhfdUlwaHJualI2M1BmQjY0X2owcTBSYlFHVXZqSXBBbnBmTTZ5ZXpkVnN1WHZWQlZVbWwwODU0SHN1QUgxWXdzYmFBVXNCcXVxdGdXN0ZrN1c4bVk?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-25T20:41:22Z"
+    },
     {
       "title": "野党 関文科相問責決議案 きょう提出へ 与党は否決へ全力",
       "url": "https://news.web.nhk/newsweb/na/nd-20261126de81559",
@@ -10,40 +88,46 @@
       "published_at": "2026-11-25T20:34:55Z"
     },
     {
-      "title": "香港 168人死亡の高層住宅火災から1年 政府 抜き打ち検査強化",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81564",
-      "source": "NHK",
-      "published_at": "2026-11-25T20:19:44Z"
-    },
-    {
-      "title": "ネパール土石流発生から3か月 住宅の確保など生活再建が課題",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261125de81518",
-      "source": "NHK",
-      "published_at": "2026-11-25T20:09:27Z"
-    },
-    {
-      "title": "カブス 佐藤輝明＆オリオールズＦＡの先発左腕ロジャーズ獲得 残る課題は先発陣（デイリースポーツ） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qSjdLVURQa2gtM1MwX0MxVWNxWkNlM3Q2Zk92NnJSUUhjTDNwY0dCVlV6YmtMN1FpTnItVHBCZUxFMmE1czhhVVRRbHNTdHJZRFRrRXV6WUZfWm1RT3BtNWtZazFyd0dacU9EeWlRd25lRU1VU1VZTjloZV96VTA?oc=5",
+      "title": "北朝鮮、スイスに平壌事務所の閉鎖要求 「制裁は敵対行為」 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SVEFzQWNNaGp0eFhfckg2QUIxeGZSRW1RMVlCV0pZOHN5TE1EeWtGUXhmZU1PZXBvdDRkQTJWYmtYLVFXbTloZ1ZiWmVCc01RSVYtYXdXa1l0YWhoY3c4LXdrQW9zcjF3bGU1MQ?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-25T17:04:16Z"
+      "published_at": "2026-11-25T19:35:29Z"
     },
     {
-      "title": "米 過剰生産で日本などに追加関税 既存税率含め日本最大15％に",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261126de81560",
-      "source": "NHK",
+      "title": "ほとんど姿を見せないマラウイ大統領、健康状態や統治能力について説明求める声（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wVlhMa3o1azJ0cy1fWnJKVkwwQ3cyemllVE80WEZjNldELTQyNkJEbjRLbnhadHJobnVZTEQyTXU4MlpZR2VuMlBEMkMzMGhWRll4TmRmbklzQ2tLdEZCZ185VTBNQ3ZKZ1lmLTc4TzRXTzJLeXFERU1LTG0tRUU?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-25T17:18:21Z"
+    },
+    {
+      "title": "ロシア、ウクライナへの外国部隊展開拒否 英元首相の提案に反発（ロイター） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PYjhzdFF6ZVZfTDRSYVBfREktenROVzZ3bU5EVTd6Z1A5MnZ2ZjNET1BWWS1EdUQ4SXZkLUF6a3czS3hnWEV6bEgxN1dCYjVUUW1SVWFGNjBiOWNKN1FzTlpMSUtYclM3MHBtRGQ3YTk2cGJKYllEb0E2ODZDQlU?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-25T16:50:52Z"
+    },
+    {
+      "title": "米 過剰生産で日本など追加関税 既存税率含め日本は最大15％に - NHKニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNZllJY1NJaW9DZ0lRcF9EbktqZUM2Vnk1WDZBY3F0LXBoai01SkdidmVxY2NoaGJHN3JWcHdUU3pjZVdlaTVYX0VxZnRIUVBEVzVFbzNURnAwaEFoMV8w?oc=5",
+      "source": "Google ニュース",
       "published_at": "2026-11-25T16:21:46Z"
     },
     {
-      "title": "米 日中やEUなどに新関税を提案 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VQ196WGZRdkh3UG1OX2ZacjdnTmF6THo2cUJIZk9lX05mT3MxejlJb19ITmVsQUhia2hTZGRsNC13bnIwLUxyVFF2MjZNYnRE?oc=5",
+      "title": "【市場反応】米10月新築住宅販売件数は昨年12月来で最高、住宅ローン金利低下が支援、ドル買い優勢 - ザイFX！",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHUDBKNTk1NTczR0ZOMTJlLWdEY0QwSHlzZjlsRGdtNHdUeklNT1F4LUM1VGdybFF4V0NwWGRrV0g3WnJ6dzh2UjV4MnVScFhVY3c?oc=5",
       "source": "Google ニュース",
-      "published_at": "2026-11-25T15:18:15Z"
+      "published_at": "2026-11-25T15:34:00Z"
     },
     {
       "title": "米 日中やEUなどに新関税を提案",
       "url": "https://news.yahoo.co.jp/pickup/6603990?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-25T15:17:03Z"
+    },
+    {
+      "title": "米国株、ダウ大幅反落で始まる AI関連に売り膨らむ エヌビディア大幅安 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NaExPdW56SGtTekhfNnc2QndTMGVqYkxSRkZyLV82NHA2NHZBMC1qd2thb3FrNVBGbHN2TnlDZWlZY3NQclVaQkpsVHU3ZTNta1o1bnhYY2o2R282SnJBU0FBSEFORGxkZXctUg?oc=5",
+      "source": "Google ニュース",
+      "published_at": "2026-11-25T14:58:52Z"
     },
     {
       "title": "酒巻馨被告（79）に死刑求刑 千葉・柏市で夫婦を殺害して住宅に放火・全焼 検察側「身勝手極まりない」 弁護側は無期懲役が相当だと主張（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
@@ -76,28 +160,10 @@
       "published_at": "2026-11-25T14:16:00Z"
     },
     {
-      "title": "3文書 防衛力整備計画の指針判明",
-      "url": "https://news.yahoo.co.jp/pickup/6603985?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-25T14:12:01Z"
-    },
-    {
       "title": "中国各地、冬の夜空に輝く「スーパームーン」 - 新華網日本語",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lNXMzdmFuVmJLOWVCR0d3a2s1YVBqS3hNblFENDZDSGltT0tiZ2p6RzRMN05NbDc5LTVrLUV1SDk5R2JNTGFiN3dFRkFXX2lJSlhNclYtbEN5YWxveXBVOV8wSEZNZUxsdGJMaUdtaUJYTU5xV1E?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-25T14:08:00Z"
-    },
-    {
-      "title": "佐藤輝がセMVP 表彰式異例の欠席",
-      "url": "https://news.yahoo.co.jp/pickup/6603986?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-25T13:51:22Z"
-    },
-    {
-      "title": "ミス・インターナショナル世界大会でモルドバ代表が優勝、日本代表は入賞を逃す - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1FWG9oanhRaVYzUXF6X2ZQejdUU1dEcDdERVQ5REZIZlhIWS16TXBiZE1xa01BX0ozc194RE9yMTZCWE5sSVpyUTRIVlNtemhiRnhabWRrWlV0NEVLYkRYYnRmWkdVZXRnc2tsR08yTUZZRDZMdFE?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-25T13:39:38Z"
     },
     {
       "title": "【速報】米・7-9月期GDP改定値は予想＋4.3％｜FX・為替ニュース - ザイFX！",
@@ -106,82 +172,16 @@
       "published_at": "2026-11-25T13:33:00Z"
     },
     {
-      "title": "エヌビディアのフアン氏復帰、企業統治に批判強まる…「政治介入に屈した」「取締役会の監督力弱まる」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLLVhFWk9ZV3FHbVZhaXhfU1g1cUg5eUozTkU1dzlMRTNGYWpYSE9DS19sdWh0MU9Xa2xScmM4RnBNODVnNmR0SUl5d2VjMVpuM1Z2OGdhTGl4QmZWeTlIWExmcjU?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-25T13:33:00Z"
-    },
-    {
-      "title": "福岡 駅員殴った疑いで49歳逮捕 男性刺殺事件と関連調べ",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261125de81511",
-      "source": "NHK",
-      "published_at": "2026-11-25T13:06:00Z"
-    },
-    {
       "title": "福岡刺殺 確保の男を別容疑で逮捕",
       "url": "https://news.yahoo.co.jp/pickup/6603982?source=rss",
       "source": "Yahoo!ニュース",
       "published_at": "2026-11-25T13:04:10Z"
     },
     {
-      "title": "パイロット不足 航空の2030年問題",
-      "url": "https://news.yahoo.co.jp/pickup/6603979?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-25T13:01:50Z"
-    },
-    {
-      "title": "安保3文書改定、反撃能力に新対艦ミサイルを導入へ 装備品の国産化推進 陸自定員見直し - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aRXpfbTlzWUlXZS1WT2FMOGFHbGFBNHlCd0w2OFdIOTFLbml6NmV2UVY5LU5YVks5VU8wRXV3cTM3OXIyczNMS3JiZF9ueEdmbW5oSzRvQksyck9vbGRRb29RSlo3bkdvcE9JN1ZoLVFHYmlFdWc?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-25T12:40:33Z"
-    },
-    {
       "title": "20年以上にわたって未徴収…そもそも入湯税とは 町長が語った公表しなかった理由 「みんな脱税」発言の真意は? - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KbWtqb01BU2RIQXJnOWlZbU9iOENGV0ZVenA3YWhtT0JUakdxc1AtY01XcEpTWUdZdGhCYzNZU21PWWdVTGJ4ZXF6aEVXS2hoZW9JNzc0dzdzMUpBU1N1My1JQ3NjVVIyTHZ6Y2R6ZDAwZU5YNXdZNS1TdHNNOFE?oc=5",
       "source": "Google ニュース",
       "published_at": "2026-11-25T12:36:23Z"
-    },
-    {
-      "title": "Aえ! group・佐野晶哉 小６でオペラ出演も恩師は記憶なし…「覚えてくれてるぞって思ったのに！」（東スポWEB） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kdHVfT2hjNTZrUkhoN3F2V05iSmVhaFZLb2VHVk5jdnFfOE5BUnh5Y0tyUnAyblhaQmJ6enBTWmJ1d2h1OXk0Vzgwd2dTU0tXZVJxYVVoQlg5RlVtYmdCbDlITHo1X2FGWGZnT2FDODRwNlBCQVQxMUYzelpXN1U?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-25T12:35:23Z"
-    },
-    {
-      "title": "兵庫の死亡3歳女児、臓器に萎縮 暴行死、司法解剖で確認（共同通信） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12VXZWcWViUmZnUzdGTWd5QVNwWFVUQWZCVzJRNDgyTGlNWU5GOHVuVTB4bElIWWJLdzBrS3Zwek5kU2c4aTV2MWR3ZzM3N0FlRGRsS1Vrb1dzZTNsVWFmb2Ytc3AxYlZ6ZkNkc09Ecm9RVmh0QzFOVm1CM051UWc?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-25T12:25:14Z"
-    },
-    {
-      "title": "南太平洋のソロモン諸島がオーストラリアと関係強化の包括条約、親中路線転換…「大きな勝利」と豪研究員 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13bWZoSVdtc0E4QmhvclRHX0NYd3dOTEktdXIyS2VPVERjdmZLeGNpeFl4THJzekV4UHVpeVFVVEZBa2dzQTFadS1nRU1YZXc5M2tnXy0yWDRKMGY1UXRRNmJB?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-25T12:21:00Z"
-    },
-    {
-      "title": "石川さんから 結婚発表3分前の1通",
-      "url": "https://news.yahoo.co.jp/pickup/6603973?source=rss",
-      "source": "Yahoo!ニュース",
-      "published_at": "2026-11-25T11:59:03Z"
-    },
-    {
-      "title": "Pimax、超軽量VR『Dream Air』シリーズ専用3Dプリント用フロントプレートの公式STEPデータを「Printables」にて無料公開！SLAM版・Lighthouse版の2種類を展開 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SX0trZGJFZWU5bXp3enJsTnRtTDNSbC1zWGFfQUZsNmpjLUt2NXMyVzAwa1hXUHU4Mm9xRldYNzgyT1A0SGZXSVEyVVRhNDl4eG0zQmlFMUFLYjlBaUlhVkRBZlRsSnBoQnc?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-25T11:50:02Z"
-    },
-    {
-      "title": "大阪・海遊館で９年ぶりラッコ展示へ、アラスカ州の海岸で保護された４頭「元気で活発な姿を見て」 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14RTFfWHFqakFXcThrVXZISTdFVTZweFFLY1p1RlU4OGx4U0FTYUE2TEFRMTM5cHFJeHJaYjVrT0VBckdlOEV1QTRGOHBiTWpSWFZYeTVRemdJZ3lEcTB0YzIwaTRLZw?oc=5",
-      "source": "Google ニュース",
-      "published_at": "2026-11-25T11:31:00Z"
-    },
-    {
-      "title": "卓球 五輪3大会連続でメダル 石川佳純さんが結婚 SNSで発表",
-      "url": "https://news.web.nhk/newsweb/na/nd-20261125de81444",
-      "source": "NHK",
-      "published_at": "2026-11-25T11:30:00Z"
     }
   ]
 }
