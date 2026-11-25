@@ -1,6 +1,6 @@
 const ORIGIN='https://algy-design99.github.io';
 const REPO='Algy-design99/nekojiro';
-const SITES=['board','work','living','food','travel','craft'];
+const SITES=['board','work','living','food','travel','craft','research'];
 const encoder=new TextEncoder(),decoder=new TextDecoder();
 const cors={'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','Access-Control-Allow-Origin':ORIGIN,'Access-Control-Allow-Headers':'Content-Type,Authorization','Access-Control-Allow-Methods':'GET,POST,PUT,DELETE,OPTIONS','Vary':'Origin'};
 export const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:cors});

@@ -22,3 +22,15 @@ button:disabled{opacity:.55}
 #article-list small{color:#aab9cc}
 iframe{border-color:#526175;background:#fff}
 footer{color:#a8b5c5}
+
+.preview-widths { display:flex; gap:.5rem; margin-bottom:1rem; }
+.preview-widths button[aria-pressed="true"] { border-color:#b48b4a; }
+#preview-frame { display:block; margin-inline:auto; }
+#preview-frame[data-width="mobile"] { max-width:390px; }
+#preview-viewport { overflow:hidden; }
+#preview-frame[data-width="desktop"] {
+  width:1100px;
+  max-width:none;
+  zoom:var(--desktop-scale, 1);
+  height:calc(560px / var(--desktop-scale, 1));
+}

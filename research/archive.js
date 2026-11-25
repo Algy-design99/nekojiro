@@ -7,7 +7,7 @@ const chips = Array.from(document.querySelectorAll(".chip"));
 const cards = Array.from(document.querySelectorAll(".report-card"), (element) => ({
   element,
   link: element.querySelector("h3 a"),
-  text: element.textContent.normalize("NFKC").toLocaleLowerCase("ja"),
+  text: ((element.dataset.topic || "") + " " + element.textContent).normalize("NFKC").toLocaleLowerCase("ja"),
 }));
 const batchSize = 12;
 let visible = batchSize;

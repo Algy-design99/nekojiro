@@ -50,6 +50,43 @@ def docs(site):
   if d.get('status')=='published':result.append(d)
  return sorted(result,key=lambda d:(d.get('publishedAt')or d.get('createdAt')or '',-d['order']if 'order'in d else int(d['id'])if str(d['id']).isdigit()else 0),reverse=True)
 def summary(d):return {k:v for k,v in d.items()if k not in ['body','comments']}
+def render_research():
+ research=ROOT/'research'
+ archives=research/'archives'
+ articles=docs('research')
+ save(ROOT/'content/research/index.json',[summary(d) for d in articles])
+ template=(archives/'15930697.html').read_text(encoding='utf-8')
+ parts=Parts(template)
+ sheet=parts.find('class','reading-sheet')
+ cards=[]
+ for d in articles:
+  title=html.escape(d['title']);category=html.escape(str(d['category']))
+  timestamp=html.escape(d.get('publishedAt') or d.get('createdAt') or '',quote=True)
+  date=timestamp[:10].replace('-','/')
+  filename='managed-'+d['id']+'.html'
+  body=d['body']
+  image=re.search(r'<img\b[^>]*\bsrc="(https?://[^"]+)"',body,re.I)
+  picture=(f'<img src="{html.escape(html.unescape(image[1]),quote=True)}" alt="" loading="lazy" width="800" height="500">' if image else '<span class="no-image" aria-hidden="true">◈</span>')
+  excerpt=html.escape(re.sub(r'\s+',' ',plain(body)).strip()[:140])
+  cards.append(f'<article class="report-card" data-managed="research" data-topic="{category}"><div class="report-image">{picture}</div><div class="report-info"><time datetime="{timestamp}">{date}</time><h3><a href="archives/{filename}">{title}</a></h3><p>{excerpt}</p></div></article>')
+  content=f'<div class="reading-label">{category}</div><header class="reading-header"><time datetime="{timestamp}">{date}</time><h1 itemprop="headline">{title}</h1><div class="reading-rule"></div></header><div class="reading-body" itemprop="articleBody">{body}</div>'
+  page=parts.replace(sheet,content)
+  page=re.sub(r'<title>[^<]*</title>',lambda _:f'<title>{title}｜猫じろう調査室</title>',page,count=1)
+  (archives/filename).write_text(page,encoding='utf-8')
+ live={'managed-'+d['id']+'.html' for d in articles}
+ for p in archives.glob('managed-*.html'):
+  if p.name not in live:
+   p.unlink()
+ path=research/'index.html'
+ index=path.read_text(encoding='utf-8')
+ index=re.sub(r'<!-- managed research:start -->[\s\S]*?<!-- managed research:end -->','',index,count=1)
+ count=index.count('class="report-card"')+len(cards)
+ index=re.sub(r'(<p id="archive-count" aria-live="polite">)\d+件',lambda m:m[1]+str(count)+'件',index,count=1)
+ marker='<div class="report-grid">'
+ assert marker in index
+ index=index.replace(marker,marker+'<!-- managed research:start -->'+''.join(cards)+'<!-- managed research:end -->',1)
+ path.write_text(index,encoding='utf-8')
+
 def render():
  board=docs('board');categories=json.loads((ROOT/'content/board-categories.json').read_text(encoding='utf-8'));counts={}
  for d in board:counts[d['category']]=counts.get(d['category'],0)+1
@@ -82,5 +119,6 @@ def render():
    if d['status']!='published':
     old=ROOT/site/(d['id']+'.html')
     if old.exists():old.unlink()
+ render_research()
  save(ROOT/'content/version.json',{'builtAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'boardArticles':len(board),'themeArticles':sum(len(docs(s))for s in SITES)})
 if __name__=='__main__':bootstrap();render();print('Published content indexes and static pages rebuilt')
