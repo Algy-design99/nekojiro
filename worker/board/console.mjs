@@ -16,7 +16,7 @@ function response(body, status, extra = {}) {
     'X-Robots-Tag': 'noindex, nofollow',
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'DENY',
-    'Referrer-Policy': 'no-referrer',
+    'Referrer-Policy': 'same-origin',
     ...extra,
   }});
 }
@@ -48,7 +48,9 @@ export async function consoleResponse(request, env) {
     return response('Service unavailable', 503);
   }
   const isRead = request.method === 'GET' || request.method === 'HEAD';
-  if (!isRead && request.headers.get('Origin') !== url.origin) return response('Forbidden', 403);
+  if (!isRead && request.headers.get('Origin') !== url.origin) {
+    return isHome ? login(403, 'このページを開き直してからログインしてください。') : response('Forbidden', 403);
+  }
 
   if (isHome && request.method === 'POST') {
     if (Number(request.headers.get('Content-Length')) > 4096) return response('Payload too large', 413);
