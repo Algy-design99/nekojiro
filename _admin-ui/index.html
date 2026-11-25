@@ -44,9 +44,9 @@
 <div class="workspace"><aside><label for="site">投稿先</label><select id="site"><option value="research">猫じろう調査室</option><option value="board" selected>猫じろう掲示板</option><option value="work">しごとの整理室</option><option value="living">間と日々</option><option value="food">匙とひと息</option><option value="travel">まちの余白</option><option value="craft">手のあと</option></select><div class="row"><button id="new" type="button">＋ 新しい記事</button><button id="reload" type="button">一覧更新</button></div><label for="search">記事を探す</label><input id="search" type="search" placeholder="タイトルで検索"><p class="muted" id="list-note"></p><ul id="article-list"></ul></aside>
 <section class="editor"><div class="editor-heading"><h2 id="editor-heading">新しい記事</h2><span id="article-state" class="badge">この端末の下書き</span></div>
 <form id="editor-form"><label for="title">タイトル</label><input id="title" maxlength="180" required placeholder="記事・スレッドのタイトル"><label for="category" id="category-label">板</label><select id="category" required></select>
-<div class="row tools"><label class="file-button">原稿を読み込む<input id="import" type="file" accept=".html,.htm,.txt,.json" hidden></label><label class="file-button">画像を追加<input id="image" type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden disabled></label><label class="format">入力形式<select id="format"><option value="plain">文章（改行を段落に）</option><option value="html">HTML（作成ツールの出力）</option></select></label></div>
+<div class="row tools"><label class="file-button">原稿を読み込む<input id="import" type="file" accept=".html,.htm,.txt,.json" hidden></label><label class="file-button">画像を追加<input id="image" type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden disabled></label><label class="format">入力形式<select id="format"><option value="plain">文章（改行を段落に）</option><option value="html">HTMLコードを貼り付ける</option></select></label></div>
 <section id="research-editor" hidden>
-<label for="research-body">本文</label>
+<div class="editor-tools"><label for="research-body" id="research-body-label">本文</label><button type="button" id="rich-html-toggle" aria-pressed="false" aria-controls="body">HTMLコードを貼り付ける</button></div>
 <div class="editor-tools" role="group" aria-label="本文の装飾">
 <button type="button" data-command="formatBlock" data-value="h2">見出し</button><button type="button" data-command="bold">太字</button><button type="button" data-insert="image">画像</button><button type="button" data-insert="link">リンク</button><button type="button" data-insert="emoji">絵文字</button>
 <details id="research-more"><summary>挿入・装飾</summary><div class="editor-tools">
@@ -54,10 +54,10 @@
 </div></details>
 </div>
 <div id="research-body" class="rich-body" contenteditable="true" role="textbox" aria-multiline="true" aria-label="本文"></div>
-<div class="editor-tools rich-options"><label><input type="checkbox" id="research-toc"> 目次を表示</label><label><input type="checkbox" id="research-plain-paste"> テキストのみで貼り付け</label><button type="button" data-insert="cover">記事カード画像</button><button type="button" id="rich-html-toggle" aria-pressed="false">HTMLを表示</button></div>
+<div class="editor-tools rich-options"><label><input type="checkbox" id="research-toc"> 目次を表示</label><label><input type="checkbox" id="research-plain-paste"> テキストのみで貼り付け</label><button type="button" data-insert="cover">記事カード画像</button></div>
 <p id="research-cover-state" class="muted"></p><p id="research-save-state" class="muted" role="status"></p>
 <dialog id="research-dialog"><div id="research-dialog-fields"></div><div class="editor-tools"><button type="button" id="research-dialog-apply">挿入する</button><button type="button" id="research-dialog-cancel">閉じる</button></div></dialog>
-</section><label for="body" id="body-label">本文</label><textarea id="body" rows="18" required spellcheck="false" placeholder="文章を書き込むか、作成ツールのHTMLを貼り付けます。"></textarea>
+</section><label for="body" id="body-label">本文</label><textarea id="body" rows="18" required spellcheck="false" aria-describedby="body-mode-hint" placeholder="本文を入力"></textarea><p id="body-mode-hint" class="muted small">HTMLコードを貼る場合は、入力形式で「HTMLコードを貼り付ける」を選びます。</p>
 <p class="muted">入力中の内容は、この端末にも自動保存します。画像はログイン後に追加でき、公開までは非公開の保存先で扱います。</p>
 <div class="actions"><button type="button" id="preview">プレビュー</button><button type="button" id="export">下書きをファイル保存</button><button type="button" id="save" disabled>下書きを保存</button><button type="button" id="publish" class="primary" disabled>公開する</button></div>
 <div class="secondary-actions"><button type="button" id="copy-public-link" hidden>記事URLをコピー</button><a id="public-link" href="#" target="_blank" rel="noopener" hidden>公開ページを開く ↗</a><button type="button" id="unpublish" disabled>非公開にする</button><button type="button" id="delete" class="danger" disabled>削除する</button></div>
