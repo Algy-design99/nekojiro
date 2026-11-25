@@ -103,6 +103,11 @@ def render_research():
  assert marker in index
  index=index.replace(marker,marker+'<!-- managed research:start -->'+''.join(cards)+'<!-- managed research:end -->',1)
  path.write_text(index,encoding='utf-8')
+ archive_pages=sorted(p.name for p in archives.glob('*.html') if p.stem.isdecimal() or p.name in live)
+ research_url='https://algy-design99.github.io/nekojiro/research/'
+ urls=[research_url]+[research_url+'archives/'+name for name in archive_pages]
+ entries=''.join('  <url><loc>'+html.escape(url)+'</loc></url>\n' for url in urls)
+ (research/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+entries+'</urlset>\n',encoding='utf-8')
 
 def render():
  board=docs('board');categories=json.loads((ROOT/'content/board-categories.json').read_text(encoding='utf-8'));counts={}

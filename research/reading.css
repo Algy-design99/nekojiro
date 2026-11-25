@@ -110,3 +110,12 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .reading-body .research-citation { vertical-align:super;font-size:.75em; }
 
 .research-toc .toc-h3,.research-toc .toc-h4,.research-toc .toc-h5,.research-toc .toc-h6 { margin-inline-start:1rem; }
+
+.research-picks { padding-bottom:0; }
+.research-picks-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.research-picks-grid > div { background:#fff;border:1px solid var(--line);border-radius:.375rem;padding:1rem 1.25rem; }
+.research-picks h3 { margin:0;font-size:1.05rem; }
+.research-picks ul { margin:.55rem 0 0;padding-left:1.2rem; }
+.research-picks li { margin:.35rem 0; }
+.research-related-sites { display:flex;flex-wrap:wrap;gap:1rem;padding-top:1rem;border-top:1px solid #ffffff55; }
+@media (max-width:42rem) { .research-picks-grid { grid-template-columns:minmax(0,1fr); } }
