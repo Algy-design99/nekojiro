@@ -1,8 +1,8 @@
 # 記事管理の接続設定
 
-管理画面: https://algy-design99.github.io/nekojiro/admin/
+管理画面: https://nekojiro-board-posts.conf-uyy.workers.dev/console/
 
-未接続でも端末内下書き、既存記事の閲覧、プレビュー、JSON保存が使えます。端末内下書きは共有PCで使用しないでください。
+ログイン後に記事の閲覧、プレビュー、JSON保存が使えます。旧URLの移転案内では、そのブラウザに残る下書きを取り出せます。
 
 ## 一度だけ必要な設定
 
