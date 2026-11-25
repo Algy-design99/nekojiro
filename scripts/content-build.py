@@ -1,7 +1,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import quote, urljoin
-import json,gzip,re,html,datetime
+import json,gzip,re,html,datetime,hashlib
 
 ROOT=Path('.')
 SITES={'work':'しごとの整理室','living':'間と日々','food':'匙とひと息','travel':'まちの余白','craft':'手のあと'}
@@ -70,6 +70,7 @@ def render_research():
  articles=docs('research')
  save(ROOT/'content/research/index.json',[summary(d) for d in articles])
  template=(archives/'15930697.html').read_text(encoding='utf-8')
+ stylesheet_hash=hashlib.sha256((research/'reading.css').read_bytes()).hexdigest()[:12]
  parts=Parts(template)
  sheet=parts.find('class','reading-sheet')
  cards=[]
@@ -88,6 +89,7 @@ def render_research():
   cards.append(f'<article class="report-card" data-managed="research" data-topic="{category}"><div class="report-image">{picture}</div><div class="report-info"><time datetime="{timestamp}">{date}</time><h3><a href="archives/{filename}">{title}</a></h3><p>{excerpt}</p></div></article>')
   content=f'<div class="reading-label">{category}</div><header class="reading-header"><time datetime="{timestamp}">{date}</time><h1 itemprop="headline">{title}</h1><div class="reading-rule"></div></header><div class="reading-body" itemprop="articleBody">{body}</div>'
   page=parts.replace(sheet,content)
+  page=page.replace('href="../reading.css"', f'href="../reading.css?v={stylesheet_hash}"', 1)
   page=re.sub(r'<title>[^<]*</title>',lambda _:f'<title>{title}｜猫じろう調査室</title>',page,count=1)
   (archives/filename).write_text(page,encoding='utf-8')
  live={'managed-'+d['id']+'.html' for d in articles}
