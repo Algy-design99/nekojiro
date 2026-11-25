@@ -44,7 +44,7 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/nekojiro-pages"
           rsync -a --exclude='.git/' --exclude='_admin-ui/' --exclude='worker/' ./ "$RUNNER_TEMP/nekojiro-pages/"
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         id: artifact
         with:
           name: github-pages-${{ github.run_attempt }}
@@ -61,7 +61,7 @@ jobs:
           done
           echo "The Pages artifact did not become visible." >&2
           exit 1
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5.0.1
         id: deploy
         with:
           artifact_name: github-pages-${{ github.run_attempt }}
