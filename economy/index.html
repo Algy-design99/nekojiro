@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja"><head><script id="neko-feed-recovery-v1">(function(){
+<html data-neko-layout="dashboard" lang="ja"><head><script id="neko-feed-recovery-v1">(function(){
  'use strict';
  if(window.__nekoNewsRecovery)return;window.__nekoNewsRecovery=true;
  var original=window.fetch.bind(window),pending={};
@@ -70,7 +70,8 @@ html,body{height:100%}body{overflow:hidden}
  .drawer-panel .news-list{max-height:none}.drawer-panel .life-list{max-height:none;height:auto}.news-list a{overflow-wrap:anywhere}.source{flex-wrap:wrap;overflow-wrap:anywhere}
 }
 @media(max-width:359px){.quote-price{font-size:20px}.quote .badge{font-size:9px;padding:3px 5px}.head-right{gap:4px}.desk-tools button{font-size:11px}}
-</style></head><body>
+</style><link rel="stylesheet" href="../site-reading.css">
+</head><body>
 <header id="site-header"><div class="head"><div><a class="brand" href="./">TSUKASA <em>経済情報局</em></a><div class="tagline">マーケットの今を、ひと目で。 <span class="tagline-en">MARKET INTELLIGENCE · LIVE DATA</span></div></div><div class="head-right"><span class="state"><i id="connection-dot" class="dot"></i><span id="connection-state">ライブ接続準備中</span></span><span class="clock" id="jst-clock">JST --:--:--</span></div></div></header>
 
 <div class="ticker-bar" role="region" aria-label="ニュース・地震・天気速報"><span class="ticker-label" id="ticker-label">速報 NEWS</span><div class="ticker-viewport"><div class="ticker-track" id="breaking-ticker"><span class="ticker-empty">ニュース受信待機中...</span></div></div></div>

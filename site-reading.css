@@ -1,0 +1,44 @@
+:root {
+  --neko-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "Yu Gothic Medium", system-ui, sans-serif;
+}
+[data-neko-layout] body { font-family: var(--neko-sans); }
+[data-neko-layout] a, [data-neko-layout] button { text-underline-offset: .2em; }
+[data-neko-layout] :focus-visible { outline: 3px solid #aa7238; outline-offset: 3px; }
+[data-neko-layout] :is(button,input,select,textarea) { font-family: inherit; }
+[data-neko-layout="portfolio"] { --paper:#f4f7f5; --ink:#18312b; --muted:#415750; --accent:#175e4b; }
+[data-neko-layout="portfolio"] body { line-height: 1.85; }
+[data-neko-layout="portfolio"] .header nav { gap: .3rem 1.2rem; flex-wrap: wrap; }
+[data-neko-layout="portfolio"] .header nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+[data-neko-layout="portfolio"] :is(.hero h1,.section h2,.project-content h3) { letter-spacing: .015em; line-height: 1.35; }
+[data-neko-layout="portfolio"] .hero-lead { max-inline-size: 38em; color: var(--muted); }
+[data-neko-layout="portfolio"] .writing-media { font-size: .9375rem; line-height: 1.65; }
+[data-neko-layout="portfolio"] .writing-media a[href*="coconala.com"] { display: inline-flex; align-items: center; min-height: 2.75rem; padding: .35rem .8rem; color:#fff; background:var(--accent); border-radius:.5rem; }
+[data-neko-layout="portfolio"] .writing-media a[href*="coconala.com"]:hover { background: #124c3d; }
+[data-neko-layout="theme"] { --muted:#4d5a51; }
+[data-neko-layout="theme"] body { font-size: 1rem; line-height: 1.85; }
+[data-neko-layout="theme"] .site-nav { font-size: .875rem; gap: .25rem 1rem; }
+[data-neko-layout="theme"] .site-nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+[data-neko-layout="theme"] :is(.room-lead,.record-card p,.article-body) { line-height: 1.9; overflow-wrap: anywhere; }
+[data-neko-layout="theme"] .article-body :is(h2,h3) { line-height: 1.45; }
+[data-neko-layout="theme"] .record-card { border-radius: .45rem; }
+[data-neko-layout="dashboard"] body { font-size: .9375rem; }
+[data-neko-layout="dashboard"] :is(.quote-price,.clock,.hm-value) { font-variant-numeric: tabular-nums; }
+[data-neko-layout="dashboard"] :is(.tagline,.tickerhelp,.quote-meta) { font-size: .8125rem; }
+[data-neko-layout="dashboard"] :is(.controls,.desk-tools,.tabs) :is(button,select) { min-height: 2.5rem; }
+[data-neko-layout="music"] :is(.back,.list-actions button) { min-height: 2.75rem; }
+[data-neko-layout="music"] .back { display: inline-flex; align-items: center; font-size: .875rem; }
+[data-neko-layout="board"] :is(.neko-entry-title,.thread-index-title,.thread-row) { font-family: var(--neko-sans); }
+[data-neko-layout="board"] .thread-row a { line-height: 1.6; overflow-wrap: anywhere; }
+[data-neko-layout="kuronuma"] :is(.copy,.lead,.paper,.records) { font-family: var(--neko-sans); line-height: 1.85; }
+[data-neko-layout="tools"] .ad-heading { border-style: solid; }
+[data-neko-layout="tools"] .drawing-link:focus-visible { border-radius: .5rem; }
+@media (max-width: 42rem) {
+  [data-neko-layout="portfolio"] .wrap { width: min(100% - 2rem, 1180px); }
+  [data-neko-layout="portfolio"] .writing-media { gap: .4rem 1rem; }
+  [data-neko-layout="theme"] .site-nav { flex-wrap: wrap; }
+  [data-neko-layout="dashboard"] :is(.controls,.desk-tools,.tabs) :is(button,select) { min-height: 2.75rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-neko-layout] { scroll-behavior: auto; }
+  [data-neko-layout="tools"] .drawing-link { transition: none; }
+}

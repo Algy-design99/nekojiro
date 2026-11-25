@@ -1,3 +1,4 @@
+@import url("../site-reading.css");
 :root {
   --ink: #16231e;
   --forest: #19392d;
@@ -160,3 +161,6 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   .page-index .research-picks-grid > div + div { border-inline-start: 0; border-top: 1px solid #a4b1a2; }
   .front-photo img { aspect-ratio: 16 / 10; }
 }
+
+body { font-family: var(--neko-sans); }
+.reading-body { font-size: 1.0625rem; line-height: 1.95; }

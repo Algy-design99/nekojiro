@@ -1,3 +1,4 @@
+@import url("./site-reading.css");
 :root {
   color-scheme: light;
   --green: #16332c;
@@ -48,3 +49,6 @@ h1 { color: var(--green); font-size: clamp(1.85rem, 5vw, 3.25rem); letter-spacin
   .masthead { gap: .25rem .9rem; }
   .masthead nav { gap: .1rem .7rem; }
 }
+
+body { font-family: var(--neko-sans); }
+.masthead nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
