@@ -192,3 +192,33 @@ body { font-family: var(--neko-sans); }
 .reading-body:has(.nekojiro-toc-title) p { margin-block: .78em; line-height: 1.82; }
 .reading-body:has(.nekojiro-toc-title) h2 { margin-block: 2.15em .85em; font-size: clamp(1.35rem, 3vw, 1.56rem); }
 .reading-body:has(.nekojiro-toc-title) h3 { margin-block: 1.55em .7em; font-size: clamp(1.12rem, 2.5vw, 1.25rem); }
+
+/* Product cards shared by the research preview and published articles. */
+.reading-body .nekojiro-amazon-card {
+  display: flex;
+  align-items: center;
+  gap: clamp(8px, 3vw, 14px);
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+  margin: 18px 0;
+  padding: clamp(8px, 3vw, 14px);
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  color: #222;
+  line-height: 1.45;
+}
+.reading-body .nekojiro-amazon-card > a:first-child { flex: 0 0 34%; max-width: 132px; }
+.reading-body .nekojiro-amazon-card > a:first-child img { display: block; width: 100%; height: auto; object-fit: contain; }
+.reading-body .nekojiro-amazon-card > div { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.reading-body .nekojiro-amazon-card > div > a { color: #222; font-weight: 700; }
+.reading-body .nekojiro-amazon-card > div > div > a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #ffd814;
+  color: #111;
+  text-decoration: none;
+}
