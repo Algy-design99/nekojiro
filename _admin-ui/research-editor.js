@@ -408,15 +408,28 @@ window.createResearchEditor = function createResearchEditor({onChange, upload, f
     const file=[...event.dataTransfer.files].find(item=>item.type.startsWith('image/'));
     if(file)pastedImage(file);
   });
+  function updateRawLabel() {
+    const html = active ? sourceMode : format.value === 'html';
+    $('body-label').textContent = html ? '本文のHTMLコード' : '本文';
+    $('body-mode-hint').hidden = raw.hidden;
+    $('body-mode-hint').textContent = html
+      ? 'この欄にHTMLコードを貼り付け、下の「プレビュー」で表示を確認します。'
+      : 'HTMLコードを貼る場合は、入力形式で「HTMLコードを貼り付ける」を選びます。';
+    raw.placeholder = html ? '<p>本文</p>' : '本文を入力';
+  }
+  format.addEventListener('change', updateRawLabel);
+
   function displayMode() {
     raw.hidden=active&&!sourceMode;
-    $('body-label').hidden=active;
+    $('body-label').hidden=active&&!sourceMode;
+    $('research-body-label').hidden=sourceMode;
+    updateRawLabel();
     format.closest('label').hidden=active;
     $('image').closest('label').hidden=active;
     editor.hidden=sourceMode;
     panel.querySelectorAll('[data-command],[data-insert]').forEach(button=>button.disabled=sourceMode);
     $('rich-html-toggle').setAttribute('aria-pressed',String(sourceMode));
-    $('rich-html-toggle').textContent=sourceMode?'見たまま編集':'HTMLを表示';
+    $('rich-html-toggle').textContent=sourceMode?'見たまま編集に戻る':'HTMLコードを貼り付ける';
   }
   $('rich-html-toggle').onclick=()=>{
     if(!sourceMode){
@@ -433,6 +446,8 @@ window.createResearchEditor = function createResearchEditor({onChange, upload, f
       hydrate();
     }
     displayMode();
+    if (sourceMode) raw.focus();
+    else editor.focus();
   };
 
   function load(enabled,html,id) {
