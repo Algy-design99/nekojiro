@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths: ['content/**', 'scripts/content-build.py', '.github/workflows/content-publish.yml']
 permissions:
+  actions: read
   contents: write
   pages: write
   id-token: write
@@ -23,25 +24,40 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Preserve existing articles and render published content
-        run: python scripts/content-build.py
-      - name: Save generated articles
+      - name: Rebuild and save published articles
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add content board/catalog.json board/feed.xml board/index.html work living food travel craft research
-          if ! git diff --cached --quiet; then
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git switch --force-create main FETCH_HEAD
+            python scripts/content-build.py
+            git add content board/catalog.json board/feed.xml board/index.html work living food travel craft research
+            if git diff --cached --quiet; then exit 0; fi
             git commit -m 'Build managed article pages and indexes'
-            for i in 1 2 3 4 5; do
-              if git push; then break; fi
-              git pull --rebase origin main || exit 1
-              if [ "$i" = 5 ]; then exit 1; fi
-              sleep 3
-            done
-          fi
+            if git push origin HEAD:main; then exit 0; fi
+            if [ "$attempt" -lt 5 ]; then sleep 3; fi
+          done
+          exit 1
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
+        id: artifact
         with:
+          name: github-pages-${{ github.run_attempt }}
           path: '.'
+      - name: Wait for the Pages artifact to be listed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.artifact.outputs.artifact_id }}
+        run: |
+          for attempt in $(seq 1 12); do
+            id=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages-$GITHUB_RUN_ATTEMPT" --jq '.artifacts[0].id // empty') || id=
+            if [ "$id" = "$ARTIFACT_ID" ] && [ -n "$id" ]; then exit 0; fi
+            sleep 5
+          done
+          echo "The Pages artifact did not become visible." >&2
+          exit 1
       - uses: actions/deploy-pages@v4
         id: deploy
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
