@@ -1,0 +1,334 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>【驚愕】ランサムウェア、「身代金を払え」の画面が出た時にはもう攻撃の最終段階だった件ｗｗ｜猫じろう調査室</title><link rel="stylesheet" href="../reading.css"></head><body><nav><a href="../">猫じろう調査室｜記事一覧</a></nav><main><article class="reading-sheet" itemscope="" itemtype="http://schema.org/BlogPosting"><div class="reading-label">NEKOJIRO / RESEARCH REPORT</div><header class="reading-header"><time datetime="2026-09-12T04:56:16+09:00">2026年09月12日 04:56</time><h1 itemprop="headline">【驚愕】ランサムウェア、「身代金を払え」の画面が出た時にはもう攻撃の最終段階だった件ｗｗ</h1><div class="reading-rule"></div></header><div class="reading-body" itemprop="articleBody">
+<div class="ad_rs_c" id="ad_rs"></div><p class="PDq2pG_selectionAnchorContainer" data-end="75" data-start="46"></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div><div align="center"><a href="media/15fdcaeeac37a24645af.webp" target="_blank" title="4d0bb448-a42b-4516-adc0-e818f2e17b89"><img alt="4d0bb448-a42b-4516-adc0-e818f2e17b89" border="0" class="pict" height="320" hspace="5" src="media/c8231f7721006250757f.webp" width="480"/></a></div><br/>ランサムウェアと聞いて、多くの人が思い浮かべる場面がある。<span aria-hidden="true" class="PDq2pG_selectionAnchor"></span><p></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="91" data-start="77">突然パソコンが動かなくなる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="103" data-start="93">ファイルが開かない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="118" data-start="105">そして画面に「金を払え」。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="136" data-start="120">映画なら、ここで事件開始である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="184" data-start="138">ところが現在の企業を狙う<strong data-end="164" data-start="150">侵入型ランサムウェア</strong>では、その認識がほぼ逆になることがある。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="295" data-start="186">IPAは2026年9月に公開した対策ハンドブックで、ランサムウェア事案は<strong data-end="249" data-start="222">暗号化が発覚した時点で、攻撃者の活動は最終段階</strong>だと明記している。<span class="contents" data-content-reference-end="282" data-content-reference-start="258"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="302" data-start="297">最終段階。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="312" data-start="304">つまり被害者が、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="325" data-start="314">「うわ、攻撃された！」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="337" data-start="327">と気付いたころには、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="345" data-start="339">犯人側では、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="372" data-start="347">「はい、それでは最後に暗号化して脅迫状を置きます」</p><!-- NEKOJIRO_TOC_STYLE_START --><style id="nekojiro-article-layout-style">
+#nekojiro-toc{display:block!important;width:100%!important;box-sizing:border-box!important;margin:28px 0 36px!important;padding:20px 24px!important;border:1px solid #d8d8d8!important;border-radius:10px!important;background:#fafafa!important;color:#222!important;}
+#nekojiro-toc .nekojiro-toc-title{display:block!important;margin:0 0 14px!important;font-size:22px!important;line-height:1.4!important;font-weight:700!important;}
+#nekojiro-toc ol{margin:0!important;padding:0 0 0 24px!important;}#nekojiro-toc li{display:list-item!important;margin:8px 0!important;line-height:1.6!important;}#nekojiro-toc a{color:#222!important;text-decoration:none!important;}
+p{display:block!important;margin:0!important;padding:0!important;line-height:1.75!important;}
+.nekojiro-paragraph-gap{display:block!important;height:1.15em!important;min-height:1.15em!important;margin:0!important;padding:0!important;line-height:1!important;font-size:1em!important;overflow:hidden!important;}
+h2{display:block!important;margin:2.35em 0 1em!important;line-height:1.5!important;scroll-margin-top:20px!important;}h3{display:block!important;margin:1.7em 0 .8em!important;line-height:1.55!important;}strong{font-weight:700!important;}a.nekojiro-toc-anchor{display:block;position:relative;top:-8px;visibility:hidden;}
+@media(max-width:767px){#nekojiro-toc{width:100%!important;margin:22px 0 32px!important;padding:16px 18px!important;}#nekojiro-toc .nekojiro-toc-title{font-size:20px!important;}#nekojiro-toc li{margin:8px 0!important;line-height:1.55!important;}p{line-height:1.72!important;}.nekojiro-paragraph-gap{height:1.25em!important;min-height:1.25em!important;}h2{margin:2.15em 0 .95em!important;line-height:1.45!important;}h3{margin:1.6em 0 .75em!important;}}
+</style><!-- NEKOJIRO_TOC_STYLE_END --><!-- NEKOJIRO_TOC_START --><nav aria-label="目次" id="nekojiro-toc"><div class="nekojiro-toc-title">目次</div><ol><li><a href="#nekojiro-jump-1">📜 第一章 1989年、最初のランサムウェアは「郵送」で身代金を取りに来た</a></li><li><a href="#nekojiro-jump-2">📜 第二章 「暗号化だけ」では足りないので、先に盗んでから壊すようになった</a></li><li><a href="#nekojiro-jump-3">📜 第三章 ついに犯罪まで分業化――ランサムウェアが「サービス」になる</a></li><li><a href="#nekojiro-jump-4">🧩 つまり、どういうこと？</a></li><li><a href="#nekojiro-jump-5">🍶 歴史板、今夜もざわつく</a></li><li><a href="#nekojiro-jump-6">🪭 史料から見える、意外な素顔</a></li><li><a href="#nekojiro-jump-7">🌱 その後に残したもの</a></li><li><a href="#nekojiro-jump-8">🎙️ あの頃のこと、本人に聞いてみた</a></li><li><a href="#nekojiro-jump-9">🐾 猫じろうの歴史ちょこっと授業</a></li></ol></nav><!-- NEKOJIRO_TOC_END --><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="393" data-start="374">くらいまで工程が進んでいる場合がある。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="414" data-start="395">怖いのは赤い脅迫画面そのものではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="442" data-start="416"><strong data-end="442" data-start="416">その画面が出るまでに、すでに何をされたのか。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="457" data-start="444">今回はここから追っていく。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-1" name="nekojiro-jump-1"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec1"></span><h2 data-end="500" data-section-id="1v0dbww" data-start="459">📜 第一章　1989年、最初のランサムウェアは「郵送」で身代金を取りに来た</h2>
+<p data-end="522" data-start="502">ランサムウェアの歴史は、意外なほど古い。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="586" data-start="524">最初の既知のランサムウェアとして広く紹介されるのが、1989年の**AIDS Trojan（PC Cyborg）**である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="689" data-start="588">No More Ransomによれば、Joseph Poppが作成したこのマルウェアが、既知の最初のランサムウェアとされている。<span class="contents" data-content-reference-end="662" data-content-reference-start="638"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="697" data-start="691">1989年。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="716" data-start="699">Windows 95より前である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="748" data-start="718">インターネット経由で暗号資産を送れ、などという時代ではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="770" data-start="750">それでも発想だけは、すでに完成していた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="792" data-start="772">コンピューター上の情報を使いにくくする。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="808" data-start="794">困った利用者に金を要求する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="815" data-start="810">要するに、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="844" data-start="817"><strong data-end="844" data-start="817">デジタル世界に「人質」という概念を持ち込んだ。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="880" data-start="846">現在から見ると手口は原始的だったが、嫌な部分だけ妙に先取りしている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="920" data-start="882">その後、2000年代になると暗号化技術を使ったランサムウェアが発達していく。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1025" data-start="922">No More Ransomは、2006年ごろにはGpcodeなどが、より高度なRSA暗号方式を使用するようになったと整理している。<span class="contents" data-content-reference-end="985" data-content-reference-start="961"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1036" data-start="1027">そして2013年。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1069" data-start="1038"><strong data-end="1054" data-start="1038">CryptoLocker</strong>が大きな転換点の一つになった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1104" data-start="1071">感染したファイルを強力に暗号化し、復号の対価として金銭を要求する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1127" data-start="1106">ここで、一般人が現在でも思い浮かべやすい、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1151" data-start="1129">「ファイルが暗号化された。戻したければ払え」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1175" data-start="1153">というランサムウェア像がかなり完成していく。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1186" data-start="1177">家の鍵を交換され、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1192" data-start="1188">玄関に、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1210" data-start="1194">「新しい鍵が欲しければ金を払え」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1228" data-start="1212">と紙を貼られているようなものだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1271" data-start="1230">ただし、この時代のイメージをそのまま2026年まで持ってくると、話が足りなくなる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1284" data-start="1273">後の犯人たちは気付く。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1308" data-start="1286">被害者がバックアップを持っていたらどうする？</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1324" data-start="1310">会社「別に復元できますけど」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1332" data-start="1326">犯人「……」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1346" data-start="1334">これでは商売にならない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1376" data-start="1348">犯罪者側からすれば、とんでもなく不愉快な技術革新である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1403" data-start="1378">そしてランサムウェアは、次の段階へ進んでしまった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-2" name="nekojiro-jump-2"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec2"></span><h2 data-end="1446" data-section-id="1g3r4c7" data-start="1405">📜 第二章　「暗号化だけ」では足りないので、先に盗んでから壊すようになった</h2>
+<p data-end="1500" data-start="1448">現在のランサムウェア攻撃を理解するとき、一番重要なのが**二重恐喝（ダブルエクストーション）**である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1508" data-start="1502">従来型なら、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1531" data-start="1510">「ファイルを暗号化した。戻したければ払え」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1537" data-start="1533">だった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1557" data-start="1539">二重恐喝では、その前にデータを盗む。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1563" data-start="1559">そして、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1578" data-start="1565">「復号してほしければ払え」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1584" data-start="1580">さらに、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1606" data-start="1586">「盗んだ情報を公開されたくなければ払え」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1621" data-start="1608">と二方向から圧力をかける。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1757" data-start="1623">CISAは現在のランサムウェアについて、攻撃者がデータを持ち出し、公開をちらつかせて支払いを迫る手法を二重恐喝と説明している。さらに、暗号化を行わず、データ窃取と公開脅迫だけを行うケースもある。<span class="contents" data-content-reference-end="1703" data-content-reference-start="1679"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1779" data-start="1759">犯人側、被害者のバックアップ対策を見て、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1799" data-start="1781">「じゃあ別の困るものを人質にします」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1811" data-start="1801">と商品改良してきた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1824" data-start="1813">最悪の顧客志向である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1844" data-start="1826">日本でも、この変化は数字に出ている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1950" data-start="1846">警察庁によると、2024年に対価要求の手口を確認できたランサムウェア被害134件のうち、<strong data-end="1909" data-start="1890">111件、82.8％が二重恐喝</strong>だった。<span class="contents" data-content-reference-end="1883" data-content-reference-start="1859"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1971" data-start="1952">つまり二重恐喝は、珍しい裏技ではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1985" data-start="1973">かなり中心部に来ている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2001" data-start="1987">さらに妙な言葉まで登場した。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2017" data-start="2003"><strong data-end="2017" data-start="2003">ノーウェアランサム。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2044" data-start="2019">ランサムウェアなのに、ランサムウェアを実行しない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2078" data-start="2046">何を言っているんだと思うが、警察庁も正式に使っている表現である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2106" data-start="2080">企業ネットワークへ侵入し、データを暗号化せずに盗み、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2124" data-start="2108">「公開されたくなければ金を払え」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2132" data-start="2126">と要求する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2209" data-start="2134">警察庁は2024年に、このノーウェアランサムによる被害を22件確認している。<span class="contents" data-content-reference-end="2130" data-content-reference-start="2105"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2270" data-start="2211">2025年についても17件が報告されている。<span class="contents" data-content-reference-end="2179" data-content-reference-start="2154"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2300" data-start="2272">もはや「暗号化ウイルス」という説明だけでは追いつかない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2321" data-start="2302">中心にあるのは暗号化そのものではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2348" data-start="2323"><strong data-end="2348" data-start="2323">相手が困る材料を握って、金を要求すること。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2372" data-start="2350">だから暗号化すら、目的ではなく手段になった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="2392" data-section-id="1napc5k" data-start="2374">🔎 ここ、よく勘違いされる</h3>
+<p data-end="2418" data-start="2394">「バックアップがあればランサムウェアは怖くない」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2435" data-start="2420">これは半分正しく、半分危ない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2457" data-start="2437">バックアップは現在でも非常に重要である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2547" data-start="2459">CISAはランサムウェア対策としてバックアップの確保、復旧計画、脆弱性対策、MFAなどを推奨している。<span class="contents" data-content-reference-end="2442" data-content-reference-start="2418"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2587" data-start="2549">ただしバックアップで戻せるのは、基本的に<strong data-end="2585" data-start="2569">自分側のデータとシステム</strong>だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2612" data-start="2589">犯人がすでに持ち出した情報までは回収できない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2631" data-start="2614">ここが二重恐喝の嫌なところである。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2652" data-start="2633">「鍵を壊されたので合鍵から直しました」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2660" data-start="2654">と言ったら、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2684" data-start="2662">「ちなみに家の中の書類はコピーしてあります」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2693" data-start="2686">と返ってくる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2706" data-start="2695">話を一段悪くしてくる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2806" data-start="2708">FBIも、身代金を払ってもデータが戻る保証はなく、支払った後でも情報流出を防げる保証はないとして、支払いを支持していない。<span class="contents" data-content-reference-end="2706" data-content-reference-start="2664"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2946" data-start="2808">さらにFBI幹部は2024年、情報公開を防ぐために支払っても、それは「今すぐ公開されない」ことへの支払いに過ぎず、将来公開されたり、同じデータでもう一度脅迫されたりする可能性を考えるべきだと述べている。<span class="contents" data-content-reference-end="2833" data-content-reference-start="2809"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2958" data-start="2948">金を払えば一件落着。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2987" data-start="2960">そんな気持ちのいい契約書を、犯罪者は発行してくれない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-3" name="nekojiro-jump-3"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec3"></span><h2 data-end="3028" data-section-id="1tn2mg3" data-start="2989">📜 第三章　ついに犯罪まで分業化――ランサムウェアが「サービス」になる</h2>
+<p data-end="3072" data-start="3030">昔ながらのハッカー像といえば、一人の天才が暗い部屋でキーボードを叩いている姿だろう。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3101" data-start="3074">実際のランサムウェア犯罪は、もっと嫌な方向へ進化した。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3112" data-start="3103"><strong data-end="3112" data-start="3103">分業した。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3125" data-start="3114">その代表が、RaaS。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3151" data-start="3127">Ransomware as a Service。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3178" data-start="3153">日本語にすれば「サービスとしてのランサムウェア」。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3244" data-start="3180">正規IT業界で「Software as a Service」という言葉が普通になったと思ったら、犯罪者まで似た構造を持ち始めた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3272" data-start="3246">開発者はランサムウェアそのものや攻撃基盤を用意する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3292" data-start="3274">別の実行役が標的へ侵入して攻撃する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3307" data-start="3294">身代金が取れたら分配する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3440" data-start="3309">警察庁も、ランサムウェア開発・運営グループが攻撃実行者へランサムウェアやリークサイトなどの環境を提供し、対価として身代金の一部を得る<strong data-end="3383" data-start="3375">RaaS</strong>が多数確認されていると説明している。<span class="contents" data-content-reference-end="3311" data-content-reference-start="3287"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3458" data-start="3442">具体例を見ると、さらに生々しい。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3543" data-start="3460">欧州刑事警察機構Europolによれば、ランサムウェア集団Hiveでは、開発者がランサムウェアを作成・維持し、「アフィリエイト」と呼ばれる実行役が攻撃を担当していた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3621" data-start="3545">身代金が支払われると、**実行役80％、開発者20％**に分配されていた。<span class="contents" data-content-reference-end="3477" data-content-reference-start="3453"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3629" data-start="3623">80対20。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3639" data-start="3631">数字だけ見れば、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3653" data-start="3641">「営業担当の歩合かな？」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3659" data-start="3655">となる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3667" data-start="3661">犯罪である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3689" data-start="3669">しかし、この分業は笑って済ませられない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3726" data-start="3691">開発する能力を持つ人間と、侵入先を探す人間が同一人物でなくてよくなる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3839" data-start="3728">警察庁も、RaaSによる分業によって、高度な技術的専門知識を持たない者まで攻撃に参加できるようになり、攻撃者の裾野が広がっていると指摘している。<span class="contents" data-content-reference-end="3680" data-content-reference-start="3656"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3857" data-start="3841">そして攻撃者が企業へ入る方法も、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3877" data-start="3859">「社員が怪しいメールをクリックした」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3886" data-start="3879">だけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3933" data-start="3888">2024年の日本国内の被害企業・団体への調査では、感染経路について有効回答100件のうち、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3953" data-start="3935"><strong data-end="3953" data-start="3935">VPN機器が55件、55％。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3978" data-start="3955"><strong data-end="3978" data-start="3955">リモートデスクトップが31件、31％。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4023" data-start="3980">だった。<span class="contents" data-content-reference-end="3850" data-content-reference-start="3825"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4033" data-start="4025">合わせて86％。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4095" data-start="4035">もちろん、これは「全ランサムウェア被害の86％」という意味ではなく、感染経路について回答が得られた100件の内訳である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4111" data-start="4097">それでも印象は大きく変わる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4128" data-start="4113">上司「怪しいメールを開くな！」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4141" data-start="4130">社員「開いてません！」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4150" data-start="4143">上司「よし！」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4162" data-start="4152">VPN「こんにちは」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4171" data-start="4164">そこから来る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4229" data-start="4173">リモートワークのために会社が正規に用意した入口が、設定不備や脆弱性、弱い認証情報などによって攻撃者の入口になる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4341" data-start="4231">CISAも現在の対策で、インターネット公開サービスの脆弱性、VPNを含む認証情報の侵害、フィッシングなどを別々の主要侵入経路として扱っている。<span class="contents" data-content-reference-end="4153" data-content-reference-start="4129"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4359" data-start="4343">「社員教育さえすれば全部防げる」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4370" data-start="4361">という話でもない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4393" data-start="4372">会社の玄関で社員に不審者教育をしていたら、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4412" data-start="4395">裏口の鍵そのものを開けられていた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4423" data-start="4414">そんな世界である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-4" name="nekojiro-jump-4"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec4"></span><h2 data-end="4442" data-section-id="159tffu" data-start="4425">🧩 つまり、どういうこと？</h2>
+<p data-end="4490" data-start="4444">今のランサムウェアを「突然ファイルを暗号化するウイルス」と考えると、事件の最後しか見えない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4503" data-start="4492">実際の侵入型攻撃では、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4510" data-start="4505">侵入する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4519" data-start="4512">内部を調べる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4532" data-start="4521">認証情報や権限を奪う。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4543" data-start="4534">他の機器へ広がる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4554" data-start="4545">重要な情報を探す。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4565" data-start="4556">データを持ち出す。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4588" data-start="4567">そして最後に暗号化や脅迫を行う場合がある。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4706" data-start="4590">CISAも、ランサムウェアの展開がネットワーク侵害の最後の段階になる場合があり、それ以前の活動を隠す目的でランサムウェアが使われるケースまで指摘している。<span class="contents" data-content-reference-end="4502" data-content-reference-start="4478"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4716" data-start="4708">だからIPAの、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4746" data-start="4718"><strong data-end="4746" data-start="4718">「暗号化が発覚した時点で攻撃者の活動は最終段階」</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4799" data-start="4748">という言葉が効いてくる。<span class="contents" data-content-reference-end="4580" data-content-reference-start="4556"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4812" data-start="4801">被害者から見れば開幕。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4830" data-start="4814">攻撃者から見ればエンドロール前。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4870" data-start="4832">この時間感覚のズレが、現在のランサムウェアを理解する一番大事なところである。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4913" data-start="4872">そして2025年、日本国内で警察に報告されたランサムウェア被害は<strong data-end="4912" data-start="4904">226件</strong>。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4975" data-start="4915">2024年の222件から高止まりしている。<span class="contents" data-content-reference-end="4761" data-content-reference-start="4717"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5028" data-start="4977">IPAの「情報セキュリティ10大脅威 2026」でも、「ランサム攻撃による被害」は組織向け脅威の1位。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5097" data-start="5030">2016年から<strong data-end="5050" data-start="5037">11年連続11回目</strong>の選出になった。<span class="contents" data-content-reference-end="4868" data-content-reference-start="4844"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5107" data-start="5099">一発屋どころか、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5117" data-start="5109">毎年帰ってくる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5137" data-start="5119">しかも前年と同じ姿では帰ってこない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-5" name="nekojiro-jump-5"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec5"></span><h2 data-end="5156" data-section-id="1i1467l" data-start="5139">🍶 歴史板、今夜もざわつく</h2>
+<p data-end="5180" data-start="5158">ランサムウェアの歴史を読んでいた定年組三人。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5203" data-start="5182">一人が急に会社員時代のVPNを思い出した。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5265" data-start="5205"><strong data-end="5227" data-start="5205">🍶 HN：バックアップ係だった男：</strong> 俺らの頃は「添付ファイル開くな」を朝礼で言っとけば仕事した気になってたな。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5375" data-start="5267"><strong data-end="5290" data-start="5267">🏮 HN：元総務・パスワードは長め：</strong> いや、お前それで実際に添付開いた奴を一時間説教してただろ。今の数字見るとVPN55％、リモートデスクトップ31％って、玄関で怒鳴ってる間に裏口を見ろという話じゃないか。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5459" data-start="5377"><strong data-end="5399" data-start="5377">🍵 HN：退職後にIT本を読む爺：</strong> しかも脅迫画面が出た時には最終段階ってのが嫌だな。昔の泥棒なら窓ガラス割れた音で気付くけど、こいつら最後に鐘を鳴らす。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5503" data-start="5461"><strong data-end="5483" data-start="5461">🍶 HN：バックアップ係だった男：</strong> でもバックアップ取っとけば戻せるだろ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5573" data-start="5505"><strong data-end="5527" data-start="5505">🍵 HN：退職後にIT本を読む爺：</strong> 戻せる部分はある。だが先に名簿コピーされてたら、そのコピーはお前のバックアップじゃ消えん。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5649" data-start="5575"><strong data-end="5598" data-start="5575">🏮 HN：元総務・パスワードは長め：</strong> それで「公開されたくなきゃ払え」か。保険をかけたら別の事故を持ってくるの、商売として性格が悪すぎる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5699" data-start="5651"><strong data-end="5673" data-start="5651">🍶 HN：バックアップ係だった男：</strong> しかもRaaSって何だ。犯罪までサービス化するな。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5744" data-start="5701"><strong data-end="5723" data-start="5701">🍵 HN：退職後にIT本を読む爺：</strong> Hiveは実行役80％、開発者20％だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5787" data-start="5746"><strong data-end="5768" data-start="5746">🍶 HN：バックアップ係だった男：</strong> 俺の昔の営業歩合よりいいじゃねえか。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5828" data-start="5789"><strong data-end="5812" data-start="5789">🏮 HN：元総務・パスワードは長め：</strong> 比較するところ、そこじゃない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-6" name="nekojiro-jump-6"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec6"></span><h2 data-end="5849" data-section-id="17alehd" data-start="5830">🪭 史料から見える、意外な素顔</h2>
+<h3 data-end="5886" data-section-id="1vgru6h" data-start="5851">① ランサムウェアの本体は「暗号化」ではなく「恐喝」へ広がった</h3>
+<p data-end="5922" data-start="5888">言葉だけ見ると、ランサムウェアはファイル暗号化型マルウェアに見える。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5939" data-start="5924">実際、それが古典的な姿だった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6033" data-start="5941">しかし現在は二重恐喝が広がり、日本では暗号化そのものを行わないノーウェアランサムまで統計上確認されている。<span class="contents" data-content-reference-end="5797" data-content-reference-start="5753"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6063" data-start="6035">つまり、長い歴史の中で変わったのは暗号技術だけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6098" data-start="6065"><strong data-end="6098" data-start="6065">「何を人質にすれば相手が払うか」の発想そのものが広がった。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6108" data-start="6100">最初はファイル。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6117" data-start="6110">次は業務停止。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6128" data-start="6119">さらに盗んだ情報。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6155" data-start="6130">暗号化を省いても恐喝が成立するなら、そこさえ省く。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6169" data-start="6157">目的だけは一貫している。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6181" data-start="6171">手段への愛着がない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6191" data-start="6183">そこが恐ろしい。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="6225" data-section-id="1xydzyr" data-start="6193">② 「凄腕ハッカー一人」のイメージが実態から離れていった</h3>
+<p data-end="6262" data-start="6227">RaaSでは、ランサムウェアの開発と実際の攻撃を別の役割へ分けられる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6343" data-start="6264">Hiveのように分配率まで存在した事例を見ると、個人犯罪の延長では説明しづらい。<span class="contents" data-content-reference-end="6092" data-content-reference-start="6068"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6358" data-start="6345">攻撃に必要なものを作る側。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6369" data-start="6360">侵入を担当する側。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6391" data-start="6371">盗んだ情報を公開するためのリークサイト。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6402" data-start="6393">支払いを巡る交渉。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6428" data-start="6404">犯罪行為なのに、役割だけ見ると妙に組織的である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6487" data-start="6430">吾輩としては「悪事くらい各自で最後まで責任持ってやれ」と言いたくなるが、犯罪者に業務倫理を求めても仕方がないニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="6510" data-section-id="10qndx1" data-start="6489">③ 支払っても「元通り」は買えない</h3>
+<p data-end="6528" data-start="6512">ランサムウェアの脅迫文を見ると、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6535" data-start="6530">金を払う。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6546" data-start="6537">復号鍵を受け取る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6554" data-start="6548">データ復活。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6561" data-start="6556">事件終了。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6573" data-start="6563">という取引に見える。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6655" data-start="6575">だがFBIは、身代金を払ってもデータが戻る保証はないとして支払いを支持していない。<span class="contents" data-content-reference-end="6389" data-content-reference-start="6365"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6710" data-start="6657">さらに、データを盗まれていた場合、そのコピーが本当に削除されたかを被害者側から完全に確認することは難しい。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6833" data-start="6712">英国NCSC関係者がFBIの番組で語ったOperation Cronosの分析でも、身代金を支払った企業のデータが攻撃者側サーバーに残っていた例が確認されたという。<span class="contents" data-content-reference-end="6552" data-content-reference-start="6528"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6849" data-start="6835">「払ったから全部消しました」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6861" data-start="6851">と言っている相手が、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6895" data-start="6863">そもそも会社のネットワークに不法侵入して恐喝している人物である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6923" data-start="6897">信用契約の相手としては、最初からだいぶ終わっている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-7" name="nekojiro-jump-7"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec7"></span><h2 data-end="6940" data-section-id="yzicmr" data-start="6925">🌱 その後に残したもの</h2>
+<h3 data-end="6975" data-section-id="1fw3j95" data-start="6942">1. サイバー攻撃を「IT部門だけの事故」にできなくなった</h3>
+<p data-end="7133" data-start="6977">2025年の警察庁資料では、国内のランサムウェア被害226件のうち、中小企業143件、大企業64件、その他団体19件だった。製造業が91件で最多だったが、卸売・小売、サービス、情報通信、建設、教育など幅広い業種で被害が確認されている。<span class="contents" data-content-reference-end="6837" data-content-reference-start="6812"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7246" data-start="7135">さらに被害組織へのアンケートでは、調査・復旧費用が総額1,000万円以上となった組織が半数を超え、1か月未満で復旧した組織も5割強にとどまった。<span class="contents" data-content-reference-end="6936" data-content-reference-start="6911"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7263" data-start="7248">「パソコンが何台か壊れました」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7272" data-start="7265">では済まない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7277" data-start="7274">受注。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7282" data-start="7279">出荷。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7287" data-start="7284">病院。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7292" data-start="7289">行政。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7299" data-start="7294">顧客情報。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7319" data-start="7301">会社そのものの業務継続が問題になる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7420" data-start="7321">だからIPAの最新ハンドブックも、情報システム部門だけでなく、事業部門や経営者の判断まで必要になる問題として扱っている。<span class="contents" data-content-reference-end="7095" data-content-reference-start="7071"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="7458" data-section-id="xdb6sx" data-start="7422">2. 防御も「ウイルス対策ソフトを入れる」だけでは足りなくなった</h3>
+<p data-end="7474" data-start="7460">CISAの対策はかなり広い。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7494" data-start="7476">インターネット公開機器の脆弱性管理。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7509" data-start="7496">VPNなどへの多要素認証。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7516" data-start="7511">権限管理。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7527" data-start="7518">ネットワーク分離。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7536" data-start="7529">バックアップ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7543" data-start="7538">復旧計画。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7554" data-start="7545">フィッシング教育。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7567" data-start="7556">EDRなどによる検知。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7687" data-start="7569">つまり「ウイルスを見つける」だけではなく、<strong data-end="7634" data-start="7590">侵入されても全社を歩き回らせない、重要な権限を簡単に取らせない、壊されても戻れる</strong>ところまで考える必要がある。<span class="contents" data-content-reference-end="7347" data-content-reference-start="7323"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7721" data-start="7689">玄関の鍵だけ三重にしても、家中の合鍵を玄関横に置いていたら困る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7734" data-start="7723">そんな話になっている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="7761" data-section-id="14yuwjg" data-start="7736">3. 犯罪者側を壊す国際捜査も重要になった</h3>
+<p data-end="7800" data-start="7763">RaaS型の攻撃では、個々の感染端末を直すだけでは犯罪基盤そのものが残る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7862" data-start="7802">そのため法執行機関は、攻撃者のサーバー、リークサイト、暗号資産、復号鍵など、犯罪インフラそのものを狙うようになっている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7965" data-start="7864">Hiveに対する国際作戦では、捜査当局がインフラを掌握し、被害者へ復号鍵を提供したうえで、2023年にサーバーを停止させた。<span class="contents" data-content-reference-end="7610" data-content-reference-start="7586"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7986" data-start="7967">感染した一社を直して終わるのではなく、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8005" data-start="7988"><strong data-end="8005" data-start="7988">犯罪の「店」を閉めに行く。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8032" data-start="8007">相手がサービス化したなら、こちらもインフラを狙う。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8053" data-start="8034">嫌な意味で、戦いの規模が大きくなった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-8" name="nekojiro-jump-8"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec8"></span><h2 data-end="8077" data-section-id="1jbzdbp" data-start="8055">🎙️ あの頃のこと、本人に聞いてみた</h2>
+<p data-end="8104" data-start="8079">※ここからは史実をもとにした歴史フィクションです。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8176" data-start="8106"><strong data-end="8122" data-start="8106">👜 近所のおばちゃん：</strong> あんたさ、「ファイルを人質に取ります」って話だったのに、なんで人の会社に入って名簿まで持って帰ってるのよ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8238" data-start="8178"><strong data-end="8193" data-start="8178">🦠 ランサムウェア：</strong> 被害側がバックアップを強化したので、暗号化だけでは支払いを迫りにくい場合が出てきまして。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8270" data-start="8240"><strong data-end="8256" data-start="8240">👜 近所のおばちゃん：</strong> 対策されたら諦めなさいよ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8319" data-start="8272"><strong data-end="8287" data-start="8272">🦠 ランサムウェア：</strong> そこで情報窃取と公開脅迫を組み合わせる二重恐喝が広がりました。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8350" data-start="8321"><strong data-end="8337" data-start="8321">👜 近所のおばちゃん：</strong> 改善会議みたいに言うな。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8399" data-start="8352"><strong data-end="8368" data-start="8352">👜 近所のおばちゃん：</strong> あとRaaSって何よ。悪いことくらい自分で全部やりなさいよ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8445" data-start="8401"><strong data-end="8416" data-start="8401">🦠 ランサムウェア：</strong> 開発者が基盤を提供し、別の実行役が攻撃する分業形態です。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8481" data-start="8447"><strong data-end="8463" data-start="8447">👜 近所のおばちゃん：</strong> 分業すれば立派になると思ってない？</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8508" data-start="8483"><strong data-end="8498" data-start="8483">🦠 ランサムウェア：</strong> 思ってはいません。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8548" data-start="8510"><strong data-end="8526" data-start="8510">👜 近所のおばちゃん：</strong> Hiveは80対20で分けてたんでしょう。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8575" data-start="8550"><strong data-end="8565" data-start="8550">🦠 ランサムウェア：</strong> ……よくご存じで。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8622" data-start="8577"><strong data-end="8593" data-start="8577">👜 近所のおばちゃん：</strong> 近所のスーパーのポイント還元より詳しくなっちゃったわよ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8669" data-start="8624"><strong data-end="8640" data-start="8624">👜 近所のおばちゃん：</strong> 最後に聞くけど、お金払ったらちゃんと全部元通りにするの？</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8705" data-start="8671"><strong data-end="8686" data-start="8671">🦠 ランサムウェア：</strong> それを保証する第三者は存在しません。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8730" data-start="8707"><strong data-end="8723" data-start="8707">👜 近所のおばちゃん：</strong> でしょうね。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8766" data-start="8732"><strong data-end="8747" data-start="8732">🦠 ランサムウェア：</strong> FBIも支払いを支持しておりません。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8817" data-start="8768"><strong data-end="8784" data-start="8768">👜 近所のおばちゃん：</strong> 犯人本人から公的注意喚起を紹介される日が来るとは思わなかったわ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-9" name="nekojiro-jump-9"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec9"></span><h2 data-end="8839" data-section-id="trbhf1" data-start="8819">🐾 猫じろうの歴史ちょこっと授業</h2>
+<h3 data-end="8850" data-section-id="btbukw" data-start="8841">マルウェア</h3>
+<p data-end="8872" data-start="8852">悪意を持って作られたソフトウェアの総称。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8914" data-start="8874">ランサムウェアはその一種だが、すべてのマルウェアが身代金を要求するわけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="8924" data-section-id="ynpc2v" data-start="8916">RaaS</h3>
+<p data-end="8952" data-start="8926">Ransomware as a Serviceの略。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9063" data-start="8954">開発側がランサムウェアや関連基盤を提供し、別の実行役が攻撃する分業モデル。警察庁も現在のランサムウェア情勢を説明する重要語として扱っている。<span class="contents" data-content-reference-end="8674" data-content-reference-start="8650"><span class="" data-state="closed"></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="9072" data-section-id="1xxfhe6" data-start="9065">VPN</h3>
+<p data-end="9110" data-start="9074">離れた場所から組織のネットワークへ安全に接続するため広く使われる仕組み。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9168" data-start="9112">VPN自体が悪いわけではなく、脆弱性を放置した機器や盗まれた認証情報などが入口として悪用されることが問題になる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="9176" data-section-id="1hsbpq0" data-start="9170">復号</h3>
+<p data-end="9198" data-start="9178">暗号化された情報を読める状態へ戻すこと。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9238" data-start="9200">ランサムウェアで「復号鍵」と呼ばれるものは、この暗号化を解くために使われる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9285" data-start="9240">ただし復号できたとしても、侵入経路の特定、情報流出調査、サーバー再構築などは別問題である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9301" data-start="9287">今回の話、お前はどう思った？</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9364" data-start="9303">吾輩が一番嫌なのは、脅迫画面そのものより**「それが出るころには犯人側では最後の工程かもしれない」**というところだニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9423" data-start="9366">ノックされたと思ったら、すでに家の中を一周された後だった。そう考えると、ランサムウェアの見え方がだいぶ変わるニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<span id="sec10"></span><h2 data-end="9443" data-section-id="1m326ny" data-start="9425">📚 もっと知りたい人のために</h2>
+<p data-end="9525" data-start="9445">ランサムウェアは「ウイルス対策」の本だけ追うより、サイバー攻撃がどう侵入し、権限を広げ、情報を盗み、組織を止めるのかまで扱う本を読むと流れがつながりやすいニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9611" data-start="9527">今回出てきたVPN、RaaS、二重恐喝、バックアップ、インシデント対応あたりをもう少し掘るなら、サイバーセキュリティ関連書籍が自然な続きになるニャ。※アフィリエイト含む</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9644" data-start="9613">【<a href="https://amzn.to/4gPNCjN" target="_blank" title="">ランサムウェア攻撃対策マニュアルーーサイバーセキュリティ事例研究と防衛戦略</a>】</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9750" data-start="9646">※Amazonのアソシエイトとして、アニ〆論/猫じろうは適格販売により収入を得ています。書籍を一冊置くだけでランサムウェアを防げるわけではないので、実際の対策ではIPAや警察庁などの最新情報も確認するニャｗｗ</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<span id="sec11"></span><h2 data-end="9768" data-section-id="10h8wcl" data-start="9752">🐈 猫じろう、舞台裏にて</h2>
+<p data-end="9784" data-start="9770">大将がリビングへ戻ってきた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9813" data-start="9786">テーブルの上に置いてあった猫用おやつの袋が消えている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9821" data-start="9815">床にもない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9831" data-start="9823">ゴミ箱にもない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9846" data-start="9833"><strong data-end="9840" data-start="9833">大将：</strong> 猫じろう。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9880" data-start="9848">ソファの上で、猫じろうが何事もなかったように毛づくろいしている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9900" data-start="9882"><strong data-end="9894" data-start="9882">🐱 猫じろう：</strong> 何かニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9918" data-start="9902"><strong data-end="9909" data-start="9902">大将：</strong> おやつ知らない？</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9932" data-start="9920">猫じろうは前足を舐めた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9954" data-start="9934"><strong data-end="9946" data-start="9934">🐱 猫じろう：</strong> 知らないニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9966" data-start="9956">大将が部屋を見回す。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9981" data-start="9968">おやつの袋は見つからない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9993" data-start="9983">猫じろうも動かない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9999" data-start="9995">数分後。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10019" data-start="10001">大将が猫じろうのベッドを持ち上げた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10042" data-start="10021">その下から、空になったおやつ袋が出てきた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10067" data-start="10044"><strong data-end="10051" data-start="10044">大将：</strong> お前、もう食った後じゃねえか。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10084" data-start="10069">猫じろうは一瞬だけ耳を伏せた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10121" data-start="10086"><strong data-end="10098" data-start="10086">🐱 猫じろう：</strong> 発覚した時点で、吾輩の活動は最終段階だニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10143" data-start="10123"><strong data-end="10130" data-start="10123">大将：</strong> そこだけ正確に覚えるな。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10158" data-start="10145">大将がおやつ袋を回収する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10176" data-start="10160">猫じろうはゆっくり立ち上がった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10194" data-start="10178">そして台所の戸棚の前へ移動した。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10210" data-start="10196"><strong data-end="10203" data-start="10196">大将：</strong> 何してんの。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10239" data-start="10212"><strong data-end="10224" data-start="10212">🐱 猫じろう：</strong> 次の侵入経路を調査中だニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10254" data-start="10241"><strong data-end="10248" data-start="10241">大将：</strong> 閉めます。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10268" data-start="10256">戸棚にロックが掛かった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10303" data-start="10270">猫じろうは数秒見上げたあと、何事もなかったように水を飲みに行った。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10310" data-start="10305">（おわり）<br/><br/></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div><div align="center"><a href="media/45ecfb95013e4d922f07.webp" target="_blank" title="e17c6c70-a644-4db5-bdde-010b803f6033"><img alt="e17c6c70-a644-4db5-bdde-010b803f6033" border="0" class="pict" height="320" hspace="5" src="media/e9485bd9eb0367fb2518.webp" width="480"/></a></div><p></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div><div id="ad2"></div></div><div class="reading-extras"><dl class="article-tags"><dt>タグ ：</dt><dd><a href="https://animer0n.blog.jp/tag/%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2" title="ランサムウェア タグの一覧へ">#ランサムウェア</a></dd><dd><a href="https://animer0n.blog.jp/tag/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83" title="サイバー攻撃 タグの一覧へ">#サイバー攻撃</a></dd><dd><a href="https://animer0n.blog.jp/tag/RaaS" title="RaaS タグの一覧へ">#RaaS</a></dd><dd><a href="https://animer0n.blog.jp/tag/%E4%BA%8C%E9%87%8D%E6%81%90%E5%96%9D" title="二重恐喝 タグの一覧へ">#二重恐喝</a></dd></dl>
+</div></article></main></body></html>

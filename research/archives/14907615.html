@@ -1,0 +1,303 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>【驚愕】衛星インターネット、「山奥でネットする技術」かと思ったら災害で壊れた携帯基地局まで宇宙経由で復旧していた件ｗｗ｜猫じろう調査室</title><link rel="stylesheet" href="../reading.css"></head><body><nav><a href="../">猫じろう調査室｜記事一覧</a></nav><main><article class="reading-sheet" itemscope="" itemtype="http://schema.org/BlogPosting"><div class="reading-label">NEKOJIRO / RESEARCH REPORT</div><header class="reading-header"><time datetime="2026-09-12T22:48:02+09:00">2026年09月12日 22:48</time><h1 itemprop="headline">【驚愕】衛星インターネット、「山奥でネットする技術」かと思ったら災害で壊れた携帯基地局まで宇宙経由で復旧していた件ｗｗ</h1><div class="reading-rule"></div></header><div class="reading-body" itemprop="articleBody">
+<div class="ad_rs_c" id="ad_rs"></div><p class="PDq2pG_selectionAnchorContainer" data-end="93" data-start="61"></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div><div align="center"><a href="media/bb1ec8a5a81c62496d4e.webp" target="_blank" title="9cae9b73-d224-4cba-a058-222c9d5c264e"><img alt="9cae9b73-d224-4cba-a058-222c9d5c264e" border="0" class="pict" height="320" hspace="5" src="media/919f721a139f8dc57cab.webp" width="480"/></a></div><br/>「衛星インターネット」と聞くと、どんな光景を思い浮かべるだろう。<span class="PDq2pG_selectionAnchor"></span><br/>
+<p data-end="98" data-start="95">山奥。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="103" data-start="100">離島。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="114" data-start="105">でっかいアンテナ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="156" data-start="116">「光回線が来ない場所でもネットできます」という、ちょっと特殊な人向けの通信手段。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="177" data-start="158">まあ、だいたいそんなイメージだと思う。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="233" data-start="179">ところが2024年1月、能登半島地震の被災地では、この「空からネットを持ってくる技術」が別の使われ方をした。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="255" data-start="235">避難所へWi-Fiを届けただけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="297" data-start="257"><strong data-end="297" data-start="257">携帯電話の基地局を通信網へつなぎ直すために、Starlinkが使われた。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="326" data-start="299">しかも車載型、可搬型、さらには船上基地局まで出てくる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="345" data-start="328">地震で道路や光ケーブルがやられた。</p><!-- NEKOJIRO_TOC_STYLE_START --><style id="nekojiro-article-layout-style">
+#nekojiro-toc{display:block!important;width:100%!important;box-sizing:border-box!important;margin:28px 0 36px!important;padding:20px 24px!important;border:1px solid #d8d8d8!important;border-radius:10px!important;background:#fafafa!important;color:#222!important;}
+#nekojiro-toc .nekojiro-toc-title{display:block!important;margin:0 0 14px!important;font-size:22px!important;line-height:1.4!important;font-weight:700!important;}
+#nekojiro-toc ol{margin:0!important;padding:0 0 0 24px!important;}#nekojiro-toc li{display:list-item!important;margin:8px 0!important;line-height:1.6!important;}#nekojiro-toc a{color:#222!important;text-decoration:none!important;}
+p{display:block!important;margin:0!important;padding:0!important;line-height:1.75!important;}
+.nekojiro-paragraph-gap{display:block!important;height:1.15em!important;min-height:1.15em!important;margin:0!important;padding:0!important;line-height:1!important;font-size:1em!important;overflow:hidden!important;}
+h2{display:block!important;margin:2.35em 0 1em!important;line-height:1.5!important;scroll-margin-top:20px!important;}h3{display:block!important;margin:1.7em 0 .8em!important;line-height:1.55!important;}strong{font-weight:700!important;}a.nekojiro-toc-anchor{display:block;position:relative;top:-8px;visibility:hidden;}
+@media(max-width:767px){#nekojiro-toc{width:100%!important;margin:22px 0 32px!important;padding:16px 18px!important;}#nekojiro-toc .nekojiro-toc-title{font-size:20px!important;}#nekojiro-toc li{margin:8px 0!important;line-height:1.55!important;}p{line-height:1.72!important;}.nekojiro-paragraph-gap{height:1.25em!important;min-height:1.25em!important;}h2{margin:2.15em 0 .95em!important;line-height:1.45!important;}h3{margin:1.6em 0 .75em!important;}}
+</style><!-- NEKOJIRO_TOC_STYLE_END --><!-- NEKOJIRO_TOC_START --><nav aria-label="目次" id="nekojiro-toc"><div class="nekojiro-toc-title">目次</div><ol><li><a href="#nekojiro-jump-1">📜 第一章 3万5786kmの彼方から、衛星は地球へ近づいた</a></li><li><a href="#nekojiro-jump-2">📜 第二章 能登半島地震、「基地局まで生きてるのに、その先がない」が起きる</a></li><li><a href="#nekojiro-jump-3">📜 第三章 「災害時の奥の手」から、基地局に最初から宇宙ルートを仕込む時代へ</a></li><li><a href="#nekojiro-jump-4">🍶 歴史板、今夜もざわつく</a></li><li><a href="#nekojiro-jump-5">🪭 史料から見える、意外な素顔</a></li><li><a href="#nekojiro-jump-6">🌱 その後の通信に残したもの</a></li><li><a href="#nekojiro-jump-7">🎙️ あの頃のこと、本人に聞いてみた</a></li><li><a href="#nekojiro-jump-8">🐾 猫じろうの歴史ちょこっと授業</a></li><li><a href="#nekojiro-jump-9">🔎 ここ、よく勘違いされる</a></li></ol></nav><!-- NEKOJIRO_TOC_END --><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="351" data-start="347">ならば。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="376" data-start="353"><strong data-end="376" data-start="353">地面を通れないなら、宇宙を通ればいい。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="395" data-start="378">通信復旧、急にスケールがおかしい。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="416" data-start="397">ただし最初に一つだけ整理しておきたい。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="639" data-start="418">タイトルでは分かりやすく「壊れた携帯基地局」としたが、実際には基地局そのものが物理的に壊れたケースだけを指すわけではない。基地局と通信拠点を結ぶ光ケーブルなどの<strong data-end="530" data-start="498">バックホール回線が切れ、基地局がネットワークから孤立する</strong>ことも大きな問題になる。2026年にはKDDIが、光ケーブル断絶時に基地局のバックホールをStarlinkへ遠隔切替する仕組みまで検証している。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="700" data-start="641">今回は、衛星インターネットが「僻地用ネット」から「地上インフラが死んだ時の空の迂回路」へ変わってきた話を追ってみよう。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-1" name="nekojiro-jump-1"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec1"></span><h2 data-end="736" data-section-id="116d0vl" data-start="702">📜 第一章　3万5786kmの彼方から、衛星は地球へ近づいた</h2>
+<p data-end="774" data-start="738">衛星を使った通信そのものは、Starlinkが突然発明したものではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="822" data-start="776">長年重要な役割を担ってきたのが、地球上空約<strong data-end="809" data-start="797">35,786km</strong>にある静止衛星、GEOだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="940" data-start="824">地球の自転と同じ周期で回るため、地上から見るとほぼ同じ位置にいるように見える。広大な範囲を一基でカバーでき、理論上は少数の衛星で地球規模の通信網を構成できる。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="948" data-start="942">これは強い。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="957" data-start="950">ただし、遠い。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="968" data-start="959">めちゃくちゃ遠い。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="984" data-start="970">東京から大阪どころではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1017" data-start="986">通信するたびに、データが宇宙まで約3万6000kmを往復する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1029" data-start="1019">距離はごまかせない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1228" data-start="1031">Starlink自身の説明では、従来型の静止衛星インターネットでは遅延が600ms以上になるのに対し、Starlinkは衛星を約<strong data-end="1104" data-start="1095">550km</strong>の低軌道、LEOへ配置することで約25msまで縮められるとしている。なお、これはStarlink側が示す代表値であり、実際のサービス仕様ではプランや負荷などによって変動する。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1246" data-start="1230">つまり発想はかなり分かりやすい。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1259" data-start="1248">「衛星が遠すぎて遅い」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1262" data-start="1261">↓</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1276" data-start="1264">「じゃあ近くを飛ばそう」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1282" data-start="1278">である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1294" data-start="1284">吾輩でも分かるニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1305" data-start="1296">問題は、その次だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1329" data-start="1307">静止衛星は地上から見るとほぼ同じ場所にいる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1356" data-start="1331">しかし低軌道衛星は、地球の周りをどんどん移動する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1387" data-start="1358">一基が去ったら、次の衛星へ通信を引き継がなければならない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1511" data-start="1389">ITUによれば、LEOはおおむね高度400～2,000km。継続的に通信サービスを提供するには、多数の衛星を組み合わせた**コンステレーション（衛星群）**が必要になる。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1521" data-start="1513">遠くに少数置く。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1528" data-start="1523">ではなく、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1539" data-start="1530">近くに大量に置く。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1564" data-start="1541">通信の物理法則に対して、物量で殴り返し始めた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1676" data-start="1566">Starlinkは数千基規模の衛星群を運用しているし、EutelsatのOneWebも高度約1,200kmに600基超のLEO衛星を展開している。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1714" data-start="1678">衛星インターネットは、「巨大な衛星が一個ドーン」という世界から変わった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1766" data-start="1716"><strong data-end="1755" data-start="1716">空を飛び続ける多数の通信ノードを、地上設備と連携させる巨大ネットワーク</strong>になってきたのである。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1791" data-start="1768">そして、この構造が思わぬ場所で本領を発揮する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1802" data-start="1793">地面が壊れた時だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-2" name="nekojiro-jump-2"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec2"></span><h2 data-end="1845" data-section-id="51tgrp" data-start="1804">📜 第二章　能登半島地震、「基地局まで生きてるのに、その先がない」が起きる</h2>
+<p data-end="1873" data-start="1847">2024年1月1日、令和6年能登半島地震が発生した。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1884" data-start="1875">道路が寸断される。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1891" data-start="1886">停電する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1905" data-start="1893">通信設備も被害を受ける。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1935" data-start="1907">ここで携帯電話について、ちょっとややこしいところがある。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="1971" data-start="1937">スマホと基地局が電波でつながれば、それだけで通信できるわけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2011" data-start="1973">基地局の向こう側には、さらに通信ネットワークへデータを運ぶ回線が必要になる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2030" data-start="2013">これが<strong data-end="2028" data-start="2016">バックホール回線</strong>だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2077" data-start="2032">町のコンビニに例えるなら、基地局が店で、バックホールが商品を運んでくる道路みたいなものだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2102" data-start="2079">店が無事でも、道路が全部崩れたら営業できない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2117" data-start="2104">通信でも似たことが起きる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2259" data-start="2119">KDDIは後の2026年の説明で、大規模地震などによって基地局まで接続する光ケーブルが切断すると、被災基地局で復旧作業が必要になること、道路寸断や浸水によって現地対応に時間がかかる場合があると説明している。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2287" data-start="2261">そこで能登に持ち込まれたのがStarlinkだった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2304" data-start="2289">まず分かりやすいのが避難所だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2427" data-start="2306">KDDIとStarlink Japanは2024年1月7日、<strong data-end="2353" data-start="2336">350台のStarlink</strong>を石川県庁舎へ搬入。避難所などへ無償提供し、Wi-Fi環境の構築を進めた。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2436" data-start="2429">これだけなら、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2454" data-start="2438">「なるほど、災害用Wi-Fiね」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2461" data-start="2456">で終わる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2471" data-start="2463">終わらなかった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2525" data-start="2473">KDDIは同時に、<strong data-end="2525" data-start="2482">車載型・可搬型・船舶基地局のバックホール回線としてStarlinkを使用した。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2531" data-start="2527">つまり、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2600" data-start="2533">スマホ<br data-end="2539" data-start="2536"/>
+↓<br data-end="2543" data-start="2540"/>
+応急設置した携帯基地局<br data-end="2557" data-start="2554"/>
+↓<br data-end="2561" data-start="2558"/>
+Starlinkアンテナ<br data-end="2576" data-start="2573"/>
+↓<br data-end="2580" data-start="2577"/>
+低軌道衛星<br data-end="2588" data-start="2585"/>
+↓<br data-end="2592" data-start="2589"/>
+通信ネットワーク</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2620" data-start="2602">という「空の迂回路」を作ったわけだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2630" data-start="2622">道路が通れない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2644" data-start="2632">光ケーブルも切れている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2664" data-start="2646">ならば基地局の後ろ側を宇宙へ逃がす。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2719" data-start="2666">災害復旧班、地図を見て「ここ通れませんね」からの解決策が<strong data-end="2705" data-start="2694">上空550km</strong>なの、選択肢の幅がおかしい。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2830" data-start="2721">能登の復旧活動では、KDDIがStarlinkをバックホールに使う衛星アンテナ159台、車載型・可搬型基地局84台などを投入したと公表している。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2858" data-start="2832">さらにStarlinkの活用先は基地局だけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2864" data-start="2860">自治体。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2870" data-start="2866">自衛隊。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2877" data-start="2872">電力会社。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2883" data-start="2879">避難所。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2895" data-start="2885">災害派遣医療チーム。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2981" data-start="2897">こうした支援全体を合わせると、KDDIが活用したStarlinkは<strong data-end="2939" data-start="2930">約700台</strong>に達した。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="2988" data-start="2983">700台。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3020" data-start="2990">「山小屋でYouTube見られます」からだいぶ遠くまで来た。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3152" data-start="3022">さらに能登では、陸からの復旧が難しい地域へ対応するため、船上基地局でもStarlinkがバックホールとして使われた。KDDIは後に、この経験を踏まえた船舶型基地局の運用拡大も進めている。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3163" data-start="3154">陸路が駄目なら船。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3180" data-start="3165">船から先の回線がないなら衛星。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3208" data-start="3182"><strong data-end="3208" data-start="3182">地上の通信網を直すために、海と宇宙まで使う。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3255" data-start="3210">ここまで来ると「衛星インターネット」という名前だけでは、やっていることの半分も伝わらない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="3271" data-section-id="1dld6g0" data-start="3257">🧩 3行でつながる</h3>
+<p data-end="3295" data-start="3273">地震などで<strong data-end="3294" data-start="3278">光ケーブルや道路が切れる</strong>。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3298" data-start="3297">↓</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3336" data-start="3300">基地局を通信網へつなぐバックホールを<strong data-end="3333" data-start="3318">Starlinkへ迂回</strong>する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3339" data-start="3338">↓</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3414" data-start="3341">地上ルートの復旧を待たず、携帯エリアを応急的に復旧できる場合がある。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3439" data-start="3416">ただし、「衛星なら災害無敵」という話ではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3584" data-start="3441">Starlink端末にも電源は必要だ。KDDIの南極実証資料でも、ユーザーターミナルの利用には電源が必要だと明記されている。携帯基地局側にも電力確保が必要で、実際の災害復旧では発電機や蓄電池なども重要になる。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3618" data-start="3586">空に道を作れても、コンセントまで宇宙から降ってくるわけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3631" data-start="3620">そこは地球側が頑張る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-3" name="nekojiro-jump-3"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec3"></span><h2 data-end="3675" data-section-id="5pchrw" data-start="3633">📜 第三章　「災害時の奥の手」から、基地局に最初から宇宙ルートを仕込む時代へ</h2>
+<p data-end="3714" data-start="3677">能登での利用は、非常時にStarlinkを現地へ運んで復旧するものだった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3738" data-start="3716">ところが2026年になると、もう一段進んだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3869" data-start="3740">KDDIは2026年3月、基地局の光ケーブルが切断された場合に、<strong data-end="3816" data-start="3772">あらかじめ用意しておいたStarlinkのバックアップ回線へ遠隔で切り替える機能</strong>の検証を完了したと発表した。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3883" data-start="3871">ここ、かなり重要である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3890" data-start="3885">災害発生。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3893" data-start="3892">↓</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3901" data-start="3895">道路が寸断。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3904" data-start="3903">↓</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3923" data-start="3906">作業員が機材を積んで現場へ向かう。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3926" data-start="3925">↓</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3942" data-start="3928">たどり着いて衛星回線を設置。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="3956" data-start="3944">という流れだけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4065" data-start="3958">事前にStarlinkバックアップ回線を配備した基地局なら、光ケーブル断絶時に<strong data-end="4017" data-start="3997">現地へ駆け付けず遠隔で切り替える</strong>構想へ進んでいる。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4078" data-start="4067">「壊れたら宇宙を使う」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4083" data-start="4080">から、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4111" data-start="4085"><strong data-end="4111" data-start="4085">「壊れる前から宇宙への逃げ道を用意しておく」</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4118" data-start="4113">になった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4162" data-start="4120">町内会で「避難経路は二つ確保しましょう」と言っていたら、一個が宇宙だった感じである。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4282" data-start="4164">KDDIはStarlinkバックホールを使う可搬型、車載型、船舶型基地局などの復旧機材も拡充し、2026年3月末までに全国で合計約330台とする計画を示した。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4319" data-start="4284">一方で、衛星インターネットの用途は災害だけに広がっているわけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4327" data-start="4321">南極もある。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4464" data-start="4329">2024年2月13日、KDDI、KDDI総合研究所、国立極地研究所は、南極の昭和基地と日本のKDDI総合研究所との間で、Starlinkを利用した<strong data-end="4419" data-start="4402">8K映像のリアルタイム伝送</strong>に成功した。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4500" data-start="4466">昭和基地では2004年からインテルサット衛星通信設備が使われていた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4512" data-start="4502">当初は約1Mbps。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4536" data-start="4514">2022年11月には最大7Mbpsまで増速。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4665" data-start="4538">そしてStarlinkを使った2024年の実証では、可搬型アンテナを生かして、基地周辺だけでなくより広い地域での観測やリアルタイムコミュニケーションへの活用可能性が検証された。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4680" data-start="4667">昔の衛星通信のイメージが、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4693" data-start="4682">「とにかく連絡できる」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4702" data-start="4695">だったとする。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4707" data-start="4704">今は、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4723" data-start="4709">「南極から8K送ってみよう」</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4729" data-start="4725">である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4755" data-start="4731">人類、通信帯域が増えるとすぐ映像を高画質にする。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4775" data-start="4757">そしてStarlinkだけでもない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4884" data-start="4777">EutelsatのOneWebは600基超の低軌道衛星を高度約1,200kmで運用し、陸上だけでなく海上・航空での接続も対象としている。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4918" data-start="4886">衛星インターネットは「地上回線の代用品」だけではなくなっている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="4983" data-start="4920"><strong data-end="4970" data-start="4920">地上回線が届かない場所、動いている乗り物、災害で地上回線が切れた場所を埋める、別経路の通信網</strong>として存在感を増している。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5002" data-start="4985">ここが今回いちばん面白いところだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5027" data-start="5004">光ファイバーと衛星のどちらが勝つか、ではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5042" data-start="5029">地面には地面の強さがある。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5055" data-start="5044">空には空の強さがある。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5087" data-start="5057">そして地面が駄目になった瞬間だけ、空の価値が急に跳ね上がる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-4" name="nekojiro-jump-4"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec4"></span><h2 data-end="5106" data-section-id="1i1467l" data-start="5089">🍶 歴史板、今夜もざわつく</h2>
+<p data-end="5146" data-start="5108">衛星通信の話なのに、酒場の三人が妙に「道路」と「予備回線」に食いつき始めた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5231" data-start="5148">🍶 <strong data-end="5172" data-start="5151">元電話局・地下ケーブル派（69）：</strong> 俺らの頃は回線切れたら「どこで切れた」「どうやって現場へ行く」だったんだぞ。それを「衛星へ切り替えます」は反則だろ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5318" data-start="5233">🏮 <strong data-end="5258" data-start="5236">アンテナ角度だけ気になる爺（76）：</strong> いや反則じゃない。迂回路だ。道路が崩れてる時に別の道路を探すのと同じだろ。ただしその道路が上空550kmにあるだけだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5379" data-start="5320">🍵 <strong data-end="5339" data-start="5323">元町内会防災係（82）：</strong> 「だけ」がでかいんだよ。うちの町内会でそんな避難経路出したら資料作り直しだぞ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5467" data-start="5381">🍶 <strong data-end="5405" data-start="5384">元電話局・地下ケーブル派（69）：</strong> でも能登で約700台だろ。避難所だけじゃなく基地局の後ろまで衛星に逃がしてる。もう非常用Wi-Fiって説明じゃ足りんわな。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5552" data-start="5469">🏮 <strong data-end="5494" data-start="5472">アンテナ角度だけ気になる爺（76）：</strong> その代わり電源は要る。空だけ見てりゃ全部解決するわけじゃない。基地局もアンテナも地上設備も生きてないと話にならん。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5627" data-start="5554">🍵 <strong data-end="5573" data-start="5557">元町内会防災係（82）：</strong> そこ大事だな。「宇宙だから災害に強い」じゃなくて、「地上と違う壊れ方をする経路をもう一本持てる」って話か。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5686" data-start="5629">🍶 <strong data-end="5653" data-start="5632">元電話局・地下ケーブル派（69）：</strong> そうそう。予備鍵を同じ引き出しに二本入れても意味ないのと同じだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5728" data-start="5688">🏮 <strong data-end="5713" data-start="5691">アンテナ角度だけ気になる爺（76）：</strong> その例えだけ急に家庭的だな。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5767" data-start="5730">🍵 <strong data-end="5749" data-start="5733">元町内会防災係（82）：</strong> 俺は予備鍵をどこに置いたか忘れた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="5816" data-start="5769">🍶 <strong data-end="5793" data-start="5772">元電話局・地下ケーブル派（69）：</strong> お前の冗長化、そこから失敗してるじゃねえか。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-5" name="nekojiro-jump-5"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec5"></span><h2 data-end="5837" data-section-id="17alehd" data-start="5818">🪭 史料から見える、意外な素顔</h2>
+<h3 data-end="5876" data-section-id="1colzxl" data-start="5839">① 「僻地へネットを届ける」が、「都市の通信網を助ける」に反転した</h3>
+<p data-end="5927" data-start="5878">衛星通信の大きな強みは、山間部や離島など地上インフラを整備しにくい場所を広域にカバーできることだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6031" data-start="5929">ITUも、衛星システムは困難な地形を越えて広い地域へ通信を提供でき、地上ネットワークとは異なるリスク特性を持つと説明している。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6057" data-start="6033">だが能登で起きたことは、その長所の裏返しだった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6107" data-start="6059">普段なら地上回線がある場所でも、<strong data-end="6107" data-start="6075">災害で地上回線が消えれば一時的に「通信困難地域」になる。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6129" data-start="6109">衛星は最初から山奥専用だったのではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6170" data-start="6131">地面の事情に左右されにくいという特徴が、山奥でも災害現場でも効いただけだった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="6206" data-section-id="14lykfs" data-start="6172">② 低軌道化は「衛星を近づけたら全部簡単になった」話ではない</h3>
+<p data-end="6230" data-start="6208">550kmまで近づければ遅延には有利になる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6248" data-start="6232">しかし低軌道衛星は空を移動する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6280" data-start="6250">だから多数の衛星を連携させるコンステレーションが必要になる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6398" data-start="6282">ITUは、LEOなど非静止衛星では連続サービスのために衛星群が必要で、地上側でもユーザー端末、ゲートウェイなど複雑なインフラが組み合わさると説明している。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6420" data-start="6400">「宇宙に飛ばせば地上設備不要」ではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6450" data-start="6422">むしろ宇宙と地上をまとめて一個の巨大通信網として動かす。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6479" data-start="6452">空へ逃げたと思ったら、地上側の仕事も普通に残っていた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="6518" data-section-id="15dcnnq" data-start="6481">③ 災害利用は「成功したから終了」ではなく、平時の設計へ戻ってきた</h3>
+<p data-end="6538" data-start="6520">能登でStarlinkを持ち込んだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6544" data-start="6540">使えた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6551" data-start="6546">めでたし。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6563" data-start="6553">では終わっていない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6657" data-start="6565">2026年には、基地局へStarlinkのバックアップ回線を事前配備し、必要時に遠隔切替する方向へ進んだ。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6691" data-start="6659">災害時の応急処置で得た経験が、平時の通信網設計へ戻ってきている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6732" data-start="6693"><strong data-end="6732" data-start="6693">非常用の機材が、通信インフラの「最初から用意する逃げ道」になり始めた。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6763" data-start="6734">ここまで来ると、衛星インターネットを見る目がだいぶ変わる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-6" name="nekojiro-jump-6"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec6"></span><h2 data-end="6783" data-section-id="948286" data-start="6765">🌱 その後の通信に残したもの</h2>
+<p data-end="6804" data-start="6785">一つ目は、<strong data-end="6802" data-start="6790">通信経路の多様化</strong>だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6858" data-start="6806">光ケーブル一本に頼らず、衛星という性質の違う経路を組み合わせることで、大規模災害時の復旧手段を増やせる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="6884" data-start="6860">二つ目は、<strong data-end="6883" data-start="6865">基地局そのものの使い方の変化</strong>。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7055" data-start="6886">可搬型、車載型、船舶型の基地局に衛星バックホールを組み合わせれば、「固定された基地局を直す」だけでなく、「必要な場所へ基地局ごと持っていく」という復旧ができる。KDDIは2023年7月からStarlinkを車載型・可搬型基地局のバックホールとして利用している。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7086" data-start="7057">三つ目は、<strong data-end="7084" data-start="7062">通信できる場所の境界が薄くなったこと</strong>だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7090" data-start="7088">陸。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7094" data-start="7092">海。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7098" data-start="7096">空。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7103" data-start="7100">極地。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7110" data-start="7105">災害現場。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7201" data-start="7112">OneWebは陸海空を対象とするLEO接続を展開し、Starlinkは南極での8K伝送にも使われた。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7252" data-start="7203">「インターネットはケーブルが来ている場所で使うもの」という感覚そのものが、少しずつ古くなっている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7271" data-start="7254">ただし地上網が消えるわけではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7284" data-start="7273">むしろ面白いのは逆だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7306" data-start="7286"><strong data-end="7306" data-start="7286">地上網を守るために宇宙網を使う。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7336" data-start="7308">主役交代ではなく、助っ人外国人ならぬ助っ人宇宙人である。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-7" name="nekojiro-jump-7"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec7"></span><h2 data-end="7360" data-section-id="1jbzdbp" data-start="7338">🎙️ あの頃のこと、本人に聞いてみた</h2>
+<p data-end="7387" data-start="7362">※ここからは史実をもとにした歴史フィクションです。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7425" data-start="7389">今回は人間ではなく、能登で働いた「衛星インターネット氏」に来てもらった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7475" data-start="7427"><strong data-end="7451" data-start="7427">🍶 元電話局・地下ケーブル派（69）：</strong> お前、山奥の家にネット配る係じゃなかったのか？</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7572" data-start="7477"><strong data-end="7496" data-start="7477">🛰️ 衛星インターネット氏：</strong> それも仕事です。でも地上の通信経路が切れれば、そこは一時的に「地上網が届きにくい場所」になります。場所が山奥か被災地かは、こちらからすると別問題です。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7633" data-start="7574"><strong data-end="7598" data-start="7574">🍶 元電話局・地下ケーブル派（69）：</strong> 能登では避難所だけじゃなく、基地局のバックホールまでやったんだって？</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7730" data-start="7635"><strong data-end="7654" data-start="7635">🛰️ 衛星インターネット氏：</strong> はい。車載型・可搬型・船上基地局などで使われました。ただし吾輩だけで復旧した顔をされると困ります。電源、基地局、地上設備、現場の作業員、全部必要です。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7794" data-start="7732"><strong data-end="7756" data-start="7732">🍶 元電話局・地下ケーブル派（69）：</strong> 2026年には、とうとう現場へ行く前にお前を基地局へ置いとく話になったな。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7865" data-start="7796"><strong data-end="7815" data-start="7796">🛰️ 衛星インターネット氏：</strong> 光ケーブルが切れた後で宇宙を思い出すより、切れる前から宇宙への道を用意しておいた方が早いでしょう。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="7917" data-start="7867"><strong data-end="7891" data-start="7867">🍶 元電話局・地下ケーブル派（69）：</strong> 言ってることは普通なのに、行き先だけ宇宙なんだよ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-8" name="nekojiro-jump-8"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec8"></span><h2 data-end="7939" data-section-id="trbhf1" data-start="7919">🐾 猫じろうの歴史ちょこっと授業</h2>
+<h3 data-end="7954" data-section-id="168ntf2" data-start="7941">GEO（静止軌道）</h3>
+<p data-end="7973" data-start="7956">地球上空約35,786kmの軌道。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8076" data-start="7975">地球の自転と同期するため、地上から見ると衛星がほぼ同じ場所にいるように見える。広範囲を少数の衛星でカバーしやすいのが強みだ。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="8090" data-section-id="he9iz4" data-start="8078">LEO（低軌道）</h3>
+<p data-end="8103" data-start="8092">地球に比較的近い軌道。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8226" data-start="8105">ITUではおおむね400～2,000kmの範囲として説明される。距離が短いため低遅延化に有利だが、衛星が地上から見て移動するため、多数の衛星を連携させる必要がある。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="8241" data-section-id="n9rs96" data-start="8228">コンステレーション</h3>
+<p data-end="8274" data-start="8243">多数の衛星を協調させて一つのサービスを提供する<strong data-end="8273" data-start="8266">衛星群</strong>。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8313" data-start="8276">StarlinkやOneWebの低軌道通信網を理解するうえで重要な言葉だ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8351" data-start="8315">一匹の猫に家全体を監視させるのではなく、各部屋に猫を配置する感じだニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8379" data-start="8353">大将、それを実現するためにあと六匹ほど採用するニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8403" data-start="8381"><strong data-end="8388" data-start="8381">大将：</strong> 通信網より先に家が崩壊する。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<h3 data-end="8415" data-section-id="zsxe1i" data-start="8405">バックホール</h3>
+<p data-end="8444" data-start="8417">携帯基地局と、その先の通信ネットワークを結ぶ中継回線。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8492" data-start="8446">スマホから基地局まで電波が届いていても、その先が切れていれば正常な通信サービスは成立しない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8537" data-start="8494">能登の話を理解するなら、**「基地局の後ろにも道がある」**と覚えておけば十分だニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<!-- NEKOJIRO_TOC_ANCHOR_START --><a class="nekojiro-toc-anchor" id="nekojiro-jump-9" name="nekojiro-jump-9"></a><!-- NEKOJIRO_TOC_ANCHOR_END --><span id="sec9"></span><h2 data-end="8556" data-section-id="d7vcb" data-start="8539">🔎 ここ、よく勘違いされる</h2>
+<p data-end="8599" data-start="8558">衛星インターネットは、「光回線を時代遅れにする次世代技術」という単純な話ではない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8732" data-start="8601">LEO衛星網にもユーザー端末、地上ゲートウェイ、インターネット接続点などの地上インフラが必要だ。ITUも、LEO衛星群が複雑な地上システムと協調して通信を成立させる構造を説明している。<span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8738" data-start="8734">だから、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8746" data-start="8740">光か衛星か。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8753" data-start="8748">ではなく、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8783" data-start="8755"><strong data-end="8783" data-start="8755">光も衛星も使って、切れにくい通信網をどう作るか。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8798" data-start="8785">この見方の方が実態に近い。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8836" data-start="8800">能登半島地震は、その違いがものすごく分かりやすい形で表に出た事例だった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8858" data-start="8838">今回の話で3つだけ残すなら、これでいい。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8891" data-start="8860"><strong data-end="8891" data-start="8860">低軌道衛星は、衛星を地球へ近づけることで低遅延化した。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="8942" data-start="8893"><strong data-end="8942" data-start="8893">能登半島地震では、Starlinkが避難所だけでなく携帯基地局のバックホールにも使われた。</strong></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9032" data-start="8944"><strong data-end="8992" data-start="8944">そして2026年には、光回線断絶時にStarlinkへ遠隔切替する仕組みまで検証された。</strong> <span class="contents"><span></span></span></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9059" data-start="9034">山奥へインターネットを届ける技術だと思っていたら、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9089" data-start="9061">地上のインターネットを守るため、宇宙から助けに来ていた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9114" data-start="9091">衛星インターネット、守備範囲が空より広いニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<span id="sec10"></span><h2 data-end="9134" data-section-id="1m326ny" data-start="9116">📚 もっと知りたい人のために</h2>
+<p data-end="9150" data-start="9136">今回の話、お前はどう思った？</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9236" data-start="9152">吾輩は「地面の回線が切れたので宇宙を経由します」という一文だけで十分お腹いっぱいだニャ。しかも調べると、衛星軌道、災害通信、基地局、海底・光通信まで全部つながってくる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9367" data-start="9238">この辺をもう少し深く追うなら、衛星通信や通信ネットワーク、宇宙通信を扱った<strong data-end="9283" data-start="9275">関連書籍</strong>が一番自然だニャ。Starlinkだけを見るより、GEOとLEO、基地局とバックホールの違いまで分かる本を探すと今回の記事がさらに立体的になるニャ。※アフィリエイト含む</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9395" data-start="9369">【<a href="https://amzn.to/3VaixyN" target="_blank" title="">衛星通信ネットワーク: スペースICTの基盤と応用</a>】</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9494" data-start="9397">※Amazonのアソシエイトとして、アニ〆論/猫じろうは適格販売により収入を得ています。宇宙の本を買っても自宅の回線が勝手に衛星へ冗長化されるわけではないから、そこだけは大将に請求するなニャｗｗ</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<span id="sec11"></span><h2 data-end="9512" data-section-id="10h8wcl" data-start="9496">🐈 猫じろう、舞台裏にて</h2>
+<p data-end="9540" data-start="9514">大将がリビングでWi-Fiルーターを再起動していた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9553" data-start="9542">ランプが点滅している。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9574" data-start="9555">猫じろうは少し離れた場所から見ていた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9593" data-start="9576"><strong data-end="9583" data-start="9576">大将：</strong> またネット切れた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9605" data-start="9595">猫じろう、窓を見る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9612" data-start="9607">空を見る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9620" data-start="9614">大将を見る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9658" data-start="9622"><strong data-end="9634" data-start="9622">🐱 猫じろう：</strong> 地上系統が障害なら、宇宙系統へ切り替えるニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9679" data-start="9660"><strong data-end="9667" data-start="9660">大将：</strong> うちに衛星回線はない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9690" data-start="9681">猫じろうは黙った。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9698" data-start="9692">数秒考える。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9708" data-start="9700">ベランダへ出る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9717" data-start="9710">空を見上げる。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9733" data-start="9719"><strong data-end="9726" data-start="9719">大将：</strong> 何してんの。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9758" data-start="9735"><strong data-end="9747" data-start="9735">🐱 猫じろう：</strong> 衛星を探してるニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9781" data-start="9760"><strong data-end="9767" data-start="9760">大将：</strong> 見つけても契約してねえよ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9794" data-start="9783">猫じろうが戻ってきた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9806" data-start="9796">ルーターの横に座る。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9818" data-start="9808">前足で触ろうとする。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9833" data-start="9820"><strong data-end="9827" data-start="9820">大将：</strong> 押すなよ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9847" data-start="9835">猫じろう、前足を止める。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9854" data-start="9849">その瞬間。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9872" data-start="9856">ルーターのランプが正常に戻った。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9887" data-start="9874">大将のスマホもつながった。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9903" data-start="9889"><strong data-end="9896" data-start="9889">大将：</strong> あ、直った。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9918" data-start="9905">猫じろうは何もしていない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9937" data-start="9920">だが妙に満足そうな顔で座り直した。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9967" data-start="9939"><strong data-end="9951" data-start="9939">🐱 猫じろう：</strong> 宇宙経由の復旧に成功したニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="9990" data-start="9969"><strong data-end="9976" data-start="9969">大将：</strong> ルーター再起動しただけだ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10026" data-start="9992"><strong data-end="10004" data-start="9992">🐱 猫じろう：</strong> 復旧報告書には吾輩の名前も入れておくニャ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10048" data-start="10028"><strong data-end="10035" data-start="10028">大将：</strong> お前、空見てただけだろ。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10062" data-start="10050">猫じろうは窓の外を見た。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10079" data-start="10064">今日も衛星は地球を回っている。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10094" data-start="10081">猫じろうは何もしていない。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10105" data-start="10096">だが本人の中では、</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10128" data-start="10107">通信インフラを一つ救ったことになっていた。</p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div>
+<p data-end="10135" data-start="10130">（おわり）<br/><br/></p><div aria-hidden="true" class="nekojiro-paragraph-gap"> </div><div align="center"><a href="media/963503631eee0c2397d1.webp" target="_blank" title="907feeff-8ec7-4023-b471-d6246c029c02"><img alt="907feeff-8ec7-4023-b471-d6246c029c02" border="0" class="pict" height="320" hspace="5" src="media/29309516a948ed1b3270.webp" width="480"/></a></div><br/><div id="ad2"></div></div><div class="reading-extras"><dl class="article-tags"><dt>タグ ：</dt><dd><a href="https://animer0n.blog.jp/tag/%E8%A1%9B%E6%98%9F%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88" title="衛星インターネット タグの一覧へ">#衛星インターネット</a></dd><dd><a href="https://animer0n.blog.jp/tag/Starlink" title="Starlink タグの一覧へ">#Starlink</a></dd><dd><a href="https://animer0n.blog.jp/tag/%E4%BD%8E%E8%BB%8C%E9%81%93%E8%A1%9B%E6%98%9F" title="低軌道衛星 タグの一覧へ">#低軌道衛星</a></dd><dd><a href="https://animer0n.blog.jp/tag/%E7%81%BD%E5%AE%B3%E9%80%9A%E4%BF%A1" title="災害通信 タグの一覧へ">#災害通信</a></dd></dl>
+</div></article></main></body></html>
