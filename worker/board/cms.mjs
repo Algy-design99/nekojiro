@@ -24,7 +24,7 @@ export function validate(input){
  if(typeof category==='string'&&(!category||category.length>80))throw Error('カテゴリを選んでください。');
  return {site:input.site,id,title,body,category,category_name:String(input.category_name||category).slice(0,80),baseRevision:Number(input.baseRevision||0)};
 }
-const ALLOWED=new Set('p br div span section article header footer h1 h2 h3 h4 h5 h6 ul ol li dl dt dd strong em b i u s small mark code pre blockquote a img figure figcaption table thead tbody tfoot tr th td caption hr details summary time'.split(' '));
+const ALLOWED=new Set('p br div span section article header footer h1 h2 h3 h4 h5 h6 ul ol li dl dt dd strong em b i u s strike sup sub small mark code pre blockquote a img figure figcaption table thead tbody tfoot tr th td caption hr details summary time'.split(' '));
 export function sanitizeElement(el){
  if(['script','style','iframe','object','embed','form','input','button','textarea','select','svg','math','template','link','meta','base'].includes(el.tagName)){el.remove();return;}
  if(!ALLOWED.has(el.tagName)){el.removeAndKeepContent();return;}

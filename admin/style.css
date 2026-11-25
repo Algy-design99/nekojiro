@@ -34,3 +34,22 @@ footer{color:#a8b5c5}
   zoom:var(--desktop-scale, 1);
   height:calc(560px / var(--desktop-scale, 1));
 }
+.editor-tools{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;margin:.5rem 0}
+.editor-tools details summary{cursor:pointer;padding:.45rem}
+.editor-tools button{min-height:40px}
+.editor-tools label{margin:0}
+.editor-tools input[type=checkbox]{width:auto}
+.rich-body{min-height:19rem;padding:1rem;border:1px solid #677488;border-radius:6px;overflow-wrap:anywhere;outline-offset:3px;line-height:1.8}
+.rich-body img,#research-card-preview img{max-width:100%;height:auto}
+.rich-body table{border-collapse:collapse;max-width:100%}
+.rich-body td,.rich-body th{border:1px solid #7c8798;padding:.35rem}
+.rich-body .research-note{border-left:4px solid #b48b4a;padding:.55rem .8rem}
+.rich-body .research-cover,.rich-body .research-toc{display:none}
+#research-dialog{max-width:min(32rem,calc(100% - 2rem));width:100%;max-height:85vh;overflow:auto;padding:1rem;border:1px solid #677488;border-radius:8px;background:#182330;color:#f2f4f7}
+#research-dialog::backdrop{background:#0009}
+#research-dialog-fields h3{margin:0 0 .7rem}
+#research-dialog-fields .emoji-list{max-height:12rem;overflow:auto}
+#research-dialog-fields .emoji-list button{font-size:1.15rem;min-width:2.7rem}
+#research-card-preview{max-width:390px;margin:1rem auto;padding:.8rem;border:1px solid #677488;border-radius:.4rem}
+#research-card-preview img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}
+.rich-body .research-citation{vertical-align:super;font-size:.75em}

@@ -100,3 +100,13 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   .theme-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .reading-sheet { padding: 1rem; }
 }
+
+.reading-body .research-cover { display:none; }
+.reading-body .research-note { margin:1rem 0;padding:.8rem 1rem;border-left:4px solid var(--gold);background:var(--paper); }
+.reading-body .research-toc { margin:1rem 0;padding:.75rem 1rem;border:1px solid var(--line);border-radius:.35rem;background:var(--paper); }
+.reading-body .research-toc summary { cursor:pointer;font-weight:700; }
+.reading-body .research-sources { margin-top:2rem; }
+.reading-body .research-table td,.reading-body .research-table th { border:1px solid var(--line);padding:.4rem .65rem; }
+.reading-body .research-citation { vertical-align:super;font-size:.75em; }
+
+.research-toc .toc-h3,.research-toc .toc-h4,.research-toc .toc-h5,.research-toc .toc-h6 { margin-inline-start:1rem; }

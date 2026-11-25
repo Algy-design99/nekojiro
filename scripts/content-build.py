@@ -1,6 +1,6 @@
 from pathlib import Path
 from html.parser import HTMLParser
-from urllib.parse import quote
+from urllib.parse import quote, urljoin
 import json,gzip,re,html,datetime
 
 ROOT=Path('.')
@@ -50,6 +50,20 @@ def docs(site):
   if d.get('status')=='published':result.append(d)
  return sorted(result,key=lambda d:(d.get('publishedAt')or d.get('createdAt')or '',-d['order']if 'order'in d else int(d['id'])if str(d['id']).isdigit()else 0),reverse=True)
 def summary(d):return {k:v for k,v in d.items()if k not in ['body','comments']}
+class FirstImage(HTMLParser):
+ def __init__(self, source):
+  super().__init__()
+  self.image=None
+  self.feed(source)
+ def handle_starttag(self, tag, attrs):
+  if tag!='img' or self.image is not None:return
+  values=dict(attrs)
+  src=values.get('src') or ''
+  if re.match(r'^(?:https?://|data:image/(?:png|jpeg|webp|gif);base64,|\.\.?/)',src,re.I):
+   if src.startswith(('./','../')):
+    src=urljoin('archives/',src)
+   self.image=src,(values.get('alt') or '')
+
 def render_research():
  research=ROOT/'research'
  archives=research/'archives'
@@ -65,8 +79,11 @@ def render_research():
   date=timestamp[:10].replace('-','/')
   filename='managed-'+d['id']+'.html'
   body=d['body']
-  image=re.search(r'<img\b[^>]*\bsrc="(https?://[^"]+)"',body,re.I)
-  picture=(f'<img src="{html.escape(html.unescape(image[1]),quote=True)}" alt="" loading="lazy" width="800" height="500">' if image else '<span class="no-image" aria-hidden="true">◈</span>')
+  body_parts=Parts(body)
+  covers=[node for node in body_parts.nodes if node['tag']=='figure' and 'research-cover' in node['attrs'].get('class','').split()]
+  cover=body_parts.inside(covers[0]) if covers else ''
+  image=FirstImage(cover).image or FirstImage(body).image
+  picture=(f'<img src="{html.escape(image[0],quote=True)}" alt="{html.escape(image[1],quote=True)}" loading="lazy" width="800" height="500">' if image else '<span class="no-image" aria-hidden="true">◈</span>')
   excerpt=html.escape(re.sub(r'\s+',' ',plain(body)).strip()[:140])
   cards.append(f'<article class="report-card" data-managed="research" data-topic="{category}"><div class="report-image">{picture}</div><div class="report-info"><time datetime="{timestamp}">{date}</time><h3><a href="archives/{filename}">{title}</a></h3><p>{excerpt}</p></div></article>')
   content=f'<div class="reading-label">{category}</div><header class="reading-header"><time datetime="{timestamp}">{date}</time><h1 itemprop="headline">{title}</h1><div class="reading-rule"></div></header><div class="reading-body" itemprop="articleBody">{body}</div>'
