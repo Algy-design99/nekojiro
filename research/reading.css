@@ -164,3 +164,31 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 
 body { font-family: var(--neko-sans); }
 .reading-body { font-size: 1.0625rem; line-height: 1.95; }
+
+/* Preserve the article outline and image alignment from Livedoor exports. */
+.reading-body:has(.nekojiro-toc-title) > .research-toc { display: none; }
+.reading-body .nekojiro-toc-title {
+  margin: 1.65rem 0 0;
+  padding: 1rem 1.25rem .4rem;
+  border: 1px solid var(--line);
+  border-bottom: 0;
+  border-radius: .55rem .55rem 0 0;
+  background: var(--paper);
+  font-size: clamp(1.13rem, 2.5vw, 1.38rem);
+  font-weight: 700;
+}
+.reading-body .nekojiro-toc-title + ol {
+  margin: 0 0 2rem;
+  padding: .3rem 1.25rem 1.05rem 2.65rem;
+  border: 1px solid var(--line);
+  border-top: 0;
+  border-radius: 0 0 .55rem .55rem;
+  background: var(--paper);
+}
+.reading-body #nekojiro-toc + * { scroll-margin-top: 1rem; }
+.reading-body .nekojiro-toc-title + ol li { margin-block: .35rem; }
+.reading-body .nekojiro-toc-anchor { display:block; scroll-margin-top: 1.25rem; }
+.reading-body:has(.nekojiro-toc-title) div:has(> a > img.pict) { text-align: center; }
+.reading-body:has(.nekojiro-toc-title) p { margin-block: .78em; line-height: 1.82; }
+.reading-body:has(.nekojiro-toc-title) h2 { margin-block: 2.15em .85em; font-size: clamp(1.35rem, 3vw, 1.56rem); }
+.reading-body:has(.nekojiro-toc-title) h3 { margin-block: 1.55em .7em; font-size: clamp(1.12rem, 2.5vw, 1.25rem); }

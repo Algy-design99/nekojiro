@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['content/**', 'scripts/content-build.py', '.github/workflows/content-publish.yml']
+    paths: ['content/**', 'scripts/content-build.py', 'research/reading.css', '.github/workflows/content-publish.yml']
 permissions:
   actions: read
   contents: write

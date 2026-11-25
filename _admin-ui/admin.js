@@ -31,9 +31,38 @@ $('copy-public-link').onclick=()=>action(async()=>{
  await navigator.clipboard.writeText(publicURL());message('記事URLをコピーしました。');
 });
 function showPublicLink(visible){
- $('public-link').hidden=!visible;
- $('copy-public-link').hidden=!visible||!researchSelected();
- if(visible)$('public-link').href=publicURL();
+ const doc=current;
+ const url=visible?publicURL():null;
+ const show=()=>{
+  $('public-link').hidden=false;
+  $('public-link').href=url;
+  $('copy-public-link').hidden=doc.site!=='research';
+ };
+ $('public-link').hidden=true;
+ $('copy-public-link').hidden=true;
+ if(!url)return;
+ if(doc.site==='board'){show();return;}
+ checkPagesLink(doc,url,show);
+}
+
+async function checkPagesLink(doc,url,show){
+ for(let attempt=0;attempt<15&&current===doc;attempt++){
+  try{
+   const response=await fetch(url,{method:'HEAD',cache:'no-store',signal:AbortSignal.timeout(5000)});
+   if(current!==doc||!['published','publishing'].includes(doc.status))return;
+   if(response.ok){
+    show();
+    if(doc.status==='publishing')$('article-state').textContent='公開ページに接続済み';
+    return;
+   }
+  }catch{}
+  if(current!==doc||!['published','publishing'].includes(doc.status))return;
+  $('article-state').textContent='公開ページの反映を確認中';
+  await new Promise(resolve=>setTimeout(resolve,8000));
+ }
+ if(current===doc&&['published','publishing'].includes(doc.status)){
+  $('article-state').textContent='公開ページを確認できません。時間をおいて記事を開き直してください';
+ }
 }
 function publicURL(){if(current.site==='research')return new URL('research/archives/managed-'+current.id+'.html',ORIGIN).href;return ORIGIN+current.site+'/'+(current.site==='board'?'?thread='+current.id:current.id+'.html');}
 function categories(value){const list=$('site').value==='board'?[{id:0,name:'未分類'},...boards.filter(b=>b.id!==0)]:themes[$('site').value].map(n=>({id:n,name:n}));$('category').replaceChildren();for(const item of list){const o=document.createElement('option');o.value=item.id;o.textContent=item.name;$('category').append(o);}if(value!==undefined){if(![...$('category').options].some(o=>o.value===String(value))){const o=document.createElement('option');o.value=String(value);o.textContent=String(value);$('category').append(o);}$('category').value=String(value);}$('category-label').textContent=$('site').value==='board'?'板':'カテゴリ';}
