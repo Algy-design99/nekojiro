@@ -70,7 +70,11 @@ function formatThread(root, post) {
   const href = a.getAttribute('href');
   const target = /^#(?:neko-)?res-?(\d+)$/.exec(href);
   if (target && replies.has(Number(target[1]))) a.hash = replies.get(Number(target[1])).id;
-  if (post.source && /^\.?\/img\//.test(href)) a.href = new URL(href.replace(/\/$/, ''), post.source).href;
+  if (/^\.?\/img\//.test(href)) {
+   const image = a.querySelector('img[src]');
+   if (image && !/^\.?\/img\//.test(image.getAttribute('src'))) a.href = image.src;
+   else if (post.source) a.href = new URL(href, post.source).href;
+  }
  }
  for (const image of root.querySelectorAll('img[src]')) {
   const src = image.getAttribute('src');
