@@ -1111,3 +1111,15 @@ body.neko-thread-page{background:#ebf0f4;color:#111}
  .neko-thread-page #neko-comments{margin:24px 8px 0}
  .neko-thread-page #board-reading>.thread-toolbar:first-child{font-size:12px}
 }
+
+/* Keep archived replies aligned with the FC2 thread layout. */
+.neko-thread-page #board-title{font-size:21px;font-weight:700;line-height:1.4;color:#d00000;margin:12px 0 16px;overflow-wrap:anywhere}
+.neko-thread-page #neko-original-posts{width:100%!important;margin:0!important;padding:0!important;overflow-wrap:anywhere}
+.neko-thread-page #neko-comments{margin:26px 4px 0}
+.neko-thread-page #neko-original-posts>.fc2_footer{display:none}
+.neko-thread-page .board-editorial-reply{scroll-margin-top:24px}
+.neko-thread-page #neko-original-posts .neko-target{background:#fff6c9!important;outline:1px solid #e6d79e}
+@media(max-width:700px){
+ .neko-thread-page #board-title{font-size:18px}
+ .neko-thread-page #neko-comments{margin:24px 8px 0}
+}

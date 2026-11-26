@@ -7,7 +7,9 @@ document.body.classList.toggle('neko-thread-page',!!threadId);
 const configPromise=fetch('posting.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
 async function getJSON(url){const r=await fetch(url);if(!r.ok)throw Error('読み込みに失敗しました（'+r.status+'）');return r.json();}
 async function bodies(){
- if('DecompressionStream'in window){const r=await fetch('threads.json.gz');if(!r.ok)throw Error('本文を取得できませんでした');return new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).json();}
+ if('DecompressionStream' in window){
+  try{const r=await fetch('threads.json.gz');if(r.ok)return await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).json();}catch{}
+ }
  return getJSON('threads.json');
 }
 async function loadOriginalRails(){try{const response=await fetch('ads.html');if(!response.ok)return;const wrapper=document.createElement('div');wrapper.innerHTML=await response.text();const rails=wrapper.firstElementChild;if(!rails)return;const black=rails.querySelector('[href="#black-site-unavailable"]');if(black){black.href='../kuronuma/';black.removeAttribute('aria-disabled');black.removeAttribute('tabindex');black.setAttribute('aria-label','黒沼幻司公式記録室を開く');const label=black.closest('.neko-a8-slot')?.querySelector('.neko-a8-label');if(label)label.textContent='黒沼幻司 公式サイト';}document.getElementById('bbs').append(rails);const script=document.createElement('script');script.src='ads.js?v=20261126-a8bulk';document.body.append(script);}catch{}}
@@ -41,13 +43,76 @@ async function mergeLiveCatalog(){
  catalog.threads=[...map.values()].sort((a,b)=>(b.publishedAt||'').localeCompare(a.publishedAt||'')||b.id-a.id);
  }catch{}
 }
+function formatThread(root, post) {
+ const replies = new Map();
+ const nodes = [...root.querySelectorAll('[id]')];
+ for (const reply of nodes) {
+  const match = /^res-?(\d+)$/.exec(reply.id);
+  if (!match) continue;
+  const number = Number(match[1]);
+  if (!replies.has(number)) replies.set(number, reply);
+  reply.classList.add('board-editorial-reply');
+  const header = reply.querySelector(':scope > .meta, :scope > .res_meta, :scope > span:first-child');
+  if (!header || header.querySelector('a,img,button,input,br')) continue;
+  const fields = /^(\d+)\s*([:：])?\s*(?:名前\s*[:：]\s*)?(.+?)\s+(20\d{2}[/-]\d{1,2}[/-]\d{1,2}[\s\S]*)$/.exec(header.textContent.trim());
+  if (!fields) continue;
+  const name = document.createElement('span');
+  name.className = 'neko-editorial-name';
+  name.textContent = fields[3];
+  header.classList.add('neko-editorial-meta');
+  header.replaceChildren(fields[1] + (fields[2] || '') + ' ', name, ' ' + fields[4]);
+ }
+ root.querySelectorAll('.fc2_footer,.fc2button-clap').forEach(node => node.remove());
+ const sameText = value => value.normalize('NFKC').replace(/\s+/g, '');
+ const heading = root.querySelector(':scope > h2, :scope > div > h2');
+ if (heading && sameText(heading.textContent) === sameText(post.title)) heading.remove();
+ for (const a of root.querySelectorAll('a[href]')) {
+  const href = a.getAttribute('href');
+  const target = /^#(?:neko-)?res-?(\d+)$/.exec(href);
+  if (target && replies.has(Number(target[1]))) a.hash = replies.get(Number(target[1])).id;
+  if (post.source && /^\.?\/img\//.test(href)) a.href = new URL(href.replace(/\/$/, ''), post.source).href;
+ }
+ for (const image of root.querySelectorAll('img[src]')) {
+  const src = image.getAttribute('src');
+  if (post.source && /^\.?\/img\//.test(src)) image.src = new URL(src.replace(/\/$/, ''), post.source).href;
+ }
+ for (const reply of replies.values()) {
+  const walker = document.createTreeWalker(reply, NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+  for (const node of textNodes) {
+   if (node.parentElement.closest('a,pre,code,script,style,textarea')) continue;
+   const matches = [...node.data.matchAll(/>>([1-9]\d*)/g)].filter(m => replies.has(Number(m[1])));
+   if (!matches.length) continue;
+   const fragment = document.createDocumentFragment();
+   let end = 0;
+   for (const match of matches) {
+    fragment.append(node.data.slice(end, match.index), link(match[0], '#' + replies.get(Number(match[1])).id));
+    end = match.index + match[0].length;
+   }
+   fragment.append(node.data.slice(end));
+   node.replaceWith(fragment);
+  }
+ }
+ function followReply() {
+  root.querySelector('.neko-target')?.classList.remove('neko-target');
+  const match = /^#(?:neko-)?res-?(\d+)$/.exec(location.hash);
+  const reply = match && replies.get(Number(match[1]));
+  if (reply) {
+   reply.classList.add('neko-target');
+   reply.scrollIntoView({block:'start'});
+  }
+ }
+ window.addEventListener('hashchange', followReply);
+ followReply();
+}
 async function renderThread(){
  $('board-index').hidden=true;$('board-reading').hidden=false;$('board-title').textContent='読み込み中…';
  const entry=catalog.threads.find(p=>p.id===threadId);const post=await publicArticle(entry);if(!post)throw Error('このスレッドは見つかりませんでした。');
  document.title=post.title+' - 猫じろう掲示板';$('board-title').textContent=post.title;$('neko-original-posts').innerHTML=post.body;$('neko-comment-list').innerHTML=post.comments||'';
+ formatThread($('neko-original-posts'),post);
  $('board-back').href='./?board='+post.category;$('board-back').textContent='← '+post.category_name+'に戻る';
  const at=catalog.threads.findIndex(p=>p.id===threadId),nav=$('board-neighbors');for(const [index,label]of[[at-1,'← 前のスレッド'],[at+1,'次のスレッド →']])if(catalog.threads[index])nav.append(link(label,'./?thread='+catalog.threads[index].id));
- if(location.hash){const id=decodeURIComponent(location.hash.slice(1));document.getElementById(id)?.scrollIntoView();}
  const edit=link('この記事を編集','../admin/?site=board&id='+encodeURIComponent(post.id));edit.target='_blank';edit.rel='noopener';edit.className='board-edit-link';const toolbar=$('board-back').parentElement;if(!toolbar.querySelector('.board-edit-link'))toolbar.append(edit);
  await enablePosting(post);
 }
