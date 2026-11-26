@@ -8,7 +8,12 @@
  const fc2 = /\.fc2\.(net|com)$/.test(location.hostname);
  const ref = new URLSearchParams(location.search).get('ref');
  const origin = ['fc2-board','github-board'].includes(ref) ? ref : (fc2 ? 'fc2-' + site : 'github-' + site);
- const route = new URLSearchParams(location.search).get('via');
+ const parameters = new URLSearchParams(location.search);
+ const route = parameters.get('via');
+ const medium = parameters.get('utm_medium');
+ const sourceName = parameters.get('utm_source');
+ const campaign = parameters.get('utm_campaign');
+ const social = medium === 'social' && sourceName === 'x' && ['profile','article','guide'].includes(campaign);
  const via = ['board-home','board-thread','buying-guide'].includes(route) ? route : '';
  if (navigator.globalPrivacyControl !== true && navigator.doNotTrack !== '1') {
   window.dataLayer = window.dataLayer || [];
@@ -16,10 +21,11 @@
   window.gtag = tag;
   tag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
   tag('js',new Date());
-  tag('config',id,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false});
+  tag('config',id,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,
+   ...(social ? {campaign_source:sourceName,campaign_medium:medium,campaign_name:campaign} : {})});
   let pageReferrer = '';
   try { if (document.referrer) pageReferrer = new URL(document.referrer).origin; } catch {}
-  const context = {site_section:site,entry_source:origin,entry_route:via,page_location:location.origin+location.pathname,page_referrer:pageReferrer};
+  const context = {site_section:site,entry_source:social ? 'x-'+campaign : origin,entry_route:via,page_location:location.origin+location.pathname,page_referrer:pageReferrer};
   tag('event','page_view',context);
   const script = document.createElement('script');
   script.async = true;
