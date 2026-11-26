@@ -1,5 +1,5 @@
 /* 猫じろう広告 V12: 関連広告優先・左右各7件（計14件）最低保証 */
-(function(){
+(async function(){
 'use strict';
 var root=document.getElementById('neko-a8');if(!root)return;
 var rails=[].slice.call(root.querySelectorAll('.neko-a8-rail'));
@@ -21,6 +21,16 @@ if(isThread&&rails[0]){
 <img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4BESU5+F4RSP6+5W58+5ZEMP" alt="">
 </template></div>`;
  rails[0].appendChild(slot);
+}
+if(isThread){
+ try {
+  await new Promise(function(resolve,reject){
+   var script=document.createElement('script');
+   script.src='a8-catalog.js?v=20261126-a8bulk';
+   script.onload=resolve;script.onerror=reject;document.head.append(script);
+  });
+  await window.NekoA8Bulk(root,'github',document.querySelector('.neko-entry-title')?.textContent,content.textContent);
+ } catch (error) { console.warn('A8 catalog unavailable',error); }
 }
 var all=[].slice.call(root.querySelectorAll('.neko-a8-slot'));
 var top=all.filter(function(x){return !x.hasAttribute('data-thread-only');});
@@ -101,7 +111,7 @@ function update(){
   var mobileTitle=mobileTopic.test(title)||/スマホ|携帯電話/i.test(title);
   function score(x){
     var label=x.getAttribute('data-label')||'';
-    var n=x.hasAttribute('data-topic-only')?(mobileTitle?180:90):0;
+    var n=(Number(x.dataset.a8BulkScore)||0)+(x.hasAttribute('data-topic-only')?(mobileTitle?180:90):0);
     rules.forEach(function(r){
       if(r.topic.test(title)&&r.ad.test(label))n+=100;
       else if(r.topic.test(subject)&&r.ad.test(label))n+=15;
