@@ -6,12 +6,34 @@ var rails=[].slice.call(root.querySelectorAll('.neko-a8-rail'));
 var article=document.getElementById('neko-thread');
 var content=document.getElementById('neko-original-posts');
 var isThread=!!(article&&content)&&new URLSearchParams(location.search).has('thread');
+var mobileTopic=/楽天モバイル|格安SIM|eSIM|スマホ|携帯(?:電話|回線|料金)|モバイル回線|通信(?:会社|料金|回線|プラン)|データ無制限|MNP/i;
+if(isThread&&rails[0]){
+ var slot=document.createElement('div');
+ slot.className='neko-a8-slot';
+ slot.hidden=true;
+ slot.setAttribute('data-thread-only','');
+ slot.setAttribute('data-topic-only','');
+ slot.setAttribute('data-a8-program','s00000027494001');
+ slot.setAttribute('data-label','楽天モバイル SIM 通信回線');
+ slot.innerHTML=`<div class="neko-a8-label">PR・楽天モバイル</div><div class="neko-a8-creative"><template data-a8-code>
+<a href="https://px.a8.net/svt/ejp?a8mat=4BESU5+F4RSP6+5W58+5ZEMP" rel="nofollow">
+<img border="0" width="300" height="250" alt="" src="https://www24.a8.net/svt/bgt?aid=261031037915&wid=008&eno=01&mid=s00000027494001005000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4BESU5+F4RSP6+5W58+5ZEMP" alt="">
+</template></div>`;
+ rails[0].appendChild(slot);
+}
 var all=[].slice.call(root.querySelectorAll('.neko-a8-slot'));
 var top=all.filter(function(x){return !x.hasAttribute('data-thread-only');});
 var extra=all.filter(function(x){return x.hasAttribute('data-thread-only');});
 var timer=0,running=false;
-function available(x){var end=x.getAttribute('data-end');return (!end||!Number.isFinite(Date.parse(end))||Date.now()<=Date.parse(end))&&!!x.querySelector('.neko-a8-banner-link');}
+function available(x){var end=x.getAttribute('data-end');return (!end||!Number.isFinite(Date.parse(end))||Date.now()<=Date.parse(end))&&!!x.querySelector('.neko-a8-banner-link, template[data-a8-code]');}
 function loadSelectedAds(x){
+ var template=x.querySelector('template[data-a8-code]');
+ if(template){
+  var fragment=template.content.cloneNode(true);
+  var banner=fragment.querySelector('a');if(banner)banner.classList.add('neko-a8-banner-link');
+  template.replaceWith(fragment);
+ }
  // 選択された枠だけA8バナーと計測画像を読み込む。
  // 元のURL、リンク、計測タグは変更しない。
  x.querySelectorAll('img[data-a8-src]').forEach(function(img){
@@ -78,7 +100,7 @@ function update(){
   ];
   function score(x){
     var label=x.getAttribute('data-label')||'';
-    var n=0;
+    var n=x.hasAttribute('data-topic-only')?(mobileTopic.test(title)?180:90):0;
     rules.forEach(function(r){
       if(r.topic.test(title)&&r.ad.test(label))n+=100;
       else if(r.topic.test(subject)&&r.ad.test(label))n+=15;
@@ -93,7 +115,9 @@ function update(){
     if(/九州|中国地方|四国/i.test(label)&&!/九州|中国地方|四国|福岡|広島|岡山|山口|島根|鳥取|香川|愛媛|高知|徳島/i.test(subject))n-=100;
     return n;
   }
-  var candidates=(isThread?top.concat(extra):top).filter(available);
+  var candidates=(isThread?top.concat(extra):top).filter(available).filter(function(x){
+    return !x.hasAttribute('data-topic-only') || (isThread&&mobileTopic.test(subject));
+  });
   // トップでは4つの系列サイトを必ず表示し、残りは従来の広告から選ぶ。
   if(!isThread){candidates.sort(function(a,b){return Number(!!b.dataset.network)-Number(!!a.dataset.network);});}
   if(isThread){
