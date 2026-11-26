@@ -6,7 +6,7 @@ var rails=[].slice.call(root.querySelectorAll('.neko-a8-rail'));
 var article=document.getElementById('neko-thread');
 var content=document.getElementById('neko-original-posts');
 var isThread=!!(article&&content)&&new URLSearchParams(location.search).has('thread');
-var mobileTopic=/楽天モバイル|格安SIM|eSIM|スマホ|携帯(?:電話|回線|料金)|モバイル回線|通信(?:会社|料金|回線|プラン)|データ無制限|MNP/i;
+var mobileTopic=/楽天モバイル|格安SIM|\beSIM\b|携帯(?:回線|料金)|モバイル回線|通信(?:会社|料金|回線|プラン)|データ無制限|\bMNP\b/i;
 if(isThread&&rails[0]){
  var slot=document.createElement('div');
  slot.className='neko-a8-slot';
@@ -98,9 +98,10 @@ function update(){
     {topic:/ギフト|贈り物|出産祝い|誕生日/i,ad:/ベルビーベベ|似顔絵/i},
     {topic:/懸賞|プレゼント|ポイント|アンケート/i,ad:/懸賞にゃんダフル|アイリサーチ|マクロミル/i}
   ];
+  var mobileTitle=mobileTopic.test(title)||/スマホ|携帯電話/i.test(title);
   function score(x){
     var label=x.getAttribute('data-label')||'';
-    var n=x.hasAttribute('data-topic-only')?(mobileTopic.test(title)?180:90):0;
+    var n=x.hasAttribute('data-topic-only')?(mobileTitle?180:90):0;
     rules.forEach(function(r){
       if(r.topic.test(title)&&r.ad.test(label))n+=100;
       else if(r.topic.test(subject)&&r.ad.test(label))n+=15;
@@ -116,7 +117,7 @@ function update(){
     return n;
   }
   var candidates=(isThread?top.concat(extra):top).filter(available).filter(function(x){
-    return !x.hasAttribute('data-topic-only') || (isThread&&mobileTopic.test(subject));
+    return !x.hasAttribute('data-topic-only') || (isThread&&(mobileTitle||mobileTopic.test(subject)));
   });
   // トップでは4つの系列サイトを必ず表示し、残りは従来の広告から選ぶ。
   if(!isThread){candidates.sort(function(a,b){return Number(!!b.dataset.network)-Number(!!a.dataset.network);});}
