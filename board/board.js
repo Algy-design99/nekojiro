@@ -54,7 +54,7 @@ function formatThread(root, post) {
   reply.classList.add('board-editorial-reply');
   const header = reply.querySelector(':scope > .meta, :scope > .res_meta, :scope > span:first-child');
   if (!header || header.querySelector('a,img,button,input,br')) continue;
-  const fields = /^(\d+)\s*([:：])?\s*(?:名前\s*[:：]\s*)?(.+?)\s+(20\d{2}[/-]\d{1,2}[/-]\d{1,2}[\s\S]*)$/.exec(header.textContent.trim());
+  const fields = /^(\d+)\s*([:：])?\s*(?:名前\s*[:：]\s*)?(.+?)(?:\s*[:：]\s*|\s+)(20\d{2}[/-]\d{1,2}[/-]\d{1,2}[\s\S]*)$/.exec(header.textContent.trim());
   if (!fields) continue;
   const name = document.createElement('span');
   name.className = 'neko-editorial-name';
