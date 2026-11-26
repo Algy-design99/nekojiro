@@ -45,6 +45,9 @@ async function mergeLiveCatalog(){
 }
 function formatThread(root, post) {
  const replies = new Map();
+ for (const tag of root.querySelectorAll('a.tagword, a[href^="https://blog.fc2.com/tag/"], a[href^="http://blog.fc2.com/tag/"], a[href^="//blog.fc2.com/tag/"]')) {
+  tag.replaceWith(...tag.childNodes);
+ }
  const nodes = [...root.querySelectorAll('[id]')];
  for (const reply of nodes) {
   const match = /^res-?(\d+)$/.exec(reply.id);
