@@ -174,8 +174,16 @@
    hero.querySelector('a[href="#works"]')?.after(cta);
    for(const [project,fragment] of [['market','economy'],['news','signal'],['music','music']]){
     const card=document.getElementById('work-'+project);
-    const old=card?.querySelector('a[href*="/portfolio/'+project+'/"]');
-    if(old){old.href=new URL('portfolio/case-studies.html#'+fragment,base).href;old.textContent='制作事例を見る';}
+    if(!card)continue;
+    const live = new URL(fragment+'/',base).href;
+    for(const link of card.querySelectorAll('a[href*="/portfolio/'+project+'/"]'))link.href=live;
+    const primary = [...card.querySelectorAll('a')].find(link=>link.href===live&&!link.classList.contains('project-shot'));
+    const details = document.createElement('a');
+    details.href=new URL('portfolio/case-studies.html#'+fragment,base).href;
+    details.textContent='制作事例を見る';
+    details.style.marginInlineStart='10px';
+    if(primary)primary.after(details);
+    else card.append(details);
    }
    disclosure.hidden=true;
    scope.after(section);
