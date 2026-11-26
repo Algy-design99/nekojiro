@@ -1,6 +1,18 @@
 [
   {
     "site": "research",
+    "id": "1795727015029",
+    "title": "【ただの石だったのに】半導体の原料となるシリコンはなぜ電気を制御できるのか",
+    "category": "歴史",
+    "category_name": "歴史",
+    "status": "published",
+    "createdAt": "2026-11-26T21:20:17.969Z",
+    "updatedAt": "2026-11-26T21:20:20.225Z",
+    "revision": 2,
+    "publishedAt": "2026-11-26T21:20:20.293Z"
+  },
+  {
+    "site": "research",
     "id": "1795726185974",
     "title": "【水でよくない？】人類はなぜ苦いコーヒーを飲むようになったのか",
     "category": "歴史",
