@@ -53,6 +53,11 @@ function formatBoardLinks(root) {
   if (!/^(?:https?:)?\/\//i.test(raw) || anchor.querySelector('img,picture,svg,video') || anchor.closest('.meta,.res_meta,.neko-editorial-meta')) continue;
   if (!['http:', 'https:'].includes(anchor.protocol) || anchor.origin === location.origin || anchor.hostname === 'jig0u.fc2.net' || !anchor.textContent.trim()) continue;
   if (/^https?:\/\/\S+$/i.test(anchor.textContent.trim())) continue;
+  const separator = anchor.previousSibling;
+  if (separator?.nodeType === Node.TEXT_NODE && /^\s*[／/]\s*$/.test(separator.textContent) && separator.previousSibling?.matches?.('a[data-board-source-url]')) {
+   separator.replaceWith(document.createElement('br'));
+  }
+  anchor.dataset.boardSourceUrl = '';
   const description = document.createElement('span');
   description.append(...anchor.childNodes);
   anchor.before(description, document.createElement('br'));
