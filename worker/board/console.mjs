@@ -43,13 +43,15 @@ export async function consoleResponse(request, env) {
   const url = new URL(request.url);
   const path = url.pathname;
   const isHome = path === '/console/';
+  const isAPI = /^\/console\/api\/(admin|content)\//.test(path);
+  const apiError = (status, error) => response(JSON.stringify({error}),status,{'Content-Type':'application/json; charset=utf-8'});
   if (path === '/console') return response(null, 308, {Location: '/console/'+url.search});
   if ((env.CMS_ADMIN_PASSWORD || '').length < 16 || !env.CMS_GITHUB_TOKEN) {
-    return response('Service unavailable', 503);
+    return isAPI ? apiError(503,'管理サーバーは一時的に利用できません。') : response('Service unavailable', 503);
   }
   const isRead = request.method === 'GET' || request.method === 'HEAD';
   if (!isRead && request.headers.get('Origin') !== url.origin) {
-    return isHome ? login(403, 'このページを開き直してからログインしてください。') : response('Forbidden', 403);
+    return isHome ? login(403, 'このページを開き直してからログインしてください。') : isAPI ? apiError(403,'この管理画面を直接開いて操作してください。') : response('Forbidden', 403);
   }
 
   if (isHome && request.method === 'POST') {
@@ -69,7 +71,7 @@ export async function consoleResponse(request, env) {
   }
   const token = cookieToken(request);
   const auth = new Request(url, {headers:{Authorization:'Bearer '+token}});
-  if (!token || !await authorized(auth,env.CMS_ADMIN_PASSWORD)) return isHome && isRead ? login() : response('Unauthorized',401);
+  if (!token || !await authorized(auth,env.CMS_ADMIN_PASSWORD)) return isHome && isRead ? login() : isAPI ? apiError(401,'ログインし直してください。') : response('Unauthorized',401);
   if (path === '/console/logout' && request.method === 'POST') {
     return response(null,204,{'Set-Cookie':COOKIE+'='+SESSION+'; Max-Age=0'});
   }

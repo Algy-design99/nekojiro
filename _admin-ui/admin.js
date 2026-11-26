@@ -68,7 +68,28 @@ function publicURL(){if(current.site==='research')return new URL('research/archi
 function categories(value){const list=$('site').value==='board'?[{id:0,name:'未分類'},...boards.filter(b=>b.id!==0)]:themes[$('site').value].map(n=>({id:n,name:n}));$('category').replaceChildren();for(const item of list){const o=document.createElement('option');o.value=item.id;o.textContent=item.name;$('category').append(o);}if(value!==undefined){if(![...$('category').options].some(o=>o.value===String(value))){const o=document.createElement('option');o.value=String(value);o.textContent=String(value);$('category').append(o);}$('category').value=String(value);}$('category-label').textContent=$('site').value==='board'?'板':'カテゴリ';}
 function show(doc){clearTimeout(draftTimer);changeVersion++;dirty=doc.status==='local';current={...doc,id:String(doc.id),revision:doc.revision||0};$('title').value=doc.title||'';$('body').value=doc.rawBody??doc.body??'';$('format').value=doc.format||'html';researchEditor.load(researchSelected(),rawBodyHTML(),current.id);categories(doc.category);$('editor-heading').textContent=doc.title?'記事の編集':'新しい記事';$('article-state').textContent=labels[doc.status]||'下書き';$('preview-area').hidden=true;showPublicLink(['published','publishing'].includes(doc.status));updateButtons();}
 function newArticle(){show({site:$('site').value,id:String(Date.now()),title:'',body:'',format:'plain',category:$('site').value==='board'?12:themes[$('site').value][0],status:'local',revision:0});}
-async function request(path,{method='GET',data}={}){const r=await fetch(api+'/api/admin'+path,{method,headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:data?JSON.stringify(data):undefined});let out;try{out=await r.json();}catch{throw Error('サーバーの応答を確認できませんでした。');}if(r.status===401){location.reload();}if(!r.ok)throw Error(out.error||'処理に失敗しました。');return out;}
+async function request(path,{method='GET',data}={}){
+ let response;
+ try{
+  response=await fetch(api+'/api/admin'+path,{method,headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:data?JSON.stringify(data):undefined});
+ }catch{
+  localSave();
+  throw Error('管理サーバーに接続できません。通信を確認し、入力内容は画面を閉じる前に下書きファイルにも保存してください。');
+ }
+ if(response.status===401){
+  localSave();
+  throw Error('管理画面のログインが切れました。このタブは閉じず、別のタブで管理画面にログインしてから操作をやり直してください。');
+ }
+ let output;
+ try{output=await response.json();}catch{
+  if(response.status===413)throw Error('送信内容が大きすぎます。本文に埋め込んだ画像があれば、画像のアップロード機能を使ってください。');
+  if(response.status===403)throw Error('管理画面からの操作を確認できませんでした。この管理画面を直接開き直してください。');
+  throw Error('管理サーバーから読み取れない応答が返りました（HTTP '+response.status+'）。少し待ってからもう一度お試しください。');
+ }
+ if(!response.ok)throw Error(output?.error||'処理に失敗しました（HTTP '+response.status+'）。');
+ return output;
+}
+
 function displayList(){const q=$('search').value.normalize('NFKC').toLowerCase();$('article-list').replaceChildren();for(const doc of articles.filter(x=>(x.title||'').normalize('NFKC').toLowerCase().includes(q))){const li=document.createElement('li'),button=document.createElement('button'),small=document.createElement('small');button.type='button';button.textContent=doc.title||'無題';small.textContent=(labels[doc.status]||doc.status)+' · '+(doc.category_name||doc.category||'');button.append(small);button.onclick=()=>openArticle(doc);li.append(button);$('article-list').append(li);}}
 async function list(){try{let data;if(token&&($('site').value!=='research'||researchEnabled))data=(await request('/list?site='+encodeURIComponent($('site').value))).articles;else{const r=await fetch(ORIGIN+'content/'+$('site').value+'/index.json',{cache:'no-store'});data=r.ok?await r.json():[];}
  const merged=new Map(data.map(x=>[String(x.id),x]));for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k?.startsWith('tsukasa-cms-draft:'+$('site').value+':')){try{const local=JSON.parse(localStorage.getItem(k));if(!merged.has(String(local.id))||(local.updatedAt||'')>(merged.get(String(local.id)).updatedAt||''))merged.set(String(local.id),local);}catch{}}}articles=[...merged.values()].sort((a,b)=>(b.updatedAt||b.createdAt||'').localeCompare(a.updatedAt||a.createdAt||''));$('list-note').textContent=articles.length+'件 · '+(token?'公開記事と保存済み下書き':'公開記事とこの端末の下書き');displayList();}catch(e){message(e.message,true);}}
