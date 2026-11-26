@@ -1,6 +1,18 @@
 [
   {
     "site": "research",
+    "id": "1795694747498",
+    "title": "【いつ決めたの？】人間はなぜ一日を24時間に分けたのか",
+    "category": "歴史",
+    "category_name": "歴史",
+    "status": "published",
+    "createdAt": "2026-11-26T12:06:03.188Z",
+    "updatedAt": "2026-11-26T12:06:04.742Z",
+    "revision": 2,
+    "publishedAt": "2026-11-26T12:06:04.842Z"
+  },
+  {
+    "site": "research",
     "id": "1795686425962",
     "title": "【最初のやつ勇者だろ】ウニの見た目から、なぜ人間は中身を食べようと思ったのか",
     "category": "歴史",
