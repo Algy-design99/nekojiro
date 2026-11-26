@@ -43,11 +43,26 @@ async function mergeLiveCatalog(){
  catalog.threads=[...map.values()].sort((a,b)=>(b.publishedAt||'').localeCompare(a.publishedAt||'')||b.id-a.id);
  }catch{}
 }
-function formatThread(root, post) {
- const replies = new Map();
- for (const tag of root.querySelectorAll('a.tagword, a[href^="https://blog.fc2.com/tag/"], a[href^="http://blog.fc2.com/tag/"], a[href^="//blog.fc2.com/tag/"]')) {
-  tag.replaceWith(...tag.childNodes);
+function formatBoardLinks(root) {
+ for (const anchor of root.querySelectorAll('a[href]')) {
+  const raw = anchor.getAttribute('href').trim();
+  if (anchor.matches('.tagword') || /^(?:https?:)?\/\/blog\.fc2\.com\/tag\//i.test(raw)) {
+   anchor.replaceWith(...anchor.childNodes);
+   continue;
+  }
+  if (!/^(?:https?:)?\/\//i.test(raw) || anchor.querySelector('img,picture,svg,video') || anchor.closest('.meta,.res_meta,.neko-editorial-meta')) continue;
+  if (!['http:', 'https:'].includes(anchor.protocol) || anchor.origin === location.origin || anchor.hostname === 'jig0u.fc2.net' || !anchor.textContent.trim()) continue;
+  if (/^https?:\/\/\S+$/i.test(anchor.textContent.trim())) continue;
+  const description = document.createElement('span');
+  description.append(...anchor.childNodes);
+  anchor.before(description, document.createElement('br'));
+  anchor.textContent = anchor.href;
+  anchor.style.overflowWrap = 'anywhere';
  }
+}
+function formatThread(root, post) {
+ formatBoardLinks(root);
+ const replies = new Map();
  const nodes = [...root.querySelectorAll('[id]')];
  for (const reply of nodes) {
   const match = /^res-?(\d+)$/.exec(reply.id);
