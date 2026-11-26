@@ -1,5 +1,6 @@
 (function () {
   'use strict';
+  const medium = /\.fc2\.(?:net|com)$/.test(location.hostname) ? 'fc2-board' : 'github-board';
   const base = 'https://algy-design99.github.io/nekojiro/research/';
   const guides = [
     {topic:'配信・録画', title:'HDMIダミープラグの仕組みと使い道', id:'15928596', match:/HDMI|ダミープラグ|遠隔操作|映像配信|OBS|画面録画/i},
@@ -21,7 +22,7 @@
     for (const guide of entries) {
       const item = document.createElement('li');
       const anchor = document.createElement('a');
-      anchor.href = base + 'archives/' + guide.id + '.html';
+      anchor.href = base + 'archives/' + guide.id + '.html?ref=' + medium + '&via=' + (mount.id.endsWith('-home') ? 'board-home' : 'board-thread');
       const topic = document.createElement('span');
       topic.textContent = guide.topic;
       const name = document.createElement('strong');
@@ -34,8 +35,13 @@
     mount.hidden = false;
   }
   const home = document.getElementById('board-guides-home');
-  if (home && !new URLSearchParams(location.search).size) {
+  if (home && !['thread','board','q','archive'].some(key => new URLSearchParams(location.search).has(key))) {
+    const compare = document.createElement('a');
+    compare.href = base + 'buying-guide.html?ref=' + medium;
+    compare.textContent = '用途から探す・買う前の比較ガイド →';
     render(home, guides.filter(guide => ['15928596','15896435','15879585'].includes(guide.id)), '猫じろう調査室のおすすめ記事');
+    compare.style.marginTop = '8px';
+    home.append(compare);
   }
   const thread = document.getElementById('board-guides-thread');
   const body = document.getElementById('neko-original-posts');
