@@ -232,3 +232,12 @@ body { font-family: var(--neko-sans); }
   .reading-body .nekojiro-amazon-card { padding: 10px; }
   .reading-body .nekojiro-amazon-card > a:first-child img { margin-block: 12px; }
 }
+
+@media (max-width: 42rem) {
+  .reading-body { line-height: 2.05; }
+  .reading-body p,
+  .reading-body:has(.nekojiro-toc-title) p {
+    line-height: 2.05;
+    margin-block: 1em;
+  }
+}
