@@ -175,6 +175,7 @@ function update(){
   }
   rails.forEach(function(r){r.hidden=!r.querySelector('.neko-a8-slot:not([hidden])');});
   root.hidden=count===0;
+  if (count) root.style.removeProperty('display');
    // 広告レールは上端に固定。中央寄せで生じていた上部の空白をなくす。
    // スマートフォンでは従来のフロー配置を維持する。
    rails.forEach(function(r){r.style.top='';});
