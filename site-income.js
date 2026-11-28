@@ -7,9 +7,11 @@
  const analyticsOnly = source.hasAttribute('data-analytics-only');
  const id = 'G-JJ59JV8FLB';
  const fc2 = /\.fc2\.(net|com)$/.test(location.hostname);
- const ref = new URLSearchParams(location.search).get('ref');
- const origin = ['fc2-board','github-board'].includes(ref) ? ref : (fc2 ? 'fc2-' + site : 'github-' + site);
  const parameters = new URLSearchParams(location.search);
+ const ref = parameters.get('ref');
+ const boardSource = ['fc2-board','github-board'].includes(ref) ? ref : '';
+ const origin = boardSource || (fc2 ? 'fc2-' + site : 'github-' + site);
+ const hasSiteLinks = !analyticsOnly || ['dougubako','rekishiita'].includes(site);
  const route = parameters.get('via');
  const medium = parameters.get('utm_medium');
  const sourceName = parameters.get('utm_source');
@@ -57,7 +59,7 @@
   script.async = true;
   script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
   document.head.append(script);
-  if (analyticsOnly) return;
+  if (!hasSiteLinks) return;
   document.addEventListener('click',event => {
    const a = event.target.closest?.('a[href]');
    if (!a) return;
@@ -94,18 +96,30 @@
    }
   });
  }
- if (analyticsOnly) return;
+ if (!hasSiteLinks) return;
+ if (site === 'buying-guide' && boardSource) {
+  for (const link of document.querySelectorAll('.cta[href]')) {
+   const target = new URL(link.href);
+   if (target.origin !== location.origin || !target.pathname.startsWith(new URL('research/',base).pathname)) continue;
+   target.searchParams.set('ref',boardSource);
+   target.searchParams.set('via','buying-guide');
+   link.href = target.href;
+  }
+ }
  const routes = {
+  signal:[['ニュース画面の制作事例とご相談','portfolio/case-studies.html#signal']],
+  economy:[['相場画面の制作事例とご相談','portfolio/case-studies.html#economy']],
+  rekishiita:[['定期預金6.08％の背景を調査室で読む','research/archives/14981596.html'],['調査記事・記事制作のご相談','portfolio/#writing']],
   music:[['配信・録画機材の選び方','research/buying-guide.html#capture'],['音楽サイトの制作事例','portfolio/case-studies.html#music']],
   portfolio:[['制作の依頼・相談','https://coconala.com/services/4528114'],['猫じろう調査室の比較ガイド','research/buying-guide.html']],
   research:[['用途から探す・買う前の比較ガイド','research/buying-guide.html']],
   work:[['制作事例を見る','portfolio/'],['制作の依頼・相談','https://coconala.com/services/4528114']],
   food:[['手作り豆腐の仕組みと道具','research/archives/managed-1795609330614.html'],['お茶の歴史を読む','research/archives/15930697.html']],
   living:[['通販の価格と販売店を比較する','research/buying-guide.html#shopping']],
-  travel:[['旅行・地域の記事を探す','research/']],
+  travel:[['旅行・地域の記事を探す','research/'],['地域の記事制作のご相談','portfolio/#writing']],
   craft:[['制作事例を見る','portfolio/'],['道具を買う前の比較ガイド','research/buying-guide.html']],
   dougubako:[['配信・録画機材の選び方','research/buying-guide.html#capture'],['制作の依頼・相談','https://coconala.com/services/4528114']],
-  kuronuma:[['黒沼幻司の関連スレッドを探す','board/?q=黒沼幻司']],
+  kuronuma:[['黒沼幻司の関連スレッドを探す','board/?q=黒沼幻司'],['創作サイトの制作実績・ご相談','portfolio/']],
   home:[['用途から探す・買う前の比較ガイド','research/buying-guide.html'],['制作実績と依頼窓口','portfolio/']],
   sites:[['買う前の比較ガイド','research/buying-guide.html'],['制作実績と依頼窓口','portfolio/']],
   news:[['猫じろう情報局を見る','signal/'],['ニュースサイトの制作事例','portfolio/case-studies.html#signal']]
@@ -123,6 +137,7 @@
   const item = document.createElement('li');
   a.href = url.href;
   a.textContent = label;
+  if (url.hostname === 'coconala.com') a.textContent += '（外部サービス）';
   item.append(a);
   list.append(item);
  }
