@@ -3,77 +3,77 @@
     {
       "id": 1,
       "name": "科学・技術",
-      "count": 1
+      "count": 0
     },
     {
       "id": 2,
       "name": "経済",
-      "count": 1
+      "count": 0
     },
     {
       "id": 3,
       "name": "IT・ネット",
-      "count": 12
+      "count": 0
     },
     {
       "id": 4,
       "name": "スポーツ",
-      "count": 6
+      "count": 0
     },
     {
       "id": 5,
       "name": "政治",
-      "count": 5
+      "count": 0
     },
     {
       "id": 6,
       "name": "社会",
-      "count": 2
+      "count": 0
     },
     {
       "id": 7,
       "name": "ゲーム",
-      "count": 8
+      "count": 0
     },
     {
       "id": 8,
       "name": "災害",
-      "count": 2
+      "count": 0
     },
     {
       "id": 9,
       "name": "地域",
-      "count": 2
+      "count": 0
     },
     {
       "id": 10,
       "name": "事件",
-      "count": 1
+      "count": 0
     },
     {
       "id": 11,
       "name": "掲示板史",
-      "count": 2
+      "count": 0
     },
     {
       "id": 12,
       "name": "雑談",
-      "count": 8
+      "count": 0
     },
     {
       "id": 14,
       "name": "オカルト",
-      "count": 46
+      "count": 0
     },
     {
       "id": 15,
       "name": "生活",
-      "count": 17
+      "count": 0
     },
     {
       "id": 16,
       "name": "運営・隔離",
-      "count": 6
+      "count": 8
     },
     {
       "id": 18,
@@ -148,7 +148,7 @@
     {
       "id": 32,
       "name": "天文・気象板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 33,
@@ -168,7 +168,7 @@
     {
       "id": 36,
       "name": "オカルト板",
-      "count": 0
+      "count": 46
     },
     {
       "id": 37,
@@ -318,12 +318,12 @@
     {
       "id": 66,
       "name": "生活全般板",
-      "count": 0
+      "count": 5
     },
     {
       "id": 67,
       "name": "家庭板",
-      "count": 0
+      "count": 7
     },
     {
       "id": 68,
@@ -353,7 +353,7 @@
     {
       "id": 73,
       "name": "身体・健康板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 74,
@@ -363,17 +363,17 @@
     {
       "id": 75,
       "name": "生活サロン板",
-      "count": 0
+      "count": 2
     },
     {
       "id": 76,
       "name": "一人暮らし板",
-      "count": 1
+      "count": 6
     },
     {
       "id": 77,
       "name": "育児板",
-      "count": 1
+      "count": 2
     },
     {
       "id": 78,
@@ -413,12 +413,12 @@
     {
       "id": 85,
       "name": "教育・先生板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 86,
       "name": "就職板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 87,
@@ -463,7 +463,7 @@
     {
       "id": 95,
       "name": "リーマン板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 96,
@@ -483,7 +483,7 @@
     {
       "id": 99,
       "name": "PC初心者板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 100,
@@ -513,17 +513,17 @@
     {
       "id": 105,
       "name": "インターネット板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 106,
       "name": "携帯・PHS板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 107,
       "name": "携帯コンテンツ板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 108,
@@ -533,7 +533,7 @@
     {
       "id": 109,
       "name": "パソコン一般板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 110,
@@ -543,7 +543,7 @@
     {
       "id": 111,
       "name": "ソフトウェア板",
-      "count": 0
+      "count": 2
     },
     {
       "id": 112,
@@ -563,12 +563,12 @@
     {
       "id": 115,
       "name": "セキュリティ板",
-      "count": 0
+      "count": 3
     },
     {
       "id": 116,
       "name": "プロバイダー板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 117,
@@ -578,12 +578,12 @@
     {
       "id": 118,
       "name": "ブログ板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 119,
       "name": "家庭用ゲーム板",
-      "count": 0
+      "count": 3
     },
     {
       "id": 120,
@@ -603,7 +603,7 @@
     {
       "id": 123,
       "name": "携帯ゲーソフト板",
-      "count": 0
+      "count": 2
     },
     {
       "id": 124,
@@ -633,7 +633,7 @@
     {
       "id": 129,
       "name": "将棋・チェス板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 130,
@@ -643,12 +643,12 @@
     {
       "id": 131,
       "name": "家ゲーRPG板",
-      "count": 0
+      "count": 2
     },
     {
       "id": 132,
       "name": "ゲーム速報板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 133,
@@ -843,7 +843,7 @@
     {
       "id": 171,
       "name": "ラジオ番組板",
-      "count": 8
+      "count": 10
     },
     {
       "id": 172,
@@ -1013,7 +1013,7 @@
     {
       "id": 205,
       "name": "園芸板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 206,
@@ -1088,7 +1088,7 @@
     {
       "id": 220,
       "name": "スポーツサロン板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 221,
@@ -1113,12 +1113,12 @@
     {
       "id": 225,
       "name": "陸上競技板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 226,
       "name": "相撲板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 227,
@@ -1138,7 +1138,7 @@
     {
       "id": 230,
       "name": "プロ野球板",
-      "count": 2
+      "count": 4
     },
     {
       "id": 231,
@@ -1158,7 +1158,7 @@
     {
       "id": 234,
       "name": "卓球板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 235,
@@ -1198,7 +1198,7 @@
     {
       "id": 242,
       "name": "科学ニュース+板",
-      "count": 0
+      "count": 2
     },
     {
       "id": 243,
@@ -1208,7 +1208,7 @@
     {
       "id": 244,
       "name": "社会・世評板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 245,
@@ -1238,12 +1238,12 @@
     {
       "id": 250,
       "name": "ニュース速報+板",
-      "count": 0
+      "count": 2
     },
     {
       "id": 251,
       "name": "ビジネスnews+板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 252,
@@ -1258,7 +1258,7 @@
     {
       "id": 254,
       "name": "政治板",
-      "count": 0
+      "count": 3
     },
     {
       "id": 255,
@@ -1278,12 +1278,12 @@
     {
       "id": 258,
       "name": "消防救急防災板",
-      "count": 0
+      "count": 2
     },
     {
       "id": 259,
       "name": "地方自治知事板",
-      "count": 0
+      "count": 1
     },
     {
       "id": 260,
@@ -1369,8 +1369,8 @@
     {
       "id": 232,
       "title": "【相談】もしも黒沼が校長の学校があったら、朝礼は何分で終わる？",
-      "category": 12,
-      "category_name": "雑談",
+      "category": 85,
+      "category_name": "教育・先生板",
       "date": "11/14",
       "contentPath": "content/board/232.json",
       "responses": 84
@@ -1459,8 +1459,8 @@
     {
       "id": 222,
       "title": "黒沼の街っていう都市伝説、知ってる奴いる？",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "11/13",
       "contentPath": "content/board/222.json",
       "responses": 137
@@ -1495,8 +1495,8 @@
     {
       "id": 218,
       "title": "町内会の回覧板をPDFにしたら文字がずれるんだけど",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 111,
+      "category_name": "ソフトウェア板",
       "date": "11/12",
       "contentPath": "content/board/218.json",
       "responses": 1
@@ -1531,8 +1531,8 @@
     {
       "id": 214,
       "title": "黒沼幻司のラジオで近所の音を紹介したいのですが",
-      "category": 0,
-      "category_name": "未分類",
+      "category": 171,
+      "category_name": "ラジオ番組板",
       "date": "11/11",
       "contentPath": "content/board/214.json",
       "responses": 1
@@ -1585,8 +1585,8 @@
     {
       "id": 208,
       "title": "黒沼幻司の深夜ラジオ、リスナー感謝企画のお知らせ",
-      "category": 0,
-      "category_name": "未分類",
+      "category": 171,
+      "category_name": "ラジオ番組板",
       "date": "11/11",
       "contentPath": "content/board/208.json",
       "responses": 1
@@ -1702,8 +1702,8 @@
     {
       "id": 195,
       "title": "母が家の中で整理券を配り始めたんだが",
-      "category": 15,
-      "category_name": "生活",
+      "category": 67,
+      "category_name": "家庭板",
       "date": "11/09",
       "contentPath": "content/board/195.json",
       "responses": 77
@@ -1711,8 +1711,8 @@
     {
       "id": 194,
       "title": "父が家族会議を開きたがるんだけど議題がない",
-      "category": 15,
-      "category_name": "生活",
+      "category": 67,
+      "category_name": "家庭板",
       "date": "11/09",
       "contentPath": "content/board/194.json",
       "responses": 121
@@ -1720,8 +1720,8 @@
     {
       "id": 193,
       "title": "隣のおばあちゃんに植木鉢を預かったんだが",
-      "category": 15,
-      "category_name": "生活",
+      "category": 205,
+      "category_name": "園芸板",
       "date": "11/09",
       "contentPath": "content/board/193.json",
       "responses": 85
@@ -1729,8 +1729,8 @@
     {
       "id": 192,
       "title": "大家さんに野菜をもらったんだが、お返しは何がいい？",
-      "category": 15,
-      "category_name": "生活",
+      "category": 66,
+      "category_name": "生活全般板",
       "date": "11/09",
       "contentPath": "content/board/192.json",
       "responses": 123
@@ -1738,8 +1738,8 @@
     {
       "id": 191,
       "title": "洗濯機の中から知らない靴下が出てきたんだが",
-      "category": 15,
-      "category_name": "生活",
+      "category": 76,
+      "category_name": "一人暮らし板",
       "date": "11/09",
       "contentPath": "content/board/191.json",
       "responses": 73
@@ -1747,8 +1747,8 @@
     {
       "id": 190,
       "title": "隣の部屋に回覧板を持っていくタイミングがわからない",
-      "category": 15,
-      "category_name": "生活",
+      "category": 66,
+      "category_name": "生活全般板",
       "date": "11/09",
       "contentPath": "content/board/190.json",
       "responses": 79
@@ -1819,8 +1819,8 @@
     {
       "id": 182,
       "title": "親父がデスクトップのアイコンを全部消したと言い張ってる",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 99,
+      "category_name": "PC初心者板",
       "date": "11/01",
       "contentPath": "content/board/182.json",
       "responses": 249
@@ -1837,8 +1837,8 @@
     {
       "id": 180,
       "title": "防災袋を玄関に置いたら家族に邪魔者扱いされた",
-      "category": 8,
-      "category_name": "災害",
+      "category": 258,
+      "category_name": "消防救急防災板",
       "date": "11/01",
       "contentPath": "content/board/180.json",
       "responses": 271
@@ -1846,8 +1846,8 @@
     {
       "id": 179,
       "title": "親父が家族会議に不信任案を出してきたんだが",
-      "category": 5,
-      "category_name": "政治",
+      "category": 67,
+      "category_name": "家庭板",
       "date": "11/01",
       "contentPath": "content/board/179.json",
       "responses": 266
@@ -1855,8 +1855,8 @@
     {
       "id": 178,
       "title": "町内会の会議を国会方式にしたいと言い出した親父を止めたい",
-      "category": 5,
-      "category_name": "政治",
+      "category": 259,
+      "category_name": "地方自治知事板",
       "date": "11/01",
       "contentPath": "content/board/178.json",
       "responses": 229
@@ -1990,8 +1990,8 @@
     {
       "id": 163,
       "title": "【アンチ黒沼幻司31】掲示板の広告に変なのがいるんだが（画像あり）",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/30",
       "contentPath": "content/board/163.json",
       "responses": 141
@@ -1999,8 +1999,8 @@
     {
       "id": 162,
       "title": "痔がつらすぎて座ることすら信用できなくなった",
-      "category": 15,
-      "category_name": "生活",
+      "category": 73,
+      "category_name": "身体・健康板",
       "date": "10/30",
       "contentPath": "content/board/162.json",
       "responses": 94
@@ -2008,8 +2008,8 @@
     {
       "id": 161,
       "title": "【アンチ黒沼幻司】怪談より本人の言動が怖い件 Part30",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/30",
       "contentPath": "content/board/161.json",
       "responses": 120
@@ -2017,8 +2017,8 @@
     {
       "id": 160,
       "title": "【アンチ黒沼幻司】ラジオの周波数にまで割り込んでくる件 Part29",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/30",
       "contentPath": "content/board/160.json",
       "responses": 99
@@ -2053,8 +2053,8 @@
     {
       "id": 156,
       "title": "【相談】隣の席の人が毎朝ジャズの曲名で挨拶してくる",
-      "category": 12,
-      "category_name": "雑談",
+      "category": 95,
+      "category_name": "リーマン板",
       "date": "10/29",
       "contentPath": "content/board/156.json",
       "responses": 141
@@ -2080,8 +2080,8 @@
     {
       "id": 153,
       "title": "【黒沼幻司】RPGの宿屋に黒沼そっくりの奴がいる件【アンチスレ㉘】",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/29",
       "contentPath": "content/board/153.json",
       "responses": 181
@@ -2089,8 +2089,8 @@
     {
       "id": 152,
       "title": "【黒沼幻司】駅の回収箱を漁ってるところを目撃したんだが【アンチ㉗】",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/28",
       "contentPath": "content/board/152.json",
       "responses": 121
@@ -2098,8 +2098,8 @@
     {
       "id": 151,
       "title": "【黒沼アンチ㉖】恋愛サロンのモザイク男、比較画像まで作られててワロタ",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/27",
       "contentPath": "content/board/151.json",
       "responses": 121
@@ -2107,8 +2107,8 @@
     {
       "id": 150,
       "title": "【黒沼アンチ㉖】恋愛サロンに黒沼らしき男のデート写真が晒されてる件",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/27",
       "contentPath": "content/board/150.json",
       "responses": 121
@@ -2125,8 +2125,8 @@
     {
       "id": 148,
       "title": "【黒沼アンチ㉕】スーパーに黒沼らしき奴がいたんだが、見てた商品が謎",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/27",
       "contentPath": "content/board/148.json",
       "responses": 181
@@ -2134,8 +2134,8 @@
     {
       "id": 147,
       "title": "【黒沼アンチ㉔】黒沼幻司すなっく、製造元が普通の菓子会社なんだが",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/147.json",
       "responses": 121
@@ -2143,8 +2143,8 @@
     {
       "id": 146,
       "title": "【黒沼アンチ㉓】霊波測定済みタオルを買った奴が帰宅した件",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/146.json",
       "responses": 121
@@ -2152,8 +2152,8 @@
     {
       "id": 145,
       "title": "【黒沼アンチ㉒】オフ会に潜入した奴が物販の写真を上げてる件",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/145.json",
       "responses": 121
@@ -2161,8 +2161,8 @@
     {
       "id": 144,
       "title": "【黒沼アンチ㉑】親父の釣果ノートに「ゲン坊船酔い」と書いてある件",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/144.json",
       "responses": 261
@@ -2170,8 +2170,8 @@
     {
       "id": 143,
       "title": "【黒沼アンチ⑳】親父の釣り仲間の集合写真にゲンさんがいるらしい",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/143.json",
       "responses": 203
@@ -2179,8 +2179,8 @@
     {
       "id": 142,
       "title": "【黒沼アンチ⑲】若い頃の写真が出てきたのに本人が否定してる件",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/142.json",
       "responses": 121
@@ -2188,8 +2188,8 @@
     {
       "id": 141,
       "title": "【黒沼アンチ⑱】怪談ポスターの目が合うと父が言い張っている件",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/141.json",
       "responses": 121
@@ -2197,8 +2197,8 @@
     {
       "id": 140,
       "title": "【黒沼アンチ⑰】怪談展示会のコピーに「黒沼様 お忘れ物」と印字されたんだが",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/140.json",
       "responses": 121
@@ -2206,8 +2206,8 @@
     {
       "id": 139,
       "title": "【黒沼アンチ⑯】月9最終回で本名が出たらしいが、本人は説明する気あるのか",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/26",
       "contentPath": "content/board/139.json",
       "responses": 121
@@ -2296,8 +2296,8 @@
     {
       "id": 129,
       "title": "【大荒れ】怪談イベントアンチスレ⑮ 黒沼",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/129.json",
       "responses": 121
@@ -2305,8 +2305,8 @@
     {
       "id": 128,
       "title": "【検証】怪談イベントアンチスレ⑭ 図書館の資料に黒沼の名前がない",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/128.json",
       "responses": 121
@@ -2314,8 +2314,8 @@
     {
       "id": 127,
       "title": "【失言】怪談イベントアンチスレ⑬ 黒沼先生",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/127.json",
       "responses": 121
@@ -2323,8 +2323,8 @@
     {
       "id": 126,
       "title": "【急展開】怪談イベントアンチスレ⑫ 黒沼本人らしき人物が現れた",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/126.json",
       "responses": 121
@@ -2332,8 +2332,8 @@
     {
       "id": 125,
       "title": "【混線】怪談イベントアンチスレ⑪ 黒沼先生の偽物が増えすぎて本物を見失う",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/125.json",
       "responses": 121
@@ -2341,8 +2341,8 @@
     {
       "id": 124,
       "title": "【混乱】怪談イベントアンチスレ⑩ 黒沼先生が三人いるんだが",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/124.json",
       "responses": 121
@@ -2350,8 +2350,8 @@
     {
       "id": 123,
       "title": "【追跡】怪談イベントアンチスレ⑨ 黒沼の正体を探ってたら本人が増えた件",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/123.json",
       "responses": 121
@@ -2359,8 +2359,8 @@
     {
       "id": 122,
       "title": "【検証】求人広告の成功体験が仕事と関係なさすぎる件",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 86,
+      "category_name": "就職板",
       "date": "10/25",
       "contentPath": "content/board/122.json",
       "responses": 121
@@ -2368,8 +2368,8 @@
     {
       "id": 121,
       "title": "【検証】平成6年の怪談FAX、特典④だけ「当日発表」なのが怖い Part8",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/121.json",
       "responses": 121
@@ -2377,8 +2377,8 @@
     {
       "id": 120,
       "title": "【発掘】怪談イベントを叩いてたら平成6年のFAXチラシが出てきた件 Part7",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/120.json",
       "responses": 280
@@ -2386,8 +2386,8 @@
     {
       "id": 119,
       "title": "【本人降臨】怪談イベントの擁護荒らし、黒沼先生が正体を隠しきれない件 Part6",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/119.json",
       "responses": 273
@@ -2395,8 +2395,8 @@
     {
       "id": 118,
       "title": "【検証】怪談イベントの擁護荒らし、黒沼先生本人だった疑惑 Part5",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/118.json",
       "responses": 150
@@ -2404,8 +2404,8 @@
     {
       "id": 117,
       "title": "【騒然】怪談イベントの黒沼先生を調べてたら謎の擁護が湧いた件 Part4",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/117.json",
       "responses": 91
@@ -2413,8 +2413,8 @@
     {
       "id": 116,
       "title": "【追跡】怪談イベントの黒沼先生、名前が増えすぎて誰だか分からない件 Part3",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/116.json",
       "responses": 84
@@ -2422,8 +2422,8 @@
     {
       "id": 115,
       "title": "【検証】怪談イベントの心霊ジャーナリスト、結局誰なんだよ Part2",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/115.json",
       "responses": 92
@@ -2431,8 +2431,8 @@
     {
       "id": 114,
       "title": "【疑惑】心霊ジャーナリストの怪談イベント、怖いのは物販だろ",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/25",
       "contentPath": "content/board/114.json",
       "responses": 81
@@ -2485,8 +2485,8 @@
     {
       "id": 108,
       "title": "【不可解】台所の輪ゴムが毎日一本ずつ増えてるんだが",
-      "category": 15,
-      "category_name": "生活",
+      "category": 76,
+      "category_name": "一人暮らし板",
       "date": "10/25",
       "contentPath": "content/board/108.json",
       "responses": 81
@@ -2494,8 +2494,8 @@
     {
       "id": 107,
       "title": "【謎】玄関の靴べらが毎朝ちょっとずつ移動してるんだが",
-      "category": 15,
-      "category_name": "生活",
+      "category": 67,
+      "category_name": "家庭板",
       "date": "10/25",
       "contentPath": "content/board/107.json",
       "responses": 81
@@ -2539,8 +2539,8 @@
     {
       "id": 102,
       "title": "【謎】卓球サークルで俺のラケットだけ休憩札を立てられる",
-      "category": 4,
-      "category_name": "スポーツ",
+      "category": 234,
+      "category_name": "卓球板",
       "date": "10/22",
       "contentPath": "content/board/102.json",
       "responses": 83
@@ -2548,8 +2548,8 @@
     {
       "id": 101,
       "title": "【謎】バドミントンサークルで俺だけ「回収王」と呼ばれ始めた",
-      "category": 4,
-      "category_name": "スポーツ",
+      "category": 220,
+      "category_name": "スポーツサロン板",
       "date": "10/21",
       "contentPath": "content/board/101.json",
       "responses": 87
@@ -2557,8 +2557,8 @@
     {
       "id": 100,
       "title": "【怪現象】ジョギングを始めたら近所の犬に周回数を管理されてる",
-      "category": 4,
-      "category_name": "スポーツ",
+      "category": 225,
+      "category_name": "陸上競技板",
       "date": "10/21",
       "contentPath": "content/board/100.json",
       "responses": 78
@@ -2575,8 +2575,8 @@
     {
       "id": 98,
       "title": "【不可解】うちの家族、誰も頼んでないのに玄関の靴が一足ずつ増える",
-      "category": 15,
-      "category_name": "生活",
+      "category": 67,
+      "category_name": "家庭板",
       "date": "10/21",
       "contentPath": "content/board/98.json",
       "responses": 81
@@ -2584,8 +2584,8 @@
     {
       "id": 97,
       "title": "【怪現象】対戦ゲームを始めると母親の声で洗濯物を取り込めと言われる",
-      "category": 7,
-      "category_name": "ゲーム",
+      "category": 119,
+      "category_name": "家庭用ゲーム板",
       "date": "10/21",
       "contentPath": "content/board/97.json",
       "responses": 81
@@ -2593,8 +2593,8 @@
     {
       "id": 96,
       "title": "【疑問】すれちがい通信で毎回「今から帰る」って言う奴がいる",
-      "category": 7,
-      "category_name": "ゲーム",
+      "category": 123,
+      "category_name": "携帯ゲーソフト板",
       "date": "10/21",
       "contentPath": "content/board/96.json",
       "responses": 82
@@ -2602,8 +2602,8 @@
     {
       "id": 95,
       "title": "【困惑】母親がRPGの主人公を町内会の人だと思ってる",
-      "category": 7,
-      "category_name": "ゲーム",
+      "category": 131,
+      "category_name": "家ゲーRPG板",
       "date": "10/21",
       "contentPath": "content/board/95.json",
       "responses": 81
@@ -2611,8 +2611,8 @@
     {
       "id": 94,
       "title": "【謎】中古DSソフトのケースに『予備』と書かれた割り箸が入ってた",
-      "category": 7,
-      "category_name": "ゲーム",
+      "category": 123,
+      "category_name": "携帯ゲーソフト板",
       "date": "10/21",
       "contentPath": "content/board/94.json",
       "responses": 81
@@ -2620,8 +2620,8 @@
     {
       "id": 93,
       "title": "【怪】コントローラーに「二番」って紙が貼られてるんだが",
-      "category": 7,
-      "category_name": "ゲーム",
+      "category": 119,
+      "category_name": "家庭用ゲーム板",
       "date": "10/21",
       "contentPath": "content/board/93.json",
       "responses": 81
@@ -2656,8 +2656,8 @@
     {
       "id": 89,
       "title": "【不可解】うちの家族、誰も頼んでないのに玄関の靴が一足ずつ増える",
-      "category": 15,
-      "category_name": "生活",
+      "category": 67,
+      "category_name": "家庭板",
       "date": "10/20",
       "contentPath": "content/board/89.json",
       "responses": 81
@@ -2665,8 +2665,8 @@
     {
       "id": 88,
       "title": "【不可解】娘がぬいぐるみを毎朝一列に並べ直してる",
-      "category": 15,
-      "category_name": "生活",
+      "category": 77,
+      "category_name": "育児板",
       "date": "10/20",
       "contentPath": "content/board/88.json",
       "responses": 85
@@ -2674,8 +2674,8 @@
     {
       "id": 87,
       "title": "【謎】母が冷蔵庫に貼るメモだけ毎回ちょっと偉そう",
-      "category": 15,
-      "category_name": "生活",
+      "category": 67,
+      "category_name": "家庭板",
       "date": "10/20",
       "contentPath": "content/board/87.json",
       "responses": 83
@@ -2683,8 +2683,8 @@
     {
       "id": 86,
       "title": "【珍事】ブログのコメント欄に毎晩「おやすみ」だけ書く奴がいる",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 118,
+      "category_name": "ブログ板",
       "date": "10/20",
       "contentPath": "content/board/86.json",
       "responses": 84
@@ -2764,8 +2764,8 @@
     {
       "id": 77,
       "title": "【不可解】空にした盛り塩の皿に毎朝一粒だけ戻ってくる",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/16",
       "contentPath": "content/board/77.json",
       "responses": 81
@@ -2836,8 +2836,8 @@
     {
       "id": 69,
       "title": "【怪音】午前零時、台所で誰かが「チン」と鳴らす",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/15",
       "contentPath": "content/board/69.json",
       "responses": 81
@@ -2845,8 +2845,8 @@
     {
       "id": 68,
       "title": "【怪奇】台所の戸棚から「おかえり」と声がするんだが",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/15",
       "contentPath": "content/board/68.json",
       "responses": 81
@@ -2989,8 +2989,8 @@
     {
       "id": 52,
       "title": "【相談】うちの玄関マットが毎朝ちょっとずつ帰宅してくる",
-      "category": 15,
-      "category_name": "生活",
+      "category": 76,
+      "category_name": "一人暮らし板",
       "date": "10/14",
       "contentPath": "content/board/52.json",
       "responses": 81
@@ -3007,8 +3007,8 @@
     {
       "id": 50,
       "title": "【相談】誰もいない階段から毎朝『二階です』って聞こえる",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/14",
       "contentPath": "content/board/50.json",
       "responses": 125
@@ -3016,8 +3016,8 @@
     {
       "id": 49,
       "title": "【相談】うちの冷蔵庫が毎週木曜だけ他人行儀になる",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/14",
       "contentPath": "content/board/49.json",
       "responses": 81
@@ -3025,8 +3025,8 @@
     {
       "id": 48,
       "title": "【相談】留守中に誰かがカレンダーの予定を書き換えてる",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/14",
       "contentPath": "content/board/48.json",
       "responses": 85
@@ -3034,8 +3034,8 @@
     {
       "id": 47,
       "title": "【相談】夜中に押し入れから拍手が聞こえる",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/14",
       "contentPath": "content/board/47.json",
       "responses": 86
@@ -3043,8 +3043,8 @@
     {
       "id": 46,
       "title": "【相談】うちの玄関だけ毎晩『おかえり』って聞こえるんだが",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/14",
       "contentPath": "content/board/46.json",
       "responses": 81
@@ -3052,8 +3052,8 @@
     {
       "id": 45,
       "title": "【相談】町内の公衆電話に忘れ物したら、知らない人から家に届いた",
-      "category": 12,
-      "category_name": "雑談",
+      "category": 66,
+      "category_name": "生活全般板",
       "date": "10/14",
       "contentPath": "content/board/45.json",
       "responses": 141
@@ -3061,8 +3061,8 @@
     {
       "id": 44,
       "title": "【相談】商店街の福引きで「店長を一日貸します」が当たったんだが",
-      "category": 12,
-      "category_name": "雑談",
+      "category": 75,
+      "category_name": "生活サロン板",
       "date": "10/14",
       "contentPath": "content/board/44.json",
       "responses": 119
@@ -3070,8 +3070,8 @@
     {
       "id": 43,
       "title": "【相談】中古で買った机の引き出しに「未来の俺」からの苦情が入ってた",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/14",
       "contentPath": "content/board/43.json",
       "responses": 140
@@ -3079,8 +3079,8 @@
     {
       "id": 42,
       "title": "【相談】隣の部屋の目覚まし時計、毎朝俺の名前を呼んでる気がする",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/14",
       "contentPath": "content/board/42.json",
       "responses": 108
@@ -3088,8 +3088,8 @@
     {
       "id": 41,
       "title": "【検証】うちの冷蔵庫、プリンを入れると翌朝必ず逆向きになってる  コピー",
-      "category": 15,
-      "category_name": "生活",
+      "category": 76,
+      "category_name": "一人暮らし板",
       "date": "10/14",
       "contentPath": "content/board/41.json",
       "responses": 60
@@ -3097,8 +3097,8 @@
     {
       "id": 40,
       "title": "【悲報】町内会の回覧板、俺のところだけ毎回ちょっと温かい   コピー",
-      "category": 12,
-      "category_name": "雑談",
+      "category": 66,
+      "category_name": "生活全般板",
       "date": "10/14",
       "contentPath": "content/board/40.json",
       "responses": 40
@@ -3106,8 +3106,8 @@
     {
       "id": 39,
       "title": "【謎】選挙ポスターの候補者、全員同じ写真館で撮ってる説ｗｗｗ",
-      "category": 5,
-      "category_name": "政治",
+      "category": 254,
+      "category_name": "政治板",
       "date": "10/09",
       "contentPath": "content/board/39.json",
       "responses": 0
@@ -3115,8 +3115,8 @@
     {
       "id": 38,
       "title": "【悲報】市役所の意見箱に「意見箱が高すぎる」と投書した結果ｗｗｗ",
-      "category": 6,
-      "category_name": "社会",
+      "category": 244,
+      "category_name": "社会・世評板",
       "date": "10/09",
       "contentPath": "content/board/38.json",
       "responses": 0
@@ -3124,8 +3124,8 @@
     {
       "id": 37,
       "title": "【検証】パソコンの時計を2099年にしたらネットが未来になるのか試した結果ｗｗｗ",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 109,
+      "category_name": "パソコン一般板",
       "date": "10/09",
       "contentPath": "content/board/37.json",
       "responses": 0
@@ -3133,8 +3133,8 @@
     {
       "id": 36,
       "title": "【実況】町内の将棋大会に小学生が来たんだが、誰も勝てない",
-      "category": 12,
-      "category_name": "雑談",
+      "category": 129,
+      "category_name": "将棋・チェス板",
       "date": "10/09",
       "contentPath": "content/board/36.json",
       "responses": 0
@@ -3142,8 +3142,8 @@
     {
       "id": 35,
       "title": "【謎】商店街に「水曜日は存在しません」って看板が立ってる",
-      "category": 9,
-      "category_name": "地域",
+      "category": 75,
+      "category_name": "生活サロン板",
       "date": "10/08",
       "contentPath": "content/board/35.json",
       "responses": 0
@@ -3151,8 +3151,8 @@
     {
       "id": 34,
       "title": "【悲報】親父がインターネットを印刷して保存してる",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 105,
+      "category_name": "インターネット板",
       "date": "10/08",
       "contentPath": "content/board/34.json",
       "responses": 0
@@ -3160,8 +3160,8 @@
     {
       "id": 33,
       "title": "【ADSL】12M契約したのに速度が出ない件",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 116,
+      "category_name": "プロバイダー板",
       "date": "10/08",
       "contentPath": "content/board/33.json",
       "responses": 0
@@ -3169,8 +3169,8 @@
     {
       "id": 32,
       "title": "平成が終わる前に捨てたいもの",
-      "category": 15,
-      "category_name": "生活",
+      "category": 76,
+      "category_name": "一人暮らし板",
       "date": "10/08",
       "contentPath": "content/board/32.json",
       "responses": 0
@@ -3178,8 +3178,8 @@
     {
       "id": 31,
       "title": "ガラケー使ってるだけで馬鹿にされる時代",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 106,
+      "category_name": "携帯・PHS板",
       "date": "10/08",
       "contentPath": "content/board/31.json",
       "responses": 0
@@ -3187,8 +3187,8 @@
     {
       "id": 30,
       "title": "Wii買ったのに家族が誰も遊んでくれない",
-      "category": 7,
-      "category_name": "ゲーム",
+      "category": 119,
+      "category_name": "家庭用ゲーム板",
       "date": "10/08",
       "contentPath": "content/board/30.json",
       "responses": 0
@@ -3196,8 +3196,8 @@
     {
       "id": 29,
       "title": "おまいら今何の着メロにしてる？",
-      "category": 12,
-      "category_name": "雑談",
+      "category": 107,
+      "category_name": "携帯コンテンツ板",
       "date": "10/08",
       "contentPath": "content/board/29.json",
       "responses": 0
@@ -3205,8 +3205,8 @@
     {
       "id": 28,
       "title": "深夜2時になると隣の空き部屋から電話が鳴る",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/08",
       "contentPath": "content/board/28.json",
       "responses": 0
@@ -3223,8 +3223,8 @@
     {
       "id": 26,
       "title": "【相談】隣の家の雪かきを勝手にやったら怒られた",
-      "category": 15,
-      "category_name": "生活",
+      "category": 66,
+      "category_name": "生活全般板",
       "date": "10/08",
       "contentPath": "content/board/26.json",
       "responses": 0
@@ -3232,8 +3232,8 @@
     {
       "id": 25,
       "title": "【相談】留守中に留守電が入ってるんだが",
-      "category": 14,
-      "category_name": "オカルト",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/08",
       "contentPath": "content/board/25.json",
       "responses": 0
@@ -3241,8 +3241,8 @@
     {
       "id": 24,
       "title": "【助けて】ラスボス倒したのにエンディングが始まらない",
-      "category": 7,
-      "category_name": "ゲーム",
+      "category": 131,
+      "category_name": "家ゲーRPG板",
       "date": "10/08",
       "contentPath": "content/board/24.json",
       "responses": 0
@@ -3250,8 +3250,8 @@
     {
       "id": 23,
       "title": "【検証】この掲示板、管理人が名無しで書き込んでるだろ",
-      "category": 11,
-      "category_name": "掲示板史",
+      "category": 16,
+      "category_name": "運営・隔離",
       "date": "10/08",
       "contentPath": "content/board/23.json",
       "responses": 0
@@ -3259,8 +3259,8 @@
     {
       "id": 22,
       "title": "【急募】隣の部屋から毎晩拍手が聞こえる",
-      "category": 12,
-      "category_name": "雑談",
+      "category": 36,
+      "category_name": "オカルト板",
       "date": "10/08",
       "contentPath": "content/board/22.json",
       "responses": 0
@@ -3268,8 +3268,8 @@
     {
       "id": 21,
       "title": "【自治】固定ハンドルが増えすぎて名無しが書き込めない件",
-      "category": 11,
-      "category_name": "掲示板史",
+      "category": 16,
+      "category_name": "運営・隔離",
       "date": "10/08",
       "contentPath": "content/board/21.json",
       "responses": 0
@@ -3277,8 +3277,8 @@
     {
       "id": 20,
       "title": "【政治】高市首相「仕事で返せ」簗農水相の予算カット発言、まだ終わらない",
-      "category": 5,
-      "category_name": "政治",
+      "category": 254,
+      "category_name": "政治板",
       "date": "10/08",
       "contentPath": "content/board/20.json",
       "responses": 0
@@ -3286,8 +3286,8 @@
     {
       "id": 19,
       "title": "【悲報】49歳男性「彼女ができるかも」→3255万円消える",
-      "category": 10,
-      "category_name": "事件",
+      "category": 250,
+      "category_name": "ニュース速報+板",
       "date": "10/08",
       "contentPath": "content/board/19.json",
       "responses": 0
@@ -3295,8 +3295,8 @@
     {
       "id": 18,
       "title": "【熊出没】埼玉県民「秩父なら普通だろ」→駅の近くだった",
-      "category": 9,
-      "category_name": "地域",
+      "category": 250,
+      "category_name": "ニュース速報+板",
       "date": "10/08",
       "contentPath": "content/board/18.json",
       "responses": 0
@@ -3304,8 +3304,8 @@
     {
       "id": 17,
       "title": "【地震】関東、朝から揺れすぎじゃね？",
-      "category": 8,
-      "category_name": "災害",
+      "category": 258,
+      "category_name": "消防救急防災板",
       "date": "10/08",
       "contentPath": "content/board/17.json",
       "responses": 0
@@ -3313,8 +3313,8 @@
     {
       "id": 16,
       "title": "【朗報】大谷翔平、102打席ホームランなしでもシャンパンファイトを満喫",
-      "category": 4,
-      "category_name": "スポーツ",
+      "category": 230,
+      "category_name": "プロ野球板",
       "date": "10/08",
       "contentPath": "content/board/16.json",
       "responses": 0
@@ -3322,8 +3322,8 @@
     {
       "id": 15,
       "title": "朗報】Google「画像生成AI半額にしたぞ」",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 242,
+      "category_name": "科学ニュース+板",
       "date": "10/08",
       "contentPath": "content/board/15.json",
       "responses": 0
@@ -3331,8 +3331,8 @@
     {
       "id": 14,
       "title": "【悲報】PC民、GTA6が遊べると思ったら遊べなかった",
-      "category": 7,
-      "category_name": "ゲーム",
+      "category": 132,
+      "category_name": "ゲーム速報板",
       "date": "10/08",
       "contentPath": "content/board/14.json",
       "responses": 0
@@ -3340,8 +3340,8 @@
     {
       "id": 13,
       "title": "台風27号、逝く",
-      "category": 6,
-      "category_name": "社会",
+      "category": 32,
+      "category_name": "天文・気象板",
       "date": "10/08",
       "contentPath": "content/board/13.json",
       "responses": 0
@@ -3349,8 +3349,8 @@
     {
       "id": 12,
       "title": "【AI】Qwen、指示されてないのに自分のモデルを再学習　バグ修正でまさかの本体改造",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 111,
+      "category_name": "ソフトウェア板",
       "date": "10/08",
       "contentPath": "content/board/12.json",
       "responses": 0
@@ -3358,8 +3358,8 @@
     {
       "id": 11,
       "title": "【また不正アクセス】損保ジャパン、顧客情報延べ約6万件が漏えいした可能性　委託先が被害",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 115,
+      "category_name": "セキュリティ板",
       "date": "10/08",
       "contentPath": "content/board/11.json",
       "responses": 0
@@ -3367,8 +3367,8 @@
     {
       "id": 10,
       "title": "【Qilin】「日本は世界最悪のセキュリティ体制を持つ国のひとつ」日本への攻撃増加にも言及",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 115,
+      "category_name": "セキュリティ板",
       "date": "10/08",
       "contentPath": "content/board/10.json",
       "responses": 0
@@ -3376,8 +3376,8 @@
     {
       "id": 9,
       "title": "【相撲】旧高砂部屋ビル解体へ　小錦さん、水戸泉が語る「あの頃」の記憶",
-      "category": 4,
-      "category_name": "スポーツ",
+      "category": 226,
+      "category_name": "相撲板",
       "date": "10/08",
       "contentPath": "content/board/9.json",
       "responses": 0
@@ -3385,8 +3385,8 @@
     {
       "id": 8,
       "title": "【立憲】「食料品消費税ゼロ」から給付中心へ方針転換　物価高対策",
-      "category": 5,
-      "category_name": "政治",
+      "category": 254,
+      "category_name": "政治板",
       "date": "10/08",
       "contentPath": "content/board/8.json",
       "responses": 0
@@ -3394,8 +3394,8 @@
     {
       "id": 7,
       "title": "【広島】矢野雅哉に戦力外通告「まだまだ野球を続けたい」現役続行へ準備",
-      "category": 4,
-      "category_name": "スポーツ",
+      "category": 230,
+      "category_name": "プロ野球板",
       "date": "10/08",
       "contentPath": "content/board/7.json",
       "responses": 0
@@ -3403,8 +3403,8 @@
     {
       "id": 6,
       "title": "【サイバー攻撃】ソフトバンク子会社にランサムウェア攻撃　自治体HPなど閲覧不能、495の企業・自治体に影響",
-      "category": 3,
-      "category_name": "IT・ネット",
+      "category": 115,
+      "category_name": "セキュリティ板",
       "date": "10/08",
       "contentPath": "content/board/6.json",
       "responses": 0
@@ -3412,8 +3412,8 @@
     {
       "id": 5,
       "title": "【悲報】人気生ドーナツ店「PIECE OF BAKE」突然の全店休業　運営会社が破産申請へ",
-      "category": 2,
-      "category_name": "経済",
+      "category": 251,
+      "category_name": "ビジネスnews+板",
       "date": "10/07",
       "contentPath": "content/board/5.json",
       "responses": 0
@@ -3421,8 +3421,8 @@
     {
       "id": 4,
       "title": "【ノーベル賞】硤合憲三さん、受賞の知らせはスーパーで買い物中ｗｗｗ",
-      "category": 1,
-      "category_name": "科学・技術",
+      "category": 242,
+      "category_name": "科学ニュース+板",
       "date": "10/07",
       "contentPath": "content/board/4.json",
       "responses": 0
