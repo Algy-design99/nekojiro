@@ -91,6 +91,7 @@
    }
   });
  }
+ if (source.hasAttribute('data-analytics-only')) return;
  const routes = {
   music:[['配信・録画機材の選び方','research/buying-guide.html#capture'],['音楽サイトの制作事例','portfolio/case-studies.html#music']],
   portfolio:[['制作の依頼・相談','https://coconala.com/services/4528114'],['猫じろう調査室の比較ガイド','research/buying-guide.html']],
