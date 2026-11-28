@@ -4,6 +4,7 @@
  if (!source) return;
  const base = new URL('.', source.src);
  const site = source.dataset.site;
+ const analyticsOnly = source.hasAttribute('data-analytics-only');
  const id = 'G-JJ59JV8FLB';
  const fc2 = /\.fc2\.(net|com)$/.test(location.hostname);
  const ref = new URLSearchParams(location.search).get('ref');
@@ -36,10 +37,11 @@
   window.gtag = tag;
   tag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
   tag('js',new Date());
-  tag('config',id,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,
-   ...(social ? {campaign_source:sourceName,campaign_medium:medium,campaign_name:campaign} : {})});
   let pageReferrer = '';
   try { if (document.referrer) pageReferrer = new URL(document.referrer).origin; } catch {}
+  tag('config',id,{send_page_view:analyticsOnly,allow_google_signals:false,allow_ad_personalization_signals:false,
+   ...(analyticsOnly ? {content_group:site,page_location:currentPage.url,page_referrer:pageReferrer} : {}),
+   ...(social ? {campaign_source:sourceName,campaign_medium:medium,campaign_name:campaign} : {})});
   const context = {site_section:site,entry_source:social ? 'x-'+campaign : origin,entry_route:via,page_location:currentPage.url,page_referrer:pageReferrer,
    ...(site === 'board' && currentPage.threadId ? {source_thread_id:currentPage.threadId} : {})};
   const pendingClickKey = 'nekojiro-pending-thread-click';
@@ -50,11 +52,12 @@
     tag('event','thread_link_click',saved.event);
    }
   } catch {}
-  tag('event','page_view',context);
+  if (!analyticsOnly) tag('event','page_view',context);
   const script = document.createElement('script');
   script.async = true;
   script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
   document.head.append(script);
+  if (analyticsOnly) return;
   document.addEventListener('click',event => {
    const a = event.target.closest?.('a[href]');
    if (!a) return;
@@ -91,7 +94,7 @@
    }
   });
  }
- if (source.hasAttribute('data-analytics-only')) return;
+ if (analyticsOnly) return;
  const routes = {
   music:[['配信・録画機材の選び方','research/buying-guide.html#capture'],['音楽サイトの制作事例','portfolio/case-studies.html#music']],
   portfolio:[['制作の依頼・相談','https://coconala.com/services/4528114'],['猫じろう調査室の比較ガイド','research/buying-guide.html']],
