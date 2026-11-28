@@ -909,7 +909,9 @@ body{background:var(--nj-bg)}
 .board-directory .neko-board-folder:nth-child(5) summary::before{content:'▭'}
 .board-directory .neko-board-folder:nth-child(6) summary::before{content:'✦'}
 .board-directory .neko-board-folder[open] summary{background:#e9f0f8;border-bottom:1px solid var(--nj-line)}
-.board-directory .neko-board-folder-body{display:grid;grid-template-columns:1fr;max-height:270px;overflow:auto;background:white}
+.board-directory .neko-board-folder-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));background:white}
+.board-directory .neko-board-folder-body .thread-row>a{min-width:0;white-space:normal;overflow-wrap:anywhere}
+@media(max-width:900px){.board-directory .neko-board-folder-body{grid-template-columns:1fr}}
 .board-directory .neko-board-folder-body .thread-row{min-width:0;padding:6px 8px;border-bottom:1px solid #e3e8ed}
 .neko-home-lower,.neko-home-footgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px;align-items:start}
 .neko-home-recent,.neko-home-more{min-width:0}
