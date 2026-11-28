@@ -15,6 +15,21 @@
  const campaign = parameters.get('utm_campaign');
  const social = medium === 'social' && sourceName === 'x' && ['profile','article','guide'].includes(campaign);
  const via = ['board-home','board-thread','buying-guide'].includes(route) ? route : '';
+ const boardPage = (url) => {
+  const fc2Thread = /\.fc2\.(net|com)$/.test(url.hostname) &&
+    url.pathname.match(/^\/blog-entry-(\d+)\.html$/);
+  const githubBoard = url.origin === base.origin && url.pathname === new URL('board/', base).pathname;
+  const thread = githubBoard ? url.searchParams.get('thread') : '';
+  const board = githubBoard ? url.searchParams.get('board') : '';
+  const suffix = /^\d+$/.test(thread || '') ? '?thread=' + thread :
+    /^\d+$/.test(board || '') ? '?board=' + board :
+    githubBoard && url.searchParams.get('archive') === '1' ? '?archive=1' : '';
+  return {
+   url: url.origin + url.pathname + suffix,
+   threadId: fc2Thread ? fc2Thread[1] : suffix.startsWith('?thread=') ? thread : ''
+  };
+ };
+ const currentPage = boardPage(new URL(location.href));
  if (navigator.globalPrivacyControl !== true && navigator.doNotTrack !== '1') {
   window.dataLayer = window.dataLayer || [];
   const tag = window.gtag || function () { window.dataLayer.push(arguments); };
@@ -25,7 +40,8 @@
    ...(social ? {campaign_source:sourceName,campaign_medium:medium,campaign_name:campaign} : {})});
   let pageReferrer = '';
   try { if (document.referrer) pageReferrer = new URL(document.referrer).origin; } catch {}
-  const context = {site_section:site,entry_source:social ? 'x-'+campaign : origin,entry_route:via,page_location:location.origin+location.pathname,page_referrer:pageReferrer};
+  const context = {site_section:site,entry_source:social ? 'x-'+campaign : origin,entry_route:via,page_location:currentPage.url,page_referrer:pageReferrer,
+   ...(site === 'board' && currentPage.threadId ? {source_thread_id:currentPage.threadId} : {})};
   tag('event','page_view',context);
   const script = document.createElement('script');
   script.async = true;
@@ -34,6 +50,17 @@
   document.addEventListener('click',event => {
    const a = event.target.closest?.('a[href]');
    if (!a) return;
+   const target = new URL(a.href, location.href);
+   if (currentPage.threadId && site === 'board' && /^https?:$/.test(target.protocol)) {
+    const destination = boardPage(target);
+    if (destination.url !== currentPage.url) {
+     tag('event','thread_link_click',{
+      ...context,
+      link_url:destination.url,link_domain:target.hostname,
+      outbound:target.origin !== location.origin
+     });
+    }
+   }
    const host = a.hostname.toLowerCase();
    const partner = /(^|\.)amazon\.co\.jp$|^(?:amzn\.to|link\.amazon)$/.test(host) ? 'amazon'
       : /(^|\.)a8\.net$/.test(host) ? 'a8' : host === 'coconala.com' ? 'coconala' : '';
