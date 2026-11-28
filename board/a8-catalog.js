@@ -31,6 +31,12 @@
     if (exact.some(s => body.includes(s))) return 330;
     return rules.some(([topic, ad]) => topic.test(title) && ad.test(name)) ? 240 : 0;
   }
+  function creativeTemplate(code) {
+    const template = document.createElement('template');
+    template.dataset.a8Code = '';
+    template.innerHTML = code;
+    return template;
+  }
   window.NekoA8Bulk = async function addBanners(root, site, title, body) {
     const rail = root.querySelector('.neko-a8-rail');
     if (!rail || !['fc2', 'github'].includes(site) || !('DecompressionStream' in window)) return;
@@ -46,6 +52,18 @@
         const src = img?.getAttribute('data-a8-src') || img?.getAttribute('src') || '';
         return [slot.dataset.a8Program || src.match(/[?&]mid=(s\d{14})/)?.[1], slot];
       }));
+      if (site === 'github') {
+        const creatives = new Map(catalog.map(([id, , code]) => [id, code]));
+        for (const slot of slots) {
+          const id = slot.dataset.a8Program || slot.innerHTML.match(/mid=(s\d{14})/)?.[1];
+          const code = creatives.get(id);
+          const creative = slot.querySelector('.neko-a8-creative');
+          if (!code || !creative || !/[?&](?:amp;)?wid=008(?:&|["'])/.test(code)) continue;
+          creative.replaceChildren(creativeTemplate(code));
+          slot.dataset.a8Verified = 'github';
+        }
+      }
+      if (!title && !body) return;
       const ranked = catalog.map(([id, name, code]) => ({id, name, code,
         score: relevance(normal(name), normal(title), normal(body).slice(0, 10000))}))
         .filter(entry => entry.score > 0 && entry.id !== 's00000027494001')
@@ -63,10 +81,11 @@
         label.textContent = 'PR・' + name;
         const creative = document.createElement('div');
         creative.className = 'neko-a8-creative';
-        const template = document.createElement('template');
-        template.dataset.a8Code = '';
-        template.innerHTML = code;
-        creative.append(template);
+        if (site === 'github') {
+          if (!/[?&](?:amp;)?wid=008(?:&|["'])/.test(code)) continue;
+          slot.dataset.a8Verified = 'github';
+        }
+        creative.append(creativeTemplate(code));
         slot.append(label, creative);
         existing.get(id)?.remove();
         rail.append(slot);

@@ -22,21 +22,21 @@ if(isThread&&rails[0]){
 </template></div>`;
  rails[0].appendChild(slot);
 }
-if(isThread){
- try {
+try {
   await new Promise(function(resolve,reject){
    var script=document.createElement('script');
-   script.src='a8-catalog.js?v=20261126-a8bulk';
+   script.src='a8-catalog.js?v=20261128-site-id';
    script.onload=resolve;script.onerror=reject;document.head.append(script);
   });
-  await window.NekoA8Bulk(root,'github',document.querySelector('.neko-entry-title')?.textContent,content.textContent);
- } catch (error) { console.warn('A8 catalog unavailable',error); }
-}
+  await window.NekoA8Bulk(root,'github',isThread ? document.querySelector('.neko-entry-title')?.textContent : '',isThread ? content.textContent : '');
+} catch (error) { console.warn('A8 catalog unavailable',error); }
 var all=[].slice.call(root.querySelectorAll('.neko-a8-slot'));
 var top=all.filter(function(x){return !x.hasAttribute('data-thread-only');});
 var extra=all.filter(function(x){return x.hasAttribute('data-thread-only');});
 var timer=0,running=false;
-function available(x){var end=x.getAttribute('data-end');return (!end||!Number.isFinite(Date.parse(end))||Date.now()<=Date.parse(end))&&!!x.querySelector('.neko-a8-banner-link, template[data-a8-code]');}
+function available(x){
+ if ((x.dataset.a8Program || /(?:^|[./])a8\.net(?=[/:])/i.test(x.innerHTML)) && x.dataset.a8Verified !== 'github') return false;
+ var end=x.getAttribute('data-end');return (!end||!Number.isFinite(Date.parse(end))||Date.now()<=Date.parse(end))&&!!x.querySelector('.neko-a8-banner-link, template[data-a8-code]');}
 function loadSelectedAds(x){
  var template=x.querySelector('template[data-a8-code]');
  if(template){
