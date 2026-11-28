@@ -107,8 +107,7 @@
   }
  }
  const routes = {
-  signal:[['ニュース画面の制作事例とご相談','portfolio/case-studies.html#signal']],
-  economy:[['相場画面の制作事例とご相談','portfolio/case-studies.html#economy']],
+  article:[['買う前の比較ガイド','research/buying-guide.html'],['調査記事の制作相談','portfolio/#writing']],
   rekishiita:[['定期預金6.08％の背景を調査室で読む','research/archives/14981596.html'],['調査記事・記事制作のご相談','portfolio/#writing']],
   music:[['配信・録画機材の選び方','research/buying-guide.html#capture'],['音楽サイトの制作事例','portfolio/case-studies.html#music']],
   portfolio:[['制作の依頼・相談','https://coconala.com/services/4528114'],['猫じろう調査室の比較ガイド','research/buying-guide.html']],
@@ -133,6 +132,10 @@
  const list = document.createElement('ul');
  for (const [label,path] of routes[site]) {
   const url = new URL(path,base);
+  if (boardSource && path === 'research/buying-guide.html') {
+   url.searchParams.set('ref',boardSource);
+   if (via) url.searchParams.set('via',via);
+  }
   const a = document.createElement('a');
   const item = document.createElement('li');
   a.href = url.href;
