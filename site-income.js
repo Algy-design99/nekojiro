@@ -42,6 +42,14 @@
   try { if (document.referrer) pageReferrer = new URL(document.referrer).origin; } catch {}
   const context = {site_section:site,entry_source:social ? 'x-'+campaign : origin,entry_route:via,page_location:currentPage.url,page_referrer:pageReferrer,
    ...(site === 'board' && currentPage.threadId ? {source_thread_id:currentPage.threadId} : {})};
+  const pendingClickKey = 'nekojiro-pending-thread-click';
+  try {
+   const saved = JSON.parse(sessionStorage.getItem(pendingClickKey));
+   sessionStorage.removeItem(pendingClickKey);
+   if (saved?.event?.link_url === currentPage.url && Date.now() - saved.at < 30000) {
+    tag('event','thread_link_click',saved.event);
+   }
+  } catch {}
   tag('event','page_view',context);
   const script = document.createElement('script');
   script.async = true;
@@ -54,27 +62,24 @@
    if (currentPage.threadId && site === 'board' && /^https?:$/.test(target.protocol)) {
     const destination = boardPage(target);
     if (destination.url !== currentPage.url) {
-     const normalNavigation = !event.defaultPrevented && event.cancelable &&
-       event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey &&
-       target.origin === location.origin && (!a.target || a.target === '_self') &&
-       !a.hasAttribute('download');
-     let onSent;
-     if (normalNavigation) {
-      event.preventDefault();
-      let navigated = false;
-      onSent = () => {
-       if (navigated) return;
-       navigated = true;
-       location.assign(target.href);
-      };
-      window.setTimeout(onSent, 250);
-     }
-     tag('event','thread_link_click',{
+     const clickData = {
       ...context,
       link_url:destination.url,link_domain:target.hostname,
-      outbound:target.origin !== location.origin,
-      ...(onSent ? {event_callback:onSent,event_timeout:200} : {})
-     });
+      outbound:target.origin !== location.origin
+     };
+     const nextPageUsesTag = target.origin === location.origin &&
+       (fc2 || target.pathname === new URL('board/', base).pathname);
+     const ordinaryClick = !event.defaultPrevented && event.button === 0 &&
+       !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey &&
+       (!a.target || a.target === '_self') && !a.hasAttribute('download');
+     let sendFromNextPage = false;
+     if (nextPageUsesTag && ordinaryClick) {
+      try {
+       sessionStorage.setItem(pendingClickKey,JSON.stringify({at:Date.now(),event:clickData}));
+       sendFromNextPage = true;
+      } catch {}
+     }
+     if (!sendFromNextPage) tag('event','thread_link_click',clickData);
     }
    }
    const host = a.hostname.toLowerCase();
