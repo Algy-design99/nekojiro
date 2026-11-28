@@ -18,7 +18,7 @@
     {
       "id": 4,
       "name": "スポーツ",
-      "count": 8
+      "count": 6
     },
     {
       "id": 5,
@@ -1093,7 +1093,7 @@
     {
       "id": 221,
       "name": "野球総合板",
-      "count": 0
+      "count": 2
     },
     {
       "id": 222,
@@ -2530,8 +2530,8 @@
     {
       "id": 103,
       "title": "【珍事】草野球のベンチに毎週「盗塁禁止」って書かれるんだが",
-      "category": 4,
-      "category_name": "スポーツ",
+      "category": 221,
+      "category_name": "野球総合板",
       "date": "10/22",
       "contentPath": "content/board/103.json",
       "responses": 81
@@ -2566,8 +2566,8 @@
     {
       "id": 99,
       "title": "【珍事】草野球のスコア係が俺の凡退だけ妙に丁寧に記録してる",
-      "category": 4,
-      "category_name": "スポーツ",
+      "category": 221,
+      "category_name": "野球総合板",
       "date": "10/21",
       "contentPath": "content/board/99.json",
       "responses": 78
