@@ -79,7 +79,7 @@
    });
    const observeLastReply = () => {
     if (!body || seen.has('thread_last_reply_reached')) return;
-    const replies = body.querySelectorAll('.res,[id^="res"]');
+    const replies = body.querySelectorAll('.res,[id^="res"],[id^="neko-res-"]');
     const next = replies[replies.length - 1];
     if (!next || next === lastReply) return;
     if (lastReply) observer.unobserve(lastReply);
