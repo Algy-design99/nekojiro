@@ -59,6 +59,50 @@
   script.async = true;
   script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
   document.head.append(script);
+  if (site === 'board' && currentPage.threadId && 'IntersectionObserver' in window) {
+   const body = document.getElementById('neko-original-posts');
+   const comments = document.getElementById('neko-comments');
+   const seen = new Set();
+   let lastReply;
+   const record = (event) => {
+    if (seen.has(event)) return;
+    seen.add(event);
+    tag('event',event,context);
+   };
+   const observer = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+     if (!entry.isIntersecting) continue;
+     if (entry.target === lastReply) record('thread_last_reply_reached');
+     if (entry.target === comments) record('thread_comments_reached');
+     observer.unobserve(entry.target);
+    }
+   });
+   const observeLastReply = () => {
+    if (!body || seen.has('thread_last_reply_reached')) return;
+    const replies = body.querySelectorAll('.res,[id^="res"]');
+    const next = replies[replies.length - 1];
+    if (!next || next === lastReply) return;
+    if (lastReply) observer.unobserve(lastReply);
+    lastReply = next;
+    observer.observe(lastReply);
+   };
+   if (body) {
+    observeLastReply();
+    if (!lastReply) {
+     const updates = new MutationObserver(() => {
+      observeLastReply();
+      if (lastReply) updates.disconnect();
+     });
+     updates.observe(body,{childList:true,subtree:true});
+    }
+   }
+   if (comments) {
+    observer.observe(comments);
+    comments.addEventListener('focusin',event => {
+     if (event.target.matches('textarea')) record('thread_comment_input_start');
+    });
+   }
+  }
   if (!hasSiteLinks) return;
   document.addEventListener('click',event => {
    const a = event.target.closest?.('a[href]');
