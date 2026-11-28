@@ -54,10 +54,26 @@
    if (currentPage.threadId && site === 'board' && /^https?:$/.test(target.protocol)) {
     const destination = boardPage(target);
     if (destination.url !== currentPage.url) {
+     const normalNavigation = !event.defaultPrevented && event.cancelable &&
+       event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey &&
+       target.origin === location.origin && (!a.target || a.target === '_self') &&
+       !a.hasAttribute('download');
+     let onSent;
+     if (normalNavigation) {
+      event.preventDefault();
+      let navigated = false;
+      onSent = () => {
+       if (navigated) return;
+       navigated = true;
+       location.assign(target.href);
+      };
+      window.setTimeout(onSent, 250);
+     }
      tag('event','thread_link_click',{
       ...context,
       link_url:destination.url,link_domain:target.hostname,
-      outbound:target.origin !== location.origin
+      outbound:target.origin !== location.origin,
+      ...(onSent ? {event_callback:onSent,event_timeout:200} : {})
      });
     }
    }
@@ -68,7 +84,7 @@
    else if (a.closest('[data-neko-route],.board-guides') || a.classList.contains('cta') && site==='buying-guide') {
     tag('event','guide_click',{...context,destination:a.pathname});
    }
-  }, true);
+  });
  }
  const routes = {
   music:[['配信・録画機材の選び方','research/buying-guide.html#capture'],['音楽サイトの制作事例','portfolio/case-studies.html#music']],
