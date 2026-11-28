@@ -14,7 +14,16 @@ async function bodies(){
 }
 async function loadOriginalRails(){try{const response=await fetch('ads.html');if(!response.ok)return;const wrapper=document.createElement('div');wrapper.innerHTML=await response.text();const rails=wrapper.firstElementChild;if(!rails)return;const black=rails.querySelector('[href="#black-site-unavailable"]');if(black){black.href='../kuronuma/';black.removeAttribute('aria-disabled');black.removeAttribute('tabindex');black.setAttribute('aria-label','黒沼幻司公式記録室を開く');const label=black.closest('.neko-a8-slot')?.querySelector('.neko-a8-label');if(label)label.textContent='黒沼幻司 公式サイト';}rails.hidden=true;rails.style.setProperty('display','none','important');document.getElementById('bbs').append(rails);const script=document.createElement('script');script.src='ads.js?v=20261128-site-id';document.body.append(script);}catch{}}
 function link(text,url){const a=document.createElement('a');a.textContent=text;a.href=url;return a;}
+function setCanonical(id){
+ const url=new URL('./',location.href);
+ if(id)url.searchParams.set('thread',String(id));
+ const canonical=document.createElement('link');
+ canonical.rel='canonical';
+ canonical.href=url.href;
+ document.head.append(canonical);
+}
 function renderHome(){
+setCanonical();
 function fill(id,threads){const box=$(id);box.replaceChildren();for(const t of threads){const row=document.createElement('div');row.className='thread-row';const mark=document.createElement('span');mark.className='thread-mark';mark.textContent='■';const a=link(t.title,'./?thread='+t.id);const meta=document.createElement('span');meta.className='thread-date';meta.append(link('['+t.category_name+']','./?board='+t.category),' '+(t.date||''));row.append(mark,a,meta);box.append(row);}}
 fill('home-recent-rows',catalog.threads.slice(0,5));fill('home-more-rows',catalog.threads.slice(5,10));
 }
@@ -136,6 +145,7 @@ function formatThread(root, post) {
 async function renderThread(){
  $('board-index').hidden=true;$('board-reading').hidden=false;$('board-title').textContent='読み込み中…';
  const entry=catalog.threads.find(p=>p.id===threadId);const post=await publicArticle(entry);if(!post)throw Error('このスレッドは見つかりませんでした。');
+ setCanonical(threadId);
  document.title=post.title+' - 猫じろう掲示板';$('board-title').textContent=post.title;$('neko-original-posts').innerHTML=post.body;$('neko-comment-list').innerHTML=post.comments||'';
  formatThread($('neko-original-posts'),post);
  const threadCategory = entry ? {id:entry.category,name:entry.category_name} : {id:post.category,name:post.category_name};
