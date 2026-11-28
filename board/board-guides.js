@@ -34,11 +34,15 @@
     mount.replaceChildren(title, disclosure, links);
     mount.hidden = false;
   }
+  function comparisonLink(via) {
+    const compare = document.createElement('a');
+    compare.href = base + 'buying-guide.html?ref=' + medium + '&via=' + via;
+    compare.textContent = '猫じろう調査室の比較ガイドを見る →';
+    return compare;
+  }
   const home = document.getElementById('board-guides-home');
   if (home && !['thread','board','q','archive'].some(key => new URLSearchParams(location.search).has(key))) {
-    const compare = document.createElement('a');
-    compare.href = base + 'buying-guide.html?ref=' + medium;
-    compare.textContent = '用途から探す・買う前の比較ガイド →';
+    const compare = comparisonLink('board-home');
     render(home, guides.filter(guide => ['15928596','15896435','15879585'].includes(guide.id)), '猫じろう調査室のおすすめ記事');
     compare.style.marginTop = '8px';
     home.append(compare);
@@ -53,6 +57,13 @@
     const entries = guides.map(guide => ({guide, score:guide.match.test(title) ? 2 : guide.match.test(text) ? 1 : 0}))
       .filter(entry => entry.score).sort((a,b) => b.score-a.score).slice(0,2).map(entry => entry.guide);
     render(thread, entries, 'この話題の関連記事');
+    if (!entries.length) {
+      const note = document.createElement('p');
+      note.textContent = '比較ガイドのリンク先には広告・アフィリエイトリンクが含まれる場合があります。';
+      thread.replaceChildren(comparisonLink('board-thread'), note);
+      thread.setAttribute('aria-label', '猫じろう調査室の比較ガイド');
+      thread.hidden = false;
+    }
     return true;
   }
   if (!renderRelated()) {
