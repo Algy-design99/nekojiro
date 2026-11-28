@@ -138,7 +138,8 @@ async function renderThread(){
  const entry=catalog.threads.find(p=>p.id===threadId);const post=await publicArticle(entry);if(!post)throw Error('このスレッドは見つかりませんでした。');
  document.title=post.title+' - 猫じろう掲示板';$('board-title').textContent=post.title;$('neko-original-posts').innerHTML=post.body;$('neko-comment-list').innerHTML=post.comments||'';
  formatThread($('neko-original-posts'),post);
- $('board-back').href='./?board='+post.category;$('board-back').textContent='← '+post.category_name+'に戻る';
+ const threadCategory = entry ? {id:entry.category,name:entry.category_name} : {id:post.category,name:post.category_name};
+ $('board-back').href='./?board='+threadCategory.id;$('board-back').textContent='← '+threadCategory.name+'に戻る';
  const at=catalog.threads.findIndex(p=>p.id===threadId),nav=$('board-neighbors');for(const [index,label]of[[at-1,'← 前のスレッド'],[at+1,'次のスレッド →']])if(catalog.threads[index])nav.append(link(label,'./?thread='+catalog.threads[index].id));
  const edit=link('この記事を編集','../admin/?site=board&id='+encodeURIComponent(post.id));edit.target='_blank';edit.rel='noopener';edit.className='board-edit-link';const toolbar=$('board-back').parentElement;if(!toolbar.querySelector('.board-edit-link'))toolbar.append(edit);
  await enablePosting(post);
