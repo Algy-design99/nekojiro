@@ -111,6 +111,33 @@ def render_research():
  entries=''.join('  <url><loc>'+html.escape(url)+'</loc></url>\n' for url in urls)
  (research/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+entries+'</urlset>\n',encoding='utf-8')
 
+def fill_board_home(source, rows):
+ for section, items in [('home-recent-rows', rows[:5]), ('home-more-rows', rows[5:10])]:
+  links = []
+  for item in items:
+   title = html.escape(item['title'])
+   category = html.escape(item['category_name'])
+   date = html.escape(item.get('date') or '')
+   links.append(
+    f'<div class="thread-row"><span class="thread-mark">■</span>'
+    f'<a href="./?thread={item["id"]}">{title}</a>'
+    f'<span class="thread-date"><a href="./?board={item["category"]}">[{category}]</a> {date}</span></div>'
+   )
+  start = f'<div class="thread-list" id="{section}">'
+  pattern = '(' + re.escape(start) + r')[\s\S]*?(</div></section>)'
+  source, found = re.subn(pattern, lambda m: m[1] + ''.join(links) + m[2], source, count=1)
+  if found != 1:
+   raise ValueError(f'Board homepage list not found: {section}')
+ return source
+
+
+def write_board_sitemap(base, rows):
+ entries = ''.join(f'  <url><loc>{base}?thread={item["id"]}</loc></url>\n' for item in rows)
+ sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
+ sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + entries + '</urlset>\n'
+ (ROOT/'board/sitemap.xml').write_text(sitemap, encoding='utf-8')
+
+
 def render():
  board=docs('board');categories=json.loads((ROOT/'content/board-categories.json').read_text(encoding='utf-8'));counts={}
  for d in board:counts[d['category']]=counts.get(d['category'],0)+1
@@ -123,10 +150,11 @@ def render():
  if menu.exists():
   source=menu.read_text(encoding='utf-8')
   source=re.sub(r'(data-category-no="(\d+)"[^>]*>[\s\S]*?<span class="thread-date">)\(\d+\)',lambda m:m[1]+'('+str(counts.get(int(m[2]),0))+')',source)
-  menu.write_text(source,encoding='utf-8')
+  menu.write_text(fill_board_home(source, rows),encoding='utf-8')
 
  save(ROOT/'content/board/index.json',[summary(d)for d in board])
  base='https://algy-design99.github.io/nekojiro/board/'
+ write_board_sitemap(base, rows)
  items=''.join('<item><title>'+html.escape(d['title'])+'</title><link>'+base+'?thread='+d['id']+'</link><guid>'+base+'?thread='+d['id']+'</guid></item>'for d in board[:50])
  (ROOT/'board/feed.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>猫じろう掲示板</title><link>'+base+'</link><description>新着スレッド</description>'+items+'</channel></rss>',encoding='utf-8')
 

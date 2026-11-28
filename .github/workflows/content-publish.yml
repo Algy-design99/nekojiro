@@ -32,7 +32,7 @@ jobs:
             git fetch origin main
             git switch --force-create main FETCH_HEAD
             python scripts/content-build.py
-            git add content board/catalog.json board/feed.xml board/index.html work living food travel craft research
+            git add content board/catalog.json board/feed.xml board/sitemap.xml board/index.html work living food travel craft research
             if git diff --cached --quiet; then exit 0; fi
             git commit -m 'Build managed article pages and indexes'
             if git push origin HEAD:main; then exit 0; fi
